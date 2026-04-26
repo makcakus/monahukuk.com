@@ -1,0 +1,90 @@
+{
+  "site": {
+    "name": "Mona Hukuk",
+    "tagline": "Legal counsel for international clients in Turkey",
+    "description": "Antalya-based law firm representing foreign individuals and companies in immigration, real estate, family, criminal, labor, commercial and IT/AI law matters."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "practiceAreas": "Practice Areas",
+    "team": "Our Team",
+    "articles": "Legal Articles",
+    "contact": "Contact"
+  },
+  "cta": {
+    "consult": "Request a consultation",
+    "callUs": "Call us",
+    "email": "Email"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Antalya · Turkey",
+      "title": "Trusted legal counsel for foreign nationals and international business in Turkey.",
+      "lead": "Mona Hukuk represents expats, investors, and global companies before Turkish courts and authorities — with discretion, fluency in English, and decades of combined experience."
+    },
+    "valuePropsTitle": "Why clients choose Mona Hukuk",
+    "valueProps": {
+      "international": {
+        "title": "Built for international clients",
+        "body": "We work in English and understand the procedural reality foreign clients face in Turkey — from the first consultation through enforcement."
+      },
+      "fullService": {
+        "title": "Full-service practice",
+        "body": "From a residence permit appeal to a commercial dispute, our practice areas cover the everyday and complex needs of foreign clients."
+      },
+      "discretion": {
+        "title": "Confidentiality first",
+        "body": "Every engagement is handled with the level of discretion expected by private clients, executives, and investors."
+      }
+    },
+    "ctaBanner": {
+      "title": "Need legal advice in Turkey?",
+      "body": "Tell us briefly what you are dealing with and we will respond — usually within one business day.",
+      "button": "Contact us"
+    }
+  },
+  "about": {
+    "title": "About Mona Hukuk",
+    "lead": "An independent Antalya-based law firm focused on the legal needs of foreign individuals and international businesses operating in Turkey.",
+    "body": "Mona Hukuk advises expats, foreign investors, and cross-border companies on the full spectrum of Turkish law that affects their lives and operations in Turkey. Our practice combines local procedural expertise with international working culture: clear English communication, transparent fee structures, and case management that respects clients' time zones."
+  },
+  "practiceAreas": {
+    "title": "Practice Areas",
+    "lead": "We focus on the matters that most often bring foreign individuals and businesses into contact with the Turkish legal system.",
+    "comingSoon": "Detailed practice area pages will be published soon."
+  },
+  "team": {
+    "title": "Our Team",
+    "lead": "A small, senior team of attorneys committed to international clients."
+  },
+  "articles": {
+    "title": "Legal Articles",
+    "lead": "Practical guides and analyses on Turkish law, written for non-lawyers — with a particular focus on issues that affect foreign nationals and international businesses.",
+    "empty": "No articles yet. Check back soon.",
+    "readMore": "Read article",
+    "minRead": "min read",
+    "publishedOn": "Published"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "lead": "We respond to most inquiries within one business day.",
+    "office": "Office",
+    "officeAddress": "Antalya, Türkiye",
+    "phone": "Phone",
+    "phoneNumber": "+90 (532) 390 05 10",
+    "emailLabel": "Email",
+    "emailAddress": "info@monahukuk.com",
+    "hours": "Working hours",
+    "hoursValue": "Monday – Friday, 09:00 – 18:00 (TRT)"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lead": "How we collect, use, and protect personal data.",
+    "body": "This page will detail our compliance with Turkish KVKK (Personal Data Protection Law No. 6698) and, where applicable, the EU GDPR. The full policy will be published before the website goes into general use."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "disclaimer": "This website is for general information only and does not constitute legal advice."
+  }
+}

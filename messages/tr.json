@@ -1,0 +1,90 @@
+{
+  "site": {
+    "name": "Mona Hukuk",
+    "tagline": "Türkiye'de yabancılara yönelik hukuki danışmanlık",
+    "description": "Antalya merkezli hukuk büromuz; yabancı uyruklu kişi ve uluslararası şirketleri Türkiye'de göç, gayrimenkul, aile, ceza, iş, ticaret ve bilişim/yapay zekâ hukuku alanlarında temsil eder."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "practiceAreas": "Uygulama Alanları",
+    "team": "Ekibimiz",
+    "articles": "Hukuki Makaleler",
+    "contact": "İletişim"
+  },
+  "cta": {
+    "consult": "Danışmanlık talep edin",
+    "callUs": "Bizi arayın",
+    "email": "E-posta"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Antalya · Türkiye",
+      "title": "Türkiye'de yabancı uyruklu kişiler ve uluslararası şirketler için güvenilir hukuk danışmanlığı.",
+      "lead": "Mona Hukuk; yabancıları, yatırımcıları ve uluslararası şirketleri Türk mahkemeleri ve idari mercileri önünde temsil eder. Gizlilik, akıcı İngilizce iletişim ve uzun yıllara dayanan deneyim ile."
+    },
+    "valuePropsTitle": "Neden Mona Hukuk?",
+    "valueProps": {
+      "international": {
+        "title": "Uluslararası müvekkil odaklı",
+        "body": "İngilizce çalışıyor ve yabancı müvekkilin Türkiye'de karşılaştığı usul gerçekliğini anlıyoruz — ilk görüşmeden icraya kadar."
+      },
+      "fullService": {
+        "title": "Tam kapsamlı hukuk hizmeti",
+        "body": "Oturma izni itirazından ticari uyuşmazlığa kadar uygulama alanlarımız yabancı müvekkilin günlük ve karmaşık ihtiyaçlarını karşılar."
+      },
+      "discretion": {
+        "title": "Gizlilik esastır",
+        "body": "Her dosya; özel müvekkillerin, yöneticilerin ve yatırımcıların beklediği düzeyde mahremiyetle yürütülür."
+      }
+    },
+    "ctaBanner": {
+      "title": "Türkiye'de hukuki danışmanlığa mı ihtiyacınız var?",
+      "body": "Durumunuzu kısaca yazın; genellikle bir iş günü içinde dönüş sağlıyoruz.",
+      "button": "İletişime geçin"
+    }
+  },
+  "about": {
+    "title": "Mona Hukuk Hakkında",
+    "lead": "Türkiye'de yaşayan ve faaliyet gösteren yabancı kişi ve uluslararası şirketlerin hukuki ihtiyaçlarına odaklanan, Antalya merkezli bağımsız bir hukuk bürosu.",
+    "body": "Mona Hukuk; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi."
+  },
+  "practiceAreas": {
+    "title": "Uygulama Alanları",
+    "lead": "Yabancı kişi ve şirketlerin Türk hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz.",
+    "comingSoon": "Uygulama alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır."
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi."
+  },
+  "articles": {
+    "title": "Hukuki Makaleler",
+    "lead": "Türk hukukuna dair pratik rehberler ve analizler — özellikle yabancı uyruklular ve uluslararası şirketleri ilgilendiren konularda, hukukçu olmayanlar için yazılmıştır.",
+    "empty": "Henüz makale yok. Yakında.",
+    "readMore": "Makaleyi oku",
+    "minRead": "dk okuma",
+    "publishedOn": "Yayın tarihi"
+  },
+  "contact": {
+    "title": "İletişim",
+    "lead": "Çoğu başvuruya bir iş günü içinde dönüş sağlıyoruz.",
+    "office": "Ofis",
+    "officeAddress": "Antalya, Türkiye",
+    "phone": "Telefon",
+    "phoneNumber": "+90 (532) 390 05 10",
+    "emailLabel": "E-posta",
+    "emailAddress": "info@monahukuk.com",
+    "hours": "Çalışma saatleri",
+    "hoursValue": "Pazartesi – Cuma, 09:00 – 18:00 (TRT)"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "lead": "Kişisel verileri nasıl topladığımız, kullandığımız ve koruduğumuz.",
+    "body": "Bu sayfa; KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) ve uygulanabildiği ölçüde AB GDPR uyumumuzu ayrıntılı olarak açıklayacaktır. Sitenin genel kullanıma açılmasından önce tam metin yayınlanacaktır."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "disclaimer": "Bu site yalnızca genel bilgi amaçlıdır ve hukuki tavsiye niteliği taşımaz."
+  }
+}

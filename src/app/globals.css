@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-50: #f1f4fa;
+  --color-navy-100: #dde4f1;
+  --color-navy-200: #b8c6e0;
+  --color-navy-300: #8fa4cc;
+  --color-navy-400: #6781b6;
+  --color-navy-500: #45619c;
+  --color-navy-600: #2f4982;
+  --color-navy-700: #1f3568;
+  --color-navy-800: #142450;
+  --color-navy-900: #0a1838;
+  --color-navy-950: #050d24;
+
+  --color-gold-50: #fbf7ec;
+  --color-gold-100: #f4ead0;
+  --color-gold-200: #ead29a;
+  --color-gold-300: #dfb86a;
+  --color-gold-400: #d3a14a;
+  --color-gold-500: #c08a36;
+  --color-gold-600: #9c6c2a;
+  --color-gold-700: #785022;
+  --color-gold-800: #543819;
+  --color-gold-900: #322110;
+
+  --color-cream-50: #fbf9f4;
+  --color-cream-100: #f5f1e6;
+  --color-cream-200: #ece5d0;
+
+  --color-ink: #0f172a;
+  --color-ink-soft: #334155;
+  --color-ink-mute: #64748b;
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+}
+
+:root {
+  --background: #fbf9f4;
+  --foreground: #0f172a;
+}
+
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+.prose-legal {
+  max-width: 72ch;
+  line-height: 1.75;
+}
+.prose-legal h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-navy-900);
+}
+.prose-legal h3 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-navy-800);
+}
+.prose-legal p {
+  margin-bottom: 1.1rem;
+  color: var(--color-ink-soft);
+}
+.prose-legal a {
+  color: var(--color-navy-700);
+  text-decoration: underline;
+  text-decoration-color: var(--color-gold-400);
+  text-underline-offset: 3px;
+}
+.prose-legal ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin-bottom: 1.1rem;
+  color: var(--color-ink-soft);
+}
+.prose-legal li {
+  margin-bottom: 0.4rem;
+}
+.prose-legal strong {
+  color: var(--color-navy-900);
+  font-weight: 600;
+}
+.prose-legal blockquote {
+  border-left: 3px solid var(--color-gold-400);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--color-ink-soft);
+  margin: 1.5rem 0;
+}
+
+.gold-divider {
+  width: 48px;
+  height: 2px;
+  background: var(--color-gold-500);
+  display: block;
+}
