@@ -1,0 +1,92 @@
+{
+  "site": {
+    "name": "Mona Hukuk",
+    "tagline": "Rechtsberatung für internationale Mandanten in der Türkei",
+    "description": "Anwaltskanzlei in Antalya – wir vertreten ausländische Privatpersonen und Unternehmen in den Bereichen Einwanderung, Immobilien, Familienrecht, Strafrecht, Arbeitsrecht, Handelsrecht sowie IT- und KI-Recht."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "team": "Unser Team",
+    "practiceAreas": "Rechtsgebiete",
+    "articles": "Rechtliche Artikel",
+    "contact": "Kontakt"
+  },
+  "cta": {
+    "consult": "Beratung anfragen",
+    "callUs": "Anrufen",
+    "email": "E-Mail"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Antalya · Türkei",
+      "title": "Mona Hukuk Bürosu",
+      "lead": "Mit Sitz in Antalya bietet unsere Kanzlei ihren Mandanten umfassende Rechtsberatung und Prozessvertretung – gestützt auf über ein Jahrzehnt Berufserfahrung und ein spezialisiertes Team."
+    },
+    "practiceIntro": "Wir sind in allen Bereichen des türkischen Rechts tätig und beraten unsere Mandanten in einem breiten Spektrum, insbesondere im Handels-, Familien-, Arbeits-, Straf-, Immobilien- und Verwaltungsrecht. Jeden Fall bewerten wir in seinem individuellen Kontext und verfolgen einen lösungsorientierten und transparenten Ansatz.",
+    "foreignClients": {
+      "title": "Leistungen für ausländische Mandanten",
+      "lead": "Alle Mitglieder unseres Teams sind der englischen Sprache mächtig und können unseren ausländischen Mandanten hochwertige Rechtsberatung in ihrer eigenen Sprache bieten. In diesem Rahmen bieten wir umfassende Dienstleistungen in folgenden Bereichen:",
+      "item1": "Durchführung von Verfahren zur türkischen Staatsbürgerschaft",
+      "item2": "Kurz- und langfristige Aufenthaltserlaubnisverfahren",
+      "item3": "Rechtsberatung und Vermittlung in bürokratischen Verfahren beim Erwerb von beweglichem und unbeweglichem Vermögen in der Türkei",
+      "item4": "Vertretung vor dem Grundbuchamt, Notaren und zuständigen Behörden"
+    },
+    "approach": {
+      "title": "Unsere Arbeitsweise",
+      "body": "Als Mona Hukuk Bürosu sind wir überzeugt, dass Vertrauen, Vertraulichkeit und professionelle Sorgfalt das Fundament jeder Rechtsdienstleistung bilden. Wir betrachten unsere Beziehung zu unseren Mandanten als langfristige Zusammenarbeit und handeln in jeder Phase nach den Grundsätzen der offenen Kommunikation und Rechenschaftspflicht.",
+      "closing": "Wenn Sie verlässliche Unterstützung in Ihren rechtlichen Angelegenheiten suchen, freut sich unsere Kanzlei darauf, Sie kennenzulernen."
+    },
+    "ctaBanner": {
+      "title": "Benötigen Sie rechtliche Beratung in der Türkei?",
+      "body": "Schildern Sie uns kurz Ihr Anliegen – wir melden uns in der Regel innerhalb eines Werktages.",
+      "button": "Kontakt aufnehmen"
+    }
+  },
+  "about": {
+    "title": "Über Mona Hukuk",
+    "lead": "Eine unabhängige Anwaltskanzlei mit Sitz in Antalya, die sich auf die rechtlichen Bedürfnisse ausländischer Privatpersonen und internationaler Unternehmen in der Türkei spezialisiert hat.",
+    "body": "Mona Hukuk berät Expats, ausländische Investoren und grenzüberschreitend tätige Unternehmen in allen Bereichen des türkischen Rechts, die ihr Leben und ihre Geschäftstätigkeit in der Türkei berühren. Unsere Kanzlei verbindet lokale verfahrensrechtliche Expertise mit internationaler Arbeitskultur: klare englischsprachige Kommunikation, transparente Honorarstrukturen und ein Fallmanagement, das die Zeitzonen unserer Mandanten respektiert."
+  },
+  "practiceAreas": {
+    "title": "Rechtsgebiete",
+    "lead": "Wir konzentrieren uns auf die Rechtsbereiche, in denen ausländische Privatpersonen und Unternehmen am häufigsten mit dem türkischen Rechtssystem in Berührung kommen.",
+    "comingSoon": "Detaillierte Seiten zu den einzelnen Rechtsgebieten werden in Kürze veröffentlicht."
+  },
+  "team": {
+    "title": "Unser Team",
+    "lead": "Ein kleines, erfahrenes Team von Rechtsanwälten, das sich internationalen Mandanten verpflichtet fühlt.",
+    "labelEducation": "Ausbildung",
+    "labelBar": "Rechtsanwaltskammer",
+    "labelAreas": "Rechtsgebiete"
+  },
+  "articles": {
+    "title": "Rechtliche Artikel",
+    "lead": "Praktische Leitfäden und Analysen zum türkischen Recht, verfasst für Nicht-Juristen – mit besonderem Fokus auf Themen, die ausländische Staatsangehörige und internationale Unternehmen betreffen.",
+    "empty": "Noch keine Artikel vorhanden. Bitte schauen Sie bald wieder vorbei.",
+    "readMore": "Artikel lesen",
+    "minRead": "Min. Lesezeit",
+    "publishedOn": "Veröffentlicht"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Wir antworten auf die meisten Anfragen innerhalb eines Werktages.",
+    "office": "Büro",
+    "officeAddress": "Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei",
+    "phone": "Telefon",
+    "phoneNumber": "+90 (242) 606 14 32",
+    "emailLabel": "E-Mail",
+    "emailAddress": "info@monahukuk.com",
+    "hours": "Öffnungszeiten",
+    "hoursValue": "Montag – Freitag, 09:00 – 18:00 (TRT)"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lead": "Wie wir personenbezogene Daten erheben, verwenden und schützen.",
+    "body": "Diese Seite wird unsere Compliance mit dem türkischen KVKK (Gesetz Nr. 6698 zum Schutz personenbezogener Daten) und, soweit anwendbar, der EU-DSGVO detailliert darlegen. Die vollständige Richtlinie wird vor der allgemeinen Nutzung der Website veröffentlicht."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "disclaimer": "Diese Website dient nur zur allgemeinen Information und stellt keine Rechtsberatung dar."
+  }
+}

@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 import { SITE, KEYWORDS } from "@/lib/site";
 
 const sans = Inter({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-sans",
   display: "swap",
 });
@@ -42,7 +42,7 @@ export async function generateMetadata({
       template: `%s · ${t("name")}`,
     },
     description: t("description"),
-    keywords: [...KEYWORDS[locale === "tr" ? "tr" : "en"]],
+    keywords: [...(KEYWORDS[locale] ?? KEYWORDS["tr"])],
     applicationName: t("name"),
     authors: [{ name: t("name"), url: SITE.url }],
     creator: t("name"),
@@ -50,14 +50,14 @@ export async function generateMetadata({
     category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: { en: "/en", tr: "/tr", "x-default": "/en" },
+      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", "x-default": "/tr" },
     },
     openGraph: {
       type: "website",
       siteName: t("name"),
       title: `${t("name")} — ${t("tagline")}`,
       description: t("description"),
-      locale: locale === "tr" ? "tr_TR" : "en_US",
+      locale: { tr: "tr_TR", de: "de_DE", ru: "ru_RU", ar: "ar_SA" }[locale] ?? "en_US",
       url: `${SITE.url}/${locale}`,
       images: [{ url: SITE.ogImage, width: 1200, height: 630, alt: t("name") }],
     },
@@ -91,6 +91,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
+      dir={locale === "ar" ? "rtl" : "ltr"}
       className={`${sans.variable} ${display.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream-50 text-ink">

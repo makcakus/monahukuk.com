@@ -2,40 +2,77 @@
 
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
-import { useTransition } from "react";
+import { useEffect, useRef, useState, useTransition } from "react";
+import { ChevronDown } from "lucide-react";
 import clsx from "clsx";
+
+const LANG_LABELS: Record<string, string> = {
+  tr: "Türkçe",
+  en: "English",
+  de: "Deutsch",
+  ru: "Русский",
+  ar: "العربية",
+};
+
+const LOCALES = ["tr", "en", "de", "ru", "ar"] as const;
 
 export function LangSwitcher() {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
   const [pending, startTransition] = useTransition();
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) {
+        setOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", onClickOutside);
+    return () => document.removeEventListener("mousedown", onClickOutside);
+  }, []);
+
+  function switchTo(l: string) {
+    setOpen(false);
+    startTransition(() => {
+      router.replace(pathname, { locale: l });
+    });
+  }
 
   return (
-    <div className="inline-flex items-center text-xs font-medium uppercase tracking-wider gap-1">
-      {routing.locales.map((l, idx) => (
-        <span key={l} className="flex items-center gap-1">
-          {idx > 0 && <span className="text-cream-200">·</span>}
-          <button
-            type="button"
-            disabled={pending || l === locale}
-            onClick={() => {
-              startTransition(() => {
-                router.replace(pathname, { locale: l });
-              });
-            }}
-            className={clsx(
-              "transition-colors",
-              l === locale
-                ? "text-navy-900"
-                : "text-ink-mute hover:text-navy-700"
-            )}
-          >
-            {l}
-          </button>
-        </span>
-      ))}
+    <div ref={ref} className="relative">
+      <button
+        type="button"
+        disabled={pending}
+        onClick={() => setOpen((v) => !v)}
+        className="inline-flex items-center gap-1 text-xs font-medium uppercase tracking-wider text-ink-soft hover:text-navy-900 transition-colors"
+      >
+        {locale}
+        <ChevronDown size={12} className={clsx("transition-transform", open && "rotate-180")} />
+      </button>
+
+      {open && (
+        <div className="absolute right-0 top-full mt-2 min-w-[130px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50">
+          {LOCALES.map((l) => (
+            <button
+              key={l}
+              type="button"
+              disabled={pending || l === locale}
+              onClick={() => switchTo(l)}
+              className={clsx(
+                "w-full text-left px-4 py-2 text-sm transition-colors",
+                l === locale
+                  ? "text-navy-900 font-medium bg-cream-100"
+                  : "text-ink-soft hover:text-navy-900 hover:bg-cream-100"
+              )}
+            >
+              {LANG_LABELS[l]}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

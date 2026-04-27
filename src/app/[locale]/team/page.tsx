@@ -2,7 +2,7 @@ import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
-import { TEAM } from "@/lib/team";
+import { TEAM, pick } from "@/lib/team";
 
 const PHOTO_BY_NAME: Record<string, string> = {
   "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
@@ -35,7 +35,7 @@ export default async function TeamPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("team");
-  const lang = locale as "en" | "tr";
+  const lang = locale;
 
   return (
     <>
@@ -66,11 +66,11 @@ export default async function TeamPage({
                   {member.name}
                 </h2>
                 <p className="mt-1 text-sm uppercase tracking-[0.14em] text-gold-700">
-                  {member.role[lang]}
+                  {pick(member.role, lang)}
                 </p>
 
                 <p className="mt-4 text-ink-soft leading-relaxed">
-                  {member.bio[lang]}
+                  {pick(member.bio, lang)}
                 </p>
 
                 <dl className="mt-6 space-y-3 text-sm">
@@ -96,7 +96,7 @@ export default async function TeamPage({
                           key={area.en}
                           className="rounded-full bg-navy-50 px-2.5 py-0.5 text-xs text-navy-700"
                         >
-                          {area[lang]}
+                          {pick(area, lang)}
                         </span>
                       ))}
                     </dd>

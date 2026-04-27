@@ -30,9 +30,9 @@ export function pageMetadata({
   for (const l of routing.locales) {
     languages[l] = `${SITE.url}/${l}${cleanPath === "/" ? "" : cleanPath}`;
   }
-  languages["x-default"] = `${SITE.url}/en${cleanPath === "/" ? "" : cleanPath}`;
+  languages["x-default"] = `${SITE.url}/tr${cleanPath === "/" ? "" : cleanPath}`;
 
-  const baseKw = KEYWORDS[locale === "tr" ? "tr" : "en"];
+  const baseKw = KEYWORDS[locale] ?? KEYWORDS["tr"];
   const keywords = [...extraKeywords, ...baseKw];
 
   const image = ogImage ?? `${SITE.url}${SITE.ogImage}`;
@@ -48,7 +48,7 @@ export function pageMetadata({
       title,
       description,
       siteName: SITE.name,
-      locale: locale === "tr" ? "tr_TR" : "en_US",
+      locale: { tr: "tr_TR", de: "de_DE", ru: "ru_RU", ar: "ar_SA" }[locale] ?? "en_US",
       images: [{ url: image, width: 1200, height: 630, alt: title }],
       ...(publishedTime ? { publishedTime } : {}),
     },
