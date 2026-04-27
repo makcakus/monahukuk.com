@@ -8,7 +8,6 @@
     "home": "Home",
     "about": "About Us",
     "practiceAreas": "Practice Areas",
-    "team": "Our Team",
     "articles": "Legal Articles",
     "contact": "Contact"
   },
@@ -56,7 +55,52 @@
   },
   "team": {
     "title": "Our Team",
-    "lead": "A small, senior team of attorneys committed to international clients."
+    "lead": "A small, senior team of attorneys committed to international clients.",
+    "labelEducation": "Education",
+    "labelBar": "Bar",
+    "labelAreas": "Practice Areas",
+    "members": [
+      {
+        "name": "Av. Mustafa AKÇAKUŞ",
+        "role": "Partner Attorney",
+        "education": "Selçuk University Faculty of Law, 2014",
+        "bar": "Antalya Bar Association",
+        "areas": ["IT & AI Law", "Data Protection (KVKK)", "Real Estate", "Turkish Citizenship", "Immigration"],
+        "bio": "Founding partner of Mona Hukuk, Mustafa specialises in advising technology companies and international clients on IT law, artificial intelligence regulation, and data protection compliance in Turkey."
+      },
+      {
+        "name": "Av. Aykut ACAR",
+        "role": "Partner Attorney",
+        "education": "Akdeniz University Faculty of Law, 2014",
+        "bar": "Antalya Bar Association",
+        "areas": ["Commercial & Corporate Law", "Real Estate", "Family Law", "Inheritance", "Enforcement Law"],
+        "bio": "Founding partner with over a decade of practice, Aykut advises foreign investors and individuals on real estate transactions, corporate matters, family disputes, and enforcement proceedings."
+      },
+      {
+        "name": "Av. Murat BOSTAN",
+        "role": "Senior Attorney",
+        "education": "Selçuk University Faculty of Law, 2014",
+        "bar": "Antalya Bar Association (since 2023)",
+        "areas": ["Criminal Law", "Labour Law", "Real Estate Law"],
+        "bio": "Murat began his career at the Istanbul Bar Association and has been representing clients before Antalya courts since 2023, focusing on criminal defence, labour disputes, and property matters."
+      },
+      {
+        "name": "Av. Mehmet SİMAV",
+        "role": "Attorney",
+        "education": "Istanbul University Faculty of Law, 2022",
+        "bar": "Antalya Bar Association",
+        "areas": ["Criminal Law", "Commercial Law", "Family Law"],
+        "bio": "Mehmet brings a rigorous, client-focused approach to litigation and dispute resolution, representing individuals and businesses in criminal proceedings, commercial disputes, and family matters."
+      },
+      {
+        "name": "Stj. Av. Tuğba Yazar",
+        "role": "Trainee Attorney",
+        "education": "Süleyman Demirel University Faculty of Law, 2023",
+        "bar": "Antalya Bar Association (trainee)",
+        "areas": ["Health Law", "Immigration Law", "Family Law", "Criminal Law"],
+        "bio": "Tuğba is actively developing her expertise across health law, immigration, family law, and criminal liability matters, providing support to foreign clients navigating Turkish legal processes."
+      }
+    ]
   },
   "articles": {
     "title": "Legal Articles",

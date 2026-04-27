@@ -2,6 +2,15 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 
+type Member = {
+  name: string;
+  role: string;
+  education: string;
+  bar: string;
+  areas: string[];
+  bio: string;
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -25,11 +34,56 @@ export default async function TeamPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("team");
+  const members = t.raw("members") as Member[];
 
   return (
     <>
       <PageHero title={t("title")} lead={t("lead")} />
-      <section className="mx-auto max-w-3xl px-6 py-20" />
+      <section className="mx-auto max-w-6xl px-6 py-20">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {members.map((member) => (
+            <div
+              key={member.name}
+              className="flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm"
+            >
+              <div className="mb-4">
+                <h2 className="text-lg font-semibold text-navy-900">{member.name}</h2>
+                <p className="text-sm font-medium text-gold-600">{member.role}</p>
+              </div>
+              <p className="mb-5 grow text-sm leading-relaxed text-ink-soft">{member.bio}</p>
+              <dl className="space-y-3 text-sm">
+                <div>
+                  <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
+                    {t("labelEducation")}
+                  </dt>
+                  <dd className="mt-0.5 text-ink-soft">{member.education}</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
+                    {t("labelBar")}
+                  </dt>
+                  <dd className="mt-0.5 text-ink-soft">{member.bar}</dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
+                    {t("labelAreas")}
+                  </dt>
+                  <dd className="mt-1 flex flex-wrap gap-1">
+                    {member.areas.map((area) => (
+                      <span
+                        key={area}
+                        className="rounded-full bg-navy-50 px-2 py-0.5 text-xs text-navy-700"
+                      >
+                        {area}
+                      </span>
+                    ))}
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 }
