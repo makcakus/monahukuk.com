@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -8,7 +9,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "privacy" });
-  return { title: t("title") };
+  return pageMetadata({
+    locale,
+    path: "/privacy-policy",
+    title: t("title"),
+    description: t("lead"),
+  });
 }
 
 export default async function PrivacyPage({

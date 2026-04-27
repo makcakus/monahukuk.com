@@ -5,6 +5,8 @@ import { Link } from "@/i18n/navigation";
 import { getArticle, getAllArticles } from "@/lib/articles";
 import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
+import { pageMetadata } from "@/lib/seo";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/ArticleSchema";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -24,16 +26,15 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const article = await getArticle(locale, slug);
   if (!article) return {};
-  return {
+  return pageMetadata({
+    locale,
+    path: `/articles/${slug}`,
     title: article.title,
     description: article.description,
-    openGraph: {
-      type: "article",
-      title: article.title,
-      description: article.description,
-      publishedTime: article.date,
-    },
-  };
+    type: "article",
+    publishedTime: article.date,
+    extraKeywords: article.category ? [article.category] : [],
+  });
 }
 
 export default async function ArticlePage({
@@ -55,6 +56,22 @@ export default async function ArticlePage({
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-16">
+      <ArticleSchema
+        locale={locale}
+        slug={slug}
+        title={article.title}
+        description={article.description}
+        date={article.date}
+        category={article.category}
+      />
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: t("title"), path: "/articles" },
+          { name: article.title, path: `/articles/${slug}` },
+        ]}
+      />
+
       <Link
         href="/articles"
         className="inline-flex items-center gap-1 text-sm text-ink-mute hover:text-navy-900 mb-8"

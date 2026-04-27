@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -10,7 +11,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "site" });
-  return { title: `${t("name")} — ${t("tagline")}` };
+  return pageMetadata({
+    locale,
+    path: "/",
+    title: `${t("name")} — ${t("tagline")}`,
+    description: t("description"),
+  });
 }
 
 export default async function HomePage({

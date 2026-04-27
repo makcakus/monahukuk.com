@@ -7,7 +7,9 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { LegalServiceSchema, WebsiteSchema } from "@/components/LegalServiceSchema";
 import { routing } from "@/i18n/routing";
+import { SITE, KEYWORDS } from "@/lib/site";
 
 const sans = Inter({
   subsets: ["latin", "latin-ext"],
@@ -33,20 +35,22 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "site" });
-  const url = "https://monahukuk.com";
   return {
-    metadataBase: new URL(url),
+    metadataBase: new URL(SITE.url),
     title: {
       default: `${t("name")} — ${t("tagline")}`,
       template: `%s · ${t("name")}`,
     },
     description: t("description"),
+    keywords: [...KEYWORDS[locale === "tr" ? "tr" : "en"]],
+    applicationName: t("name"),
+    authors: [{ name: t("name"), url: SITE.url }],
+    creator: t("name"),
+    publisher: t("name"),
+    category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: {
-        en: "/en",
-        tr: "/tr",
-      },
+      languages: { en: "/en", tr: "/tr", "x-default": "/en" },
     },
     openGraph: {
       type: "website",
@@ -54,14 +58,17 @@ export async function generateMetadata({
       title: `${t("name")} — ${t("tagline")}`,
       description: t("description"),
       locale: locale === "tr" ? "tr_TR" : "en_US",
-      url,
+      url: `${SITE.url}/${locale}`,
+      images: [{ url: SITE.ogImage, width: 1200, height: 630, alt: t("name") }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${t("name")} — ${t("tagline")}`,
       description: t("description"),
+      images: [SITE.ogImage],
     },
-    robots: { index: true, follow: true },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    icons: { icon: "/favicon.ico" },
   };
 }
 
@@ -87,6 +94,8 @@ export default async function LocaleLayout({
       className={`${sans.variable} ${display.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-cream-50 text-ink">
+        <LegalServiceSchema locale={locale} />
+        <WebsiteSchema />
         <NextIntlClientProvider messages={messages} locale={locale}>
           <Header />
           <main className="flex-1">{children}</main>

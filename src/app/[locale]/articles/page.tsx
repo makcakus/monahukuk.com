@@ -3,6 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { getAllArticles } from "@/lib/articles";
 import { ArrowRight } from "lucide-react";
+import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -11,7 +12,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "articles" });
-  return { title: t("title"), description: t("lead") };
+  return pageMetadata({
+    locale,
+    path: "/articles",
+    title: t("title"),
+    description: t("lead"),
+  });
 }
 
 export default async function ArticlesPage({
