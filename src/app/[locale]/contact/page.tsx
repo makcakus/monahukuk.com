@@ -77,6 +77,19 @@ export default async function ContactPage({
             </li>
           ))}
         </ul>
+
+        <div className="mt-12 overflow-hidden rounded-xl border border-cream-200 shadow-sm">
+          <iframe
+            src="https://maps.google.com/maps?q=Meltem+Mah.+Ismail+Baha+Surelsan+Cad.+21%2F10+Muratpasa+Antalya+Turkey&output=embed&z=16"
+            width="100%"
+            height="320"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Mona Hukuk Ofis Konumu"
+          />
+        </div>
       </section>
     </>
   );
