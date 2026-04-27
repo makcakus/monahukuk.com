@@ -20,23 +20,22 @@
   "home": {
     "hero": {
       "kicker": "Antalya · Turkey",
-      "title": "Trusted legal counsel for foreign nationals and international business in Turkey.",
-      "lead": "Mona Hukuk represents expats, investors, and global companies before Turkish courts and authorities — with discretion, fluency in English, and decades of combined experience."
+      "title": "Mona Law Office",
+      "lead": "Based in Antalya, our firm provides legal counsel and litigation services to its clients with over a decade of professional experience and a team specialized in their respective fields."
     },
-    "valuePropsTitle": "Why clients choose Mona Hukuk",
-    "valueProps": {
-      "international": {
-        "title": "Built for international clients",
-        "body": "We work in English and understand the procedural reality foreign clients face in Turkey — from the first consultation through enforcement."
-      },
-      "fullService": {
-        "title": "Full-service practice",
-        "body": "From a residence permit appeal to a commercial dispute, our practice areas cover the everyday and complex needs of foreign clients."
-      },
-      "discretion": {
-        "title": "Confidentiality first",
-        "body": "Every engagement is handled with the level of discretion expected by private clients, executives, and investors."
-      }
+    "practiceIntro": "We practice in every branch of Turkish Law, serving our clients across a broad spectrum including, in particular, Commercial Law, Family Law, Labor Law, Criminal Law, Real Estate Law, and Administrative Law. We assess each case within its own circumstances and adopt a solution-oriented and transparent approach to case management.",
+    "foreignClients": {
+      "title": "Services for Foreign Clients",
+      "lead": "All members of our team are fluent in English, enabling us to provide our foreign clients with high-quality legal counsel in their own language. Within this scope, we offer comprehensive services in the following areas:",
+      "item1": "Conducting Turkish Citizenship application procedures",
+      "item2": "Short-term and long-term Residence Permit processes",
+      "item3": "Legal counsel and intermediary services in bureaucratic procedures regarding the acquisition of movable and immovable property in Turkey",
+      "item4": "Representation before the Land Registry, notary offices, and relevant public institutions"
+    },
+    "approach": {
+      "title": "Our Approach",
+      "body": "At Mona Law Office, we believe that trust, confidentiality, and professional diligence lie at the heart of legal service. We regard our relationship with our clients as a long-term collaboration and act with the principles of open communication and accountability at every stage.",
+      "closing": "Should you seek reliable support in your legal matters, our office will be pleased to meet with you."
     },
     "ctaBanner": {
       "title": "Need legal advice in Turkey?",

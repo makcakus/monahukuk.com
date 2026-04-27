@@ -32,10 +32,10 @@ export default async function HomePage({
 function HomeContent() {
   const t = useTranslations("home");
   const tCta = useTranslations("cta");
-  const tNav = useTranslations("nav");
 
   return (
     <>
+      {/* Hero */}
       <section className="relative">
         <div className="mx-auto max-w-6xl px-6 pt-20 pb-24 md:pt-28 md:pb-32 grid md:grid-cols-12 gap-10 items-end">
           <div className="md:col-span-8">
@@ -57,40 +57,59 @@ function HomeContent() {
                 {tCta("consult")}
                 <ArrowRight size={16} />
               </Link>
-              <Link
-                href="/practice-areas"
-                className="inline-flex items-center text-sm font-medium text-navy-900 underline decoration-gold-400 underline-offset-4 hover:decoration-gold-600"
-              >
-                {tNav("practiceAreas")}
-              </Link>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Practice intro */}
       <section className="border-t border-cream-200 bg-cream-100/60">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <h2 className="font-display text-3xl md:text-4xl text-navy-900 max-w-2xl">
-            {t("valuePropsTitle")}
-          </h2>
-          <span className="gold-divider mt-6" />
-          <div className="mt-12 grid gap-10 md:grid-cols-3">
-            <ValueProp
-              title={t("valueProps.international.title")}
-              body={t("valueProps.international.body")}
-            />
-            <ValueProp
-              title={t("valueProps.fullService.title")}
-              body={t("valueProps.fullService.body")}
-            />
-            <ValueProp
-              title={t("valueProps.discretion.title")}
-              body={t("valueProps.discretion.body")}
-            />
-          </div>
+        <div className="mx-auto max-w-3xl px-6 py-16">
+          <p className="text-ink-soft leading-relaxed text-lg">
+            {t("practiceIntro")}
+          </p>
         </div>
       </section>
 
+      {/* Foreign clients */}
+      <section className="border-t border-cream-200">
+        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-10 md:grid-cols-2 items-start">
+          <div>
+            <h2 className="font-display text-3xl md:text-4xl text-navy-900">
+              {t("foreignClients.title")}
+            </h2>
+            <span className="gold-divider mt-6" />
+            <p className="mt-6 text-ink-soft leading-relaxed">
+              {t("foreignClients.lead")}
+            </p>
+          </div>
+          <ul className="space-y-4 pt-2">
+            {(["item1", "item2", "item3", "item4"] as const).map((key) => (
+              <li key={key} className="flex gap-3 items-start">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
+                <span className="text-ink-soft leading-relaxed">
+                  {t(`foreignClients.${key}`)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Approach */}
+      <section className="border-t border-cream-200 bg-cream-100/60">
+        <div className="mx-auto max-w-3xl px-6 py-16">
+          <h2 className="font-display text-2xl text-navy-900 mb-6">
+            {t("approach.title")}
+          </h2>
+          <p className="text-ink-soft leading-relaxed">{t("approach.body")}</p>
+          <p className="mt-4 text-ink-soft leading-relaxed font-medium">
+            {t("approach.closing")}
+          </p>
+        </div>
+      </section>
+
+      {/* CTA banner */}
       <section className="border-t border-cream-200">
         <div className="mx-auto max-w-6xl px-6 py-20 grid gap-8 md:grid-cols-12 items-center">
           <div className="md:col-span-8">
@@ -113,14 +132,5 @@ function HomeContent() {
         </div>
       </section>
     </>
-  );
-}
-
-function ValueProp({ title, body }: { title: string; body: string }) {
-  return (
-    <div>
-      <h3 className="font-display text-xl text-navy-900 mb-3">{title}</h3>
-      <p className="text-ink-soft leading-relaxed">{body}</p>
-    </div>
   );
 }
