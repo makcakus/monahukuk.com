@@ -84,12 +84,15 @@ function HomeContent() {
             </p>
           </div>
           <ul className="space-y-4 pt-2">
-            {(["item1", "item2", "item3", "item4"] as const).map((key) => (
-              <li key={key} className="flex gap-3 items-start">
+            {[
+              t("foreignClients.item1"),
+              t("foreignClients.item2"),
+              t("foreignClients.item3"),
+              t("foreignClients.item4"),
+            ].map((item) => (
+              <li key={item} className="flex gap-3 items-start">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
-                <span className="text-ink-soft leading-relaxed">
-                  {t(`foreignClients.${key}`)}
-                </span>
+                <span className="text-ink-soft leading-relaxed">{item}</span>
               </li>
             ))}
           </ul>
