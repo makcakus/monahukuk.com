@@ -58,49 +58,7 @@
     "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
-    "labelAreas": "Uygulama Alanları",
-    "members": [
-      {
-        "name": "Av. Mustafa AKÇAKUŞ",
-        "role": "Ortak Avukat",
-        "education": "Selçuk Üniversitesi Hukuk Fakültesi, 2014",
-        "bar": "Antalya Barosu",
-        "areas": ["Bilişim & Yapay Zekâ Hukuku", "Kişisel Veri Koruma (KVKK)", "Gayrimenkul", "Türk Vatandaşlığı", "Yabancılar Hukuku"],
-        "bio": "Mona Hukuk'un kurucu ortağı Mustafa, bilişim şirketleri ve uluslararası müvekkillere Türkiye'de BT hukuku, yapay zekâ düzenlemeleri ve veri koruma uyumu konularında danışmanlık vermektedir."
-      },
-      {
-        "name": "Av. Aykut ACAR",
-        "role": "Ortak Avukat",
-        "education": "Akdeniz Üniversitesi Hukuk Fakültesi, 2014",
-        "bar": "Antalya Barosu",
-        "areas": ["Ticaret & Şirketler Hukuku", "Gayrimenkul", "Aile Hukuku", "Miras Hukuku", "İcra & İflas Hukuku"],
-        "bio": "On yılı aşkın deneyimiyle kurucu ortak Aykut, yabancı yatırımcılara ve bireylere gayrimenkul işlemleri, ticari davalar, aile uyuşmazlıkları ve icra takipleri konularında hizmet vermektedir."
-      },
-      {
-        "name": "Av. Murat BOSTAN",
-        "role": "Kıdemli Avukat",
-        "education": "Selçuk Üniversitesi Hukuk Fakültesi, 2014",
-        "bar": "Antalya Barosu (2023'ten itibaren)",
-        "areas": ["Ceza Hukuku", "İş Hukuku", "Gayrimenkul Hukuku"],
-        "bio": "Kariyerine İstanbul Barosu'nda başlayan Murat, 2023'ten bu yana Antalya mahkemelerinde müvekkilleri temsil etmekte; ceza savunması, iş uyuşmazlıkları ve taşınmaz davalarına odaklanmaktadır."
-      },
-      {
-        "name": "Av. Mehmet SİMAV",
-        "role": "Avukat",
-        "education": "İstanbul Üniversitesi Hukuk Fakültesi, 2022",
-        "bar": "Antalya Barosu",
-        "areas": ["Ceza Hukuku", "Ticaret Hukuku", "Aile Hukuku"],
-        "bio": "Mehmet, dava ve uyuşmazlık çözümüne titiz ve müvekkil odaklı bir yaklaşım getirerek bireyleri ve şirketleri ceza davaları, ticari uyuşmazlıklar ve aile hukuku meselelerinde temsil etmektedir."
-      },
-      {
-        "name": "Stj. Av. Tuğba Yazar",
-        "role": "Stajyer Avukat",
-        "education": "Süleyman Demirel Üniversitesi Hukuk Fakültesi, 2023",
-        "bar": "Antalya Barosu (stajyer)",
-        "areas": ["Sağlık Hukuku", "Yabancılar & Göç Hukuku", "Aile Hukuku", "Ceza Hukuku"],
-        "bio": "Tuğba; sağlık hukuku, yabancılar hukuku, aile hukuku ve ceza sorumluluğu alanlarında uzmanlaşmakta, yabancı müvekkillerin Türk hukuki süreçlerinde yol almalarına destek olmaktadır."
-      }
-    ]
+    "labelAreas": "Uygulama Alanları"
   },
   "articles": {
     "title": "Hukuki Makaleler",

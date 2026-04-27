@@ -1,15 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
-
-type Member = {
-  name: string;
-  role: string;
-  education: string;
-  bar: string;
-  areas: string[];
-  bio: string;
-};
+import { TEAM } from "@/lib/team";
 
 export async function generateMetadata({
   params,
@@ -35,7 +27,7 @@ export default async function AboutPage({
   setRequestLocale(locale);
   const tAbout = await getTranslations("about");
   const tTeam = await getTranslations("team");
-  const members = tTeam.raw("members") as Member[];
+  const lang = locale as "en" | "tr";
 
   return (
     <>
@@ -52,16 +44,18 @@ export default async function AboutPage({
           {tTeam("title")}
         </h2>
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {members.map((member) => (
+          {TEAM.map((member) => (
             <div
               key={member.name}
               className="flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm"
             >
               <div className="mb-4">
                 <h3 className="text-lg font-semibold text-navy-900">{member.name}</h3>
-                <p className="text-sm font-medium text-gold-600">{member.role}</p>
+                <p className="text-sm font-medium text-gold-600">{member.role[lang]}</p>
               </div>
-              <p className="mb-5 grow text-sm leading-relaxed text-ink-soft">{member.bio}</p>
+              <p className="mb-5 grow text-sm leading-relaxed text-ink-soft">
+                {member.bio[lang]}
+              </p>
               <dl className="space-y-3 text-sm">
                 <div>
                   <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
@@ -82,10 +76,10 @@ export default async function AboutPage({
                   <dd className="mt-1 flex flex-wrap gap-1">
                     {member.areas.map((area) => (
                       <span
-                        key={area}
+                        key={area.en}
                         className="rounded-full bg-navy-50 px-2 py-0.5 text-xs text-navy-700"
                       >
-                        {area}
+                        {area[lang]}
                       </span>
                     ))}
                   </dd>
