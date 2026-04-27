@@ -1,18 +1,35 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
-const NAV_ITEMS = [
-  { href: "/", key: "home" },
-  { href: "/about", key: "about" },
-  { href: "/practice-areas", key: "practiceAreas" },
-  { href: "/articles", key: "articles" },
-  { href: "/contact", key: "contact" },
+type NavLeaf = { type: "link"; href: string; key: string };
+type NavGroup = {
+  type: "group";
+  key: string;
+  matchPrefixes: readonly string[];
+  items: readonly { href: string; key: string }[];
+};
+type NavItem = NavLeaf | NavGroup;
+
+const NAV_ITEMS: readonly NavItem[] = [
+  { type: "link", href: "/", key: "home" },
+  {
+    type: "group",
+    key: "about",
+    matchPrefixes: ["/about", "/team"],
+    items: [
+      { href: "/about", key: "about" },
+      { href: "/team", key: "team" },
+    ],
+  },
+  { type: "link", href: "/practice-areas", key: "practiceAreas" },
+  { type: "link", href: "/articles", key: "articles" },
+  { type: "link", href: "/contact", key: "contact" },
 ] as const;
 
 export function Header() {
@@ -21,6 +38,33 @@ export function Header() {
   const tCta = useTranslations("cta");
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const groupRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    function onClickOutside(e: MouseEvent) {
+      if (
+        openGroup &&
+        groupRef.current &&
+        !groupRef.current.contains(e.target as Node)
+      ) {
+        setOpenGroup(null);
+      }
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpenGroup(null);
+    }
+    document.addEventListener("mousedown", onClickOutside);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onClickOutside);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [openGroup]);
+
+  function isActive(href: string) {
+    return href === "/" ? pathname === "/" : pathname.startsWith(href);
+  }
 
   return (
     <header className="sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75">
@@ -40,23 +84,79 @@ export function Header() {
 
         <nav className="hidden lg:flex items-center gap-7">
           {NAV_ITEMS.map((item) => {
-            const active =
-              item.href === "/"
-                ? pathname === "/"
-                : pathname.startsWith(item.href);
+            if (item.type === "link") {
+              const active = isActive(item.href);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={clsx(
+                    "text-sm font-medium transition-colors",
+                    active
+                      ? "text-navy-900"
+                      : "text-ink-soft hover:text-navy-800"
+                  )}
+                >
+                  {t(item.key)}
+                </Link>
+              );
+            }
+            const groupActive = item.matchPrefixes.some((p) => isActive(p));
+            const isOpen = openGroup === item.key;
             return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={clsx(
-                  "text-sm font-medium transition-colors",
-                  active
-                    ? "text-navy-900"
-                    : "text-ink-soft hover:text-navy-800"
-                )}
+              <div
+                key={item.key}
+                ref={isOpen ? groupRef : null}
+                className="relative"
               >
-                {t(item.key)}
-              </Link>
+                <button
+                  type="button"
+                  aria-haspopup="menu"
+                  aria-expanded={isOpen}
+                  onClick={() => setOpenGroup(isOpen ? null : item.key)}
+                  className={clsx(
+                    "inline-flex items-center gap-1 text-sm font-medium transition-colors",
+                    groupActive
+                      ? "text-navy-900"
+                      : "text-ink-soft hover:text-navy-800"
+                  )}
+                >
+                  {t(item.key)}
+                  <ChevronDown
+                    size={14}
+                    className={clsx(
+                      "transition-transform",
+                      isOpen && "rotate-180"
+                    )}
+                  />
+                </button>
+                {isOpen && (
+                  <div
+                    role="menu"
+                    className="absolute left-0 top-full mt-2 min-w-[180px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1"
+                  >
+                    {item.items.map((sub) => {
+                      const subActive = isActive(sub.href);
+                      return (
+                        <Link
+                          key={sub.href}
+                          href={sub.href}
+                          role="menuitem"
+                          onClick={() => setOpenGroup(null)}
+                          className={clsx(
+                            "block px-4 py-2 text-sm transition-colors",
+                            subActive
+                              ? "text-navy-900 bg-cream-100"
+                              : "text-ink-soft hover:text-navy-900 hover:bg-cream-100"
+                          )}
+                        >
+                          {t(sub.key)}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
             );
           })}
         </nav>
@@ -84,16 +184,37 @@ export function Header() {
       {open && (
         <div className="lg:hidden border-t border-cream-200 bg-cream-50">
           <nav className="mx-auto max-w-6xl px-6 py-4 flex flex-col gap-3">
-            {NAV_ITEMS.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setOpen(false)}
-                className="py-1 text-base text-ink-soft hover:text-navy-900"
-              >
-                {t(item.key)}
-              </Link>
-            ))}
+            {NAV_ITEMS.map((item) => {
+              if (item.type === "link") {
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setOpen(false)}
+                    className="py-1 text-base text-ink-soft hover:text-navy-900"
+                  >
+                    {t(item.key)}
+                  </Link>
+                );
+              }
+              return (
+                <div key={item.key} className="flex flex-col">
+                  <span className="py-1 text-xs uppercase tracking-[0.16em] text-gold-700">
+                    {t(item.key)}
+                  </span>
+                  {item.items.map((sub) => (
+                    <Link
+                      key={sub.href}
+                      href={sub.href}
+                      onClick={() => setOpen(false)}
+                      className="py-1 pl-3 text-base text-ink-soft hover:text-navy-900"
+                    >
+                      {t(sub.key)}
+                    </Link>
+                  ))}
+                </div>
+              );
+            })}
             <div className="pt-3 border-t border-cream-200 flex items-center justify-between">
               <LangSwitcher />
             </div>
