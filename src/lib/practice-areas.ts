@@ -15,7 +15,7 @@ export function pickPA(map: LangMap5, locale: string): string {
 
 export const PRACTICE_AREAS: PracticeArea[] = [
   {
-    slug: "yabанcilar-gocmenlik",
+    slug: "yabancilar-gocmenlik",
     icon: "Globe",
     title: {
       tr: "Yabancılar & Göçmenlik Hukuku",

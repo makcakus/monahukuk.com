@@ -43,8 +43,8 @@ export default async function PracticeAreasPage({
 
   return (
     <>
-      <PageHero title={t("title")} lead={t("lead")} />
-      <section className="mx-auto max-w-6xl px-6 py-20">
+      <PageHero title={t("title")} />
+      <section className="mx-auto max-w-6xl px-6 pt-10 pb-20">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {PRACTICE_AREAS.map((area) => (
             <div
