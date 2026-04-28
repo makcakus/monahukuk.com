@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
+import { CinematicHero } from "@/components/CinematicHero";
 
 export async function generateMetadata({
   params,
@@ -31,39 +32,13 @@ export default async function HomePage({
 
 function HomeContent() {
   const t = useTranslations("home");
-  const tCta = useTranslations("cta");
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative">
-        <div className="mx-auto max-w-6xl px-6 pt-20 pb-24 md:pt-28 md:pb-32 grid md:grid-cols-12 gap-10 items-end">
-          <div className="md:col-span-8">
-            <p className="text-xs uppercase tracking-[0.25em] text-gold-700 mb-6">
-              {t("hero.kicker")}
-            </p>
-            <h1 className="font-display text-4xl md:text-6xl text-navy-950 leading-[1.05] tracking-tight">
-              {t("hero.title")}
-            </h1>
-            <span className="gold-divider mt-8" />
-            <p className="mt-6 text-lg text-ink-soft max-w-2xl leading-relaxed">
-              {t("hero.lead")}
-            </p>
-            <div className="mt-10 flex flex-wrap items-center gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 rounded-sm bg-navy-900 px-6 py-3 text-sm font-medium text-cream-50 hover:bg-navy-800 transition-colors"
-              >
-                {tCta("consult")}
-                <ArrowRight size={16} />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CinematicHero />
 
       {/* Practice intro */}
-      <section className="border-t border-cream-200 bg-cream-100/60">
+      <section className="bg-cream-100/60">
         <div className="mx-auto max-w-3xl px-6 py-16">
           <p className="text-ink-soft leading-relaxed text-lg">
             {t("practiceIntro")}
