@@ -657,6 +657,471 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
     },
   },
+  {
+    slug: "ceza-hukuku",
+    metaTitle: {
+      tr: "Antalya Ceza Avukatı | Yabancılar İçin Ceza Hukuku Savunması",
+      en: "Antalya Criminal Defence Lawyer | Criminal Law Defence for Foreigners",
+      de: "Antalya Strafverteidiger | Strafrechtsverteidigung für Ausländer",
+      ru: "Адвокат по уголовным делам в Анталье | Уголовная защита для иностранцев",
+      ar: "محامي جنائي في أنطاليا | الدفاع الجنائي للأجانب",
+    },
+    metaDescription: {
+      tr: "Antalya'da yabancılar için ceza hukuku avukatı. Soruşturma, gözaltı, tutukluluk, ifade alımı, dava savunması ve kararların itiraz süreçlerinde 7/24 hızlı müdahale.",
+      en: "Criminal defence lawyer for foreigners in Antalya. Rapid 24/7 intervention in investigations, custody, pre-trial detention, statements, trial defence, and appeals.",
+      de: "Strafverteidiger für Ausländer in Antalya. Schnelle 24/7-Intervention bei Ermittlungen, Festnahme, Untersuchungshaft, Aussagen, Hauptverhandlung und Rechtsmitteln.",
+      ru: "Адвокат по уголовным делам для иностранцев в Анталье. Быстрое реагирование 24/7 в расследованиях, задержании, предварительном заключении, показаниях, защите в суде и обжалованиях.",
+      ar: "محامي جنائي للأجانب في أنطاليا. تدخل سريع على مدار الساعة في التحقيقات والاحتجاز والحبس الاحتياطي وأخذ الأقوال والدفاع أمام المحكمة والطعون.",
+    },
+    intro: {
+      tr: "Türkiye'de bir suç isnadıyla karşılaşan yabancı uyruklular için savunma hakkı, dil engeli, hukuki sistem farklılığı ve süre baskısı nedeniyle çok daha kritik bir hâl alır. Karakolda alınan ifadenin, sulh ceza hâkimliğindeki ilk savunmanın ve mahkeme önündeki delil sunumunun her satırı, dosyanın seyrini doğrudan etkiler. Bu nedenle ceza süreçlerinde mümkün olan en erken aşamada bağımsız bir ceza avukatı desteği almak hayati önem taşır.\n\nAntalya'da ceza avukatı olarak ekibimiz; gözaltı süreçleri, tutukluluğa itiraz, soruşturma aşamasında müşteki/şüpheli olarak temsil, kovuşturma aşamasında dava savunması ve istinaf-temyiz aşamalarında müvekkillerinin yanındadır. Yabancı uyruklu müvekkillere kendi dilinde tercüman eşliğinde danışmanlık veririz; kovuşturmanın sonucu kadar süreç içerisindeki temel haklarının korunmasını da önceleriz.",
+      en: "For foreign nationals facing a criminal allegation in Turkey, the right to a defence becomes far more critical due to language barriers, differences in legal systems, and time pressure. Every line of the police statement, of the first defence before the criminal magistrate, and of the evidence presented at trial directly shapes the course of the file. It is therefore vital to engage independent criminal counsel at the earliest possible stage.\n\nAs a criminal defence lawyer in Antalya, our team stands beside clients during custody, in opposing pre-trial detention, in representing the complainant/suspect during investigation, in trial defence, and at the appellate stages. Foreign clients are advised in their own language alongside an interpreter; we prioritise both the outcome of the prosecution and the protection of fundamental rights throughout the process.",
+      de: "Für ausländische Staatsangehörige, die in der Türkei mit einem strafrechtlichen Vorwurf konfrontiert sind, wird das Recht auf Verteidigung wegen Sprachbarrieren, Unterschieden in den Rechtssystemen und Zeitdruck deutlich kritischer. Jede Zeile der polizeilichen Aussage, der ersten Verteidigung vor dem Haftrichter und der Beweismittel im Hauptverfahren prägt den Verlauf der Akte unmittelbar. Daher ist es entscheidend, möglichst früh einen unabhängigen Strafverteidiger einzuschalten.\n\nAls Strafverteidiger in Antalya begleitet unser Team Mandanten in Festnahme, in der Anfechtung der Untersuchungshaft, in der Vertretung als Anzeigeerstatter/Beschuldigter während der Ermittlung, in der Hauptverhandlung und in den Rechtsmittelinstanzen. Ausländische Mandanten beraten wir in ihrer Sprache mit Dolmetscher; wir priorisieren sowohl den Ausgang als auch den Schutz der Grundrechte.",
+      ru: "Для иностранцев, столкнувшихся с уголовным обвинением в Турции, право на защиту становится особенно критичным из-за языкового барьера, различий правовых систем и временного давления. Каждая строка показаний в полиции, первой защиты перед мировым судьёй и доказательств в суде напрямую влияет на ход дела. Поэтому жизненно важно как можно раньше привлечь независимого адвоката по уголовным делам.\n\nКак адвокат по уголовным делам в Анталье наша команда сопровождает клиентов на задержании, при обжаловании предварительного заключения, в представительстве потерпевшего/подозреваемого на стадии расследования, в защите в суде и на стадиях апелляции/кассации. Иностранным клиентам мы консультируем на их языке с переводчиком; приоритет — и результат, и защита фундаментальных прав на всём пути.",
+      ar: "بالنسبة للأجانب الذين يواجهون اتهاماً جنائياً في تركيا، يصبح حق الدفاع أكثر حساسيةً بسبب الحاجز اللغوي واختلاف الأنظمة القانونية وضغط الوقت. كل سطر في إفادة الشرطة وفي الدفاع الأول أمام قاضي الصلح وفي الأدلة المعروضة أمام المحكمة يؤثر مباشرةً في مسار الملف. لذا من الضروري الاستعانة بمحامٍ جنائي مستقل في أبكر مرحلة ممكنة.\n\nبصفتنا محامياً جنائياً في أنطاليا، يواكب فريقنا الموكلين خلال الاحتجاز والطعن في الحبس الاحتياطي، وفي تمثيل المشتكي/المشتبه به أثناء التحقيق، وفي الدفاع أمام المحكمة وفي مراحل الاستئناف. ونقدم الاستشارة للعملاء الأجانب بلغتهم مع مترجم؛ ونُولي الأهمية لنتيجة الدعوى ولحماية الحقوق الأساسية على حدٍّ سواء.",
+    },
+    services: {
+      tr: [
+        "Gözaltı ve karakolda ifade aşamasında müdafilik",
+        "Tutukluluğa itiraz ve adli kontrol kararlarına yönelik talepler",
+        "Soruşturma aşamasında müşteki ve şüpheli temsili",
+        "Mahkeme önünde sanık savunması ve müşteki vekilliği",
+        "Dolandırıcılık, bilişim suçları, uyuşturucu, trafik suçları savunması",
+        "Cinsel suçlar, hakaret, tehdit ve aile içi şiddet dosyaları",
+        "Mağdur hakları ve şikâyet süreçlerinde müvekkil temsili",
+        "İstinaf ve temyiz aşamasında ileri savunma",
+      ],
+      en: [
+        "Counsel during custody and police statement",
+        "Challenges to pre-trial detention and judicial control measures",
+        "Representation of complainant and suspect during investigation",
+        "Defendant defence and complainant representation at trial",
+        "Defence in fraud, cyber, narcotics, and traffic offences",
+        "Sexual offences, insult, threat, and domestic violence files",
+        "Victim rights and representation in complaint procedures",
+        "Advanced defence at the appellate and supreme appeal stages",
+      ],
+      de: [
+        "Verteidigung während der Festnahme und der polizeilichen Vernehmung",
+        "Beschwerden gegen Untersuchungshaft und Auflagen",
+        "Vertretung von Anzeigeerstatter und Beschuldigtem in der Ermittlung",
+        "Beschuldigtenverteidigung und Nebenklägervertretung in der Hauptverhandlung",
+        "Verteidigung in Betrugs-, Cyber-, Drogen- und Verkehrsdelikten",
+        "Sexualdelikte, Beleidigung, Bedrohung, häusliche Gewalt",
+        "Opferrechte und Vertretung in Beschwerdeverfahren",
+        "Erweiterte Verteidigung in Berufung und Revision",
+      ],
+      ru: [
+        "Защита на этапе задержания и дачи показаний в полиции",
+        "Обжалование предварительного заключения и мер судебного контроля",
+        "Представительство потерпевшего и подозреваемого в ходе расследования",
+        "Защита подсудимого и представительство потерпевшего в суде",
+        "Защита по делам о мошенничестве, киберпреступлениях, наркотиках и ДТП",
+        "Половые преступления, оскорбление, угроза, бытовое насилие",
+        "Права потерпевших и представительство в жалобных процедурах",
+        "Расширенная защита на стадии апелляции и кассации",
+      ],
+      ar: [
+        "الدفاع خلال الاحتجاز وأخذ الإفادة في الشرطة",
+        "الطعن في الحبس الاحتياطي وتدابير الرقابة القضائية",
+        "تمثيل المشتكي والمشتبه به في مرحلة التحقيق",
+        "الدفاع عن المتهم وتمثيل المشتكي أمام المحكمة",
+        "الدفاع في قضايا الاحتيال والجرائم الإلكترونية والمخدرات والمرور",
+        "الجرائم الجنسية والإهانة والتهديد والعنف الأسري",
+        "حقوق الضحايا والتمثيل في إجراءات الشكاوى",
+        "الدفاع المتقدم في مرحلتي الاستئناف والتمييز",
+      ],
+    },
+    process: {
+      tr: "Ceza dosyalarında zaman en kritik unsurdur. Müvekkilden gelen ilk bilgi sonrası adli birimlerle hızla iletişime geçer, ifade öncesi dosyaya hâkim olarak müvekkili bilgilendiririz. Tutukluluk durumunda itirazları en kısa sürede sunarız; kovuşturma aşamasına geçildiğinde delil tartışması, tanık ve bilirkişi yönetimi ve hukuka aykırı delillerin dışlanması için somut talepleri dosyaya işleriz. Yabancı müvekkilde gerektiğinde mahkeme nezdinde tercüman tayini, konsolosluk bildirimi ve adli yardım haklarının kullanılmasını da sağlarız.",
+      en: "Time is the most critical factor in criminal files. Upon first contact, we engage the authorities promptly and brief the client on the file before any statement is taken. Where there is detention, objections are filed at the earliest opportunity; in the trial phase, we secure proper evidence challenge, witness and expert management, and exclusion motions for unlawfully obtained evidence. For foreign clients, we ensure court interpreters, consular notification, and access to legal aid where applicable.",
+      de: "In Strafsachen ist die Zeit der kritischste Faktor. Nach dem ersten Kontakt nehmen wir umgehend Verbindung zu den Behörden auf und informieren den Mandanten vor jeder Aussage. Im Falle einer Festnahme legen wir frühestmöglich Beschwerden ein; in der Hauptverhandlung sichern wir die Beweisauseinandersetzung, das Zeugen- und Sachverständigenmanagement sowie Verwertungsverbote für rechtswidrig erlangte Beweise. Für ausländische Mandanten sorgen wir für Dolmetscher vor Gericht, konsularische Benachrichtigung und Zugang zu Prozesskostenhilfe, soweit möglich.",
+      ru: "В уголовных делах время — ключевой фактор. После первого контакта мы оперативно связываемся с органами и информируем клиента до дачи любых показаний. При задержании мы как можно раньше подаём возражения; на стадии судебного разбирательства обеспечиваем оспаривание доказательств, работу со свидетелями и экспертами, ходатайства об исключении незаконно полученных доказательств. Для иностранных клиентов мы обеспечиваем переводчиков в суде, консульское уведомление и доступ к правовой помощи в применимых случаях.",
+      ar: "الوقت أهم عنصر في الملفات الجنائية. عند الاتصال الأول نتواصل فوراً مع الجهات المختصة ونطلع الموكل على الملف قبل أي إفادة. وفي حال الاحتجاز نقدّم الطعون في أسرع وقت ممكن؛ وفي مرحلة المحاكمة نضمن مناقشة الأدلة وإدارة الشهود والخبراء وطلبات استبعاد الأدلة المتحصلة بشكل غير مشروع. وللعملاء الأجانب نضمن المترجمين في المحكمة والإخطار القنصلي والوصول إلى المساعدة القانونية حيثما أمكن.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Türkiye'de gözaltına alındım, ne yapmalıyım?",
+          a: "Susma hakkınızı kullanın ve avukatınız olmadan ifade vermeyi reddedin. Konsolosluğunuzla iletişim talep edebilirsiniz. Avukatınız mümkün olduğunca hızlı bilgilendirilmeli; ifade öncesi avukatla görüşme talep etme hakkı vardır.",
+        },
+        {
+          q: "Tutuklandım, serbest bırakılmamı sağlayabilir misiniz?",
+          a: "Tutukluluk kararına karşı itiraz hakkı bulunmaktadır. Adli kontrol şartlarıyla salıverilme veya tutukluluğun kaldırılması için somut delil ve sunulabilecek güvenceler değerlendirilir. Her dosyada itiraz şansı somut koşullara göre farklılaşır.",
+        },
+        {
+          q: "Yurtdışında işlediğim iddia edilen bir suç için Türkiye'de yargılanır mıyım?",
+          a: "Türk hukukunun belirli koşullarda yurt dışında işlenen suçlar üzerinde yargı yetkisi vardır (özellikle Türk vatandaşları aleyhine işlenen suçlar veya Türk kanunlarının uygulanmasını gerektiren özel hâller). Bu husus dosyanın detayına göre incelenir.",
+        },
+      ],
+      en: [
+        {
+          q: "I have been taken into custody in Turkey — what should I do?",
+          a: "Exercise your right to remain silent and decline to make a statement without your lawyer. You may request consular contact. Counsel must be informed as quickly as possible; you have the right to consult counsel before making any statement.",
+        },
+        {
+          q: "I am in pre-trial detention — can you get me released?",
+          a: "An objection to detention is available. Release with judicial control measures or removal of detention is assessed against concrete evidence and the security that can be offered. Prospects of success vary file by file.",
+        },
+        {
+          q: "Will I be tried in Turkey for an offence allegedly committed abroad?",
+          a: "Turkish law has jurisdiction over certain offences committed abroad (in particular crimes against Turkish nationals or specific cases requiring application of Turkish law). The matter is assessed against the facts of the file.",
+        },
+      ],
+      de: [
+        {
+          q: "Ich wurde in der Türkei in Gewahrsam genommen — was tun?",
+          a: "Machen Sie von Ihrem Schweigerecht Gebrauch und verweigern Sie eine Aussage ohne Ihren Anwalt. Sie können Kontakt zu Ihrem Konsulat verlangen. Der Anwalt sollte schnellstmöglich informiert werden; vor jeder Aussage besteht das Recht auf Anwaltsgespräch.",
+        },
+        {
+          q: "Ich bin in Untersuchungshaft — können Sie meine Freilassung erreichen?",
+          a: "Gegen die Haft gibt es einen Beschwerdeweg. Die Freilassung unter Auflagen oder die Aufhebung der Haft wird anhand konkreter Beweise und angebotener Sicherheiten beurteilt. Die Erfolgsaussichten variieren von Fall zu Fall.",
+        },
+        {
+          q: "Werde ich in der Türkei wegen einer im Ausland begangenen Tat verfolgt?",
+          a: "Das türkische Recht hat unter bestimmten Voraussetzungen Gerichtsbarkeit über im Ausland begangene Taten (insbesondere Taten gegen türkische Staatsangehörige oder spezielle Fälle, in denen türkisches Recht anzuwenden ist). Dies wird je nach Akteninhalt beurteilt.",
+        },
+      ],
+      ru: [
+        {
+          q: "Меня задержали в Турции — что делать?",
+          a: "Воспользуйтесь правом хранить молчание и откажитесь от показаний без адвоката. Вы можете требовать связи с консульством. Адвокату нужно сообщить как можно быстрее; перед любыми показаниями вы имеете право на встречу с защитником.",
+        },
+        {
+          q: "Я под арестом — можете ли вы добиться освобождения?",
+          a: "Существует право обжаловать арест. Освобождение под меры судебного контроля или снятие ареста оценивается на основании конкретных доказательств и предлагаемых гарантий. Шансы на успех зависят от каждого дела.",
+        },
+        {
+          q: "Будут ли меня судить в Турции за преступление, якобы совершённое за рубежом?",
+          a: "Турецкое право в определённых условиях имеет юрисдикцию над преступлениями, совершёнными за рубежом (в частности, против граждан Турции, и в специфических случаях применения турецкого права). Это оценивается по обстоятельствам дела.",
+        },
+      ],
+      ar: [
+        {
+          q: "تم احتجازي في تركيا — ماذا أفعل؟",
+          a: "مارس حقك في الصمت ورفض الإدلاء بإفادة دون محاميك. يمكنك طلب الاتصال بقنصليتك. ويجب إبلاغ المحامي بأسرع وقت؛ ولك الحق في التشاور معه قبل أي إفادة.",
+        },
+        {
+          q: "أنا في حبس احتياطي — هل يمكنكم تحقيق الإفراج؟",
+          a: "يحق الطعن في قرار الحبس. ويُقيَّم الإفراج مع تدابير الرقابة القضائية أو رفع الحبس بحسب الأدلة الملموسة والضمانات المقدمة. وتختلف فرص النجاح من ملف لآخر.",
+        },
+        {
+          q: "هل سأُحاكَم في تركيا عن جريمة يُدَّعى ارتكابها في الخارج؟",
+          a: "يملك القانون التركي صلاحية في حالات معينة على الجرائم المرتكبة خارج تركيا (لا سيما ضد مواطنين أتراك أو في حالات خاصة تستوجب تطبيق القانون التركي). ويُقيَّم ذلك بحسب وقائع الملف.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "ticaret-sirketler-hukuku",
+    metaTitle: {
+      tr: "Antalya Ticaret Avukatı | Yabancılar İçin Şirket Kurma & Sözleşme",
+      en: "Antalya Commercial Lawyer | Company Formation & Contracts for Foreigners",
+      de: "Antalya Wirtschaftsanwalt | Firmengründung & Verträge für Ausländer",
+      ru: "Адвокат по коммерческому праву в Анталье | Регистрация компаний для иностранцев",
+      ar: "محامي تجاري أنطاليا | تأسيس الشركات والعقود للأجانب",
+    },
+    metaDescription: {
+      tr: "Yabancı yatırımcılar için Antalya'da şirket kurma, ticari sözleşme, ortaklık anlaşmaları, ticari dava ve uyuşmazlık çözümünde deneyimli ticaret hukuku avukatı.",
+      en: "Experienced commercial lawyer in Antalya for foreign investors: company formation, commercial contracts, shareholder agreements, commercial litigation, and dispute resolution.",
+      de: "Erfahrener Wirtschaftsanwalt in Antalya für ausländische Investoren: Firmengründung, Handelsverträge, Gesellschafterverträge, Handelsprozesse und Streitbeilegung.",
+      ru: "Опытный адвокат по коммерческому праву в Анталье для иностранных инвесторов: учреждение компаний, коммерческие контракты, акционерные соглашения, коммерческие споры.",
+      ar: "محامي تجاري متمرس في أنطاليا للمستثمرين الأجانب: تأسيس الشركات والعقود التجارية واتفاقيات المساهمين والتقاضي وتسوية النزاعات.",
+    },
+    intro: {
+      tr: "Türkiye, yabancı sermayeli şirket kuruluşunun nispeten kolay ve şeffaf olduğu az sayıdaki ülkeden biridir. Yatırımcılar limited şirket, anonim şirket, şube ya da irtibat ofisi gibi farklı yapılar arasından, vergi planlaması ve uzun vadeli stratejiye uygun olanı seçebilir. Ancak doğru yapı seçimi kadar imzalanan ticari sözleşmelerin Türk hukukuna uygun düzenlenmesi de büyümenin sürdürülebilirliğini doğrudan etkiler.\n\nAntalya'da ticaret avukatı olarak şirket kuruluşundan ortak girişim sözleşmelerine, distribütörlük ve franchise düzenlemelerinden ortaklık uyuşmazlıklarına kadar tüm ticari hukuk süreçlerinde danışmanlık sağlıyoruz. Vergisel etkinlik, yönetim hakimiyeti ve çıkış stratejisi her sözleşmenin tasarımında dikkate aldığımız unsurlardır.",
+      en: "Turkey is one of the few countries where setting up a company with foreign capital is relatively straightforward and transparent. Investors may choose between limited liability and joint-stock companies, branches, or liaison offices according to tax planning and long-term strategy. Yet alongside the right structure, drafting commercial contracts in line with Turkish law directly affects the sustainability of growth.\n\nAs a commercial lawyer in Antalya, we advise on the full spectrum — company formation, joint ventures, distribution and franchise arrangements, and shareholder disputes. Tax efficiency, governance control, and exit strategy are factors we take into account in every contract design.",
+      de: "Die Türkei zählt zu den wenigen Ländern, in denen die Gründung einer Gesellschaft mit ausländischem Kapital vergleichsweise einfach und transparent ist. Investoren können zwischen GmbH und AG, Niederlassungen oder Verbindungsbüros wählen, je nach Steuerplanung und langfristiger Strategie. Neben der richtigen Struktur ist die rechtskonforme Gestaltung kommerzieller Verträge entscheidend für nachhaltiges Wachstum.\n\nAls Wirtschaftsanwalt in Antalya beraten wir vom Firmenaufbau über Joint-Venture-, Vertriebs- und Franchise-Verträge bis hin zu Gesellschafterstreitigkeiten. Steuereffizienz, Führungskontrolle und Ausstiegsstrategie sind Faktoren, die wir bei jedem Vertrag berücksichtigen.",
+      ru: "Турция — одна из немногих стран, где регистрация компании с иностранным капиталом относительно проста и прозрачна. Инвесторы могут выбрать между ООО и АО, филиалом или представительством в зависимости от налогового планирования и долгосрочной стратегии. Помимо правильной структуры, составление коммерческих контрактов в соответствии с турецким правом напрямую влияет на устойчивость роста.\n\nКак адвокат по коммерческому праву в Анталье мы консультируем по полному спектру — регистрация компаний, совместные предприятия, дистрибуция и франчайзинг, споры акционеров. Налоговая эффективность, корпоративное управление и стратегия выхода — факторы, которые мы учитываем при разработке каждого договора.",
+      ar: "تعدّ تركيا من الدول القلائل التي يكون فيها تأسيس شركة برأس مال أجنبي يسيراً وشفافاً نسبياً. ويمكن للمستثمرين الاختيار بين الشركات المحدودة وشركات المساهمة والفروع ومكاتب الاتصال وفقاً للتخطيط الضريبي والاستراتيجية بعيدة المدى. وإلى جانب الهيكل الصحيح، تؤثر صياغة العقود التجارية وفق القانون التركي مباشرةً في استدامة النمو.\n\nبصفتنا محامياً تجارياً في أنطاليا، نقدم المشورة عبر السلسلة الكاملة — تأسيس الشركات والمشاريع المشتركة والتوزيع والامتياز ونزاعات المساهمين. كفاءة الضريبة وحوكمة الإدارة واستراتيجية الخروج عناصر نُراعيها في تصميم كل عقد.",
+    },
+    services: {
+      tr: [
+        "Limited ve anonim şirket kuruluşu, esas sözleşme tasarımı",
+        "Yabancı sermayeli şirket için MERSİS ve ticaret sicil işlemleri",
+        "Şube, irtibat ofisi ve franchise yapılarının kurulması",
+        "Pay devri, sermaye artırımı ve ortaklıktan çıkarma süreçleri",
+        "Distribütörlük, bayilik, ortak girişim ve hisse sahipliği sözleşmeleri",
+        "Ticari sözleşme inceleme, müzakere ve revizyonu",
+        "Ticari uyuşmazlıklarda dava, arabuluculuk ve tahkim",
+        "İflas, konkordato ve borca batıklık süreçlerinde danışmanlık",
+      ],
+      en: [
+        "Setup of limited and joint-stock companies and articles drafting",
+        "MERSİS registration and trade registry filings for foreign-capital companies",
+        "Establishment of branches, liaison offices, and franchise structures",
+        "Share transfers, capital increases, and exclusion proceedings",
+        "Distribution, dealership, joint-venture, and shareholders' agreements",
+        "Review, negotiation, and revision of commercial contracts",
+        "Commercial litigation, mediation, and arbitration",
+        "Insolvency, composition, and over-indebtedness counsel",
+      ],
+      de: [
+        "Gründung von GmbH und AG, Entwurf der Satzung",
+        "MERSİS-Registrierung und Handelsregistereintragungen für ausländisch finanzierte Gesellschaften",
+        "Errichtung von Niederlassungen, Verbindungsbüros und Franchise-Strukturen",
+        "Anteilsübertragungen, Kapitalerhöhungen, Ausschlussverfahren",
+        "Vertriebs-, Händler-, Joint-Venture- und Gesellschafterverträge",
+        "Prüfung, Verhandlung und Überarbeitung von Handelsverträgen",
+        "Handelsprozesse, Mediation und Schiedsverfahren",
+        "Insolvenz-, Konkordat- und Überschuldungsberatung",
+      ],
+      ru: [
+        "Учреждение ООО и АО, разработка устава",
+        "Регистрация MERSİS и подача в торговый реестр для компаний с иностранным капиталом",
+        "Открытие филиалов, представительств и франчайзинговых структур",
+        "Передача долей, увеличение капитала, исключение участников",
+        "Договоры дистрибуции, дилерства, совместного предприятия и акционеров",
+        "Проверка, переговоры и пересмотр коммерческих контрактов",
+        "Коммерческие иски, медиация и арбитраж",
+        "Консультации по банкротству, мировому соглашению и неплатёжеспособности",
+      ],
+      ar: [
+        "تأسيس الشركات المحدودة وشركات المساهمة وصياغة النظام الأساسي",
+        "تسجيل MERSİS وإجراءات السجل التجاري للشركات ذات رأس المال الأجنبي",
+        "إنشاء الفروع ومكاتب الاتصال وهياكل الامتياز",
+        "نقل الحصص وزيادة رأس المال وإجراءات الاستبعاد",
+        "عقود التوزيع والوكالة والمشاريع المشتركة واتفاقيات المساهمين",
+        "مراجعة العقود التجارية والتفاوض عليها وتعديلها",
+        "التقاضي التجاري والوساطة والتحكيم",
+        "استشارات الإفلاس والصلح الواقي والإعسار",
+      ],
+    },
+    process: {
+      tr: "Bir yabancı yatırımcı için süreç önce hedef analizi ve uygun şirket tipinin belirlenmesi ile başlar. Ardından noter, MERSİS, ticaret sicil ve vergi dairesi nezdinde gerekli işlemler yürütülür; banka hesapları, e-imza ve ticari defterler açılır. Ortaklık ilişkisinin sürdürülmesinde esas sözleşme yanında pay sahipleri sözleşmesi ile yönetim haklarının ve çıkış senaryolarının açıkça düzenlenmesi tavsiye edilir. Uyuşmazlık çıktığında öncelikle arabuluculuk ve müzakere; sonuç alınamadığında ticari mahkeme veya tahkim yolu işletilir.",
+      en: "For a foreign investor, the process begins with goal analysis and selecting the appropriate company type. The required steps before the notary, MERSİS, trade registry, and tax office are then carried out; bank accounts, electronic signatures, and commercial books are opened. To preserve the partnership relationship, alongside the articles of association, a shareholders' agreement clearly regulating governance rights and exit scenarios is advised. If a dispute arises, mediation and negotiation come first; failing that, commercial litigation or arbitration is pursued.",
+      de: "Für einen ausländischen Investor beginnt der Prozess mit der Zielanalyse und der Wahl der geeigneten Gesellschaftsform. Anschließend werden die erforderlichen Schritte bei Notar, MERSİS, Handelsregister und Finanzamt durchgeführt; Bankkonten, elektronische Signaturen und Handelsbücher werden eingerichtet. Zur Erhaltung der Gesellschafterbeziehung empfiehlt sich neben der Satzung ein Gesellschaftervertrag, der Mitspracherechte und Ausstiegsszenarien klar regelt. Bei einem Streit gehen Mediation und Verhandlung vor; gelingt dies nicht, folgen Handelsprozess oder Schiedsverfahren.",
+      ru: "Для иностранного инвестора процесс начинается с анализа целей и выбора подходящего типа компании. Затем выполняются необходимые шаги перед нотариусом, в MERSİS, торговом реестре и налоговой инспекции; открываются банковские счета, оформляются электронные подписи и коммерческие книги. Для сохранения партнёрских отношений, помимо устава, рекомендуется акционерное соглашение, чётко регулирующее права управления и сценарии выхода. При возникновении спора сначала применяются медиация и переговоры; при их неэффективности — коммерческий суд или арбитраж.",
+      ar: "بالنسبة للمستثمر الأجنبي تبدأ العملية بتحليل الأهداف واختيار نوع الشركة المناسب. ثم تُنفَّذ الخطوات اللازمة أمام كاتب العدل وMERSİS والسجل التجاري ومصلحة الضرائب؛ وتُفتح الحسابات المصرفية وتُستخرج التوقيعات الإلكترونية والدفاتر التجارية. وللحفاظ على علاقة الشراكة، يُنصح بإبرام اتفاقية مساهمين إلى جانب النظام الأساسي، تنظم بوضوح حقوق الإدارة وسيناريوهات الخروج. وعند النزاع تُقدَّم الوساطة والتفاوض؛ وعند تعذرهما يُلجأ إلى المحكمة التجارية أو التحكيم.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Yabancı yatırımcı Türkiye'de şirket kurarken ortak yerli olmak zorunda mı?",
+          a: "Hayır. Yabancı bir gerçek veya tüzel kişi Türkiye'de tek başına %100 ortağı olduğu bir şirket kurabilir. Türk vatandaşı ortak veya yerel müdür şartı bulunmamaktadır.",
+        },
+        {
+          q: "Limited mi anonim şirket mi seçmeliyim?",
+          a: "Limited şirket küçük-orta ölçekli, esnek yönetim isteyen yapılar için; anonim şirket ise yüksek sermaye, hisse devri kolaylığı ve halka açılma potansiyeli olan yapılar için tercih edilir. Vergisel etki ve uzun vadeli plana göre karar vermek gerekir.",
+        },
+        {
+          q: "Türkiye'deki şirketim aleyhine yurtdışında dava açıldı; ne yapmalıyım?",
+          a: "Davanın hangi ülke mahkemesinde açıldığı ve uygulanacak hukuk kritiktir. Sözleşmedeki yetkili mahkeme veya tahkim hükmü incelenir. Türkiye'de doğacak tenfiz aşamasına da hazırlık yapılması gerekir.",
+        },
+      ],
+      en: [
+        {
+          q: "Must a foreign investor have a Turkish partner to form a company?",
+          a: "No. A foreign individual or legal entity may incorporate a company in Turkey as the sole 100% shareholder. There is no Turkish-partner or local-manager requirement.",
+        },
+        {
+          q: "Should I choose a limited liability or a joint-stock company?",
+          a: "Limited liability companies suit small-to-medium structures with flexible management; joint-stock companies are preferred where higher capital, ease of share transfer, and IPO potential matter. The decision depends on tax impact and long-term strategy.",
+        },
+        {
+          q: "A lawsuit has been filed abroad against my company in Turkey — what to do?",
+          a: "The forum and applicable law are critical. The contractual jurisdiction or arbitration clause is reviewed. Preparation for any subsequent enforcement stage in Turkey is also necessary.",
+        },
+      ],
+      de: [
+        {
+          q: "Muss ein ausländischer Investor einen türkischen Partner haben, um zu gründen?",
+          a: "Nein. Eine ausländische natürliche oder juristische Person kann in der Türkei als alleiniger 100 %-Gesellschafter gründen. Es gibt keine Pflicht zu einem türkischen Partner oder lokalen Geschäftsführer.",
+        },
+        {
+          q: "GmbH oder AG?",
+          a: "GmbHs eignen sich für kleine und mittlere Strukturen mit flexibler Führung; AGs werden bevorzugt, wenn höheres Kapital, einfache Anteilsübertragung und IPO-Potenzial wichtig sind. Die Entscheidung hängt von Steuerwirkung und langfristiger Strategie ab.",
+        },
+        {
+          q: "Im Ausland wurde gegen meine türkische Gesellschaft Klage erhoben — was tun?",
+          a: "Forum und anwendbares Recht sind entscheidend. Die vertragliche Gerichtsstand- oder Schiedsklausel wird geprüft. Auch eine eventuelle spätere Vollstreckung in der Türkei ist vorzubereiten.",
+        },
+      ],
+      ru: [
+        {
+          q: "Должен ли иностранный инвестор иметь турецкого партнёра?",
+          a: "Нет. Иностранное физическое или юридическое лицо может зарегистрировать компанию в Турции как единственный 100% участник. Требований о турецком партнёре или местном директоре нет.",
+        },
+        {
+          q: "ООО или АО?",
+          a: "ООО подходят для малых и средних структур с гибким управлением; АО предпочтительнее при высоком капитале, лёгкой передаче акций и потенциале IPO. Решение зависит от налоговых последствий и долгосрочной стратегии.",
+        },
+        {
+          q: "За рубежом подан иск против моей компании в Турции — что делать?",
+          a: "Подсудность и применимое право критичны. Анализируется договорная оговорка о подсудности или арбитраже. Также готовится возможная стадия исполнения решения в Турции.",
+        },
+      ],
+      ar: [
+        {
+          q: "هل يلزم على المستثمر الأجنبي وجود شريك تركي لتأسيس شركة؟",
+          a: "لا. يمكن لشخص أجنبي طبيعي أو اعتباري تأسيس شركة في تركيا بصفته المالك الوحيد 100%. ولا يوجد اشتراط شريك تركي أو مدير محلي.",
+        },
+        {
+          q: "هل أختار شركة محدودة أم شركة مساهمة؟",
+          a: "الشركات المحدودة مناسبة للهياكل الصغيرة والمتوسطة بإدارة مرنة؛ بينما تُفضَّل شركات المساهمة عند الحاجة إلى رأس مال أعلى ونقل أسهم ميسّر وإمكانية إدراج. ويعتمد القرار على الأثر الضريبي والاستراتيجية بعيدة المدى.",
+        },
+        {
+          q: "رُفعت دعوى ضد شركتي التركية في الخارج — ما العمل؟",
+          a: "الجهة القضائية والقانون المنطبق حاسمان. تُراجَع شروط الاختصاص أو التحكيم في العقد. كما يجب التحضير لمرحلة التنفيذ المحتملة لاحقاً في تركيا.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "miras-hukuku",
+    metaTitle: {
+      tr: "Antalya Miras Avukatı | Yabancılar İçin Tereke & Vasiyet Hukuku",
+      en: "Antalya Inheritance Lawyer | Estate & Will Law for Foreigners",
+      de: "Antalya Erbrechtsanwalt | Nachlass- & Testamentsrecht für Ausländer",
+      ru: "Адвокат по наследству в Анталье | Право наследства и завещаний для иностранцев",
+      ar: "محامي ميراث أنطاليا | قانون التركة والوصية للأجانب",
+    },
+    metaDescription: {
+      tr: "Türkiye'de yabancıların miras intikali, vasiyetname düzenleme, mirasın reddi, tereke tespiti ve yabancı vasiyetlerin tanınmasında deneyimli miras hukuku avukatı.",
+      en: "Experienced inheritance lawyer for foreigners in Turkey: estate transfer, will preparation, renunciation of inheritance, estate inventory, and recognition of foreign wills.",
+      de: "Erfahrener Erbrechtsanwalt für Ausländer in der Türkei: Erbübergang, Testamentserrichtung, Erbausschlagung, Nachlassinventar und Anerkennung ausländischer Testamente.",
+      ru: "Опытный адвокат по наследственному праву для иностранцев в Турции: оформление наследства, составление завещаний, отказ от наследства, инвентаризация и признание иностранных завещаний.",
+      ar: "محامي ميراث متمرس للأجانب في تركيا: نقل التركات وإعداد الوصايا والتنازل عن الإرث وجرد التركة والاعتراف بالوصايا الأجنبية.",
+    },
+    intro: {
+      tr: "Türkiye'de gayrimenkul, banka hesabı veya iştirak edinen pek çok yabancı, zamanla bu varlıkların miras yoluyla aile bireylerine intikali sorunuyla karşılaşır. Mirasçıların farklı ülkelerde yaşıyor olması, Türk vatandaşı olmamaları ve bazı dosyalarda yabancı bir mahkemenin verdiği kararla işlem yapılması gerekmesi süreci karmaşıklaştırır. Doğru bilgi ve doğru hukuki rehberlik olmaksızın bu dosyalar aylar hatta yıllarca sürüncemede kalabilir.\n\nAntalya'da miras avukatı olarak yabancı mirasçılara veraset belgesi alınmasından tereke tespitine, intikal işlemlerinden mirasın paylaşımına ve yabancı ülke vasiyetlerinin Türkiye'de tanınmasına kadar tüm süreçlerde destek vermekteyiz. Henüz hayattayken Türkiye'deki malvarlığını aile fertlerine doğru şekilde aktarmak isteyenlere de vasiyetname düzenlemesi ve miras sözleşmeleri konusunda rehberlik ediyoruz.",
+      en: "Many foreigners who own property, bank accounts, or interests in Turkey eventually face the question of how those assets will pass to their heirs. The fact that heirs may live in different countries, may not hold Turkish citizenship, and in some files require action under foreign court orders adds significant complexity. Without proper information and legal guidance, such files can drag on for months or even years.\n\nAs an inheritance lawyer in Antalya, we support foreign heirs through every stage — issuance of certificates of inheritance, estate inventory, transfer procedures, division of the estate, and the recognition of foreign wills in Turkey. We also advise those who, while still living, wish to transfer their Turkish assets to family members properly, through wills and inheritance agreements.",
+      de: "Viele Ausländer, die Immobilien, Bankkonten oder Beteiligungen in der Türkei besitzen, müssen sich irgendwann mit der Frage befassen, wie diese Vermögenswerte auf ihre Erben übergehen. Dass Erben in verschiedenen Ländern leben, möglicherweise keine türkische Staatsangehörigkeit haben und in manchen Akten ausländische Gerichtsbeschlüsse erforderlich sind, erhöht die Komplexität erheblich. Ohne fundierte Informationen und rechtliche Begleitung können solche Akten Monate oder Jahre dauern.\n\nAls Erbrechtsanwalt in Antalya begleiten wir ausländische Erben durch jede Phase — Erbschein, Nachlassinventar, Übertragungsverfahren, Aufteilung des Nachlasses und Anerkennung ausländischer Testamente in der Türkei. Auch beraten wir Personen, die zu Lebzeiten ihre türkischen Vermögenswerte rechtssicher an Familienangehörige übertragen möchten — mittels Testament und Erbverträgen.",
+      ru: "Многие иностранцы, владеющие в Турции недвижимостью, счетами или долями, рано или поздно сталкиваются с вопросом передачи этих активов наследникам. Тот факт, что наследники живут в разных странах, могут не иметь турецкого гражданства, а в ряде дел требуются действия по решениям иностранных судов, существенно усложняет процесс. Без надлежащей информации и юридического сопровождения такие дела могут тянуться месяцами или годами.\n\nКак адвокат по наследству в Анталье мы сопровождаем иностранных наследников на всех этапах — выдача свидетельства о праве на наследство, инвентаризация, процедуры перехода прав, раздел наследства и признание иностранных завещаний в Турции. Также мы консультируем тех, кто при жизни хочет правильно передать своё турецкое имущество членам семьи — через завещания и наследственные соглашения.",
+      ar: "كثير من الأجانب الذين يملكون عقارات أو حسابات مصرفية أو حصصاً في تركيا يواجهون عاجلاً أو آجلاً مسألة انتقال هذه الأصول إلى الورثة. وكون الورثة قد يقيمون في دول مختلفة وقد لا يحملون الجنسية التركية، وفي بعض الملفات تستوجب أوامر من محاكم أجنبية، يضيف تعقيداً كبيراً. ودون معلومات سليمة وتوجيه قانوني، يمكن أن تطول هذه الملفات أشهراً وحتى سنوات.\n\nبصفتنا محامي ميراث في أنطاليا، نواكب الورثة الأجانب في كل المراحل — استخراج حصر الإرث وجرد التركة وإجراءات النقل وتقسيم التركة والاعتراف بالوصايا الأجنبية في تركيا. كما نقدم المشورة لمن يرغبون أثناء حياتهم بنقل ممتلكاتهم في تركيا إلى أفراد العائلة بشكل صحيح عبر الوصايا واتفاقيات الميراث.",
+    },
+    services: {
+      tr: [
+        "Veraset ilamı / mirasçılık belgesi alımı",
+        "Tereke tespiti, mühürleme ve defter tutma süreçleri",
+        "Tapu, banka, taşıt ve şirket payı intikali işlemleri",
+        "Mirasın reddi ve mirasta hak iddiası davaları",
+        "Vasiyetname hazırlanması ve yorumu (resmi, el yazılı, sözlü)",
+        "Saklı pay ve tenkis davaları",
+        "Yabancı mahkeme vasiyet kararlarının Türkiye'de tanınması ve tenfizi",
+        "Veraset ve intikal vergisi planlaması",
+      ],
+      en: [
+        "Issuance of certificates of inheritance",
+        "Estate inventory, sealing, and bookkeeping",
+        "Title, bank, vehicle, and shareholding transfer procedures",
+        "Renunciation of inheritance and claim-to-inheritance actions",
+        "Drafting and interpretation of wills (official, holographic, oral)",
+        "Reserved-share and reduction (tenkis) actions",
+        "Recognition and enforcement of foreign court wills in Turkey",
+        "Inheritance and transfer tax planning",
+      ],
+      de: [
+        "Erteilung des Erbscheins",
+        "Nachlassinventar, Versiegelung und Nachlassbuchführung",
+        "Übertragungen von Grundbesitz, Bankkonten, Fahrzeugen und Geschäftsanteilen",
+        "Erbausschlagung und Erbansprüche",
+        "Errichtung und Auslegung von Testamenten (öffentlich, eigenhändig, mündlich)",
+        "Pflichtteils- und Herabsetzungsklagen",
+        "Anerkennung und Vollstreckung ausländischer Testamente in der Türkei",
+        "Erbschaft- und Schenkungssteuerplanung",
+      ],
+      ru: [
+        "Выдача свидетельства о праве на наследство",
+        "Инвентаризация, опечатывание и ведение наследственной книги",
+        "Перевод недвижимости, банковских счетов, транспорта и долей в компаниях",
+        "Отказ от наследства и иски о признании прав наследования",
+        "Составление и толкование завещаний (нотариальные, собственноручные, устные)",
+        "Иски об обязательной доле и снижении (tenkis)",
+        "Признание и приведение в исполнение иностранных завещаний в Турции",
+        "Планирование налога на наследство и переход прав",
+      ],
+      ar: [
+        "استخراج حصر الإرث",
+        "جرد التركة والإغلاق ومسك الدفاتر",
+        "إجراءات نقل العقار والحسابات المصرفية والمركبات وحصص الشركات",
+        "التنازل عن الإرث ودعاوى ادعاء الإرث",
+        "صياغة الوصايا وتفسيرها (رسمية وبخط اليد وشفهية)",
+        "دعاوى الحصة المحفوظة وإنقاص الوصية",
+        "الاعتراف بأحكام الوصايا الأجنبية وتنفيذها في تركيا",
+        "تخطيط ضرائب الميراث والانتقال",
+      ],
+    },
+    process: {
+      tr: "Bir yabancı mirasçı için süreç çoğunlukla murisin ölümünün resmi makamlarca tespit edilmesi ve mirasçılık belgesinin (veraset ilamı) alınması ile başlar. Bu belge alındıktan sonra her bir varlık için ayrı intikal işlemleri (tapu, banka, sigorta, şirket pay defteri) yürütülür. Yabancı bir vasiyet bulunması halinde tanıma ve tenfiz davası açılması; mirasta saklı paya tecavüz iddiası varsa tenkis davası açılması gerekebilir. Süreç boyunca veraset ve intikal vergisinin doğru hesaplanması ve mirasın reddi opsiyonunun değerlendirilmesi de mali açıdan büyük önem taşır.",
+      en: "For a foreign heir, the process typically begins with the official recording of the deceased's death and the issuance of the certificate of inheritance. Once obtained, individual transfer procedures are carried out for each asset (title, bank, insurance, shareholders' register). If a foreign will exists, recognition and enforcement proceedings may be required; reduction (tenkis) actions may be needed where reserved shares have been infringed. Throughout, accurate calculation of inheritance and transfer tax — and consideration of renunciation — is significant from a financial perspective.",
+      de: "Für ausländische Erben beginnt der Prozess in der Regel mit der amtlichen Erfassung des Todes und der Ausstellung des Erbscheins. Nach Erhalt erfolgen Einzelübertragungen für jedes Vermögensstück (Grundbuch, Bank, Versicherung, Aktionärsregister). Bei einem ausländischen Testament kann ein Anerkennungs- und Vollstreckungsverfahren erforderlich sein; bei Pflichtteilsverletzung sind Herabsetzungsklagen möglich. Durchgehend sind die korrekte Berechnung der Erbschafts- und Übertragungssteuer und die Prüfung der Ausschlagung wirtschaftlich bedeutsam.",
+      ru: "Для иностранного наследника процесс обычно начинается с официального оформления факта смерти наследодателя и выдачи свидетельства о праве на наследство. Затем для каждого актива (недвижимость, банк, страховка, реестр акционеров) проводятся отдельные процедуры перехода. При наличии иностранного завещания может потребоваться его признание и приведение в исполнение; при нарушении обязательной доли возможны иски о снижении (tenkis). На протяжении всего процесса важно правильно рассчитать налог на наследство и переход и оценить вариант отказа от наследства.",
+      ar: "بالنسبة للوارث الأجنبي تبدأ العملية عادةً بتسجيل وفاة المورِّث رسمياً واستخراج حصر الإرث. وبعد الحصول عليه تتم إجراءات النقل المنفصلة لكل أصل (الطابو والبنك والتأمين وسجل المساهمين). وعند وجود وصية أجنبية قد تستلزم إجراءات اعتراف وتنفيذ؛ وعند انتهاك الحصة المحفوظة قد تُرفع دعاوى إنقاص. وطوال العملية يكتسب الحساب الدقيق لضريبة الميراث والانتقال — ودراسة خيار التنازل عن الإرث — أهمية مالية كبيرة.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Türkiye'de gayrimenkul sahibi yabancı bir mirasçı olarak ne yapmalıyım?",
+          a: "Öncelikle veraset ilamı (mirasçılık belgesi) alınmalı; ardından tapu müdürlüğü nezdinde intikal işlemi yapılmalıdır. Ayrıca veraset ve intikal vergisi beyannamesi yasal süresi içinde verilmelidir. Belgelerin apostil ve tercüme süreci de ayrıca yürütülür.",
+        },
+        {
+          q: "Yabancı bir vasiyetnameyle Türkiye'deki mülk paylaşımı yapılabilir mi?",
+          a: "Doğrudan değil. Yabancı vasiyetnamenin Türkiye'de hukuki sonuç doğurması için tanıma ve tenfiz davası gerekmektedir. Karar Türk hukuk düzenine aykırı olmadığı sürece tanınır.",
+        },
+        {
+          q: "Mirası reddedebilir miyim?",
+          a: "Evet. Mirasın reddi için yasal süre içinde sulh hukuk mahkemesine başvurulması gerekmektedir. Borç miktarının terekeyi aştığı durumlarda red ekonomik açıdan koruyucu olabilir.",
+        },
+      ],
+      en: [
+        {
+          q: "I am a foreign heir to property in Turkey — what should I do?",
+          a: "First obtain the certificate of inheritance, then carry out the transfer at the land registry. The inheritance and transfer tax declaration must also be filed within the statutory period. Apostille and translation of foreign documents are part of the process.",
+        },
+        {
+          q: "Can a foreign will be used to distribute Turkish property?",
+          a: "Not directly. To take legal effect in Turkey, a foreign will must be recognised and enforced through court proceedings. It will be recognised provided it is not contrary to Turkish public order.",
+        },
+        {
+          q: "Can I renounce the inheritance?",
+          a: "Yes. Renunciation must be filed before the civil court of peace within the statutory period. Where debts exceed the estate, renunciation can be financially protective.",
+        },
+      ],
+      de: [
+        {
+          q: "Ich bin ausländischer Erbe einer Immobilie in der Türkei — was tun?",
+          a: "Zunächst den Erbschein einholen, dann die Übertragung beim Grundbuchamt durchführen. Auch die Erbschafts- und Übertragungssteuererklärung ist innerhalb der gesetzlichen Frist abzugeben. Apostille und Übersetzung ausländischer Urkunden gehören zum Prozess.",
+        },
+        {
+          q: "Kann ein ausländisches Testament den türkischen Nachlass regeln?",
+          a: "Nicht unmittelbar. Damit ein ausländisches Testament in der Türkei rechtliche Wirkung entfaltet, ist eine Anerkennungs- und Vollstreckungsklage erforderlich. Steht es nicht im Widerspruch zum türkischen ordre public, wird es anerkannt.",
+        },
+        {
+          q: "Kann ich die Erbschaft ausschlagen?",
+          a: "Ja. Die Ausschlagung ist innerhalb der gesetzlichen Frist beim Friedensgericht einzulegen. Übersteigen die Schulden den Nachlass, kann die Ausschlagung wirtschaftlich schützend wirken.",
+        },
+      ],
+      ru: [
+        {
+          q: "Я иностранный наследник недвижимости в Турции — что делать?",
+          a: "Сначала получите свидетельство о праве на наследство, затем проведите оформление перехода права в кадастровом управлении. Декларация по налогу на наследство и переход подаётся в установленный срок. Апостиль и перевод иностранных документов — часть процесса.",
+        },
+        {
+          q: "Можно ли распределить турецкое имущество по иностранному завещанию?",
+          a: "Не напрямую. Чтобы иностранное завещание имело юридическую силу в Турции, необходима судебная процедура признания и приведения в исполнение. Если оно не противоречит публичному порядку Турции, оно будет признано.",
+        },
+        {
+          q: "Могу ли я отказаться от наследства?",
+          a: "Да. Отказ подаётся в мировой гражданский суд в установленный срок. Когда долги превышают наследство, отказ может быть финансово защитным.",
+        },
+      ],
+      ar: [
+        {
+          q: "أنا وارث أجنبي لعقار في تركيا — ما العمل؟",
+          a: "احصل أولاً على حصر الإرث، ثم نفّذ نقل الملكية لدى دائرة الطابو. كما يجب تقديم إقرار ضريبة الميراث والانتقال خلال المهلة القانونية. ويُعدّ التصديق والترجمة للوثائق الأجنبية جزءاً من العملية.",
+        },
+        {
+          q: "هل يمكن استخدام وصية أجنبية لتوزيع ممتلكات تركية؟",
+          a: "ليس مباشرة. لكي يكون للوصية الأجنبية أثر قانوني في تركيا، يلزم رفع دعوى اعتراف وتنفيذ. وإن لم تتعارض مع النظام العام التركي يُعترَف بها.",
+        },
+        {
+          q: "هل يمكنني التنازل عن الإرث؟",
+          a: "نعم. يُقدَّم التنازل أمام محكمة الصلح المدنية خلال المهلة القانونية. وعندما تتجاوز الديون التركة قد يكون التنازل حمايةً مالية.",
+        },
+      ],
+    },
+  },
 ];
 
 export function getPracticeAreaContent(slug: string): PracticeAreaContent | undefined {
