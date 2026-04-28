@@ -1122,6 +1122,471 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
     },
   },
+  {
+    slug: "bilisim-yapay-zeka-hukuku",
+    metaTitle: {
+      tr: "Antalya Bilişim & Yapay Zekâ Hukuku Avukatı | KVKK & Veri Koruması",
+      en: "Antalya IT & AI Law Attorney | KVKK & Data Protection",
+      de: "Antalya IT- & KI-Rechtsanwalt | KVKK & Datenschutz",
+      ru: "Адвокат по IT и AI праву в Анталье | KVKK и защита данных",
+      ar: "محامي تقنية المعلومات والذكاء الاصطناعي أنطاليا | KVKK وحماية البيانات",
+    },
+    metaDescription: {
+      tr: "KVKK uyumu, veri ihlali, yazılım lisansı, e-ticaret ve yapay zekâ projelerinde Antalya'da deneyimli bilişim hukuku avukatı.",
+      en: "Experienced IT law attorney in Antalya for KVKK compliance, data breaches, software licensing, e-commerce, and AI projects.",
+      de: "Erfahrener IT-Rechtsanwalt in Antalya für KVKK-Compliance, Datenschutzverletzungen, Softwarelizenzen, E-Commerce und KI-Projekte.",
+      ru: "Опытный адвокат по IT-праву в Анталье: соответствие KVKK, утечки данных, лицензирование ПО, электронная коммерция и AI-проекты.",
+      ar: "محامي تقنية معلومات متمرس في أنطاليا للامتثال لـKVKK وحوادث تسريب البيانات وترخيص البرمجيات والتجارة الإلكترونية ومشاريع الذكاء الاصطناعي.",
+    },
+    intro: {
+      tr: "Dijital dönüşüm, hukukun hızla evrim geçirdiği bir alan haline gelmiştir. Türkiye'de KVKK (Kişisel Verilerin Korunması Kanunu) ile başlayan veri koruma çerçevesi, bugün e-ticaretten yapay zekâ tabanlı uygulamalara kadar geniş bir yelpazeyi kapsamaktadır. Yabancı sermayeli teknoloji şirketleri ve startup'lar Türkiye pazarına girerken yalnızca ürün tasarımı değil veri saklama, sözleşmeler, kullanıcı haklarına ilişkin bildirimler ve veri ihlali yönetimi konularında da hukuki uyumu sağlamak zorundadır.\n\nBüromuz, yazılım lisans sözleşmelerinin müzakeresinden e-ticaret platformu mevzuat uyumluluğuna, KVKK aydınlatma metni ve veri envanteri çalışmasından yapay zekâ tabanlı ürünlerin sözleşmesel risk değerlendirmesine kadar bilişim hukuku alanının tüm bileşenlerinde danışmanlık vermektedir.",
+      en: "Digital transformation has become an area where law evolves rapidly. Turkey's data protection framework, anchored by the KVKK (Personal Data Protection Law), now spans e-commerce, software, and AI-driven applications. Foreign-capital technology companies and startups entering the Turkish market must address not only product design but also data retention, contracts, user-rights notices, and data breach management in legal terms.\n\nOur firm advises across the full spectrum of IT law — software licensing negotiations, e-commerce platform compliance, KVKK privacy notices and data inventories, and contractual risk assessment for AI-based products.",
+      de: "Die digitale Transformation ist ein Rechtsbereich, der sich rasch weiterentwickelt. Die in der Türkei mit dem KVKK (Datenschutzgesetz) verankerte Grundlage erstreckt sich heute über E-Commerce, Software bis zu KI-Anwendungen. Ausländisch finanzierte Technologieunternehmen und Startups, die in den türkischen Markt eintreten, müssen rechtlich Datenhaltung, Verträge, Nutzerrechtshinweise und Datenschutzvorfallmanagement adressieren — nicht nur Produktgestaltung.\n\nUnsere Kanzlei berät im gesamten IT-Recht — Softwarelizenzverhandlungen, E-Commerce-Compliance, KVKK-Informationspflichten und Datenbestandsanalysen sowie vertragliche Risikobewertung für KI-Produkte.",
+      ru: "Цифровая трансформация — область права, развивающаяся очень быстро. Турецкая система защиты данных, основанная на KVKK (Закон о защите персональных данных), сегодня охватывает электронную коммерцию, ПО и AI-приложения. Технологические компании с иностранным капиталом и стартапы, выходящие на турецкий рынок, должны решать не только продуктовые, но и правовые вопросы: хранение данных, контракты, уведомления о правах пользователей и управление инцидентами с данными.\n\nНаша фирма консультирует по всему спектру IT-права — переговоры по лицензиям на ПО, соответствие e-commerce платформ, KVKK уведомления и инвентаризации данных, а также контрактная оценка рисков для AI-продуктов.",
+      ar: "أصبح التحوّل الرقمي مجالاً قانونياً يتطور بسرعة. ويغطّي إطار حماية البيانات في تركيا، المرتكز على KVKK (قانون حماية البيانات الشخصية)، اليوم التجارة الإلكترونية والبرمجيات وتطبيقات الذكاء الاصطناعي. وعلى شركات التكنولوجيا برأس المال الأجنبي والشركات الناشئة التي تدخل السوق التركية معالجة الجوانب القانونية لتخزين البيانات والعقود وإشعارات حقوق المستخدمين وإدارة حوادث البيانات — لا تصميم المنتج فقط.\n\nيقدم مكتبنا الاستشارة في كامل قانون تقنية المعلومات — مفاوضات تراخيص البرمجيات والامتثال لمنصات التجارة الإلكترونية وإشعارات KVKK وجرد البيانات وتقييم المخاطر التعاقدية لمنتجات الذكاء الاصطناعي.",
+    },
+    services: {
+      tr: [
+        "KVKK uyum projeleri: aydınlatma metinleri, veri envanteri, açık rıza yapıları",
+        "Veri ihlali bildirim ve KVKK Kurulu süreçlerinde temsil",
+        "Yazılım lisans sözleşmeleri (SaaS, on-premise, OEM, dağıtım)",
+        "E-ticaret mevzuatı, mesafeli sözleşme ve elektronik ticaret iletisi uyumu",
+        "Yapay zekâ ürünleri için sözleşmesel risk ve sorumluluk düzenlemesi",
+        "Bulut hizmetleri ve veri yurt dışına aktarımı sözleşmeleri",
+        "Fikri mülkiyet, marka ve telif hakkı koruması",
+        "Bilişim suçlarında savunma ve siber olay müdahale planı",
+      ],
+      en: [
+        "KVKK compliance projects: privacy notices, data inventory, explicit consent flows",
+        "Data breach notifications and proceedings before the KVKK Board",
+        "Software licensing contracts (SaaS, on-premise, OEM, distribution)",
+        "E-commerce regulation, distance contract, and electronic commercial message compliance",
+        "Contractual risk and liability allocation for AI products",
+        "Cloud services and cross-border data transfer contracts",
+        "Intellectual property, trademark, and copyright protection",
+        "Defence in cyber-crime cases and incident response planning",
+      ],
+      de: [
+        "KVKK-Compliance-Projekte: Datenschutzerklärungen, Datenbestand, ausdrückliche Einwilligungsflüsse",
+        "Meldung von Datenschutzvorfällen und Verfahren vor dem KVKK-Vorstand",
+        "Softwarelizenzverträge (SaaS, On-Premise, OEM, Vertrieb)",
+        "E-Commerce-Recht, Fernabsatzverträge und elektronische Werbe-Compliance",
+        "Vertragliche Risiko- und Haftungsverteilung für KI-Produkte",
+        "Cloud-Dienste und grenzüberschreitende Datenübertragungsverträge",
+        "Gewerbliche Schutzrechte, Marken- und Urheberrechtsschutz",
+        "Verteidigung in Cyber-Delikten und Incident-Response-Planung",
+      ],
+      ru: [
+        "Проекты соответствия KVKK: уведомления о конфиденциальности, инвентаризация данных, согласия",
+        "Уведомления об инцидентах и разбирательства в Совете KVKK",
+        "Договоры лицензирования ПО (SaaS, on-premise, OEM, дистрибуция)",
+        "Право e-commerce, дистанционные договоры, соответствие электронных коммерческих сообщений",
+        "Распределение договорных рисков и ответственности по AI-продуктам",
+        "Облачные сервисы и трансграничные договоры передачи данных",
+        "Защита интеллектуальной собственности, товарных знаков и авторского права",
+        "Защита по делам о киберпреступлениях и планы реагирования на инциденты",
+      ],
+      ar: [
+        "مشاريع الامتثال لـKVKK: إشعارات الخصوصية وجرد البيانات وآليات الموافقة الصريحة",
+        "إخطارات اختراق البيانات والإجراءات أمام مجلس KVKK",
+        "عقود ترخيص البرمجيات (SaaS، on-premise، OEM، التوزيع)",
+        "أنظمة التجارة الإلكترونية وعقود البيع عن بُعد والامتثال للرسائل التجارية الإلكترونية",
+        "تخصيص المخاطر والمسؤوليات التعاقدية لمنتجات الذكاء الاصطناعي",
+        "عقود الخدمات السحابية ونقل البيانات عبر الحدود",
+        "حماية الملكية الفكرية والعلامات التجارية وحقوق المؤلف",
+        "الدفاع في جرائم المعلوماتية وخطط الاستجابة للحوادث",
+      ],
+    },
+    process: {
+      tr: "Bir teknoloji şirketi için danışmanlığa, mevcut iş süreçleri ve veri akışlarının haritalanmasıyla başlarız. Eksiklikler tespit edilir; aydınlatma metinleri, açık rıza tasarımı, çerez politikası ve veri envanteri eş zamanlı kurulur. Sözleşmesel ilişkilerde tedarikçi, müşteri ve çalışan tarafında uygun KVKK ek protokolleri imzalanır. Veri ihlali yaşanması durumunda 72 saatlik kritik bildirim süresine uygun hareket edilir; etki değerlendirmesi yapılır ve KVKK Kurul ile etkin iletişim sağlanır.",
+      en: "Counsel for a technology company begins by mapping current business processes and data flows. Gaps are identified, then privacy notices, consent design, cookie policies, and data inventories are deployed in parallel. Suitable KVKK addenda are signed with vendors, customers, and employees. In a breach scenario, the critical 72-hour notification window is observed; an impact assessment is run and effective communication with the KVKK Board is maintained.",
+      de: "Die Beratung eines Technologieunternehmens beginnt mit der Abbildung aktueller Geschäftsprozesse und Datenflüsse. Lücken werden identifiziert, anschließend werden Datenschutzhinweise, Einwilligungsdesigns, Cookie-Richtlinien und Datenbestände parallel implementiert. Mit Lieferanten, Kunden und Mitarbeitern werden geeignete KVKK-Zusatzvereinbarungen unterzeichnet. Im Vorfallsfall wird die kritische 72-Stunden-Meldepflicht eingehalten; eine Folgenabschätzung wird durchgeführt und die Kommunikation mit dem KVKK-Vorstand effektiv geführt.",
+      ru: "Консультирование технологической компании начинается с картирования текущих бизнес-процессов и потоков данных. Выявляются пробелы; параллельно внедряются уведомления о конфиденциальности, дизайн согласий, cookie-политики и инвентаризация данных. С поставщиками, клиентами и сотрудниками подписываются соответствующие приложения KVKK. В случае инцидента соблюдается критическое 72-часовое окно уведомления; проводится оценка воздействия и поддерживается эффективная связь с Советом KVKK.",
+      ar: "تبدأ الاستشارة لشركة تقنية برسم خرائط لعمليات الأعمال وتدفقات البيانات الحالية. تُحدَّد الثغرات؛ ثم تُنشأ إشعارات الخصوصية وتصميم الموافقات وسياسات ملفات تعريف الارتباط وجرد البيانات بالتوازي. وتُوقَّع ملاحق KVKK المناسبة مع الموردين والعملاء والموظفين. وعند وقوع حادثة، تُحترم نافذة الإخطار الحرجة 72 ساعة؛ يُجرى تقييم للأثر ويُحافَظ على تواصل فعّال مع مجلس KVKK.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Veri ihlali yaşadık, ne yapmalıyız?",
+          a: "İhlal tespit edildikten sonra teknik müdahale ile birlikte hukuki süreç de paralel yürütülmelidir. KVKK Kurulu'na 72 saat içinde bildirim ve etkilenen ilgili kişilere bilgilendirme yapılması gerekebilir. Etki değerlendirmesi ve hesap verebilirlik dosyası hazırlanmalıdır.",
+        },
+        {
+          q: "Verileri yurtdışına aktarabilir miyiz?",
+          a: "KVKK kapsamında yurtdışına veri aktarımı belirli koşullara tabidir. Standart sözleşme maddelerinin imzası, açık rıza alınması veya bağlayıcı kurumsal kuralların onayı gibi seçenekler değerlendirilmelidir.",
+        },
+        {
+          q: "Yapay zekâ tabanlı ürün geliştiriyoruz, hukuki risk nasıl yönetilir?",
+          a: "Eğitim verilerinin kaynağı ve hukuki dayanağı, çıktıların doğruluğu ve sorumluluk dağılımı, kullanıcıya yapılan açıklama ve insan denetimi mekanizmaları sözleşme ve aydınlatma metinleri ile somut biçimde düzenlenmelidir.",
+        },
+      ],
+      en: [
+        {
+          q: "We have suffered a data breach — what should we do?",
+          a: "Upon detection, technical response and legal steps must run in parallel. Notification to the KVKK Board within 72 hours and information to affected data subjects may be required. An impact assessment and accountability file should be prepared.",
+        },
+        {
+          q: "Can we transfer data abroad?",
+          a: "Cross-border transfer under KVKK is subject to specific conditions. Options such as standard contractual clauses, explicit consent, or approval of binding corporate rules should be evaluated.",
+        },
+        {
+          q: "We're building an AI product — how to manage legal risk?",
+          a: "Sources and legal basis of training data, accuracy of outputs, allocation of liability, user-facing disclosures, and human oversight must be regulated concretely in contracts and privacy notices.",
+        },
+      ],
+      de: [
+        {
+          q: "Wir haben einen Datenschutzvorfall erlitten — was tun?",
+          a: "Nach Feststellung müssen technische Reaktion und rechtliche Schritte parallel laufen. Innerhalb von 72 Stunden ist eine Meldung an den KVKK-Vorstand sowie ggf. eine Information der Betroffenen zu prüfen. Eine Folgenabschätzung und Rechenschaftsdokumentation sind anzufertigen.",
+        },
+        {
+          q: "Können wir Daten ins Ausland übermitteln?",
+          a: "Eine Übermittlung unter KVKK ist an bestimmte Voraussetzungen geknüpft. Optionen wie Standardvertragsklauseln, ausdrückliche Einwilligung oder Genehmigung verbindlicher unternehmensinterner Vorschriften sind zu prüfen.",
+        },
+        {
+          q: "Wir entwickeln ein KI-Produkt — wie managen wir rechtliche Risiken?",
+          a: "Herkunft und Rechtsgrundlage der Trainingsdaten, Genauigkeit der Ausgaben, Haftungsverteilung, Hinweise an Nutzer und Mechanismen menschlicher Aufsicht sind in Verträgen und Datenschutzhinweisen konkret zu regeln.",
+        },
+      ],
+      ru: [
+        {
+          q: "У нас произошла утечка данных — что делать?",
+          a: "После обнаружения техническое реагирование и юридические шаги должны идти параллельно. Возможно требуется уведомление Совета KVKK в течение 72 часов и информирование затронутых субъектов данных. Должны быть подготовлены оценка воздействия и документация подотчётности.",
+        },
+        {
+          q: "Можем ли мы передавать данные за рубеж?",
+          a: "Трансграничная передача по KVKK подчинена определённым условиям. Следует оценить варианты — стандартные договорные оговорки, явное согласие или утверждённые обязательные корпоративные правила.",
+        },
+        {
+          q: "Мы разрабатываем AI-продукт — как управлять правовым риском?",
+          a: "Источники и правовая основа обучающих данных, точность выходов, распределение ответственности, раскрытия пользователю и механизмы человеческого контроля должны быть конкретно урегулированы в контрактах и уведомлениях о конфиденциальности.",
+        },
+      ],
+      ar: [
+        {
+          q: "تعرضنا لاختراق بيانات — ماذا نفعل؟",
+          a: "بعد الاكتشاف يجب أن تسير الاستجابة التقنية والخطوات القانونية بالتوازي. وقد يلزم الإخطار إلى مجلس KVKK خلال 72 ساعة وإبلاغ الأشخاص المعنيين. ويجب إعداد تقييم الأثر وملف المساءلة.",
+        },
+        {
+          q: "هل يمكننا نقل البيانات إلى الخارج؟",
+          a: "النقل عبر الحدود وفق KVKK يخضع لشروط محددة. ينبغي تقييم خيارات مثل البنود التعاقدية النموذجية أو الموافقة الصريحة أو اعتماد قواعد ملزِمة للشركات.",
+        },
+        {
+          q: "نطور منتجاً بالذكاء الاصطناعي — كيف نديره قانونياً؟",
+          a: "يجب تنظيم مصادر بيانات التدريب وأساسها القانوني، ودقة المخرجات، وتوزيع المسؤولية، وإشعارات المستخدم وآليات الإشراف البشري بشكل ملموس في العقود وإشعارات الخصوصية.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "is-hukuku",
+    metaTitle: {
+      tr: "Antalya İş Hukuku Avukatı | Yabancı Çalışanlar & Şirketler İçin",
+      en: "Antalya Labour Law Attorney | For Foreign Employees & Employers",
+      de: "Antalya Arbeitsrechtsanwalt | Für ausländische Arbeitnehmer & Arbeitgeber",
+      ru: "Адвокат по трудовому праву в Анталье | Для иностранных работников и работодателей",
+      ar: "محامي قانون العمل في أنطاليا | للموظفين الأجانب وأصحاب العمل",
+    },
+    metaDescription: {
+      tr: "Yabancı çalışanların ve uluslararası şirketlerin Türkiye'deki iş sözleşmesi, haksız fesih, kıdem tazminatı, fazla mesai ve mobbing davalarında deneyimli iş hukuku avukatı.",
+      en: "Experienced labour law attorney for foreign employees and international companies in Turkey: contracts, wrongful termination, severance, overtime, and workplace harassment claims.",
+      de: "Erfahrener Arbeitsrechtsanwalt für ausländische Arbeitnehmer und internationale Unternehmen in der Türkei: Verträge, ungerechtfertigte Kündigung, Abfindung, Überstunden und Mobbing.",
+      ru: "Опытный адвокат по трудовому праву для иностранных работников и международных компаний в Турции: договоры, незаконное увольнение, выходное пособие, сверхурочные и мобинг.",
+      ar: "محامي قانون عمل متمرس للموظفين الأجانب والشركات الدولية في تركيا: العقود والفصل التعسفي ومكافأة نهاية الخدمة والعمل الإضافي والتنمر الوظيفي.",
+    },
+    intro: {
+      tr: "Türkiye'de iş hukuku, çalışanı görece güçlü biçimde koruyan bir denge üzerine kurulmuştur. Yabancı çalışanlar için bu denge çoğu zaman karmaşık görünür: dil engeli, çalışma izni statüsü ve şirket içi prosedürlerin farklılığı, kişinin hakkını arayışında belirsizlikler yaratabilir. Aynı zamanda işveren tarafında olan uluslararası şirketler de Türk iş hukukunu doğru anlamadan yapacakları feshin ciddi tazminat sonuçları doğurabileceğini görür.\n\nAntalya'da iş hukuku avukatı olarak hem yabancı çalışanların alacak ve haksız fesih davalarını yürütüyoruz, hem de işveren konumundaki şirketlerin önleyici hukuk danışmanlığı, sözleşme tasarımı, fesih protokolleri ve disiplin süreçlerinde yanında oluyoruz. Müzakere ve arabuluculuk yoluyla mümkün olduğunca hızlı ve iyi sonuçlar elde etmeyi tercih ederiz; gerektiğinde iş mahkemesinde dava da yürütürüz.",
+      en: "Turkish labour law is structured around a balance that significantly protects employees. For foreign workers, this balance often appears complex: language, work-permit status, and differing internal procedures can create uncertainty when asserting one's rights. International employers, too, find that termination decisions made without a proper grasp of Turkish labour law can lead to serious compensation exposure.\n\nAs a labour law attorney in Antalya, we represent both foreign employees in claims for entitlements and wrongful termination, and international companies in preventive counsel, contract design, termination protocols, and disciplinary processes. We prefer fast, good outcomes through negotiation and mediation; where required, we litigate before the labour court.",
+      de: "Das türkische Arbeitsrecht beruht auf einem Gleichgewicht, das Arbeitnehmer deutlich schützt. Für ausländische Beschäftigte erscheint dieses Gleichgewicht oft komplex: Sprache, Arbeitserlaubnisstatus und unterschiedliche interne Verfahren können Unsicherheiten bei der Durchsetzung schaffen. Auch internationale Arbeitgeber stellen fest, dass Kündigungen ohne fundiertes Verständnis des türkischen Arbeitsrechts zu erheblichen Abfindungsrisiken führen können.\n\nAls Arbeitsrechtsanwalt in Antalya vertreten wir ausländische Arbeitnehmer in Ansprüchen und ungerechtfertigten Kündigungen sowie internationale Unternehmen in präventiver Beratung, Vertragsgestaltung, Kündigungsprotokollen und Disziplinarprozessen. Wir bevorzugen schnelle, gute Ergebnisse durch Verhandlung und Mediation; bei Bedarf führen wir Verfahren vor dem Arbeitsgericht.",
+      ru: "Трудовое право Турции построено на балансе, существенно защищающем работников. Для иностранных сотрудников этот баланс часто кажется сложным: язык, статус разрешения на работу и различающиеся внутренние процедуры могут создавать неопределённость при защите прав. Международные работодатели также сталкиваются с тем, что увольнения без верного понимания турецкого трудового права могут привести к значительной компенсационной нагрузке.\n\nКак адвокат по трудовому праву в Анталье мы представляем как иностранных работников по требованиям и незаконным увольнениям, так и международные компании по превентивному консультированию, разработке договоров, протоколам увольнения и дисциплинарным процессам. Мы предпочитаем быстрые и хорошие результаты через переговоры и медиацию; при необходимости — иск в трудовом суде.",
+      ar: "يقوم قانون العمل التركي على توازن يحمي الموظف بقوة. ويبدو هذا التوازن للعاملين الأجانب معقداً في أحيان كثيرة: اللغة ووضع تصريح العمل والإجراءات الداخلية المختلفة قد تخلق غموضاً عند المطالبة بالحقوق. كما يكتشف أصحاب العمل الدوليون أن قرارات الفصل من دون فهم سليم لقانون العمل التركي قد تؤدي إلى تعويضات كبيرة.\n\nبصفتنا محامي قانون عمل في أنطاليا، نمثّل الموظفين الأجانب في مطالبات الاستحقاقات والفصل التعسفي، والشركات الدولية في الاستشارات الوقائية وتصميم العقود وبروتوكولات الفصل والإجراءات التأديبية. نفضّل النتائج السريعة والجيدة عبر التفاوض والوساطة؛ ونرفع الدعاوى أمام محكمة العمل عند الضرورة.",
+    },
+    services: {
+      tr: [
+        "İş sözleşmesi tasarımı (belirsiz/belirli süreli, çağrı, evden çalışma)",
+        "Haksız fesih, kıdem ve ihbar tazminatı davaları",
+        "Fazla mesai, hafta tatili ve ulusal bayram alacakları",
+        "Mobbing ve eşitsiz davranış nedeniyle tazminat",
+        "İş kazası ve meslek hastalığı süreçlerinde işveren ve işçi tarafı",
+        "Yabancı çalışan istihdamı ve çalışma izni süreçlerinde uyum",
+        "Toplu işten çıkarma ve performansa dayalı fesih protokolleri",
+        "Arabuluculuk, ibraname ve fesih anlaşmaları",
+      ],
+      en: [
+        "Drafting employment contracts (indefinite/fixed term, on-call, remote)",
+        "Wrongful termination, severance, and notice claims",
+        "Overtime, weekly rest, and public holiday entitlements",
+        "Compensation for workplace harassment and unequal treatment",
+        "Work accident and occupational disease cases (employer and employee side)",
+        "Foreign worker employment and work-permit compliance",
+        "Mass redundancy and performance-based termination protocols",
+        "Mediation, releases, and termination agreements",
+      ],
+      de: [
+        "Entwurf von Arbeitsverträgen (unbefristet/befristet, Abruf, Homeoffice)",
+        "Ungerechtfertigte Kündigung, Abfindung und Kündigungsfrist",
+        "Überstunden, Wochenruhe und Feiertagsansprüche",
+        "Entschädigung für Mobbing und Ungleichbehandlung",
+        "Arbeitsunfälle und Berufskrankheiten (Arbeitgeber- und Arbeitnehmerseite)",
+        "Beschäftigung ausländischer Arbeitnehmer und Arbeitserlaubnis-Compliance",
+        "Massenentlassung und leistungsbedingte Kündigungsprotokolle",
+        "Mediation, Quittungen und Aufhebungsverträge",
+      ],
+      ru: [
+        "Разработка трудовых договоров (бессрочных/срочных, по вызову, удалённых)",
+        "Незаконное увольнение, выходное пособие и предварительное уведомление",
+        "Сверхурочные, еженедельный отдых и государственные праздники",
+        "Компенсации за мобинг и неравное обращение",
+        "Несчастные случаи и профзаболевания (сторона работодателя и работника)",
+        "Найм иностранных работников и соответствие разрешений на работу",
+        "Массовые сокращения и протоколы увольнения по результатам работы",
+        "Медиация, расписки и соглашения о расторжении",
+      ],
+      ar: [
+        "صياغة عقود العمل (محدّدة/غير محدّدة، طلبٍ، عن بُعد)",
+        "الفصل التعسفي ومكافأة نهاية الخدمة وبدل الإشعار",
+        "العمل الإضافي والاستراحة الأسبوعية والعطلات الرسمية",
+        "التعويض عن التنمر الوظيفي والمعاملة غير المتساوية",
+        "حوادث العمل والأمراض المهنية (جانب صاحب العمل والموظف)",
+        "توظيف العاملين الأجانب والامتثال لتصاريح العمل",
+        "الفصل الجماعي وبروتوكولات الفصل القائمة على الأداء",
+        "الوساطة وبراءة الذمة واتفاقيات إنهاء العقد",
+      ],
+    },
+    process: {
+      tr: "İş hukuku uyuşmazlıklarında başvurulan ilk yol arabuluculuktur. Arabuluculuk öncesi alacak hesabı, fesih sebeplerinin değerlendirmesi ve ibranameye yansıyacak kalemlerin tartışılması büromuz tarafından özenle yapılır. Anlaşma sağlanamadığında iş mahkemesinde dava süreci başlatılır; tanık beyanları, bilirkişi raporu ve özlük dosyası incelemeleri delil sunumu açısından kritiktir. Yabancı çalışan müvekkillerde sözleşmenin uygulanacak hukukunu, ücretin para birimini ve çalışma izni statüsünün davaya etkisini birlikte değerlendiririz.",
+      en: "Mediation is the first stop in labour disputes. Before mediation, our firm meticulously calculates entitlements, assesses termination grounds, and discusses items to be reflected in the release. If no settlement is reached, proceedings before the labour court begin; witness testimony, expert reports, and personnel-file review are critical to evidence presentation. For foreign-employee clients, we jointly evaluate the law applicable to the contract, the currency of pay, and the impact of work-permit status on the case.",
+      de: "Im Arbeitsrecht ist die Mediation die erste Anlaufstelle. Vor der Mediation berechnet unsere Kanzlei sorgfältig die Ansprüche, bewertet Kündigungsgründe und bespricht die Inhalte der Quittung. Kommt keine Einigung zustande, beginnen Verfahren vor dem Arbeitsgericht; Zeugenaussagen, Sachverständigengutachten und die Personalakte sind für die Beweisvorlage entscheidend. Für ausländische Mandanten bewerten wir das auf den Vertrag anwendbare Recht, die Lohnwährung und die Auswirkung des Arbeitserlaubnisstatus.",
+      ru: "Первый этап в трудовых спорах — медиация. До медиации наша фирма тщательно рассчитывает выплаты, оценивает основания увольнения и обсуждает позиции, отражаемые в расписке. Если соглашение не достигнуто, начинается процесс в трудовом суде; свидетельские показания, экспертные отчёты и анализ личного дела критичны для доказывания. Для иностранных клиентов мы совместно оцениваем применимое к договору право, валюту оплаты и влияние статуса разрешения на работу.",
+      ar: "الوساطة هي المحطة الأولى في نزاعات العمل. قبل الوساطة يحسب مكتبنا الاستحقاقات بدقة، ويقيّم أسباب الفصل، ويناقش البنود التي ستنعكس في إقرار براءة الذمة. وعند عدم التوصل لتسوية، تُرفع الدعوى أمام محكمة العمل؛ وتُعدّ شهادات الشهود وتقارير الخبراء وملف الموظف حاسمةً في تقديم الأدلة. وللعملاء الأجانب نقيّم القانون المنطبق على العقد وعملة الأجر وأثر وضع تصريح العمل.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "İşten çıkarıldım, kıdem tazminatı alabilir miyim?",
+          a: "En az bir yıl kıdemi olan ve haklı sebep olmaksızın iş sözleşmesi feshedilen veya kanunda öngörülen sebeplerle istifa eden çalışan kıdeme hak kazanır. Yabancı çalışanlar da bu haklardan yararlanır.",
+        },
+        {
+          q: "İşveren maaşımı geç ödüyor, ne yapabilirim?",
+          a: "Maaşın yasal sürede ödenmemesi çalışan açısından haklı fesih sebebidir. Bu sebeple yapılan fesih, kıdem ve diğer alacak haklarını korur. Önce yazılı uyarı, ardından gerekirse fesih ve dava yolu işletilir.",
+        },
+        {
+          q: "Çalışma izni iptal edilirse iş sözleşmesi otomatik son bulur mu?",
+          a: "Çalışma iznini sürdüremeyen yabancı çalışan iş sözleşmesini sürdüremez; ancak işveren feshinin haklı sayılıp sayılmayacağı her dosyaya göre değerlendirilir. Tazminat haklarınız iptalin sebebi ve süreç yönetimine göre değişir.",
+        },
+      ],
+      en: [
+        {
+          q: "I was dismissed — can I claim severance?",
+          a: "An employee with at least one year of service whose contract is terminated without just cause, or who resigns on grounds set out in the law, is entitled to severance. Foreign employees benefit from this right as well.",
+        },
+        {
+          q: "My employer is paying my salary late — what can I do?",
+          a: "Failure to pay wages within the statutory period is just cause for the employee to terminate. Such a termination preserves severance and other entitlements. Written notice is issued first, then termination and litigation if needed.",
+        },
+        {
+          q: "If my work permit is cancelled, does my employment contract automatically end?",
+          a: "A foreign worker who cannot maintain a work permit cannot continue the contract; however, whether the employer's termination is justified depends on the file. Compensation rights vary with the cancellation reason and how the process is handled.",
+        },
+      ],
+      de: [
+        {
+          q: "Ich wurde gekündigt — habe ich Anspruch auf Abfindung?",
+          a: "Ein Arbeitnehmer mit mindestens einjähriger Betriebszugehörigkeit, dessen Vertrag ohne wichtigen Grund gekündigt wird oder der aus gesetzlich vorgesehenen Gründen kündigt, hat Anspruch auf Abfindung. Auch ausländische Arbeitnehmer profitieren davon.",
+        },
+        {
+          q: "Mein Arbeitgeber zahlt das Gehalt verspätet — was tun?",
+          a: "Eine verspätete Zahlung ist ein wichtiger Grund zur Kündigung durch den Arbeitnehmer. Eine entsprechende Kündigung wahrt Abfindung und sonstige Ansprüche. Zunächst wird schriftlich gemahnt, dann ggf. gekündigt und Klage erhoben.",
+        },
+        {
+          q: "Wenn meine Arbeitserlaubnis entzogen wird, endet der Vertrag automatisch?",
+          a: "Ein Ausländer ohne fortbestehende Arbeitserlaubnis kann den Vertrag nicht fortsetzen; ob die Arbeitgeberkündigung gerechtfertigt ist, hängt vom Einzelfall ab. Entschädigungsansprüche variieren nach Grund und Verfahrensführung.",
+        },
+      ],
+      ru: [
+        {
+          q: "Меня уволили — могу ли я претендовать на выходное пособие?",
+          a: "Работник со стажем не менее одного года, чей договор расторгнут без уважительной причины или который уходит по основаниям закона, имеет право на выходное пособие. Это право распространяется и на иностранных работников.",
+        },
+        {
+          q: "Работодатель платит зарплату с задержкой — что делать?",
+          a: "Невыплата зарплаты в установленный срок — уважительная причина для увольнения по инициативе работника. Такое увольнение сохраняет право на выходное пособие и другие выплаты. Сначала направляется письменное уведомление, затем — увольнение и иск.",
+        },
+        {
+          q: "Если разрешение на работу аннулировано, прекращается ли договор автоматически?",
+          a: "Иностранный работник, не имеющий действующего разрешения на работу, не может продолжать договор; обоснованность увольнения работодателем оценивается индивидуально. Размер компенсации зависит от причины аннулирования и порядка ведения процесса.",
+        },
+      ],
+      ar: [
+        {
+          q: "تم فصلي — هل يحق لي الحصول على مكافأة نهاية الخدمة؟",
+          a: "يستحق المكافأة الموظف الذي أمضى سنة على الأقل وأُنهي عقده دون سبب مشروع أو استقال للأسباب المنصوص عليها في القانون. ويستفيد الموظف الأجنبي من هذا الحق أيضاً.",
+        },
+        {
+          q: "صاحب العمل يتأخر في دفع راتبي — ماذا أفعل؟",
+          a: "عدم دفع الأجر في المهلة القانونية سبب مشروع لإنهاء العقد من قبل الموظف. يحفظ هذا الإنهاء حق المكافأة وسائر الاستحقاقات. يُرسَل أولاً إخطار كتابي، ثم الإنهاء والتقاضي عند الحاجة.",
+        },
+        {
+          q: "إذا أُلغي تصريح عملي، هل ينتهي العقد تلقائياً؟",
+          a: "العامل الأجنبي الذي لا يستطيع المحافظة على تصريح العمل لا يستطيع متابعة العقد؛ ويتوقف اعتبار فصل صاحب العمل مشروعاً على ملف القضية. وتختلف حقوق التعويض حسب سبب الإلغاء وإدارة العملية.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "idare-hukuku",
+    metaTitle: {
+      tr: "Antalya İdare Hukuku Avukatı | İptal Davası & İdari İşlem İtirazları",
+      en: "Antalya Administrative Law Attorney | Cancellation Suits & Appeals",
+      de: "Antalya Verwaltungsrechtsanwalt | Aufhebungsklagen & Rechtsbehelfe",
+      ru: "Адвокат по административному праву в Анталье | Иски об отмене и обжалования",
+      ar: "محامي القانون الإداري في أنطاليا | دعاوى الإلغاء والطعون",
+    },
+    metaDescription: {
+      tr: "Vize reddi, oturma izni iptali, sınır dışı, idari para cezası ve diğer idari işlemlere karşı Antalya idare mahkemesinde iptal ve tam yargı davaları.",
+      en: "Cancellation and full-redress actions before the Antalya Administrative Court against visa refusals, residence cancellations, deportations, fines, and other administrative acts.",
+      de: "Aufhebungs- und Vollentschädigungsklagen vor dem Verwaltungsgericht Antalya gegen Visa-Ablehnungen, Aufenthaltswiderrufe, Ausweisungen, Bußgelder und andere Verwaltungsakte.",
+      ru: "Иски об отмене и полном возмещении в Административном суде Антальи против отказов в визах, аннулирования ВНЖ, депортаций, штрафов и прочих административных актов.",
+      ar: "دعاوى الإلغاء والتعويض الكامل أمام محكمة أنطاليا الإدارية ضد رفض التأشيرات وإلغاء الإقامة والترحيل والغرامات وسائر الأعمال الإدارية.",
+    },
+    intro: {
+      tr: "Yabancılar için idare hukuku genellikle dolaylı yoldan, hayatı doğrudan etkileyen kararlarla gündeme gelir: bir vize reddi, oturma izninin iptali, sınır dışı kararı, kayıt yaptırılan plakaya kesilen yüksek tutarlı idari para cezası ya da kamu kurumu ihalesinde alınan ihaleyi düşürme kararı. Bu kararların ortak özelliği, idare adına alınmış olmaları ve kanunun aradığı süreler içinde idari yargıya başvurulmadığında kesinleşmeleridir.\n\nAntalya'da idare hukuku avukatı olarak iptal davaları, tam yargı davaları, yürütmenin durdurulması talepleri, idari itirazlar ve idari uyuşmazlıklarda arabuluculuk süreçlerinde müvekkillerin yanındayız. Yabancı uyruklu müvekkiller için en kritik nokta, sürelerdir; tebliğ tarihinden itibaren işleyen yasal süreyi kaçırmamak için en kısa sürede başvuru yapılması gerekir.",
+      en: "For foreigners, administrative law most often appears through decisions that directly affect day-to-day life: a visa refusal, cancellation of a residence permit, deportation order, a high administrative fine on a registered vehicle, or a procurement decision overturning a tender. What these have in common is that they are made on behalf of the administration and become final unless administrative-court action is taken within the statutory periods.\n\nAs an administrative law attorney in Antalya, we represent clients in cancellation suits, full-redress (compensatory) suits, stay-of-execution applications, administrative objections, and mediation in administrative disputes. The most critical point for foreign clients is timing: the statutory period from notification must not be missed, so an application must be made as soon as possible.",
+      de: "Für Ausländer tritt das Verwaltungsrecht meist über Entscheidungen auf, die das tägliche Leben unmittelbar betreffen: Visa-Ablehnung, Widerruf der Aufenthaltserlaubnis, Ausweisung, hohes Bußgeld auf ein angemeldetes Fahrzeug oder eine Vergabeentscheidung. Gemeinsam haben sie, dass sie für die Verwaltung erlassen werden und ohne fristgerechte verwaltungsgerichtliche Klage rechtskräftig werden.\n\nAls Verwaltungsrechtsanwalt in Antalya vertreten wir Mandanten in Aufhebungs- und Vollentschädigungsklagen, Eilanträgen, Widersprüchen und Mediationsverfahren. Für ausländische Mandanten ist das Timing am wichtigsten: Die Frist ab Zustellung darf nicht verpasst werden — die Klage ist schnellstmöglich einzureichen.",
+      ru: "Для иностранцев административное право чаще всего появляется через решения, напрямую влияющие на повседневную жизнь: отказ в визе, аннулирование ВНЖ, депортация, крупный административный штраф на зарегистрированное ТС, решение по конкурсу. У них общее то, что они принимаются от имени администрации и становятся окончательными, если в установленный срок не обратиться в административный суд.\n\nКак адвокат по административному праву в Анталье мы представляем клиентов в исках об отмене, исках о полном возмещении, ходатайствах о приостановлении исполнения, административных возражениях и медиации. Главное для иностранных клиентов — сроки: установленный срок с момента уведомления нельзя пропустить, иск нужно подать как можно раньше.",
+      ar: "للأجانب يظهر القانون الإداري عادةً عبر قرارات تؤثر مباشرةً في الحياة اليومية: رفض تأشيرة، إلغاء إقامة، قرار ترحيل، غرامة إدارية مرتفعة على مركبة مسجلة، أو قرار إلغاء مناقصة. والقاسم المشترك أنها تُتَّخذ باسم الإدارة وتصبح نهائية ما لم تُرفع دعوى إدارية ضمن المهل القانونية.\n\nبصفتنا محامي قانون إداري في أنطاليا، نمثّل الموكلين في دعاوى الإلغاء ودعاوى التعويض الكامل وطلبات وقف التنفيذ والاعتراضات الإدارية والوساطة. وأهم نقطة للموكلين الأجانب هي التوقيت: لا يجوز تفويت المهلة القانونية من تاريخ التبليغ، ويجب رفع الدعوى في أقرب وقت.",
+    },
+    services: {
+      tr: [
+        "Vize reddi, vize iptali ve giriş yasağı kararlarına karşı dava",
+        "Oturma izni iptali ve sınır dışı kararlarına karşı yürütmenin durdurulması talepli dava",
+        "İdari para cezalarına itiraz ve iptal davaları",
+        "Tam yargı davaları (idari işlem nedeniyle uğranan zararın tazmini)",
+        "Belediye kararlarına ve imar uygulamalarına karşı iptal davaları",
+        "Vergi cezası ve uzlaşma süreçleri",
+        "Kamu ihaleleri ve ihale kararlarının iptali",
+        "İdari itiraz, üst makama başvuru ve idari arabuluculuk süreçleri",
+      ],
+      en: [
+        "Litigation against visa refusals, cancellations, and entry-ban decisions",
+        "Cancellation and stay-of-execution actions against residence-permit cancellations and deportation orders",
+        "Objections and cancellation actions against administrative fines",
+        "Full-redress actions (compensation for damage caused by an administrative act)",
+        "Cancellation of municipal decisions and zoning applications",
+        "Tax-penalty and settlement procedures",
+        "Public procurement and tender-decision cancellation",
+        "Administrative objection, hierarchical appeal, and administrative mediation",
+      ],
+      de: [
+        "Klagen gegen Visa-Ablehnung, -Widerruf und Einreiseverbot",
+        "Aufhebungs- und Eilanträge gegen Widerruf der Aufenthaltserlaubnis und Ausweisung",
+        "Widerspruch und Aufhebungsklage gegen Bußgelder",
+        "Vollentschädigungsklagen (Schadensersatz wegen Verwaltungshandeln)",
+        "Aufhebung kommunaler Beschlüsse und Bauleitplanungen",
+        "Steuerstrafen und Verständigungsverfahren",
+        "Öffentliche Vergaben und Aufhebung von Vergabeentscheidungen",
+        "Verwaltungswiderspruch, hierarchische Beschwerde und Mediation im Verwaltungsrecht",
+      ],
+      ru: [
+        "Иски против отказов в визе, их аннулирования и запретов на въезд",
+        "Иски об отмене и приостановлении исполнения против аннулирования ВНЖ и депортации",
+        "Возражения и иски об отмене административных штрафов",
+        "Иски о полном возмещении вреда от административного акта",
+        "Отмена муниципальных решений и градостроительных применений",
+        "Налоговые штрафы и процедуры урегулирования",
+        "Государственные закупки и отмена решений по конкурсам",
+        "Административные возражения, иерархические жалобы и медиация",
+      ],
+      ar: [
+        "إقامة دعاوى ضد رفض التأشيرات وإلغائها وحظر الدخول",
+        "دعاوى إلغاء ووقف تنفيذ ضد إلغاء الإقامة وقرارات الترحيل",
+        "اعتراضات ودعاوى إلغاء على الغرامات الإدارية",
+        "دعاوى تعويض كامل (تعويض الأضرار الناجمة عن عمل إداري)",
+        "إلغاء قرارات البلدية وتطبيقات التخطيط العمراني",
+        "العقوبات الضريبية وإجراءات التسوية",
+        "المشتريات العامة وإلغاء قرارات المناقصات",
+        "الاعتراض الإداري والتظلم والوساطة الإدارية",
+      ],
+    },
+    process: {
+      tr: "İdare hukuku dosyalarında ilk adım, idari işlemin tebliğ tarihi ve içerdiği gerekçenin doğru tespitidir. Bunun ardından dosya, hukuka aykırılık unsurları yönünden incelenir ve sürelerin geçmemesi için iptal davası ile birlikte yürütmenin durdurulması talebi sunulur. İdare savunma yapar, gerektiğinde keşif ve bilirkişi incelemesi yapılır. Mahkeme kararı sonrası gerekli görülürse istinaf veya Danıştay yoluna başvurulur. Yabancı uyruklu müvekkilde, dosyayı destekleyen yabancı belgelerin Türkçeye çevirisi ve apostili özellikle erken aşamada hazırlanır.",
+      en: "An administrative file begins with accurately identifying the notification date and the reasoning of the act. The file is then reviewed for unlawfulness, and to keep within deadlines, a cancellation suit is filed together with a stay-of-execution motion. The administration responds; site inspection or expert review is ordered as needed. After judgment, appellate or Council of State review may follow. For foreign clients, translation and apostille of supporting foreign documents are arranged early.",
+      de: "Eine Verwaltungsakte beginnt mit der genauen Feststellung des Zustellungsdatums und der Begründung des Aktes. Anschließend wird die Akte auf Rechtswidrigkeit geprüft, und um Fristen zu wahren, wird die Aufhebungsklage zusammen mit einem Eilantrag eingereicht. Die Verwaltung antwortet; Augenschein oder Sachverständigenprüfung werden ggf. angeordnet. Nach dem Urteil folgt ggf. die Berufung oder die Anrufung des Staatsrats. Für ausländische Mandanten werden Übersetzung und Apostille relevanter Auslandsurkunden frühzeitig veranlasst.",
+      ru: "Административное дело начинается с точного установления даты уведомления и обоснования акта. Затем дело анализируется на предмет незаконности, и для соблюдения сроков подаётся иск об отмене вместе с ходатайством о приостановлении исполнения. Администрация отвечает; при необходимости проводится осмотр или экспертиза. После решения может последовать апелляция или обращение в Государственный совет. Для иностранных клиентов перевод и апостиль подтверждающих иностранных документов готовятся заранее.",
+      ar: "يبدأ الملف الإداري بتحديد تاريخ التبليغ ومسوّغ القرار بدقة. ثم يُفحص لتحديد عناصر مخالفته للقانون، وللحفاظ على المهل تُرفع دعوى إلغاء مع طلب وقف تنفيذ. تردّ الإدارة؛ ويُؤمَر بالمعاينة أو الخبرة عند الاقتضاء. وبعد الحكم قد يتبع الاستئناف أو الرجوع إلى مجلس الدولة. وللعملاء الأجانب نُعدّ ترجمة الوثائق الأجنبية وتصديقها مبكراً.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "İdari işlemin iptali için ne kadar sürem var?",
+          a: "İptal davası için Türk idari yargısında belirli bir yasal süre öngörülmüştür. Tebliğ tarihinden itibaren işleyen bu süreyi kaçırmamak kritiktir; süresinde açılmayan dava esastan reddedilir.",
+        },
+        {
+          q: "Yürütmenin durdurulması ne işe yarar?",
+          a: "İdari işlemin uygulanması nedeniyle telafisi güç bir zarar doğacaksa, mahkemeden işlemin geçici olarak durdurulması talep edilebilir. Bu kararla işlemin sonuçları, dava sona erene kadar askıya alınır.",
+        },
+        {
+          q: "İdare aleyhine açılan davalar ne kadar sürer?",
+          a: "Dosyaya göre değişmekle birlikte, ilk derece idari yargılama genellikle 1-2 yıl arasında sonuçlanmaktadır. Dosyanın karmaşıklığına ve istinaf-Danıştay aşamalarına bağlı olarak süre uzayabilir.",
+        },
+      ],
+      en: [
+        {
+          q: "How long do I have to challenge an administrative act?",
+          a: "Turkish administrative procedure provides a fixed statutory period. Counted from the date of notification, this deadline must not be missed; an out-of-time action will be rejected on procedural grounds.",
+        },
+        {
+          q: "What is the purpose of a stay of execution?",
+          a: "If the act would cause damage that is hard to remedy, the court may be asked to suspend its effect temporarily. Once granted, the consequences of the act are paused until the case is concluded.",
+        },
+        {
+          q: "How long do administrative cases take?",
+          a: "Although it varies, first-instance administrative proceedings generally conclude within 1–2 years. The duration may extend depending on complexity and appellate or Council-of-State stages.",
+        },
+      ],
+      de: [
+        {
+          q: "Wie lange habe ich, um einen Verwaltungsakt anzufechten?",
+          a: "Das türkische Verwaltungsverfahren sieht eine feste gesetzliche Frist vor. Sie läuft ab Zustellung; eine verspätete Klage wird verfahrensrechtlich abgewiesen.",
+        },
+        {
+          q: "Wozu dient die Aussetzung der Vollziehung?",
+          a: "Würden durch die Vollziehung schwer wiedergutzumachende Nachteile entstehen, kann das Gericht um vorübergehende Aussetzung gebeten werden. Die Wirkungen des Aktes werden bis Verfahrensende ausgesetzt.",
+        },
+        {
+          q: "Wie lange dauern Verwaltungsverfahren?",
+          a: "Je nach Akte werden erstinstanzliche Verwaltungsverfahren in der Regel in 1–2 Jahren abgeschlossen. Komplexität und Berufungs-/Staatsratsstufen können die Dauer verlängern.",
+        },
+      ],
+      ru: [
+        {
+          q: "Сколько времени у меня есть на обжалование?",
+          a: "Турецкое административное право предусматривает фиксированный срок. Он отсчитывается с даты уведомления; иск, поданный с просрочкой, отклоняется по процедурным основаниям.",
+        },
+        {
+          q: "Зачем нужно приостановление исполнения?",
+          a: "Если исполнение акта повлечёт труднопоправимый ущерб, суду может быть подано ходатайство о временном приостановлении. После удовлетворения последствия акта приостанавливаются до завершения дела.",
+        },
+        {
+          q: "Сколько длятся административные дела?",
+          a: "Зависит от дела, но первая инстанция обычно завершается за 1–2 года. Срок увеличивается в зависимости от сложности и этапов апелляции/Государственного совета.",
+        },
+      ],
+      ar: [
+        {
+          q: "كم لديّ من الوقت للطعن في عمل إداري؟",
+          a: "ينصّ القانون الإداري التركي على مهلة محددة تبدأ من تاريخ التبليغ؛ ولا يجوز تفويتها، إذ تُرفض الدعوى المتأخرة لأسباب إجرائية.",
+        },
+        {
+          q: "ما هدف وقف التنفيذ؟",
+          a: "إذا كان تنفيذ القرار سيسبب ضرراً يصعب تداركه، يمكن طلب وقفه مؤقتاً من المحكمة. وعند الموافقة تُجمَّد آثار القرار حتى انتهاء القضية.",
+        },
+        {
+          q: "كم تستغرق الدعاوى الإدارية؟",
+          a: "تختلف حسب الملف، لكن الدرجة الأولى تنتهي عادةً خلال 1–2 سنة. وقد تطول المدة بحسب التعقيد ومراحل الاستئناف أو مجلس الدولة.",
+        },
+      ],
+    },
+  },
 ];
 
 export function getPracticeAreaContent(slug: string): PracticeAreaContent | undefined {
