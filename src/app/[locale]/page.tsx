@@ -89,6 +89,7 @@ function HomeContent() {
               t("foreignClients.item2"),
               t("foreignClients.item3"),
               t("foreignClients.item4"),
+              t("foreignClients.item5"),
             ].map((item) => (
               <li key={item} className="flex gap-3 items-start">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
