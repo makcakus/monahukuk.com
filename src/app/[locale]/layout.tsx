@@ -69,7 +69,10 @@ export async function generateMetadata({
       images: [SITE.ogImage],
     },
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
-    verification: { google: "sgC9DBmL4QVLvFoaekqIvrBcAPdG31xdgQWeFHO9sc0" },
+    verification: {
+      google: "sgC9DBmL4QVLvFoaekqIvrBcAPdG31xdgQWeFHO9sc0",
+      yandex: "5ff8a22e4fbffbb2",
+    },
     icons: { icon: "/favicon.ico" },
   };
 }
