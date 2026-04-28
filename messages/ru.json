@@ -108,7 +108,10 @@
     "empty": "Статей пока нет. Загляните позже.",
     "readMore": "Читать статью",
     "minRead": "мин чтения",
-    "publishedOn": "Опубликовано"
+    "publishedOn": "Опубликовано",
+    "uncategorized": "Общее",
+    "articleOne": "статья",
+    "articleMany": "статей"
   },
   "contact": {
     "title": "Контакты",

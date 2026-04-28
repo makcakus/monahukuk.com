@@ -108,7 +108,10 @@
     "empty": "No articles yet. Check back soon.",
     "readMore": "Read article",
     "minRead": "min read",
-    "publishedOn": "Published"
+    "publishedOn": "Published",
+    "uncategorized": "General",
+    "articleOne": "article",
+    "articleMany": "articles"
   },
   "contact": {
     "title": "Contact Us",

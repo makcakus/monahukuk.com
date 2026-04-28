@@ -108,7 +108,10 @@
     "empty": "Henüz makale yok. Yakında.",
     "readMore": "Makaleyi oku",
     "minRead": "dk okuma",
-    "publishedOn": "Yayın tarihi"
+    "publishedOn": "Yayın tarihi",
+    "uncategorized": "Genel",
+    "articleOne": "makale",
+    "articleMany": "makale"
   },
   "contact": {
     "title": "İletişim",

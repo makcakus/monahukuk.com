@@ -108,7 +108,10 @@
     "empty": "Noch keine Artikel vorhanden. Bitte schauen Sie bald wieder vorbei.",
     "readMore": "Artikel lesen",
     "minRead": "Min. Lesezeit",
-    "publishedOn": "Veröffentlicht"
+    "publishedOn": "Veröffentlicht",
+    "uncategorized": "Allgemein",
+    "articleOne": "Artikel",
+    "articleMany": "Artikel"
   },
   "contact": {
     "title": "Kontakt",

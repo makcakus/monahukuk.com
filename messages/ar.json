@@ -108,7 +108,10 @@
     "empty": "لا توجد مقالات بعد. تابعونا قريباً.",
     "readMore": "قراءة المقال",
     "minRead": "دقيقة قراءة",
-    "publishedOn": "نُشر في"
+    "publishedOn": "نُشر في",
+    "uncategorized": "عام",
+    "articleOne": "مقال",
+    "articleMany": "مقالات"
   },
   "contact": {
     "title": "اتصل بنا",
