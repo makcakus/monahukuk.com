@@ -93,8 +93,16 @@ export default async function LocaleLayout({
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
       className={`${sans.variable} ${display.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col bg-cream-50 text-ink">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}}catch(e){}})();`,
+          }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col bg-cream-50 text-ink dark:bg-navy-950 dark:text-cream-100">
         <LegalServiceSchema locale={locale} />
         <WebsiteSchema />
         <NextIntlClientProvider messages={messages} locale={locale}>

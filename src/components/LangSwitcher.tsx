@@ -47,14 +47,14 @@ export function LangSwitcher() {
         type="button"
         disabled={pending}
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-1 text-xs font-medium uppercase tracking-wider text-ink-soft hover:text-navy-900 transition-colors"
+        className="inline-flex items-center gap-1 text-xs font-medium uppercase tracking-wider text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50 transition-colors"
       >
         {locale}
         <ChevronDown size={12} className={clsx("transition-transform", open && "rotate-180")} />
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 min-w-[130px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50">
+        <div className="absolute right-0 top-full mt-2 min-w-[130px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900">
           {LOCALES.map((l) => (
             <button
               key={l}
@@ -64,8 +64,8 @@ export function LangSwitcher() {
               className={clsx(
                 "w-full text-left px-4 py-2 text-sm transition-colors",
                 l === locale
-                  ? "text-navy-900 font-medium bg-cream-100"
-                  : "text-ink-soft hover:text-navy-900 hover:bg-cream-100"
+                  ? "text-navy-900 font-medium bg-cream-100 dark:text-cream-50 dark:bg-navy-800"
+                  : "text-ink-soft hover:text-navy-900 hover:bg-cream-100 dark:text-cream-200 dark:hover:text-cream-50 dark:hover:bg-navy-800"
               )}
             >
               {LANG_LABELS[l]}

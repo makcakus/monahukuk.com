@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-navy-50: #f1f4fa;
   --color-navy-100: #dde4f1;
@@ -40,11 +42,27 @@
 :root {
   --background: #fbf9f4;
   --foreground: #0f172a;
+  --prose-h2: var(--color-navy-900);
+  --prose-h3: var(--color-navy-800);
+  --prose-body: var(--color-ink-soft);
+  --prose-strong: var(--color-navy-900);
+  --prose-link: var(--color-navy-700);
+}
+
+.dark {
+  --background: #050d24;
+  --foreground: #f5f1e6;
+  --prose-h2: var(--color-cream-50);
+  --prose-h3: var(--color-cream-100);
+  --prose-body: #b8c6e0;
+  --prose-strong: var(--color-cream-50);
+  --prose-link: var(--color-gold-300);
 }
 
 html, body {
   background: var(--background);
   color: var(--foreground);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 body {
@@ -66,20 +84,20 @@ h1, h2, h3, h4, .font-display {
   font-size: 1.5rem;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
-  color: var(--color-navy-900);
+  color: var(--prose-h2);
 }
 .prose-legal h3 {
   font-size: 1.2rem;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  color: var(--color-navy-800);
+  color: var(--prose-h3);
 }
 .prose-legal p {
   margin-bottom: 1.1rem;
-  color: var(--color-ink-soft);
+  color: var(--prose-body);
 }
 .prose-legal a {
-  color: var(--color-navy-700);
+  color: var(--prose-link);
   text-decoration: underline;
   text-decoration-color: var(--color-gold-400);
   text-underline-offset: 3px;
@@ -88,20 +106,20 @@ h1, h2, h3, h4, .font-display {
   list-style: disc;
   padding-left: 1.4rem;
   margin-bottom: 1.1rem;
-  color: var(--color-ink-soft);
+  color: var(--prose-body);
 }
 .prose-legal li {
   margin-bottom: 0.4rem;
 }
 .prose-legal strong {
-  color: var(--color-navy-900);
+  color: var(--prose-strong);
   font-weight: 600;
 }
 .prose-legal blockquote {
   border-left: 3px solid var(--color-gold-400);
   padding-left: 1rem;
   font-style: italic;
-  color: var(--color-ink-soft);
+  color: var(--prose-body);
   margin: 1.5rem 0;
 }
 
@@ -110,4 +128,66 @@ h1, h2, h3, h4, .font-display {
   height: 2px;
   background: var(--color-gold-500);
   display: block;
+}
+
+/* ===== Dark mode global overrides =====
+   These rules let cards and sections automatically adapt to dark mode
+   without needing dark: prefix on every component. */
+
+.dark .bg-white {
+  background-color: var(--color-navy-900) !important;
+}
+
+.dark .bg-cream-100\/60,
+.dark .bg-cream-100\/75,
+.dark .bg-cream-100 {
+  background-color: rgba(20, 36, 80, 0.5) !important;
+}
+
+.dark .border-cream-200 {
+  border-color: var(--color-navy-800) !important;
+}
+
+.dark .border-navy-100 {
+  border-color: var(--color-navy-700) !important;
+}
+
+.dark .text-navy-900,
+.dark .text-navy-950 {
+  color: var(--color-cream-50);
+}
+
+.dark .text-ink-soft {
+  color: var(--color-navy-200);
+}
+
+.dark .text-ink-mute {
+  color: var(--color-navy-300);
+}
+
+.dark .text-gold-700 {
+  color: var(--color-gold-400);
+}
+
+.dark .text-gold-600 {
+  color: var(--color-gold-300);
+}
+
+.dark .text-navy-700 {
+  color: var(--color-cream-200);
+}
+
+.dark .bg-navy-50 {
+  background-color: rgba(31, 53, 104, 0.5) !important;
+}
+
+/* Dark navy CTA button — turn it gold for contrast on dark bg */
+.dark .bg-navy-900:not(footer):not(header) {
+  background-color: var(--color-gold-500) !important;
+  color: var(--color-navy-950) !important;
+}
+
+.dark .bg-navy-900:not(footer):not(header):hover,
+.dark .hover\:bg-navy-800:hover:not(footer):not(header) {
+  background-color: var(--color-gold-600) !important;
 }

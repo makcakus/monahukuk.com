@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
@@ -67,14 +68,14 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75">
+    <header className="sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
       <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between gap-6">
         <Link
           href="/"
           className="flex flex-col leading-tight"
           onClick={() => setOpen(false)}
         >
-          <span className="font-display text-2xl text-navy-900 tracking-tight">
+          <span className="font-display text-2xl text-navy-900 dark:text-cream-50 tracking-tight">
             {tSite("name")}
           </span>
           <span className="text-[11px] uppercase tracking-[0.18em] text-gold-700">
@@ -93,8 +94,8 @@ export function Header() {
                   className={clsx(
                     "text-sm font-medium transition-colors",
                     active
-                      ? "text-navy-900"
-                      : "text-ink-soft hover:text-navy-800"
+                      ? "text-navy-900 dark:text-cream-50"
+                      : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50"
                   )}
                 >
                   {t(item.key)}
@@ -117,8 +118,8 @@ export function Header() {
                   className={clsx(
                     "inline-flex items-center gap-1 text-sm font-medium transition-colors",
                     groupActive
-                      ? "text-navy-900"
-                      : "text-ink-soft hover:text-navy-800"
+                      ? "text-navy-900 dark:text-cream-50"
+                      : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50"
                   )}
                 >
                   {t(item.key)}
@@ -133,7 +134,7 @@ export function Header() {
                 {isOpen && (
                   <div
                     role="menu"
-                    className="absolute left-0 top-full mt-2 min-w-[180px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1"
+                    className="absolute left-0 top-full mt-2 min-w-[180px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 dark:border-navy-800 dark:bg-navy-900"
                   >
                     {item.items.map((sub) => {
                       const subActive = isActive(sub.href);
@@ -146,8 +147,8 @@ export function Header() {
                           className={clsx(
                             "block px-4 py-2 text-sm transition-colors",
                             subActive
-                              ? "text-navy-900 bg-cream-100"
-                              : "text-ink-soft hover:text-navy-900 hover:bg-cream-100"
+                              ? "text-navy-900 bg-cream-100 dark:text-cream-50 dark:bg-navy-800"
+                              : "text-ink-soft hover:text-navy-900 hover:bg-cream-100 dark:text-cream-200 dark:hover:text-cream-50 dark:hover:bg-navy-800"
                           )}
                         >
                           {t(sub.key)}
@@ -161,11 +162,12 @@ export function Header() {
           })}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden lg:flex items-center gap-3">
+          <ThemeToggle />
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center rounded-sm bg-navy-900 px-4 py-2 text-sm font-medium text-cream-50 hover:bg-navy-800 transition-colors"
+            className="inline-flex items-center rounded-sm bg-navy-900 px-4 py-2 text-sm font-medium text-cream-50 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-600 transition-colors"
           >
             {tCta("consult")}
           </Link>
@@ -174,7 +176,7 @@ export function Header() {
         <button
           type="button"
           aria-label="Menu"
-          className="lg:hidden inline-flex items-center justify-center w-10 h-10 text-navy-900"
+          className="lg:hidden inline-flex items-center justify-center w-10 h-10 text-navy-900 dark:text-cream-100"
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X size={22} /> : <Menu size={22} />}
@@ -182,7 +184,7 @@ export function Header() {
       </div>
 
       {open && (
-        <div className="lg:hidden border-t border-cream-200 bg-cream-50">
+        <div className="lg:hidden border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950">
           <nav className="mx-auto max-w-6xl px-6 py-4 flex flex-col gap-3">
             {NAV_ITEMS.map((item) => {
               if (item.type === "link") {
@@ -191,7 +193,7 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="py-1 text-base text-ink-soft hover:text-navy-900"
+                    className="py-1 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
                   >
                     {t(item.key)}
                   </Link>
@@ -199,7 +201,7 @@ export function Header() {
               }
               return (
                 <div key={item.key} className="flex flex-col">
-                  <span className="py-1 text-xs uppercase tracking-[0.16em] text-gold-700">
+                  <span className="py-1 text-xs uppercase tracking-[0.16em] text-gold-700 dark:text-gold-400">
                     {t(item.key)}
                   </span>
                   {item.items.map((sub) => (
@@ -207,7 +209,7 @@ export function Header() {
                       key={sub.href}
                       href={sub.href}
                       onClick={() => setOpen(false)}
-                      className="py-1 pl-3 text-base text-ink-soft hover:text-navy-900"
+                      className="py-1 pl-3 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
                     >
                       {t(sub.key)}
                     </Link>
@@ -215,8 +217,9 @@ export function Header() {
                 </div>
               );
             })}
-            <div className="pt-3 border-t border-cream-200 flex items-center justify-between">
+            <div className="pt-3 border-t border-cream-200 dark:border-navy-800 flex items-center justify-between">
               <LangSwitcher />
+              <ThemeToggle />
             </div>
           </nav>
         </div>
