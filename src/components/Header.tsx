@@ -31,6 +31,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
   { type: "link", href: "/contact", key: "contact" },
+  { type: "link", href: "/privacy-policy", key: "privacy" },
 ] as const;
 
 export function Header() {
