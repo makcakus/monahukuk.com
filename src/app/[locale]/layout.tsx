@@ -69,6 +69,7 @@ export async function generateMetadata({
       images: [SITE.ogImage],
     },
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    verification: { google: "sgC9DBmL4QVLvFoaekqIvrBcAPdG31xdgQWeFHO9sc0" },
     icons: { icon: "/favicon.ico" },
   };
 }
