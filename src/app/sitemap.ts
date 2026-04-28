@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { getAllArticles } from "@/lib/articles";
+import { PRACTICE_AREAS } from "@/lib/practice-areas";
 import { SITE } from "@/lib/site";
 
 const STATIC_PATHS: { path: string; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]; priority: number }[] = [
@@ -33,6 +34,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency,
         priority,
         alternates: { languages: altLanguages(path) },
+      });
+    }
+    for (const area of PRACTICE_AREAS) {
+      const p = `/practice-areas/${area.slug}`;
+      entries.push({
+        url: `${SITE.url}/${locale}${p}`,
+        lastModified: now,
+        changeFrequency: "monthly",
+        priority: 0.85,
+        alternates: { languages: altLanguages(p) },
       });
     }
     const articles = await getAllArticles(locale);

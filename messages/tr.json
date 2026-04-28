@@ -82,7 +82,15 @@
   "practiceAreas": {
     "title": "Uygulama Alanları",
     "lead": "Yabancı kişi ve şirketlerin Türk hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz.",
-    "comingSoon": "Uygulama alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır."
+    "comingSoon": "Uygulama alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır.",
+    "backToList": "Tüm Uygulama Alanları",
+    "servicesTitle": "Sunduğumuz Hizmetler",
+    "processTitle": "Çalışma Süreci",
+    "faqTitle": "Sıkça Sorulan Sorular",
+    "relatedArticlesTitle": "İlgili Makaleler",
+    "ctaTitle": "Size nasıl yardımcı olabiliriz?",
+    "ctaBody": "Dosyanızın koşullarını birlikte değerlendirelim. İlk değerlendirme görüşmesi için bize ulaşın.",
+    "ctaButton": "Danışmanlık talep edin"
   },
   "team": {
     "title": "Ekibimiz",

@@ -82,7 +82,15 @@
   "practiceAreas": {
     "title": "Practice Areas",
     "lead": "We focus on the matters that most often bring foreign individuals and businesses into contact with the Turkish legal system.",
-    "comingSoon": "Detailed practice area pages will be published soon."
+    "comingSoon": "Detailed practice area pages will be published soon.",
+    "backToList": "All practice areas",
+    "servicesTitle": "Services we offer",
+    "processTitle": "How we work",
+    "faqTitle": "Frequently asked questions",
+    "relatedArticlesTitle": "Related articles",
+    "ctaTitle": "How can we help?",
+    "ctaBody": "Let's review your file together. Reach out for an initial consultation.",
+    "ctaButton": "Request a consultation"
   },
   "team": {
     "title": "Our Team",

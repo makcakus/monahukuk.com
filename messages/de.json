@@ -82,7 +82,15 @@
   "practiceAreas": {
     "title": "Rechtsgebiete",
     "lead": "Wir konzentrieren uns auf die Rechtsbereiche, in denen ausländische Privatpersonen und Unternehmen am häufigsten mit dem türkischen Rechtssystem in Berührung kommen.",
-    "comingSoon": "Detaillierte Seiten zu den einzelnen Rechtsgebieten werden in Kürze veröffentlicht."
+    "comingSoon": "Detaillierte Seiten zu den einzelnen Rechtsgebieten werden in Kürze veröffentlicht.",
+    "backToList": "Alle Rechtsgebiete",
+    "servicesTitle": "Unsere Leistungen",
+    "processTitle": "Unser Vorgehen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedArticlesTitle": "Verwandte Artikel",
+    "ctaTitle": "Wie können wir helfen?",
+    "ctaBody": "Lassen Sie uns Ihren Fall gemeinsam prüfen. Vereinbaren Sie eine Erstberatung.",
+    "ctaButton": "Beratung anfragen"
   },
   "team": {
     "title": "Unser Team",

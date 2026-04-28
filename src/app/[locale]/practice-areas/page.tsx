@@ -1,5 +1,6 @@
-import { Globe, Home, ShieldAlert, Users, Scale, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
+import { Globe, Home, ShieldAlert, Users, Scale, Cpu, Briefcase, FileText, HardHat, Building2, ArrowRight } from "lucide-react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
@@ -47,20 +48,24 @@ export default async function PracticeAreasPage({
       <section className="mx-auto max-w-6xl px-6 pt-10 pb-20">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {PRACTICE_AREAS.map((area) => (
-            <div
+            <Link
               key={area.slug}
-              className="flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-md transition-shadow"
+              href={`/practice-areas/${area.slug}`}
+              className="group flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all"
             >
-              <div className="mb-4 inline-flex w-10 h-10 items-center justify-center rounded-full bg-navy-900 text-cream-50">
+              <div className="mb-4 inline-flex w-10 h-10 items-center justify-center rounded-full bg-navy-900 text-cream-50 group-hover:bg-gold-500 group-hover:text-navy-950 transition-colors">
                 {ICONS[area.icon]}
               </div>
-              <h2 className="mb-3 text-base font-semibold text-navy-900 leading-snug">
+              <h2 className="mb-3 text-base font-semibold text-navy-900 leading-snug group-hover:text-navy-700">
                 {pickPA(area.title, locale)}
               </h2>
               <p className="text-sm leading-relaxed text-ink-soft">
                 {pickPA(area.description, locale)}
               </p>
-            </div>
+              <span className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-gold-700 group-hover:gap-2 transition-all">
+                <ArrowRight size={14} />
+              </span>
+            </Link>
           ))}
         </div>
       </section>
