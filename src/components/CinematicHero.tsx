@@ -1,6 +1,10 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+
+const HERO_IMAGE_URL =
+  "https://images.unsplash.com/photo-1676389608621-802649bd5f87?fm=jpg&q=75&w=2400&auto=format&fit=crop";
 
 export function CinematicHero() {
   const t = useTranslations("home");
@@ -8,18 +12,16 @@ export function CinematicHero() {
 
   return (
     <section className="relative isolate -mt-px h-[88vh] min-h-[640px] w-full overflow-hidden">
-      <video
-        className="absolute inset-0 h-full w-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-        preload="auto"
-        poster="/hero/antalya-cliffs-poster.jpg"
-        aria-hidden="true"
-      >
-        <source src="/hero/antalya-cliffs.mp4" type="video/mp4" />
-      </video>
+      <div className="absolute inset-0 animate-ken-burns">
+        <Image
+          src={HERO_IMAGE_URL}
+          alt="Antalya — Konyaaltı sahili, Toros Dağları ve şehir manzarası"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
 
       <div
         aria-hidden
@@ -65,12 +67,12 @@ export function CinematicHero() {
       </div>
 
       <a
-        href="https://www.pexels.com/video/aerial-view-of-mediterranean-marina-at-sunset-33228671/"
+        href="https://unsplash.com/@mahykisreal"
         target="_blank"
         rel="noopener noreferrer nofollow"
         className="absolute bottom-3 right-4 z-10 text-[10px] uppercase tracking-wider text-cream-100/55 hover:text-cream-100/90 transition-colors"
       >
-        Video · Pexels
+        Photo · Burak Mike / Unsplash
       </a>
     </section>
   );
