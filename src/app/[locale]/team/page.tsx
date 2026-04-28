@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
+import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { TEAM, pick } from "@/lib/team";
 
@@ -35,11 +37,18 @@ export default async function TeamPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("team");
+  const tCta = await getTranslations("cta");
   const lang = locale;
 
   return (
     <>
       <PageHero title={t("title")} lead={t("lead")} />
+
+      {/* Intro / SEO content */}
+      <section className="mx-auto max-w-3xl px-6 pt-8 pb-4">
+        <p className="text-ink-soft leading-relaxed">{t("intro")}</p>
+      </section>
+
       <section className="mx-auto max-w-5xl px-6 py-16 space-y-16">
         {TEAM.map((member) => {
           const photo = PHOTO_BY_NAME[member.name];
@@ -106,6 +115,27 @@ export default async function TeamPage({
             </article>
           );
         })}
+      </section>
+
+      {/* CTA */}
+      <section className="border-t border-cream-200 bg-cream-100/60">
+        <div className="mx-auto max-w-6xl px-6 py-16 grid gap-8 md:grid-cols-12 items-center">
+          <div className="md:col-span-8">
+            <h2 className="font-display text-2xl md:text-3xl text-navy-900">
+              {t("ctaTitle")}
+            </h2>
+            <p className="mt-4 text-ink-soft max-w-2xl">{t("ctaBody")}</p>
+          </div>
+          <div className="md:col-span-4 md:text-right">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-sm bg-gold-500 px-6 py-3 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors"
+            >
+              {tCta("consult")}
+              <ArrowRight size={16} />
+            </Link>
+          </div>
+        </div>
       </section>
     </>
   );

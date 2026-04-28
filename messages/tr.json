@@ -46,7 +46,35 @@
   "about": {
     "title": "Mona Hukuk Hakkında",
     "lead": "Türkiye'de yaşayan ve faaliyet gösteren yabancı kişi ve uluslararası şirketlerin hukuki ihtiyaçlarına odaklanan, Antalya merkezli bağımsız bir hukuk bürosu.",
-    "body": "Mona Hukuk; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi."
+    "body": "Mona Hukuk; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi.",
+    "mission": {
+      "title": "Misyonumuz",
+      "body": "Türkiye'de hukuki sürece dahil olan yabancı uyruklu bireylere ve uluslararası şirketlere; dil engelini, kültürel farklılıkları ve usul karmaşıklığını ortadan kaldıran, sonuç odaklı bir hukuki temsil sunmak. Antalya yabancılar avukatı olarak, müvekkillerimizin Türkiye'deki yaşam ve iş süreçlerini hukuki güvenceye almak için titizlikle çalışıyoruz."
+    },
+    "whyUs": {
+      "title": "Neden Mona Hukuk?",
+      "items": {
+        "international": {
+          "title": "Uluslararası müvekkil odaklılık",
+          "body": "Yabancı uyruklu müvekkillerle çalışmaya odaklanmış bir ekip. Tüm avukatlarımız İngilizce iletişim kurar; Rusça, Almanca ve Arapça konuşan müvekkiller için tercüman koordinasyonu sağlanır."
+        },
+        "experience": {
+          "title": "On yılı aşkın saha deneyimi",
+          "body": "Antalya'da bir on yılı aşkın süredir yabancı uyrukluların hukuki süreçlerini yürütüyoruz. Tapu işlemlerinden vatandaşlık dosyalarına, ceza savunmalarından ticari uyuşmazlıklara kadar geniş bir yelpazede pratik tecrübe."
+        },
+        "transparency": {
+          "title": "Şeffaf ücretlendirme",
+          "body": "Sürpriz olmayan ücret yapısı, yazılı temsil sözleşmeleri, dosya bazında öngörülebilir maliyet planlaması. Müvekkil her zaman hangi aşamada olduğunu ve ne ödediğini bilir."
+        },
+        "discretion": {
+          "title": "Gizlilik ve mesleki titizlik",
+          "body": "Her dosya; özel müvekkillerin, yöneticilerin ve yatırımcıların beklediği düzeyde mahremiyetle yürütülür. Bilgi güvenliği ve müvekkil sırrı, mesleki sorumluluğumuzun temelidir."
+        }
+      }
+    },
+    "areasIntro": "Antalya'da yabancı müvekkillerin Türk hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz:",
+    "ctaTitle": "Hukuki danışmanlık talep edin",
+    "ctaBody": "Türkiye'deki hukuki sürecinizde profesyonel destek için ekibimizle iletişime geçin."
   },
   "practiceAreas": {
     "title": "Uygulama Alanları",
@@ -56,9 +84,12 @@
   "team": {
     "title": "Ekibimiz",
     "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi.",
+    "intro": "Mona Hukuk, Antalya Barosu'na kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, aile hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
-    "labelAreas": "Uygulama Alanları"
+    "labelAreas": "Uygulama Alanları",
+    "ctaTitle": "Ekibimizle çalışmaya başlayın",
+    "ctaBody": "Antalya yabancılar avukatı olarak hukuki danışmanlık ve dava takibi için bizimle iletişime geçin."
   },
   "articles": {
     "title": "Hukuki Makaleler",

@@ -46,7 +46,35 @@
   "about": {
     "title": "About Mona Hukuk",
     "lead": "An independent Antalya-based law firm focused on the legal needs of foreign individuals and international businesses operating in Turkey.",
-    "body": "Mona Hukuk advises expats, foreign investors, and cross-border companies on the full spectrum of Turkish law that affects their lives and operations in Turkey. Our practice combines local procedural expertise with international working culture: clear English communication, transparent fee structures, and case management that respects clients' time zones."
+    "body": "Mona Hukuk advises expats, foreign investors, and cross-border companies on the full spectrum of Turkish law that affects their lives and operations in Turkey. Our practice combines local procedural expertise with international working culture: clear English communication, transparent fee structures, and case management that respects clients' time zones.",
+    "mission": {
+      "title": "Our Mission",
+      "body": "To provide foreign nationals and international companies engaged with Turkish legal processes with results-oriented legal representation that eliminates language barriers, cultural differences, and procedural complexity. As an Antalya lawyer for foreigners, we work meticulously to secure our clients' lives and business processes in Turkey."
+    },
+    "whyUs": {
+      "title": "Why Choose Mona Hukuk?",
+      "items": {
+        "international": {
+          "title": "International client focus",
+          "body": "A team focused on working with foreign-national clients. All our lawyers communicate in English; translator coordination is provided for Russian, German, and Arabic-speaking clients."
+        },
+        "experience": {
+          "title": "Over a decade of practice",
+          "body": "We have been managing legal processes for foreigners in Antalya for more than a decade. Practical experience across a broad spectrum from title transactions to citizenship files, criminal defence to commercial disputes."
+        },
+        "transparency": {
+          "title": "Transparent fee structure",
+          "body": "Fee structure with no surprises, written representation agreements, predictable cost planning per file. Clients always know what stage they're at and what they're paying."
+        },
+        "discretion": {
+          "title": "Confidentiality and diligence",
+          "body": "Every engagement is handled with discretion expected by private clients, executives, and investors. Information security and client confidentiality form the foundation of our professional responsibility."
+        }
+      }
+    },
+    "areasIntro": "We focus on the areas in which foreign clients most often interact with the Turkish legal system in Antalya:",
+    "ctaTitle": "Request legal consultation",
+    "ctaBody": "Contact our team for professional support in your legal processes in Turkey."
   },
   "practiceAreas": {
     "title": "Practice Areas",
@@ -56,9 +84,12 @@
   "team": {
     "title": "Our Team",
     "lead": "A small, senior team of attorneys committed to international clients.",
+    "intro": "Mona Hukuk manages legal processes for foreign-national clients in Turkey through a team of experienced attorneys registered with the Antalya Bar Association. Our team serves across a broad expertise range including real estate, citizenship, family law, criminal defence, commercial, inheritance, and administrative disputes.",
     "labelEducation": "Education",
     "labelBar": "Bar",
-    "labelAreas": "Practice Areas"
+    "labelAreas": "Practice Areas",
+    "ctaTitle": "Start working with our team",
+    "ctaBody": "As an Antalya lawyer for foreigners, contact us for legal counsel and litigation."
   },
   "articles": {
     "title": "Legal Articles",

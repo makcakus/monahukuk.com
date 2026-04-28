@@ -46,7 +46,35 @@
   "about": {
     "title": "Über Mona Hukuk",
     "lead": "Eine unabhängige Anwaltskanzlei mit Sitz in Antalya, die sich auf die rechtlichen Bedürfnisse ausländischer Privatpersonen und internationaler Unternehmen in der Türkei spezialisiert hat.",
-    "body": "Mona Hukuk berät Expats, ausländische Investoren und grenzüberschreitend tätige Unternehmen in allen Bereichen des türkischen Rechts, die ihr Leben und ihre Geschäftstätigkeit in der Türkei berühren. Unsere Kanzlei verbindet lokale verfahrensrechtliche Expertise mit internationaler Arbeitskultur: klare englischsprachige Kommunikation, transparente Honorarstrukturen und ein Fallmanagement, das die Zeitzonen unserer Mandanten respektiert."
+    "body": "Mona Hukuk berät Expats, ausländische Investoren und grenzüberschreitend tätige Unternehmen in allen Bereichen des türkischen Rechts, die ihr Leben und ihre Geschäftstätigkeit in der Türkei berühren. Unsere Kanzlei verbindet lokale verfahrensrechtliche Expertise mit internationaler Arbeitskultur: klare englischsprachige Kommunikation, transparente Honorarstrukturen und ein Fallmanagement, das die Zeitzonen unserer Mandanten respektiert.",
+    "mission": {
+      "title": "Unser Auftrag",
+      "body": "Ausländischen Staatsangehörigen und internationalen Unternehmen, die mit türkischen Rechtsverfahren befasst sind, eine ergebnisorientierte rechtliche Vertretung zu bieten, die Sprachbarrieren, kulturelle Unterschiede und verfahrensrechtliche Komplexität beseitigt. Als Anwaltskanzlei für Ausländer in Antalya arbeiten wir sorgfältig daran, das Leben und die Geschäftsprozesse unserer Mandanten in der Türkei rechtlich abzusichern."
+    },
+    "whyUs": {
+      "title": "Warum Mona Hukuk?",
+      "items": {
+        "international": {
+          "title": "Internationale Mandantenorientierung",
+          "body": "Ein Team, das auf die Arbeit mit ausländischen Mandanten spezialisiert ist. Alle unsere Anwälte kommunizieren auf Englisch; für russisch-, deutsch- und arabischsprachige Mandanten wird eine Dolmetscherkoordination bereitgestellt."
+        },
+        "experience": {
+          "title": "Über ein Jahrzehnt Praxiserfahrung",
+          "body": "Wir betreuen seit mehr als einem Jahrzehnt Rechtsverfahren für Ausländer in Antalya. Praktische Erfahrung in einem breiten Spektrum von Grundbuchtransaktionen bis Einbürgerungsdossiers, Strafverteidigung bis Handelsstreitigkeiten."
+        },
+        "transparency": {
+          "title": "Transparente Honorarstruktur",
+          "body": "Honorarstruktur ohne Überraschungen, schriftliche Vertretungsverträge, vorhersehbare Kostenplanung pro Akte. Mandanten wissen immer, in welcher Phase sie sich befinden und was sie zahlen."
+        },
+        "discretion": {
+          "title": "Vertraulichkeit und Sorgfalt",
+          "body": "Jede Beauftragung wird mit der Diskretion behandelt, die von Privatmandanten, Führungskräften und Investoren erwartet wird. Informationssicherheit und Mandantenvertraulichkeit bilden die Grundlage unserer beruflichen Verantwortung."
+        }
+      }
+    },
+    "areasIntro": "Wir konzentrieren uns auf die Bereiche, in denen ausländische Mandanten in Antalya am häufigsten mit dem türkischen Rechtssystem in Berührung kommen:",
+    "ctaTitle": "Rechtsberatung anfragen",
+    "ctaBody": "Wenden Sie sich an unser Team für professionelle Unterstützung in Ihren rechtlichen Verfahren in der Türkei."
   },
   "practiceAreas": {
     "title": "Rechtsgebiete",
@@ -56,9 +84,12 @@
   "team": {
     "title": "Unser Team",
     "lead": "Ein kleines, erfahrenes Team von Rechtsanwälten, das sich internationalen Mandanten verpflichtet fühlt.",
+    "intro": "Mona Hukuk betreut die rechtlichen Verfahren ausländischer Mandanten in der Türkei mit einem Team erfahrener, bei der Antalya Barosu eingetragener Rechtsanwälte. Unser Team ist in einem breiten Spektrum tätig, einschließlich Immobilien, Staatsbürgerschaft, Familienrecht, Strafverteidigung, Handels-, Erb- und Verwaltungsstreitigkeiten.",
     "labelEducation": "Ausbildung",
     "labelBar": "Rechtsanwaltskammer",
-    "labelAreas": "Rechtsgebiete"
+    "labelAreas": "Rechtsgebiete",
+    "ctaTitle": "Beginnen Sie die Zusammenarbeit mit unserem Team",
+    "ctaBody": "Als Anwaltskanzlei für Ausländer in Antalya kontaktieren Sie uns für Rechtsberatung und Prozessvertretung."
   },
   "articles": {
     "title": "Rechtliche Artikel",
