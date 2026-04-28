@@ -111,7 +111,9 @@
     "publishedOn": "نُشر في",
     "uncategorized": "عام",
     "articleOne": "مقال",
-    "articleMany": "مقالات"
+    "articleMany": "مقالات",
+    "relatedSuffix": "— مقالات ذات صلة",
+    "viewPracticeArea": "استعرض مجال الممارسة هذا"
   },
   "contact": {
     "title": "اتصل بنا",

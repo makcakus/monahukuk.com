@@ -111,7 +111,9 @@
     "publishedOn": "Yayın tarihi",
     "uncategorized": "Genel",
     "articleOne": "makale",
-    "articleMany": "makale"
+    "articleMany": "makale",
+    "relatedSuffix": "ile İlgili Makaleler",
+    "viewPracticeArea": "Bu uygulama alanını incele"
   },
   "contact": {
     "title": "İletişim",

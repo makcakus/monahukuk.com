@@ -111,7 +111,9 @@
     "publishedOn": "Опубликовано",
     "uncategorized": "Общее",
     "articleOne": "статья",
-    "articleMany": "статей"
+    "articleMany": "статей",
+    "relatedSuffix": "— Связанные статьи",
+    "viewPracticeArea": "Перейти к этой области практики"
   },
   "contact": {
     "title": "Контакты",

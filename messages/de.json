@@ -111,7 +111,9 @@
     "publishedOn": "Veröffentlicht",
     "uncategorized": "Allgemein",
     "articleOne": "Artikel",
-    "articleMany": "Artikel"
+    "articleMany": "Artikel",
+    "relatedSuffix": "— Verwandte Artikel",
+    "viewPracticeArea": "Dieses Rechtsgebiet ansehen"
   },
   "contact": {
     "title": "Kontakt",

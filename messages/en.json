@@ -111,7 +111,9 @@
     "publishedOn": "Published",
     "uncategorized": "General",
     "articleOne": "article",
-    "articleMany": "articles"
+    "articleMany": "articles",
+    "relatedSuffix": "— Related Articles",
+    "viewPracticeArea": "Explore this practice area"
   },
   "contact": {
     "title": "Contact Us",
