@@ -7,6 +7,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CookieBanner } from "@/components/CookieBanner";
 import { LegalServiceSchema, WebsiteSchema } from "@/components/LegalServiceSchema";
 import { routing } from "@/i18n/routing";
 import { SITE, KEYWORDS } from "@/lib/site";
@@ -109,6 +110,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <CookieBanner />
         </NextIntlClientProvider>
       </body>
     </html>

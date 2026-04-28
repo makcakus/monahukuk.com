@@ -119,5 +119,12 @@
   "footer": {
     "rights": "All rights reserved.",
     "disclaimer": "This website is for general information only and does not constitute legal advice."
+  },
+  "cookies": {
+    "title": "Cookie Notice (KVKK / GDPR)",
+    "body": "We use essential cookies to improve our website and provide a better experience. Analytics and marketing cookies are activated only with your consent.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Essential Only",
+    "learnMore": "Privacy Policy"
   }
 }

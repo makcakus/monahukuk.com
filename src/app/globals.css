@@ -130,6 +130,15 @@ h1, h2, h3, h4, .font-display {
   display: block;
 }
 
+/* Cookie banner slide-in */
+@keyframes cookie-slide {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-cookie-slide {
+  animation: cookie-slide 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 /* ===== Dark mode global overrides =====
    These rules let cards and sections automatically adapt to dark mode
    without needing dark: prefix on every component. */

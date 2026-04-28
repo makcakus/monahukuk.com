@@ -119,5 +119,12 @@
   "footer": {
     "rights": "Tüm hakları saklıdır.",
     "disclaimer": "Bu site yalnızca genel bilgi amaçlıdır ve hukuki tavsiye niteliği taşımaz."
+  },
+  "cookies": {
+    "title": "Çerez Kullanımı (KVKK)",
+    "body": "Web sitemizi geliştirmek ve size daha iyi bir deneyim sunmak için zorunlu çerezler kullanıyoruz. Analitik ve pazarlama çerezleri yalnızca onayınızla aktif edilir.",
+    "acceptAll": "Tümünü Kabul Et",
+    "rejectAll": "Sadece Gerekli",
+    "learnMore": "Gizlilik Politikası"
   }
 }

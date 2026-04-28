@@ -119,5 +119,12 @@
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
     "disclaimer": "Diese Website dient nur zur allgemeinen Information und stellt keine Rechtsberatung dar."
+  },
+  "cookies": {
+    "title": "Cookie-Hinweis (KVKK / DSGVO)",
+    "body": "Wir verwenden notwendige Cookies, um unsere Website zu verbessern und Ihnen ein besseres Erlebnis zu bieten. Analyse- und Marketing-Cookies werden nur mit Ihrer Zustimmung aktiviert.",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Nur Notwendige",
+    "learnMore": "Datenschutzerklärung"
   }
 }
