@@ -113,7 +113,11 @@
     "articleOne": "article",
     "articleMany": "articles",
     "relatedSuffix": "— Related Articles",
-    "viewPracticeArea": "Explore this practice area"
+    "viewPracticeArea": "Explore this practice area",
+    "searchPlaceholder": "Search articles — title and full text",
+    "searchClear": "Clear search",
+    "searchEmpty": "No articles match your search.",
+    "searchResultsLabel": "results"
   },
   "contact": {
     "title": "Contact Us",

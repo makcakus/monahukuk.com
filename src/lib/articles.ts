@@ -73,3 +73,46 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
     .filter((a): a is Article => a !== null && !a.draft)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
+
+function stripMarkdown(md: string): string {
+  return md
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`[^`]*`/g, " ")
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/^#{1,6}\s+/gm, "")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/__([^_]+)__/g, "$1")
+    .replace(/_([^_]+)_/g, "$1")
+    .replace(/^>\s*/gm, "")
+    .replace(/^[-*+]\s+/gm, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export interface ArticleSearchEntry {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  category?: string;
+  readingMinutes: number;
+  searchText: string;
+}
+
+export async function getArticleSearchIndex(
+  locale: string
+): Promise<ArticleSearchEntry[]> {
+  const articles = await getAllArticles(locale);
+  return articles.map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    description: a.description,
+    date: a.date,
+    category: a.category,
+    readingMinutes: a.readingMinutes,
+    searchText: `${a.title} ${a.description} ${a.category ?? ""} ${stripMarkdown(a.body)}`.toLowerCase(),
+  }));
+}

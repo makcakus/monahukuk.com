@@ -113,7 +113,11 @@
     "articleOne": "статья",
     "articleMany": "статей",
     "relatedSuffix": "— Связанные статьи",
-    "viewPracticeArea": "Перейти к этой области практики"
+    "viewPracticeArea": "Перейти к этой области практики",
+    "searchPlaceholder": "Поиск по статьям — заголовок и содержимое",
+    "searchClear": "Очистить поиск",
+    "searchEmpty": "По вашему запросу ничего не найдено.",
+    "searchResultsLabel": "результатов"
   },
   "contact": {
     "title": "Контакты",

@@ -113,7 +113,11 @@
     "articleOne": "Artikel",
     "articleMany": "Artikel",
     "relatedSuffix": "— Verwandte Artikel",
-    "viewPracticeArea": "Dieses Rechtsgebiet ansehen"
+    "viewPracticeArea": "Dieses Rechtsgebiet ansehen",
+    "searchPlaceholder": "Artikel suchen — Titel und Volltext",
+    "searchClear": "Suche leeren",
+    "searchEmpty": "Keine Artikel entsprechen Ihrer Suche.",
+    "searchResultsLabel": "Ergebnisse"
   },
   "contact": {
     "title": "Kontakt",

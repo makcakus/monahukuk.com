@@ -113,7 +113,11 @@
     "articleOne": "مقال",
     "articleMany": "مقالات",
     "relatedSuffix": "— مقالات ذات صلة",
-    "viewPracticeArea": "استعرض مجال الممارسة هذا"
+    "viewPracticeArea": "استعرض مجال الممارسة هذا",
+    "searchPlaceholder": "ابحث في المقالات — العنوان والمحتوى",
+    "searchClear": "مسح البحث",
+    "searchEmpty": "لا توجد مقالات تطابق بحثك.",
+    "searchResultsLabel": "نتيجة"
   },
   "contact": {
     "title": "اتصل بنا",
