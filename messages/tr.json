@@ -48,36 +48,36 @@
   },
   "about": {
     "title": "MONA HUKUK Hakkında",
-    "lead": "Türkiye'de yaşayan ve faaliyet gösteren yabancı kişi ve uluslararası şirketlerin hukuki ihtiyaçlarına odaklanan, Antalya merkezli bağımsız bir hukuk bürosu.",
-    "body": "MONA HUKUK; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi.",
+    "lead": "Antalya merkezli bağımsız bir hukuk bürosu. Bireylere ve şirketlere Türk hukukunun temel dallarında danışmanlık ve dava takip hizmeti sunar.",
+    "body": "MONA HUKUK; Türk hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve şirketler hukukundan aile hukukuna, ceza hukukundan idare hukukuna, gayrimenkul hukukundan iş hukukuna uzanan geniş bir uygulama alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
     "mission": {
       "title": "Misyonumuz",
-      "body": "Türkiye'de hukuki sürece dahil olan yabancı uyruklu bireylere ve uluslararası şirketlere; dil engelini, kültürel farklılıkları ve usul karmaşıklığını ortadan kaldıran, sonuç odaklı bir hukuki temsil sunmak. Antalya yabancılar avukatı olarak, müvekkillerimizin Türkiye'deki yaşam ve iş süreçlerini hukuki güvenceye almak için titizlikle çalışıyoruz."
+      "body": "Müvekkilin haklarını, beklentisini ve içinde bulunduğu hukuki süreci doğru anlamak; tartışılan menfaati en iyi koruyacak çözümü mahkeme veya müzakere yoluyla üretmek. Bu sade ilkeyi şeffaf bir iletişim, öngörülebilir maliyet planlaması ve mesleki titizlikle birleştiriyoruz."
     },
     "whyUs": {
       "title": "Neden MONA HUKUK?",
       "items": {
-        "international": {
-          "title": "Uluslararası müvekkil odaklılık",
-          "body": "Yabancı uyruklu müvekkillerle çalışmaya odaklanmış bir ekip. Tüm avukatlarımız İngilizce iletişim kurar; Rusça, Almanca ve Arapça konuşan müvekkiller için tercüman koordinasyonu sağlanır."
+        "scope": {
+          "title": "Geniş uygulama alanı",
+          "body": "Türk hukukunun temel dallarında çalışan, dosyaya en uygun yaklaşımı tayin edebilen kıdemli bir avukat ekibi. Bireysel davalardan kurumsal danışmanlığa, tek bir büroda bütünsel bir hukuki destek."
         },
         "experience": {
           "title": "On yılı aşkın saha deneyimi",
-          "body": "Antalya'da bir on yılı aşkın süredir yabancı uyrukluların hukuki süreçlerini yürütüyoruz. Tapu işlemlerinden vatandaşlık dosyalarına, ceza savunmalarından ticari uyuşmazlıklara kadar geniş bir yelpazede pratik tecrübe."
+          "body": "Antalya'nın yerel mahkemelerinde, adli birimlerinde ve kamu kurumlarında uzun yılların pratik birikimi. Her dosyada usul ve esas yönünden gerçekçi bir başlangıç noktası."
         },
         "transparency": {
           "title": "Şeffaf ücretlendirme",
-          "body": "Sürpriz olmayan ücret yapısı, yazılı temsil sözleşmeleri, dosya bazında öngörülebilir maliyet planlaması. Müvekkil her zaman hangi aşamada olduğunu ve ne ödediğini bilir."
+          "body": "Sürpriz olmayan ücret yapısı, yazılı temsil sözleşmeleri ve dosya bazında öngörülebilir maliyet planlaması. Müvekkil her zaman hangi aşamada olduğunu ve ne ödediğini bilir."
         },
         "discretion": {
           "title": "Gizlilik ve mesleki titizlik",
-          "body": "Her dosya; özel müvekkillerin, yöneticilerin ve yatırımcıların beklediği düzeyde mahremiyetle yürütülür. Bilgi güvenliği ve müvekkil sırrı, mesleki sorumluluğumuzun temelidir."
+          "body": "Mesleki sır ve müvekkil bilgisi, üstlendiğimiz her dosyanın temel taşıdır. İletişim güvenliği, evrak yönetimi ve süreç paylaşımı bu özenle yürütülür."
         }
       }
     },
-    "areasIntro": "Antalya'da yabancı müvekkillerin Türk hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz:",
+    "areasIntro": "Türk hukukunun temel dallarında müvekkillerimize hizmet veriyoruz:",
     "ctaTitle": "Hukuki danışmanlık talep edin",
-    "ctaBody": "Türkiye'deki hukuki sürecinizde profesyonel destek için ekibimizle iletişime geçin."
+    "ctaBody": "Görüştüğümüz her dosyada koşulları birlikte değerlendirir, sonraki adımı netleştiririz."
   },
   "practiceAreas": {
     "title": "Uygulama Alanları",

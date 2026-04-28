@@ -1,12 +1,12 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
-import { ArrowRight, Globe, Award, Eye, Lock } from "lucide-react";
+import { ArrowRight, Scale, Award, Eye, Lock } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 
 const ICONS: Record<string, React.ReactNode> = {
-  international: <Globe size={22} />,
+  scope: <Scale size={22} />,
   experience: <Award size={22} />,
   transparency: <Eye size={22} />,
   discretion: <Lock size={22} />,
@@ -38,7 +38,7 @@ export default async function AboutPage({
   const tCta = await getTranslations("cta");
   const tNav = await getTranslations("nav");
 
-  const whyKeys = ["international", "experience", "transparency", "discretion"] as const;
+  const whyKeys = ["scope", "experience", "transparency", "discretion"] as const;
 
   return (
     <>
@@ -47,7 +47,9 @@ export default async function AboutPage({
       {/* Body / Intro */}
       <section className="mx-auto max-w-3xl px-6 py-16">
         <div className="prose-legal">
-          <p>{t("body")}</p>
+          {t("body").split("\n\n").map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
         </div>
       </section>
 
@@ -104,7 +106,7 @@ export default async function AboutPage({
             {PRACTICE_AREAS.map((area) => (
               <li key={area.slug}>
                 <Link
-                  href="/practice-areas"
+                  href={`/practice-areas/${area.slug}`}
                   className="block rounded-md border border-navy-100 bg-white px-4 py-3 text-sm font-medium text-navy-900 hover:border-gold-400 hover:text-navy-700 transition-colors"
                 >
                   {pickPA(area.title, locale)}

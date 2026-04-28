@@ -48,36 +48,36 @@
   },
   "about": {
     "title": "Über MONA HUKUK",
-    "lead": "Eine unabhängige Anwaltskanzlei mit Sitz in Antalya, die sich auf die rechtlichen Bedürfnisse ausländischer Privatpersonen und internationaler Unternehmen in der Türkei spezialisiert hat.",
-    "body": "MONA HUKUK berät Expats, ausländische Investoren und grenzüberschreitend tätige Unternehmen in allen Bereichen des türkischen Rechts, die ihr Leben und ihre Geschäftstätigkeit in der Türkei berühren. Unsere Kanzlei verbindet lokale verfahrensrechtliche Expertise mit internationaler Arbeitskultur: klare englischsprachige Kommunikation, transparente Honorarstrukturen und ein Fallmanagement, das die Zeitzonen unserer Mandanten respektiert.",
+    "lead": "Eine unabhängige Anwaltskanzlei mit Sitz in Antalya, die Privatpersonen und Unternehmen in den wichtigsten Bereichen des türkischen Rechts berät und vertritt.",
+    "body": "MONA HUKUK ist eine in Antalya ansässige Anwaltskanzlei, gegründet zur Tätigkeit in allen Bereichen des türkischen Rechts und mit über zehn Jahren beruflicher Erfahrung. Wir beraten und vertreten Privatpersonen wie Unternehmen in einem breiten Tätigkeitsfeld, das Handels- und Gesellschaftsrecht, Familienrecht, Strafrecht, Verwaltungsrecht, Immobilienrecht und Arbeitsrecht umfasst. Neben unseren türkischen Mandanten bieten wir auch ausländischen Staatsangehörigen und internationalen Unternehmen, die in Antalya leben, investieren oder Geschäfte führen, dank der starken Englischkenntnisse unseres Teams qualifizierte Beratung in ihrer eigenen Sprache.\n\nIm Kern unseres Ansatzes steht die Disziplin, jede Akte nach ihren eigenen Tatsachen zu beurteilen, den Mandanten in jedem Schritt vollständig zu informieren und einzubeziehen und das Berufsgeheimnis sorgfältig zu wahren. Von der gerichtlichen Vertretung bis zur Einigung am Verhandlungstisch, vom Vertragsentwurf bis zu Verwaltungsanträgen — unser Ziel in jeder Phase ist es, das Interesse des Mandanten so wirksam wie das Recht erlaubt zu vertreten.",
     "mission": {
-      "title": "Unser Auftrag",
-      "body": "Ausländischen Staatsangehörigen und internationalen Unternehmen, die mit türkischen Rechtsverfahren befasst sind, eine ergebnisorientierte rechtliche Vertretung zu bieten, die Sprachbarrieren, kulturelle Unterschiede und verfahrensrechtliche Komplexität beseitigt. Als Anwaltskanzlei für Ausländer in Antalya arbeiten wir sorgfältig daran, das Leben und die Geschäftsprozesse unserer Mandanten in der Türkei rechtlich abzusichern."
+      "title": "Unsere Mission",
+      "body": "Die Rechte, Erwartungen und Umstände des Mandanten richtig zu verstehen — und im Prozess oder durch Verhandlung die Lösung zu erzielen, die das streitige Interesse am besten schützt. Dieses einfache Prinzip verbinden wir mit transparenter Kommunikation, planbaren Kosten und beruflicher Sorgfalt."
     },
     "whyUs": {
       "title": "Warum MONA HUKUK?",
       "items": {
-        "international": {
-          "title": "Internationale Mandantenorientierung",
-          "body": "Ein Team, das auf die Arbeit mit ausländischen Mandanten spezialisiert ist. Alle unsere Anwälte kommunizieren auf Englisch; für russisch-, deutsch- und arabischsprachige Mandanten wird eine Dolmetscherkoordination bereitgestellt."
+        "scope": {
+          "title": "Breites Tätigkeitsfeld",
+          "body": "Ein erfahrenes Team, das in den wichtigsten Bereichen des türkischen Rechts tätig ist und für jede Akte den richtigen Ansatz findet. Von Einzelfällen bis zur Unternehmensberatung — umfassende Begleitung aus einer Hand."
         },
         "experience": {
-          "title": "Über ein Jahrzehnt Praxiserfahrung",
-          "body": "Wir betreuen seit mehr als einem Jahrzehnt Rechtsverfahren für Ausländer in Antalya. Praktische Erfahrung in einem breiten Spektrum von Grundbuchtransaktionen bis Einbürgerungsdossiers, Strafverteidigung bis Handelsstreitigkeiten."
+          "title": "Über ein Jahrzehnt Erfahrung",
+          "body": "Langjährige Praxis vor Antalyaer Gerichten, Justizbehörden und Verwaltungseinrichtungen. Jede Akte beginnt auf einer realistischen verfahrens- und sachrechtlichen Grundlage."
         },
         "transparency": {
-          "title": "Transparente Honorarstruktur",
-          "body": "Honorarstruktur ohne Überraschungen, schriftliche Vertretungsverträge, vorhersehbare Kostenplanung pro Akte. Mandanten wissen immer, in welcher Phase sie sich befinden und was sie zahlen."
+          "title": "Transparente Honorierung",
+          "body": "Klare Honorarstrukturen, schriftliche Mandatsverträge und planbare Kostenkalkulation pro Akte. Der Mandant weiß stets, wo das Verfahren steht und was er zahlt."
         },
         "discretion": {
           "title": "Vertraulichkeit und Sorgfalt",
-          "body": "Jede Beauftragung wird mit der Diskretion behandelt, die von Privatmandanten, Führungskräften und Investoren erwartet wird. Informationssicherheit und Mandantenvertraulichkeit bilden die Grundlage unserer beruflichen Verantwortung."
+          "body": "Anwaltsgeheimnis und Mandanteninformationen sind das Fundament jeder Akte. Kommunikation, Dokumentenmanagement und Verfahrensaktualisierungen erfolgen mit gleicher Sorgfalt."
         }
       }
     },
-    "areasIntro": "Wir konzentrieren uns auf die Bereiche, in denen ausländische Mandanten in Antalya am häufigsten mit dem türkischen Rechtssystem in Berührung kommen:",
+    "areasIntro": "Wir beraten Mandanten in den wichtigsten Bereichen des türkischen Rechts:",
     "ctaTitle": "Rechtsberatung anfragen",
-    "ctaBody": "Wenden Sie sich an unser Team für professionelle Unterstützung in Ihren rechtlichen Verfahren in der Türkei."
+    "ctaBody": "In jeder Akte prüfen wir die Umstände gemeinsam mit dem Mandanten und legen den nächsten Schritt klar fest."
   },
   "practiceAreas": {
     "title": "Rechtsgebiete",
