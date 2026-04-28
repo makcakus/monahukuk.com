@@ -84,7 +84,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-7">
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
           {NAV_ITEMS.map((item) => {
             if (item.type === "link") {
               const active = isActive(item.href);
@@ -93,7 +93,7 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   className={clsx(
-                    "text-sm font-medium transition-colors",
+                    "whitespace-nowrap text-sm font-medium transition-colors",
                     active
                       ? "text-navy-900 dark:text-cream-50"
                       : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50"
@@ -117,7 +117,7 @@ export function Header() {
                   aria-expanded={isOpen}
                   onClick={() => setOpenGroup(isOpen ? null : item.key)}
                   className={clsx(
-                    "inline-flex items-center gap-1 text-sm font-medium transition-colors",
+                    "inline-flex items-center gap-1 whitespace-nowrap text-sm font-medium transition-colors",
                     groupActive
                       ? "text-navy-900 dark:text-cream-50"
                       : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50"
