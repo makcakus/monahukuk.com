@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Mona Hukuk",
+    "name": "MONA HUKUK",
     "tagline": "Türkiye'de yabancılara yönelik hukuki danışmanlık",
     "description": "Antalya merkezli hukuk büromuz; yabancı uyruklu kişi ve uluslararası şirketleri Türkiye'de göç, gayrimenkul, aile, ceza, iş, ticaret ve bilişim/yapay zekâ hukuku alanlarında temsil eder."
   },
@@ -21,7 +21,7 @@
   "home": {
     "hero": {
       "kicker": "Antalya · Türkiye",
-      "title": "Mona Hukuk",
+      "title": "MONA HUKUK",
       "lead": "Antalya'da faaliyet gösteren büromuz, on yılı aşan mesleki birikimi ve alanında uzmanlaşmış kadrosuyla müvekkillerine hukuki danışmanlık ve dava takip hizmetleri sunmaktadır."
     },
     "practiceIntro": "Türk Hukukunun her dalında çalışmakta; Ticaret Hukuku, Aile Hukuku, İş Hukuku, Ceza Hukuku, Gayrimenkul Hukuku ve İdare Hukuku başta olmak üzere geniş bir yelpazede müvekkillerimize hizmet vermekteyiz. Her dosyayı kendi koşulları içinde değerlendirir, çözüm odaklı ve şeffaf bir süreç yönetimi anlayışını esas alırız.",
@@ -35,7 +35,7 @@
     },
     "approach": {
       "title": "Çalışma Anlayışımız",
-      "body": "Mona Hukuk olarak, hukuki hizmetin temelinde güven, gizlilik ve mesleki titizliğin yer aldığına inanıyoruz. Müvekkillerimizle kurduğumuz ilişkiyi uzun vadeli bir iş birliği olarak değerlendirir; her aşamada açık iletişim ve hesap verebilirlik ilkesiyle hareket ederiz.",
+      "body": "MONA HUKUK olarak, hukuki hizmetin temelinde güven, gizlilik ve mesleki titizliğin yer aldığına inanıyoruz. Müvekkillerimizle kurduğumuz ilişkiyi uzun vadeli bir iş birliği olarak değerlendirir; her aşamada açık iletişim ve hesap verebilirlik ilkesiyle hareket ederiz.",
       "closing": "Hukuki süreçlerinizde sağlam bir destek aradığınızda, büromuz sizinle tanışmaktan memnuniyet duyacaktır."
     },
     "ctaBanner": {
@@ -45,15 +45,15 @@
     }
   },
   "about": {
-    "title": "Mona Hukuk Hakkında",
+    "title": "MONA HUKUK Hakkında",
     "lead": "Türkiye'de yaşayan ve faaliyet gösteren yabancı kişi ve uluslararası şirketlerin hukuki ihtiyaçlarına odaklanan, Antalya merkezli bağımsız bir hukuk bürosu.",
-    "body": "Mona Hukuk; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi.",
+    "body": "MONA HUKUK; yabancı uyrukluları, yabancı yatırımcıları ve sınır ötesi faaliyet gösteren şirketleri Türk hukukunun yaşam ve iş hayatlarını etkileyen tüm alanlarında temsil ve danışmanlık hizmetiyle destekler. Uygulamamız; yerel usul uzmanlığını uluslararası çalışma kültürüyle birleştirir: net İngilizce iletişim, şeffaf ücretlendirme ve müvekkilin saat dilimini gözeten dosya yönetimi.",
     "mission": {
       "title": "Misyonumuz",
       "body": "Türkiye'de hukuki sürece dahil olan yabancı uyruklu bireylere ve uluslararası şirketlere; dil engelini, kültürel farklılıkları ve usul karmaşıklığını ortadan kaldıran, sonuç odaklı bir hukuki temsil sunmak. Antalya yabancılar avukatı olarak, müvekkillerimizin Türkiye'deki yaşam ve iş süreçlerini hukuki güvenceye almak için titizlikle çalışıyoruz."
     },
     "whyUs": {
-      "title": "Neden Mona Hukuk?",
+      "title": "Neden MONA HUKUK?",
       "items": {
         "international": {
           "title": "Uluslararası müvekkil odaklılık",
@@ -85,7 +85,7 @@
   "team": {
     "title": "Ekibimiz",
     "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi.",
-    "intro": "Mona Hukuk, Antalya Barosu'na kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, aile hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
+    "intro": "MONA HUKUK, Antalya Barosu'na kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, aile hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
     "labelAreas": "Uygulama Alanları",

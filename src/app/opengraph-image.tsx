@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Mona Hukuk — Antalya, Türkiye";
+export const alt = "MONA HUKUK — Antalya, Türkiye";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -34,7 +34,7 @@ export default async function OGImage() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <div style={{ fontSize: 96, lineHeight: 1.05, letterSpacing: -2 }}>
-            Mona Hukuk
+            MONA HUKUK
           </div>
           <div
             style={{

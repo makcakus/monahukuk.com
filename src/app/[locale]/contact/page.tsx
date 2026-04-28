@@ -87,7 +87,7 @@ export default async function ContactPage({
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Mona Hukuk Ofis Konumu"
+            title="MONA HUKUK Ofis Konumu"
           />
         </div>
       </section>

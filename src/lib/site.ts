@@ -1,7 +1,7 @@
 export const SITE = {
   url: "https://monahukuk.com",
-  name: "Mona Hukuk",
-  legalName: "Mona Hukuk Bürosu",
+  name: "MONA HUKUK",
+  legalName: "MONA HUKUK Bürosu",
   email: "info@monahukuk.com",
   phone: "+90 (242) 606 14 32",
   phoneE164: "+902426061432",

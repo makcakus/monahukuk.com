@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getArticle } from "@/lib/articles";
 
 export const runtime = "nodejs";
-export const alt = "Mona Hukuk article";
+export const alt = "MONA HUKUK article";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -12,7 +12,7 @@ export default async function ArticleOGImage({
   params: { locale: string; slug: string };
 }) {
   const article = await getArticle(params.locale, params.slug);
-  const title = article?.title ?? "Mona Hukuk";
+  const title = article?.title ?? "MONA HUKUK";
   const category = article?.category ?? "";
 
   return new ImageResponse(
@@ -31,7 +31,7 @@ export default async function ArticleOGImage({
         }}
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <div style={{ fontSize: 30, letterSpacing: -1 }}>Mona Hukuk</div>
+          <div style={{ fontSize: 30, letterSpacing: -1 }}>MONA HUKUK</div>
           {category && (
             <div
               style={{

@@ -33,11 +33,11 @@ export const TEAM: Member[] = [
       { tr: "Yabancılar Hukuku", en: "Immigration", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الأجانب" },
     ],
     bio: {
-      tr: "Mona Hukuk'un kurucu ortağı Mustafa, bilişim şirketleri ve uluslararası müvekkillere Türkiye'de BT hukuku, yapay zekâ düzenlemeleri ve veri koruma uyumu konularında danışmanlık vermektedir.",
-      en: "Founding partner of Mona Hukuk, Mustafa specialises in advising technology companies and international clients on IT law, artificial intelligence regulation, and data protection compliance in Turkey.",
-      de: "Als Gründungspartner von Mona Hukuk berät Mustafa Technologieunternehmen und internationale Mandanten in den Bereichen IT-Recht, KI-Regulierung und Datenschutz-Compliance in der Türkei.",
-      ru: "Основатель и партнёр Mona Hukuk, Мустафа специализируется на консультировании технологических компаний и международных клиентов по вопросам IT-права, регулирования искусственного интеллекта и соответствия требованиям защиты данных в Турции.",
-      ar: "مؤسس ومحامي شريك في Mona Hukuk، يتخصص مصطفى في تقديم المشورة لشركات التكنولوجيا والعملاء الدوليين في مجالات قانون تقنية المعلومات وتنظيم الذكاء الاصطناعي والامتثال لحماية البيانات في تركيا.",
+      tr: "MONA HUKUK'un kurucu ortağı Mustafa, bilişim şirketleri ve uluslararası müvekkillere Türkiye'de BT hukuku, yapay zekâ düzenlemeleri ve veri koruma uyumu konularında danışmanlık vermektedir.",
+      en: "Founding partner of MONA HUKUK, Mustafa specialises in advising technology companies and international clients on IT law, artificial intelligence regulation, and data protection compliance in Turkey.",
+      de: "Als Gründungspartner von MONA HUKUK berät Mustafa Technologieunternehmen und internationale Mandanten in den Bereichen IT-Recht, KI-Regulierung und Datenschutz-Compliance in der Türkei.",
+      ru: "Основатель и партнёр MONA HUKUK, Мустафа специализируется на консультировании технологических компаний и международных клиентов по вопросам IT-права, регулирования искусственного интеллекта и соответствия требованиям защиты данных в Турции.",
+      ar: "مؤسس ومحامي شريك في MONA HUKUK، يتخصص مصطفى في تقديم المشورة لشركات التكنولوجيا والعملاء الدوليين في مجالات قانون تقنية المعلومات وتنظيم الذكاء الاصطناعي والامتثال لحماية البيانات في تركيا.",
     },
   },
   {
