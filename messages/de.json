@@ -114,8 +114,101 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "lead": "Wie wir personenbezogene Daten erheben, verwenden und schützen.",
-    "body": "Diese Seite wird unsere Compliance mit dem türkischen KVKK (Gesetz Nr. 6698 zum Schutz personenbezogener Daten) und, soweit anwendbar, der EU-DSGVO detailliert darlegen. Die vollständige Richtlinie wird vor der allgemeinen Nutzung der Website veröffentlicht."
+    "lead": "Wie wir Ihre personenbezogenen Daten erheben, verwenden und schützen.",
+    "lastUpdated": "Letzte Aktualisierung: 28. April 2026",
+    "intro": "Bei MONA HUKUK legen wir großen Wert auf Ihre Privatsphäre und den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung erläutert, wie personenbezogene Daten von Personen, die unsere Website besuchen, unsere Dienste nutzen oder mit uns Kontakt aufnehmen, von uns erhoben, verwendet, weitergegeben und geschützt werden. Die Erklärung wurde im Einklang mit dem türkischen Datenschutzgesetz Nr. 6698 (KVKK) und, soweit anwendbar, der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) erstellt.",
+    "s1": {
+      "title": "1. Verantwortlicher",
+      "body": "Verantwortlicher im Sinne dieser Erklärung ist die in Antalya ansässige MONA HUKUK Anwaltskanzlei. Adresse: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei. E-Mail: info@monahukuk.com. Telefon: +90 (242) 606 14 32."
+    },
+    "s2": {
+      "title": "2. Erhobene personenbezogene Daten",
+      "body": "Je nach Art unserer Beziehung zu Ihnen können personenbezogene Daten der folgenden Kategorien verarbeitet werden:",
+      "items": [
+        "Identitätsdaten: Name, Vorname, Personalausweis- oder ausländische Ausweisnummer, Geburtsdatum, Staatsangehörigkeit.",
+        "Kontaktdaten: Telefonnummer, E-Mail-Adresse, Postanschrift.",
+        "Mandantenakte: Dokumente, Erklärungen und Korrespondenz zu Ihrem Rechtsfall.",
+        "Finanzdaten: Zahlungsdaten, Bankverbindung, Rechnungsangaben.",
+        "Website-Nutzungsdaten: IP-Adresse, Browser-Typ, Datum/Uhrzeit des Besuchs, besuchte Seiten, Cookie-Daten.",
+        "Über Formulare übermittelte Daten: Informationen, die Sie über unser Kontaktformular übermitteln.",
+        "Besondere Kategorien personenbezogener Daten: nur verarbeitet, wenn dies für Ihre Akte unbedingt erforderlich ist und mit Ihrer ausdrücklichen Einwilligung (z. B. Gesundheitsdaten, Strafregister)."
+      ]
+    },
+    "s3": {
+      "title": "3. Zwecke der Datenverarbeitung",
+      "body": "Wir verarbeiten Ihre personenbezogenen Daten zu folgenden Zwecken:",
+      "items": [
+        "Erbringung von Rechtsberatungs- und Prozessvertretungsdienstleistungen sowie Erfüllung unserer vertraglichen Verpflichtungen.",
+        "Begründung, Aufrechterhaltung und Beendigung des Mandatsverhältnisses.",
+        "Vertretung vor Gerichten, Verwaltungsbehörden und sonstigen Institutionen.",
+        "Beantwortung Ihrer Kontaktanfragen und Bereitstellung von Dienstleistungsinformationen.",
+        "Erfüllung unserer gesetzlichen Verpflichtungen (einschließlich finanzieller, steuerlicher und berufsrechtlicher Pflichten).",
+        "Verbesserung unserer Website, Durchführung von Nutzungsanalysen und Sicherung des Betriebs.",
+        "Marketing- und Informationskommunikation, sofern Sie zugestimmt haben."
+      ]
+    },
+    "s4": {
+      "title": "4. Rechtsgrundlagen der Verarbeitung",
+      "body": "Ihre personenbezogenen Daten werden auf Grundlage einer oder mehrerer der folgenden Rechtsgrundlagen verarbeitet: (a) Notwendigkeit für den Abschluss oder die Erfüllung eines Vertrags; (b) Erfüllung einer rechtlichen Verpflichtung; (c) Schutz, Geltendmachung oder Begründung unserer rechtlichen Interessen; (d) Erforderlichkeit für unsere berechtigten Interessen, soweit Ihre Grundrechte und Grundfreiheiten nicht beeinträchtigt werden; (e) Ihre ausdrückliche Einwilligung (insbesondere für Marketing und besondere Datenkategorien)."
+    },
+    "s5": {
+      "title": "5. Weitergabe personenbezogener Daten",
+      "body": "Ihre personenbezogenen Daten können im erforderlichen Umfang und im Rahmen der gesetzlichen Bestimmungen an folgende Parteien weitergegeben werden:",
+      "items": [
+        "Justizbehörden, Verwaltungsbehörden, öffentliche Einrichtungen (im Rahmen gesetzlicher Verpflichtungen).",
+        "Von uns beauftragte professionelle Dienstleister wie Übersetzer, Steuerberater und Sachverständige.",
+        "Zahlungsdienstleister, Banken und Finanzinstitute (für Zahlungsprozesse).",
+        "Anbieter von Cloud-Speicher, E-Mail und Web-Hosting (im Rahmen von Datensicherheitsmaßnahmen und Verträgen).",
+        "Sonstige Personen und Organisationen, denen Sie Ihre ausdrückliche Einwilligung erteilt haben oder denen die Offenlegung gesetzlich vorgeschrieben ist."
+      ]
+    },
+    "s6": {
+      "title": "6. Internationale Datenübermittlungen",
+      "body": "Einige der von uns genutzten cloudbasierten Dienstleister (E-Mail, Dateispeicher, Analyse) können sich außerhalb der Türkei befinden. Internationale Datenübermittlungen erfolgen unter Beachtung der im KVKK vorgesehenen Voraussetzungen — Ihre ausdrückliche Einwilligung, Übermittlung in Länder mit angemessenem Schutzniveau, Verpflichtungserklärungen oder verbindliche Unternehmensregeln. Für in der EU ansässige betroffene Personen erfolgen Übermittlungen unter DSGVO-konformen Standardvertragsklauseln oder gleichwertigen Garantien."
+    },
+    "s7": {
+      "title": "7. Speicherdauer",
+      "body": "Ihre personenbezogenen Daten werden so lange gespeichert, wie es die Verarbeitungszwecke erfordern, und unter Berücksichtigung der gesetzlich vorgeschriebenen Mindestaufbewahrungsfristen (anwaltsrechtliche, steuerrechtliche, handelsrechtliche Vorschriften usw.). Wenn der Verarbeitungszweck wegfällt und die gesetzlichen Aufbewahrungsfristen abgelaufen sind, werden Ihre personenbezogenen Daten gelöscht, vernichtet oder anonymisiert."
+    },
+    "s8": {
+      "title": "8. Cookies",
+      "body": "Auf unserer Website werden notwendige Cookies verwendet, um Ihr Browsing-Erlebnis zu verbessern und die Sicherheit der Seite zu gewährleisten. Analyse- und Marketing-Cookies werden nur mit Ihrer Einwilligung aktiviert. Sie können Ihre Cookie-Einstellungen jederzeit über den Cookie-Hinweis auf unserer Seite ändern und Cookies über die Einstellungen Ihres Browsers löschen oder blockieren. Das Deaktivieren notwendiger Cookies kann dazu führen, dass bestimmte Funktionen der Seite nicht funktionieren."
+    },
+    "s9": {
+      "title": "9. Ihre Rechte als betroffene Person",
+      "body": "Gemäß KVKK Art. 11 und DSGVO Art. 15–22 stehen Ihnen folgende Rechte zu:",
+      "items": [
+        "Zu erfahren, ob Ihre personenbezogenen Daten verarbeitet werden.",
+        "Auskunft über die Verarbeitung Ihrer personenbezogenen Daten zu verlangen.",
+        "Den Zweck der Verarbeitung und die Verwendung im Einklang mit diesem Zweck zu erfahren.",
+        "Die Empfänger im In- oder Ausland, an die Ihre personenbezogenen Daten übermittelt wurden, zu erfahren.",
+        "Berichtigung Ihrer personenbezogenen Daten zu verlangen, falls diese unvollständig oder unrichtig verarbeitet wurden.",
+        "Löschung oder Vernichtung Ihrer personenbezogenen Daten zu verlangen, wenn die Verarbeitungsbedingungen entfallen.",
+        "Zu verlangen, dass Berichtigungs-, Lösch- und Vernichtungsmaßnahmen den Empfängern mitgeteilt werden.",
+        "Einer ausschließlich auf automatisierter Verarbeitung beruhenden Entscheidung mit Wirkung gegen Sie zu widersprechen.",
+        "Schadensersatz für Schäden zu verlangen, die durch die unrechtmäßige Verarbeitung Ihrer Daten entstanden sind."
+      ]
+    },
+    "s10": {
+      "title": "10. Wie Sie Ihre Rechte ausüben können",
+      "body": "Um die oben genannten Rechte auszuüben, können Sie uns Ihre Anfrage per E-Mail an info@monahukuk.com oder schriftlich an die Adresse unserer Kanzlei zukommen lassen. Wir beantworten Ihre Anfrage innerhalb der vom KVKK vorgeschriebenen Frist kostenlos. Wenn die Art der Anfrage zusätzliche Kosten erfordert, kann eine Gebühr nach dem von der Datenschutzbehörde festgelegten Tarif erhoben werden. Wenn Ihre Anfrage abgelehnt wird oder die Antwort unzureichend ist, können Sie Beschwerde bei der Datenschutzbehörde einlegen."
+    },
+    "s11": {
+      "title": "11. Datensicherheit",
+      "body": "Wir setzen angemessene administrative und technische Sicherheitsmaßnahmen ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Vernichtung zu schützen. Diese Maßnahmen umfassen Zugriffskontrolle, Verschlüsselung, sichere Speicherung, Vertraulichkeitspflichten der Mitarbeiter und regelmäßige Sicherheitsüberprüfungen. Allerdings kann nicht garantiert werden, dass über das Internet übermittelte Daten zu 100 % sicher sind."
+    },
+    "s12": {
+      "title": "12. Daten von Kindern",
+      "body": "Unsere Website richtet sich nicht an Personen unter 18 Jahren und wir erheben wissentlich keine personenbezogenen Daten von Kindern. Wenn Sie der Meinung sind, dass wir versehentlich personenbezogene Daten eines Kindes erhoben haben, kontaktieren Sie uns bitte; wir werden die Daten unverzüglich löschen."
+    },
+    "s13": {
+      "title": "13. Änderungen der Erklärung",
+      "body": "Diese Datenschutzerklärung kann aufgrund von Gesetzesänderungen oder Änderungen unseres Leistungsumfangs aktualisiert werden. Die jeweils aktuelle Version wird stets auf unserer Website veröffentlicht; bei wesentlichen Änderungen können wir zusätzliche Hinweise geben. Wir empfehlen, die Erklärung regelmäßig zu überprüfen."
+    },
+    "s14": {
+      "title": "14. Kontakt",
+      "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail info@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei."
+    }
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",

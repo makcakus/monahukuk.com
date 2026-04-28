@@ -114,8 +114,101 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lead": "How we collect, use, and protect personal data.",
-    "body": "This page will detail our compliance with Turkish KVKK (Personal Data Protection Law No. 6698) and, where applicable, the EU GDPR. The full policy will be published before the website goes into general use."
+    "lead": "How we collect, use, and protect your personal data.",
+    "lastUpdated": "Last updated: 28 April 2026",
+    "intro": "At MONA HUKUK, we attach great importance to your privacy and the protection of your personal data. This Privacy Policy explains how personal data of those who visit our website, use our services, or contact us is collected, used, shared and protected by us. The Policy has been prepared in compliance with the Turkish Personal Data Protection Law No. 6698 (KVKK) and, where applicable, the European Union General Data Protection Regulation (GDPR).",
+    "s1": {
+      "title": "1. Data Controller",
+      "body": "The data controller under this policy is MONA HUKUK Law Office, based in Antalya. Address: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye. Email: info@monahukuk.com. Phone: +90 (242) 606 14 32."
+    },
+    "s2": {
+      "title": "2. Personal Data We Collect",
+      "body": "Depending on the nature of our relationship with you, the following categories of personal data may be processed:",
+      "items": [
+        "Identity data: name, surname, ID or foreign ID number, date of birth, nationality.",
+        "Contact data: phone number, email address, postal address.",
+        "Client file data: documents, statements and correspondence relating to your legal matter.",
+        "Financial data: payment details, bank account information, invoice information.",
+        "Website usage data: IP address, browser type, visit date/time, pages visited, cookie data.",
+        "Data submitted via forms: information you submit through our contact form.",
+        "Special-category personal data: processed only when strictly necessary for your file and with your explicit consent (e.g., health data, criminal record)."
+      ]
+    },
+    "s3": {
+      "title": "3. Purposes of Processing Your Personal Data",
+      "body": "We process your personal data for the following purposes:",
+      "items": [
+        "Providing legal counsel and litigation services and fulfilling our contractual obligations.",
+        "Establishing, maintaining and terminating the lawyer-client relationship.",
+        "Representing you before courts, administrative authorities and other institutions.",
+        "Responding to your contact requests and providing service information.",
+        "Fulfilling our legal obligations (including financial, tax, professional registration obligations).",
+        "Improving our website, conducting usage analytics and ensuring its security.",
+        "Conducting marketing and informational communications where you have consented."
+      ]
+    },
+    "s4": {
+      "title": "4. Legal Basis for Processing",
+      "body": "Your personal data is processed on one or more of the following legal bases: (a) being directly related to the establishment or performance of a contract; (b) compliance with a legal obligation; (c) protection, exercise or establishment of our legal rights; (d) being necessary for our legitimate interests, provided that your fundamental rights and freedoms are not harmed; (e) your explicit consent (particularly for marketing and special-category data)."
+    },
+    "s5": {
+      "title": "5. Sharing of Personal Data",
+      "body": "Your personal data may be shared with the following parties to the extent required by the service and within legal limits:",
+      "items": [
+        "Judicial authorities, administrative authorities, public institutions (within the framework of legal obligations).",
+        "Professional support providers we engage, such as translators, accountants and appraisal firms.",
+        "Payment service providers, banks and financial institutions (for payment processes).",
+        "Cloud storage, email and web hosting service providers (within data security measures and agreements).",
+        "Other persons and organisations to whom you have given explicit consent or to whom disclosure is required by law."
+      ]
+    },
+    "s6": {
+      "title": "6. International Data Transfers",
+      "body": "Some cloud-based service providers we use (email, file storage, analytics) may be located outside Turkey. International data transfers are carried out in accordance with the conditions stipulated in the KVKK — your explicit consent, transfer to countries providing adequate protection, undertakings or binding corporate rules. For data subjects resident in the EU, transfers are carried out under GDPR-compliant standard contractual clauses or equivalent safeguards."
+    },
+    "s7": {
+      "title": "7. Retention Period",
+      "body": "Your personal data is retained for as long as required by the purposes of processing and considering the minimum retention periods prescribed by legislation (legal practice legislation, tax legislation, commercial legislation, etc.). When the purpose of processing ceases and the legal retention periods expire, your personal data is deleted, destroyed or anonymised."
+    },
+    "s8": {
+      "title": "8. Cookies",
+      "body": "Our website uses essential cookies to enhance your browsing experience and ensure site security. Analytics and marketing cookies are activated only with your consent. You can change your cookie preferences at any time through the cookie notice on our site, and you can delete or block cookies through your browser settings. Disabling essential cookies may cause certain functions of the site not to work."
+    },
+    "s9": {
+      "title": "9. Your Rights as a Data Subject",
+      "body": "Under KVKK Art. 11 and GDPR Art. 15–22, you have the following rights:",
+      "items": [
+        "To learn whether your personal data is processed.",
+        "To request information about the processing if your personal data has been processed.",
+        "To learn the purpose of processing of your personal data and whether it is used in line with that purpose.",
+        "To learn the third parties to whom your personal data has been transferred domestically or abroad.",
+        "To request correction of your personal data if it is incomplete or inaccurate.",
+        "To request deletion or destruction of your personal data when the conditions for processing no longer exist.",
+        "To request that the correction, deletion and destruction operations be notified to third parties to whom the data was transferred.",
+        "To object to a result that arises against you from the analysis carried out exclusively through automated systems.",
+        "To request compensation for damage caused by unlawful processing of your personal data."
+      ]
+    },
+    "s10": {
+      "title": "10. How to Exercise Your Rights",
+      "body": "To exercise the above rights, you may contact us by sending your request to info@monahukuk.com or in writing to our office address. We respond to your application free of charge within the period prescribed by KVKK. Where the nature of the request requires an additional cost, a fee may be charged in accordance with the tariff set by the Personal Data Protection Authority. If your request is rejected or the response is insufficient, you may file a complaint with the Personal Data Protection Authority."
+    },
+    "s11": {
+      "title": "11. Data Security",
+      "body": "We implement reasonable administrative and technical security measures to protect your personal data against unauthorised access, alteration, disclosure or destruction. These measures include access control, encryption, secure storage, employee confidentiality obligations and regular security audits. However, no data transmitted over the internet can be guaranteed to be 100% secure."
+    },
+    "s12": {
+      "title": "12. Children's Data",
+      "body": "Our website is not directed at persons under the age of 18 and we do not knowingly collect personal data from children. If you believe that we have inadvertently collected a child's personal data, please contact us; we will delete the data immediately."
+    },
+    "s13": {
+      "title": "13. Changes to the Policy",
+      "body": "This Privacy Policy may be updated due to changes in legislation or the scope of our services. The current version is always published on our website; we may provide additional notice for material changes. We recommend that you review the policy regularly."
+    },
+    "s14": {
+      "title": "14. Contact",
+      "body": "For any questions, requests or concerns regarding this Privacy Policy or the processing of your personal data, you may contact us through the following channels: email info@monahukuk.com, phone +90 (242) 606 14 32, address Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye."
+    }
   },
   "footer": {
     "rights": "All rights reserved.",

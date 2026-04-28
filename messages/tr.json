@@ -114,8 +114,101 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "lead": "Kişisel verileri nasıl topladığımız, kullandığımız ve koruduğumuz.",
-    "body": "Bu sayfa; KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) ve uygulanabildiği ölçüde AB GDPR uyumumuzu ayrıntılı olarak açıklayacaktır. Sitenin genel kullanıma açılmasından önce tam metin yayınlanacaktır."
+    "lead": "Kişisel verilerinizi nasıl topladığımız, kullandığımız ve koruduğumuz.",
+    "lastUpdated": "Son güncelleme: 28 Nisan 2026",
+    "intro": "MONA HUKUK olarak gizliliğinize ve kişisel verilerinizin korunmasına büyük önem veriyoruz. Bu Gizlilik Politikası; web sitemizi ziyaret eden, hizmetlerimizden yararlanan veya bizimle iletişime geçen kişilerin kişisel verilerinin tarafımızca nasıl toplandığını, kullanıldığını, paylaşıldığını ve korunduğunu açıklamaktadır. Politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve uygulanabildiği ölçüde Avrupa Birliği Genel Veri Koruma Tüzüğü (GDPR) ile uyumlu olarak hazırlanmıştır.",
+    "s1": {
+      "title": "1. Veri Sorumlusu",
+      "body": "Bu politika kapsamında veri sorumlusu, Antalya merkezli MONA HUKUK Bürosu'dur. Adres: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye. E-posta: info@monahukuk.com. Telefon: +90 (242) 606 14 32."
+    },
+    "s2": {
+      "title": "2. Topladığımız Kişisel Veriler",
+      "body": "Sizinle olan ilişkimizin niteliğine göre aşağıdaki kategorilerde kişisel veriler işlenebilir:",
+      "items": [
+        "Kimlik verileri: ad, soyad, T.C. kimlik veya yabancı kimlik numarası, doğum tarihi, uyruğu.",
+        "İletişim verileri: telefon numarası, e-posta adresi, posta adresi.",
+        "Müvekkil dosya verileri: hukuki süreçle ilgili belgeler, beyanlar, yazışmalar.",
+        "Mali veriler: ödeme bilgileri, banka hesap bilgileri, fatura bilgileri.",
+        "Web sitesi kullanım verileri: IP adresi, tarayıcı türü, ziyaret tarihi/saati, ziyaret edilen sayfalar, çerez verileri.",
+        "Form aracılığıyla iletilen veriler: iletişim formu üzerinden ilettiğiniz bilgiler.",
+        "Özel nitelikli kişisel veriler: yalnızca dosyanız için zorunlu olduğunda ve açık rızanızla işlenir (örn. sağlık verisi, ceza mahkûmiyeti)."
+      ]
+    },
+    "s3": {
+      "title": "3. Kişisel Verilerinizi İşleme Amaçlarımız",
+      "body": "Kişisel verilerinizi aşağıdaki amaçlarla işliyoruz:",
+      "items": [
+        "Hukuki danışmanlık ve dava takip hizmetlerini sunmak ve sözleşmeden doğan yükümlülüklerimizi yerine getirmek.",
+        "Müvekkil-avukat ilişkisinin kurulması, sürdürülmesi ve sona erdirilmesi.",
+        "Yargı, idari makamlar ve diğer kurumlar nezdinde sizi temsil etmek.",
+        "İletişim taleplerinize yanıt vermek ve hizmet bilgisi sağlamak.",
+        "Yasal yükümlülüklerimizi yerine getirmek (mali, vergisel, mesleki kayıt yükümlülükleri dahil).",
+        "Web sitemizi geliştirmek, kullanım analizleri yapmak, güvenliğini sağlamak.",
+        "Onayınız bulunması halinde pazarlama ve bilgilendirme iletişimi gerçekleştirmek."
+      ]
+    },
+    "s4": {
+      "title": "4. Veri İşlemenin Hukuki Sebepleri",
+      "body": "Kişisel verileriniz aşağıdaki hukuki sebeplerden birine veya birkaçına dayanılarak işlenir: (a) sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması; (b) hukuki yükümlülüğün yerine getirilmesi; (c) hukuki menfaatlerimizin korunması, kullanılması veya tesisi; (d) ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla meşru menfaatlerimiz için zorunlu olması; (e) açık rızanızın bulunması (özellikle pazarlama ve özel nitelikli veriler için)."
+    },
+    "s5": {
+      "title": "5. Kişisel Verilerin Aktarılması",
+      "body": "Kişisel verileriniz, hizmetin gerektirdiği ölçüde ve yasal sınırlar dahilinde aşağıdaki taraflara aktarılabilir:",
+      "items": [
+        "Yargı mercileri, idari makamlar, kamu kurumları (yasal yükümlülük çerçevesinde).",
+        "Tercüman, mali müşavir, ekspertiz şirketleri gibi hizmet aldığımız profesyonel destek sağlayıcıları.",
+        "Ödeme hizmeti sağlayıcıları, banka ve finans kuruluşları (ödeme süreçleri için).",
+        "Bulut depolama, e-posta, web hosting hizmeti sağlayıcıları (veri güvenliği önlemleri ve sözleşmeler çerçevesinde).",
+        "Açık rızanızın bulunduğu veya yasal zorunluluğun gerektirdiği diğer kişi ve kuruluşlar."
+      ]
+    },
+    "s6": {
+      "title": "6. Yurt Dışına Veri Aktarımı",
+      "body": "Kullandığımız bazı bulut tabanlı hizmet sağlayıcıları (e-posta, dosya depolama, analitik) Türkiye dışında yer alabilir. Yurt dışına yapılacak veri aktarımları, KVKK'da öngörülen koşullara — ilgili kişinin açık rızası, yeterli koruma sağlayan ülkelere aktarım, taahhütname veya bağlayıcı şirket kuralları çerçevesinde — uygun biçimde gerçekleştirilir. AB'de yerleşik kişiler için aktarımlar GDPR uyumlu standart sözleşme hükümleri veya eşdeğer güvencelerle yapılır."
+    },
+    "s7": {
+      "title": "7. Saklama Süresi",
+      "body": "Kişisel verileriniz, işleme amaçlarının gerektirdiği süre boyunca ve mevzuatta öngörülen asgari saklama süreleri (avukatlık mevzuatı, vergi mevzuatı, ticaret mevzuatı vb.) dikkate alınarak saklanır. İşleme amacının ortadan kalkması ve yasal saklama sürelerinin dolması halinde kişisel verileriniz silinir, yok edilir veya anonimleştirilir."
+    },
+    "s8": {
+      "title": "8. Çerezler (Cookies)",
+      "body": "Web sitemizde, tarayıcı deneyiminizi geliştirmek ve site güvenliğini sağlamak için zorunlu çerezler kullanılır. Analitik ve pazarlama amaçlı çerezler yalnızca onayınız varsa etkinleştirilir. Çerez tercihlerinizi sitemizdeki çerez bildirim alanından her zaman değiştirebilir, tarayıcınızın ayarlarından çerezleri silebilir veya engelleyebilirsiniz. Zorunlu çerezleri devre dışı bırakmak sitenin bazı işlevlerinin çalışmamasına neden olabilir."
+    },
+    "s9": {
+      "title": "9. İlgili Kişi Olarak Haklarınız",
+      "body": "KVKK m. 11 ve GDPR m. 15-22 kapsamında aşağıdaki haklara sahipsiniz:",
+      "items": [
+        "Kişisel verilerinizin işlenip işlenmediğini öğrenme.",
+        "Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme.",
+        "Kişisel verilerinizin işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme.",
+        "Kişisel verilerinizin yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri öğrenme.",
+        "Kişisel verilerinizin eksik veya yanlış işlenmişse düzeltilmesini isteme.",
+        "İşleme şartlarının ortadan kalkması halinde kişisel verilerinizin silinmesini veya yok edilmesini isteme.",
+        "Düzeltme, silme ve yok etme işlemlerinin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme.",
+        "Otomatik sistemler vasıtasıyla yapılan analiz sonucunda aleyhinize bir sonuç çıkmasına itiraz etme.",
+        "Kişisel verilerinizin kanuna aykırı işlenmesi sebebiyle uğradığınız zararın giderilmesini talep etme."
+      ]
+    },
+    "s10": {
+      "title": "10. Haklarınızı Nasıl Kullanabilirsiniz",
+      "body": "Yukarıdaki haklarınızı kullanmak için talebinizi info@monahukuk.com adresine e-posta yoluyla veya yazılı olarak büromuzun adresine ileterek bize başvurabilirsiniz. Başvurunuza, KVKK'nın öngördüğü süre içinde ücretsiz olarak yanıt veririz. Talebin niteliği ek bir maliyet gerektirdiğinde, Veri Koruma Kurulu tarafından belirlenen tarifeye göre ücret talep edilebilir. Talebimizin reddedilmesi veya yanıtın yetersiz bulunması halinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz."
+    },
+    "s11": {
+      "title": "11. Veri Güvenliği",
+      "body": "Kişisel verilerinizi yetkisiz erişim, değiştirme, ifşa veya imhaya karşı korumak için makul idari ve teknik güvenlik tedbirleri uygulamaktayız. Bu tedbirler arasında erişim kontrolü, şifreleme, güvenli depolama, çalışan gizlilik yükümlülükleri ve düzenli güvenlik denetimleri yer alır. Buna karşılık, internet üzerinden iletilen hiçbir verinin %100 güvenli olduğu garanti edilemez."
+    },
+    "s12": {
+      "title": "12. Çocukların Verileri",
+      "body": "Web sitemiz 18 yaş altındaki kişilere yönelik değildir ve bilinçli olarak çocuklardan kişisel veri toplamayız. Bir çocuğun kişisel verisini sehven topladığımızı düşünüyorsanız lütfen bizimle iletişime geçin; verileri derhal sileriz."
+    },
+    "s13": {
+      "title": "13. Politikadaki Değişiklikler",
+      "body": "Bu Gizlilik Politikası, mevzuat değişiklikleri veya hizmet kapsamımızdaki değişiklikler nedeniyle güncellenebilir. Güncel sürüm her zaman web sitemizde yayımlanır; yapılacak önemli değişiklikler için ek bildirim yapabiliriz. Politikayı düzenli olarak gözden geçirmenizi tavsiye ederiz."
+    },
+    "s14": {
+      "title": "14. İletişim",
+      "body": "Bu Gizlilik Politikası veya kişisel verilerinizin işlenmesine ilişkin her türlü soru, talep veya endişeniz için bizimle aşağıdaki kanallardan iletişime geçebilirsiniz: e-posta info@monahukuk.com, telefon +90 (242) 606 14 32, adres Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye."
+    }
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
