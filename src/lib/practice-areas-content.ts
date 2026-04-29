@@ -465,7 +465,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         },
         {
           q: "Kann ich die für die Staatsbürgerschaft erworbene Immobilie sofort verkaufen?",
-          a: "Nein. Die Immobilie unterliegt einer Nichtveräußerungspflicht für einen festgelegten Zeitraum. Ein Verstoß ist ein schwerwiegender Rechtsfolgen — bis hin zum Entzug der Staatsbürgerschaft. Nach Ablauf der Frist ist der Verkauf frei.",
+          a: "Nein. Die Immobilie unterliegt einer Nichtveräußerungspflicht für einen festgelegten Zeitraum. Ein Verstoß hat schwerwiegende Rechtsfolgen — bis hin zum Entzug der Staatsbürgerschaft. Nach Ablauf der Frist ist der Verkauf frei.",
         },
         {
           q: "Was kann bei einer Ablehnung des Antrags getan werden?",
@@ -677,7 +677,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       tr: "Türkiye'de bir suç isnadıyla karşılaşan yabancı uyruklular için savunma hakkı, dil engeli, hukuki sistem farklılığı ve süre baskısı nedeniyle çok daha kritik bir hâl alır. Karakolda alınan ifadenin, sulh ceza hâkimliğindeki ilk savunmanın ve mahkeme önündeki delil sunumunun her satırı, dosyanın seyrini doğrudan etkiler. Bu nedenle ceza süreçlerinde mümkün olan en erken aşamada bağımsız bir ceza avukatı desteği almak hayati önem taşır.\n\nAntalya'da ceza avukatı olarak ekibimiz; gözaltı süreçleri, tutukluluğa itiraz, soruşturma aşamasında müşteki/şüpheli olarak temsil, kovuşturma aşamasında dava savunması ve istinaf-temyiz aşamalarında müvekkillerinin yanındadır. Yabancı uyruklu müvekkillere kendi dilinde tercüman eşliğinde danışmanlık veririz; kovuşturmanın sonucu kadar süreç içerisindeki temel haklarının korunmasını da önceleriz.",
       en: "For foreign nationals facing a criminal allegation in Turkey, the right to a defence becomes far more critical due to language barriers, differences in legal systems, and time pressure. Every line of the police statement, of the first defence before the criminal magistrate, and of the evidence presented at trial directly shapes the course of the file. It is therefore vital to engage independent criminal counsel at the earliest possible stage.\n\nAs a criminal defence lawyer in Antalya, our team stands beside clients during custody, in opposing pre-trial detention, in representing the complainant/suspect during investigation, in trial defence, and at the appellate stages. Foreign clients are advised in their own language alongside an interpreter; we prioritise both the outcome of the prosecution and the protection of fundamental rights throughout the process.",
       de: "Für ausländische Staatsangehörige, die in der Türkei mit einem strafrechtlichen Vorwurf konfrontiert sind, wird das Recht auf Verteidigung wegen Sprachbarrieren, Unterschieden in den Rechtssystemen und Zeitdruck deutlich kritischer. Jede Zeile der polizeilichen Aussage, der ersten Verteidigung vor dem Haftrichter und der Beweismittel im Hauptverfahren prägt den Verlauf der Akte unmittelbar. Daher ist es entscheidend, möglichst früh einen unabhängigen Strafverteidiger einzuschalten.\n\nAls Strafverteidiger in Antalya begleitet unser Team Mandanten in Festnahme, in der Anfechtung der Untersuchungshaft, in der Vertretung als Anzeigeerstatter/Beschuldigter während der Ermittlung, in der Hauptverhandlung und in den Rechtsmittelinstanzen. Ausländische Mandanten beraten wir in ihrer Sprache mit Dolmetscher; wir priorisieren sowohl den Ausgang als auch den Schutz der Grundrechte.",
-      ru: "Для иностранцев, столкнувшихся с уголовным обвинением в Турции, право на защиту становится особенно критичным из-за языкового барьера, различий правовых систем и временного давления. Каждая строка показаний в полиции, первой защиты перед мировым судьёй и доказательств в суде напрямую влияет на ход дела. Поэтому жизненно важно как можно раньше привлечь независимого адвоката по уголовным делам.\n\nКак адвокат по уголовным делам в Анталье наша команда сопровождает клиентов на задержании, при обжаловании предварительного заключения, в представительстве потерпевшего/подозреваемого на стадии расследования, в защите в суде и на стадиях апелляции/кассации. Иностранным клиентам мы консультируем на их языке с переводчиком; приоритет — и результат, и защита фундаментальных прав на всём пути.",
+      ru: "Для иностранцев, столкнувшихся с уголовным обвинением в Турции, право на защиту становится особенно критичным из-за языкового барьера, различий правовых систем и временного давления. Каждая строка показаний в полиции, первой защиты перед мировым судьёй и доказательств в суде напрямую влияет на ход дела. Поэтому жизненно важно как можно раньше привлечь независимого адвоката по уголовным делам.\n\nКак адвокат по уголовным делам в Анталье наша команда сопровождает клиентов на задержании, при обжаловании предварительного заключения, в представительстве потерпевшего/подозреваемого на стадии расследования, в защите в суде и на стадиях апелляции/кассации. Иностранных клиентов мы консультируем на их родном языке с участием переводчика; приоритет — и результат дела, и защита основных прав на всём пути.",
       ar: "بالنسبة للأجانب الذين يواجهون اتهاماً جنائياً في تركيا، يصبح حق الدفاع أكثر حساسيةً بسبب الحاجز اللغوي واختلاف الأنظمة القانونية وضغط الوقت. كل سطر في إفادة الشرطة وفي الدفاع الأول أمام قاضي الصلح وفي الأدلة المعروضة أمام المحكمة يؤثر مباشرةً في مسار الملف. لذا من الضروري الاستعانة بمحامٍ جنائي مستقل في أبكر مرحلة ممكنة.\n\nبصفتنا محامياً جنائياً في أنطاليا، يواكب فريقنا الموكلين خلال الاحتجاز والطعن في الحبس الاحتياطي، وفي تمثيل المشتكي/المشتبه به أثناء التحقيق، وفي الدفاع أمام المحكمة وفي مراحل الاستئناف. ونقدم الاستشارة للعملاء الأجانب بلغتهم مع مترجم؛ ونُولي الأهمية لنتيجة الدعوى ولحماية الحقوق الأساسية على حدٍّ سواء.",
     },
     services: {
@@ -1168,7 +1168,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
       de: [
         "KVKK-Compliance-Projekte: Datenschutzerklärungen, Datenbestand, ausdrückliche Einwilligungsflüsse",
-        "Meldung von Datenschutzvorfällen und Verfahren vor dem KVKK-Vorstand",
+        "Meldung von Datenschutzvorfällen und Verfahren vor der KVKK-Behörde",
         "Softwarelizenzverträge (SaaS, On-Premise, OEM, Vertrieb)",
         "E-Commerce-Recht, Fernabsatzverträge und elektronische Werbe-Compliance",
         "Vertragliche Risiko- und Haftungsverteilung für KI-Produkte",
@@ -1200,7 +1200,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
     process: {
       tr: "Bir teknoloji şirketi için danışmanlığa, mevcut iş süreçleri ve veri akışlarının haritalanmasıyla başlarız. Eksiklikler tespit edilir; aydınlatma metinleri, açık rıza tasarımı, çerez politikası ve veri envanteri eş zamanlı kurulur. Sözleşmesel ilişkilerde tedarikçi, müşteri ve çalışan tarafında uygun KVKK ek protokolleri imzalanır. Veri ihlali yaşanması durumunda 72 saatlik kritik bildirim süresine uygun hareket edilir; etki değerlendirmesi yapılır ve KVKK Kurul ile etkin iletişim sağlanır.",
       en: "Counsel for a technology company begins by mapping current business processes and data flows. Gaps are identified, then privacy notices, consent design, cookie policies, and data inventories are deployed in parallel. Suitable KVKK addenda are signed with vendors, customers, and employees. In a breach scenario, the critical 72-hour notification window is observed; an impact assessment is run and effective communication with the KVKK Board is maintained.",
-      de: "Die Beratung eines Technologieunternehmens beginnt mit der Abbildung aktueller Geschäftsprozesse und Datenflüsse. Lücken werden identifiziert, anschließend werden Datenschutzhinweise, Einwilligungsdesigns, Cookie-Richtlinien und Datenbestände parallel implementiert. Mit Lieferanten, Kunden und Mitarbeitern werden geeignete KVKK-Zusatzvereinbarungen unterzeichnet. Im Vorfallsfall wird die kritische 72-Stunden-Meldepflicht eingehalten; eine Folgenabschätzung wird durchgeführt und die Kommunikation mit dem KVKK-Vorstand effektiv geführt.",
+      de: "Die Beratung eines Technologieunternehmens beginnt mit der Abbildung aktueller Geschäftsprozesse und Datenflüsse. Lücken werden identifiziert, anschließend werden Datenschutzhinweise, Einwilligungsdesigns, Cookie-Richtlinien und Datenbestände parallel implementiert. Mit Lieferanten, Kunden und Mitarbeitern werden geeignete KVKK-Zusatzvereinbarungen unterzeichnet. Im Vorfallsfall wird die kritische 72-Stunden-Meldepflicht eingehalten; eine Folgenabschätzung wird durchgeführt und die Kommunikation mit der KVKK-Behörde effektiv geführt.",
       ru: "Консультирование технологической компании начинается с картирования текущих бизнес-процессов и потоков данных. Выявляются пробелы; параллельно внедряются уведомления о конфиденциальности, дизайн согласий, cookie-политики и инвентаризация данных. С поставщиками, клиентами и сотрудниками подписываются соответствующие приложения KVKK. В случае инцидента соблюдается критическое 72-часовое окно уведомления; проводится оценка воздействия и поддерживается эффективная связь с Советом KVKK.",
       ar: "تبدأ الاستشارة لشركة تقنية برسم خرائط لعمليات الأعمال وتدفقات البيانات الحالية. تُحدَّد الثغرات؛ ثم تُنشأ إشعارات الخصوصية وتصميم الموافقات وسياسات ملفات تعريف الارتباط وجرد البيانات بالتوازي. وتُوقَّع ملاحق KVKK المناسبة مع الموردين والعملاء والموظفين. وعند وقوع حادثة، تُحترم نافذة الإخطار الحرجة 72 ساعة؛ يُجرى تقييم للأثر ويُحافَظ على تواصل فعّال مع مجلس KVKK.",
     },
@@ -1236,7 +1236,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       de: [
         {
           q: "Wir haben einen Datenschutzvorfall erlitten — was tun?",
-          a: "Nach Feststellung müssen technische Reaktion und rechtliche Schritte parallel laufen. Innerhalb von 72 Stunden ist eine Meldung an den KVKK-Vorstand sowie ggf. eine Information der Betroffenen zu prüfen. Eine Folgenabschätzung und Rechenschaftsdokumentation sind anzufertigen.",
+          a: "Nach Feststellung müssen technische Reaktion und rechtliche Schritte parallel laufen. Innerhalb von 72 Stunden ist eine Meldung an die KVKK-Behörde sowie ggf. eine Information der Betroffenen zu prüfen. Eine Folgenabschätzung und Rechenschaftsdokumentation sind anzufertigen.",
         },
         {
           q: "Können wir Daten ins Ausland übermitteln?",
@@ -1323,7 +1323,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
       de: [
         "Entwurf von Arbeitsverträgen (unbefristet/befristet, Abruf, Homeoffice)",
-        "Ungerechtfertigte Kündigung, Abfindung und Kündigungsfrist",
+        "Ungerechtfertigte Kündigung, Abfindung und Kündigungsentschädigung",
         "Überstunden, Wochenruhe und Feiertagsansprüche",
         "Entschädigung für Mobbing und Ungleichbehandlung",
         "Arbeitsunfälle und Berufskrankheiten (Arbeitgeber- und Arbeitnehmerseite)",
@@ -1333,7 +1333,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
       ru: [
         "Разработка трудовых договоров (бессрочных/срочных, по вызову, удалённых)",
-        "Незаконное увольнение, выходное пособие и предварительное уведомление",
+        "Незаконное увольнение, выходное пособие и компенсация за уведомление",
         "Сверхурочные, еженедельный отдых и государственные праздники",
         "Компенсации за мобинг и неравное обращение",
         "Несчастные случаи и профзаболевания (сторона работодателя и работника)",
@@ -1471,7 +1471,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Cancellation and stay-of-execution actions against residence-permit cancellations and deportation orders",
         "Objections and cancellation actions against administrative fines",
         "Full-redress actions (compensation for damage caused by an administrative act)",
-        "Cancellation of municipal decisions and zoning applications",
+        "Cancellation of municipal decisions and zoning implementations",
         "Tax-penalty and settlement procedures",
         "Public procurement and tender-decision cancellation",
         "Administrative objection, hierarchical appeal, and administrative mediation",
@@ -1491,7 +1491,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Иски об отмене и приостановлении исполнения против аннулирования ВНЖ и депортации",
         "Возражения и иски об отмене административных штрафов",
         "Иски о полном возмещении вреда от административного акта",
-        "Отмена муниципальных решений и градостроительных применений",
+        "Отмена муниципальных решений и решений по градостроительным планам",
         "Налоговые штрафы и процедуры урегулирования",
         "Государственные закупки и отмена решений по конкурсам",
         "Административные возражения, иерархические жалобы и медиация",
