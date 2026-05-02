@@ -36,7 +36,7 @@ function HomeContent({ locale }: { locale: string }) {
 
   return (
     <>
-      <div className={compactHero ? "-mt-4" : ""}>
+      <div className={compactHero ? "-mt-6" : ""}>
         <CinematicHero />
       </div>
 
