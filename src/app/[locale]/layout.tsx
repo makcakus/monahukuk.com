@@ -11,6 +11,8 @@ import { CookieBanner } from "@/components/CookieBanner";
 import { LegalServiceSchema, WebsiteSchema } from "@/components/LegalServiceSchema";
 import { routing } from "@/i18n/routing";
 import { SITE, KEYWORDS } from "@/lib/site";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const sans = Inter({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -116,6 +118,8 @@ export default async function LocaleLayout({
           <Footer />
           <CookieBanner />
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
