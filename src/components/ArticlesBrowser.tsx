@@ -115,7 +115,7 @@ export function ArticlesBrowser({
             placeholder={ui.searchPlaceholder}
             autoComplete="off"
             spellCheck={false}
-            className="w-full rounded-full border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/60 pl-12 pr-12 py-3 text-base text-navy-900 dark:text-cream-50 placeholder:text-ink-mute dark:placeholder:text-cream-200/50 focus:outline-none focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 transition-colors"
+            className="w-full h-[48px] rounded-full border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/60 pl-12 pr-12 text-base text-navy-900 dark:text-cream-50 placeholder:text-ink-mute dark:placeholder:text-cream-200/50 focus:outline-none focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 transition-colors"
           />
           {query && (
             <button
@@ -177,11 +177,11 @@ function SearchResults({
                   {a.category}
                 </p>
               )}
-              <h3 className="font-display text-xl md:text-2xl text-navy-900 dark:text-cream-50 group-hover:text-gold-700 dark:group-hover:text-gold-300 transition-colors leading-snug">
+              <h3 className="font-display text-xl md:text-2xl text-navy-900 dark:text-cream-50 group-hover:text-gold-700 dark:group-hover:text-gold-300 transition-colors leading-snug line-clamp-2 overflow-hidden">
                 <Highlight text={a.title} query={query} />
               </h3>
               {a.description && (
-                <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
+                <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed line-clamp-3 overflow-hidden">
                   <Highlight text={a.description} query={query} />
                 </p>
               )}
@@ -219,15 +219,15 @@ function GroupedView({
           key={g.category}
           className="group rounded-xl border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 overflow-hidden hover:border-gold-400 transition-colors"
         >
-          <summary className="cursor-pointer list-none flex items-center gap-4 px-6 py-5 select-none min-h-[88px]">
+          <summary className="cursor-pointer list-none flex items-center gap-4 px-6 select-none h-[96px] overflow-hidden">
             <span className="inline-flex w-10 h-10 shrink-0 items-center justify-center rounded-full bg-navy-900 dark:bg-gold-500 text-cream-50 dark:text-navy-950 group-open:bg-gold-500 group-open:text-navy-950 transition-colors">
               {ICONS[g.iconKey]}
             </span>
-            <span className="flex-1 min-w-0">
-              <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug line-clamp-2">
+            <span className="flex-1 min-w-0 overflow-hidden">
+              <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug line-clamp-2 overflow-hidden">
                 {g.category} {ui.relatedSuffix}
               </span>
-              <span className="block text-xs uppercase tracking-[0.18em] text-ink-mute dark:text-cream-200/60 mt-1">
+              <span className="block text-xs uppercase tracking-[0.18em] text-ink-mute dark:text-cream-200/60 mt-1 truncate">
                 {g.items.length} {g.items.length === 1 ? ui.articleOne : ui.articleMany}
               </span>
             </span>
@@ -242,11 +242,11 @@ function GroupedView({
               {g.items.map((a) => (
                 <li key={a.slug} className="py-5">
                   <Link href={`/articles/${a.slug}`} className="block group/article">
-                    <h3 className="font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 group-hover/article:text-gold-700 dark:group-hover/article:text-gold-300 transition-colors leading-snug">
+                    <h3 className="font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 group-hover/article:text-gold-700 dark:group-hover/article:text-gold-300 transition-colors leading-snug line-clamp-2 overflow-hidden">
                       {a.title}
                     </h3>
                     {a.description && (
-                      <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
+                      <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed line-clamp-3 overflow-hidden">
                         {a.description}
                       </p>
                     )}

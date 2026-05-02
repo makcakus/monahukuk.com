@@ -102,9 +102,9 @@ function HomeContent() {
           <div className="md:col-span-4 md:text-right">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-6 py-3 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors whitespace-nowrap min-w-[200px]"
+              className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 px-6 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors whitespace-nowrap w-full sm:w-[220px] h-[48px] flex-shrink-0"
             >
-              <span className="truncate">{t("ctaBanner.button")}</span>
+              <span className="block min-w-0 flex-1 truncate text-center">{t("ctaBanner.button")}</span>
               <ArrowRight size={16} className="shrink-0" />
             </Link>
           </div>

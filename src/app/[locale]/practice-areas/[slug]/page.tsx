@@ -186,9 +186,9 @@ export default async function PracticeAreaDetailPage({
                 <li key={a.slug}>
                   <Link
                     href={`/articles/${a.slug}`}
-                    className="group flex items-start justify-between gap-4 rounded-md border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 px-5 py-4 hover:border-gold-400 dark:hover:border-gold-500 transition-colors min-h-[64px]"
+                    className="group flex items-start justify-between gap-4 overflow-hidden rounded-md border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 px-5 py-4 hover:border-gold-400 dark:hover:border-gold-500 transition-colors h-[72px]"
                   >
-                    <span className="text-navy-900 dark:text-cream-50 font-medium leading-snug line-clamp-2">
+                    <span className="min-w-0 flex-1 text-navy-900 dark:text-cream-50 font-medium leading-snug line-clamp-2 overflow-hidden">
                       {a.title}
                     </span>
                     <ArrowRight
@@ -212,9 +212,9 @@ export default async function PracticeAreaDetailPage({
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 dark:bg-navy-950 px-6 py-3 text-sm font-medium text-navy-950 dark:text-cream-50 hover:bg-gold-400 dark:hover:bg-navy-900 transition-colors whitespace-nowrap min-w-[200px]"
+            className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 dark:bg-navy-950 px-6 text-sm font-medium text-navy-950 dark:text-cream-50 hover:bg-gold-400 dark:hover:bg-navy-900 transition-colors whitespace-nowrap w-full sm:w-[240px] h-[48px] flex-shrink-0"
           >
-            <span className="truncate">{t("ctaButton")}</span>
+            <span className="block min-w-0 flex-1 truncate text-center">{t("ctaButton")}</span>
             <ArrowRight size={16} className="shrink-0" />
           </Link>
         </section>

@@ -37,26 +37,26 @@ export function CinematicHero() {
           <p className="animate-hero-rise text-xs uppercase tracking-[0.3em] text-gold-300 mb-6">
             {t("hero.kicker")}
           </p>
-          <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)]">
+          <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)] line-clamp-3 overflow-hidden">
             {t("hero.title")}
           </h1>
           <span className="animate-hero-rise animate-hero-rise-delay-2 gold-divider mt-8" />
-          <p className="animate-hero-rise animate-hero-rise-delay-3 mt-6 max-w-2xl text-lg md:text-xl text-cream-100/95 leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
+          <p className="animate-hero-rise animate-hero-rise-delay-3 mt-6 max-w-2xl text-lg md:text-xl text-cream-100/95 leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] line-clamp-3 overflow-hidden">
             {t("hero.lead")}
           </p>
           <div className="animate-hero-rise animate-hero-rise-delay-4 mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-7 py-3.5 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 transition-colors whitespace-nowrap min-w-[240px]"
+              className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 transition-colors whitespace-nowrap w-full sm:w-[260px] h-[52px] px-6 flex-shrink-0"
             >
-              <span className="truncate">{tCta("consult")}</span>
+              <span className="block min-w-0 flex-1 truncate text-center">{tCta("consult")}</span>
               <ArrowRight size={16} className="shrink-0" />
             </Link>
             <Link
               href="/practice-areas"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 px-7 py-3.5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 transition-colors whitespace-nowrap min-w-[220px]"
+              className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 transition-colors whitespace-nowrap w-full sm:w-[240px] h-[52px] px-6 flex-shrink-0"
             >
-              <span className="truncate">{tCta("explore")}</span>
+              <span className="block min-w-0 flex-1 truncate text-center">{tCta("explore")}</span>
             </Link>
           </div>
         </div>

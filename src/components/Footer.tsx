@@ -18,31 +18,31 @@ export function Footer() {
           </p>
         </div>
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3">
+        <div className="min-w-0">
+          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3 h-[1rem] truncate">
             {t("home")}
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:text-gold-300 inline-block truncate max-w-full">{t("about")}</Link></li>
-            <li><Link href="/practice-areas" className="hover:text-gold-300 inline-block truncate max-w-full">{t("practiceAreas")}</Link></li>
-            <li><Link href="/team" className="hover:text-gold-300 inline-block truncate max-w-full">{t("team")}</Link></li>
-            <li><Link href="/articles" className="hover:text-gold-300 inline-block truncate max-w-full">{t("articles")}</Link></li>
-            <li><Link href="/contact" className="hover:text-gold-300 inline-block truncate max-w-full">{t("contact")}</Link></li>
+            <li><Link href="/about" className="hover:text-gold-300 block truncate max-w-full">{t("about")}</Link></li>
+            <li><Link href="/practice-areas" className="hover:text-gold-300 block truncate max-w-full">{t("practiceAreas")}</Link></li>
+            <li><Link href="/team" className="hover:text-gold-300 block truncate max-w-full">{t("team")}</Link></li>
+            <li><Link href="/articles" className="hover:text-gold-300 block truncate max-w-full">{t("articles")}</Link></li>
+            <li><Link href="/contact" className="hover:text-gold-300 block truncate max-w-full">{t("contact")}</Link></li>
           </ul>
         </div>
 
-        <div>
-          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3">
+        <div className="min-w-0">
+          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3 h-[1rem] truncate">
             {tContact("title")}
           </p>
           <ul className="space-y-2 text-sm text-cream-200/90">
-            <li>{tContact("officeAddress")}</li>
-            <li>
+            <li className="truncate">{tContact("officeAddress")}</li>
+            <li className="truncate">
               <a href={`tel:${tContact("phoneNumber").replace(/\s|\(|\)/g, "")}`} className="hover:text-gold-300">
                 {tContact("phoneNumber")}
               </a>
             </li>
-            <li>
+            <li className="truncate">
               <a href={`mailto:${tContact("emailAddress")}`} className="hover:text-gold-300">
                 {tContact("emailAddress")}
               </a>
