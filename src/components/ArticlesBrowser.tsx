@@ -219,12 +219,12 @@ function GroupedView({
           key={g.category}
           className="group rounded-xl border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 overflow-hidden hover:border-gold-400 transition-colors"
         >
-          <summary className="cursor-pointer list-none flex items-center gap-4 px-6 py-5 select-none">
+          <summary className="cursor-pointer list-none flex items-center gap-4 px-6 py-5 select-none min-h-[88px]">
             <span className="inline-flex w-10 h-10 shrink-0 items-center justify-center rounded-full bg-navy-900 dark:bg-gold-500 text-cream-50 dark:text-navy-950 group-open:bg-gold-500 group-open:text-navy-950 transition-colors">
               {ICONS[g.iconKey]}
             </span>
             <span className="flex-1 min-w-0">
-              <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug">
+              <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug line-clamp-2">
                 {g.category} {ui.relatedSuffix}
               </span>
               <span className="block text-xs uppercase tracking-[0.18em] text-ink-mute dark:text-cream-200/60 mt-1">

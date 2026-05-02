@@ -168,7 +168,7 @@ export function Header() {
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center rounded-sm bg-navy-900 px-4 py-2 text-sm font-medium text-cream-50 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-600 transition-colors"
+            className="inline-flex items-center justify-center rounded-sm bg-navy-900 px-4 py-2 text-sm font-medium text-cream-50 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-600 transition-colors whitespace-nowrap min-w-[170px] max-w-[220px] truncate"
           >
             {tCta("consult")}
           </Link>

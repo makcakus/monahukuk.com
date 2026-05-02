@@ -51,18 +51,18 @@ export default async function PracticeAreasPage({
             <Link
               key={area.slug}
               href={`/practice-areas/${area.slug}`}
-              className="group flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all"
+              className="group flex flex-col rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all min-h-[260px]"
             >
               <div className="mb-4 inline-flex w-10 h-10 items-center justify-center rounded-full bg-navy-900 text-cream-50 group-hover:bg-gold-500 group-hover:text-navy-950 transition-colors">
                 {ICONS[area.icon]}
               </div>
-              <h2 className="mb-3 text-base font-semibold text-navy-900 leading-snug group-hover:text-navy-700">
+              <h2 className="mb-3 text-base font-semibold text-navy-900 leading-snug group-hover:text-navy-700 line-clamp-2 min-h-[2.75rem]">
                 {pickPA(area.title, locale)}
               </h2>
-              <p className="text-sm leading-relaxed text-ink-soft">
+              <p className="text-sm leading-relaxed text-ink-soft line-clamp-4">
                 {pickPA(area.description, locale)}
               </p>
-              <span className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-gold-700 group-hover:gap-2 transition-all">
+              <span className="mt-auto pt-4 inline-flex items-center gap-1 text-xs font-medium text-gold-700 group-hover:gap-2 transition-all">
                 <ArrowRight size={14} />
               </span>
             </Link>

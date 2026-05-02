@@ -75,13 +75,13 @@ export default async function AboutPage({
             {whyKeys.map((key) => (
               <div
                 key={key}
-                className="flex gap-4 rounded-xl border border-navy-100 bg-white p-6 shadow-sm"
+                className="flex gap-4 rounded-xl border border-navy-100 bg-white p-6 shadow-sm min-h-[200px]"
               >
                 <span className="mt-1 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-navy-900 text-cream-50">
                   {ICONS[key]}
                 </span>
-                <div>
-                  <h3 className="font-semibold text-navy-900 mb-2">
+                <div className="min-w-0">
+                  <h3 className="font-semibold text-navy-900 mb-2 leading-snug">
                     {t(`whyUs.items.${key}.title`)}
                   </h3>
                   <p className="text-sm leading-relaxed text-ink-soft">
@@ -107,7 +107,7 @@ export default async function AboutPage({
               <li key={area.slug}>
                 <Link
                   href={`/practice-areas/${area.slug}`}
-                  className="block rounded-md border border-navy-100 bg-white px-4 py-3 text-sm font-medium text-navy-900 hover:border-gold-400 hover:text-navy-700 transition-colors"
+                  className="block rounded-md border border-navy-100 bg-white px-4 py-3 text-sm font-medium text-navy-900 hover:border-gold-400 hover:text-navy-700 transition-colors min-h-[3rem] flex items-center line-clamp-2"
                 >
                   {pickPA(area.title, locale)}
                 </Link>
@@ -131,10 +131,10 @@ export default async function AboutPage({
           <div className="md:col-span-4 md:text-right">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-sm bg-gold-500 px-6 py-3 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors"
+              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-6 py-3 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors whitespace-nowrap min-w-[200px]"
             >
-              {tCta("consult")}
-              <ArrowRight size={16} />
+              <span className="truncate">{tCta("consult")}</span>
+              <ArrowRight size={16} className="shrink-0" />
             </Link>
           </div>
         </div>

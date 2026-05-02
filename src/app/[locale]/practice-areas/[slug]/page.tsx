@@ -186,9 +186,9 @@ export default async function PracticeAreaDetailPage({
                 <li key={a.slug}>
                   <Link
                     href={`/articles/${a.slug}`}
-                    className="group flex items-start justify-between gap-4 rounded-md border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 px-5 py-4 hover:border-gold-400 dark:hover:border-gold-500 transition-colors"
+                    className="group flex items-start justify-between gap-4 rounded-md border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 px-5 py-4 hover:border-gold-400 dark:hover:border-gold-500 transition-colors min-h-[64px]"
                   >
-                    <span className="text-navy-900 dark:text-cream-50 font-medium leading-snug">
+                    <span className="text-navy-900 dark:text-cream-50 font-medium leading-snug line-clamp-2">
                       {a.title}
                     </span>
                     <ArrowRight
@@ -212,10 +212,10 @@ export default async function PracticeAreaDetailPage({
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded-sm bg-gold-500 dark:bg-navy-950 px-6 py-3 text-sm font-medium text-navy-950 dark:text-cream-50 hover:bg-gold-400 dark:hover:bg-navy-900 transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 dark:bg-navy-950 px-6 py-3 text-sm font-medium text-navy-950 dark:text-cream-50 hover:bg-gold-400 dark:hover:bg-navy-900 transition-colors whitespace-nowrap min-w-[200px]"
           >
-            {t("ctaButton")}
-            <ArrowRight size={16} />
+            <span className="truncate">{t("ctaButton")}</span>
+            <ArrowRight size={16} className="shrink-0" />
           </Link>
         </section>
       </article>

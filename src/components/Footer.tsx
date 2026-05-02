@@ -23,11 +23,11 @@ export function Footer() {
             {t("home")}
           </p>
           <ul className="space-y-2 text-sm">
-            <li><Link href="/about" className="hover:text-gold-300">{t("about")}</Link></li>
-            <li><Link href="/practice-areas" className="hover:text-gold-300">{t("practiceAreas")}</Link></li>
-            <li><Link href="/team" className="hover:text-gold-300">{t("team")}</Link></li>
-            <li><Link href="/articles" className="hover:text-gold-300">{t("articles")}</Link></li>
-            <li><Link href="/contact" className="hover:text-gold-300">{t("contact")}</Link></li>
+            <li><Link href="/about" className="hover:text-gold-300 inline-block truncate max-w-full">{t("about")}</Link></li>
+            <li><Link href="/practice-areas" className="hover:text-gold-300 inline-block truncate max-w-full">{t("practiceAreas")}</Link></li>
+            <li><Link href="/team" className="hover:text-gold-300 inline-block truncate max-w-full">{t("team")}</Link></li>
+            <li><Link href="/articles" className="hover:text-gold-300 inline-block truncate max-w-full">{t("articles")}</Link></li>
+            <li><Link href="/contact" className="hover:text-gold-300 inline-block truncate max-w-full">{t("contact")}</Link></li>
           </ul>
         </div>
 
