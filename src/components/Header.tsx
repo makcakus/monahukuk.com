@@ -70,7 +70,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
-      <div className="mx-auto max-w-6xl px-6 py-5 flex items-center justify-between gap-6">
+      <div className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between gap-6">
         <Link
           href="/"
           className="flex flex-col leading-tight"
@@ -79,12 +79,12 @@ export function Header() {
           {tSite("name").split(" ").map((word, i) => (
             <span
               key={i}
-              className="font-display text-3xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+              className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
             >
               {word}
             </span>
           ))}
-          <span className="mt-1.5 text-[11px] uppercase tracking-[0.18em] text-gold-700">
+          <span className="mt-2 text-xs uppercase tracking-[0.18em] text-gold-700">
             Antalya · Türkiye
           </span>
         </Link>
