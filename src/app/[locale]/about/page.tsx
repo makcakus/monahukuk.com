@@ -130,13 +130,13 @@ export default async function AboutPage({
               {t("ctaBody")}
             </p>
           </div>
-          <div className="md:col-span-4 md:text-right">
+          <div className="md:col-span-4 md:text-end">
             <Link
               href="/contact"
               className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 px-6 text-sm font-medium text-navy-950 hover:bg-gold-600 hover:text-cream-50 transition-colors whitespace-nowrap w-full sm:w-[220px] h-[48px] flex-shrink-0"
             >
               <span className="block min-w-0 flex-1 truncate text-center">{tCta("consult")}</span>
-              <ArrowRight size={16} className="shrink-0" />
+              <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
             </Link>
           </div>
         </div>

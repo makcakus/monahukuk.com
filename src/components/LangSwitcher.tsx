@@ -54,7 +54,7 @@ export function LangSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-2 w-[160px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900">
+        <div className="absolute end-0 top-full mt-2 w-[160px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900">
           {LOCALES.map((l) => (
             <button
               key={l}
@@ -62,7 +62,7 @@ export function LangSwitcher() {
               disabled={pending || l === locale}
               onClick={() => switchTo(l)}
               className={clsx(
-                "block w-full truncate text-left px-4 py-2 text-sm transition-colors",
+                "block w-full truncate text-start px-4 py-2 text-sm transition-colors",
                 l === locale
                   ? "text-navy-900 font-medium bg-cream-100 dark:text-cream-50 dark:bg-navy-800"
                   : "text-ink-soft hover:text-navy-900 hover:bg-cream-100 dark:text-cream-200 dark:hover:text-cream-50 dark:hover:bg-navy-800"

@@ -29,7 +29,7 @@ export function CinematicHero() {
       />
       <div
         aria-hidden
-        className="absolute inset-0 bg-gradient-to-r from-navy-950/55 via-transparent to-transparent"
+        className="absolute inset-0 bg-gradient-to-r from-navy-950/55 via-transparent to-transparent rtl:bg-gradient-to-l"
       />
 
       <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-end px-6 pb-24 pt-32 md:pb-32">
@@ -50,7 +50,7 @@ export function CinematicHero() {
               className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 transition-colors whitespace-nowrap w-full sm:w-[260px] h-[52px] px-6 flex-shrink-0"
             >
               <span className="block min-w-0 flex-1 truncate text-center">{tCta("consult")}</span>
-              <ArrowRight size={16} className="shrink-0" />
+              <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
             </Link>
             <Link
               href="/practice-areas"
@@ -70,7 +70,7 @@ export function CinematicHero() {
         href="https://unsplash.com/@mahykisreal"
         target="_blank"
         rel="noopener noreferrer nofollow"
-        className="absolute bottom-3 right-4 z-10 text-[10px] uppercase tracking-wider text-cream-100/55 hover:text-cream-100/90 transition-colors"
+        className="absolute bottom-3 end-4 z-10 text-[10px] uppercase tracking-wider text-cream-100/55 hover:text-cream-100/90 transition-colors"
       >
         Photo · Burak Mike / Unsplash
       </a>

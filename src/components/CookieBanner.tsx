@@ -37,7 +37,7 @@ export function CookieBanner() {
     <div
       role="dialog"
       aria-label="Cookie consent"
-      className="fixed inset-x-0 bottom-0 z-50 px-4 pb-4 sm:bottom-6 sm:left-auto sm:right-6 sm:max-w-md sm:px-0 sm:pb-0 animate-cookie-slide"
+      className="fixed inset-x-0 bottom-0 z-50 px-4 pb-4 sm:bottom-6 sm:start-auto sm:end-6 sm:max-w-md sm:px-0 sm:pb-0 animate-cookie-slide"
     >
       <div className="relative overflow-hidden rounded-2xl border border-cream-200 bg-white shadow-2xl shadow-navy-900/15 dark:border-navy-700 dark:bg-navy-900 dark:shadow-black/40">
         {/* gold accent strip */}
@@ -47,7 +47,7 @@ export function CookieBanner() {
           type="button"
           onClick={() => persist("essential")}
           aria-label="Close"
-          className="absolute right-3 top-4 inline-flex h-7 w-7 items-center justify-center rounded-full text-ink-mute hover:bg-cream-100 hover:text-navy-900 dark:text-cream-200 dark:hover:bg-navy-800 dark:hover:text-cream-50 transition-colors"
+          className="absolute end-3 top-4 inline-flex h-7 w-7 items-center justify-center rounded-full text-ink-mute hover:bg-cream-100 hover:text-navy-900 dark:text-cream-200 dark:hover:bg-navy-800 dark:hover:text-cream-50 transition-colors"
         >
           <X size={16} />
         </button>
@@ -61,7 +61,7 @@ export function CookieBanner() {
               <h2 className="font-display text-base font-semibold text-navy-900 dark:text-cream-50">
                 {t("title")}
               </h2>
-              <p className="mt-1.5 pr-3 text-sm leading-relaxed text-ink-soft dark:text-cream-200">
+              <p className="mt-1.5 pe-3 text-sm leading-relaxed text-ink-soft dark:text-cream-200">
                 {t("body")}
               </p>
             </div>

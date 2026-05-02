@@ -101,7 +101,7 @@ export default async function PracticeAreaDetailPage({
             href="/practice-areas"
             className="inline-flex items-center gap-2 text-sm text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50 transition-colors"
           >
-            <ArrowLeft size={14} />
+            <ArrowLeft size={14} className="rtl:rotate-180" />
             {t("backToList")}
           </Link>
         </div>
@@ -193,7 +193,7 @@ export default async function PracticeAreaDetailPage({
                     </span>
                     <ArrowRight
                       size={16}
-                      className="mt-1 shrink-0 text-ink-mute group-hover:text-gold-600 dark:text-cream-200 transition-colors"
+                      className="mt-1 shrink-0 text-ink-mute group-hover:text-gold-600 dark:text-cream-200 transition-colors rtl:rotate-180"
                     />
                   </Link>
                 </li>
@@ -215,7 +215,7 @@ export default async function PracticeAreaDetailPage({
             className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 dark:bg-navy-950 px-6 text-sm font-medium text-navy-950 dark:text-cream-50 hover:bg-gold-400 dark:hover:bg-navy-900 transition-colors whitespace-nowrap w-full sm:w-[240px] h-[48px] flex-shrink-0"
           >
             <span className="block min-w-0 flex-1 truncate text-center">{t("ctaButton")}</span>
-            <ArrowRight size={16} className="shrink-0" />
+            <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
           </Link>
         </section>
       </article>

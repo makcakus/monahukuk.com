@@ -63,7 +63,7 @@ export default async function PracticeAreasPage({
                 {pickPA(area.description, locale)}
               </p>
               <span className="mt-auto pt-4 inline-flex items-center gap-1 text-xs font-medium text-gold-700 group-hover:gap-2 transition-all shrink-0">
-                <ArrowRight size={14} />
+                <ArrowRight size={14} className="rtl:rotate-180" />
               </span>
             </Link>
           ))}

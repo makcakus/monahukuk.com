@@ -54,7 +54,7 @@ export function Footer() {
       <div className="border-t border-navy-800">
         <div className="mx-auto max-w-6xl px-6 py-5 flex flex-col gap-2 md:flex-row md:items-center md:justify-between text-xs text-cream-200/70">
           <p>© {year} {tSite("name")}. {tFooter("rights")}</p>
-          <p className="md:max-w-md md:text-right">{tFooter("disclaimer")}</p>
+          <p className="md:max-w-md md:text-end">{tFooter("disclaimer")}</p>
         </div>
       </div>
     </footer>

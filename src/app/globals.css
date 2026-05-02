@@ -104,7 +104,7 @@ h1, h2, h3, h4, .font-display {
 }
 .prose-legal ul {
   list-style: disc;
-  padding-left: 1.4rem;
+  padding-inline-start: 1.4rem;
   margin-bottom: 1.1rem;
   color: var(--prose-body);
 }
@@ -116,8 +116,8 @@ h1, h2, h3, h4, .font-display {
   font-weight: 600;
 }
 .prose-legal blockquote {
-  border-left: 3px solid var(--color-gold-400);
-  padding-left: 1rem;
+  border-inline-start: 3px solid var(--color-gold-400);
+  padding-inline-start: 1rem;
   font-style: italic;
   color: var(--prose-body);
   margin: 1.5rem 0;

@@ -34,7 +34,7 @@ function Section({
       <span className="gold-divider mb-5" />
       <p className="text-ink-soft leading-relaxed">{body}</p>
       {items && items.length > 0 && (
-        <ul className="mt-4 space-y-2 pl-5 list-disc text-ink-soft leading-relaxed">
+        <ul className="mt-4 space-y-2 ps-5 list-disc text-ink-soft leading-relaxed">
           {items.map((item, idx) => (
             <li key={idx}>{item}</li>
           ))}

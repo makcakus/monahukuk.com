@@ -135,7 +135,7 @@ export function Header() {
                 {isOpen && (
                   <div
                     role="menu"
-                    className="absolute left-0 top-full mt-2 min-w-[180px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 dark:border-navy-800 dark:bg-navy-900"
+                    className="absolute start-0 top-full mt-2 min-w-[180px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 dark:border-navy-800 dark:bg-navy-900"
                   >
                     {item.items.map((sub) => {
                       const subActive = isActive(sub.href);
@@ -210,7 +210,7 @@ export function Header() {
                       key={sub.href}
                       href={sub.href}
                       onClick={() => setOpen(false)}
-                      className="py-1 pl-3 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
+                      className="py-1 ps-3 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
                     >
                       {t(sub.key)}
                     </Link>

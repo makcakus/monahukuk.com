@@ -105,7 +105,7 @@ export function ArticlesBrowser({
           <span className="sr-only">{ui.searchPlaceholder}</span>
           <Search
             size={18}
-            className="absolute left-4 top-1/2 -translate-y-1/2 text-ink-mute dark:text-cream-200/60 pointer-events-none"
+            className="absolute start-4 top-1/2 -translate-y-1/2 text-ink-mute dark:text-cream-200/60 pointer-events-none"
             strokeWidth={1.75}
           />
           <input
@@ -115,14 +115,14 @@ export function ArticlesBrowser({
             placeholder={ui.searchPlaceholder}
             autoComplete="off"
             spellCheck={false}
-            className="w-full h-[48px] rounded-full border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/60 pl-12 pr-12 text-base text-navy-900 dark:text-cream-50 placeholder:text-ink-mute dark:placeholder:text-cream-200/50 focus:outline-none focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 transition-colors"
+            className="w-full h-[48px] rounded-full border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/60 ps-12 pe-12 text-base text-navy-900 dark:text-cream-50 placeholder:text-ink-mute dark:placeholder:text-cream-200/50 focus:outline-none focus:border-gold-400 focus:ring-2 focus:ring-gold-400/30 transition-colors"
           />
           {query && (
             <button
               type="button"
               onClick={() => setQuery("")}
               aria-label={ui.searchClear}
-              className="absolute right-3 top-1/2 -translate-y-1/2 inline-flex h-7 w-7 items-center justify-center rounded-full text-ink-mute dark:text-cream-200/70 hover:text-navy-900 dark:hover:text-cream-50 hover:bg-cream-100 dark:hover:bg-navy-800 transition-colors"
+              className="absolute end-3 top-1/2 -translate-y-1/2 inline-flex h-7 w-7 items-center justify-center rounded-full text-ink-mute dark:text-cream-200/70 hover:text-navy-900 dark:hover:text-cream-50 hover:bg-cream-100 dark:hover:bg-navy-800 transition-colors"
             >
               <X size={16} />
             </button>
@@ -191,8 +191,8 @@ function SearchResults({
                 <span>
                   {a.readingMinutes} {ui.minRead}
                 </span>
-                <span className="ml-auto inline-flex items-center gap-1 text-navy-900 dark:text-cream-200 group-hover:text-gold-700 dark:group-hover:text-gold-300">
-                  {ui.readMore} <ArrowRight size={14} />
+                <span className="ms-auto inline-flex items-center gap-1 text-navy-900 dark:text-cream-200 group-hover:text-gold-700 dark:group-hover:text-gold-300">
+                  {ui.readMore} <ArrowRight size={14} className="rtl:rotate-180" />
                 </span>
               </p>
             </Link>
@@ -256,8 +256,8 @@ function GroupedView({
                       <span>
                         {a.readingMinutes} {ui.minRead}
                       </span>
-                      <span className="ml-auto inline-flex items-center gap-1 text-navy-900 dark:text-cream-200 group-hover/article:text-gold-700 dark:group-hover/article:text-gold-300">
-                        {ui.readMore} <ArrowRight size={14} />
+                      <span className="ms-auto inline-flex items-center gap-1 text-navy-900 dark:text-cream-200 group-hover/article:text-gold-700 dark:group-hover/article:text-gold-300">
+                        {ui.readMore} <ArrowRight size={14} className="rtl:rotate-180" />
                       </span>
                     </p>
                   </Link>
@@ -271,7 +271,7 @@ function GroupedView({
                   className="inline-flex items-center gap-2 text-sm font-medium text-gold-700 dark:text-gold-300 hover:text-gold-600 dark:hover:text-gold-400 transition-colors"
                 >
                   {ui.viewPracticeArea}
-                  <ArrowRight size={14} />
+                  <ArrowRight size={14} className="rtl:rotate-180" />
                 </Link>
               </div>
             )}

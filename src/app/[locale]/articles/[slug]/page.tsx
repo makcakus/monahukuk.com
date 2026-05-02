@@ -76,7 +76,7 @@ export default async function ArticlePage({
         href="/articles"
         className="inline-flex items-center gap-1 text-sm text-ink-mute hover:text-navy-900 mb-8"
       >
-        <ArrowLeft size={14} />
+        <ArrowLeft size={14} className="rtl:rotate-180" />
         {t("title")}
       </Link>
 
