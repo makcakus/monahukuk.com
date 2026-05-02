@@ -76,10 +76,15 @@ export function Header() {
           className="flex flex-col leading-tight"
           onClick={() => setOpen(false)}
         >
-          <span className="font-display text-2xl text-navy-900 dark:text-cream-50 tracking-tight">
-            {tSite("name")}
-          </span>
-          <span className="text-[11px] uppercase tracking-[0.18em] text-gold-700">
+          {tSite("name").split(" ").map((word, i) => (
+            <span
+              key={i}
+              className="font-display text-2xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+            >
+              {word}
+            </span>
+          ))}
+          <span className="mt-1 text-[11px] uppercase tracking-[0.18em] text-gold-700">
             Antalya · Türkiye
           </span>
         </Link>
