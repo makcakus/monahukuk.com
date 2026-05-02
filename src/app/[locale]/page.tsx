@@ -27,15 +27,18 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <HomeContent />;
+  return <HomeContent locale={locale} />;
 }
 
-function HomeContent() {
+function HomeContent({ locale }: { locale: string }) {
   const t = useTranslations("home");
+  const compactHero = ["tr", "de", "ru"].includes(locale);
 
   return (
     <>
-      <CinematicHero />
+      <div className={compactHero ? "-mt-1" : ""}>
+        <CinematicHero />
+      </div>
 
       {/* Practice intro */}
       <section className="bg-cream-100/60">
