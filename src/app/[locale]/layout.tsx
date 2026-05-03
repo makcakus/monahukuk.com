@@ -72,7 +72,7 @@ export async function generateMetadata({
     },
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
     verification: {
-      google: "sgC9DBmL4QVLvFoaekqIvrBcAPdG31xdgQWeFHO9sc0",
+      google: ["sgC9DBmL4QVLvFoaekqIvrBcAPdG31xdgQWeFHO9sc0", "yRHGM8c8VxxOSGPFwnsKdICg4d_dre0XpLjLufMnAIc"],
       yandex: "5ff8a22e4fbffbb2",
     },
   };
