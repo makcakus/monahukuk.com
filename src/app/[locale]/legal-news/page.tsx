@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
-import { getAllGazettePosts } from "@/lib/hukuki-haberler";
+import { getAllGazettePosts } from "@/lib/legal-news";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 
@@ -15,7 +15,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "legalNews" });
   return pageMetadata({
     locale,
-    path: "/hukuki-haberler",
+    path: "/legal-news",
     title: t("title"),
     description: t("lead"),
   });
@@ -54,7 +54,7 @@ export default async function LegalNewsPage({
                 </p>
                 <h2 className="font-display text-2xl md:text-3xl text-navy-950 dark:text-cream-50 leading-snug mb-3">
                   <Link
-                    href={`/hukuki-haberler/${post.slug}`}
+                    href={`/legal-news/${post.slug}`}
                     className="hover:text-gold-700 dark:hover:text-gold-400 transition-colors"
                   >
                     {post.title}
@@ -64,7 +64,7 @@ export default async function LegalNewsPage({
                   {post.description}
                 </p>
                 <Link
-                  href={`/hukuki-haberler/${post.slug}`}
+                  href={`/legal-news/${post.slug}`}
                   className="text-sm font-medium text-navy-800 dark:text-gold-400 hover:underline"
                 >
                   {t("readMore")} →

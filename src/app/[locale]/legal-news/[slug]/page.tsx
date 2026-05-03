@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
-import { getGazettePost, getAllGazettePosts } from "@/lib/hukuki-haberler";
+import { getGazettePost, getAllGazettePosts } from "@/lib/legal-news";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 
@@ -28,7 +28,7 @@ export async function generateMetadata({
   if (!post) return {};
   return pageMetadata({
     locale,
-    path: `/hukuki-haberler/${slug}`,
+    path: `/legal-news/${slug}`,
     title: post.title,
     description: post.description,
     type: "article",
@@ -58,7 +58,7 @@ export default async function GazettePostPage({
   return (
     <article className="mx-auto max-w-3xl px-6 py-16">
       <Link
-        href="/hukuki-haberler"
+        href="/legal-news"
         className="inline-flex items-center gap-1 text-sm text-ink-mute hover:text-navy-900 dark:hover:text-cream-50 mb-8"
       >
         <ArrowLeft size={14} className="rtl:rotate-180" />

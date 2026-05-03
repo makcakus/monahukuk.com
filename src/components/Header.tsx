@@ -31,7 +31,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   },
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
-  { type: "link", href: "/hukuki-haberler", key: "legalNews", locales: ["tr", "en"] as const },
+  { type: "link", href: "/legal-news", key: "legalNews", locales: ["tr", "en"] as const },
   { type: "link", href: "/contact", key: "contact" },
   { type: "link", href: "/privacy-policy", key: "privacy" },
 ] as const;
