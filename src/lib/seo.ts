@@ -38,6 +38,7 @@ export function pageMetadata({
   const image = ogImage ?? `${SITE.url}${SITE.ogImage}`;
 
   return {
+    metadataBase: new URL(SITE.url),
     title,
     description,
     keywords,

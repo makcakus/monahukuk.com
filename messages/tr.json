@@ -112,6 +112,19 @@
     "publishedOn": "Yayımlandı",
     "backToList": "Hukuki Haberler"
   },
+  "newsletter": {
+    "kicker": "E-Bülten",
+    "title": "Güncel gelişmeleri kaçırmayın",
+    "body": "Resmî Gazete duyuruları, yargı kararları ve önemli mevzuat değişikliklerini haftalık özetle doğrudan e-posta kutunuza gönderiyoruz.",
+    "placeholder": "E-posta adresiniz",
+    "button": "Abone ol",
+    "submitting": "Kaydediliyor…",
+    "successTitle": "Kaydınız alındı",
+    "successBody": "Bültenimize başarıyla abone oldunuz. İlk sayıyı en kısa sürede gönderiyoruz.",
+    "consent": "E-bülten almak amacıyla e-posta adresimin işlenmesine KVKK kapsamında açık rızamla onay veriyorum. Her iletide yer alan bağlantıyla aboneliğimi kolayca iptal edebilirim.",
+    "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
+    "serverError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
   "articles": {
     "title": "Hukuki Makaleler",
     "lead": "Türk hukukuna dair pratik rehberler ve analizler — özellikle yabancı uyruklular ve uluslararası şirketleri ilgilendiren konularda, hukukçu olmayanlar için yazılmıştır.",

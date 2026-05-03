@@ -112,6 +112,19 @@
     "publishedOn": "Published",
     "backToList": "Legal News"
   },
+  "newsletter": {
+    "kicker": "Newsletter",
+    "title": "Stay on top of Turkish legal developments",
+    "body": "Official Gazette notices, court decisions, and key legislative changes — delivered to your inbox in a weekly digest.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "submitting": "Subscribing…",
+    "successTitle": "You're subscribed",
+    "successBody": "You have successfully subscribed to our newsletter. The first issue is on its way.",
+    "consent": "I consent to my email address being processed for the purpose of receiving the newsletter. I can unsubscribe at any time via the link in each email.",
+    "invalidEmail": "Please enter a valid email address.",
+    "serverError": "Something went wrong. Please try again later."
+  },
   "articles": {
     "title": "Legal Articles",
     "lead": "Practical guides and analyses on Turkish law, written for non-lawyers — with a particular focus on issues that affect foreign nationals and international businesses.",
