@@ -84,8 +84,9 @@ export function Header() {
               {word}
             </span>
           ))}
-          <span className="mt-2 text-xs uppercase tracking-[0.18em] text-gold-700">
-            Antalya · Türkiye
+          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] text-gold-700 leading-snug">
+            <span>Antalya</span>
+            <span>{tSite("country")}</span>
           </span>
         </Link>
 
