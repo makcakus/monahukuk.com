@@ -86,7 +86,7 @@ export function Header() {
           ))}
           <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] text-gold-700 leading-snug">
             <span>Antalya</span>
-            <span>{tSite("country")}</span>
+            <span>Türkiye</span>
           </span>
         </Link>
 
