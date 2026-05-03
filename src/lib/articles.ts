@@ -74,6 +74,42 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
+const FAQ_SKIP = /mona hukuk|как .* может помочь|how .* can help|kontaktieren|お問い合わせ|iletişim|تواصل|связаться/i;
+
+export function extractFaqPairs(body: string): { question: string; answer: string }[] {
+  const pairs: { question: string; answer: string }[] = [];
+  let heading: string | null = null;
+  let bodyLines: string[] = [];
+
+  function flush() {
+    if (!heading || FAQ_SKIP.test(heading)) return;
+    const text = bodyLines
+      .join(" ")
+      .replace(/\*\*([^*]+)\*\*/g, "$1")
+      .replace(/\*([^*]+)\*/g, "$1")
+      .replace(/^[-*+]\s+/gm, "")
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 280);
+    if (text.length > 30) pairs.push({ question: heading!, answer: text });
+  }
+
+  for (const line of body.split("\n")) {
+    const m = line.match(/^## (.+)/);
+    if (m) {
+      flush();
+      heading = m[1].trim().replace(/\*\*/g, "");
+      bodyLines = [];
+    } else if (heading && line.trim() && !line.startsWith("#")) {
+      bodyLines.push(line.trim());
+    }
+  }
+  flush();
+  return pairs;
+}
+
 function stripMarkdown(md: string): string {
   return md
     .replace(/```[\s\S]*?```/g, " ")

@@ -1,5 +1,16 @@
 import { SITE } from "@/lib/site";
 
+const LANG_TAGS: Record<string, string> = {
+  tr: "tr-TR",
+  en: "en-GB",
+  de: "de-DE",
+  ru: "ru-RU",
+  ar: "ar-SA",
+};
+function langTag(locale: string) {
+  return LANG_TAGS[locale] ?? "en-GB";
+}
+
 export function ArticleSchema({
   locale,
   slug,
@@ -23,7 +34,7 @@ export function ArticleSchema({
     description,
     datePublished: date,
     dateModified: date,
-    inLanguage: locale === "tr" ? "tr-TR" : "en-US",
+    inLanguage: langTag(locale),
     articleSection: category,
     url,
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
@@ -31,6 +42,29 @@ export function ArticleSchema({
     author: { "@type": "Organization", "@id": `${SITE.url}#organization`, name: SITE.name },
     publisher: { "@id": `${SITE.url}#organization` },
     isAccessibleForFree: true,
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function FAQPageSchema({
+  pairs,
+}: {
+  pairs: { question: string; answer: string }[];
+}) {
+  if (pairs.length < 3) return null;
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: pairs.map((p) => ({
+      "@type": "Question",
+      name: p.question,
+      acceptedAnswer: { "@type": "Answer", text: p.answer },
+    })),
   };
   return (
     <script

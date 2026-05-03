@@ -58,7 +58,7 @@ export default async function OGImage() {
           }}
         >
           <span>monahukuk.com</span>
-          <span>info@monahukuk.com  ·  +90 242 606 14 32</span>
+          <span>contact@monahukuk.com  ·  +90 242 606 14 32</span>
         </div>
       </div>
     ),

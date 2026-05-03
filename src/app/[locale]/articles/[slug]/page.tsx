@@ -2,11 +2,11 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
-import { getArticle, getAllArticles } from "@/lib/articles";
+import { getArticle, getAllArticles, extractFaqPairs } from "@/lib/articles";
 import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -47,6 +47,7 @@ export default async function ArticlePage({
   const article = await getArticle(locale, slug);
   if (!article) notFound();
 
+  const faqPairs = extractFaqPairs(article.body);
   const t = await getTranslations("articles");
   const dateFmt = new Intl.DateTimeFormat(locale === "tr" ? "tr-TR" : "en-GB", {
     year: "numeric",
@@ -71,6 +72,7 @@ export default async function ArticlePage({
           { name: article.title, path: `/articles/${slug}` },
         ]}
       />
+      <FAQPageSchema pairs={faqPairs} />
 
       <Link
         href="/articles"
