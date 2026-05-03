@@ -29,11 +29,11 @@ export default async function Icon() {
         style={{
           width: "100%",
           height: "100%",
-          background: "#0c1e3d",
+          background: "#0a1628",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          color: "#d4a045",
+          color: "#bf6830",
           fontSize: 38,
           fontFamily: fontData ? "Tinos" : "Georgia, serif",
           fontWeight: 700,

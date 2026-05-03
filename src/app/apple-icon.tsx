@@ -16,7 +16,7 @@ async function loadTinos(text: string): Promise<ArrayBuffer | null> {
 }
 
 export default async function AppleIcon() {
-  const fontData = await loadTinos("MHANTLY");
+  const fontData = await loadTinos("MHATORNEY AT LAW");
 
   const options: ConstructorParameters<typeof ImageResponse>[1] = { ...size };
   if (fontData) {
@@ -24,6 +24,7 @@ export default async function AppleIcon() {
   }
 
   const fontFamily = fontData ? "Tinos" : "Georgia, serif";
+  const copper = "#bf6830";
 
   return new ImageResponse(
     (
@@ -31,31 +32,28 @@ export default async function AppleIcon() {
         style={{
           width: "100%",
           height: "100%",
-          background: "#0c1e3d",
+          background: "#0a1628",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          color: "#d4a045",
           fontFamily,
-          letterSpacing: "-0.01em",
         }}
       >
-        <div style={{ display: "flex", fontSize: 72, fontWeight: 700, lineHeight: 1 }}>
+        <div style={{ display: "flex", fontSize: 80, fontWeight: 700, lineHeight: 1, color: copper, letterSpacing: "-0.02em" }}>
           MH
         </div>
+        <div style={{ display: "flex", width: 100, height: 1.5, background: copper, marginTop: 10, marginBottom: 10, opacity: 0.85 }} />
         <div
           style={{
             display: "flex",
-            fontSize: 14,
-            marginTop: 8,
-            color: "#d4a045",
-            letterSpacing: "0.18em",
-            opacity: 0.85,
+            fontSize: 13,
+            color: copper,
+            letterSpacing: "0.22em",
             fontWeight: 700,
           }}
         >
-          ANTALYA
+          ATTORNEY AT LAW
         </div>
       </div>
     ),
