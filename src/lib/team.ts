@@ -33,7 +33,7 @@ export const TEAM: Member[] = [
       { tr: "Yabancılar Hukuku", en: "Immigration", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الأجانب" },
     ],
     bio: {
-      tr: "MONA HUKUK'un kurucu ortağı Mustafa, bilişim şirketleri ve uluslararası müvekkillere Türkiye'de BT hukuku, yapay zekâ düzenlemeleri ve veri koruma uyumu konularında danışmanlık vermektedir.",
+      tr: "MONA HUKUK'un kurucu ortağı Mustafa, bilişim şirketleri ve uluslararası müvekkillere Türkiye'de BT Hukuku, yapay zekâ düzenlemeleri ve veri koruma uyumu konularında danışmanlık vermektedir.",
       en: "Founding partner of MONA HUKUK, Mustafa specialises in advising technology companies and international clients on IT law, artificial intelligence regulation, and data protection compliance in Turkey.",
       de: "Als Gründungspartner von MONA HUKUK berät Mustafa Technologieunternehmen und internationale Mandanten in den Bereichen IT-Recht, KI-Regulierung und Datenschutz-Compliance in der Türkei.",
       ru: "Основатель и партнёр MONA HUKUK, Мустафа специализируется на консультировании технологических компаний и международных клиентов по вопросам IT-права, регулирования искусственного интеллекта и соответствия требованиям защиты данных в Турции.",
@@ -107,7 +107,7 @@ export const TEAM: Member[] = [
       { tr: "Aile Hukuku", en: "Family Law", de: "Familienrecht", ru: "Семейное право", ar: "قانون الأسرة" },
     ],
     bio: {
-      tr: "Mehmet, dava ve uyuşmazlık çözümüne titiz ve müvekkil odaklı bir yaklaşım getirerek bireyleri ve şirketleri ceza davaları, ticari uyuşmazlıklar ve aile hukuku meselelerinde temsil etmektedir.",
+      tr: "Mehmet, dava ve uyuşmazlık çözümüne titiz ve müvekkil odaklı bir yaklaşım getirerek bireyleri ve şirketleri ceza davaları, ticari uyuşmazlıklar ve Aile Hukuku meselelerinde temsil etmektedir.",
       en: "Mehmet brings a rigorous, client-focused approach to litigation and dispute resolution, representing individuals and businesses in criminal proceedings, commercial disputes, and family matters.",
       de: "Mehmet verfolgt einen gründlichen, mandantenorientierten Ansatz in der Prozessführung und Streitbeilegung und vertritt Privatpersonen und Unternehmen in Strafverfahren, Handelsstreitigkeiten und Familienrechtssachen.",
       ru: "Мехмет применяет строгий клиентоориентированный подход к судебным разбирательствам и урегулированию споров, представляя интересы физических лиц и компаний в уголовных делах, коммерческих спорах и семейных делах.",

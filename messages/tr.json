@@ -2,7 +2,7 @@
   "site": {
     "name": "MONA HUKUK",
     "tagline": "Türkiye'de yerli ve yabancı gerçek ve tüzel kişilere yönelik hukuki danışmanlık",
-    "description": "Antalya merkezli hukuk büromuz; yerli ve yabancı gerçek ve tüzel kişilere ticaret, aile, ceza, idare, gayrimenkul, iş ve göçmenlik hukuku başta olmak üzere geniş bir yelpazede temsil ve danışmanlık hizmeti sunar."
+    "description": "Antalya merkezli hukuk büromuz; yerli ve yabancı gerçek ve tüzel kişilere Ticaret, Aile, Ceza, İdare, Gayrimenkul, İş ve Göçmenlik Hukuku başta olmak üzere geniş bir yelpazede temsil ve danışmanlık hizmeti sunar."
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -49,8 +49,8 @@
   },
   "about": {
     "title": "MONA HUKUK Hakkında",
-    "lead": "Antalya merkezli bağımsız bir hukuk bürosu. Bireylere ve şirketlere Türk hukukunun temel dallarında danışmanlık ve dava takip hizmeti sunar.",
-    "body": "MONA HUKUK; Türk hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve şirketler hukukundan aile hukukuna, ceza hukukundan idare hukukuna, gayrimenkul hukukundan iş hukukuna uzanan geniş bir uygulama alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
+    "lead": "Antalya merkezli bağımsız bir hukuk bürosu. Bireylere ve şirketlere Türk Hukukunun temel dallarında danışmanlık ve dava takip hizmeti sunar.",
+    "body": "MONA HUKUK; Türk Hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve Şirketler Hukukundan Aile Hukukuna, Ceza Hukukundan İdare Hukukuna, Gayrimenkul Hukukundan İş Hukukuna uzanan geniş bir uygulama alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
     "mission": {
       "title": "Misyonumuz",
       "body": "Müvekkilin haklarını, beklentisini ve içinde bulunduğu hukuki süreci doğru anlamak; tartışılan menfaati en iyi koruyacak çözümü mahkeme veya müzakere yoluyla üretmek. Bu sade ilkeyi şeffaf bir iletişim, öngörülebilir maliyet planlaması ve mesleki titizlikle birleştiriyoruz."
@@ -60,7 +60,7 @@
       "items": {
         "scope": {
           "title": "Geniş uygulama alanı",
-          "body": "Türk hukukunun temel dallarında çalışan, dosyaya en uygun yaklaşımı tayin edebilen kıdemli bir avukat ekibi. Bireysel davalardan kurumsal danışmanlığa, tek bir büroda bütünsel bir hukuki destek."
+          "body": "Türk Hukukunun temel dallarında çalışan, dosyaya en uygun yaklaşımı tayin edebilen kıdemli bir avukat ekibi. Bireysel davalardan kurumsal danışmanlığa, tek bir büroda bütünsel bir hukuki destek."
         },
         "experience": {
           "title": "On yılı aşkın saha deneyimi",
@@ -76,7 +76,7 @@
         }
       }
     },
-    "areasIntro": "Türk hukukunun temel dallarında müvekkillerimize hizmet veriyoruz:",
+    "areasIntro": "Türk Hukukunun temel dallarında müvekkillerimize hizmet veriyoruz:",
     "ctaTitle": "Hukuki danışmanlık talep edin",
     "ctaBody": "Görüştüğümüz her dosyada koşulları birlikte değerlendirir, sonraki adımı netleştiririz."
   },
@@ -96,7 +96,7 @@
   "team": {
     "title": "Ekibimiz",
     "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi.",
-    "intro": "MONA HUKUK, Antalya Barosu'na kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, aile hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
+    "intro": "MONA HUKUK, Antalya Barosu'na kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, Aile Hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
     "labelAreas": "Uygulama Alanları",
