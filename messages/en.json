@@ -10,6 +10,7 @@
     "team": "Our Team",
     "practiceAreas": "Practice Areas",
     "articles": "Legal Articles",
+    "legalNews": "Legal News",
     "contact": "Contact",
     "privacy": "Privacy Policy"
   },
@@ -101,6 +102,15 @@
     "labelAreas": "Practice Areas",
     "ctaTitle": "Start working with our team",
     "ctaBody": "Contact our team of Antalya lawyers for foreigners for legal counsel and litigation."
+  },
+  "legalNews": {
+    "title": "Legal News",
+    "lead": "Current legal developments compiled from Turkey's Official Gazette and court decisions — for lawyers and legal professionals following Turkish law.",
+    "empty": "No news yet.",
+    "readMore": "Read article",
+    "minRead": "min read",
+    "publishedOn": "Published",
+    "backToList": "Legal News"
   },
   "articles": {
     "title": "Legal Articles",

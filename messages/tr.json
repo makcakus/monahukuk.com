@@ -10,6 +10,7 @@
     "team": "Ekibimiz",
     "practiceAreas": "Uygulama Alanları",
     "articles": "Hukuki Makaleler",
+    "legalNews": "Hukuki Haberler",
     "contact": "İletişim",
     "privacy": "Gizlilik Politikası"
   },
@@ -101,6 +102,15 @@
     "labelAreas": "Uygulama Alanları",
     "ctaTitle": "Ekibimizle çalışmaya başlayın",
     "ctaBody": "Antalya yabancılar avukatı olarak hukuki danışmanlık ve dava takibi için bizimle iletişime geçin."
+  },
+  "legalNews": {
+    "title": "Hukuki Haberler",
+    "lead": "Resmî Gazete bülteni ve yargı kararlarından derlenen güncel hukuki gelişmeler — avukatlar ve hukuk takipçileri için.",
+    "empty": "Henüz haber eklenmedi.",
+    "readMore": "Haberi oku",
+    "minRead": "dk okuma",
+    "publishedOn": "Yayımlandı",
+    "backToList": "Hukuki Haberler"
   },
   "articles": {
     "title": "Hukuki Makaleler",

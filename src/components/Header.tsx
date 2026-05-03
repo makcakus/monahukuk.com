@@ -1,19 +1,20 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
-type NavLeaf = { type: "link"; href: string; key: string };
+type NavLeaf = { type: "link"; href: string; key: string; locales?: readonly string[] };
 type NavGroup = {
   type: "group";
   key: string;
   matchPrefixes: readonly string[];
   items: readonly { href: string; key: string }[];
+  locales?: readonly string[];
 };
 type NavItem = NavLeaf | NavGroup;
 
@@ -30,6 +31,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   },
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
+  { type: "link", href: "/hukuki-haberler", key: "legalNews", locales: ["tr", "en"] as const },
   { type: "link", href: "/contact", key: "contact" },
   { type: "link", href: "/privacy-policy", key: "privacy" },
 ] as const;
@@ -39,6 +41,7 @@ export function Header() {
   const tSite = useTranslations("site");
   const tCta = useTranslations("cta");
   const pathname = usePathname();
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const groupRef = useRef<HTMLDivElement | null>(null);
@@ -91,7 +94,7 @@ export function Header() {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
-          {NAV_ITEMS.map((item) => {
+          {NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale)).map((item) => {
             if (item.type === "link") {
               const active = isActive(item.href);
               return (
@@ -193,7 +196,7 @@ export function Header() {
       {open && (
         <div className="lg:hidden border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950">
           <nav className="mx-auto max-w-6xl px-6 py-4 flex flex-col gap-3">
-            {NAV_ITEMS.map((item) => {
+            {NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale)).map((item) => {
               if (item.type === "link") {
                 return (
                   <Link
