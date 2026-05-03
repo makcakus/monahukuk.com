@@ -15,14 +15,14 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           color: "#d4a045",
-          fontSize: 48,
+          fontSize: 38,
           fontWeight: 700,
-          fontFamily: "Georgia, 'Times New Roman', serif",
-          letterSpacing: "-0.04em",
+          fontFamily: "'Times New Roman', Times, serif",
+          letterSpacing: "-0.03em",
           lineHeight: 1,
         }}
       >
-        M
+        MH
       </div>
     ),
     { ...size }

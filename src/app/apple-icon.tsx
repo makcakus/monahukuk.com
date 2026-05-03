@@ -16,7 +16,7 @@ export default function AppleIcon() {
           alignItems: "center",
           justifyContent: "center",
           color: "#d4a045",
-          fontFamily: "Georgia, 'Times New Roman', serif",
+          fontFamily: "'Times New Roman', Times, serif",
           letterSpacing: "-0.02em",
         }}
       >
