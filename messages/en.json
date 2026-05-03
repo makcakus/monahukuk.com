@@ -23,7 +23,7 @@
     "hero": {
       "kicker": "Antalya · Turkey",
       "title": "MONA HUKUK",
-      "lead": "Based in Antalya, our firm provides legal counsel and litigation services to its clients with over a decade of professional experience and a team specialized in their respective fields."
+      "lead": "Based in Antalya, our firm draws on over a decade of professional experience and a team of specialists to provide legal counsel and litigation services to its clients."
     },
     "practiceIntro": "We practice in every branch of Turkish Law, serving our clients across a broad spectrum including, in particular, Commercial Law, Family Law, Labor Law, Criminal Law, Real Estate Law, and Administrative Law. We assess each case within its own circumstances and adopt a solution-oriented and transparent approach to case management.",
     "foreignClients": {
@@ -49,7 +49,7 @@
   "about": {
     "title": "About MONA HUKUK",
     "lead": "An independent law firm based in Antalya, advising and representing individuals and companies across the principal branches of Turkish law.",
-    "body": "MONA HUKUK is a law firm in Antalya, established to practise across all branches of Turkish law and now drawing on more than a decade of professional experience. We advise and represent both individuals and institutions in a broad practice spanning commercial and corporate law, family law, criminal law, administrative law, real estate law, and labour law. Alongside our Turkish clients, we provide qualified counsel — in their own language — to foreign nationals and international companies living, investing, or doing business in Antalya, thanks to our team's strong working command of English.\n\nAt the core of our approach is the discipline of assessing each file on its own facts, keeping the client fully informed and consenting at every step, and protecting professional confidence with care. From courtroom advocacy to settlement at the negotiation table, from contract design to administrative submissions, our aim at every stage is to represent the client's interest as effectively as the law allows.",
+    "body": "MONA HUKUK is a law firm in Antalya, established to practise across all branches of Turkish law, now with more than a decade of professional experience. We advise and represent both individuals and institutions in a broad practice spanning commercial and corporate law, family law, criminal law, administrative law, real estate law, and labour law. Alongside our Turkish clients, we provide qualified counsel — in their own language — to foreign nationals and international companies living, investing, or doing business in Antalya, thanks to our team's strong working command of English.\n\nAt the core of our approach is the discipline of assessing each file on its own facts, keeping the client fully informed and obtaining their consent at every step, and protecting professional confidentiality with care. From courtroom advocacy to settlement at the negotiation table, from contract design to administrative submissions, our aim at every stage is to represent the client's interest as effectively as the law allows.",
     "mission": {
       "title": "Our Mission",
       "body": "To understand the client's rights, expectations, and circumstances accurately, and — through trial or negotiation — to produce the resolution that best protects the interests at stake. We pair this simple principle with transparent communication, predictable cost planning, and professional rigour."
@@ -71,7 +71,7 @@
         },
         "discretion": {
           "title": "Confidentiality and professional rigour",
-          "body": "Professional confidence and client information form the foundation of every file we accept. Communications, document handling, and process updates are managed with the same care."
+          "body": "Professional confidentiality and client information form the foundation of every file we accept. Communications, document handling, and process updates are managed with the same care."
         }
       }
     },
