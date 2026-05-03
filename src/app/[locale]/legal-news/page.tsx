@@ -1,7 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
-import { getAllGazettePosts } from "@/lib/legal-news";
+import { getAllGazettePosts } from "@/lib/hukuki-haberler";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 

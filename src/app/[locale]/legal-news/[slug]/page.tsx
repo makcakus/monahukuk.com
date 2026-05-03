@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
-import { getGazettePost, getAllGazettePosts } from "@/lib/legal-news";
+import { getGazettePost, getAllGazettePosts } from "@/lib/hukuki-haberler";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 
