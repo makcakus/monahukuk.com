@@ -47,16 +47,16 @@ export function CinematicHero() {
           <div className="animate-hero-rise animate-hero-rise-delay-4 mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm bg-gold-500 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 transition-colors whitespace-nowrap w-full sm:w-[260px] h-[52px] px-6 flex-shrink-0"
+              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 transition-colors whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
             >
-              <span className="block min-w-0 flex-1 truncate text-center">{tCta("consult")}</span>
+              <span className="block text-center">{tCta("consult")}</span>
               <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
             </Link>
             <Link
               href="/practice-areas"
-              className="inline-flex items-center justify-center gap-2 overflow-hidden rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 transition-colors whitespace-nowrap w-full sm:w-[240px] h-[52px] px-6 flex-shrink-0"
+              className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 transition-colors whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
             >
-              <span className="block min-w-0 flex-1 truncate text-center">{tCta("explore")}</span>
+              <span className="block text-center">{tCta("explore")}</span>
             </Link>
           </div>
         </div>
