@@ -1,4 +1,4 @@
-export const SITE = {
+﻿export const SITE = {
   url: "https://monahukuk.com",
   name: "MONA HUKUK",
   legalName: "MONA HUKUK Bürosu",
@@ -30,8 +30,8 @@ export const KEYWORDS: Record<string, string[]> = {
     "Antalya boşanma avukatı yabancı",
     "Türk vatandaşlığı avukatı",
     "KVKK avukatı Türkiye",
-    "Antalya ticaret hukuku avukatı",
-    "Antalya iş hukuku avukatı",
+    "Antalya Ticaret Hukuku avukatı",
+    "Antalya İş Hukuku avukatı",
   ],
   en: [
     "law firm Antalya",

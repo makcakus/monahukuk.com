@@ -1,4 +1,4 @@
-import { Scale, Home, Globe, Users, ShieldAlert, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
+﻿import { Scale, Home, Globe, Users, ShieldAlert, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
 
 export type LangMap5 = { tr: string; en: string; de: string; ru: string; ar: string };
 
@@ -43,7 +43,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "قانون العقارات",
     },
     description: {
-      tr: "Türkiye'de mülk satın almak isteyen yabancılar için tapu işlemlerinden sözleşme incelemesine, ön satış anlaşmalarından kira uyuşmazlıklarına kadar tüm gayrimenkul hukuku hizmetlerini sunuyoruz. Antalya'da yabancıların ev, arsa veya ticari mülk ediniminde güvenli ve şeffaf bir süreç yönetimi sağlıyoruz.",
+      tr: "Türkiye'de mülk satın almak isteyen yabancılar için tapu işlemlerinden sözleşme incelemesine, ön satış anlaşmalarından kira uyuşmazlıklarına kadar tüm Gayrimenkul Hukuku hizmetlerini sunuyoruz. Antalya'da yabancıların ev, arsa veya ticari mülk ediniminde güvenli ve şeffaf bir süreç yönetimi sağlıyoruz.",
       en: "We provide comprehensive real estate legal services for foreigners buying property in Turkey — from title deed procedures and contract review to pre-sale agreements and rental disputes. We ensure a safe and transparent process for foreign nationals acquiring residential, land, or commercial property in Antalya.",
       de: "Wir bieten umfassende immobilienrechtliche Dienstleistungen für Ausländer, die in der Türkei Immobilien erwerben möchten — von Grundbuchverfahren und Vertragsprüfungen bis hin zu Vorverträgen und Mietstreitigkeiten. Wir sorgen für einen sicheren und transparenten Ablauf, wenn ausländische Staatsangehörige in Antalya eine Wohnung, ein Grundstück oder eine Gewerbeimmobilie erwerben.",
       ru: "Мы предоставляем комплексные юридические услуги в сфере недвижимости для иностранцев, приобретающих имущество в Турции — от оформления документов на право собственности и проверки договоров до предварительных договоров купли-продажи и споров об аренде. Мы обеспечиваем безопасный и прозрачный процесс для иностранных граждан, приобретающих жилую, земельную или коммерческую недвижимость в Анталье.",
@@ -79,7 +79,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "قانون الأسرة",
     },
     description: {
-      tr: "Uluslararası boşanma davaları, velayet ve nafaka anlaşmazlıkları, evlilik sözleşmeleri ve yabancı mahkeme kararlarının Türkiye'de tanınması konularında deneyimli aile hukuku avukatlarıyla hizmet veriyoruz. Yabancı uyruklu müvekkillerin Türk aile hukukundaki haklarını etkin biçimde koruyor ve savunuyoruz.",
+      tr: "Uluslararası boşanma davaları, velayet ve nafaka anlaşmazlıkları, evlilik sözleşmeleri ve yabancı mahkeme kararlarının Türkiye'de tanınması konularında deneyimli Aile Hukuku avukatlarıyla hizmet veriyoruz. Yabancı uyruklu müvekkillerin Türk Aile Hukukundaki haklarını etkin biçimde koruyor ve savunuyoruz.",
       en: "We represent clients in international divorce proceedings, custody and alimony disputes, marriage and prenuptial agreements, and the recognition of foreign court judgments in Turkey. Our experienced family law attorneys actively protect and defend the rights of foreign nationals under Turkish family law.",
       de: "Wir vertreten Mandanten in internationalen Scheidungsverfahren, Sorgerechts- und Unterhaltsstreitigkeiten, bei Ehe- und Eheverträgen sowie bei der Anerkennung ausländischer Gerichtsentscheidungen in der Türkei. Unsere erfahrenen Familienrechtsanwälte schützen und verteidigen die Rechte ausländischer Staatsangehöriger nach türkischem Familienrecht engagiert.",
       ru: "Мы представляем клиентов в международных бракоразводных процессах, спорах об опеке и алиментах, при заключении брачных договоров и признании иностранных судебных решений в Турции. Наши опытные адвокаты по семейному праву активно защищают права иностранных граждан в соответствии с турецким семейным законодательством.",
@@ -115,7 +115,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "قانون تقنية المعلومات والذكاء الاصطناعي",
     },
     description: {
-      tr: "Türkiye'deki KVKK (Kişisel Verilerin Korunması Kanunu) uyumu, yazılım lisans anlaşmazlıkları, veri ihlali davaları ve yapay zekâ teknolojilerinin hukuki boyutlarında danışmanlık veriyoruz. Teknoloji şirketleri ve startup'lara özel bilişim hukuku desteğiyle dijital dönüşümünüzü güvence altına alıyoruz.",
+      tr: "Türkiye'deki KVKK (Kişisel Verilerin Korunması Kanunu) uyumu, yazılım lisans anlaşmazlıkları, veri ihlali davaları ve yapay zekâ teknolojilerinin hukuki boyutlarında danışmanlık veriyoruz. Teknoloji şirketleri ve startup'lara özel Bilişim Hukuku desteğiyle dijital dönüşümünüzü güvence altına alıyoruz.",
       en: "We advise on KVKK (Turkish Personal Data Protection Law) compliance, software licensing disputes, data breach cases, and the legal aspects of artificial intelligence technologies in Turkey. With dedicated IT law support tailored to technology companies and startups, we help you secure your digital transformation.",
       de: "Wir beraten zur Einhaltung des KVKK (türkisches Datenschutzgesetz), zu Softwarelizenzstreitigkeiten, Datenschutzverletzungen und den rechtlichen Aspekten von KI-Technologien in der Türkei. Mit gezielter IT-Rechtsberatung für Technologieunternehmen und Startups begleiten wir Ihre digitale Transformation sicher.",
       ru: "Мы консультируем по вопросам соблюдения KVKK (турецкого закона о защите персональных данных), спорам по лицензированию программного обеспечения, делам об утечках данных и правовым аспектам технологий искусственного интеллекта в Турции. С профильной поддержкой в сфере IT-права для технологических компаний и стартапов мы помогаем сделать вашу цифровую трансформацию безопасной.",
@@ -133,7 +133,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "القانون التجاري وقانون الشركات",
     },
     description: {
-      tr: "Türkiye'de yabancı yatırımcıların şirket kurma süreçleri, ticari sözleşmelerin hazırlanması ve müzakeresi, ortaklık anlaşmazlıkları ve ticari davaların takibinde hukuki danışmanlık sunuyoruz. Uluslararası standartlarda ticaret hukuku hizmeti ile Türk pazarına güvenli giriş sağlıyoruz.",
+      tr: "Türkiye'de yabancı yatırımcıların şirket kurma süreçleri, ticari sözleşmelerin hazırlanması ve müzakeresi, ortaklık anlaşmazlıkları ve ticari davaların takibinde hukuki danışmanlık sunuyoruz. Uluslararası standartlarda Ticaret Hukuku hizmeti ile Türk pazarına güvenli giriş sağlıyoruz.",
       en: "We provide legal advice to foreign investors in Turkey on company formation, drafting and negotiation of commercial contracts, shareholder and partnership disputes, and commercial litigation. We support a safe entry into the Turkish market with commercial law services that meet international standards.",
       de: "Wir bieten Rechtsberatung zu Unternehmensgründungsverfahren für ausländische Investoren in der Türkei, Entwurf und Verhandlung von Handelsverträgen, Gesellschafterstreitigkeiten und Handelsprozessen. Wir ermöglichen einen sicheren Markteintritt in die Türkei mit kommerziellen Rechtsdienstleistungen nach internationalen Standards.",
       ru: "Мы предоставляем юридические консультации по процедурам регистрации компаний для иностранных инвесторов в Турции, составлению и переговорам по коммерческим контрактам, спорам между партнёрами и коммерческим судебным разбирательствам. Мы обеспечиваем безопасный выход на турецкий рынок с коммерческими юридическими услугами международного стандарта.",

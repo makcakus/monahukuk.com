@@ -1,4 +1,4 @@
-{
+﻿{
   "site": {
     "name": "MONA HUKUK",
     "tagline": "Türkiye'de yerli ve yabancı gerçek ve tüzel kişilere yönelik hukuki danışmanlık",
@@ -82,7 +82,7 @@
   },
   "practiceAreas": {
     "title": "Uygulama Alanları",
-    "lead": "Yabancı kişi ve şirketlerin Türk hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz.",
+    "lead": "Yabancı kişi ve şirketlerin Türk Hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz.",
     "comingSoon": "Uygulama alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır.",
     "backToList": "Tüm Uygulama Alanları",
     "servicesTitle": "Sunduğumuz Hizmetler",
@@ -127,7 +127,7 @@
   },
   "articles": {
     "title": "Hukuki Makaleler",
-    "lead": "Türk hukukuna dair pratik rehberler ve analizler — özellikle yabancı uyruklular ve uluslararası şirketleri ilgilendiren konularda, hukukçu olmayanlar için yazılmıştır.",
+    "lead": "Türk Hukukuna dair pratik rehberler ve analizler — özellikle yabancı uyruklular ve uluslararası şirketleri ilgilendiren konularda, hukukçu olmayanlar için yazılmıştır.",
     "empty": "Henüz makale yok. Yakında.",
     "readMore": "Makaleyi oku",
     "minRead": "dk okuma",

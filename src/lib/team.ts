@@ -1,4 +1,4 @@
-export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string };
+﻿export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string };
 
 export type Member = {
   name: string;
@@ -132,7 +132,7 @@ export const TEAM: Member[] = [
       { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي" },
     ],
     bio: {
-      tr: "Tuğba; Sağlık Hukuku, Yabancılar Hukuku, Aile Hukuku ve ceza sorumluluğu alanlarında uzmanlaşmakta, yabancı müvekkillerin Türk hukuki süreçlerinde yol almalarına destek olmaktadır.",
+      tr: "Tuğba; Sağlık Hukuku, Yabancılar Hukuku, Aile Hukuku ve ceza sorumluluğu alanlarında uzmanlaşmakta, yabancı müvekkillerin Türk Hukuki süreçlerinde yol almalarına destek olmaktadır.",
       en: "Tuğba is actively developing her expertise across Health Law, Immigration Law, Family Law, and criminal liability matters, providing support to foreign clients navigating Turkish legal processes.",
       de: "Tuğba entwickelt aktiv ihre Expertise in den Bereichen Gesundheitsrecht, Einwanderungsrecht, Familienrecht und strafrechtliche Haftung und unterstützt ausländische Mandanten bei der Orientierung im türkischen Rechtssystem.",
       ru: "Тугба активно развивает свою экспертизу в области медицинского права, иммиграционного права, семейного права и уголовной ответственности, оказывая поддержку иностранным клиентам в навигации по турецким правовым процессам.",
