@@ -2,7 +2,7 @@
 
 import { useActionState } from "react";
 import { useTranslations } from "next-intl";
-import { Mail, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
 export function NewsletterBanner() {
@@ -23,20 +23,16 @@ export function NewsletterBanner() {
   }
 
   return (
-    <div className="my-10 rounded-2xl bg-navy-950 dark:bg-navy-900 px-8 py-8">
+    <div className="my-10 rounded-2xl bg-navy-800 px-8 py-8">
       <div className="mx-auto max-w-lg">
-        {/* Header */}
-        <div className="flex items-center gap-3 mb-5">
-          <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gold-500/20 text-gold-400">
-            <Mail size={20} />
-          </span>
-          <div>
-            <p className="text-xs uppercase tracking-[0.18em] text-gold-400">{t("kicker")}</p>
-            <h2 className="font-display text-xl text-cream-50 leading-snug">{t("title")}</h2>
-          </div>
-        </div>
+        <p className="text-sm font-semibold uppercase tracking-[0.14em] text-orange-400 mb-1">
+          {t("kicker")}
+        </p>
+        <h2 className="font-display text-2xl text-orange-400 leading-snug mb-3">
+          {t("title")}
+        </h2>
 
-        <p className="text-sm text-cream-300 mb-6 leading-relaxed">{t("body")}</p>
+        <p className="text-sm text-white mb-6 leading-relaxed">{t("body")}</p>
 
         <form action={formAction} className="space-y-3">
           <div className="flex flex-col sm:flex-row gap-2">
@@ -46,12 +42,12 @@ export function NewsletterBanner() {
               required
               autoComplete="email"
               placeholder={t("placeholder")}
-              className="flex-1 rounded-lg border border-navy-700 bg-navy-800 px-4 py-2.5 text-sm text-cream-50 placeholder:text-cream-500 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:border-transparent transition"
+              className="flex-1 rounded-lg border border-navy-600 bg-navy-700 px-4 py-2.5 text-sm text-white placeholder:text-navy-300 focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent transition"
             />
             <button
               type="submit"
               disabled={isPending}
-              className="shrink-0 rounded-lg bg-gold-600 px-6 py-2.5 text-sm font-medium text-white hover:bg-gold-500 disabled:opacity-60 transition-colors"
+              className="shrink-0 rounded-lg bg-orange-500 px-6 py-2.5 text-sm font-medium text-white hover:bg-orange-400 disabled:opacity-60 transition-colors"
             >
               {isPending ? t("submitting") : t("button")}
             </button>
@@ -62,9 +58,9 @@ export function NewsletterBanner() {
               type="checkbox"
               name="consent"
               required
-              className="mt-0.5 shrink-0 accent-gold-500"
+              className="mt-0.5 shrink-0 accent-orange-400"
             />
-            <span className="text-xs text-cream-400 leading-relaxed">{t("consent")}</span>
+            <span className="text-xs text-white/70 leading-relaxed">{t("consent")}</span>
           </label>
 
           {state && !state.success && (
