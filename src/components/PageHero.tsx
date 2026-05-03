@@ -13,7 +13,7 @@ export function PageHero({
 }) {
   return (
     <section className="border-b border-cream-200 dark:border-navy-800">
-      <div className="mx-auto max-w-6xl px-6 pt-10 pb-8 md:pt-12 md:pb-10">
+      <div className="mx-auto max-w-6xl px-6 pt-5 pb-4 md:pt-6 md:pb-5">
         {kicker && (
           <p className="text-xs uppercase tracking-[0.25em] text-gold-700 dark:text-gold-400 mb-5">
             {kicker}
