@@ -3,23 +3,27 @@ import { ImageResponse } from "next/og";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
-async function loadTinos(text: string): Promise<ArrayBuffer> {
-  const cssUrl = `https://fonts.googleapis.com/css2?family=Tinos:wght@700&text=${encodeURIComponent(
-    text
-  )}`;
-  const css = await fetch(cssUrl, {
-    headers: { "User-Agent": "Mozilla/5.0" },
-  }).then((r) => r.text());
-
-  const match = css.match(/src:\s*url\((.+?)\)\s*format\('truetype'\)/);
-  if (!match) throw new Error("Tinos font URL not found in CSS response");
-
-  const fontResponse = await fetch(match[1]);
-  return await fontResponse.arrayBuffer();
+async function loadTinos(text: string): Promise<ArrayBuffer | null> {
+  try {
+    const cssUrl = `https://fonts.googleapis.com/css2?family=Tinos:wght@700&text=${encodeURIComponent(text)}`;
+    const css = await fetch(cssUrl, { headers: { "User-Agent": "Mozilla/5.0" } }).then((r) => r.text());
+    const match = css.match(/src:\s*url\((.+?)\)\s*format\('truetype'\)/);
+    if (!match) return null;
+    return await fetch(match[1]).then((r) => r.arrayBuffer());
+  } catch {
+    return null;
+  }
 }
 
 export default async function AppleIcon() {
   const fontData = await loadTinos("MHANTLY");
+
+  const options: ConstructorParameters<typeof ImageResponse>[1] = { ...size };
+  if (fontData) {
+    options.fonts = [{ name: "Tinos", data: fontData, weight: 700, style: "normal" }];
+  }
+
+  const fontFamily = fontData ? "Tinos" : "Georgia, serif";
 
   return new ImageResponse(
     (
@@ -33,18 +37,11 @@ export default async function AppleIcon() {
           alignItems: "center",
           justifyContent: "center",
           color: "#d4a045",
-          fontFamily: "Tinos",
+          fontFamily,
           letterSpacing: "-0.01em",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            fontSize: 72,
-            fontWeight: 700,
-            lineHeight: 1,
-          }}
-        >
+        <div style={{ display: "flex", fontSize: 72, fontWeight: 700, lineHeight: 1 }}>
           MH
         </div>
         <div
@@ -62,16 +59,6 @@ export default async function AppleIcon() {
         </div>
       </div>
     ),
-    {
-      ...size,
-      fonts: [
-        {
-          name: "Tinos",
-          data: fontData,
-          weight: 700,
-          style: "normal",
-        },
-      ],
-    }
+    options
   );
 }
