@@ -1,4 +1,4 @@
-﻿export const SITE = {
+export const SITE = {
   url: "https://monahukuk.com",
   name: "MONA HUKUK",
   legalName: "MONA HUKUK Bürosu",

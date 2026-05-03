@@ -1,4 +1,4 @@
-﻿import { Scale, Home, Globe, Users, ShieldAlert, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
+import { Scale, Home, Globe, Users, ShieldAlert, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
 
 export type LangMap5 = { tr: string; en: string; de: string; ru: string; ar: string };
 

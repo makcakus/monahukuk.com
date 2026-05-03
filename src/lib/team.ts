@@ -1,4 +1,4 @@
-﻿export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string };
+export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string };
 
 export type Member = {
   name: string;

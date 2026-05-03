@@ -1,4 +1,4 @@
-﻿import type { LangMap5 } from "./practice-areas";
+import type { LangMap5 } from "./practice-areas";
 
 export type LangList5 = {
   tr: string[];
