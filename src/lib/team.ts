@@ -7,6 +7,8 @@ export type Member = {
   bar: string;
   areas: LangMap[];
   bio: LangMap;
+  /** Schema.org Person.sameAs — barosu profili, LinkedIn, vs. */
+  sameAs?: string[];
 };
 
 export function pick(map: LangMap, locale: string): string {

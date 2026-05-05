@@ -1,50 +1,133 @@
 "use server";
 
+import { headers } from "next/headers";
+import { getSupabaseAdmin } from "@/lib/supabase";
+import { generateToken, expiryFromNow } from "@/lib/token";
+import { sendVerifyEmail } from "@/lib/mail";
+
+export type NewsletterStatus =
+  | "idle"
+  | "pending"
+  | "alreadyConfirmed"
+  | "resent"
+  | "error";
+
 export type NewsletterState = {
-  success: boolean;
+  status: NewsletterStatus;
   errorKey: string;
 } | null;
+
+const SUPPORTED_LOCALES = ["tr", "en", "de", "ru", "ar"] as const;
+type Locale = (typeof SUPPORTED_LOCALES)[number];
+
+function normalizeLocale(value: string | undefined): Locale {
+  return SUPPORTED_LOCALES.includes(value as Locale) ? (value as Locale) : "tr";
+}
+
+async function getClientIp(): Promise<string | null> {
+  const h = await headers();
+  const fwd = h.get("x-forwarded-for");
+  if (fwd) return fwd.split(",")[0]?.trim() || null;
+  return h.get("x-real-ip");
+}
 
 export async function subscribeToNewsletter(
   _prev: NewsletterState,
   formData: FormData
-): Promise<{ success: boolean; errorKey: string }> {
-  const email = formData.get("email")?.toString().trim() ?? "";
+): Promise<NewsletterState> {
+  const email = formData.get("email")?.toString().trim().toLowerCase() ?? "";
+  const consent = formData.get("consent");
+  const locale = normalizeLocale(formData.get("locale")?.toString());
 
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-    return { success: false, errorKey: "invalidEmail" };
+    return { status: "error", errorKey: "invalidEmail" };
+  }
+  if (!consent) {
+    return { status: "error", errorKey: "consentRequired" };
   }
 
-  const apiKey = process.env.RESEND_API_KEY;
-  const audienceId = process.env.RESEND_AUDIENCE_ID;
-
-  if (!apiKey || !audienceId) {
-    // Not configured yet — log and treat as success so the form still works in dev
-    console.log(`[Newsletter] New subscriber (Resend not configured): ${email}`);
-    return { success: true, errorKey: "" };
+  const supabase = getSupabaseAdmin();
+  if (!supabase) {
+    console.warn("[Newsletter] Supabase not configured.");
+    return { status: "error", errorKey: "serverError" };
   }
 
-  try {
-    const res = await fetch(
-      `https://api.resend.com/audiences/${audienceId}/contacts`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, unsubscribed: false }),
-      }
-    );
+  const ip = await getClientIp();
+  const h = await headers();
+  const userAgent = h.get("user-agent");
 
-    if (!res.ok) {
-      console.error("[Newsletter] Resend error:", await res.text());
-      return { success: false, errorKey: "serverError" };
+  const { data: existing, error: selectErr } = await supabase
+    .from("newsletter_subscribers")
+    .select("id, status, confirmation_token, unsubscribe_token, language")
+    .eq("email", email)
+    .in("status", ["pending", "confirmed"])
+    .maybeSingle();
+
+  if (selectErr) {
+    console.error("[Newsletter] Select error:", selectErr);
+    return { status: "error", errorKey: "serverError" };
+  }
+
+  if (existing?.status === "confirmed") {
+    return { status: "alreadyConfirmed", errorKey: "" };
+  }
+
+  let confirmationToken: string;
+  let unsubscribeToken: string;
+
+  if (existing?.status === "pending") {
+    confirmationToken = generateToken();
+    const { error: updErr } = await supabase
+      .from("newsletter_subscribers")
+      .update({
+        confirmation_token: confirmationToken,
+        token_expires_at: expiryFromNow().toISOString(),
+        language: locale,
+        ip_address: ip,
+        user_agent: userAgent,
+        consent_timestamp: new Date().toISOString(),
+      })
+      .eq("id", existing.id);
+    if (updErr) {
+      console.error("[Newsletter] Update error:", updErr);
+      return { status: "error", errorKey: "serverError" };
     }
-
-    return { success: true, errorKey: "" };
-  } catch (err) {
-    console.error("[Newsletter] Network error:", err);
-    return { success: false, errorKey: "serverError" };
+    unsubscribeToken = existing.unsubscribe_token;
+  } else {
+    confirmationToken = generateToken();
+    unsubscribeToken = generateToken();
+    const { error: insErr } = await supabase
+      .from("newsletter_subscribers")
+      .insert({
+        email,
+        language: locale,
+        status: "pending",
+        consent_timestamp: new Date().toISOString(),
+        ip_address: ip,
+        user_agent: userAgent,
+        confirmation_token: confirmationToken,
+        unsubscribe_token: unsubscribeToken,
+        token_expires_at: expiryFromNow().toISOString(),
+      });
+    if (insErr) {
+      console.error("[Newsletter] Insert error:", insErr);
+      return { status: "error", errorKey: "serverError" };
+    }
   }
+
+  const mail = await sendVerifyEmail({
+    to: email,
+    locale,
+    confirmationToken,
+    unsubscribeToken,
+  });
+
+  if (!mail.ok) {
+    return { status: "error", errorKey: "serverError" };
+  }
+
+  return {
+    status: existing?.status === "pending" ? "resent" : "pending",
+    errorKey: "",
+  };
 }

@@ -54,7 +54,7 @@ export async function generateMetadata({
     category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", "x-default": "/tr" },
+      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", "x-default": "/en" },
     },
     openGraph: {
       type: "website",

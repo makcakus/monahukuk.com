@@ -77,6 +77,9 @@
       }
     },
     "areasIntro": "Türk Hukukunun temel dallarında müvekkillerimize hizmet veriyoruz:",
+    "founderTitle": "Kurucu Ortak",
+    "founderLead": "Hukuki Makalelerin imza yazarı; site içeriğinin mesleki sorumluluğu kendisine aittir.",
+    "founderViewProfile": "Tam profili görüntüle",
     "ctaTitle": "Hukuki danışmanlık talep edin",
     "ctaBody": "Görüştüğümüz her dosyada koşulları birlikte değerlendirir, sonraki adımı netleştiririz."
   },
@@ -119,12 +122,29 @@
     "body": "Resmî Gazete duyuruları, yargı kararları ve önemli mevzuat değişikliklerini haftalık özetle doğrudan e-posta kutunuza gönderiyoruz. Hukuki E-Bülten hizmetimiz tamamen ücretsizdir.",
     "placeholder": "E-posta adresiniz",
     "button": "Abone ol",
-    "submitting": "Kaydediliyor…",
-    "successTitle": "Kaydınız alındı",
-    "successBody": "Bültenimize başarıyla abone oldunuz. İlk sayıyı en kısa sürede gönderiyoruz.",
+    "submitting": "Gönderiliyor…",
+    "pendingTitle": "Doğrulama maili gönderildi",
+    "resentTitle": "Doğrulama maili tekrar gönderildi",
+    "pendingBody": "E-posta kutunuzu kontrol edin ve aboneliğinizi tamamlamak için iletideki bağlantıya tıklayın. Bağlantı 48 saat geçerlidir.",
+    "alreadyTitle": "Zaten abonesiniz",
+    "alreadyBody": "Bu e-posta adresi bültenimize halihazırda kayıtlı. Her iletinin altındaki bağlantıyla aboneliği iptal edebilirsiniz.",
     "consent": "E-bülten almak amacıyla e-posta adresimin işlenmesine KVKK kapsamında açık rızamla onay veriyorum. Her iletide yer alan bağlantıyla aboneliğimi kolayca iptal edebilirim.",
+    "consentRequired": "Devam etmek için KVKK rıza onayını işaretleyin.",
     "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
-    "serverError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+    "serverError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "noscriptNotice": "Form çalışıyor; gönderdikten sonra e-posta kutunuza onay bağlantısı geleceğini unutmayın."
+  },
+  "newsletterPages": {
+    "confirmedTitle": "Aboneliğiniz onaylandı",
+    "confirmedBody": "Mona Hukuk haftalık hukuk bültenine başarıyla abone oldunuz. İlk sayı çıkar çıkmaz size ulaştırılacak.",
+    "unsubscribedTitle": "Aboneliğiniz iptal edildi",
+    "unsubscribedBody": "E-posta adresiniz bülten listesinden çıkarıldı. Talebiniz aynı anda Resend listemizden de düşürüldü.",
+    "expiredTitle": "Bağlantının süresi dolmuş",
+    "expiredBody": "Onay bağlantısı 48 saatlik geçerlilik süresini aşmış. Lütfen forma yeniden e-posta adresinizi girin; size yeni bir doğrulama maili gönderelim.",
+    "invalidTitle": "Bağlantı geçersiz",
+    "invalidBody": "Bu bağlantı tanınmıyor ya da daha önce kullanıldı. Sorun devam ederse info@monahukuk.com adresine yazabilirsiniz.",
+    "backToNews": "Hukuki Haberlere dön",
+    "backToHome": "Ana sayfaya dön"
   },
   "articles": {
     "title": "Hukuki Makaleler",
@@ -137,6 +157,9 @@
     "articleOne": "makale",
     "articleMany": "makale",
     "relatedSuffix": "ile İlgili Makaleler",
+    "authorLabel": "Yazar:",
+    "barAssociation": "Antalya Barosu",
+    "relatedTitle": "İlgili Makaleler",
     "viewPracticeArea": "Bu uygulama alanını incele",
     "searchPlaceholder": "Makale ara — başlık ve içerikte",
     "searchClear": "Aramayı temizle",
@@ -255,7 +278,10 @@
   },
   "footer": {
     "rights": "Tüm hakları saklıdır.",
-    "disclaimer": "Bu site yalnızca genel bilgi amaçlıdır ve hukuki tavsiye niteliği taşımaz."
+    "disclaimer": "Bu site yalnızca genel bilgi amaçlıdır ve hukuki tavsiye niteliği taşımaz.",
+    "newsletterHeading": "Haftalık Hukuk Bülteni",
+    "newsletterCta": "Abone ol",
+    "siteMap": "Site Haritası"
   },
   "cookies": {
     "title": "Çerez Kullanımı (KVKK)",

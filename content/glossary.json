@@ -1,0 +1,272 @@
+{
+  "$comment": "Hukuki terim sözlüğü — TR/EN/DE/RU/AR. Çeviri tutarlılığı için kullanılır. Yeni terim eklerken: anahtar snake_case, tüm 5 dil dolu olmalı.",
+  "$schema": {
+    "key": "snake_case_anahtar",
+    "tr": "Türkçe (resmî terim)",
+    "en": "English (official equivalent)",
+    "de": "Deutsch",
+    "ru": "Русский",
+    "ar": "العربية"
+  },
+  "terms": {
+    "ikamet_izni": {
+      "tr": "ikamet izni",
+      "en": "residence permit",
+      "de": "Aufenthaltserlaubnis",
+      "ru": "вид на жительство",
+      "ar": "تصريح إقامة"
+    },
+    "kisa_donem_ikamet": {
+      "tr": "kısa dönem ikamet izni",
+      "en": "short-term residence permit",
+      "de": "kurzfristige Aufenthaltserlaubnis",
+      "ru": "краткосрочный вид на жительство",
+      "ar": "تصريح إقامة قصير الأمد"
+    },
+    "uzun_donem_ikamet": {
+      "tr": "uzun dönem ikamet izni",
+      "en": "long-term residence permit",
+      "de": "langfristige Aufenthaltserlaubnis",
+      "ru": "долгосрочный вид на жительство",
+      "ar": "تصريح إقامة طويل الأمد"
+    },
+    "aile_ikamet": {
+      "tr": "aile ikamet izni",
+      "en": "family residence permit",
+      "de": "Familienaufenthaltserlaubnis",
+      "ru": "вид на жительство по воссоединению семьи",
+      "ar": "تصريح إقامة عائلية"
+    },
+    "calisma_izni": {
+      "tr": "çalışma izni",
+      "en": "work permit",
+      "de": "Arbeitserlaubnis",
+      "ru": "разрешение на работу",
+      "ar": "تصريح عمل"
+    },
+    "tahdit_kodu": {
+      "tr": "tahdit kodu",
+      "en": "entry ban code",
+      "de": "Einreiseverbots­code",
+      "ru": "код запрета на въезд",
+      "ar": "رمز حظر الدخول"
+    },
+    "sinir_disi_etme": {
+      "tr": "sınır dışı etme kararı",
+      "en": "deportation order",
+      "de": "Abschiebungsanordnung",
+      "ru": "решение о выдворении",
+      "ar": "قرار الترحيل"
+    },
+    "vatandaslik": {
+      "tr": "Türk vatandaşlığı",
+      "en": "Turkish citizenship",
+      "de": "türkische Staatsbürgerschaft",
+      "ru": "гражданство Турции",
+      "ar": "الجنسية التركية"
+    },
+    "vatandaslik_yatirim": {
+      "tr": "yatırım yoluyla vatandaşlık",
+      "en": "citizenship by investment",
+      "de": "Staatsbürgerschaft durch Investition",
+      "ru": "гражданство через инвестиции",
+      "ar": "الجنسية عن طريق الاستثمار"
+    },
+    "tapu": {
+      "tr": "tapu",
+      "en": "title deed",
+      "de": "Grundbucheintrag",
+      "ru": "свидетельство о праве собственности (тапу)",
+      "ar": "سند الملكية (الطابو)"
+    },
+    "tapu_dairesi": {
+      "tr": "Tapu ve Kadastro Müdürlüğü",
+      "en": "Land Registry Directorate",
+      "de": "Grundbuchamt",
+      "ru": "Управление по землеустройству и кадастру",
+      "ar": "مديرية السجل العقاري والمساحة"
+    },
+    "kira_sozlesmesi": {
+      "tr": "kira sözleşmesi",
+      "en": "lease agreement",
+      "de": "Mietvertrag",
+      "ru": "договор аренды",
+      "ar": "عقد الإيجار"
+    },
+    "satis_vaadi": {
+      "tr": "satış vaadi sözleşmesi",
+      "en": "promise-to-sell agreement",
+      "de": "Vorvertrag zum Verkauf",
+      "ru": "предварительный договор купли-продажи",
+      "ar": "عقد وعد بالبيع"
+    },
+    "anonim_sirket": {
+      "tr": "anonim şirket (A.Ş.)",
+      "en": "joint-stock company",
+      "de": "Aktiengesellschaft",
+      "ru": "акционерное общество",
+      "ar": "شركة مساهمة"
+    },
+    "limited_sirket": {
+      "tr": "limited şirket (Ltd. Şti.)",
+      "en": "limited liability company",
+      "de": "Gesellschaft mit beschränkter Haftung",
+      "ru": "общество с ограниченной ответственностью",
+      "ar": "شركة ذات مسؤولية محدودة"
+    },
+    "vergi_numarasi": {
+      "tr": "vergi numarası",
+      "en": "tax identification number",
+      "de": "Steuernummer",
+      "ru": "налоговый номер",
+      "ar": "الرقم الضريبي"
+    },
+    "kdv": {
+      "tr": "katma değer vergisi (KDV)",
+      "en": "value added tax (VAT)",
+      "de": "Mehrwertsteuer (MwSt.)",
+      "ru": "налог на добавленную стоимость (НДС)",
+      "ar": "ضريبة القيمة المضافة"
+    },
+    "noter": {
+      "tr": "noter",
+      "en": "notary public",
+      "de": "Notar",
+      "ru": "нотариус",
+      "ar": "كاتب العدل"
+    },
+    "vekaletname": {
+      "tr": "vekâletname",
+      "en": "power of attorney",
+      "de": "Vollmacht",
+      "ru": "доверенность",
+      "ar": "وكالة قانونية"
+    },
+    "bosanma": {
+      "tr": "boşanma",
+      "en": "divorce",
+      "de": "Scheidung",
+      "ru": "развод",
+      "ar": "الطلاق"
+    },
+    "anlasmali_bosanma": {
+      "tr": "anlaşmalı boşanma",
+      "en": "uncontested divorce",
+      "de": "einvernehmliche Scheidung",
+      "ru": "развод по обоюдному согласию",
+      "ar": "الطلاق بالتراضي"
+    },
+    "nafaka": {
+      "tr": "nafaka",
+      "en": "alimony",
+      "de": "Unterhalt",
+      "ru": "алименты",
+      "ar": "النفقة"
+    },
+    "velayet": {
+      "tr": "velayet",
+      "en": "child custody",
+      "de": "Sorgerecht",
+      "ru": "опека над ребёнком",
+      "ar": "الحضانة"
+    },
+    "miras": {
+      "tr": "miras",
+      "en": "inheritance",
+      "de": "Erbschaft",
+      "ru": "наследство",
+      "ar": "الميراث"
+    },
+    "vasiyet": {
+      "tr": "vasiyetname",
+      "en": "will (testament)",
+      "de": "Testament",
+      "ru": "завещание",
+      "ar": "وصية"
+    },
+    "idare_mahkemesi": {
+      "tr": "idare mahkemesi",
+      "en": "administrative court",
+      "de": "Verwaltungsgericht",
+      "ru": "административный суд",
+      "ar": "المحكمة الإدارية"
+    },
+    "asliye_hukuk": {
+      "tr": "asliye hukuk mahkemesi",
+      "en": "civil court of first instance",
+      "de": "Zivilgericht erster Instanz",
+      "ru": "гражданский суд первой инстанции",
+      "ar": "محكمة الصلح الحقوقية"
+    },
+    "yargitay": {
+      "tr": "Yargıtay",
+      "en": "Court of Cassation",
+      "de": "Kassationshof",
+      "ru": "Кассационный суд",
+      "ar": "محكمة التمييز"
+    },
+    "danistay": {
+      "tr": "Danıştay",
+      "en": "Council of State",
+      "de": "Staatsrat",
+      "ru": "Государственный совет",
+      "ar": "مجلس الدولة"
+    },
+    "anayasa_mahkemesi": {
+      "tr": "Anayasa Mahkemesi",
+      "en": "Constitutional Court",
+      "de": "Verfassungsgericht",
+      "ru": "Конституционный суд",
+      "ar": "المحكمة الدستورية"
+    },
+    "tebligat": {
+      "tr": "tebligat",
+      "en": "service of process",
+      "de": "Zustellung",
+      "ru": "судебное уведомление",
+      "ar": "التبليغ القضائي"
+    },
+    "ihtiyati_tedbir": {
+      "tr": "ihtiyati tedbir",
+      "en": "preliminary injunction",
+      "de": "einstweilige Verfügung",
+      "ru": "обеспечительная мера",
+      "ar": "تدبير احترازي"
+    },
+    "icra_takibi": {
+      "tr": "icra takibi",
+      "en": "enforcement proceeding",
+      "de": "Vollstreckungsverfahren",
+      "ru": "исполнительное производство",
+      "ar": "إجراء التنفيذ"
+    },
+    "kvkk": {
+      "tr": "Kişisel Verilerin Korunması Kanunu (KVKK)",
+      "en": "Turkish Personal Data Protection Law (KVKK)",
+      "de": "türkisches Datenschutzgesetz (KVKK)",
+      "ru": "Закон Турции о защите персональных данных (KVKK)",
+      "ar": "قانون حماية البيانات الشخصية التركي (KVKK)"
+    },
+    "veri_sorumlusu": {
+      "tr": "veri sorumlusu",
+      "en": "data controller",
+      "de": "Verantwortlicher",
+      "ru": "оператор персональных данных",
+      "ar": "المسؤول عن البيانات"
+    },
+    "resmi_gazete": {
+      "tr": "Resmî Gazete",
+      "en": "Official Gazette",
+      "de": "Amtsblatt",
+      "ru": "Официальная газета",
+      "ar": "الجريدة الرسمية"
+    },
+    "baro": {
+      "tr": "baro",
+      "en": "bar association",
+      "de": "Rechtsanwaltskammer",
+      "ru": "коллегия адвокатов",
+      "ar": "نقابة المحامين"
+    }
+  }
+}

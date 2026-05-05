@@ -11,7 +11,7 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
-const REQUIRED = ["title", "description", "date", "slug"];
+const REQUIRED = ["title", "description", "date", "slug", "author"];
 const LOCALES = ["tr", "en", "de", "ru", "ar"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 
@@ -44,11 +44,11 @@ for (const locale of LOCALES) {
       continue;
     }
 
-    // 2. Required fields check
+    // 2. Required fields check (eksik alan = ERROR; build fail)
     const missing = REQUIRED.filter((k) => !data[k]);
     if (missing.length) {
-      console.warn(`⚠️  EKSİK ALAN  [${locale}/${file}]  →  ${missing.join(", ")}`);
-      warnings++;
+      console.error(`❌ EKSİK ALAN  [${locale}/${file}]  →  ${missing.join(", ")}`);
+      errors++;
     }
 
     // 3. Unquoted colon-in-value check (warn before it breaks)

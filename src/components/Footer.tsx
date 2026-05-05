@@ -1,12 +1,15 @@
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { ArrowRight } from "lucide-react";
 
 export function Footer() {
   const t = useTranslations("nav");
   const tSite = useTranslations("site");
   const tFooter = useTranslations("footer");
   const tContact = useTranslations("contact");
+  const locale = useLocale();
   const year = new Date().getFullYear();
+  const showLegalNews = locale === "tr" || locale === "en";
 
   return (
     <footer className="mt-24 border-t border-cream-200 bg-navy-950 text-cream-100">
@@ -20,14 +23,18 @@ export function Footer() {
 
         <div className="min-w-0">
           <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3 h-[1rem] truncate">
-            {t("home")}
+            {tFooter("siteMap")}
           </p>
           <ul className="space-y-2 text-sm">
             <li><Link href="/about" className="hover:text-gold-300 block truncate max-w-full">{t("about")}</Link></li>
-            <li><Link href="/practice-areas" className="hover:text-gold-300 block truncate max-w-full">{t("practiceAreas")}</Link></li>
             <li><Link href="/team" className="hover:text-gold-300 block truncate max-w-full">{t("team")}</Link></li>
+            <li><Link href="/practice-areas" className="hover:text-gold-300 block truncate max-w-full">{t("practiceAreas")}</Link></li>
             <li><Link href="/articles" className="hover:text-gold-300 block truncate max-w-full">{t("articles")}</Link></li>
+            {showLegalNews && (
+              <li><Link href="/legal-news" className="hover:text-gold-300 block truncate max-w-full">{t("legalNews")}</Link></li>
+            )}
             <li><Link href="/contact" className="hover:text-gold-300 block truncate max-w-full">{t("contact")}</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-gold-300 block truncate max-w-full">{t("privacy")}</Link></li>
           </ul>
         </div>
 
@@ -48,6 +55,17 @@ export function Footer() {
               </a>
             </li>
           </ul>
+
+          <p className="mt-6 text-xs uppercase tracking-[0.2em] text-gold-400 mb-2">
+            {tFooter("newsletterHeading")}
+          </p>
+          <Link
+            href="/#newsletter"
+            className="inline-flex items-center gap-1 text-sm text-cream-100 hover:text-gold-300 transition-colors"
+          >
+            {tFooter("newsletterCta")}
+            <ArrowRight size={14} className="rtl:rotate-180" />
+          </Link>
         </div>
       </div>
 

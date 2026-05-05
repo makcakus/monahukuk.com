@@ -10,12 +10,18 @@ export interface ArticleFrontmatter {
   date: string;
   category?: string;
   slug: string;
+  author?: string;
+  /** Manuel iç link override'ı; doluysa kategori-tabanlı öneri yerine kullanılır. */
+  relatedSlugs?: string[];
   draft?: boolean;
 }
+
+export const DEFAULT_AUTHOR = "Av. Mustafa Akcakuş";
 
 export interface Article extends ArticleFrontmatter {
   body: string;
   readingMinutes: number;
+  wordCount: number;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "articles");
@@ -55,9 +61,12 @@ export async function getArticle(
         date: fm.date ?? new Date().toISOString().slice(0, 10),
         category: fm.category,
         slug,
+        author: fm.author ?? DEFAULT_AUTHOR,
+        relatedSlugs: Array.isArray(fm.relatedSlugs) ? fm.relatedSlugs : undefined,
         draft: fm.draft ?? false,
         body: content,
         readingMinutes: Math.max(1, Math.round(stats.minutes)),
+        wordCount: stats.words,
       };
     } catch {
       continue;
@@ -72,6 +81,49 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
   return articles
     .filter((a): a is Article => a !== null && !a.draft)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+/**
+ * İlgili makale önerisi.
+ *
+ * Öncelik sırası:
+ *   1. Frontmatter'daki manuel `relatedSlugs` (geçerli olan slug'lar)
+ *   2. Aynı kategorideki diğer makaleler (en son tarihten geriye)
+ *   3. Genel havuzdan en son makaleler (kategori boş veya yetersiz tek)
+ *
+ * Mevcut makale her zaman elenir.
+ */
+export async function getRelatedArticles(
+  locale: string,
+  current: { slug: string; category?: string; relatedSlugs?: string[] },
+  limit = 3
+): Promise<Article[]> {
+  const all = await getAllArticles(locale);
+  const bySlug = new Map(all.map((a) => [a.slug, a]));
+
+  // 1) Manuel override
+  if (current.relatedSlugs && current.relatedSlugs.length) {
+    const picked = current.relatedSlugs
+      .filter((s) => s !== current.slug)
+      .map((s) => bySlug.get(s))
+      .filter((a): a is Article => Boolean(a));
+    if (picked.length >= 1) return picked.slice(0, limit);
+  }
+
+  // 2) Aynı kategori
+  const sameCategory = current.category
+    ? all.filter(
+        (a) => a.slug !== current.slug && a.category === current.category
+      )
+    : [];
+
+  if (sameCategory.length >= limit) return sameCategory.slice(0, limit);
+
+  // 3) Kategori yetersizse en yenilerle tamamla
+  const fillers = all.filter(
+    (a) => a.slug !== current.slug && !sameCategory.some((s) => s.slug === a.slug)
+  );
+  return [...sameCategory, ...fillers].slice(0, limit);
 }
 
 const FAQ_SKIP = /mona hukuk|как .* может помочь|how .* can help|kontaktieren|お問い合わせ|iletişim|تواصل|связаться/i;

@@ -11,6 +11,14 @@ interface PageMetaInput {
   type?: "website" | "article";
   publishedTime?: string;
   extraKeywords?: string[];
+  noindex?: boolean;
+  /**
+   * Bu içeriğin gerçekten var olduğu diller.
+   * Verilmezse routing.locales (tüm diller) kabul edilir.
+   * Verildiğinde, hreflang yalnızca listedeki diller için üretilir → 404'e işaret eden
+   * alternate önlenir. Article gibi her dilde versiyonu olmayan içerikler için kullan.
+   */
+  availableLocales?: readonly string[];
 }
 
 export function pageMetadata({
@@ -22,15 +30,31 @@ export function pageMetadata({
   type = "website",
   publishedTime,
   extraKeywords = [],
+  noindex = false,
+  availableLocales,
 }: PageMetaInput): Metadata {
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   const canonical = `${SITE.url}/${locale}${cleanPath === "/" ? "" : cleanPath}`;
 
+  const allowed: readonly string[] =
+    availableLocales && availableLocales.length
+      ? availableLocales
+      : routing.locales;
+
   const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
+  for (const l of allowed) {
     languages[l] = `${SITE.url}/${l}${cleanPath === "/" ? "" : cleanPath}`;
   }
-  languages["x-default"] = `${SITE.url}/tr${cleanPath === "/" ? "" : cleanPath}`;
+
+  // x-default sırası: en > tr > listedeki ilk dil
+  const xDefaultLocale = allowed.includes("en")
+    ? "en"
+    : allowed.includes("tr")
+      ? "tr"
+      : allowed[0];
+  if (xDefaultLocale) {
+    languages["x-default"] = `${SITE.url}/${xDefaultLocale}${cleanPath === "/" ? "" : cleanPath}`;
+  }
 
   const baseKw = KEYWORDS[locale] ?? KEYWORDS["tr"];
   const keywords = [...extraKeywords, ...baseKw];
@@ -59,6 +83,8 @@ export function pageMetadata({
       description,
       images: [image],
     },
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    robots: noindex
+      ? { index: false, follow: false, googleBot: { index: false, follow: false } }
+      : { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
