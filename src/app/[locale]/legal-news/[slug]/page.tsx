@@ -66,7 +66,7 @@ export default async function GazettePostPage({
       </Link>
 
       <p className="text-xs uppercase tracking-[0.2em] text-gold-700 dark:text-gold-400 mb-3">
-        Resmî Gazete
+        {t("eyebrow")}
       </p>
 
       <h1 className="font-display text-3xl md:text-5xl text-navy-950 dark:text-cream-50 leading-tight tracking-tight">
