@@ -95,6 +95,8 @@ h1, h2, h3, h4, .font-display {
 .prose-legal p {
   margin-bottom: 1.1rem;
   color: var(--prose-body);
+  text-align: justify;
+  hyphens: auto;
 }
 .prose-legal a {
   color: var(--prose-link);
