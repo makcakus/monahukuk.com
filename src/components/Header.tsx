@@ -20,15 +20,10 @@ type NavItem = NavLeaf | NavGroup;
 
 const NAV_ITEMS: readonly NavItem[] = [
   { type: "link", href: "/", key: "home" },
-  {
-    type: "group",
-    key: "about",
-    matchPrefixes: ["/about", "/team"],
-    items: [
-      { href: "/about", key: "about" },
-      { href: "/team", key: "team" },
-    ],
-  },
+  // Görev 9: "Hakkımızda" ve "Ekibimiz" iki ayrı top-level link;
+  // dropdown yok → "Ekibimiz" başlık olarak her zaman görünür.
+  { type: "link", href: "/about", key: "about" },
+  { type: "link", href: "/team", key: "team" },
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
   { type: "link", href: "/legal-news", key: "legalNews", locales: ["tr", "en"] as const },
