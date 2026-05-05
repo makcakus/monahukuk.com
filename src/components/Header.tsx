@@ -223,7 +223,7 @@ export function Header() {
               );
             })}
             <div className="pt-3 border-t border-cream-200 dark:border-navy-800 flex items-center justify-between">
-              <LangSwitcher />
+              <LangSwitcher align="start" />
               <ThemeToggle />
             </div>
           </nav>

@@ -16,7 +16,7 @@ const LANG_LABELS: Record<string, string> = {
 
 const LOCALES = ["tr", "en", "de", "ru", "ar"] as const;
 
-export function LangSwitcher() {
+export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}) {
   const router = useRouter();
   const pathname = usePathname();
   const locale = useLocale();
@@ -54,7 +54,10 @@ export function LangSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute end-0 top-full mt-2 w-[160px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900">
+        <div className={clsx(
+          "absolute top-full mt-2 w-[160px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900",
+          align === "end" ? "end-0" : "start-0"
+        )}>
           {LOCALES.map((l) => (
             <button
               key={l}
