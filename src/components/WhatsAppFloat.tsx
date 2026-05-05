@@ -7,7 +7,10 @@
  * Server component — JS gerekmez (basit <a> tag).
  */
 
-const PHONE = "902426061432"; // SITE.phoneE164 (without +)
+// Mona Hukuk WhatsApp irtibat numarası (kurucunun cep hattı).
+// Ofis sabit hattı (SITE.phoneE164) WhatsApp'ta kayıtlı olmadığı için
+// kullanılmıyor; çağrı ve mail için lib/site.ts'deki numara geçerli.
+const PHONE = "905323900510";
 
 const MESSAGES: Record<string, string> = {
   tr: "Merhaba, hukuki danışmanlık almak istiyorum.",
