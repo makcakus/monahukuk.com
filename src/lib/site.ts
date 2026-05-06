@@ -3,7 +3,7 @@ export const SITE = {
   name: "MONA HUKUK",
   legalName: "MONA HUKUK Bürosu",
   email: "contact@monahukuk.com",
-  phone: "+90 (242) 606 14 32",
+  phone: "+90 (242) 606 14 32",
   phoneE164: "+902426061432",
   city: "Antalya",
   region: "Antalya",
