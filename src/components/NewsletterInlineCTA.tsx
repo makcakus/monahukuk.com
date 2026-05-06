@@ -27,7 +27,7 @@ type Copy = {
 
 const COPY: Record<Locale, Copy> = {
   tr: {
-    heading: "Bu tür güncellemeleri haftalık özet olarak almak ister misiniz?",
+    heading: "Türk Hukuku'ndaki gelişmeleri haftalık özet olarak almak ister misiniz?",
     body: "Resmî Gazete duyuruları, yargı kararları ve mevzuat değişikliklerini haftalık olarak e-postanıza gönderiyoruz. Ücretsiz; istediğiniz an iptal edebilirsiniz.",
     placeholder: "E-posta adresiniz",
     button: "Abone ol",
@@ -48,7 +48,7 @@ const COPY: Record<Locale, Copy> = {
       "Form çalışıyor; gönderdikten sonra e-posta kutunuza onay bağlantısı geleceğini unutmayın.",
   },
   en: {
-    heading: "Want updates like this as a weekly digest?",
+    heading: "Want a weekly digest of developments in Turkish law?",
     body: "Official Gazette notices, court decisions and legislative changes — delivered weekly. Free, unsubscribe at any time.",
     placeholder: "Your email address",
     button: "Subscribe",
@@ -69,7 +69,7 @@ const COPY: Record<Locale, Copy> = {
       "The form works without JavaScript; after submitting, watch your inbox for the confirmation link.",
   },
   de: {
-    heading: "Möchten Sie solche Updates als wöchentliche Zusammenfassung?",
+    heading: "Möchten Sie eine wöchentliche Zusammenfassung der Entwicklungen im türkischen Recht?",
     body: "Mitteilungen aus dem Amtsblatt, Gerichtsentscheidungen und Gesetzesänderungen — wöchentlich per E-Mail. Kostenlos und jederzeit kündbar.",
     placeholder: "Ihre E-Mail-Adresse",
     button: "Abonnieren",
@@ -90,7 +90,7 @@ const COPY: Record<Locale, Copy> = {
       "Das Formular funktioniert auch ohne JavaScript; nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail.",
   },
   ru: {
-    heading: "Хотите получать такие обновления в виде еженедельной рассылки?",
+    heading: "Хотите еженедельный обзор изменений в турецком праве?",
     body: "Уведомления Официальной газеты, судебные решения и изменения в законодательстве — еженедельно. Бесплатно, отписка в любое время.",
     placeholder: "Ваш e-mail",
     button: "Подписаться",
@@ -111,7 +111,7 @@ const COPY: Record<Locale, Copy> = {
       "Форма работает без JavaScript; после отправки на ваш e-mail придёт письмо с подтверждением.",
   },
   ar: {
-    heading: "هل تودّ الحصول على هذه التحديثات في موجز أسبوعي؟",
+    heading: "هل تودّ موجزاً أسبوعياً لتطورات القانون التركي؟",
     body: "إشعارات الجريدة الرسمية، قرارات المحاكم وتعديلات التشريعات — أسبوعياً عبر البريد. مجاني ويمكنك إلغاء الاشتراك متى شئت.",
     placeholder: "بريدك الإلكتروني",
     button: "اشترك",
