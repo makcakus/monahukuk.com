@@ -17,12 +17,19 @@ export type EditorialLabelParts = {
   suffix: string;
 };
 
+/**
+ * Non-breaking space — brand link'i ile bitişik metin arasındaki
+ * boşluğun JSX inline rendering sırasında collapse olmaması için.
+ * Aksi halde tarayıcıda "MONA HUKUKEditör Ekibi" gibi yapışık çıkıyor.
+ */
+const NBSP = " ";
+
 const EDITORIAL_TEAM: Record<string, EditorialLabelParts> = {
-  tr: { prefix: "", brand: "MONA HUKUK", suffix: " Editör Ekibi" },
-  en: { prefix: "", brand: "MONA HUKUK", suffix: " Editorial Team" },
-  de: { prefix: "", brand: "MONA HUKUK", suffix: " Redaktion" },
-  ru: { prefix: "Редакция ", brand: "MONA HUKUK", suffix: "" },
-  ar: { prefix: "فريق تحرير ", brand: "MONA HUKUK", suffix: "" },
+  tr: { prefix: "", brand: "MONA HUKUK", suffix: `${NBSP}Editör Ekibi` },
+  en: { prefix: "", brand: "MONA HUKUK", suffix: `${NBSP}Editorial Team` },
+  de: { prefix: "", brand: "MONA HUKUK", suffix: `${NBSP}Redaktion` },
+  ru: { prefix: `Редакция${NBSP}`, brand: "MONA HUKUK", suffix: "" },
+  ar: { prefix: `فريق تحرير${NBSP}`, brand: "MONA HUKUK", suffix: "" },
 };
 
 export function editorialTeamLabel(locale: string): EditorialLabelParts {
