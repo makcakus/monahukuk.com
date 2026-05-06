@@ -144,7 +144,7 @@ export default async function ArticlePage({
       {(() => {
         const team = editorialTeamLabel(locale);
         return (
-          <div className="mt-12 border-t border-cream-200 pt-6">
+          <div className="mt-6 border-t border-cream-200 pt-4">
             <p className="text-sm text-ink-soft flex flex-wrap items-center gap-x-2 gap-y-1">
               <span className="text-ink-mute">{t("publishedOn")}</span>
               <span className="flex flex-wrap items-baseline">

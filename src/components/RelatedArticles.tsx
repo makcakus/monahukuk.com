@@ -34,7 +34,7 @@ export async function RelatedArticles({
   return (
     <section
       aria-labelledby="related-articles-heading"
-      className="mt-16 border-t border-cream-200 pt-10"
+      className="mt-6 border-t border-cream-200 pt-6"
     >
       <h2
         id="related-articles-heading"
