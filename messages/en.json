@@ -132,7 +132,6 @@
     "consentRequired": "Please tick the consent checkbox to continue.",
     "invalidEmail": "Please enter a valid email address.",
     "serverError": "Something went wrong. Please try again later.",
-    "comingSoonNotice": "Our newsletter will be live soon. You can register your interest now and we'll notify you once it's active.",
     "interestRegisteredTitle": "Your interest has been registered",
     "interestRegisteredBody": "We'll notify you once the newsletter is active. In the meantime, feel free to reach us at contact@monahukuk.com."
   },

@@ -97,10 +97,6 @@ export function NewsletterBanner() {
             <p className="text-xs text-red-400">{t(state.errorKey)}</p>
           )}
 
-          {/* Backend kurulana kadar her zaman görünür bilgilendirme. */}
-          <p className="text-xs text-orange-200/80 leading-relaxed">
-            {t("comingSoonNotice")}
-          </p>
         </form>
       </div>
     </div>

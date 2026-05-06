@@ -301,10 +301,6 @@ export function NewsletterInlineCTA({
           </p>
         )}
 
-        {/* Backend kurulana kadar her zaman görünür bilgilendirme. */}
-        <p className="text-xs text-ink-mute dark:text-cream-300/70 leading-relaxed">
-          {c.comingSoonNotice}
-        </p>
       </form>
     </div>
   );

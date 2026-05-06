@@ -132,7 +132,6 @@
     "consentRequired": "Devam etmek için KVKK rıza onayını işaretleyin.",
     "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
     "serverError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
-    "comingSoonNotice": "Bültenimiz yakında aktif olacak. Şu an ilgilendiğinizi belirtmek için kaydolabilirsiniz; aktif olduğunda size haber vereceğiz.",
     "interestRegisteredTitle": "Kaydınız alındı",
     "interestRegisteredBody": "Bülten aktif olduğunda size bilgi vereceğiz. Bu sırada sorularınız için contact@monahukuk.com adresinden bize ulaşabilirsiniz."
   },
