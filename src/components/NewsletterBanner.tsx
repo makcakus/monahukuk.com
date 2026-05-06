@@ -25,6 +25,20 @@ export function NewsletterBanner() {
     );
   }
 
+  if (state?.status === "interestRegistered") {
+    return (
+      <div className="my-10 rounded-2xl border border-gold-200 bg-gold-50 dark:border-gold-700/30 dark:bg-navy-900 px-8 py-8 text-center">
+        <CheckCircle className="mx-auto mb-3 text-gold-600 dark:text-gold-400" size={32} />
+        <p className="font-display text-lg text-navy-900 dark:text-cream-50">
+          {t("interestRegisteredTitle")}
+        </p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+          {t("interestRegisteredBody")}
+        </p>
+      </div>
+    );
+  }
+
   if (state?.status === "pending" || state?.status === "resent") {
     return (
       <div className="my-10 rounded-2xl border border-gold-200 bg-gold-50 dark:border-gold-700/30 dark:bg-navy-900 px-8 py-8 text-center">
@@ -83,11 +97,10 @@ export function NewsletterBanner() {
             <p className="text-xs text-red-400">{t(state.errorKey)}</p>
           )}
 
-          <noscript>
-            <p className="text-xs text-orange-200/80 leading-relaxed">
-              {t("noscriptNotice")}
-            </p>
-          </noscript>
+          {/* Backend kurulana kadar her zaman görünür bilgilendirme. */}
+          <p className="text-xs text-orange-200/80 leading-relaxed">
+            {t("comingSoonNotice")}
+          </p>
         </form>
       </div>
     </div>

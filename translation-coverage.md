@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 57 · EN: 57 · DE: 57 · RU: 57 · AR: 0
-Benzersiz çeviri key'i: **107**
+Makale sayıları → TR: 58 · EN: 58 · DE: 58 · RU: 58 · AR: 0
+Benzersiz çeviri key'i: **108**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
 ✅ Tüm dillerde mevcut: **0** içerik
-⚠️  Eksik çeviri: **107** içerik
+⚠️  Eksik çeviri: **108** içerik
 
 ## TR — 50 eksik içerik
 
@@ -420,7 +420,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `yazilim-lisans-sozlesmelerinde-hukuki-riskler` — Yazılım Lisans Sözleşmelerinde Hukuki Riskler Rehberi  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## AR — 107 eksik içerik
+## AR — 108 eksik içerik
 
 - `aile-ikamet-izni-turk-vatandasi-es` — Aile İkamet İzni: Türk Vatandaşı Eşle Evli Yabancılar İçin Rehber  
   _kaynak:_ tr · _mevcut diller:_ tr
@@ -435,6 +435,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `calisma-izni-reddi-itiraz-yollari` — Çalışma İzni Başvurusu Reddi ve İtiraz Yolları: 2026 Rehber  
   _kaynak:_ tr · _mevcut diller:_ tr
 - `citizenship-stateless-persons-born-turkey` — Türkiye'de Doğan Vatansız Çocuklar İçin Türk Vatandaşlığı  
+  _kaynak:_ tr · _mevcut diller:_ tr, en, de, ru
+- `cross-border-data-transfer-foreign-companies-turkey` — Yurt Dışına Kişisel Veri Aktarımı: 2024 KVKK Düzenlemesi  
   _kaynak:_ tr · _mevcut diller:_ tr, en, de, ru
 - `cybercrime-charges-foreigners-turkey` — Yabancıların Türkiye'de Karşılaştığı Bilişim Suçları Rehberi  
   _kaynak:_ tr · _mevcut diller:_ tr, en, de, ru

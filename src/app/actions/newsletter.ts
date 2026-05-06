@@ -10,6 +10,7 @@ export type NewsletterStatus =
   | "pending"
   | "alreadyConfirmed"
   | "resent"
+  | "interestRegistered" // Backend (Supabase/Resend) henüz yapılandırılmadı; kullanıcı ilgisi ileride işlenmek üzere log'a yazılır.
   | "error";
 
 export type NewsletterState = {
@@ -48,8 +49,14 @@ export async function subscribeToNewsletter(
 
   const supabase = getSupabaseAdmin();
   if (!supabase) {
-    console.warn("[Newsletter] Supabase not configured.");
-    return { status: "error", errorKey: "serverError" };
+    // Backend henüz kurulu değil. Kullanıcıya yanıltıcı "kayıt" mesajı vermek
+    // yerine "ilginiz alındı" göstereceğiz; e-postayı Vercel function logs'a
+    // yazıyoruz ki backend devreye girince manuel kayıt edilebilsin.
+    const h = await headers();
+    console.log(
+      `[Newsletter] interest_registered (no backend) — email=${email} locale=${locale} ua=${h.get("user-agent") ?? "-"}`
+    );
+    return { status: "interestRegistered", errorKey: "" };
   }
 
   const ip = await getClientIp();

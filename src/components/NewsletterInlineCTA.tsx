@@ -22,7 +22,12 @@ type Copy = {
   resentTitle: string;
   alreadyTitle: string;
   alreadyBody: string;
-  noscriptNotice: string;
+  /** Backend henüz aktif değilken form altında her zaman görünen bilgilendirme. */
+  comingSoonNotice: string;
+  /** Backend yokken submit sonrası gösterilen başlık. */
+  interestRegisteredTitle: string;
+  /** Backend yokken submit sonrası gösterilen açıklama. */
+  interestRegisteredBody: string;
 };
 
 const COPY: Record<Locale, Copy> = {
@@ -44,8 +49,11 @@ const COPY: Record<Locale, Copy> = {
     alreadyTitle: "Zaten abonesiniz",
     alreadyBody:
       "Bu e-posta adresi bültenimize halihazırda kayıtlı. Aboneliği her iletinin altındaki bağlantıyla iptal edebilirsiniz.",
-    noscriptNotice:
-      "Form çalışıyor; gönderdikten sonra e-posta kutunuza onay bağlantısı geleceğini unutmayın.",
+    comingSoonNotice:
+      "Bültenimiz yakında aktif olacak. Şu an ilgilendiğinizi belirtmek için kaydolabilirsiniz; aktif olduğunda size haber vereceğiz.",
+    interestRegisteredTitle: "Kaydınız alındı",
+    interestRegisteredBody:
+      "Bülten aktif olduğunda size bilgi vereceğiz. Bu sırada sorularınız için contact@monahukuk.com adresinden bize ulaşabilirsiniz.",
   },
   en: {
     heading: "Want a weekly digest of developments in Turkish law?",
@@ -65,8 +73,11 @@ const COPY: Record<Locale, Copy> = {
     alreadyTitle: "You're already subscribed",
     alreadyBody:
       "This email address is already on our list. You can unsubscribe via the link at the bottom of each issue.",
-    noscriptNotice:
-      "The form works without JavaScript; after submitting, watch your inbox for the confirmation link.",
+    comingSoonNotice:
+      "Our newsletter will be live soon. You can register your interest now and we'll notify you once it's active.",
+    interestRegisteredTitle: "Your interest has been registered",
+    interestRegisteredBody:
+      "We'll notify you once the newsletter is active. In the meantime, feel free to reach us at contact@monahukuk.com.",
   },
   de: {
     heading: "Möchten Sie eine wöchentliche Zusammenfassung der Entwicklungen im türkischen Recht?",
@@ -86,8 +97,11 @@ const COPY: Record<Locale, Copy> = {
     alreadyTitle: "Sie sind bereits angemeldet",
     alreadyBody:
       "Diese E-Mail-Adresse steht bereits auf unserer Liste. Sie können sich jederzeit über den Link in jeder Ausgabe abmelden.",
-    noscriptNotice:
-      "Das Formular funktioniert auch ohne JavaScript; nach dem Absenden erhalten Sie eine Bestätigungs-E-Mail.",
+    comingSoonNotice:
+      "Unser Newsletter startet bald. Sie können sich jetzt vormerken; wir informieren Sie, sobald er aktiv ist.",
+    interestRegisteredTitle: "Ihre Anmeldung ist eingegangen",
+    interestRegisteredBody:
+      "Wir benachrichtigen Sie, sobald der Newsletter aktiv ist. Bei Fragen erreichen Sie uns unter contact@monahukuk.com.",
   },
   ru: {
     heading: "Хотите еженедельный обзор изменений в турецком праве?",
@@ -107,8 +121,11 @@ const COPY: Record<Locale, Copy> = {
     alreadyTitle: "Вы уже подписаны",
     alreadyBody:
       "Этот адрес уже в нашем списке. Отписаться можно по ссылке в конце каждого письма.",
-    noscriptNotice:
-      "Форма работает без JavaScript; после отправки на ваш e-mail придёт письмо с подтверждением.",
+    comingSoonNotice:
+      "Наша рассылка скоро будет запущена. Вы можете оставить заявку, и мы уведомим вас, когда она станет активной.",
+    interestRegisteredTitle: "Ваша заявка получена",
+    interestRegisteredBody:
+      "Мы уведомим вас, когда рассылка станет активной. По вопросам пишите на contact@monahukuk.com.",
   },
   ar: {
     heading: "هل تودّ موجزاً أسبوعياً لتطورات القانون التركي؟",
@@ -128,8 +145,11 @@ const COPY: Record<Locale, Copy> = {
     alreadyTitle: "أنت مشترك بالفعل",
     alreadyBody:
       "هذا البريد مسجل لدينا. يمكنك إلغاء الاشتراك من الرابط الموجود في أسفل كل رسالة.",
-    noscriptNotice:
-      "النموذج يعمل بدون JavaScript؛ بعد الإرسال ستصلك رسالة تأكيد.",
+    comingSoonNotice:
+      "ستنطلق نشرتنا الإخبارية قريبًا. يمكنك تسجيل اهتمامك الآن وسنخبرك عند تفعيلها.",
+    interestRegisteredTitle: "تم تسجيل اهتمامك",
+    interestRegisteredBody:
+      "سنخبرك عند تفعيل النشرة الإخبارية. للاستفسار يمكنك مراسلتنا على contact@monahukuk.com.",
   },
 };
 
@@ -171,6 +191,27 @@ export function NewsletterInlineCTA({
             </p>
             <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
               {c.alreadyBody}
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (state?.status === "interestRegistered") {
+    return (
+      <div id={id} className={`${wrapperBase} ${wrapperPad}`}>
+        <div className="flex items-start gap-3">
+          <CheckCircle
+            className="mt-0.5 shrink-0 text-gold-600 dark:text-gold-400"
+            size={20}
+          />
+          <div>
+            <p className="font-medium text-navy-900 dark:text-cream-50">
+              {c.interestRegisteredTitle}
+            </p>
+            <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+              {c.interestRegisteredBody}
             </p>
           </div>
         </div>
@@ -260,11 +301,10 @@ export function NewsletterInlineCTA({
           </p>
         )}
 
-        <noscript>
-          <p className="text-xs text-ink-mute dark:text-cream-300/70 leading-relaxed">
-            {c.noscriptNotice}
-          </p>
-        </noscript>
+        {/* Backend kurulana kadar her zaman görünür bilgilendirme. */}
+        <p className="text-xs text-ink-mute dark:text-cream-300/70 leading-relaxed">
+          {c.comingSoonNotice}
+        </p>
       </form>
     </div>
   );
