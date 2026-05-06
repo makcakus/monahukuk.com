@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
 import { getArticle, getAllArticles, extractFaqPairs } from "@/lib/articles";
-import { formatAuthorName, authorSlug } from "@/lib/author";
+import { editorialTeamLabel, editorialTeamPlain } from "@/lib/editorial-team";
 import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
@@ -78,7 +78,6 @@ export default async function ArticlePage({
         description={article.description}
         date={article.date}
         category={article.category}
-        author={article.author}
         wordCount={article.wordCount}
       />
       <BreadcrumbSchema
@@ -107,27 +106,33 @@ export default async function ArticlePage({
         {article.title}
       </h1>
 
-      {article.author && (
-        <p className="mt-6 text-sm text-ink-soft flex flex-wrap items-center gap-x-2 gap-y-1">
-          <span className="text-ink-mute">{t("authorLabel")}</span>
-          <Link
-            href={`/team#${authorSlug(article.author)}`}
-            className="font-medium text-navy-900 hover:text-gold-700 transition-colors"
-          >
-            {formatAuthorName(article.author, locale)}
-          </Link>
-          <span className="text-ink-mute">·</span>
-          <span className="text-ink-soft">{t("barAssociation")}</span>
-        </p>
-      )}
-
-      <p className="mt-3 text-sm text-ink-mute flex items-center gap-3">
-        <span>
-          {t("publishedOn")} {dateFmt.format(new Date(article.date))}
-        </span>
-        <span>·</span>
-        <span>{article.readingMinutes} {t("minRead")}</span>
-      </p>
+      {/* Yazar satırı: brand /[locale]/about'a link, "Yazar:" prefiksi yok,
+          baro bilgisi yok — kurumsal "MONA HUKUK Editör Ekibi" etiketi. */}
+      {(() => {
+        const team = editorialTeamLabel(locale);
+        return (
+          <p className="mt-6 text-sm text-ink-soft flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className="flex flex-wrap items-baseline">
+              {team.prefix && <span>{team.prefix}</span>}
+              <Link
+                href="/about"
+                className="font-medium text-navy-900 hover:underline transition-colors"
+              >
+                {team.brand}
+              </Link>
+              {team.suffix && <span>{team.suffix}</span>}
+            </span>
+            <span className="text-ink-mute">·</span>
+            <span>
+              {t("publishedOn")} {dateFmt.format(new Date(article.date))}
+            </span>
+            <span className="text-ink-mute">·</span>
+            <span>
+              {article.readingMinutes} {t("minRead")}
+            </span>
+          </p>
+        );
+      })()}
       <span className="gold-divider mt-8 mb-8" />
 
       <div className="prose-legal">
