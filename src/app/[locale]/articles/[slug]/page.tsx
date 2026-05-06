@@ -139,6 +139,33 @@ export default async function ArticlePage({
         <MDXRemote source={article.body} />
       </div>
 
+      {/* Makale gövdesi sonrası ikinci byline — okuyucu makaleyi bitirdiğinde
+          yazarlık etiketini tekrar görür (E-E-A-T + güven sinyali). */}
+      {(() => {
+        const team = editorialTeamLabel(locale);
+        return (
+          <div className="mt-12 border-t border-cream-200 pt-6">
+            <p className="text-sm text-ink-soft flex flex-wrap items-center gap-x-2 gap-y-1">
+              <span className="text-ink-mute">{t("publishedOn")}</span>
+              <span className="flex flex-wrap items-baseline">
+                {team.prefix && <span>{team.prefix}</span>}
+                <Link
+                  href="/about"
+                  className="font-medium text-navy-900 hover:underline transition-colors"
+                >
+                  {team.brand}
+                </Link>
+                {team.suffix && <span>{team.suffix}</span>}
+              </span>
+              <span className="text-ink-mute">·</span>
+              <span>{dateFmt.format(new Date(article.date))}</span>
+              <span className="text-ink-mute">·</span>
+              <span>{article.readingMinutes} {t("minRead")}</span>
+            </p>
+          </div>
+        );
+      })()}
+
       <RelatedArticles
         locale={locale}
         currentSlug={slug}
