@@ -11,7 +11,10 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
-const REQUIRED = ["title", "description", "date", "slug", "author"];
+// `category` REQUIRED listeye eklendi: kategori boş bırakılan makale articles
+// liste sayfasında "Genel" başlığı altına düşüyor ve UI'da slug-as-title
+// görünüyordu. Build'de yakalansın diye zorunlu.
+const REQUIRED = ["title", "description", "date", "slug", "category", "author"];
 const LOCALES = ["tr", "en", "de", "ru", "ar"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 
