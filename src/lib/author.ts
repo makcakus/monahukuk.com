@@ -44,9 +44,24 @@ export function plainAuthorName(author: string): string {
   return author.replace(KNOWN_PREFIX_RE, "").trim();
 }
 
-/** Türkçe karakter farkından bağımsız üye anchor slug'ı (örn. "Mustafa Akcakuş" → "mustafa-akcakus"). */
+/**
+ * Türkçe karakter farkından bağımsız üye anchor slug'ı.
+ * Örnekler:
+ *   "Av. Mustafa AKÇAKUŞ" → "mustafa-akcakus"
+ *   "Av. Mehmet SİMAV"    → "mehmet-simav"   ("İ" .toLowerCase() yan-etkisi de temizlenir)
+ *
+ * Not: JavaScript `"İ".toLowerCase()` → "i̇" (combining dot, U+0307) üretir;
+ * o yüzden lowercase'den ÖNCE büyük Türkçe karakterleri ASCII'ye eşliyoruz.
+ */
 export function authorSlug(author: string): string {
   return plainAuthorName(author)
+    .replace(/Ç/g, "C")
+    .replace(/Ğ/g, "G")
+    .replace(/I/g, "I")
+    .replace(/İ/g, "I")
+    .replace(/Ö/g, "O")
+    .replace(/Ş/g, "S")
+    .replace(/Ü/g, "U")
     .toLowerCase()
     .replace(/ç/g, "c")
     .replace(/ğ/g, "g")
@@ -54,6 +69,7 @@ export function authorSlug(author: string): string {
     .replace(/ö/g, "o")
     .replace(/ş/g, "s")
     .replace(/ü/g, "u")
+    .replace(/̇/g, "") // safety net — orphan combining dot above
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
 }
