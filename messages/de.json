@@ -131,7 +131,7 @@
     "expiredTitle": "Link abgelaufen",
     "expiredBody": "Der Bestätigungslink ist älter als 48 Stunden. Bitte tragen Sie Ihre E-Mail-Adresse erneut ein; wir senden eine neue Bestätigungsmail.",
     "invalidTitle": "Link ungültig",
-    "invalidBody": "Dieser Link wird nicht erkannt oder wurde bereits verwendet. Bei Fragen schreiben Sie an info@monahukuk.com.",
+    "invalidBody": "Dieser Link wird nicht erkannt oder wurde bereits verwendet. Bei Fragen schreiben Sie an contact@monahukuk.com.",
     "backToNews": "Zurück zu den Rechtsnachrichten",
     "backToHome": "Zurück zur Startseite"
   },

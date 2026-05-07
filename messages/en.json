@@ -143,7 +143,7 @@
     "expiredTitle": "This link has expired",
     "expiredBody": "The confirmation link is older than 48 hours. Please submit your email address again and we will send you a fresh confirmation email.",
     "invalidTitle": "Invalid link",
-    "invalidBody": "This link is not recognised, or it has already been used. If the issue persists, write to info@monahukuk.com.",
+    "invalidBody": "This link is not recognised, or it has already been used. If the issue persists, write to contact@monahukuk.com.",
     "backToNews": "Back to Legal News",
     "backToHome": "Back to home"
   },

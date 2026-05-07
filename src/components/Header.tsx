@@ -26,6 +26,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   { type: "link", href: "/team", key: "team" },
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
+  // Hukuki bülten yalnızca TR ve EN'de yayınlanmaktadır; bu kasıtlı bir editoryal karardır.
   { type: "link", href: "/legal-news", key: "legalNews", locales: ["tr", "en"] as const },
   { type: "link", href: "/contact", key: "contact" },
   // Gizlilik Politikası üst menüden kaldırıldı; footer'da tutuluyor.

@@ -143,7 +143,7 @@
     "expiredTitle": "Bağlantının süresi dolmuş",
     "expiredBody": "Onay bağlantısı 48 saatlik geçerlilik süresini aşmış. Lütfen forma yeniden e-posta adresinizi girin; size yeni bir doğrulama maili gönderelim.",
     "invalidTitle": "Bağlantı geçersiz",
-    "invalidBody": "Bu bağlantı tanınmıyor ya da daha önce kullanıldı. Sorun devam ederse info@monahukuk.com adresine yazabilirsiniz.",
+    "invalidBody": "Bu bağlantı tanınmıyor ya da daha önce kullanıldı. Sorun devam ederse contact@monahukuk.com adresine yazabilirsiniz.",
     "backToNews": "Hukuki Haberlere dön",
     "backToHome": "Ana sayfaya dön"
   },
