@@ -174,7 +174,6 @@ h1, h2, h3, h4, .font-display {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-ken-burns,
   .animate-hero-rise,
   .animate-scroll-bob {
     animation: none !important;
