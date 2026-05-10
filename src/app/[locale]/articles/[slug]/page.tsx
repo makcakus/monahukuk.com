@@ -86,6 +86,29 @@ export default async function ArticlePage({
     day: "numeric",
   });
 
+  const TITLE_PREFIX: Record<string, string> = {
+    tr: "Av.",
+    en: "Att.",
+    de: "RA",
+    ru: "Адв.",
+  };
+  const BAR_LABEL: Record<string, string> = {
+    tr: "Antalya Barosu",
+    en: "Antalya Bar Association",
+    de: "Antalya Rechtsanwaltskammer",
+    ru: "Коллегия адвокатов Анталии",
+  };
+  const titlePrefix = TITLE_PREFIX[locale] ?? "Av.";
+  const barLabel = BAR_LABEL[locale] ?? "Antalya Barosu";
+
+  // article.author genellikle "Av. Mustafa Akcakuş" şeklindedir;
+  // unvanı çıkarıp locale'e göre yeniden ekleyelim.
+  const rawAuthor = article.author ?? "";
+  const authorName = rawAuthor
+    .replace(/^(Av\.|Att\.|RA|Адв\.)\s*/i, "")
+    .trim();
+  const authorLabel = authorName ? `${titlePrefix} ${authorName}` : null;
+
   return (
     <article className="mx-auto max-w-3xl px-6 py-16">
       <ArticleSchema
@@ -95,6 +118,8 @@ export default async function ArticlePage({
         description={article.description}
         date={article.date}
         category={article.category}
+        author={article.author}
+        wordCount={article.wordCount}
       />
       <BreadcrumbSchema
         locale={locale}
@@ -128,6 +153,15 @@ export default async function ArticlePage({
         <span>·</span>
         <span>{article.readingMinutes} {t("minRead")}</span>
       </p>
+      {authorLabel && (
+        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+          <Link href={`/${locale}/team`} className="hover:underline font-medium">
+            {authorLabel}
+          </Link>
+          {" · "}
+          {barLabel}
+        </p>
+      )}
       <span className="gold-divider mt-8 mb-8" />
 
       <div className="prose-legal">
