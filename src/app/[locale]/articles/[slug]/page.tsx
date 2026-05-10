@@ -8,6 +8,7 @@ import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -166,6 +167,10 @@ export default async function ArticlePage({
 
       <div className="prose-legal">
         <MDXRemote source={article.body} />
+      </div>
+
+      <div className="mt-12">
+        <NewsletterInlineCTA />
       </div>
 
       <RelatedArticles
