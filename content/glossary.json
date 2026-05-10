@@ -267,6 +267,153 @@
       "de": "Rechtsanwaltskammer",
       "ru": "коллегия адвокатов",
       "ar": "نقابة المحامين"
+    },
+    "pasaport": {
+      "tr": "pasaport",
+      "en": "passport",
+      "de": "Reisepass",
+      "ru": "паспорт",
+      "ar": "جواز السفر"
+    },
+    "ipotek": {
+      "tr": "ipotek",
+      "en": "mortgage",
+      "de": "Hypothek",
+      "ru": "ипотека",
+      "ar": "الرهن العقاري"
+    },
+    "sirket_kurma": {
+      "tr": "şirket kurma",
+      "en": "company incorporation",
+      "de": "Unternehmens­gründung",
+      "ru": "регистрация компании",
+      "ar": "تأسيس شركة"
+    },
+    "vergi": {
+      "tr": "vergi",
+      "en": "tax",
+      "de": "Steuer",
+      "ru": "налог",
+      "ar": "ضريبة"
+    },
+    "gelir_vergisi": {
+      "tr": "gelir vergisi",
+      "en": "income tax",
+      "de": "Einkommensteuer",
+      "ru": "подоходный налог",
+      "ar": "ضريبة الدخل"
+    },
+    "is_sozlesmesi": {
+      "tr": "iş sözleşmesi",
+      "en": "employment contract",
+      "de": "Arbeitsvertrag",
+      "ru": "трудовой договор",
+      "ar": "عقد العمل"
+    },
+    "isten_cikarma": {
+      "tr": "işten çıkarma",
+      "en": "dismissal",
+      "de": "Entlassung",
+      "ru": "увольнение",
+      "ar": "الفصل من العمل"
+    },
+    "kidem_tazminati": {
+      "tr": "kıdem tazminatı",
+      "en": "severance pay",
+      "de": "Abfindung",
+      "ru": "выходное пособие",
+      "ar": "مكافأة نهاية الخدمة"
+    },
+    "ihbar_tazminati": {
+      "tr": "ihbar tazminatı",
+      "en": "notice pay",
+      "de": "Kündigungsentschädigung",
+      "ru": "компенсация за несоблюдение срока уведомления",
+      "ar": "تعويض الإشعار"
+    },
+    "siginmaci": {
+      "tr": "sığınmacı",
+      "en": "asylum seeker",
+      "de": "Asylbewerber",
+      "ru": "лицо, ищущее убежища",
+      "ar": "طالب اللجوء"
+    },
+    "iltica": {
+      "tr": "iltica",
+      "en": "asylum",
+      "de": "Asyl",
+      "ru": "убежище",
+      "ar": "اللجوء"
+    },
+    "avukat": {
+      "tr": "avukat",
+      "en": "lawyer",
+      "de": "Rechtsanwalt",
+      "ru": "адвокат",
+      "ar": "محامٍ"
+    },
+    "mahkeme": {
+      "tr": "mahkeme",
+      "en": "court",
+      "de": "Gericht",
+      "ru": "суд",
+      "ar": "محكمة"
+    },
+    "dava": {
+      "tr": "dava",
+      "en": "lawsuit",
+      "de": "Klage",
+      "ru": "иск",
+      "ar": "دعوى قضائية"
+    },
+    "temyiz": {
+      "tr": "temyiz",
+      "en": "appeal",
+      "de": "Berufung",
+      "ru": "кассационная жалоба",
+      "ar": "الطعن بالنقض"
+    },
+    "ceza_davasi": {
+      "tr": "ceza davası",
+      "en": "criminal case",
+      "de": "Strafverfahren",
+      "ru": "уголовное дело",
+      "ar": "القضية الجزائية"
+    },
+    "hapis": {
+      "tr": "hapis cezası",
+      "en": "imprisonment",
+      "de": "Freiheitsstrafe",
+      "ru": "лишение свободы",
+      "ar": "عقوبة السجن"
+    },
+    "tutuklama": {
+      "tr": "tutuklama",
+      "en": "arrest",
+      "de": "Festnahme",
+      "ru": "арест",
+      "ar": "الاعتقال"
+    },
+    "sozlesme": {
+      "tr": "sözleşme",
+      "en": "contract",
+      "de": "Vertrag",
+      "ru": "договор",
+      "ar": "عقد"
+    },
+    "tazminat": {
+      "tr": "tazminat",
+      "en": "compensation",
+      "de": "Schadensersatz",
+      "ru": "компенсация",
+      "ar": "تعويض"
+    },
+    "icra": {
+      "tr": "icra",
+      "en": "enforcement",
+      "de": "Vollstreckung",
+      "ru": "исполнение",
+      "ar": "التنفيذ"
     }
   }
 }
