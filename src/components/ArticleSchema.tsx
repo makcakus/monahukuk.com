@@ -1,54 +1,23 @@
-import { SITE } from "@/lib/site";
+import { JsonLd } from "./JsonLd";
+import {
+  articleSchema,
+  faqPageSchema,
+  breadcrumbSchema,
+} from "@/lib/schema";
 
-const LANG_TAGS: Record<string, string> = {
-  tr: "tr-TR",
-  en: "en-GB",
-  de: "de-DE",
-  ru: "ru-RU",
-  ar: "ar-SA",
-};
-function langTag(locale: string) {
-  return LANG_TAGS[locale] ?? "en-GB";
-}
-
-export function ArticleSchema({
-  locale,
-  slug,
-  title,
-  description,
-  date,
-  category,
-}: {
+export function ArticleSchema(props: {
   locale: string;
   slug: string;
   title: string;
   description: string;
   date: string;
+  modifiedDate?: string;
   category?: string;
+  author?: string;
+  authorSameAs?: string[];
+  wordCount?: number;
 }) {
-  const url = `${SITE.url}/${locale}/articles/${slug}`;
-  const data = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: title,
-    description,
-    datePublished: date,
-    dateModified: date,
-    inLanguage: langTag(locale),
-    articleSection: category,
-    url,
-    mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    image: [`${SITE.url}/${locale}/articles/${slug}/opengraph-image`],
-    author: { "@type": "Organization", "@id": `${SITE.url}#organization`, name: SITE.name },
-    publisher: { "@id": `${SITE.url}#organization` },
-    isAccessibleForFree: true,
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
+  return <JsonLd data={articleSchema(props)} />;
 }
 
 export function FAQPageSchema({
@@ -56,45 +25,12 @@ export function FAQPageSchema({
 }: {
   pairs: { question: string; answer: string }[];
 }) {
-  if (pairs.length < 3) return null;
-  const data = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: pairs.map((p) => ({
-      "@type": "Question",
-      name: p.question,
-      acceptedAnswer: { "@type": "Answer", text: p.answer },
-    })),
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
+  return <JsonLd data={faqPageSchema(pairs)} />;
 }
 
-export function BreadcrumbSchema({
-  locale,
-  items,
-}: {
+export function BreadcrumbSchema(props: {
   locale: string;
   items: { name: string; path: string }[];
 }) {
-  const data = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: items.map((it, idx) => ({
-      "@type": "ListItem",
-      position: idx + 1,
-      name: it.name,
-      item: `${SITE.url}/${locale}${it.path}`,
-    })),
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
+  return <JsonLd data={breadcrumbSchema(props)} />;
 }

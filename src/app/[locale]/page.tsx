@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { CinematicHero } from "@/components/CinematicHero";
+import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 
 export async function generateMetadata({
   params,
@@ -110,6 +111,13 @@ function HomeContent() {
               <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="border-t border-cream-200 bg-cream-100/40">
+        <div className="mx-auto max-w-3xl px-6 py-16">
+          <NewsletterInlineCTA id="newsletter" />
         </div>
       </section>
     </>

@@ -76,6 +76,9 @@
       }
     },
     "areasIntro": "Wir beraten Mandanten in den wichtigsten Bereichen des türkischen Rechts:",
+    "founderTitle": "Gründungspartner",
+    "founderLead": "Hauptautor der Rechtsartikel dieser Website; trägt die berufliche Verantwortung für deren Inhalt.",
+    "founderViewProfile": "Das gesamte Team ansehen",
     "ctaTitle": "Rechtsberatung anfragen",
     "ctaBody": "In jeder Akte prüfen wir die Umstände gemeinsam mit dem Mandanten und legen den nächsten Schritt klar fest."
   },
@@ -95,7 +98,7 @@
   "team": {
     "title": "Unser Team",
     "lead": "Ein kleines, erfahrenes Team von Rechtsanwälten, das sich internationalen Mandanten verpflichtet fühlt.",
-    "intro": "MONA HUKUK vertritt ausländische Mandanten in ihren rechtlichen Angelegenheiten in der Türkei mit einem Team erfahrener, bei der Anwaltskammer Antalya (Antalya Barosu) zugelassener Rechtsanwälte. Unser Team ist in einem breiten Spektrum tätig, darunter Immobilienrecht, Staatsbürgerschaft, Familienrecht, Strafverteidigung, Handels-, Erb- und Verwaltungsstreitigkeiten.",
+    "intro": "MONA HUKUK vertritt ausländische Mandanten in ihren rechtlichen Angelegenheiten in der Türkei mit einem Team erfahrener, bei einer türkischen Rechtsanwaltskammer zugelassener Rechtsanwälte. Unser Team ist in einem breiten Spektrum tätig, darunter Immobilienrecht, Staatsbürgerschaft, Familienrecht, Strafverteidigung, Handels-, Erb- und Verwaltungsstreitigkeiten.",
     "labelEducation": "Ausbildung",
     "labelBar": "Rechtsanwaltskammer",
     "labelAreas": "Rechtsgebiete",
@@ -113,11 +116,24 @@
     "articleOne": "Artikel",
     "articleMany": "Artikel",
     "relatedSuffix": "— Verwandte Artikel",
+    "relatedTitle": "Verwandte Artikel",
     "viewPracticeArea": "Dieses Rechtsgebiet ansehen",
     "searchPlaceholder": "Artikel suchen — Titel und Volltext",
     "searchClear": "Suche leeren",
     "searchEmpty": "Keine Artikel entsprechen Ihrer Suche.",
     "searchResultsLabel": "Ergebnisse"
+  },
+  "newsletterPages": {
+    "confirmedTitle": "Abonnement bestätigt",
+    "confirmedBody": "Sie haben sich erfolgreich für den wöchentlichen Rechts-Newsletter von Mona Hukuk angemeldet. Die erste Ausgabe wird Ihnen mit der Veröffentlichung zugestellt.",
+    "unsubscribedTitle": "Abmeldung erfolgt",
+    "unsubscribedBody": "Ihre E-Mail-Adresse wurde aus unserer Newsletter-Liste und aus unserer Resend-Zielgruppe entfernt.",
+    "expiredTitle": "Link abgelaufen",
+    "expiredBody": "Der Bestätigungslink ist älter als 48 Stunden. Bitte tragen Sie Ihre E-Mail-Adresse erneut ein; wir senden eine neue Bestätigungsmail.",
+    "invalidTitle": "Link ungültig",
+    "invalidBody": "Dieser Link wird nicht erkannt oder wurde bereits verwendet. Bei Fragen schreiben Sie an contact@monahukuk.com.",
+    "backToNews": "Zurück zu den Rechtsnachrichten",
+    "backToHome": "Zurück zur Startseite"
   },
   "contact": {
     "title": "Kontakt",
@@ -125,7 +141,7 @@
     "office": "Büro",
     "officeAddress": "Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei",
     "phone": "Telefon",
-    "phoneNumber": "+90 (242) 606 14 32",
+    "phoneNumber": "+90 (242) 606 14 32",
     "emailLabel": "E-Mail",
     "emailAddress": "contact@monahukuk.com",
     "hours": "Bürozeiten",
@@ -138,7 +154,7 @@
     "intro": "Bei MONA HUKUK legen wir großen Wert auf Ihre Privatsphäre und den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung erläutert, wie personenbezogene Daten von Personen, die unsere Website besuchen, unsere Dienste nutzen oder mit uns Kontakt aufnehmen, von uns erhoben, verwendet, weitergegeben und geschützt werden. Die Erklärung wurde im Einklang mit dem türkischen Datenschutzgesetz Nr. 6698 (KVKK) und, soweit anwendbar, der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) erstellt.",
     "s1": {
       "title": "1. Verantwortlicher",
-      "body": "Verantwortlicher im Sinne dieser Erklärung ist die in Antalya ansässige MONA HUKUK Anwaltskanzlei. Adresse: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei. E-Mail: contact@monahukuk.com. Telefon: +90 (242) 606 14 32."
+      "body": "Verantwortlicher im Sinne dieser Erklärung ist die in Antalya ansässige MONA HUKUK Anwaltskanzlei. Adresse: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei. E-Mail: contact@monahukuk.com. Telefon: +90 (242) 606 14 32."
     },
     "s2": {
       "title": "2. Erhobene personenbezogene Daten",
@@ -226,12 +242,15 @@
     },
     "s14": {
       "title": "14. Kontakt",
-      "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail contact@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei."
+      "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail contact@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei."
     }
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
-    "disclaimer": "Diese Website dient nur zur allgemeinen Information und stellt keine Rechtsberatung dar."
+    "disclaimer": "Diese Website dient nur zur allgemeinen Information und stellt keine Rechtsberatung dar.",
+    "newsletterHeading": "Wöchentlicher Rechts-Newsletter",
+    "newsletterCta": "Abonnieren",
+    "siteMap": "Sitemap"
   },
   "cookies": {
     "title": "Cookie-Hinweis (KVKK / DSGVO)",

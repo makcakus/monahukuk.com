@@ -21,19 +21,9 @@ import {
 } from "lucide-react";
 import type { ReactNode } from "react";
 import type { ArticleSearchEntry } from "@/lib/articles";
+import type { PracticeIconKey } from "@/lib/practice-areas";
 
-type IconKey =
-  | "Globe"
-  | "Home"
-  | "ShieldAlert"
-  | "Users"
-  | "Scale"
-  | "Cpu"
-  | "Briefcase"
-  | "FileText"
-  | "HardHat"
-  | "Building2"
-  | "BookOpen";
+type IconKey = PracticeIconKey | "BookOpen";
 
 const ICONS: Record<IconKey, ReactNode> = {
   Globe: <Globe size={20} />,

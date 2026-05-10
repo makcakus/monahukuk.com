@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import { LegalServiceSchema, WebsiteSchema } from "@/components/LegalServiceSchema";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { routing } from "@/i18n/routing";
 import { SITE, KEYWORDS } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
@@ -53,7 +54,7 @@ export async function generateMetadata({
     category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", "x-default": "/tr" },
+      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", "x-default": "/en" },
     },
     openGraph: {
       type: "website",
@@ -116,6 +117,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <CookieBanner />
+          <WhatsAppFloat locale={locale} />
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />

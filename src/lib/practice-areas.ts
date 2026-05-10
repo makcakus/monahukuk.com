@@ -1,16 +1,27 @@
-import { Scale, Home, Globe, Users, ShieldAlert, Cpu, Briefcase, FileText, HardHat, Building2 } from "lucide-react";
-
 export type LangMap5 = { tr: string; en: string; de: string; ru: string; ar: string };
+
+export type PracticeIconKey =
+  | "Globe"
+  | "Home"
+  | "ShieldAlert"
+  | "Users"
+  | "Scale"
+  | "Cpu"
+  | "Briefcase"
+  | "FileText"
+  | "HardHat"
+  | "Building2";
 
 export type PracticeArea = {
   slug: string;
-  icon: string;
+  icon: PracticeIconKey;
   title: LangMap5;
   description: LangMap5;
 };
 
 export function pickPA(map: LangMap5, locale: string): string {
-  return (map as Record<string, string>)[locale] ?? map.en;
+  if (locale in map) return map[locale as keyof LangMap5];
+  return map.en;
 }
 
 export const PRACTICE_AREAS: PracticeArea[] = [

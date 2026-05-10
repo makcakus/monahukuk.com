@@ -1,23 +1,52 @@
 "use client";
 
 import { useActionState } from "react";
-import { useTranslations } from "next-intl";
-import { CheckCircle } from "lucide-react";
+import { useTranslations, useLocale } from "next-intl";
+import { CheckCircle, MailCheck } from "lucide-react";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
 export function NewsletterBanner() {
   const t = useTranslations("newsletter");
+  const locale = useLocale();
   const [state, formAction, isPending] = useActionState<NewsletterState, FormData>(
     subscribeToNewsletter,
     null
   );
 
-  if (state?.success) {
+  if (state?.status === "alreadyConfirmed") {
     return (
       <div className="my-10 rounded-2xl border border-gold-200 bg-gold-50 dark:border-gold-700/30 dark:bg-navy-900 px-8 py-8 text-center">
         <CheckCircle className="mx-auto mb-3 text-gold-600 dark:text-gold-400" size={32} />
-        <p className="font-display text-lg text-navy-900 dark:text-cream-50">{t("successTitle")}</p>
-        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">{t("successBody")}</p>
+        <p className="font-display text-lg text-navy-900 dark:text-cream-50">
+          {t("alreadyTitle")}
+        </p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">{t("alreadyBody")}</p>
+      </div>
+    );
+  }
+
+  if (state?.status === "interestRegistered") {
+    return (
+      <div className="my-10 rounded-2xl border border-gold-200 bg-gold-50 dark:border-gold-700/30 dark:bg-navy-900 px-8 py-8 text-center">
+        <CheckCircle className="mx-auto mb-3 text-gold-600 dark:text-gold-400" size={32} />
+        <p className="font-display text-lg text-navy-900 dark:text-cream-50">
+          {t("interestRegisteredTitle")}
+        </p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+          {t("interestRegisteredBody")}
+        </p>
+      </div>
+    );
+  }
+
+  if (state?.status === "pending" || state?.status === "resent") {
+    return (
+      <div className="my-10 rounded-2xl border border-gold-200 bg-gold-50 dark:border-gold-700/30 dark:bg-navy-900 px-8 py-8 text-center">
+        <MailCheck className="mx-auto mb-3 text-gold-600 dark:text-gold-400" size={32} />
+        <p className="font-display text-lg text-navy-900 dark:text-cream-50">
+          {t(state.status === "resent" ? "resentTitle" : "pendingTitle")}
+        </p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">{t("pendingBody")}</p>
       </div>
     );
   }
@@ -35,6 +64,7 @@ export function NewsletterBanner() {
         <p className="text-sm text-white mb-6 leading-relaxed">{t("body")}</p>
 
         <form action={formAction} className="space-y-3">
+          <input type="hidden" name="locale" value={locale} />
           <div className="flex flex-col sm:flex-row gap-2">
             <input
               type="email"
@@ -63,9 +93,10 @@ export function NewsletterBanner() {
             <span className="text-xs text-white/70 leading-relaxed">{t("consent")}</span>
           </label>
 
-          {state && !state.success && (
+          {state?.status === "error" && (
             <p className="text-xs text-red-400">{t(state.errorKey)}</p>
           )}
+
         </form>
       </div>
     </div>

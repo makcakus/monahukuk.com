@@ -26,6 +26,16 @@ export async function generateMetadata({
   if (locale !== "tr" && locale !== "en") return {};
   const post = await getGazettePost(locale, slug);
   if (!post) return {};
+
+  // Aynı slug için TR ve EN'de versiyon var mı?
+  const checks = await Promise.all(
+    (["tr", "en"] as const).map(async (l) => {
+      const p = await getGazettePost(l, slug);
+      return p ? l : null;
+    })
+  );
+  const availableLocales: string[] = checks.filter((l): l is NonNullable<typeof l> => l !== null);
+
   return pageMetadata({
     locale,
     path: `/legal-news/${slug}`,
@@ -33,6 +43,7 @@ export async function generateMetadata({
     description: post.description,
     type: "article",
     publishedTime: post.date,
+    availableLocales,
   });
 }
 
@@ -66,7 +77,7 @@ export default async function GazettePostPage({
       </Link>
 
       <p className="text-xs uppercase tracking-[0.2em] text-gold-700 dark:text-gold-400 mb-3">
-        Resmî Gazete
+        {t("eyebrow")}
       </p>
 
       <h1 className="font-display text-3xl md:text-5xl text-navy-950 dark:text-cream-50 leading-tight tracking-tight">

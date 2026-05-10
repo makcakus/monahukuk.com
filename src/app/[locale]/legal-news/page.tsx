@@ -19,6 +19,7 @@ export async function generateMetadata({
     path: "/legal-news",
     title: t("title"),
     description: t("lead"),
+    availableLocales: ["tr", "en"],
   });
 }
 

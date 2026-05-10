@@ -44,7 +44,7 @@ export default async function ArticlesPage({
     if (byCategory.has(title)) {
       groups.push({
         category: title,
-        iconKey: area.icon as BrowserGroup["iconKey"],
+        iconKey: area.icon,
         practiceSlug: area.slug,
         items: byCategory.get(title)!,
       });

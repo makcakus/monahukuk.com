@@ -20,20 +20,16 @@ type NavItem = NavLeaf | NavGroup;
 
 const NAV_ITEMS: readonly NavItem[] = [
   { type: "link", href: "/", key: "home" },
-  {
-    type: "group",
-    key: "about",
-    matchPrefixes: ["/about", "/team"],
-    items: [
-      { href: "/about", key: "about" },
-      { href: "/team", key: "team" },
-    ],
-  },
+  // Görev 9: "Hakkımızda" ve "Ekibimiz" iki ayrı top-level link;
+  // dropdown yok → "Ekibimiz" başlık olarak her zaman görünür.
+  { type: "link", href: "/about", key: "about" },
+  { type: "link", href: "/team", key: "team" },
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
+  // Hukuki bülten yalnızca TR ve EN'de yayınlanmaktadır; bu kasıtlı bir editoryal karardır.
   { type: "link", href: "/legal-news", key: "legalNews", locales: ["tr", "en"] as const },
   { type: "link", href: "/contact", key: "contact" },
-  { type: "link", href: "/privacy-policy", key: "privacy" },
+  // Gizlilik Politikası üst menüden kaldırıldı; footer'da tutuluyor.
 ] as const;
 
 export function Header() {
@@ -228,7 +224,7 @@ export function Header() {
               );
             })}
             <div className="pt-3 border-t border-cream-200 dark:border-navy-800 flex items-center justify-between">
-              <LangSwitcher />
+              <LangSwitcher align="start" />
               <ThemeToggle />
             </div>
           </nav>

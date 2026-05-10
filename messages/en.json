@@ -77,6 +77,9 @@
       }
     },
     "areasIntro": "We serve clients across the principal branches of Turkish law:",
+    "founderTitle": "Founding Partner",
+    "founderLead": "Lead author of the legal articles on this site; professionally responsible for their content.",
+    "founderViewProfile": "View the full team",
     "ctaTitle": "Request legal counsel",
     "ctaBody": "On every file we review the facts together with the client and clarify the next step."
   },
@@ -96,7 +99,7 @@
   "team": {
     "title": "Our Team",
     "lead": "A small, senior team of attorneys committed to international clients.",
-    "intro": "MONA HUKUK represents foreign-national clients in their legal matters in Turkey through a team of experienced attorneys registered with the Antalya Bar Association. Our team serves across a broad expertise range including real estate, citizenship, family law, criminal defence, commercial, inheritance, and administrative disputes.",
+    "intro": "MONA HUKUK represents foreign-national clients in their legal matters in Turkey through a team of experienced attorneys registered with the Turkish bar. Our team serves across a broad expertise range including real estate, citizenship, family law, criminal defence, commercial, inheritance, and administrative disputes.",
     "labelEducation": "Education",
     "labelBar": "Bar",
     "labelAreas": "Practice Areas",
@@ -110,7 +113,8 @@
     "readMore": "Read article",
     "minRead": "min read",
     "publishedOn": "Published",
-    "backToList": "Legal News"
+    "backToList": "Legal News",
+    "eyebrow": "Legal Bulletin"
   },
   "newsletter": {
     "kicker": "Mona Hukuk - Weekly Legal Newsletter",
@@ -118,12 +122,30 @@
     "body": "Official Gazette notices, court decisions, and key legislative changes delivered to your inbox in a weekly digest. Our Legal Newsletter is completely free.",
     "placeholder": "Your email address",
     "button": "Subscribe",
-    "submitting": "Subscribing…",
-    "successTitle": "You're subscribed",
-    "successBody": "You have successfully subscribed to our newsletter. The first issue is on its way.",
+    "submitting": "Sending…",
+    "pendingTitle": "Verification email sent",
+    "resentTitle": "Verification email resent",
+    "pendingBody": "Check your inbox and click the link in the email to complete your subscription. The link is valid for 48 hours.",
+    "alreadyTitle": "You're already subscribed",
+    "alreadyBody": "This email address is already on our newsletter list. You can unsubscribe any time via the link at the bottom of each issue.",
     "consent": "I consent to my email address being processed for the purpose of receiving the newsletter. I can unsubscribe at any time via the link in each email.",
+    "consentRequired": "Please tick the consent checkbox to continue.",
     "invalidEmail": "Please enter a valid email address.",
-    "serverError": "Something went wrong. Please try again later."
+    "serverError": "Something went wrong. Please try again later.",
+    "interestRegisteredTitle": "Your interest has been registered",
+    "interestRegisteredBody": "We'll notify you once the newsletter is active. In the meantime, feel free to reach us at contact@monahukuk.com."
+  },
+  "newsletterPages": {
+    "confirmedTitle": "Subscription confirmed",
+    "confirmedBody": "You have successfully subscribed to the Mona Hukuk weekly legal newsletter. The first issue is on its way as soon as it is published.",
+    "unsubscribedTitle": "You have been unsubscribed",
+    "unsubscribedBody": "Your email address has been removed from our newsletter list and from our Resend audience.",
+    "expiredTitle": "This link has expired",
+    "expiredBody": "The confirmation link is older than 48 hours. Please submit your email address again and we will send you a fresh confirmation email.",
+    "invalidTitle": "Invalid link",
+    "invalidBody": "This link is not recognised, or it has already been used. If the issue persists, write to contact@monahukuk.com.",
+    "backToNews": "Back to Legal News",
+    "backToHome": "Back to home"
   },
   "articles": {
     "title": "Legal Articles",
@@ -136,6 +158,7 @@
     "articleOne": "article",
     "articleMany": "articles",
     "relatedSuffix": "— Related Articles",
+    "relatedTitle": "Related Articles",
     "viewPracticeArea": "Explore this practice area",
     "searchPlaceholder": "Search articles — title and full text",
     "searchClear": "Clear search",
@@ -148,7 +171,7 @@
     "office": "Office",
     "officeAddress": "Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye",
     "phone": "Phone",
-    "phoneNumber": "+90 (242) 606 14 32",
+    "phoneNumber": "+90 (242) 606 14 32",
     "emailLabel": "Email",
     "emailAddress": "contact@monahukuk.com",
     "hours": "Working hours",
@@ -161,7 +184,7 @@
     "intro": "At MONA HUKUK, we attach great importance to your privacy and the protection of your personal data. This Privacy Policy explains how personal data of those who visit our website, use our services, or contact us is collected, used, shared and protected by us. The Policy has been prepared in compliance with the Turkish Personal Data Protection Law No. 6698 (KVKK) and, where applicable, the European Union General Data Protection Regulation (GDPR).",
     "s1": {
       "title": "1. Data Controller",
-      "body": "The data controller under this policy is MONA HUKUK Law Office, based in Antalya. Address: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye. Email: contact@monahukuk.com. Phone: +90 (242) 606 14 32."
+      "body": "The data controller under this policy is MONA HUKUK Law Office, based in Antalya. Address: Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye. Email: contact@monahukuk.com. Phone: +90 (242) 606 14 32."
     },
     "s2": {
       "title": "2. Personal Data We Collect",
@@ -249,12 +272,15 @@
     },
     "s14": {
       "title": "14. Contact",
-      "body": "For any questions, requests or concerns regarding this Privacy Policy or the processing of your personal data, you may contact us through the following channels: email contact@monahukuk.com, phone +90 (242) 606 14 32, address Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye."
+      "body": "For any questions, requests or concerns regarding this Privacy Policy or the processing of your personal data, you may contact us through the following channels: email contact@monahukuk.com, phone +90 (242) 606 14 32, address Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkiye."
     }
   },
   "footer": {
     "rights": "All rights reserved.",
-    "disclaimer": "This website is for general information only and does not constitute legal advice."
+    "disclaimer": "This website is for general information only and does not constitute legal advice.",
+    "newsletterHeading": "Weekly Legal Newsletter",
+    "newsletterCta": "Subscribe",
+    "siteMap": "Site Map"
   },
   "cookies": {
     "title": "Cookie Notice (KVKK / GDPR)",

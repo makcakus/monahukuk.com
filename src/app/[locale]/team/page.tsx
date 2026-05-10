@@ -5,6 +5,9 @@ import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { TEAM, pick } from "@/lib/team";
+import { authorSlug } from "@/lib/author";
+import { JsonLd } from "@/components/JsonLd";
+import { personSchema } from "@/lib/schema";
 
 const PHOTO_BY_NAME: Record<string, string> = {
   "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
@@ -42,6 +45,11 @@ export default async function TeamPage({
 
   return (
     <>
+      {/* Görev 4: her üye için Person JSON-LD (E-E-A-T) */}
+      {TEAM.map((m) => (
+        <JsonLd key={`person-${m.name}`} data={personSchema(m, locale)} />
+      ))}
+
       <PageHero title={t("title")} lead={t("lead")} />
 
       {/* Intro / SEO content */}
@@ -52,10 +60,13 @@ export default async function TeamPage({
       <section className="mx-auto max-w-5xl px-6 py-16 space-y-16">
         {TEAM.map((member) => {
           const photo = PHOTO_BY_NAME[member.name];
+          // Article'lardan gelen `/team#mustafa-akcakus` gibi linklere scroll-anchor.
+          const slug = authorSlug(member.name);
           return (
             <article
               key={member.name}
-              className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 border-b border-cream-200 pb-16 last:border-b-0 last:pb-0"
+              id={slug}
+              className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 border-b border-cream-200 pb-16 last:border-b-0 last:pb-0 scroll-mt-24"
             >
               <div className="md:col-span-1">
                 <div className="relative aspect-square overflow-hidden rounded-sm bg-cream-100">
