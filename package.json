@@ -11,6 +11,7 @@
     "validate:translations": "node scripts/check-translation-coverage.mjs",
     "validate:links": "node scripts/validate-links.mjs",
     "validate": "npm run validate:content && npm run validate:translations && npm run validate:links",
+    "suggest:links": "node scripts/suggest-internal-links.mjs",
     "prebuild": "npm run validate"
   },
   "dependencies": {
