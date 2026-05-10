@@ -11,6 +11,8 @@ interface PageMetaInput {
   type?: "website" | "article";
   publishedTime?: string;
   extraKeywords?: string[];
+  /** Per-locale relative paths for article hreflang. Keys: locale codes + "x-default". Values: path relative to /{locale}. */
+  articleLanguages?: Record<string, string>;
 }
 
 export function pageMetadata({
@@ -22,15 +24,28 @@ export function pageMetadata({
   type = "website",
   publishedTime,
   extraKeywords = [],
+  articleLanguages,
 }: PageMetaInput): Metadata {
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   const canonical = `${SITE.url}/${locale}${cleanPath === "/" ? "" : cleanPath}`;
 
+  // For article pages, use the per-locale paths derived from translationKey.
+  // articleLanguages keys: locale codes + "x-default"; values: relative path, e.g. "/articles/some-slug".
+  // For other pages, mirror the same path across all locales.
   const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[l] = `${SITE.url}/${l}${cleanPath === "/" ? "" : cleanPath}`;
+  if (articleLanguages) {
+    for (const [lang, relPath] of Object.entries(articleLanguages)) {
+      languages[lang] = `${SITE.url}/${lang}${relPath}`;
+    }
+    // x-default points to the EN version when available, otherwise current locale
+    const xDefaultPath = articleLanguages["en"] ?? cleanPath;
+    languages["x-default"] = `${SITE.url}/en${xDefaultPath}`;
+  } else {
+    for (const l of routing.locales) {
+      languages[l] = `${SITE.url}/${l}${cleanPath === "/" ? "" : cleanPath}`;
+    }
+    languages["x-default"] = `${SITE.url}/tr${cleanPath === "/" ? "" : cleanPath}`;
   }
-  languages["x-default"] = `${SITE.url}/tr${cleanPath === "/" ? "" : cleanPath}`;
 
   const baseKw = KEYWORDS[locale] ?? KEYWORDS["tr"];
   const keywords = [...extraKeywords, ...baseKw];

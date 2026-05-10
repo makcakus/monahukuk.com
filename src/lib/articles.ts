@@ -11,6 +11,7 @@ export interface ArticleFrontmatter {
   category?: string;
   slug: string;
   draft?: boolean;
+  translationKey?: string;
 }
 
 export interface Article extends ArticleFrontmatter {
@@ -56,6 +57,7 @@ export async function getArticle(
         category: fm.category,
         slug,
         draft: fm.draft ?? false,
+        translationKey: fm.translationKey,
         body: content,
         readingMinutes: Math.max(1, Math.round(stats.minutes)),
       };

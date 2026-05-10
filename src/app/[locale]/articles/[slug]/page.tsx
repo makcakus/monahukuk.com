@@ -26,6 +26,35 @@ export async function generateMetadata({
   const { locale, slug } = await params;
   const article = await getArticle(locale, slug);
   if (!article) return {};
+
+  // Build per-locale hreflang URLs using translationKey
+  let articleLanguages: Record<string, string> | undefined;
+  const tk = article.translationKey;
+  if (tk) {
+    const langs: Record<string, string> = {};
+
+    // EN, DE, RU: translationKey === their slug
+    for (const loc of ["en", "de", "ru"] as const) {
+      if (loc === locale) {
+        langs[loc] = `/articles/${slug}`;
+      } else {
+        const exists = await getArticle(loc, tk);
+        if (exists) langs[loc] = `/articles/${tk}`;
+      }
+    }
+
+    // TR: find the TR article whose translationKey matches tk
+    if (locale === "tr") {
+      langs["tr"] = `/articles/${slug}`;
+    } else {
+      const allTr = await getAllArticles("tr");
+      const trArticle = allTr.find((a) => a.translationKey === tk);
+      if (trArticle) langs["tr"] = `/articles/${trArticle.slug}`;
+    }
+
+    articleLanguages = langs;
+  }
+
   return pageMetadata({
     locale,
     path: `/articles/${slug}`,
@@ -34,6 +63,7 @@ export async function generateMetadata({
     type: "article",
     publishedTime: article.date,
     extraKeywords: article.category ? [article.category] : [],
+    articleLanguages,
   });
 }
 
