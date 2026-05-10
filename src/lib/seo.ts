@@ -13,6 +13,8 @@ interface PageMetaInput {
   extraKeywords?: string[];
   /** Per-locale relative paths for article hreflang. Keys: locale codes + "x-default". Values: path relative to /{locale}. */
   articleLanguages?: Record<string, string>;
+  /** noindex sayfaları (newsletter onay sayfaları vb.) için. */
+  noindex?: boolean;
 }
 
 export function pageMetadata({
@@ -25,6 +27,7 @@ export function pageMetadata({
   publishedTime,
   extraKeywords = [],
   articleLanguages,
+  noindex = false,
 }: PageMetaInput): Metadata {
   const cleanPath = path.startsWith("/") ? path : `/${path}`;
   const canonical = `${SITE.url}/${locale}${cleanPath === "/" ? "" : cleanPath}`;
@@ -74,6 +77,8 @@ export function pageMetadata({
       description,
       images: [image],
     },
-    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
+    robots: noindex
+      ? { index: false, follow: false, googleBot: { index: false, follow: false } }
+      : { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }

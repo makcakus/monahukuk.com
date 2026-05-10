@@ -155,7 +155,7 @@ export default async function ArticlePage({
       </p>
       {authorLabel && (
         <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-          <Link href={`/${locale}/team`} className="hover:underline font-medium">
+          <Link href="/team" className="hover:underline font-medium">
             {authorLabel}
           </Link>
           {" · "}

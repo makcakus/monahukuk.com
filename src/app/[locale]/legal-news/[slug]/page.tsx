@@ -27,14 +27,18 @@ export async function generateMetadata({
   const post = await getGazettePost(locale, slug);
   if (!post) return {};
 
-  // Aynı slug için TR ve EN'de versiyon var mı?
+  // Aynı slug için TR ve EN'de versiyon var mı? Hreflang yalnızca var olanlara yazılsın.
+  const localeList = ["tr", "en"] as const;
   const checks = await Promise.all(
-    (["tr", "en"] as const).map(async (l) => {
+    localeList.map(async (l) => {
       const p = await getGazettePost(l, slug);
       return p ? l : null;
     })
   );
-  const availableLocales: string[] = checks.filter((l): l is NonNullable<typeof l> => l !== null);
+  const articleLanguages: Record<string, string> = {};
+  for (const l of checks) {
+    if (l) articleLanguages[l] = `/legal-news/${slug}`;
+  }
 
   return pageMetadata({
     locale,
@@ -43,7 +47,7 @@ export async function generateMetadata({
     description: post.description,
     type: "article",
     publishedTime: post.date,
-    availableLocales,
+    articleLanguages: Object.keys(articleLanguages).length > 0 ? articleLanguages : undefined,
   });
 }
 
