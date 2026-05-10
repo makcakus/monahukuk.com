@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -132,6 +133,13 @@ export default async function ArticlePage({
       <div className="prose-legal">
         <MDXRemote source={article.body} />
       </div>
+
+      <RelatedArticles
+        locale={locale}
+        currentSlug={slug}
+        category={article.category}
+        manualRelated={article.relatedSlugs}
+      />
     </article>
   );
 }
