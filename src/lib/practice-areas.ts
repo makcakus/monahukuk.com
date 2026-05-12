@@ -95,7 +95,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       en: "We represent clients in international divorce proceedings, custody and alimony disputes, marriage and prenuptial agreements, and the recognition of foreign court judgments in Turkey. Our experienced family law attorneys actively protect and defend the rights of foreign nationals under Turkish family law.",
       de: "Wir vertreten Mandanten in internationalen Scheidungsverfahren, Sorgerechts- und Unterhaltsstreitigkeiten, bei Ehe- und Eheverträgen sowie bei der Anerkennung ausländischer Gerichtsentscheidungen in der Türkei. Unsere erfahrenen Familienrechtsanwälte schützen und verteidigen die Rechte ausländischer Staatsangehöriger nach türkischem Familienrecht engagiert.",
       ru: "Мы представляем клиентов в международных бракоразводных процессах, спорах об опеке и алиментах, при заключении брачных договоров и признании иностранных судебных решений в Турции. Наши опытные адвокаты по семейному праву активно защищают права иностранных граждан в соответствии с турецким семейным законодательством.",
-      ar: "نمثل العملاء في قضايا الطلاق الدولية ونزاعات الحضانة والنفقة واتفاقيات ما قبل الزواج وعقود الزواج والاعتراف بأحكام المحاكم الأجنبية في تركيا. يحمي محامو قانون الأسرة المتمرسون لدينا ويدافعون بنشاط عن حقوق المواطنين الأجانب بموجب قانون الأسرة التركي.",
+      ar: "نمثل العملاء في قضايا الطلاق الدولية ونزاعات الحضانة والنفقة واتفاقيات الأملاك قبل الزواج وأثناءه والاعتراف بأحكام المحاكم الأجنبية في تركيا. يحمي محامو قانون الأسرة المتمرسون لدينا ويدافعون بنشاط عن حقوق المواطنين الأجانب بموجب قانون الأسرة التركي.",
     },
   },
   {
@@ -185,7 +185,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       en: "We advise foreign employees and international companies on employment contract disputes, wrongful termination, severance and notice pay claims, and workplace law. We deliver practical, swift solutions to legal issues encountered in expat employment in Turkey.",
       de: "Wir beraten ausländische Arbeitnehmer und internationale Unternehmen bei Streitigkeiten aus Arbeitsverträgen, unrechtmäßigen Kündigungen, Ansprüchen auf Abfindung (kıdem tazminatı) und Kündigungsfristentschädigung (ihbar tazminatı) sowie zu Fragen des Arbeitsplatzrechts. Wir liefern praktische und schnelle Lösungen für rechtliche Fragen rund um die Beschäftigung von Expats in der Türkei.",
       ru: "Мы консультируем иностранных работников и международные компании по спорам из трудовых договоров, неправомерному увольнению, требованиям о выплате выходного пособия (kıdem tazminatı) и компенсации за нарушение срока предупреждения об увольнении (ihbar tazminatı), а также по трудовому законодательству в целом. Мы предлагаем практические и быстрые решения правовых вопросов, возникающих при трудоустройстве экспатов в Турции.",
-      ar: "نقدم المشورة للموظفين الأجانب والشركات الدولية بشأن نزاعات عقود العمل والفصل التعسفي ومطالبات مكافأة نهاية الخدمة وبدل الإشعار وأنظمة العمل الداخلية. نقدم حلولاً عملية وسريعة للمشكلات القانونية التي تواجه التوظيف الخارجي في تركيا.",
+      ar: "نقدم المشورة للموظفين الأجانب والشركات الدولية بشأن نزاعات عقود العمل والفصل التعسفي ومطالبات مكافأة نهاية الخدمة وبدل الإشعار وأنظمة العمل الداخلية. نقدم حلولاً عملية وسريعة للمشكلات القانونية المتعلقة بتوظيف المغتربين في تركيا.",
     },
   },
   {

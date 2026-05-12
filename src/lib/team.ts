@@ -65,7 +65,7 @@ export const TEAM: Member[] = [
       en: "Founding partner with over a decade of practice, Aykut advises foreign investors and individuals on real estate transactions, corporate matters, family disputes, and enforcement proceedings.",
       de: "Als Gründungspartner mit über einem Jahrzehnt Berufserfahrung berät Aykut ausländische Investoren und Privatpersonen in Immobilientransaktionen, Unternehmensfragen, Familienstreitigkeiten und Vollstreckungsverfahren.",
       ru: "Основатель-партнёр с более чем десятилетним опытом, Айкут консультирует иностранных инвесторов и частных лиц по вопросам сделок с недвижимостью, корпоративным делам, семейным спорам и исполнительным производствам.",
-      ar: "مؤسس وشريك بخبرة تمتد لأكثر من عقد، يقدم أيقوت المشورة للمستثمرين الأجانب والأفراد في معاملات العقارات والشؤون التجارية والنزاعات الأسرية وإجراءات التنفيذ.",
+      ar: "مؤسس وشريك بخبرة تمتد لأكثر من عقد، يقدم أيكوت المشورة للمستثمرين الأجانب والأفراد في معاملات العقارات والشؤون التجارية والنزاعات الأسرية وإجراءات التنفيذ.",
     },
   },
   {

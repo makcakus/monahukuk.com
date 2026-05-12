@@ -104,10 +104,10 @@
     "labelBar": "Rechtsanwaltskammer",
     "labelAreas": "Rechtsgebiete",
     "ctaTitle": "Beginnen Sie die Zusammenarbeit mit unserem Team",
-    "ctaBody": "Als Anwaltskanzlei für Ausländer in Antalya kontaktieren Sie uns für Rechtsberatung und Prozessvertretung."
+    "ctaBody": "Kontaktieren Sie uns für Rechtsberatung und Prozessvertretung."
   },
   "articles": {
-    "title": "Rechtliche Artikel",
+    "title": "Rechtsartikel",
     "lead": "Praktische Leitfäden und Analysen zum türkischen Recht, verfasst für Nicht-Juristen – mit besonderem Fokus auf Themen, die ausländische Staatsangehörige und internationale Unternehmen betreffen.",
     "empty": "Noch keine Artikel vorhanden. Bitte schauen Sie bald wieder vorbei.",
     "readMore": "Artikel lesen",
@@ -123,6 +123,25 @@
     "searchClear": "Suche leeren",
     "searchEmpty": "Keine Artikel entsprechen Ihrer Suche.",
     "searchResultsLabel": "Ergebnisse"
+  },
+  "newsletter": {
+    "kicker": "Mona Hukuk – Wöchentlicher Rechts-Newsletter",
+    "title": "Verpassen Sie keine aktuellen Rechtsentwicklungen!",
+    "body": "Amtsblatt-Bekanntmachungen, Gerichtsentscheidungen und wichtige Gesetzesänderungen wöchentlich zusammengefasst – direkt in Ihr Postfach. Unser Rechts-Newsletter ist vollständig kostenlos.",
+    "placeholder": "Ihre E-Mail-Adresse",
+    "button": "Abonnieren",
+    "submitting": "Wird gesendet…",
+    "pendingTitle": "Bestätigungs-E-Mail gesendet",
+    "resentTitle": "Bestätigungs-E-Mail erneut gesendet",
+    "pendingBody": "Prüfen Sie Ihr Postfach und klicken Sie auf den Link in der E-Mail, um Ihr Abonnement abzuschließen. Der Link ist 48 Stunden gültig.",
+    "alreadyTitle": "Sie sind bereits abonniert",
+    "alreadyBody": "Diese E-Mail-Adresse ist bereits in unserer Newsletter-Liste. Sie können das Abonnement jederzeit über den Link am Ende jeder Ausgabe kündigen.",
+    "consent": "Ich stimme der Verarbeitung meiner E-Mail-Adresse zum Zweck des Newsletter-Empfangs zu. Ich kann das Abonnement jederzeit über den Link in jeder E-Mail kündigen.",
+    "consentRequired": "Bitte aktivieren Sie das Zustimmungs-Kontrollkästchen, um fortzufahren.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "serverError": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+    "interestRegisteredTitle": "Ihr Interesse wurde registriert",
+    "interestRegisteredBody": "Wir benachrichtigen Sie, sobald der Newsletter aktiv ist. In der Zwischenzeit erreichen Sie uns unter contact@monahukuk.com."
   },
   "newsletterPages": {
     "confirmedTitle": "Abonnement bestätigt",
