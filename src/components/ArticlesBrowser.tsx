@@ -17,6 +17,7 @@ import {
   FileText,
   HardHat,
   Building2,
+  Key,
   BookOpen,
 } from "lucide-react";
 import type { ReactNode } from "react";
@@ -36,6 +37,7 @@ const ICONS: Record<IconKey, ReactNode> = {
   FileText: <FileText size={20} />,
   HardHat: <HardHat size={20} />,
   Building2: <Building2 size={20} />,
+  Key: <Key size={20} />,
   BookOpen: <BookOpen size={20} />,
 };
 
