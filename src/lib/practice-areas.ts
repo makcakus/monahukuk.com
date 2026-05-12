@@ -10,7 +10,8 @@ export type PracticeIconKey =
   | "Briefcase"
   | "FileText"
   | "HardHat"
-  | "Building2";
+  | "Building2"
+  | "Key";
 
 export type PracticeArea = {
   slug: string;
@@ -75,7 +76,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       tr: "Yatırım, evlilik veya uzun süreli ikamet yoluyla Türk vatandaşlığı edinmek isteyen yabancılara başvuru sürecinin her aşamasında hukuki destek sağlıyoruz. 400.000 USD değerinde gayrimenkul yatırımı veya diğer kanallarla vatandaşlık başvurularını doğru ve hızlı biçimde yürütüyoruz.",
       en: "We provide legal support at every stage of the Turkish citizenship application process for foreign nationals seeking citizenship through investment, marriage, or long-term residence. We manage applications via the 400,000 USD real estate investment route or other eligible channels accurately and efficiently.",
       de: "Wir bieten in jeder Phase des türkischen Einbürgerungsverfahrens rechtliche Unterstützung für ausländische Staatsangehörige, die die Staatsbürgerschaft durch Investition, Heirat oder langfristigen Aufenthalt anstreben. Wir begleiten Anträge über die Immobilieninvestition in Höhe von 400.000 USD oder andere zugelassene Wege präzise und zügig.",
-      ru: "Мы оказываем правовую поддержку на каждом этапе процедуры получения гражданства Турции для иностранцев, стремящихся к гражданству через инвестиции, брак или длительное проживание. Мы ведём заявления по пути инвестиций в недвижимость на сумму 400 000 долларов США или другим приемлемым каналам точно и эффективно.",
+      ru: "Мы оказываем правовую поддержку на каждом этапе процедуры получения гражданства Турции для иностранцев, стремящихся к гражданству через инвестиции, брак или длительное проживание. Мы сопровождаем заявления по маршруту инвестиций в недвижимость на сумму 400 000 долларов США или другим доступным каналам точно и эффективно.",
       ar: "نقدم الدعم القانوني في كل مرحلة من مراحل إجراءات الحصول على الجنسية التركية للمواطنين الأجانب الساعين إلى الجنسية عن طريق الاستثمار أو الزواج أو الإقامة طويلة الأمد. ندير الطلبات عبر مسار الاستثمار العقاري البالغ 400,000 دولار أمريكي أو القنوات المؤهلة الأخرى بدقة وكفاءة.",
     },
   },
@@ -165,7 +166,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       tr: "Türkiye'de miras kalan gayrimenkul, banka hesabı veya diğer varlıklara ilişkin intikal işlemlerinde yabancı mirasçılara hukuki destek sağlıyoruz. Vasiyetname düzenlenmesi, tereke tespiti, miras paylaşım davaları ve yabancı mahkeme vasiyetnamelerinin Türkiye'de tanınması konularında rehberlik ediyoruz.",
       en: "We provide legal support to foreign heirs with the transfer of real estate, bank accounts, and other assets inherited in Turkey. We guide clients through the preparation of wills, estate inventory, inheritance distribution proceedings, and the recognition of foreign wills in Turkey.",
       de: "Wir bieten ausländischen Erben rechtliche Unterstützung bei der Übertragung von Immobilien, Bankkonten oder anderen in der Türkei geerbten Vermögenswerten. Wir begleiten Mandanten durch Testamentsvorbereitung, Nachlassinventar, Erbverteilungsverfahren und die Anerkennung ausländischer Testamente in der Türkei.",
-      ru: "Мы оказываем правовую поддержку иностранным наследникам в отношении передачи недвижимости, банковских счетов или других активов, унаследованных в Турции. Мы сопровождаем клиентов через составление завещания, инвентаризацию наследства, разбирательства по распределению наследства и признание иностранных завещаний в Турции.",
+      ru: "Мы оказываем правовую поддержку иностранным наследникам в отношении передачи недвижимости, банковских счетов или других активов, унаследованных в Турции. Мы консультируем клиентов при составлении завещания, инвентаризации наследства, разбирательствах по распределению наследства и признании иностранных завещаний в Турции.",
       ar: "نقدم الدعم القانوني للورثة الأجانب فيما يخص نقل العقارات والحسابات المصرفية أو غيرها من الأصول الموروثة في تركيا. نرشد العملاء خلال إعداد الوصايا وجرد التركة وإجراءات توزيع الميراث والاعتراف بالوصايا الأجنبية في تركيا.",
     },
   },
@@ -183,8 +184,26 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       tr: "Yabancı çalışanların ve uluslararası şirketlerin iş sözleşmesi uyuşmazlıkları, haksız işten çıkarma, kıdem ve ihbar tazminatı talepleri ile işyeri hukuku konularında danışmanlık veriyoruz. Türkiye'deki expat istihdamında karşılaşılan hukuki sorunlara pratik ve hızlı çözümler üretiyoruz.",
       en: "We advise foreign employees and international companies on employment contract disputes, wrongful termination, severance and notice pay claims, and workplace law. We deliver practical, swift solutions to legal issues encountered in expat employment in Turkey.",
       de: "Wir beraten ausländische Arbeitnehmer und internationale Unternehmen bei Streitigkeiten aus Arbeitsverträgen, unrechtmäßigen Kündigungen, Ansprüchen auf Abfindung (kıdem tazminatı) und Kündigungsfristentschädigung (ihbar tazminatı) sowie zu Fragen des Arbeitsplatzrechts. Wir liefern praktische und schnelle Lösungen für rechtliche Fragen rund um die Beschäftigung von Expats in der Türkei.",
-      ru: "Мы консультируем иностранных работников и международные компании по спорам из трудовых договоров, неправомерному увольнению, требованиям о выплате выходного пособия (kıdem tazminatı) и компенсации за несоблюдение срока предупреждения об увольнении (ihbar tazminatı), а также по вопросам трудового права на рабочем месте. Мы предлагаем практические и быстрые решения правовых вопросов, возникающих при трудоустройстве экспатов в Турции.",
+      ru: "Мы консультируем иностранных работников и международные компании по спорам из трудовых договоров, неправомерному увольнению, требованиям о выплате выходного пособия (kıdem tazminatı) и компенсации за нарушение срока предупреждения об увольнении (ihbar tazminatı), а также по трудовому законодательству в целом. Мы предлагаем практические и быстрые решения правовых вопросов, возникающих при трудоустройстве экспатов в Турции.",
       ar: "نقدم المشورة للموظفين الأجانب والشركات الدولية بشأن نزاعات عقود العمل والفصل التعسفي ومطالبات مكافأة نهاية الخدمة وبدل الإشعار وأنظمة العمل الداخلية. نقدم حلولاً عملية وسريعة للمشكلات القانونية التي تواجه التوظيف الخارجي في تركيا.",
+    },
+  },
+  {
+    slug: "kira-hukuku",
+    icon: "Key",
+    title: {
+      tr: "Kira Hukuku",
+      en: "Rental Law",
+      de: "Mietrecht",
+      ru: "Арендное право",
+      ar: "قانون الإيجار",
+    },
+    description: {
+      tr: "Kiracı ve kiraya veren uyuşmazlıklarında, kira sözleşmelerinin hazırlanması ve incelenmesinde, tahliye davalarında ve kira tespit ile uyarlama süreçlerinde deneyimli avukatlarla hizmet veriyoruz. Antalya'da yabancı kiracı ve mülk sahiplerine özel destekle güvenli bir kiralama süreci yönetiyoruz.",
+      en: "We assist landlords and tenants in rental disputes, lease agreement drafting and review, eviction proceedings, and rent determination or adjustment cases. We provide dedicated support to foreign tenants and property owners in Antalya for a legally secure rental process.",
+      de: "Wir unterstützen Vermieter und Mieter bei Mietstreitigkeiten, der Erstellung und Prüfung von Mietverträgen, Räumungsverfahren sowie Mietfestsetzungs- und Anpassungsverfahren. Ausländischen Mietern und Eigentümern in Antalya bieten wir gezielte Unterstützung für einen rechtssicheren Mietprozess.",
+      ru: "Мы помогаем арендодателям и арендаторам в арендных спорах, составлении и проверке договоров аренды, судебных процессах о выселении, а также делах об определении и пересмотре арендной платы. Мы оказываем специализированную поддержку иностранным арендаторам и владельцам недвижимости в Анталье.",
+      ar: "نساعد الملاك والمستأجرين في نزاعات الإيجار وصياغة عقود الإيجار ومراجعتها وإجراءات الإخلاء وقضايا تحديد الإيجار أو تعديله. نقدم دعماً متخصصاً للمستأجرين الأجانب وأصحاب العقارات في أنطاليا لضمان عملية إيجار آمنة قانونياً.",
     },
   },
   {
@@ -200,9 +219,9 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     description: {
       tr: "Vize reddi, oturma izni iptali, sınır dışı kararları ve diğer idari işlemlere karşı idare mahkemelerinde itiraz davalarını yürütüyoruz. Kamu kurumları önünde yabancı uyruklu müvekkillerin haklarını savunarak hukuka aykırı idari kararların iptali için etkin mücadele veriyoruz.",
       en: "We conduct administrative court appeals against visa refusals, residence permit cancellations, deportation decisions, and other administrative acts. We actively fight for the annulment of unlawful administrative decisions, defending the rights of foreign nationals before public authorities.",
-      de: "Wir führen Verwaltungsgerichtsverfahren gegen Visa-Ablehnungen, Widerrufe von Aufenthaltserlaubnissen, Ausweisungsbeschlüsse und andere Verwaltungsakte. Wir kämpfen aktiv für die Aufhebung rechtswidriger Verwaltungsentscheidungen und verteidigen die Rechte ausländischer Staatsangehöriger vor Behörden.",
+      de: "Wir führen Verwaltungsgerichtsverfahren gegen Visa-Ablehnungen, Widerrufe von Aufenthaltserlaubnissen, Ausweisungsbeschlüsse und andere Verwaltungsakte. Wir setzen uns aktiv für die Aufhebung rechtswidriger Verwaltungsentscheidungen ein und verteidigen die Rechte ausländischer Staatsangehöriger vor Behörden.",
       ru: "Мы ведём апелляции в административных судах против отказов в визе, аннулирования вида на жительство, решений о депортации и других административных актов. Мы активно добиваемся отмены незаконных административных решений, защищая права иностранных граждан перед государственными органами.",
-      ar: "ندير طعون المحاكم الإدارية ضد رفض التأشيرات وإلغاء تصاريح الإقامة وقرارات الترحيل وغيرها من الإجراءات الإدارية. نناضل بنشاط من أجل إلغاء القرارات الإدارية غير المشروعة ونحمي حقوق المواطنين الأجانب أمام السلطات العامة.",
+      ar: "نرفع الطعون أمام المحاكم الإدارية ضد رفض التأشيرات وإلغاء تصاريح الإقامة وقرارات الترحيل وغيرها من الإجراءات الإدارية. نسعى بنشاط إلى إلغاء القرارات الإدارية غير المشروعة ونحمي حقوق المواطنين الأجانب أمام السلطات العامة.",
     },
   },
 ];

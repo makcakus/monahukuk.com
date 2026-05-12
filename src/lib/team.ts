@@ -78,7 +78,7 @@ export const TEAM: Member[] = [
       ar: "محامٍ أول",
     },
     education: "Selçuk University / Selçuk Üniversitesi Hukuk Fakültesi, 2014",
-    bar: "Antalya Barosu (2023'ten itibaren)",
+    bar: "Antalya Barosu (since 2023)",
     areas: [
       { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي" },
       { tr: "İş Hukuku", en: "Labour Law", de: "Arbeitsrecht", ru: "Трудовое право", ar: "قانون العمل" },
@@ -126,7 +126,7 @@ export const TEAM: Member[] = [
       ar: "محامية متدربة",
     },
     education: "Süleyman Demirel University / SDÜ Hukuk Fakültesi, 2023",
-    bar: "Antalya Barosu (stajyer)",
+    bar: "Antalya Barosu",
     areas: [
       { tr: "Sağlık Hukuku", en: "Health Law", de: "Gesundheitsrecht", ru: "Медицинское право", ar: "قانون الصحة" },
       { tr: "Yabancılar & Göç Hukuku", en: "Immigration Law", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الهجرة والأجانب" },
@@ -137,8 +137,8 @@ export const TEAM: Member[] = [
       tr: "Tuğba; Sağlık Hukuku, Yabancılar Hukuku, Aile Hukuku ve ceza sorumluluğu alanlarında uzmanlaşmakta, yabancı müvekkillerin Türk Hukuki süreçlerinde yol almalarına destek olmaktadır.",
       en: "Tuğba is actively developing her expertise across Health Law, Immigration Law, Family Law, and criminal liability matters, providing support to foreign clients navigating Turkish legal processes.",
       de: "Tuğba entwickelt aktiv ihre Expertise in den Bereichen Gesundheitsrecht, Einwanderungsrecht, Familienrecht und strafrechtliche Haftung und unterstützt ausländische Mandanten bei der Orientierung im türkischen Rechtssystem.",
-      ru: "Тугба активно развивает свою экспертизу в области медицинского права, иммиграционного права, семейного права и уголовной ответственности, оказывая поддержку иностранным клиентам в навигации по турецким правовым процессам.",
-      ar: "تطور طغبا بنشاط خبراتها في قانون الصحة وقانون الهجرة وقانون الأسرة ومسائل المسؤولية الجنائية، وتقدم الدعم للعملاء الأجانب للتعامل مع الإجراءات القانونية التركية.",
+      ru: "Тугба активно развивает свою экспертизу в области медицинского права, иммиграционного права, семейного права и уголовной ответственности, помогая иностранным клиентам разобраться в турецкой правовой системе.",
+      ar: "تطوِّر طغبا بنشاط خبراتها في قانون الصحة وقانون الهجرة وقانون الأسرة ومسائل المسؤولية الجنائية، وتقدم الدعم للعملاء الأجانب للتعامل مع الإجراءات القانونية التركية.",
     },
   },
 ];

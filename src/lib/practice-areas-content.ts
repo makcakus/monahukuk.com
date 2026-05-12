@@ -1433,6 +1433,181 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
     },
   },
   {
+    slug: "kira-hukuku",
+    metaTitle: {
+      tr: "Antalya Kira Hukuku Avukatı | Tahliye, Kira Tespiti & Kiracı Hakları",
+      en: "Rental Law Lawyer Antalya | Eviction, Rent Determination & Tenant Rights",
+      de: "Mietrechtsanwalt Antalya | Räumung, Mietfestsetzung & Mieterrechte",
+      ru: "Адвокат по арендному праву в Анталье | Выселение, определение арендной платы и права арендатора",
+      ar: "محامي قانون الإيجار في أنطاليا | الإخلاء وتحديد الإيجار وحقوق المستأجر",
+    },
+    metaDescription: {
+      tr: "Antalya'da kira hukuku avukatı olarak tahliye davaları, kira tespit ve uyarlama, depozito uyuşmazlıkları ve yabancı kiracıların hakları konularında deneyimli hukuki destek sunuyoruz.",
+      en: "As a rental law lawyer in Antalya, we provide experienced legal support in eviction cases, rent determination and adjustment, deposit disputes, and the rights of foreign tenants.",
+      de: "Als Mietrechtsanwalt in Antalya bieten wir erfahrene rechtliche Unterstützung bei Räumungsverfahren, Mietfestsetzung und -anpassung, Kautionsstreitigkeiten und den Rechten ausländischer Mieter.",
+      ru: "Как адвокат по арендному праву в Анталье, мы оказываем юридическую помощь по делам о выселении, определении и пересмотре арендной платы, спорам о залоге и правам иностранных арендаторов.",
+      ar: "بوصفنا محامي قانون الإيجار في أنطاليا، نقدم دعماً قانونياً في قضايا الإخلاء وتحديد الإيجار وتعديله ونزاعات التأمين وحقوق المستأجرين الأجانب.",
+    },
+    intro: {
+      tr: "Türk Borçlar Kanunu çerçevesinde kira ilişkilerini düzenleyen hukuki kurallar, hem kiracıyı hem kiraya vereni koruyucu bir denge üzerine inşa edilmiştir. Ancak bu dengeyi pratikte kullanabilmek; sözleşmenin doğru hazırlanmasından başlayarak, uyuşmazlık çıktığında doğru yasal yolu seçmeye kadar uzanan süreçte hukuki rehberlik gerektirir.\n\nAntalya'da kira uyuşmazlıklarındaki deneyimimizle; kiraya verenin zamanında ve hukuka uygun biçimde tahliye alabilmesi ya da kiracının haksız müdahalelere karşı haklarını koruyabilmesi için en etkili yolu birlikte belirliyoruz. Yabancı uyruklu kiracı ve mülk sahiplerine de aynı özende Türkçe ve İngilizce hizmet sunuyoruz.",
+      en: "The legal rules governing rental relationships under the Turkish Code of Obligations are built on a balance that protects both tenant and landlord. Putting that balance to practical use — from drafting a sound lease agreement to choosing the right legal route when a dispute arises — requires proper legal guidance.\n\nDrawing on our experience in rental disputes in Antalya, we work with clients to identify the most effective path: whether that means securing a timely, lawful eviction for the landlord or protecting a tenant's rights against unlawful interference. We provide the same careful support to foreign tenants and property owners, in both Turkish and English.",
+      de: "Die Vorschriften des türkischen Obligationenrechts, die Mietverhältnisse regeln, sind auf eine Balance aufgebaut, die sowohl Mieter als auch Vermieter schützt. Diese Balance praktisch nutzbar zu machen — von der Erstellung eines soliden Mietvertrags bis zur Wahl des richtigen Rechtswegs im Streitfall — erfordert eine fundierte rechtliche Begleitung.\n\nAus unserer Erfahrung mit Mietstreitigkeiten in Antalya erarbeiten wir gemeinsam mit unseren Mandanten den wirksamsten Weg: ob es darum geht, für den Vermieter eine rechtzeitige und rechtmäßige Räumung zu sichern oder die Rechte eines Mieters gegen rechtswidrige Eingriffe zu schützen. Ausländischen Mietern und Eigentümern stehen wir mit derselben Sorgfalt auf Türkisch und Englisch zur Verfügung.",
+      ru: "Правовые нормы, регулирующие арендные отношения по Обязательственному кодексу Турции, построены на балансе, защищающем как арендатора, так и арендодателя. Использовать этот баланс на практике — от составления грамотного договора аренды до выбора правильного юридического пути при возникновении спора — требует квалифицированного юридического сопровождения.\n\nОпираясь на опыт в арендных спорах в Анталье, мы вместе с клиентами определяем наиболее эффективный путь: будь то обеспечение своевременного и законного выселения для арендодателя или защита прав арендатора от незаконного вмешательства. Иностранным арендаторам и владельцам недвижимости мы оказываем такую же тщательную поддержку на турецком и английском языках.",
+      ar: "القواعد القانونية المنظِّمة لعلاقات الإيجار في إطار قانون الالتزامات التركي مبنية على توازن يحمي كلاً من المستأجر والمؤجر. تطبيق هذا التوازن عملياً — من صياغة عقد إيجار سليم إلى اختيار المسار القانوني الصحيح عند نشوء نزاع — يستلزم توجيهاً قانونياً سليماً.\n\nانطلاقاً من خبرتنا في نزاعات الإيجار في أنطاليا، نعمل مع موكلينا على تحديد المسار الأكثر فاعلية: سواء أكان تأمين إخلاء في الوقت المناسب وبصورة قانونية للمؤجر، أم حماية حقوق المستأجر من التدخل غير المشروع. نقدم الدعم ذاته للمستأجرين الأجانب وأصحاب العقارات باللغتين التركية والإنجليزية.",
+    },
+    services: {
+      tr: [
+        "Kira sözleşmelerinin hazırlanması, incelenmesi ve müzakeresi",
+        "Kira tespit ve uyarlama davaları",
+        "Tahliye davaları: kira bedelinin ödenmemesi, sözleşmeye aykırılık, ihtiyaç ve yeniden inşaat",
+        "Kiracı hakları: haksız tahliye ve yasal sınırı aşan kira artışlarına itiraz",
+        "Depozito iadesi uyuşmazlıkları ve hasar tazminatı talepleri",
+        "Ticari kira sözleşmeleri ve işyeri tahliye davaları",
+        "Kısa dönem kiralama (günlük/haftalık) sözleşmeleri ve hukuki danışmanlık",
+        "Yabancı kiracı ve kiraya verenlerin hak ve yükümlülükleri",
+      ],
+      en: [
+        "Drafting, reviewing, and negotiating lease agreements",
+        "Rent determination and rent adjustment proceedings",
+        "Eviction cases: non-payment, breach of contract, landlord's own need, and reconstruction",
+        "Tenant rights: challenging unlawful eviction and above-limit rent increases",
+        "Deposit refund disputes and damage compensation claims",
+        "Commercial lease agreements and business premises eviction proceedings",
+        "Short-term rental (daily/weekly) contracts and legal advice",
+        "Rights and obligations of foreign tenants and landlords",
+      ],
+      de: [
+        "Erstellung, Prüfung und Verhandlung von Mietverträgen",
+        "Mietfestsetzungs- und Mietanpassungsverfahren",
+        "Räumungsverfahren: Nichtzahlung, Vertragsverletzung, Eigenbedarf und Neubau",
+        "Mieterrechte: Anfechtung rechtswidriger Räumungen und überhöhter Mieterhöhungen",
+        "Kautionsrückgabe-Streitigkeiten und Schadensersatzansprüche",
+        "Gewerbemietverträge und Räumungsverfahren für Geschäftsräume",
+        "Kurzzeitmietverträge (täglich/wöchentlich) und Rechtsberatung",
+        "Rechte und Pflichten ausländischer Mieter und Vermieter",
+      ],
+      ru: [
+        "Составление, проверка и согласование договоров аренды",
+        "Процедуры определения и пересмотра арендной платы",
+        "Дела о выселении: неоплата, нарушение договора, личная нужда арендодателя, реконструкция",
+        "Права арендатора: оспаривание незаконного выселения и сверхнормативного повышения аренды",
+        "Споры о возврате залога и требования о возмещении ущерба",
+        "Коммерческие договоры аренды и выселение из нежилых помещений",
+        "Краткосрочные договоры аренды (посуточно/понедельно) и консультации",
+        "Права и обязанности иностранных арендаторов и арендодателей",
+      ],
+      ar: [
+        "صياغة عقود الإيجار ومراجعتها والتفاوض عليها",
+        "إجراءات تحديد الإيجار وتعديله",
+        "قضايا الإخلاء: عدم السداد والإخلال بالعقد وحاجة المؤجر الشخصية وإعادة البناء",
+        "حقوق المستأجر: الطعن في الإخلاء غير المشروع والزيادات الإيجارية الزائدة عن الحد",
+        "نزاعات استرداد مبلغ التأمين ومطالبات التعويض عن الأضرار",
+        "عقود الإيجار التجاري وإجراءات إخلاء المحلات التجارية",
+        "عقود الإيجار قصيرة الأمد (يومي/أسبوعي) والمشورة القانونية",
+        "حقوق المستأجرين والمؤجرين الأجانب وواجباتهم",
+      ],
+    },
+    process: {
+      tr: "Kira uyuşmazlıklarında önce kira sözleşmesi, taraflar arasındaki yazışmalar ve ilgili belgeler ayrıntılı biçimde incelenir. Müvekkille birlikte talep ve beklentiler netleştirilir; tahliye, kira tespiti veya uyarlama seçeneklerinden hangisinin öncelikli olduğu belirlenir. Mümkün olan durumlarda arabuluculuk veya uzlaşı yolu tercih edilir; değilse dava süreci başlatılarak müvekkil her aşamada bilgilendirilir.",
+      en: "In rental disputes, we begin with a thorough review of the lease agreement, correspondence between the parties, and related documents. Together with the client, we clarify objectives and determine the priority route — eviction, rent determination, or adjustment. Where possible, mediation or negotiated settlement is preferred; otherwise, litigation is initiated and the client is kept fully informed at every stage.",
+      de: "Bei Mietstreitigkeiten beginnen wir mit einer eingehenden Prüfung des Mietvertrags, des Schriftverkehrs zwischen den Parteien und der zugehörigen Unterlagen. Gemeinsam mit dem Mandanten werden die Ziele geklärt und der vorrangige Weg bestimmt — Räumung, Mietfestsetzung oder Anpassung. Wo möglich, werden Mediation oder eine verhandelte Einigung bevorzugt; andernfalls wird ein Gerichtsverfahren eingeleitet und der Mandant auf jedem Schritt informiert.",
+      ru: "В арендных спорах мы начинаем с тщательного изучения договора аренды, переписки между сторонами и сопутствующих документов. Совместно с клиентом уточняются цели и определяется приоритетный путь — выселение, определение или пересмотр арендной платы. По возможности предпочтение отдаётся медиации или договорному урегулированию; в противном случае инициируется судебный процесс, и клиент информируется на каждом этапе.",
+      ar: "في نزاعات الإيجار، نبدأ بمراجعة شاملة لعقد الإيجار والمراسلات بين الطرفين والوثائق ذات الصلة. نوضح مع الموكل الأهداف ونحدد المسار الأولوي — الإخلاء أو تحديد الإيجار أو تعديله. حيثما أمكن يُفضَّل التوسط أو التسوية التفاوضية؛ وإلا يُبادر إلى التقاضي مع إبقاء الموكل على اطلاع تام في كل مرحلة.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Kiraya veren, sözleşme süresi dolmadan kiracıyı çıkarabilir mi?",
+          a: "Türk hukukunda kiracı, konut ve çatılı işyeri kiralarında güçlü bir koruma altındadır. Sözleşme süresinin dolması tek başına tahliye gerekçesi oluşturmaz. Tahliye ancak; kira bedelinin ödenmemesi, sözleşmeye aykırı kullanım, kiraya verenin veya yakınlarının ihtiyacı ya da yeniden inşaat ve esaslı onarım gibi Borçlar Kanunu'nda sayılan nedenlerle dava yoluyla mümkündür.",
+        },
+        {
+          q: "Yıllık kira artışında yasal sınır nedir?",
+          a: "Konut kiralarında yıllık artış oranı, Türkiye İstatistik Kurumu'nun açıkladığı TÜFE 12 aylık ortalamasıyla sınırlıdır. Bu oranı aşan artış talepleri hukuken geçersizdir; kiracı bu talebi reddedebilir ve fazla ödediği tutarları geri talep edebilir.",
+        },
+        {
+          q: "Yabancı uyruklu biri Türkiye'de kiracı olabilir mi?",
+          a: "Evet. Geçerli ikamet iznine sahip yabancı uyruklu kişiler Türkiye'de kira sözleşmesi yapabilir. Sözleşmenin hazırlanması aşamasında hukuki danışmanlık almak, ileride çıkabilecek uyuşmazlıkları büyük ölçüde önler.",
+        },
+        {
+          q: "Depozito iade edilmezse ne yapabilirim?",
+          a: "Kiracı, kiralananı sözleşmeye uygun teslim etmesine karşın depozito iade edilmiyorsa önce yazılı ihtarname gönderilmeli, ardından arabuluculuk yoluna başvurulmalı; anlaşma sağlanamazsa icra takibi veya sulh hukuk mahkemesinde dava açılabilir.",
+        },
+      ],
+      en: [
+        {
+          q: "Can a landlord evict a tenant before the lease expires?",
+          a: "Under Turkish law, tenants enjoy strong protection in residential and roofed commercial leases. The expiry of the contract term alone does not constitute grounds for eviction. Eviction is only possible through court action on the grounds specified in the Code of Obligations — non-payment of rent, use contrary to the agreement, the landlord's or a close family member's personal need, or reconstruction and major renovation.",
+        },
+        {
+          q: "What is the legal cap on annual rent increases?",
+          a: "For residential leases, the annual increase is capped at the 12-month average of the Consumer Price Index published by the Turkish Statistical Institute. Demands exceeding this rate are legally void; the tenant has the right to refuse them and reclaim any excess already paid.",
+        },
+        {
+          q: "Can a foreign national rent property in Turkey?",
+          a: "Yes. Foreign nationals holding a valid residence permit may enter into lease agreements in Turkey. Obtaining legal advice at the contract stage substantially reduces the risk of future disputes.",
+        },
+        {
+          q: "What can I do if my deposit is not refunded?",
+          a: "If the tenant has returned the property in accordance with the contract but the deposit is withheld, the first step is a formal written notice. Mediation is then mandatory before any court action; if it fails, enforcement proceedings or a claim before the civil court of peace can follow.",
+        },
+      ],
+      de: [
+        {
+          q: "Kann ein Vermieter einen Mieter vor Ablauf des Mietvertrags kündigen?",
+          a: "Nach türkischem Recht genießen Mieter in Wohn- und überdachten Gewerberaummietverhältnissen einen starken Schutz. Der bloße Ablauf der Vertragslaufzeit begründet noch keinen Räumungsanspruch. Eine Räumung ist nur im Klageweg auf der Grundlage der im Obligationenrecht aufgeführten Gründe möglich: Nichtzahlung der Miete, vertragswidrige Nutzung, Eigenbedarf des Vermieters oder eines nahen Angehörigen sowie Neubau oder umfassende Sanierung.",
+        },
+        {
+          q: "Welche gesetzliche Obergrenze gilt für die jährliche Mieterhöhung?",
+          a: "Bei Wohnraummietverhältnissen ist die jährliche Mieterhöhung auf den 12-Monats-Durchschnitt des Verbraucherpreisindex begrenzt, den das Türkische Statistische Institut veröffentlicht. Forderungen, die diesen Satz überschreiten, sind rechtlich unwirksam; der Mieter hat das Recht, sie abzulehnen und bereits zu viel gezahlte Beträge zurückzuverlangen.",
+        },
+        {
+          q: "Kann ein Ausländer in der Türkei Mieter sein?",
+          a: "Ja. Ausländische Staatsangehörige mit gültigem Aufenthaltstitel können in der Türkei Mietverträge abschließen. Eine rechtliche Beratung in der Vertragsphase reduziert das Risiko künftiger Streitigkeiten erheblich.",
+        },
+        {
+          q: "Was kann ich tun, wenn meine Kaution nicht zurückgezahlt wird?",
+          a: "Hat der Mieter die Mietsache vertragsgemäß zurückgegeben, die Kaution wird aber einbehalten, sollte zunächst eine schriftliche Mahnung versandt werden. Vor einem Gerichtsverfahren ist eine Mediation zwingend; schlägt sie fehl, kann ein Vollstreckungsverfahren eingeleitet oder Klage beim Friedensgericht erhoben werden.",
+        },
+      ],
+      ru: [
+        {
+          q: "Может ли арендодатель выселить арендатора до истечения срока аренды?",
+          a: "По турецкому праву арендаторы пользуются сильной защитой в жилищных и коммерческих договорах аренды. Истечение срока договора само по себе не является основанием для выселения. Выселение возможно только через суд по основаниям Обязательственного кодекса: неоплата аренды, использование вразрез с договором, личная нужда арендодателя или близкого родственника, реконструкция или капитальный ремонт.",
+        },
+        {
+          q: "Каков законный предел ежегодного повышения арендной платы?",
+          a: "Для жилой недвижимости повышение ограничено 12-месячным средним значением индекса потребительских цен, публикуемого Турецким статистическим институтом. Требования, превышающие этот показатель, юридически недействительны; арендатор вправе отказаться и потребовать возврата излишне уплаченного.",
+        },
+        {
+          q: "Может ли иностранный гражданин арендовать жильё в Турции?",
+          a: "Да. Иностранные граждане с действительным видом на жительство могут заключать договоры аренды в Турции. Юридическая консультация на этапе составления договора существенно снижает риск споров в будущем.",
+        },
+        {
+          q: "Что делать, если залог не возвращают?",
+          a: "Если арендатор сдал имущество согласно договору, но залог удерживается, сначала направляется письменное уведомление. Перед обращением в суд обязательна медиация; при её неудаче можно инициировать исполнительное производство или подать иск в мировой суд.",
+        },
+      ],
+      ar: [
+        {
+          q: "هل يستطيع المؤجر إخلاء المستأجر قبل انتهاء مدة العقد؟",
+          a: "يتمتع المستأجرون بموجب القانون التركي بحماية قوية في عقود الإيجار السكنية والتجارية المسقوفة. لا يُشكّل انتهاء مدة العقد وحده أساساً للإخلاء. لا يُمكّن الإخلاء إلا عبر القضاء استناداً إلى الأسباب المحددة في قانون الالتزامات: عدم سداد الإيجار أو الاستخدام المخالف للعقد أو الحاجة الشخصية للمؤجر أو أحد أفراد أسرته المقربين أو إعادة البناء أو التجديد الجوهري.",
+        },
+        {
+          q: "ما الحد القانوني للزيادة السنوية في الإيجار؟",
+          a: "بالنسبة للإيجار السكني، تُحدَّد الزيادة بمتوسط مؤشر أسعار المستهلكين لمدة 12 شهراً الذي ينشره معهد الإحصاء التركي. المطالبات التي تتجاوز هذا المعدل باطلة قانونياً؛ للمستأجر الحق في رفضها واسترداد ما دُفع زيادةً.",
+        },
+        {
+          q: "هل يستطيع المواطن الأجنبي استئجار عقار في تركيا؟",
+          a: "نعم. يحق للمواطنين الأجانب الحاملين لتصريح إقامة ساري المفعول إبرام عقود إيجار في تركيا. الحصول على استشارة قانونية عند إعداد العقد يُقلل إلى حد كبير من مخاطر النزاعات المستقبلية.",
+        },
+        {
+          q: "ماذا أفعل إذا لم يُردّ إليّ مبلغ التأمين؟",
+          a: "إذا أعاد المستأجر العقار وفق العقد ولم يُردّ مبلغ التأمين، فيُرسَل أولاً إشعار كتابي رسمي. الوساطة إلزامية قبل اللجوء إلى القضاء؛ وإن فشلت، يمكن المضيّ في إجراءات التنفيذ أو رفع دعوى أمام محكمة الصلح.",
+        },
+      ],
+    },
+  },
+  {
     slug: "idare-hukuku",
     metaTitle: {
       tr: "Antalya İdare Hukuku Avukatı | İptal Davası & İdari İşlem İtirazları",
