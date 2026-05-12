@@ -4,6 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
 import { CheckCircle, XCircle, Clock, AlertTriangle } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
+import { routing } from "@/i18n/routing";
 
 const SLUGS = ["confirmed", "unsubscribed", "expired", "invalid"] as const;
 type Slug = (typeof SLUGS)[number];
@@ -25,7 +26,9 @@ const ICON_TONE: Record<Slug, string> = {
 export const dynamic = "force-static";
 
 export function generateStaticParams() {
-  return SLUGS.map((slug) => ({ slug }));
+  return routing.locales.flatMap((locale) =>
+    SLUGS.map((slug) => ({ locale, slug }))
+  );
 }
 
 export async function generateMetadata({

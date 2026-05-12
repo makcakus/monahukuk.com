@@ -11,9 +11,12 @@ import {
   pickFaqs,
 } from "@/lib/practice-areas-content";
 import { getAllArticles } from "@/lib/articles";
+import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
-  return PRACTICE_AREAS.map((a) => ({ slug: a.slug }));
+  return routing.locales.flatMap((locale) =>
+    PRACTICE_AREAS.map((a) => ({ locale, slug: a.slug }))
+  );
 }
 
 export async function generateMetadata({

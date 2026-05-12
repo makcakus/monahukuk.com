@@ -9,7 +9,8 @@
     "about": "Über uns",
     "team": "Unser Team",
     "practiceAreas": "Rechtsgebiete",
-    "articles": "Rechtliche Artikel",
+    "articles": "Rechtsartikel",
+    "legalNews": "Rechtsnachrichten",
     "contact": "Kontakt",
     "privacy": "Datenschutzerklärung"
   },
@@ -23,7 +24,7 @@
     "hero": {
       "kicker": "Antalya · Türkei",
       "title": "MONA HUKUK",
-      "lead": "Mit Sitz in Antalya bietet unsere Kanzlei ihren Mandanten umfassende Rechtsberatung und Prozessvertretung – gestützt auf über ein Jahrzehnt Berufserfahrung und ein spezialisiertes Team."
+      "lead": "Mit Sitz in Antalya bietet unsere Kanzlei unseren Mandanten umfassende Rechtsberatung und Prozessvertretung – gestützt auf über ein Jahrzehnt Berufserfahrung und ein spezialisiertes Team."
     },
     "practiceIntro": "Wir sind in allen Bereichen des türkischen Rechts tätig und beraten unsere Mandanten in einem breiten Spektrum, insbesondere im Handels-, Familien-, Arbeits-, Straf-, Immobilien- und Verwaltungsrecht. Jeden Fall bewerten wir in seinem individuellen Kontext und verfolgen einen lösungsorientierten und transparenten Ansatz.",
     "foreignClients": {
@@ -49,7 +50,7 @@
   "about": {
     "title": "Über MONA HUKUK",
     "lead": "Eine unabhängige Anwaltskanzlei mit Sitz in Antalya, die Privatpersonen und Unternehmen in den wichtigsten Bereichen des türkischen Rechts berät und vertritt.",
-    "body": "MONA HUKUK ist eine in Antalya ansässige Anwaltskanzlei, gegründet zur Tätigkeit in allen Bereichen des türkischen Rechts und mit über zehn Jahren beruflicher Erfahrung. Wir beraten und vertreten Privatpersonen wie Unternehmen in einem breiten Tätigkeitsfeld, das Handels- und Gesellschaftsrecht, Familienrecht, Strafrecht, Verwaltungsrecht, Immobilienrecht und Arbeitsrecht umfasst. Neben unseren türkischen Mandanten bieten wir auch ausländischen Staatsangehörigen und internationalen Unternehmen, die in Antalya leben, investieren oder geschäftlich tätig sind, dank der guten Englischkenntnisse unseres Teams qualifizierte Beratung in ihrer eigenen Sprache.\n\nIm Kern unseres Ansatzes steht die Disziplin, jede Akte nach ihren eigenen Tatsachen zu beurteilen, den Mandanten in jedem Schritt vollständig zu informieren und seine Zustimmung einzuholen und das Berufsgeheimnis sorgfältig zu wahren. Von der gerichtlichen Vertretung bis zur Einigung am Verhandlungstisch, vom Vertragsentwurf bis zu Verwaltungsanträgen — unser Ziel in jeder Phase ist es, das Interesse des Mandanten so wirksam wie das Recht erlaubt zu vertreten.",
+    "body": "MONA HUKUK ist eine in Antalya ansässige Anwaltskanzlei, die in allen Bereichen des türkischen Rechts tätig ist und über mehr als zehn Jahre Berufserfahrung verfügt. Wir beraten und vertreten Privatpersonen wie Unternehmen in einem breiten Tätigkeitsfeld, das Handels- und Gesellschaftsrecht, Familienrecht, Strafrecht, Verwaltungsrecht, Immobilienrecht und Arbeitsrecht umfasst. Neben unseren türkischen Mandanten bieten wir auch ausländischen Staatsangehörigen und internationalen Unternehmen, die in Antalya leben, investieren oder geschäftlich tätig sind, dank der guten Englischkenntnisse unseres Teams qualifizierte Beratung in ihrer eigenen Sprache.\n\nIm Kern unseres Ansatzes steht die Disziplin, jede Akte nach ihren eigenen Tatsachen zu beurteilen, den Mandanten in jedem Schritt vollständig zu informieren und seine Zustimmung einzuholen und das Berufsgeheimnis sorgfältig zu wahren. Von der gerichtlichen Vertretung bis zur Einigung am Verhandlungstisch, vom Vertragsentwurf bis zu Verwaltungsanträgen — unser Ziel in jeder Phase ist es, das Interesse des Mandanten so wirksam wie das Recht erlaubt zu vertreten.",
     "mission": {
       "title": "Unsere Mission",
       "body": "Die Rechte, Erwartungen und Umstände des Mandanten richtig zu verstehen — und im Prozess oder durch Verhandlung die Lösung zu erzielen, die das streitige Interesse am besten schützt. Dieses einfache Prinzip verbinden wir mit transparenter Kommunikation, planbaren Kosten und beruflicher Sorgfalt."
@@ -77,7 +78,7 @@
     },
     "areasIntro": "Wir beraten Mandanten in den wichtigsten Bereichen des türkischen Rechts:",
     "founderTitle": "Gründungspartner",
-    "founderLead": "Hauptautor der Rechtsartikel dieser Website; trägt die berufliche Verantwortung für deren Inhalt.",
+    "founderLead": "Hauptautor der Rechtsartikel dieser Website; trägt die berufliche Verantwortung für den Inhalt dieser Artikel.",
     "founderViewProfile": "Das gesamte Team ansehen",
     "ctaTitle": "Rechtsberatung anfragen",
     "ctaBody": "In jeder Akte prüfen wir die Umstände gemeinsam mit dem Mandanten und legen den nächsten Schritt klar fest."
@@ -244,6 +245,16 @@
       "title": "14. Kontakt",
       "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail contact@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei."
     }
+  },
+  "legalNews": {
+    "title": "Rechtsnachrichten",
+    "lead": "Aktuelle rechtliche Entwicklungen aus dem Amtsblatt und Gerichtsentscheidungen — für Anwälte und Rechtsinteressierte.",
+    "empty": "Noch keine Nachrichten vorhanden.",
+    "readMore": "Artikel lesen",
+    "minRead": "Min. Lesezeit",
+    "publishedOn": "Veröffentlicht",
+    "backToList": "Rechtsnachrichten",
+    "eyebrow": "Rechtsbulletin"
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten.",

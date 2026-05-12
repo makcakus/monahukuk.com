@@ -1,21 +1,26 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import { Moon, Sun } from "lucide-react";
 
-export function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark" | null>(null);
+function subscribe(cb: () => void) {
+  const observer = new MutationObserver(cb);
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+  return () => observer.disconnect();
+}
 
-  useEffect(() => {
-    const initial = document.documentElement.classList.contains("dark")
-      ? "dark"
-      : "light";
-    setTheme(initial);
-  }, []);
+function getTheme() {
+  return document.documentElement.classList.contains("dark") ? "dark" : "light";
+}
+
+export function ThemeToggle() {
+  const theme = useSyncExternalStore(subscribe, getTheme, () => "light");
 
   function toggle() {
     const next = theme === "dark" ? "light" : "dark";
-    setTheme(next);
     if (next === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -24,18 +29,6 @@ export function ThemeToggle() {
     try {
       localStorage.setItem("theme", next);
     } catch {}
-  }
-
-  if (theme === null) {
-    return (
-      <button
-        type="button"
-        aria-label="Toggle theme"
-        className="inline-flex h-8 w-8 items-center justify-center rounded-full text-ink-soft"
-      >
-        <Sun size={16} />
-      </button>
-    );
   }
 
   return (

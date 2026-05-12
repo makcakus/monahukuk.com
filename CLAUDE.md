@@ -1,1 +1,130 @@
-@AGENTS.md
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
+
+## What This Project Is
+
+**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 5 dilli (TR/EN/DE/RU/AR) web sitesi. Eski WordPress'in yerine geçti.
+
+## Commands
+
+```bash
+npm run dev        # Geliştirme sunucusu
+npm run build      # Production build (validate scriptleri önce çalışır)
+npm start          # Production sunucusu
+npx eslint src/    # Lint
+```
+
+### Validation Scriptleri
+
+`npm run build` öncesinde otomatik çalışır, ayrıca manuel çalıştırılabilir:
+
+```bash
+node scripts/validate-content.mjs        # MDX frontmatter doğrulama
+node scripts/validate-translations.mjs   # i18n mesaj anahtarları kontrolü
+node scripts/check-translation-coverage.mjs  # Hangi locale'lerde çeviri eksik
+node scripts/validate-links.mjs          # İç bağlantı kırık mı
+node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
+```
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router) + TypeScript 5 + React 19
+- **Styling**: Tailwind CSS v4 (PostCSS tabanlı — `tailwind.config.js` yok, `globals.css` içinde `@theme`)
+- **i18n**: next-intl 4 — 5 locale, prefix-based routing (`/tr/`, `/en/`, ...)
+- **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
+- **E-posta / Newsletter**: Resend API + Supabase
+- **Deployment**: Vercel
+
+## Proje Yapısı
+
+```
+src/
+├── app/
+│   ├── layout.tsx                 # Root layout (minimal)
+│   └── [locale]/                  # Tüm sayfalar locale altında
+│       ├── layout.tsx             # Ana layout (analytics, i18n provider)
+│       ├── page.tsx               # Anasayfa
+│       ├── articles/[slug]/       # Makale detay
+│       ├── practice-areas/[slug]/ # Uygulama alanı detay
+│       └── legal-news/[slug]/     # Hukuk haberleri (sadece tr/en)
+├── components/                    # Server ve client component'lar
+├── i18n/
+│   ├── routing.ts                 # Locale listesi ve default
+│   ├── request.ts                 # Sunucu tarafı i18n config
+│   └── navigation.ts              # Locale-aware Link
+├── lib/
+│   ├── articles.ts                # MDX yükleme & parse
+│   ├── practice-areas.ts          # 10 alan, 5 dil harita
+│   ├── seo.ts                     # pageMetadata() helper
+│   └── site.ts                    # SITE metadata objesi
+content/
+└── articles/
+    ├── tr/    en/    de/    ru/    ar/   # Locale başına ayrı MDX dosyaları
+messages/
+└── tr.json  en.json  de.json  ru.json  ar.json  # i18n çeviri anahtarları
+```
+
+## İçerik Yönetimi (Makaleler)
+
+Makaleler `content/articles/{locale}/slug.mdx` formatında saklanır.
+
+**Zorunlu frontmatter:**
+```yaml
+---
+title: "Başlık"
+description: "SEO açıklaması"
+date: "2025-01-15"
+slug: "url-slug"
+---
+```
+
+**Opsiyonel frontmatter:**
+```yaml
+category: "gayrimenkul-hukuku"   # practice-areas.ts'deki slug
+author: "Av. Mustafa Akcakuş"
+translationKey: "ortak-anahtar"  # Aynı makaleyi farklı dillerde bağlar
+relatedSlugs: ["slug-1", "slug-2"]
+draft: true                       # Yayınlanmaz
+```
+
+Makale listelemek için `lib/articles.ts` içindeki `getAllArticles(locale)` / `getArticleBySlug(locale, slug)` kullanılır.
+
+## i18n Kuralları
+
+- Yeni sayfa ekliyorsan `app/[locale]/` altına ekle, `generateStaticParams()` ile tüm locale'leri döndür.
+- UI metinleri doğrudan yazma — `messages/{locale}.json`'a ekle, `useTranslations()` / `getTranslations()` ile çek.
+- Arabic için `dir="rtl"` layout'ta otomatik uygulanır.
+- `legal-news` sadece `tr` ve `en`'de var; diğer locale'lerde routing.ts'de kısıtlı.
+
+## Styling Notları
+
+Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/globals.css` içinde `@theme` bloğunda tanımlı:
+- Renkler: `cream`, `navy`, `gold`, `ink` (light/dark varyantları)
+- Fontlar: `Inter` (sans), `Cormorant Garamond` (display)
+- Özel utility'ler: `.prose-legal`, `.gold-divider`
+
+## SEO & Schema
+
+Her sayfada `pageMetadata()` ile meta tag üretilir (`lib/seo.ts`). Makale sayfaları ek olarak:
+- `ArticleSchema` — Schema.org Article yapılandırılmış verisi
+- `FAQPage` — `##` başlıklarından otomatik üretilir
+- Dinamik OG görseli (`[slug]/opengraph-image.tsx`)
+
+## Ortam Değişkenleri
+
+`.env.local` dosyası gerekli (`.env.example`'a bak):
+```
+NEXT_PUBLIC_SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+RESEND_API_KEY=
+RESEND_AUDIENCE_ID=
+RESEND_FROM_EMAIL=
+NEXT_PUBLIC_SITE_URL=https://monahukuk.com
+```

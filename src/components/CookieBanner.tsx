@@ -10,10 +10,8 @@ const STORAGE_KEY = "cookie-consent-v1";
 export function CookieBanner() {
   const t = useTranslations("cookies");
   const [visible, setVisible] = useState(false);
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     try {
       const consent = localStorage.getItem(STORAGE_KEY);
       if (!consent) {
@@ -31,7 +29,7 @@ export function CookieBanner() {
     setVisible(false);
   }
 
-  if (!mounted || !visible) return null;
+  if (!visible) return null;
 
   return (
     <div
