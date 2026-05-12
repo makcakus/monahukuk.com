@@ -17,7 +17,7 @@ export interface ArticleFrontmatter {
   translationKey?: string;
 }
 
-export const DEFAULT_AUTHOR = "Av. Mustafa Akcakuş";
+export const DEFAULT_AUTHOR = "Av. Mustafa Akçakuş";
 
 export interface Article extends ArticleFrontmatter {
   body: string;

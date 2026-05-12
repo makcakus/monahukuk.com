@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * Tüm makale frontmatter'larına `author: "Av. Mustafa Akcakuş"` ekler.
+ * Tüm makale frontmatter'larına `author: "Av. Mustafa Akçakuş"` ekler.
  * Mevcut author değerleri korunur. UTF-8 BOM-suz yazar.
  */
 
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const DEFAULT_AUTHOR = "Av. Mustafa Akcakuş";
+const DEFAULT_AUTHOR = "Av. Mustafa Akçakuş";
 const LOCALES = ["tr", "en", "de", "ru", "ar"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 

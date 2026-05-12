@@ -28,7 +28,7 @@ const KNOWN_PREFIX_RE =
   /^(stj\.\s*av\.|av\.|att\.|trainee\s+att\.|ra|адв\.|стажёр-адв\.|المحامي|متدرب|ref\.)\s+/i;
 
 /**
- * "Av. Mustafa Akcakuş" + locale=en → "Att. Mustafa Akcakuş"
+ * "Av. Mustafa Akçakuş" + locale=en → "Att. Mustafa Akçakuş"
  */
 export function formatAuthorName(author: string, locale: string): string {
   if (!author) return "";

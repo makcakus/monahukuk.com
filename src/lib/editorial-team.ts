@@ -1,7 +1,7 @@
 /**
  * Makale yazar etiketi: "MONA HUKUK Editör Ekibi" (5 dilde).
  *
- * Önceki tasarımda makaleler tek bir avukatı (Av. Mustafa Akcakuş) yazar
+ * Önceki tasarımda makaleler tek bir avukatı (Av. Mustafa Akçakuş) yazar
  * olarak gösteriyordu. Karar: 5 kişilik ekibimizi tek bir kurumsal etiket
  * altında toplamak — bireysel atama yerine "MONA HUKUK Editör Ekibi".
  *
