@@ -1008,7 +1008,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Renunciation of inheritance and claim-to-inheritance actions",
         "Drafting and interpretation of wills (official, holographic, oral)",
         "Reserved-share and reduction (tenkis) actions",
-        "Recognition and enforcement of foreign court wills in Turkey",
+        "Recognition and enforcement of foreign court decisions on wills in Turkey",
         "Inheritance and transfer tax planning",
       ],
       de: [
@@ -1019,7 +1019,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Errichtung und Auslegung von Testamenten (öffentlich, eigenhändig, mündlich)",
         "Pflichtteils- und Herabsetzungsklagen",
         "Anerkennung und Vollstreckung ausländischer Testamente in der Türkei",
-        "Erbschaft- und Schenkungssteuerplanung",
+        "Erbschaft- und Übertragungssteuerplanung",
       ],
       ru: [
         "Выдача свидетельства о праве на наследство",
@@ -1342,7 +1342,7 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Медиация, расписки и соглашения о расторжении",
       ],
       ar: [
-        "صياغة عقود العمل (محدّدة/غير محدّدة، طلبٍ، عن بُعد)",
+        "صياغة عقود العمل (محدّدة/غير محدّدة، عند الطلب، عن بُعد)",
         "الفصل التعسفي ومكافأة نهاية الخدمة وبدل الإشعار",
         "العمل الإضافي والاستراحة الأسبوعية والعطلات الرسمية",
         "التعويض عن التنمر الوظيفي والمعاملة غير المتساوية",
