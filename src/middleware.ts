@@ -4,5 +4,14 @@ import { routing } from "./i18n/routing";
 export default createMiddleware(routing);
 
 export const config = {
-  matcher: ["/", "/(tr|en|de|ru|ar)/:path*"],
+  // next-intl önerilen matcher:
+  // 1. "/" → locale'e yönlendir
+  // 2. "/(locale)/:path*" → locale'li URL'leri işle
+  // 3. "/((?!_next|_vercel|api|.*\\..*).*))" → locale'siz URL'leri yakala
+  //    ve defaultLocale'e (tr) yönlendir (örn. /contact → /tr/contact)
+  matcher: [
+    "/",
+    "/(tr|en|de|ru|ar)/:path*",
+    "/((?!_next|_vercel|api|.*\\..*).*)",
+  ],
 };

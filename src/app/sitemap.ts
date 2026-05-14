@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { getAllArticles } from "@/lib/articles";
+import { getAllGazettePosts } from "@/lib/hukuki-haberler";
 import { PRACTICE_AREAS } from "@/lib/practice-areas";
 import { SITE } from "@/lib/site";
 
+/** Tüm locale'lerde mevcut olan statik sayfalar. */
 const STATIC_PATHS: { path: string; changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"]; priority: number }[] = [
   { path: "", changeFrequency: "weekly", priority: 1.0 },
   { path: "/about", changeFrequency: "monthly", priority: 0.8 },
@@ -14,12 +16,16 @@ const STATIC_PATHS: { path: string; changeFrequency: MetadataRoute.Sitemap[numbe
   { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
 ];
 
-/** Statik sayfalar için tüm locale'lere aynı path'i yazar. */
-function altLanguages(p: string): Record<string, string> {
+/** legal-news yalnızca TR ve EN'de yayınlanıyor. */
+const LEGAL_NEWS_LOCALES = ["tr", "en"] as const;
+
+/** Verilen locale listesi için alternate languages objesi üretir. */
+function altLanguages(p: string, locales: readonly string[] = routing.locales): Record<string, string> {
   const out: Record<string, string> = {};
-  for (const l of routing.locales) {
+  for (const l of locales) {
     out[l] = `${SITE.url}/${l}${p}`;
   }
+  // x-default: TR (site'nin ana dili)
   out["x-default"] = `${SITE.url}/tr${p}`;
   return out;
 }
@@ -28,7 +34,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
-  // ── Statik sayfalar ────────────────────────────────────────────────────────
+  // ── Statik sayfalar (tüm locale'ler) ──────────────────────────────────────
   for (const locale of routing.locales) {
     for (const { path, changeFrequency, priority } of STATIC_PATHS) {
       entries.push({
@@ -47,6 +53,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: "monthly",
         priority: 0.85,
         alternates: { languages: altLanguages(p) },
+      });
+    }
+  }
+
+  // ── Legal news (sadece TR + EN) ────────────────────────────────────────────
+  for (const locale of LEGAL_NEWS_LOCALES) {
+    // Liste sayfası
+    entries.push({
+      url: `${SITE.url}/${locale}/legal-news`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+      alternates: { languages: altLanguages("/legal-news", LEGAL_NEWS_LOCALES) },
+    });
+    // Tekil haberler
+    const posts = await getAllGazettePosts(locale);
+    for (const post of posts) {
+      entries.push({
+        url: `${SITE.url}/${locale}/legal-news/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: "yearly",
+        priority: 0.6,
+        alternates: { languages: altLanguages(`/legal-news/${post.slug}`, LEGAL_NEWS_LOCALES) },
       });
     }
   }
