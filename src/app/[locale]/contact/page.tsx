@@ -54,7 +54,7 @@ export default async function ContactPage({
 
   return (
     <>
-      <PageHero title={t("title")} lead={t("lead")} />
+      <PageHero title={t("title")} />
       <section className="mx-auto max-w-4xl px-6 py-16">
         <ul className="grid gap-8 sm:grid-cols-2">
           {items.map((it) => (
