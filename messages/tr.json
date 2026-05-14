@@ -8,7 +8,7 @@
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
     "team": "Ekibimiz",
-    "practiceAreas": "Uygulama Alanları",
+    "practiceAreas": "Çalışma Alanları",
     "articles": "Hukuki Makaleler",
     "legalNews": "Hukuki Haberler",
     "contact": "İletişim",
@@ -50,7 +50,7 @@
   "about": {
     "title": "MONA HUKUK Hakkında",
     "lead": "Antalya merkezli bağımsız bir hukuk bürosu. Bireylere ve şirketlere Türk Hukukunun temel dallarında danışmanlık ve dava takip hizmeti sunar.",
-    "body": "MONA HUKUK; Türk Hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve Şirketler Hukukundan Aile Hukukuna, Ceza Hukukundan İdare Hukukuna, Gayrimenkul Hukukundan İş Hukukuna uzanan geniş bir uygulama alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
+    "body": "MONA HUKUK; Türk Hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve Şirketler Hukukundan Aile Hukukuna, Ceza Hukukundan İdare Hukukuna, Gayrimenkul Hukukundan İş Hukukuna uzanan geniş bir çalışma alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
     "mission": {
       "title": "Misyonumuz",
       "body": "Müvekkilin haklarını, beklentisini ve içinde bulunduğu hukuki süreci doğru anlamak; tartışılan menfaati en iyi koruyacak çözümü mahkeme veya müzakere yoluyla üretmek. Bu sade ilkeyi şeffaf bir iletişim, öngörülebilir maliyet planlaması ve mesleki titizlikle birleştiriyoruz."
@@ -59,7 +59,7 @@
       "title": "Neden MONA HUKUK?",
       "items": {
         "scope": {
-          "title": "Geniş uygulama alanı",
+          "title": "Geniş çalışma alanı",
           "body": "Türk Hukukunun temel dallarında çalışan, dosyaya en uygun yaklaşımı tayin edebilen kıdemli bir avukat ekibi. Bireysel davalardan kurumsal danışmanlığa, tek bir büroda bütünsel bir hukuki destek."
         },
         "experience": {
@@ -84,10 +84,10 @@
     "ctaBody": "Görüştüğümüz her dosyada koşulları birlikte değerlendirir, sonraki adımı netleştiririz."
   },
   "practiceAreas": {
-    "title": "Uygulama Alanları",
+    "title": "Çalışma Alanları",
     "lead": "Yabancı kişi ve şirketlerin Türk Hukuk sistemiyle en sık karşılaştığı alanlara odaklanıyoruz.",
-    "comingSoon": "Uygulama alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır.",
-    "backToList": "Tüm Uygulama Alanları",
+    "comingSoon": "Çalışma alanlarına ilişkin ayrıntılı sayfalar yakında yayınlanacaktır.",
+    "backToList": "Tüm Çalışma Alanları",
     "servicesTitle": "Sunduğumuz Hizmetler",
     "processTitle": "Çalışma Süreci",
     "faqTitle": "Sıkça Sorulan Sorular",
@@ -102,7 +102,7 @@
     "intro": "MONA HUKUK, Türkiye'de baroya kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, Aile Hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
-    "labelAreas": "Uygulama Alanları",
+    "labelAreas": "Çalışma Alanları",
     "ctaTitle": "Ekibimizle çalışmaya başlayın",
     "ctaBody": "Hukuki danışmanlık ve dava takibi için bizimle iletişime geçin."
   },
@@ -159,7 +159,7 @@
     "articleMany": "makale",
     "relatedSuffix": "ile İlgili Makaleler",
     "relatedTitle": "İlgili Makaleler",
-    "viewPracticeArea": "Bu uygulama alanını incele",
+    "viewPracticeArea": "Bu çalışma alanını incele",
     "searchPlaceholder": "Makale ara — başlık ve içerikte",
     "searchClear": "Aramayı temizle",
     "searchEmpty": "Aramanızla eşleşen makale bulunamadı.",

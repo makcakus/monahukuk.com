@@ -52,7 +52,7 @@ src/
 │       ├── layout.tsx             # Ana layout (analytics, i18n provider)
 │       ├── page.tsx               # Anasayfa
 │       ├── articles/[slug]/       # Makale detay
-│       ├── practice-areas/[slug]/ # Uygulama alanı detay
+│       ├── practice-areas/[slug]/ # Çalışma alanı detay
 │       └── legal-news/[slug]/     # Hukuk haberleri (sadece tr/en)
 ├── components/                    # Server ve client component'lar
 ├── i18n/
