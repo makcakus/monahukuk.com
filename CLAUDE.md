@@ -75,23 +75,23 @@ messages/
 
 Makaleler `content/articles/{locale}/slug.mdx` formatında saklanır.
 
-**Zorunlu frontmatter:**
+**Zorunlu frontmatter** (`validate:content` build öncesi kontrol eder, eksik varsa build fail):
 ```yaml
 ---
 title: "Başlık"
-description: "SEO açıklaması"
-date: "2025-01-15"
+description: "SEO açıklaması (50–160 karakter)"
+date: "2026-01-15"
+category: "Ticaret & Şirketler Hukuku"
 slug: "url-slug"
+author: "Av. Mustafa Akcakuş"
+translationKey: "english-slug"   # EN slug — tüm dil versiyonlarında aynı olmalı
 ---
 ```
 
 **Opsiyonel frontmatter:**
 ```yaml
-category: "gayrimenkul-hukuku"   # practice-areas.ts'deki slug
-author: "Av. Mustafa Akcakuş"
-translationKey: "ortak-anahtar"  # Aynı makaleyi farklı dillerde bağlar
-relatedSlugs: ["slug-1", "slug-2"]
-draft: true                       # Yayınlanmaz
+relatedSlugs: ["slug-1", "slug-2"]  # Manuel ilgili makale listesi
+draft: true                          # Yayınlanmaz
 ```
 
 Makale listelemek için `lib/articles.ts` içindeki `getAllArticles(locale)` / `getArticleBySlug(locale, slug)` kullanılır.
