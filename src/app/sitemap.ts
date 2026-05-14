@@ -14,11 +14,13 @@ const STATIC_PATHS: { path: string; changeFrequency: MetadataRoute.Sitemap[numbe
   { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
 ];
 
+/** Statik sayfalar için tüm locale'lere aynı path'i yazar. */
 function altLanguages(p: string): Record<string, string> {
   const out: Record<string, string> = {};
   for (const l of routing.locales) {
     out[l] = `${SITE.url}/${l}${p}`;
   }
+  out["x-default"] = `${SITE.url}/tr${p}`;
   return out;
 }
 
@@ -26,6 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const entries: MetadataRoute.Sitemap = [];
 
+  // ── Statik sayfalar ────────────────────────────────────────────────────────
   for (const locale of routing.locales) {
     for (const { path, changeFrequency, priority } of STATIC_PATHS) {
       entries.push({
@@ -46,15 +49,56 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: { languages: altLanguages(p) },
       });
     }
+  }
+
+  // ── Makaleler: translationKey ile doğru çapraz-dil URL'leri ───────────────
+  //
+  // TR makaleleri Türkçe slug kullanır (örn. aile-ikamet-izni-turk-vatandasi-es).
+  // EN/DE/RU/AR makaleleri İngilizce slug kullanır (family-residence-permit-...).
+  // translationKey her dil versiyonunda aynıdır ve EN slug'a eşittir.
+  // Bu nedenle her makale için alternate URL'leri locale'e özgü slug ile oluşturuyoruz.
+
+  // 1. translationKey → { locale: slug } haritası kur
+  const tkMap = new Map<string, Record<string, string>>();
+  const tkDate = new Map<string, Date>();
+
+  for (const locale of routing.locales) {
     const articles = await getAllArticles(locale);
     for (const a of articles) {
-      const p = `/articles/${a.slug}`;
+      const tk = a.translationKey ?? a.slug;
+      if (!tkMap.has(tk)) tkMap.set(tk, {});
+      tkMap.get(tk)![locale] = a.slug;
+      // En erken tarihi sakla (lastModified için)
+      const d = new Date(a.date);
+      if (!tkDate.has(tk) || d > tkDate.get(tk)!) tkDate.set(tk, d);
+    }
+  }
+
+  // 2. Her locale × translationKey için sitemap girdisi oluştur
+  for (const locale of routing.locales) {
+    const articles = await getAllArticles(locale);
+    for (const a of articles) {
+      const tk = a.translationKey ?? a.slug;
+      const slugsByLocale = tkMap.get(tk) ?? {};
+
+      // Sadece gerçekten var olan dilleri alternate olarak yaz
+      const languages: Record<string, string> = {};
+      for (const [loc, slug] of Object.entries(slugsByLocale)) {
+        languages[loc] = `${SITE.url}/${loc}/articles/${slug}`;
+      }
+      // x-default → EN versiyonu (varsa), yoksa TR
+      const xDefaultSlug = slugsByLocale["en"] ?? slugsByLocale["tr"];
+      if (xDefaultSlug) {
+        const xDefaultLocale = slugsByLocale["en"] ? "en" : "tr";
+        languages["x-default"] = `${SITE.url}/${xDefaultLocale}/articles/${xDefaultSlug}`;
+      }
+
       entries.push({
-        url: `${SITE.url}/${locale}${p}`,
-        lastModified: new Date(a.date),
+        url: `${SITE.url}/${locale}/articles/${a.slug}`,
+        lastModified: tkDate.get(tk) ?? new Date(a.date),
         changeFrequency: "yearly",
         priority: 0.7,
-        alternates: { languages: altLanguages(p) },
+        alternates: { languages },
       });
     }
   }
