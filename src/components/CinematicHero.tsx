@@ -38,11 +38,11 @@ export function CinematicHero() {
             <p className="animate-hero-rise text-xs uppercase tracking-[0.3em] text-gold-300 mb-6">
               {t("hero.kicker")}
             </p>
-            <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)] line-clamp-3 overflow-hidden">
+            <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)]">
               {t("hero.title")}
             </h1>
             <span className="animate-hero-rise animate-hero-rise-delay-2 gold-divider mt-8" />
-            <p className="animate-hero-rise animate-hero-rise-delay-3 mt-6 max-w-2xl text-lg md:text-xl text-cream-100/95 leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)] line-clamp-3 overflow-hidden">
+            <p className="animate-hero-rise animate-hero-rise-delay-3 mt-6 max-w-2xl text-lg md:text-xl text-cream-100/95 leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
               {t("hero.lead")}
             </p>
           </div>
