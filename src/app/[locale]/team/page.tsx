@@ -89,7 +89,7 @@ export default async function TeamPage({
                   {pick(member.role, lang)}
                 </p>
 
-                <p className="mt-4 text-ink-soft leading-relaxed">
+                <p className="mt-4 text-ink-soft leading-relaxed text-justify">
                   {pick(member.bio, lang)}
                 </p>
 
