@@ -15,6 +15,8 @@ export interface ArticleFrontmatter {
   relatedSlugs?: string[];
   draft?: boolean;
   translationKey?: string;
+  /** Makale kapak görseli — /images/articles/... yolu */
+  image?: string;
 }
 
 export const DEFAULT_AUTHOR = "Av. Mustafa Akçakuş";
@@ -66,6 +68,7 @@ export async function getArticle(
         relatedSlugs: Array.isArray(fm.relatedSlugs) ? fm.relatedSlugs : undefined,
         draft: fm.draft ?? false,
         translationKey: fm.translationKey,
+        image: fm.image,
         body: content,
         readingMinutes: Math.max(1, Math.round(stats.minutes)),
         wordCount: stats.words,

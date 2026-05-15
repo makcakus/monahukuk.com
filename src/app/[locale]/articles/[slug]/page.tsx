@@ -9,6 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
+import Image from "next/image";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -57,6 +58,11 @@ export async function generateMetadata({
     articleLanguages = langs;
   }
 
+  const { SITE } = await import("@/lib/site");
+  const ogImage = article.image
+    ? `${SITE.url}${article.image}`
+    : undefined;
+
   return pageMetadata({
     locale,
     path: `/articles/${slug}`,
@@ -66,6 +72,7 @@ export async function generateMetadata({
     publishedTime: article.date,
     extraKeywords: article.category ? [article.category] : [],
     articleLanguages,
+    ogImage,
   });
 }
 
@@ -164,6 +171,19 @@ export default async function ArticlePage({
         </p>
       )}
       <span className="gold-divider mt-8 mb-8" />
+
+      {article.image && (
+        <div className="relative w-full aspect-[1200/630] rounded-xl overflow-hidden mb-10">
+          <Image
+            src={article.image}
+            alt={article.title}
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 768px) 100vw, 768px"
+          />
+        </div>
+      )}
 
       <div className="prose-legal">
         <MDXRemote source={article.body} />
