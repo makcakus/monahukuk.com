@@ -9,6 +9,7 @@ import { pageMetadata } from "@/lib/seo";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
+import { ArticleNavButtons } from "@/components/ArticleNavButtons";
 import Image from "next/image";
 
 export async function generateStaticParams() {
@@ -165,15 +166,18 @@ export default async function ArticlePage({
         <span>·</span>
         <span>{article.readingMinutes} {t("minRead")}</span>
       </p>
-      {authorLabel && (
-        <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-          <Link href="/team" className="hover:underline font-medium">
-            {authorLabel}
-          </Link>
-          {" · "}
-          {barLabel}
-        </p>
-      )}
+      <div className="flex items-center justify-between gap-4 mt-1 flex-wrap">
+        {authorLabel && (
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            <Link href="/team" className="hover:underline font-medium">
+              {authorLabel}
+            </Link>
+            {" · "}
+            {barLabel}
+          </p>
+        )}
+        <ArticleNavButtons prevArticle={prevArticle} nextArticle={nextArticle} />
+      </div>
       <span className="gold-divider mt-8 mb-8" />
 
       {article.image && (
