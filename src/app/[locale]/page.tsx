@@ -98,9 +98,6 @@ function HomeContent() {
             <h2 className="font-display text-3xl md:text-4xl text-navy-900">
               {t("ctaBanner.title")}
             </h2>
-            <p className="mt-4 text-ink-soft text-lg max-w-2xl">
-              {t("ctaBanner.body")}
-            </p>
           </div>
           <div className="md:col-span-4 md:text-end">
             <Link
