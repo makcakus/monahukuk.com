@@ -37,8 +37,8 @@ export async function generateMetadata({
   if (tk) {
     const langs: Record<string, string> = {};
 
-    // EN, DE, RU: translationKey === their slug
-    for (const loc of ["en", "de", "ru"] as const) {
+    // EN, DE, RU, AR: translationKey === their slug
+    for (const loc of ["en", "de", "ru", "ar"] as const) {
       if (loc === locale) {
         langs[loc] = `/articles/${slug}`;
       } else {
