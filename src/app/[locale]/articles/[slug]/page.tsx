@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
-import { getArticle, getAllArticles, extractFaqPairs } from "@/lib/articles";
+import { getArticle, getAllArticles, extractFaqPairs, getAdjacentArticles } from "@/lib/articles";
 import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
@@ -87,6 +87,10 @@ export default async function ArticlePage({
   if (!article) notFound();
 
   const faqPairs = extractFaqPairs(article.body);
+  const { prev: prevArticle, next: nextArticle } = await getAdjacentArticles(locale, {
+    slug,
+    category: article.category,
+  });
   const t = await getTranslations("articles");
   const dateFmt = new Intl.DateTimeFormat(locale === "tr" ? "tr-TR" : "en-GB", {
     year: "numeric",
@@ -198,6 +202,8 @@ export default async function ArticlePage({
         currentSlug={slug}
         category={article.category}
         manualRelated={article.relatedSlugs}
+        prevArticle={prevArticle}
+        nextArticle={nextArticle}
       />
     </article>
   );

@@ -162,7 +162,9 @@
     "searchPlaceholder": "Makale ara — başlık ve içerikte",
     "searchClear": "Aramayı temizle",
     "searchEmpty": "Aramanızla eşleşen makale bulunamadı.",
-    "searchResultsLabel": "sonuç bulundu"
+    "searchResultsLabel": "sonuç bulundu",
+    "prevArticle": "Önceki Makale",
+    "nextArticle": "Sonraki Makale"
   },
   "contact": {
     "title": "İletişim",

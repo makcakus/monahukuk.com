@@ -98,6 +98,29 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
  *
  * Mevcut makale her zaman elenir.
  */
+/**
+ * Aynı kategorideki önceki ve sonraki makaleyi döndürür.
+ * Makaleler tarih-desc sıralamasındadır; "next" daha eski, "prev" daha yenidir.
+ * Kategori yoksa tüm makaleler içinde arama yapar.
+ */
+export async function getAdjacentArticles(
+  locale: string,
+  current: { slug: string; category?: string }
+): Promise<{ prev: Article | null; next: Article | null }> {
+  const all = await getAllArticles(locale);
+  const pool = current.category
+    ? all.filter((a) => a.category === current.category)
+    : all;
+
+  const idx = pool.findIndex((a) => a.slug === current.slug);
+  if (idx === -1) return { prev: null, next: null };
+
+  return {
+    prev: idx > 0 ? pool[idx - 1] : null,           // daha yeni
+    next: idx < pool.length - 1 ? pool[idx + 1] : null, // daha eski
+  };
+}
+
 export async function getRelatedArticles(
   locale: string,
   current: { slug: string; category?: string; relatedSlugs?: string[] },
