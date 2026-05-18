@@ -10,7 +10,6 @@ import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/Art
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
-import Image from "next/image";
 
 export async function generateStaticParams() {
   const all = await Promise.all(
@@ -179,19 +178,6 @@ export default async function ArticlePage({
         <ArticleNavButtons prevArticle={prevArticle} nextArticle={nextArticle} />
       </div>
       <span className="gold-divider mt-8 mb-8" />
-
-      {article.image && (
-        <div className="relative w-full aspect-[1200/630] rounded-xl overflow-hidden mb-10">
-          <Image
-            src={article.image}
-            alt={article.title}
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 768px) 100vw, 768px"
-          />
-        </div>
-      )}
 
       <div className="prose-legal">
         <MDXRemote source={article.body} />
