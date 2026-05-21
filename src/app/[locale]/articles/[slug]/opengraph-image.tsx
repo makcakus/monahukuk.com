@@ -9,9 +9,10 @@ export const contentType = "image/png";
 export default async function ArticleOGImage({
   params,
 }: {
-  params: { locale: string; slug: string };
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const article = await getArticle(params.locale, params.slug);
+  const { locale, slug } = await params;
+  const article = await getArticle(locale, slug);
   const title = article?.title ?? "MONA HUKUK";
   const category = article?.category ?? "";
 
