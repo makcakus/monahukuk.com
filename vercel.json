@@ -3,6 +3,10 @@
     {
       "path": "/api/cron/supabase-ping",
       "schedule": "0 6 * * 2,5"
+    },
+    {
+      "path": "/api/cron/notify-google",
+      "schedule": "0 7 * * *"
     }
   ]
 }
