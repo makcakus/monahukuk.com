@@ -33,8 +33,11 @@ const nextConfig: NextConfig = {
       // ── Yanlış locale'de TR slug'larına erişim (cross-locale slug düzeltmeleri) ─
       // Google bazen sitemap/hreflang'dan hareketle TR slug'larını DE/AR locale'inde deniyor.
       { source: "/de/articles/miras-reddi-sartlar-sure", destination: "/tr/articles/miras-reddi-sartlar-sure", permanent: true },
-      { source: "/ar/articles/uzaktan-calisan-yabanci-isci-haklari", destination: "/tr/articles/uzaktan-calisan-yabanci-isci-haklari", permanent: true },
-      { source: "/ar/articles/trafik-kazasinda-ceza-sorumlulugu-yabanci-surucu", destination: "/tr/articles/trafik-kazasinda-ceza-sorumlulugu-yabanci-surucu", permanent: true },
+      // AR makaleleri: TR slug'ı yerine AR'daki doğru slug'a yönlendir
+      { source: "/ar/articles/uzaktan-calisan-yabanci-isci-haklari", destination: "/ar/articles/remote-foreign-workers-rights-turkey", permanent: true },
+      { source: "/ar/articles/trafik-kazasinda-ceza-sorumlulugu-yabanci-surucu", destination: "/ar/articles/traffic-accident-criminal-liability-foreign-drivers", permanent: true },
+      // Bozuk/truncated slug varyantı (Google'ın hatalı taradığı URL)
+      { source: "/ar/articles/trafik-kazasinda-ceza-sorumlu-ugu-yabanci-surucu", destination: "/ar/articles/traffic-accident-criminal-liability-foreign-drivers", permanent: true },
 
       // ── legal-news sadece TR ve EN'de mevcut ────────────────────────────────
       // DE, RU, AR locale'lerinde legal-news sayfası yok; articles'a yönlendir.
