@@ -39,6 +39,16 @@ const nextConfig: NextConfig = {
       // Bozuk/truncated slug varyantı (Google'ın hatalı taradığı URL)
       { source: "/ar/articles/trafik-kazasinda-ceza-sorumlu-ugu-yabanci-surucu", destination: "/ar/articles/traffic-accident-criminal-liability-foreign-drivers", permanent: true },
 
+      // ── hukuki-haberler → legal-news (3 Mayıs'ta route rename edildi) ────────
+      { source: "/tr/hukuki-haberler", destination: "/tr/legal-news", permanent: true },
+      { source: "/en/hukuki-haberler", destination: "/en/legal-news", permanent: true },
+      { source: "/tr/hukuki-haberler/:slug+", destination: "/tr/legal-news/:slug+", permanent: true },
+      { source: "/en/hukuki-haberler/:slug+", destination: "/en/legal-news/:slug+", permanent: true },
+
+      // ── Silinen welcome sayfaları (28 Nisan'da kaldırıldı) ───────────────────
+      { source: "/tr/articles/welcome", destination: "/tr/articles", permanent: false },
+      { source: "/en/articles/welcome", destination: "/en/articles", permanent: false },
+
       // ── legal-news sadece TR ve EN'de mevcut ────────────────────────────────
       // DE, RU, AR locale'lerinde legal-news sayfası yok; articles'a yönlendir.
       { source: "/ar/legal-news", destination: "/ar/articles", permanent: true },
