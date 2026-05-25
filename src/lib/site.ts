@@ -13,7 +13,7 @@ export const SITE = {
   geo: { latitude: 36.8841, longitude: 30.7056 },
   hours: { opens: "09:00", closes: "18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
   founded: 2018,
-  languages: ["tr", "en", "de", "ru", "ar"],
+  languages: ["tr", "en", "de", "ru", "ar", "es"],
   social: [] as string[],
   ogImage: "/opengraph-image",
 } as const;
@@ -88,5 +88,19 @@ export const KEYWORDS: Record<string, string[]> = {
     "قانون العمل تركيا محامي",
     "قانون تجاري تركيا",
     "KVKK محامي تركيا",
+  ],
+  es: [
+    "bufete de abogados Antalya",
+    "abogado en Antalya",
+    "abogado para extranjeros en Turquía",
+    "abogado hispanohablante Antalya",
+    "abogado de inmigración Turquía",
+    "permiso de residencia Turquía abogado",
+    "abogado inmobiliario Antalya extranjero",
+    "ciudadanía turca abogado",
+    "abogado divorcio Antalya",
+    "derecho laboral Turquía abogado",
+    "derecho mercantil Turquía",
+    "KVKK RGPD abogado Turquía",
   ],
 };

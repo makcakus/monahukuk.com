@@ -55,6 +55,10 @@ const nextConfig: NextConfig = {
       { source: "/de/legal-news", destination: "/de/articles", permanent: true },
       { source: "/ru/legal-news", destination: "/ru/articles", permanent: true },
 
+      // ── ES: legal-news yok → articles'a yönlendir ───────────────────────────
+      { source: "/es/legal-news", destination: "/es/articles", permanent: true },
+      { source: "/es/hukuki-haberler", destination: "/es/articles", permanent: true },
+
       // ── Trailing slash → canonical (Next.js 308 yerine 301) ─────────────────
       // GSC bu URL'leri "Yönlendirmeli sayfa" olarak görüyor.
       { source: "/tr/", destination: "/tr", permanent: true },
@@ -62,6 +66,7 @@ const nextConfig: NextConfig = {
       { source: "/de/", destination: "/de", permanent: true },
       { source: "/ru/", destination: "/ru", permanent: true },
       { source: "/ar/", destination: "/ar", permanent: true },
+      { source: "/es/", destination: "/es", permanent: true },
     ];
   },
 };

@@ -15,6 +15,7 @@ const LANG_TAGS: Record<string, string> = {
   de: "de-DE",
   ru: "ru-RU",
   ar: "ar-SA",
+  es: "es-ES",
 };
 const LANG_NAMES: Record<string, string> = {
   tr: "Turkish",
@@ -22,6 +23,7 @@ const LANG_NAMES: Record<string, string> = {
   de: "German",
   ru: "Russian",
   ar: "Arabic",
+  es: "Spanish",
 };
 const ATTORNEY_JOB_TITLE: Record<string, string> = {
   tr: "Avukat",
@@ -29,6 +31,7 @@ const ATTORNEY_JOB_TITLE: Record<string, string> = {
   de: "Rechtsanwalt",
   ru: "Адвокат",
   ar: "محامٍ",
+  es: "Abogado",
 };
 const BAR_NAME: Record<string, string> = {
   tr: "Antalya Barosu",
@@ -36,6 +39,7 @@ const BAR_NAME: Record<string, string> = {
   de: "Rechtsanwaltskammer Antalya",
   ru: "Коллегия адвокатов Антальи",
   ar: "نقابة محامي أنطاليا",
+  es: "Colegio de Abogados de Antalya",
 };
 
 export const ORG_ID = `${SITE.url}#organization`;
