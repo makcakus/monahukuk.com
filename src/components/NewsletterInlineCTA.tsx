@@ -5,7 +5,7 @@ import { useLocale } from "next-intl";
 import { CheckCircle, MailCheck, Mail } from "lucide-react";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar";
+type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es";
 
 type Copy = {
   heading: string;
@@ -151,10 +151,34 @@ const COPY: Record<Locale, Copy> = {
     interestRegisteredBody:
       "سنخبرك عند تفعيل النشرة الإخبارية. للاستفسار يمكنك مراسلتنا على contact@monahukuk.com.",
   },
+  es: {
+    heading: "¿Quiere recibir un resumen semanal de las novedades del derecho turco?",
+    body: "Publicaciones del Diario Oficial, resoluciones judiciales y cambios legislativos — cada semana en su correo. Gratuito y con baja en cualquier momento.",
+    placeholder: "Su dirección de correo electrónico",
+    button: "Suscribirse",
+    submitting: "Enviando…",
+    consent:
+      "Consiento el tratamiento de mi correo electrónico con el fin de recibir el boletín informativo.",
+    consentRequired: "Marque la casilla de consentimiento para continuar.",
+    invalidEmail: "Por favor, introduzca una dirección de correo válida.",
+    serverError: "Se ha producido un error. Inténtelo de nuevo más tarde.",
+    pendingTitle: "Correo de verificación enviado",
+    pendingBody:
+      "Revise su bandeja de entrada y haga clic en el enlace para completar su suscripción. El enlace es válido durante 48 horas.",
+    resentTitle: "Correo de verificación reenviado",
+    alreadyTitle: "Ya está suscrito",
+    alreadyBody:
+      "Esta dirección ya figura en nuestra lista. Puede darse de baja mediante el enlace que aparece al final de cada número.",
+    comingSoonNotice:
+      "Nuestro boletín estará activo próximamente. Puede registrar su interés ahora y le avisaremos cuando esté disponible.",
+    interestRegisteredTitle: "Su interés ha sido registrado",
+    interestRegisteredBody:
+      "Le notificaremos cuando el boletín esté activo. Mientras tanto, puede contactarnos en contact@monahukuk.com.",
+  },
 };
 
 function isLocale(v: string): v is Locale {
-  return ["tr", "en", "de", "ru", "ar"].includes(v);
+  return ["tr", "en", "de", "ru", "ar", "es"].includes(v);
 }
 
 export function NewsletterInlineCTA({

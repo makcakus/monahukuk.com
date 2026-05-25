@@ -1,7 +1,7 @@
 import "server-only";
 import { Resend } from "resend";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar";
+type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es";
 
 const FROM_DEFAULT = "Mona Hukuk <bulten@monahukuk.com>";
 const REPLY_TO = "contact@monahukuk.com";
@@ -86,6 +86,17 @@ const VERIFY_COPY: Record<Locale, {
     footer: "Mona Hukuk · أنطاليا، تركيا",
     dir: "rtl",
   },
+  es: {
+    subject: "Confirme su suscripción al boletín de Mona Hukuk",
+    preheader: "Un clic para completar su suscripción al boletín jurídico.",
+    heading: "Confirme su suscripción",
+    body: "Ha solicitado suscribirse al boletín jurídico semanal de Mona Hukuk. Haga clic en el botón para activar su suscripción.",
+    button: "Confirmar suscripción",
+    expiry: "Este enlace caduca en 48 horas.",
+    ignore: "Si no ha solicitado esto, puede ignorar este correo — no se guardará ningún registro.",
+    footer: "Mona Hukuk · Antalya, Turquía",
+    dir: "ltr",
+  },
 };
 
 function escapeHtml(s: string): string {
@@ -132,7 +143,7 @@ function renderVerifyEmail(opts: {
       <p style="font-size:11px;color:#9a9eb0;word-break:break-all;margin:8px 0;">${escapeHtml(opts.confirmUrl)}</p>
     </td></tr>
     <tr><td style="padding:16px 32px;border-top:1px solid #efe7d6;">
-      <p style="font-size:11px;color:#9a9eb0;margin:0;">${escapeHtml(c.footer)} · <a href="${opts.unsubscribeUrl}" style="color:#9a9eb0;text-decoration:underline;">${opts.locale === "tr" ? "Aboneliği iptal et" : opts.locale === "de" ? "Abbestellen" : opts.locale === "ru" ? "Отписаться" : opts.locale === "ar" ? "إلغاء الاشتراك" : "Unsubscribe"}</a></p>
+      <p style="font-size:11px;color:#9a9eb0;margin:0;">${escapeHtml(c.footer)} · <a href="${opts.unsubscribeUrl}" style="color:#9a9eb0;text-decoration:underline;">${opts.locale === "tr" ? "Aboneliği iptal et" : opts.locale === "de" ? "Abbestellen" : opts.locale === "ru" ? "Отписаться" : opts.locale === "ar" ? "إلغاء الاشتراك" : opts.locale === "es" ? "Cancelar suscripción" : "Unsubscribe"}</a></p>
     </td></tr>
   </table>
 </td></tr>
