@@ -12,14 +12,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  if (locale !== "tr" && locale !== "en") return {};
   const t = await getTranslations({ locale, namespace: "legalNews" });
   return pageMetadata({
     locale,
     path: "/legal-news",
     title: t("title"),
     description: t("lead"),
-    articleLanguages: { tr: "/legal-news", en: "/legal-news" },
+    articleLanguages: { tr: "/legal-news", en: "/legal-news", de: "/legal-news", ru: "/legal-news", ar: "/legal-news", es: "/legal-news" },
   });
 }
 
@@ -29,13 +28,13 @@ export default async function LegalNewsPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  if (locale !== "tr" && locale !== "en") notFound();
   setRequestLocale(locale);
 
   const t = await getTranslations("legalNews");
   const posts = await getAllGazettePosts(locale);
 
-  const dateFmt = new Intl.DateTimeFormat(locale === "tr" ? "tr-TR" : "en-GB", {
+  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES" };
+  const dateFmt = new Intl.DateTimeFormat(IETF[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",
     day: "numeric",

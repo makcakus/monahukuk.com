@@ -7,7 +7,7 @@ import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateStaticParams() {
-  const locales = ["tr", "en"] as const;
+  const locales = ["tr", "en", "de", "ru", "ar", "es"] as const;
   const all = await Promise.all(
     locales.map(async (locale) => {
       const posts = await getAllGazettePosts(locale);
@@ -23,12 +23,11 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  if (locale !== "tr" && locale !== "en") return {};
   const post = await getGazettePost(locale, slug);
   if (!post) return {};
 
-  // Aynı slug için TR ve EN'de versiyon var mı? Hreflang yalnızca var olanlara yazılsın.
-  const localeList = ["tr", "en"] as const;
+  // Aynı slug için tüm dillerde versiyon var mı? Hreflang yalnızca var olanlara yazılsın.
+  const localeList = ["tr", "en", "de", "ru", "ar", "es"] as const;
   const checks = await Promise.all(
     localeList.map(async (l) => {
       const p = await getGazettePost(l, slug);
@@ -57,14 +56,14 @@ export default async function GazettePostPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  if (locale !== "tr" && locale !== "en") notFound();
   setRequestLocale(locale);
 
   const post = await getGazettePost(locale, slug);
   if (!post) notFound();
 
   const t = await getTranslations("legalNews");
-  const dateFmt = new Intl.DateTimeFormat(locale === "tr" ? "tr-TR" : "en-GB", {
+  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES" };
+  const dateFmt = new Intl.DateTimeFormat(IETF[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",
     day: "numeric",

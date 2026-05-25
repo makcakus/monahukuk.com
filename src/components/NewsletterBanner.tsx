@@ -8,6 +8,7 @@ import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsl
 export function NewsletterBanner() {
   const t = useTranslations("newsletter");
   const locale = useLocale();
+  if (locale !== "tr") return null;
   const [state, formAction, isPending] = useActionState<NewsletterState, FormData>(
     subscribeToNewsletter,
     null
