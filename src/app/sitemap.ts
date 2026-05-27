@@ -16,8 +16,8 @@ const STATIC_PATHS: { path: string; changeFrequency: MetadataRoute.Sitemap[numbe
   { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
 ];
 
-/** legal-news yalnızca TR ve EN'de yayınlanıyor. */
-const LEGAL_NEWS_LOCALES = ["tr", "en"] as const;
+/** legal-news tüm 7 dilde yayınlanıyor (content/hukuki-haberler/{locale}/ mevcut). */
+const LEGAL_NEWS_LOCALES = routing.locales;
 
 /** Verilen locale listesi için alternate languages objesi üretir. */
 function altLanguages(p: string, locales: readonly string[] = routing.locales): Record<string, string> {

@@ -291,5 +291,9 @@
     "rejectAll": "Sadece Gerekli",
     "learnMore": "Gizlilik Politikası",
     "closeButton": "Kapat"
+  },
+  "theme": {
+    "switchToLight": "Açık temaya geç",
+    "switchToDark": "Koyu temaya geç"
   }
 }

@@ -62,11 +62,16 @@ export default async function ArticlesPage({
     }
   }
 
-  const dateLocale =
-    locale === "tr" ? "tr-TR" :
-    locale === "de" ? "de-DE" :
-    locale === "ru" ? "ru-RU" :
-    locale === "ar" ? "ar-EG" : "en-GB";
+  const localeBcp47: Record<string, string> = {
+    tr: "tr-TR",
+    en: "en-GB",
+    de: "de-DE",
+    ru: "ru-RU",
+    ar: "ar-EG",
+    es: "es-ES",
+    fr: "fr-FR",
+  };
+  const dateLocale = localeBcp47[locale] ?? "en-GB";
 
   return (
     <>

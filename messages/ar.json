@@ -291,5 +291,9 @@
     "rejectAll": "الضرورية فقط",
     "learnMore": "سياسة الخصوصية",
     "closeButton": "إغلاق"
+  },
+  "theme": {
+    "switchToLight": "التبديل إلى الوضع الفاتح",
+    "switchToDark": "التبديل إلى الوضع الداكن"
   }
 }

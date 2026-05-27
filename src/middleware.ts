@@ -11,7 +11,7 @@ export const config = {
   //    ve defaultLocale'e (tr) yönlendir (örn. /contact → /tr/contact)
   matcher: [
     "/",
-    "/(tr|en|de|ru|ar)/:path*",
+    "/(tr|en|de|ru|ar|es|fr)/:path*",
     "/((?!_next|_vercel|api|.*\\..*).*)",
   ],
 };

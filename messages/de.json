@@ -291,5 +291,9 @@
     "rejectAll": "Nur Notwendige",
     "learnMore": "Datenschutzerklärung",
     "closeButton": "Schließen"
+  },
+  "theme": {
+    "switchToLight": "Zum hellen Modus wechseln",
+    "switchToDark": "Zum dunklen Modus wechseln"
   }
 }

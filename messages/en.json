@@ -291,5 +291,9 @@
     "rejectAll": "Essential Only",
     "learnMore": "Privacy Policy",
     "closeButton": "Close"
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
   }
 }

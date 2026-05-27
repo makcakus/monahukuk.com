@@ -112,12 +112,18 @@ export default async function ArticlePage({
     en: "Att.",
     de: "RA",
     ru: "Адв.",
+    ar: "المحامي",
+    es: "Abog.",
+    fr: "Me",
   };
   const BAR_LABEL: Record<string, string> = {
     tr: "Antalya Barosu",
     en: "Antalya Bar Association",
     de: "Antalya Rechtsanwaltskammer",
     ru: "Коллегия адвокатов Анталии",
+    ar: "نقابة محامي أنطاليا",
+    es: "Colegio de Abogados de Antalya",
+    fr: "Barreau d'Antalya",
   };
   const titlePrefix = TITLE_PREFIX[locale] ?? "Av.";
   const barLabel = BAR_LABEL[locale] ?? "Antalya Barosu";

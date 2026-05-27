@@ -291,5 +291,9 @@
     "rejectAll": "Solo esenciales",
     "learnMore": "Política de privacidad",
     "closeButton": "Cerrar"
+  },
+  "theme": {
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
   }
 }

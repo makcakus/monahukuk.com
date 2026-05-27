@@ -291,5 +291,9 @@
     "rejectAll": "Cookies essentiels uniquement",
     "learnMore": "Politique de confidentialité",
     "closeButton": "Fermer"
+  },
+  "theme": {
+    "switchToLight": "Passer au mode clair",
+    "switchToDark": "Passer au mode sombre"
   }
 }
