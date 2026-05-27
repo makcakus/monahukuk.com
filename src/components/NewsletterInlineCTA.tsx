@@ -175,6 +175,30 @@ const COPY: Record<Locale, Copy> = {
     interestRegisteredBody:
       "Le notificaremos cuando el boletín esté activo. Mientras tanto, puede contactarnos en contact@monahukuk.com.",
   },
+  fr: {
+    heading: "Souhaitez-vous recevoir un résumé hebdomadaire des actualités du droit turc ?",
+    body: "Annonces du Journal officiel, décisions judiciaires et changements législatifs — chaque semaine dans votre boîte mail. Gratuit, désinscription à tout moment.",
+    placeholder: "Votre adresse e-mail",
+    button: "S'abonner",
+    submitting: "Envoi en cours…",
+    consent:
+      "Je consens au traitement de mon adresse e-mail aux fins de réception du bulletin d'information.",
+    consentRequired: "Veuillez cocher la case de consentement pour continuer.",
+    invalidEmail: "Veuillez saisir une adresse e-mail valide.",
+    serverError: "Une erreur s'est produite. Veuillez réessayer ultérieurement.",
+    pendingTitle: "E-mail de vérification envoyé",
+    pendingBody:
+      "Vérifiez votre boîte de réception et cliquez sur le lien pour finaliser votre abonnement. Le lien est valable 48 heures.",
+    resentTitle: "E-mail de vérification renvoyé",
+    alreadyTitle: "Vous êtes déjà abonné",
+    alreadyBody:
+      "Cette adresse est déjà enregistrée dans notre liste. Vous pouvez vous désabonner via le lien au bas de chaque numéro.",
+    comingSoonNotice:
+      "Notre bulletin sera actif prochainement. Vous pouvez enregistrer votre intérêt maintenant et nous vous préviendrons.",
+    interestRegisteredTitle: "Votre intérêt a été enregistré",
+    interestRegisteredBody:
+      "Nous vous informerons dès que le bulletin sera actif. En attendant, contactez-nous à contact@monahukuk.com.",
+  },
 };
 
 function isLocale(v: string): v is Locale {

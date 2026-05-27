@@ -54,14 +54,14 @@ export async function generateMetadata({
     category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", es: "/es", "x-default": "/en" },
+      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", es: "/es", fr: "/fr", "x-default": "/en" },
     },
     openGraph: {
       type: "website",
       siteName: t("name"),
       title: `${t("name")} — ${t("tagline")}`,
       description: t("description"),
-      locale: { tr: "tr_TR", de: "de_DE", ru: "ru_RU", ar: "ar_SA", es: "es_ES" }[locale] ?? "en_US",
+      locale: { tr: "tr_TR", de: "de_DE", ru: "ru_RU", ar: "ar_SA", es: "es_ES", fr: "fr_FR" }[locale] ?? "en_US",
       url: `${SITE.url}/${locale}`,
       images: [{ url: SITE.ogImage, width: 1200, height: 630, alt: t("name") }],
     },
