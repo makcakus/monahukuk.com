@@ -67,7 +67,7 @@ export function pageMetadata({
       title,
       description,
       siteName: SITE.name,
-      locale: { tr: "tr_TR", de: "de_DE", ru: "ru_RU", ar: "ar_SA" }[locale] ?? "en_US",
+      locale: { tr: "tr_TR", en: "en_US", de: "de_DE", ru: "ru_RU", ar: "ar_SA", es: "es_ES", fr: "fr_FR" }[locale] ?? "en_US",
       images: [{ url: image, width: 1200, height: 630, alt: title }],
       ...(publishedTime ? { publishedTime } : {}),
     },
