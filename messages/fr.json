@@ -1,0 +1,293 @@
+{
+  "site": {
+    "name": "MONA HUKUK",
+    "tagline": "Conseil juridique pour les personnes physiques et morales, nationales et étrangères, en Turquie",
+    "description": "Cabinet d'avocats basé à Antalya, offrant des services de représentation et de conseil dans les domaines du droit commercial, familial, pénal, administratif, immobilier, du travail et de l'immigration, tant pour les clients nationaux qu'internationaux."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "team": "Notre équipe",
+    "practiceAreas": "Domaines de pratique",
+    "articles": "Articles juridiques",
+    "legalNews": "Actualités juridiques",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité"
+  },
+  "cta": {
+    "consult": "Demander une consultation",
+    "callUs": "Nous appeler",
+    "email": "E-mail",
+    "explore": "Nos domaines de pratique"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Antalya · Turquie",
+      "title": "MONA HUKUK",
+      "lead": "Notre cabinet, établi à Antalya, met à la disposition de ses clients plus d'une décennie d'expérience juridique et une équipe de spécialistes dévoués à la défense de leurs intérêts."
+    },
+    "practiceIntro": "Nous intervenons dans toutes les branches du droit turc — droit commercial, droit de la famille, droit du travail, droit pénal, droit immobilier et droit administratif, entre autres — en traitant chaque dossier selon ses propres circonstances, avec une gestion transparente et axée sur les solutions.",
+    "foreignClients": {
+      "title": "Nos services aux clients étrangers",
+      "lead": "Tous les membres de notre équipe maîtrisent l'anglais, ce qui nous permet d'offrir un conseil juridique de qualité à nos clients étrangers dans leur langue. Dans ce cadre, nous proposons notamment :",
+      "item1": "Gestion des procédures de demande de nationalité turque",
+      "item2": "Traitement des permis de séjour temporaires et permanents",
+      "item3": "Conseil juridique et assistance administrative pour l'acquisition de biens mobiliers et immobiliers en Turquie",
+      "item4": "Représentation auprès des services cadastraux, notariaux et des administrations compétentes",
+      "item5": "Reconnaissance et exécution en Turquie de décisions rendues par des juridictions étrangères"
+    },
+    "approach": {
+      "title": "Notre approche",
+      "body": "Chez MONA HUKUK, nous considérons que la confiance, la confidentialité et la rigueur professionnelle sont au cœur de tout service juridique. Nous envisageons notre relation avec nos clients comme un partenariat à long terme, fondé sur une communication ouverte et un engagement de responsabilité à chaque étape.",
+      "closing": "Lorsque vous cherchez un soutien solide dans vos démarches juridiques, notre cabinet sera heureux de vous accueillir."
+    },
+    "ctaBanner": {
+      "title": "Besoin d'un conseil juridique en Turquie ?",
+      "button": "Prendre contact"
+    }
+  },
+  "about": {
+    "title": "À propos de MONA HUKUK",
+    "lead": "Cabinet d'avocats indépendant basé à Antalya. Conseil et représentation pour les personnes physiques et morales dans les principaux domaines du droit turc.",
+    "body": "MONA HUKUK est un cabinet d'avocats fondé pour exercer dans toutes les branches du droit turc, fort de plus d'une décennie d'expérience pratique à Antalya. Nous assurons des services de représentation et de conseil aux particuliers comme aux entreprises dans un large spectre : du droit commercial et des sociétés au droit de la famille, du droit pénal au droit administratif, du droit immobilier au droit du travail. Outre notre clientèle nationale, nous accompagnons les ressortissants étrangers résidant, investissant ou créant une entreprise à Antalya, ainsi que les sociétés internationales, grâce à la maîtrise de l'anglais par l'ensemble de notre équipe.\n\nNotre philosophie de travail repose sur l'analyse de chaque dossier selon ses propres spécificités, sur une information complète et un accord du client à chaque étape de la procédure, ainsi que sur la protection rigoureuse du secret professionnel. Qu'il s'agisse de plaidoiries devant les tribunaux, de négociations, de rédaction de contrats ou de démarches administratives, notre objectif est toujours de défendre les intérêts de nos clients avec la plus grande efficacité dans les limites de la légalité.",
+    "mission": {
+      "title": "Notre mission",
+      "body": "Comprendre avec précision les droits, les attentes et la situation juridique de notre client ; concevoir la solution qui protège au mieux ses intérêts, que ce soit par voie judiciaire ou par la négociation. Nous conjuguons ce principe fondateur à une communication transparente, une planification prévisible des honoraires et une rigueur professionnelle constante."
+    },
+    "whyUs": {
+      "title": "Pourquoi MONA HUKUK ?",
+      "items": {
+        "scope": {
+          "title": "Domaines de pratique étendus",
+          "body": "Une équipe d'avocats expérimentés, opérant dans les principales branches du droit turc et capables d'identifier l'approche la plus adaptée à chaque dossier. Du contentieux individuel au conseil aux entreprises, un soutien juridique complet sous un seul toit."
+        },
+        "experience": {
+          "title": "Plus d'une décennie d'expérience terrain",
+          "body": "Une solide expérience pratique auprès des tribunaux, des services judiciaires et des administrations publiques d'Antalya. Pour chaque dossier, un point de départ réaliste sur le fond comme sur la procédure."
+        },
+        "transparency": {
+          "title": "Honoraires transparents",
+          "body": "Une structure tarifaire sans surprises, des conventions de représentation écrites et une planification prévisible des coûts par dossier. Le client sait toujours où en est sa procédure et ce qu'il règle."
+        },
+        "discretion": {
+          "title": "Confidentialité et rigueur professionnelle",
+          "body": "Le secret professionnel et la protection des informations clients sont au cœur de chaque dossier que nous prenons en charge. La sécurité des communications, la gestion des documents et le partage des informations procédurales sont menés avec le plus grand soin."
+        }
+      }
+    },
+    "areasIntro": "Nous assistons nos clients dans les principaux domaines du droit turc :",
+    "founderTitle": "Associé fondateur",
+    "founderLead": "Auteur des articles juridiques du site ; responsable professionnel du contenu publié.",
+    "founderViewProfile": "Voir toute l'équipe",
+    "ctaTitle": "Demander une consultation juridique",
+    "ctaBody": "Pour chaque dossier que nous examinons ensemble, nous évaluons la situation et clarifions les prochaines étapes."
+  },
+  "practiceAreas": {
+    "title": "Domaines de pratique",
+    "lead": "Nous nous concentrons sur les domaines du droit turc auxquels les personnes et entreprises étrangères sont le plus fréquemment confrontées.",
+    "comingSoon": "Des pages détaillées sur chaque domaine de pratique seront publiées prochainement.",
+    "backToList": "Tous les domaines de pratique",
+    "servicesTitle": "Nos services",
+    "processTitle": "Notre méthode de travail",
+    "faqTitle": "Questions fréquentes",
+    "relatedArticlesTitle": "Articles connexes",
+    "ctaTitle": "Comment pouvons-nous vous aider ?",
+    "ctaBody": "Étudions ensemble les circonstances de votre dossier. Contactez-nous pour un premier entretien d'évaluation.",
+    "ctaButton": "Demander une consultation"
+  },
+  "team": {
+    "title": "Notre équipe",
+    "lead": "Une équipe d'avocats expérimentés et de taille maîtrisée, spécialisés dans les clients internationaux.",
+    "intro": "MONA HUKUK accompagne les clients étrangers dans leurs démarches juridiques en Turquie grâce à une équipe d'avocats chevronnés, inscrits au barreau turc. Notre équipe intervient dans un large éventail de spécialités : immobilier, citoyenneté, droit de la famille, défense pénale, droit commercial, successions et contentieux administratifs.",
+    "labelEducation": "Formation",
+    "labelBar": "Barreau",
+    "labelAreas": "Domaines de pratique",
+    "ctaTitle": "Commencer à travailler avec notre équipe",
+    "ctaBody": "Contactez-nous pour une consultation juridique ou un suivi de dossier."
+  },
+  "legalNews": {
+    "title": "Actualités juridiques",
+    "lead": "Dernières évolutions juridiques compilées à partir du Journal officiel et des décisions judiciaires — à l'intention des praticiens du droit et des personnes qui suivent l'actualité juridique.",
+    "empty": "Aucune actualité pour le moment.",
+    "readMore": "Lire l'article",
+    "minRead": "min de lecture",
+    "publishedOn": "Publié le",
+    "backToList": "Actualités juridiques",
+    "eyebrow": "Bulletin juridique"
+  },
+  "newsletter": {
+    "kicker": "Mona Hukuk - Bulletin juridique hebdomadaire",
+    "title": "Ne manquez aucune actualité juridique !",
+    "body": "Nous vous envoyons chaque semaine un résumé des annonces du Journal officiel, des décisions judiciaires et des changements législatifs importants, directement dans votre boîte mail. Le service est entièrement gratuit.",
+    "placeholder": "Votre adresse e-mail",
+    "button": "S'abonner",
+    "submitting": "Envoi en cours…",
+    "pendingTitle": "E-mail de vérification envoyé",
+    "resentTitle": "E-mail de vérification renvoyé",
+    "pendingBody": "Vérifiez votre boîte de réception et cliquez sur le lien pour finaliser votre abonnement. Le lien est valable 48 heures.",
+    "alreadyTitle": "Vous êtes déjà abonné",
+    "alreadyBody": "Cette adresse e-mail est déjà enregistrée dans notre liste. Vous pouvez vous désabonner via le lien figurant au bas de chaque numéro.",
+    "consent": "Je consens au traitement de mon adresse e-mail aux fins de réception du bulletin d'information. Je peux me désabonner facilement via le lien présent dans chaque envoi.",
+    "consentRequired": "Veuillez cocher la case de consentement pour continuer.",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide.",
+    "serverError": "Une erreur s'est produite. Veuillez réessayer ultérieurement.",
+    "interestRegisteredTitle": "Votre inscription a été enregistrée",
+    "interestRegisteredBody": "Nous vous informerons dès que le bulletin sera actif. En attendant, n'hésitez pas à nous contacter à contact@monahukuk.com."
+  },
+  "newsletterPages": {
+    "confirmedTitle": "Abonnement confirmé",
+    "confirmedBody": "Vous êtes désormais abonné au bulletin juridique hebdomadaire de Mona Hukuk. Le premier numéro vous sera envoyé dès sa parution.",
+    "unsubscribedTitle": "Abonnement annulé",
+    "unsubscribedBody": "Votre adresse e-mail a été retirée de notre liste de diffusion. Votre demande a également été prise en compte dans notre liste Resend.",
+    "expiredTitle": "Lien expiré",
+    "expiredBody": "Le lien de confirmation n'est plus valide (durée de validité : 48 heures). Veuillez saisir à nouveau votre adresse e-mail dans le formulaire afin que nous vous envoyions un nouveau message de vérification.",
+    "invalidTitle": "Lien invalide",
+    "invalidBody": "Ce lien n'est pas reconnu ou a déjà été utilisé. Si le problème persiste, écrivez-nous à contact@monahukuk.com.",
+    "backToNews": "Retour aux actualités juridiques",
+    "backToHome": "Retour à l'accueil"
+  },
+  "articles": {
+    "title": "Articles juridiques",
+    "lead": "Guides pratiques et analyses sur le droit turc — rédigés pour les non-juristes, en particulier les ressortissants étrangers et les entreprises internationales.",
+    "empty": "Aucun article pour le moment. Bientôt disponible.",
+    "readMore": "Lire l'article",
+    "minRead": "min de lecture",
+    "publishedOn": "Publié le",
+    "uncategorized": "Général",
+    "articleOne": "article",
+    "articleMany": "articles",
+    "relatedSuffix": "Articles connexes",
+    "relatedTitle": "Articles connexes",
+    "viewPracticeArea": "Voir ce domaine de pratique",
+    "searchPlaceholder": "Rechercher un article — titre et contenu",
+    "searchClear": "Effacer la recherche",
+    "searchEmpty": "Aucun article ne correspond à votre recherche.",
+    "searchResultsLabel": "résultat(s) trouvé(s)",
+    "prevArticle": "Article précédent",
+    "nextArticle": "Article suivant"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Nous répondons à la plupart des demandes dans un délai d'un jour ouvrable.",
+    "office": "Bureau",
+    "officeAddress": "Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Turquie",
+    "phone": "Téléphone",
+    "phoneNumber": "+90 (242) 606 14 32",
+    "emailLabel": "E-mail",
+    "emailAddress": "contact@monahukuk.com",
+    "hours": "Horaires d'ouverture",
+    "hoursValue": "Lundi – Vendredi, 09h00 – 18h00 (TRT)"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lead": "Comment nous collectons, utilisons et protégeons vos données personnelles.",
+    "lastUpdated": "Dernière mise à jour : 28 avril 2026",
+    "intro": "Chez MONA HUKUK, nous accordons une grande importance à la protection de votre vie privée et de vos données personnelles. La présente Politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons les données personnelles des personnes qui visitent notre site, utilisent nos services ou nous contactent. Cette politique est établie conformément à la loi n° 6698 sur la protection des données personnelles (KVKK) et, dans la mesure applicable, au Règlement général sur la protection des données de l'Union européenne (RGPD).",
+    "s1": {
+      "title": "1. Responsable du traitement",
+      "body": "Dans le cadre de la présente politique, le responsable du traitement est le Cabinet MONA HUKUK, basé à Antalya. Adresse : Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Turquie. E-mail : contact@monahukuk.com. Téléphone : +90 (242) 606 14 32."
+    },
+    "s2": {
+      "title": "2. Données personnelles collectées",
+      "body": "En fonction de la nature de notre relation, nous sommes susceptibles de traiter les catégories suivantes de données personnelles :",
+      "items": [
+        "Données d'identité : nom, prénom, numéro d'identité national ou étranger, date de naissance, nationalité.",
+        "Données de contact : numéro de téléphone, adresse e-mail, adresse postale.",
+        "Données du dossier client : documents, déclarations et correspondances liés à la procédure juridique.",
+        "Données financières : informations de paiement, coordonnées bancaires, données de facturation.",
+        "Données d'utilisation du site web : adresse IP, type de navigateur, date et heure de visite, pages consultées, données de cookies.",
+        "Données transmises par formulaire : informations communiquées via notre formulaire de contact.",
+        "Données sensibles : traitées uniquement lorsqu'elles sont indispensables à votre dossier et avec votre consentement explicite (ex. données de santé, condamnations pénales)."
+      ]
+    },
+    "s3": {
+      "title": "3. Finalités du traitement de vos données personnelles",
+      "body": "Nous traitons vos données personnelles aux fins suivantes :",
+      "items": [
+        "Fournir des services de conseil juridique et de suivi de dossiers, et exécuter nos obligations contractuelles.",
+        "Établir, maintenir et clôturer la relation avocat-client.",
+        "Vous représenter devant les juridictions, les administrations et les autres institutions.",
+        "Répondre à vos demandes de contact et fournir des informations sur nos services.",
+        "Respecter nos obligations légales (obligations comptables, fiscales et déontologiques incluses).",
+        "Améliorer notre site web, effectuer des analyses d'utilisation et en assurer la sécurité.",
+        "Réaliser des communications commerciales et d'information avec votre consentement."
+      ]
+    },
+    "s4": {
+      "title": "4. Bases juridiques du traitement",
+      "body": "Vos données personnelles sont traitées sur la base d'une ou plusieurs des bases juridiques suivantes : (a) la nécessité du traitement pour la conclusion ou l'exécution d'un contrat ; (b) le respect d'une obligation légale ; (c) la protection, l'exercice ou la défense de droits légaux ; (d) la nécessité aux fins des intérêts légitimes que nous poursuivons, sous réserve de ne pas porter atteinte à vos droits et libertés fondamentaux ; (e) votre consentement explicite (notamment pour les communications commerciales et les données sensibles)."
+    },
+    "s5": {
+      "title": "5. Transferts de données personnelles",
+      "body": "Vos données personnelles peuvent être transmises aux tiers suivants dans la mesure requise par le service et dans les limites légales :",
+      "items": [
+        "Autorités judiciaires, administrations et organismes publics (dans le cadre des obligations légales).",
+        "Prestataires de services professionnels tels que traducteurs, conseillers financiers et experts.",
+        "Prestataires de services de paiement, banques et établissements financiers (pour les opérations de paiement).",
+        "Prestataires de services cloud, d'e-mail et d'hébergement web (dans le cadre de mesures de sécurité et d'accords contractuels).",
+        "Toute autre personne ou entité pour laquelle vous avez donné votre consentement ou pour laquelle la loi l'exige."
+      ]
+    },
+    "s6": {
+      "title": "6. Transferts internationaux de données",
+      "body": "Certains de nos prestataires de services cloud (e-mail, stockage de fichiers, analyses) peuvent être établis en dehors de la Turquie. Les transferts internationaux de données sont effectués conformément aux conditions prévues par la KVKK — consentement explicite de la personne concernée, transfert vers des pays offrant un niveau de protection adéquat, ou dans le cadre d'engagements ou de règles d'entreprise contraignantes. Pour les personnes résidant dans l'UE, les transferts sont effectués conformément aux clauses contractuelles types du RGPD ou à des garanties équivalentes."
+    },
+    "s7": {
+      "title": "7. Durée de conservation",
+      "body": "Vos données personnelles sont conservées pendant la durée nécessaire aux finalités du traitement et compte tenu des durées minimales de conservation légales (législation sur la profession d'avocat, droit fiscal, droit commercial, etc.). À l'expiration de ces délais, vos données sont supprimées, détruites ou anonymisées."
+    },
+    "s8": {
+      "title": "8. Cookies",
+      "body": "Notre site utilise des cookies strictement nécessaires pour améliorer votre expérience de navigation et assurer la sécurité du site. Les cookies analytiques et publicitaires ne sont activés qu'avec votre consentement. Vous pouvez modifier vos préférences en matière de cookies à tout moment via le bandeau de gestion des cookies sur notre site, supprimer ou bloquer les cookies depuis les paramètres de votre navigateur. La désactivation des cookies strictement nécessaires peut affecter le bon fonctionnement de certaines fonctionnalités du site."
+    },
+    "s9": {
+      "title": "9. Vos droits en tant que personne concernée",
+      "body": "En vertu de l'article 11 de la KVKK et des articles 15 à 22 du RGPD, vous disposez des droits suivants :",
+      "items": [
+        "Savoir si vos données personnelles font l'objet d'un traitement.",
+        "Obtenir des informations sur le traitement de vos données si celui-ci a lieu.",
+        "Connaître la finalité du traitement de vos données et vérifier si elles sont utilisées conformément à cette finalité.",
+        "Connaître les tiers en Turquie ou à l'étranger auxquels vos données ont été transférées.",
+        "Demander la rectification de vos données personnelles en cas d'inexactitude ou d'incomplétude.",
+        "Demander la suppression ou la destruction de vos données personnelles lorsque les conditions de traitement ne sont plus remplies.",
+        "Demander que les opérations de rectification, suppression et destruction soient notifiées aux tiers auxquels vos données ont été transmises.",
+        "Contester tout résultat vous étant défavorable issu de l'analyse automatisée de vos données.",
+        "Demander réparation du préjudice subi en raison d'un traitement illicite de vos données personnelles."
+      ]
+    },
+    "s10": {
+      "title": "10. Comment exercer vos droits",
+      "body": "Pour exercer les droits mentionnés ci-dessus, vous pouvez nous adresser votre demande par e-mail à contact@monahukuk.com ou par courrier à notre adresse postale. Nous répondons à votre demande gratuitement dans le délai prévu par la KVKK. Si votre demande implique un coût supplémentaire, des frais pourront être facturés conformément au barème fixé par l'Autorité de protection des données. En cas de refus ou de réponse jugée insuffisante, vous pouvez déposer une plainte auprès de l'Autorité de protection des données personnelles."
+    },
+    "s11": {
+      "title": "11. Sécurité des données",
+      "body": "Nous mettons en œuvre des mesures de sécurité administratives et techniques raisonnables pour protéger vos données personnelles contre tout accès, modification, divulgation ou destruction non autorisés. Ces mesures comprennent notamment le contrôle des accès, le chiffrement, le stockage sécurisé, les obligations de confidentialité des collaborateurs et des audits de sécurité réguliers. Toutefois, aucune transmission de données sur Internet ne peut être garantie à 100 % sécurisée."
+    },
+    "s12": {
+      "title": "12. Données des mineurs",
+      "body": "Notre site web ne s'adresse pas aux personnes de moins de 18 ans et nous ne collectons pas sciemment de données personnelles auprès d'enfants. Si vous pensez que nous avons collecté par erreur des données d'un enfant, veuillez nous contacter ; nous procéderons immédiatement à leur suppression."
+    },
+    "s13": {
+      "title": "13. Modifications de la politique",
+      "body": "La présente Politique de confidentialité peut être mise à jour en raison de modifications législatives ou de l'évolution de nos services. La version en vigueur est toujours publiée sur notre site web ; nous pourrons vous informer de tout changement important. Nous vous recommandons de consulter régulièrement cette politique."
+    },
+    "s14": {
+      "title": "14. Contact",
+      "body": "Pour toute question, demande ou préoccupation concernant la présente Politique de confidentialité ou le traitement de vos données personnelles, vous pouvez nous contacter par e-mail à contact@monahukuk.com, par téléphone au +90 (242) 606 14 32, ou à l'adresse postale : Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Turquie."
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "disclaimer": "Ce site est fourni à titre informatif uniquement et ne constitue pas un conseil juridique.",
+    "newsletterHeading": "Bulletin juridique hebdomadaire",
+    "newsletterCta": "S'abonner",
+    "siteMap": "Plan du site"
+  },
+  "cookies": {
+    "title": "Utilisation des cookies (KVKK)",
+    "body": "Nous utilisons des cookies strictement nécessaires pour améliorer notre site web et vous offrir une meilleure expérience. Les cookies analytiques et publicitaires ne sont activés qu'avec votre consentement.",
+    "acceptAll": "Tout accepter",
+    "rejectAll": "Cookies essentiels uniquement",
+    "learnMore": "Politique de confidentialité"
+  }
+}

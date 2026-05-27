@@ -13,9 +13,10 @@ const LANG_LABELS: Record<string, string> = {
   ru: "Русский",
   ar: "العربية",
   es: "Español",
+  fr: "Français",
 };
 
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es"] as const;
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
 
 export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}) {
   const router = useRouter();

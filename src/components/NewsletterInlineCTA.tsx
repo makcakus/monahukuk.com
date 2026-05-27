@@ -5,7 +5,7 @@ import { useLocale } from "next-intl";
 import { CheckCircle, MailCheck, Mail } from "lucide-react";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es";
+type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 type Copy = {
   heading: string;
@@ -178,7 +178,7 @@ const COPY: Record<Locale, Copy> = {
 };
 
 function isLocale(v: string): v is Locale {
-  return ["tr", "en", "de", "ru", "ar", "es"].includes(v);
+  return ["tr", "en", "de", "ru", "ar", "es", "fr"].includes(v);
 }
 
 export function NewsletterInlineCTA({

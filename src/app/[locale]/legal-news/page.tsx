@@ -18,7 +18,7 @@ export async function generateMetadata({
     path: "/legal-news",
     title: t("title"),
     description: t("lead"),
-    articleLanguages: { tr: "/legal-news", en: "/legal-news", de: "/legal-news", ru: "/legal-news", ar: "/legal-news", es: "/legal-news" },
+    articleLanguages: { tr: "/legal-news", en: "/legal-news", de: "/legal-news", ru: "/legal-news", ar: "/legal-news", es: "/legal-news", fr: "/legal-news" },
   });
 }
 
@@ -33,7 +33,7 @@ export default async function LegalNewsPage({
   const t = await getTranslations("legalNews");
   const posts = await getAllGazettePosts(locale);
 
-  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES" };
+  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES", fr: "fr-FR" };
   const dateFmt = new Intl.DateTimeFormat(IETF[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",

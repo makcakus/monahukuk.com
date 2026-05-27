@@ -7,7 +7,7 @@ import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateStaticParams() {
-  const locales = ["tr", "en", "de", "ru", "ar", "es"] as const;
+  const locales = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
   const all = await Promise.all(
     locales.map(async (locale) => {
       const posts = await getAllGazettePosts(locale);
@@ -27,7 +27,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   // Aynı slug için tüm dillerde versiyon var mı? Hreflang yalnızca var olanlara yazılsın.
-  const localeList = ["tr", "en", "de", "ru", "ar", "es"] as const;
+  const localeList = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
   const checks = await Promise.all(
     localeList.map(async (l) => {
       const p = await getGazettePost(l, slug);
@@ -62,7 +62,7 @@ export default async function GazettePostPage({
   if (!post) notFound();
 
   const t = await getTranslations("legalNews");
-  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES" };
+  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES", fr: "fr-FR" };
   const dateFmt = new Intl.DateTimeFormat(IETF[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",

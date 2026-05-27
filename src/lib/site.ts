@@ -13,7 +13,7 @@ export const SITE = {
   geo: { latitude: 36.8841, longitude: 30.7056 },
   hours: { opens: "09:00", closes: "18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
   founded: 2018,
-  languages: ["tr", "en", "de", "ru", "ar", "es"],
+  languages: ["tr", "en", "de", "ru", "ar", "es", "fr"],
   social: [] as string[],
   ogImage: "/opengraph-image",
 } as const;
@@ -102,5 +102,19 @@ export const KEYWORDS: Record<string, string[]> = {
     "derecho laboral Turquía abogado",
     "derecho mercantil Turquía",
     "KVKK RGPD abogado Turquía",
+  ],
+  fr: [
+    "cabinet d'avocats Antalya",
+    "avocat en Turquie",
+    "avocat pour étrangers Turquie",
+    "avocat francophone Antalya",
+    "avocat immigration Turquie",
+    "permis de séjour Turquie avocat",
+    "avocat immobilier Antalya étranger",
+    "nationalité turque avocat",
+    "avocat divorce Antalya",
+    "droit du travail Turquie avocat",
+    "droit commercial Turquie avocat",
+    "KVKK RGPD avocat Turquie",
   ],
 };

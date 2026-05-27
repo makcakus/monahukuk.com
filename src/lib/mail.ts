@@ -1,7 +1,7 @@
 import "server-only";
 import { Resend } from "resend";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es";
+type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 const FROM_DEFAULT = "Mona Hukuk <bulten@monahukuk.com>";
 const REPLY_TO = "contact@monahukuk.com";
@@ -97,6 +97,17 @@ const VERIFY_COPY: Record<Locale, {
     footer: "Mona Hukuk · Antalya, Turquía",
     dir: "ltr",
   },
+  fr: {
+    subject: "Confirmez votre abonnement au bulletin de Mona Hukuk",
+    preheader: "Un clic pour finaliser votre abonnement au bulletin juridique.",
+    heading: "Confirmez votre abonnement",
+    body: "Vous avez demandé à vous abonner au bulletin juridique hebdomadaire de Mona Hukuk. Cliquez sur le bouton ci-dessous pour activer votre abonnement.",
+    button: "Confirmer l'abonnement",
+    expiry: "Ce lien expire dans 48 heures.",
+    ignore: "Si vous n'avez pas effectué cette demande, vous pouvez ignorer ce message — aucune donnée ne sera conservée.",
+    footer: "Mona Hukuk · Antalya, Turquie",
+    dir: "ltr",
+  },
 };
 
 function escapeHtml(s: string): string {
@@ -143,7 +154,7 @@ function renderVerifyEmail(opts: {
       <p style="font-size:11px;color:#9a9eb0;word-break:break-all;margin:8px 0;">${escapeHtml(opts.confirmUrl)}</p>
     </td></tr>
     <tr><td style="padding:16px 32px;border-top:1px solid #efe7d6;">
-      <p style="font-size:11px;color:#9a9eb0;margin:0;">${escapeHtml(c.footer)} · <a href="${opts.unsubscribeUrl}" style="color:#9a9eb0;text-decoration:underline;">${opts.locale === "tr" ? "Aboneliği iptal et" : opts.locale === "de" ? "Abbestellen" : opts.locale === "ru" ? "Отписаться" : opts.locale === "ar" ? "إلغاء الاشتراك" : opts.locale === "es" ? "Cancelar suscripción" : "Unsubscribe"}</a></p>
+      <p style="font-size:11px;color:#9a9eb0;margin:0;">${escapeHtml(c.footer)} · <a href="${opts.unsubscribeUrl}" style="color:#9a9eb0;text-decoration:underline;">${opts.locale === "tr" ? "Aboneliği iptal et" : opts.locale === "de" ? "Abbestellen" : opts.locale === "ru" ? "Отписаться" : opts.locale === "ar" ? "إلغاء الاشتراك" : opts.locale === "es" ? "Cancelar suscripción" : opts.locale === "fr" ? "Se désabonner" : "Unsubscribe"}</a></p>
     </td></tr>
   </table>
 </td></tr>
