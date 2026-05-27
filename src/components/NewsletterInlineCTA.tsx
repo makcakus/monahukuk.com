@@ -213,7 +213,6 @@ export function NewsletterInlineCTA({
   id?: string;
 }) {
   const localeRaw = useLocale();
-  if (localeRaw !== "tr") return null;
   const locale: Locale = isLocale(localeRaw) ? localeRaw : "tr";
   const c = COPY[locale];
   const [state, formAction, isPending] = useActionState<NewsletterState, FormData>(

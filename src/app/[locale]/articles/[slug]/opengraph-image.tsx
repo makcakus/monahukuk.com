@@ -62,7 +62,7 @@ export default async function ArticleOGImage({
         </div>
 
         <div style={{ fontSize: 22, color: "#b8c6e0" }}>
-          monahukuk.com · Antalya, Türkiye
+          {`monahukuk.com · Antalya, ${locale === "tr" ? "Türkiye" : "Turkey"}`}
         </div>
       </div>
     ),

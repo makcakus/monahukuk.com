@@ -141,7 +141,7 @@ export function websiteSchema() {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: `${SITE.url}/tr/articles?q={search_term_string}`,
+        urlTemplate: `${SITE.url}/en/articles?q={search_term_string}`,
       },
       "query-input": "required name=search_term_string",
     },

@@ -69,14 +69,12 @@ export default async function NewsletterResultPage({
           {t(`${s}Body` as `${Slug}Body`)}
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-3">
-          {(locale === "tr" || locale === "en") && (
-            <Link
-              href="/legal-news"
-              className="inline-flex items-center justify-center rounded-sm bg-navy-900 px-5 text-sm font-medium text-cream-50 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-600 transition-colors h-[44px]"
-            >
-              {t("backToNews")}
-            </Link>
-          )}
+          <Link
+            href="/legal-news"
+            className="inline-flex items-center justify-center rounded-sm bg-navy-900 px-5 text-sm font-medium text-cream-50 hover:bg-navy-800 dark:bg-gold-500 dark:text-navy-950 dark:hover:bg-gold-600 transition-colors h-[44px]"
+          >
+            {t("backToNews")}
+          </Link>
           <Link
             href="/"
             className="inline-flex items-center justify-center rounded-sm border border-navy-200 px-5 text-sm font-medium text-navy-900 hover:bg-cream-100 dark:border-navy-700 dark:text-cream-100 dark:hover:bg-navy-800 transition-colors h-[44px]"

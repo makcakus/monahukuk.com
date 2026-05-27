@@ -24,7 +24,8 @@
     "hero": {
       "kicker": "Antalya · Turquía",
       "title": "MONA HUKUK",
-      "lead": "Con sede en Antalya, nuestro bufete cuenta con más de una década de experiencia profesional y un equipo de especialistas para prestar servicios de asesoría jurídica y representación ante los tribunales."
+      "lead": "Con sede en Antalya, nuestro bufete cuenta con más de una década de experiencia profesional y un equipo de especialistas para prestar servicios de asesoría jurídica y representación ante los tribunales.",
+      "imageAlt": "Antalya — playa de Konyaaltı, montes Tauro y panorama de la ciudad"
     },
     "practiceIntro": "Ejercemos en todas las ramas del derecho turco, atendiendo a nuestros clientes en un amplio espectro que incluye, en particular, el Derecho Mercantil, el Derecho de Familia, el Derecho Laboral, el Derecho Penal, el Derecho Inmobiliario y el Derecho Administrativo. Evaluamos cada caso según sus propias circunstancias y adoptamos un enfoque orientado a la solución y transparente en la gestión de los asuntos.",
     "foreignClients": {

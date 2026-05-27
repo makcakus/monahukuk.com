@@ -15,7 +15,7 @@ export function CinematicHero() {
       <div className="absolute inset-0 animate-ken-burns">
         <Image
           src={HERO_IMAGE_URL}
-          alt="Antalya — Konyaaltı sahili, Toros Dağları ve şehir manzarası"
+          alt={t("hero.imageAlt")}
           fill
           priority
           sizes="100vw"

@@ -14,6 +14,8 @@ const ATTORNEY_TITLE: Record<string, string> = {
   de: "RA",
   ru: "Адв.",
   ar: "المحامي",
+  es: "Abog.",
+  fr: "Me",
 };
 
 const TRAINEE_TITLE: Record<string, string> = {
@@ -22,6 +24,8 @@ const TRAINEE_TITLE: Record<string, string> = {
   de: "Ref.",
   ru: "Стажёр-адв.",
   ar: "متدرب",
+  es: "Abog. en prácticas",
+  fr: "Élève avocat",
 };
 
 const KNOWN_PREFIX_RE =
