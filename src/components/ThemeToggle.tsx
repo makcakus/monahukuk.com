@@ -36,7 +36,6 @@ export function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      title={theme === "dark" ? "Aydınlık mod" : "Koyu mod"}
       className="inline-flex h-8 w-8 items-center justify-center rounded-full text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50 transition-colors"
     >
       {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}

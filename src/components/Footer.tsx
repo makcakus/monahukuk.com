@@ -9,7 +9,7 @@ export function Footer() {
   const tContact = useTranslations("contact");
   const locale = useLocale();
   const year = new Date().getFullYear();
-  const showLegalNews = locale === "tr" || locale === "en";
+  const showLegalNews = true; // legal-news is available in all 7 locales
 
   return (
     <footer className="mt-24 border-t border-cream-200 bg-navy-950 text-cream-100">

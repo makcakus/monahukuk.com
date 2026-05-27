@@ -87,7 +87,7 @@ export default async function ContactPage({
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="MONA HUKUK Ofis Konumu"
+            title={t("mapTitle")}
           />
         </div>
       </section>

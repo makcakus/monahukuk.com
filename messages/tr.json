@@ -176,7 +176,8 @@
     "emailLabel": "E-posta",
     "emailAddress": "contact@monahukuk.com",
     "hours": "Çalışma saatleri",
-    "hoursValue": "Pazartesi – Cuma, 09:00 – 18:00 (TRT)"
+    "hoursValue": "Pazartesi – Cuma, 09:00 – 18:00 (TRT)",
+    "mapTitle": "MONA HUKUK Ofis Konumu"
   },
   "privacy": {
     "title": "Gizlilik Politikası",
@@ -288,6 +289,7 @@
     "body": "Web sitemizi geliştirmek ve size daha iyi bir deneyim sunmak için zorunlu çerezler kullanıyoruz. Analitik ve pazarlama çerezleri yalnızca onayınızla aktif edilir.",
     "acceptAll": "Tümünü Kabul Et",
     "rejectAll": "Sadece Gerekli",
-    "learnMore": "Gizlilik Politikası"
+    "learnMore": "Gizlilik Politikası",
+    "closeButton": "Kapat"
   }
 }

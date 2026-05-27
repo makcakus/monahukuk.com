@@ -42,8 +42,18 @@ const nextConfig: NextConfig = {
       // ── hukuki-haberler → legal-news (3 Mayıs'ta route rename edildi) ────────
       { source: "/tr/hukuki-haberler", destination: "/tr/legal-news", permanent: true },
       { source: "/en/hukuki-haberler", destination: "/en/legal-news", permanent: true },
+      { source: "/de/hukuki-haberler", destination: "/de/legal-news", permanent: true },
+      { source: "/ru/hukuki-haberler", destination: "/ru/legal-news", permanent: true },
+      { source: "/ar/hukuki-haberler", destination: "/ar/legal-news", permanent: true },
+      { source: "/es/hukuki-haberler", destination: "/es/legal-news", permanent: true },
+      { source: "/fr/hukuki-haberler", destination: "/fr/legal-news", permanent: true },
       { source: "/tr/hukuki-haberler/:slug+", destination: "/tr/legal-news/:slug+", permanent: true },
       { source: "/en/hukuki-haberler/:slug+", destination: "/en/legal-news/:slug+", permanent: true },
+      { source: "/de/hukuki-haberler/:slug+", destination: "/de/legal-news/:slug+", permanent: true },
+      { source: "/ru/hukuki-haberler/:slug+", destination: "/ru/legal-news/:slug+", permanent: true },
+      { source: "/ar/hukuki-haberler/:slug+", destination: "/ar/legal-news/:slug+", permanent: true },
+      { source: "/es/hukuki-haberler/:slug+", destination: "/es/legal-news/:slug+", permanent: true },
+      { source: "/fr/hukuki-haberler/:slug+", destination: "/fr/legal-news/:slug+", permanent: true },
 
       // ── Silinen welcome sayfaları (28 Nisan'da kaldırıldı) ───────────────────
       { source: "/tr/articles/welcome", destination: "/tr/articles", permanent: false },
@@ -57,6 +67,7 @@ const nextConfig: NextConfig = {
       { source: "/ru/", destination: "/ru", permanent: true },
       { source: "/ar/", destination: "/ar", permanent: true },
       { source: "/es/", destination: "/es", permanent: true },
+      { source: "/fr/", destination: "/fr", permanent: true },
     ];
   },
 };

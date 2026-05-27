@@ -176,7 +176,8 @@
     "emailLabel": "Email",
     "emailAddress": "contact@monahukuk.com",
     "hours": "Working hours",
-    "hoursValue": "Monday – Friday, 09:00 – 18:00 (TRT)"
+    "hoursValue": "Monday – Friday, 09:00 – 18:00 (TRT)",
+    "mapTitle": "MONA HUKUK Office Location"
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -288,6 +289,7 @@
     "body": "We use essential cookies to improve our website and provide a better experience. Analytics and marketing cookies are activated only with your consent.",
     "acceptAll": "Accept All",
     "rejectAll": "Essential Only",
-    "learnMore": "Privacy Policy"
+    "learnMore": "Privacy Policy",
+    "closeButton": "Close"
   }
 }
