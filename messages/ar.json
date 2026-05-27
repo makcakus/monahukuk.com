@@ -121,7 +121,9 @@
     "searchPlaceholder": "ابحث في المقالات — العنوان والمحتوى",
     "searchClear": "مسح البحث",
     "searchEmpty": "لا توجد مقالات تطابق بحثك.",
-    "searchResultsLabel": "نتائج"
+    "searchResultsLabel": "نتائج",
+    "prevArticle": "المقال السابق",
+    "nextArticle": "المقال التالي"
   },
   "newsletter": {
     "kicker": "Mona Hukuk – النشرة القانونية الأسبوعية",

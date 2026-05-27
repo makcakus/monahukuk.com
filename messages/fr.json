@@ -156,7 +156,7 @@
     "uncategorized": "Général",
     "articleOne": "article",
     "articleMany": "articles",
-    "relatedSuffix": "Articles connexes",
+    "relatedSuffix": "— Articles connexes",
     "relatedTitle": "Articles connexes",
     "viewPracticeArea": "Voir ce domaine de pratique",
     "searchPlaceholder": "Rechercher un article — titre et contenu",
@@ -284,7 +284,7 @@
     "siteMap": "Plan du site"
   },
   "cookies": {
-    "title": "Utilisation des cookies (KVKK)",
+    "title": "Utilisation des cookies (KVKK / RGPD)",
     "body": "Nous utilisons des cookies strictement nécessaires pour améliorer notre site web et vous offrir une meilleure expérience. Les cookies analytiques et publicitaires ne sont activés qu'avec votre consentement.",
     "acceptAll": "Tout accepter",
     "rejectAll": "Cookies essentiels uniquement",

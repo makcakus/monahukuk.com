@@ -121,7 +121,9 @@
     "searchPlaceholder": "Поиск по статьям — заголовок и содержимое",
     "searchClear": "Очистить поиск",
     "searchEmpty": "По вашему запросу ничего не найдено.",
-    "searchResultsLabel": "результатов"
+    "searchResultsLabel": "результатов",
+    "prevArticle": "Предыдущая статья",
+    "nextArticle": "Следующая статья"
   },
   "newsletter": {
     "kicker": "Mona Hukuk — Еженедельная юридическая рассылка",

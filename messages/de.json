@@ -121,7 +121,9 @@
     "searchPlaceholder": "Artikel suchen — Titel und Volltext",
     "searchClear": "Suche löschen",
     "searchEmpty": "Keine Artikel entsprechen Ihrer Suche.",
-    "searchResultsLabel": "Ergebnisse"
+    "searchResultsLabel": "Ergebnisse",
+    "prevArticle": "Vorheriger Artikel",
+    "nextArticle": "Nächster Artikel"
   },
   "newsletter": {
     "kicker": "Mona Hukuk – Wöchentlicher Rechts-Newsletter",
