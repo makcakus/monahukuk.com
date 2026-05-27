@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { getGazettePost, getAllGazettePosts } from "@/lib/hukuki-haberler";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
+import { BreadcrumbSchema } from "@/components/ArticleSchema";
 
 export async function generateStaticParams() {
   const locales = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
@@ -71,6 +72,14 @@ export default async function GazettePostPage({
 
   return (
     <article className="mx-auto max-w-3xl px-6 py-16">
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: t("backToList"), path: "/legal-news" },
+          { name: post.title, path: `/legal-news/${slug}` },
+        ]}
+      />
+
       <Link
         href="/legal-news"
         className="inline-flex items-center gap-1 text-sm text-ink-mute hover:text-navy-900 dark:hover:text-cream-50 mb-8"

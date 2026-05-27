@@ -5,6 +5,7 @@ import { ArrowLeft, ArrowRight, CheckCircle2 } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
+import { BreadcrumbSchema } from "@/components/ArticleSchema";
 import {
   getPracticeAreaContent,
   pickList,
@@ -95,6 +96,14 @@ export default async function PracticeAreaDetailPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+
+      <BreadcrumbSchema
+        locale={locale}
+        items={[
+          { name: t("title"), path: "/practice-areas" },
+          { name: title, path: `/practice-areas/${slug}` },
+        ]}
+      />
 
       <PageHero kicker={t("title")} title={title} />
 

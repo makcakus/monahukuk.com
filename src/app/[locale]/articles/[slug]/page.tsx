@@ -92,7 +92,16 @@ export default async function ArticlePage({
     category: article.category,
   });
   const t = await getTranslations("articles");
-  const dateFmt = new Intl.DateTimeFormat(locale === "tr" ? "tr-TR" : "en-GB", {
+  const localeBcp47: Record<string, string> = {
+    tr: "tr-TR",
+    en: "en-GB",
+    de: "de-DE",
+    ru: "ru-RU",
+    ar: "ar-SA",
+    es: "es-ES",
+    fr: "fr-FR",
+  };
+  const dateFmt = new Intl.DateTimeFormat(localeBcp47[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",
     day: "numeric",
