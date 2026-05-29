@@ -33,7 +33,7 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
-const ALL_LOCALES = ["tr", "en", "de", "ru", "ar"];
+const ALL_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 const args = process.argv.slice(2);
 const LOCALES = args.length ? args.filter((l) => ALL_LOCALES.includes(l)) : ALL_LOCALES;
 const CONTENT_DIR = join(process.cwd(), "content", "articles");

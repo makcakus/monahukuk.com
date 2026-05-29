@@ -10,7 +10,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ## What This Project Is
 
-**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 5 dilli (TR/EN/DE/RU/AR) web sitesi. Eski WordPress'in yerine geçti.
+**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 7 dilli (TR/EN/DE/RU/AR/ES/FR) web sitesi. Eski WordPress'in yerine geçti.
 
 ## Commands
 
@@ -37,7 +37,7 @@ node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
 
 - **Framework**: Next.js 16 (App Router) + TypeScript 5 + React 19
 - **Styling**: Tailwind CSS v4 (PostCSS tabanlı — `tailwind.config.js` yok, `globals.css` içinde `@theme`)
-- **i18n**: next-intl 4 — 5 locale, prefix-based routing (`/tr/`, `/en/`, ...)
+- **i18n**: next-intl 4 — 7 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`)
 - **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
 - **E-posta / Newsletter**: Resend API + Supabase
 - **Deployment**: Vercel
@@ -66,9 +66,9 @@ src/
 │   └── site.ts                    # SITE metadata objesi
 content/
 └── articles/
-    ├── tr/    en/    de/    ru/    ar/   # Locale başına ayrı MDX dosyaları
+    ├── tr/    en/    de/    ru/    ar/    es/    fr/   # Locale başına ayrı MDX dosyaları
 messages/
-└── tr.json  en.json  de.json  ru.json  ar.json  # i18n çeviri anahtarları
+└── tr.json  en.json  de.json  ru.json  ar.json  es.json  fr.json  # i18n çeviri anahtarları
 ```
 
 ## İçerik Yönetimi (Makaleler)

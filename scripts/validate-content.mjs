@@ -15,7 +15,7 @@ const matter = require("gray-matter");
 // liste sayfasında "Genel" başlığı altına düşüyor ve UI'da slug-as-title
 // görünüyordu. Build'de yakalansın diye zorunlu.
 const REQUIRED = ["title", "description", "date", "slug", "category", "author"];
-const LOCALES = ["tr", "en", "de", "ru", "ar"];
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 
 let errors = 0;

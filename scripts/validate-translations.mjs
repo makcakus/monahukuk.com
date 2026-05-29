@@ -46,7 +46,7 @@ function parseFrontmatter(raw) {
 }
 
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
-const TARGET_LOCALES = ["en", "de", "ru"];
+const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr"];
 
 // TR makalelerini oku
 const trDir = join(CONTENT_DIR, "tr");
