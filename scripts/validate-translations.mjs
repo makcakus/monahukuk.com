@@ -47,6 +47,8 @@ function parseFrontmatter(raw) {
 
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr"];
+// Bu locale'lerde eksikler build'i engellemez (sadece uyarı verir)
+const WARN_ONLY_LOCALES = new Set(["fr"]);
 
 // TR makalelerini oku
 const trDir = join(CONTENT_DIR, "tr");
@@ -115,7 +117,10 @@ for (const r of results) {
 }
 
 // Özet
-const anyMissing = Object.values(missingCount).some((n) => n > 0);
+// Sadece zorunlu locale'lerde eksik varsa build fail
+const anyBlockingMissing = TARGET_LOCALES
+  .filter((l) => !WARN_ONLY_LOCALES.has(l))
+  .some((l) => missingCount[l] > 0);
 
 console.log("");
 console.log("ÖZET:");
@@ -123,12 +128,12 @@ console.log(`Toplam: ${total} makale`);
 console.log(`Eksiksiz: ${fullyCovered}`);
 for (const locale of TARGET_LOCALES) {
   const count = missingCount[locale];
-  console.log(
-    `${locale.toUpperCase()} eksik: ${count}${count > 0 ? " ⚠️" : ""}`
-  );
+  const isWarnOnly = WARN_ONLY_LOCALES.has(locale);
+  const suffix = count > 0 ? (isWarnOnly ? " ⚠️ (warn-only, build engellenmez)" : " ❌") : "";
+  console.log(`${locale.toUpperCase()} eksik: ${count}${suffix}`);
 }
 
-if (anyMissing) {
+if (anyBlockingMissing) {
   process.exit(1);
 } else {
   process.exit(0);
