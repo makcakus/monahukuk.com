@@ -29,6 +29,9 @@ const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
 const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+// Bu locale'lerde kırık linkler build'i engellemez (sadece uyarı)
+// FR backfill devam ediyor — bazı makaleler henüz mevcut değil
+const WARN_ONLY_LOCALES = new Set(["fr"]);
 const SITE = "monahukuk.com";
 
 const ARTICLES_DIR = join(process.cwd(), "content", "articles");
@@ -163,6 +166,7 @@ function scan(rootDir, slugMap, label) {
             source: `${label}/${locale}/${file}`,
             url,
             target: `${norm.locale}/${norm.kind}/${norm.slug}`,
+            warnOnly: WARN_ONLY_LOCALES.has(locale) || WARN_ONLY_LOCALES.has(norm.locale),
           });
         }
       }
@@ -181,9 +185,22 @@ console.log(`Atlanan (harici / statik): ${totalSkipped}`);
 console.log(`Kırık link        : ${broken.length}`);
 console.log(`──────────────────────────────────\n`);
 
-if (broken.length) {
+const blockingBroken = broken.filter((b) => !b.warnOnly);
+const warnBroken = broken.filter((b) => b.warnOnly);
+
+if (warnBroken.length) {
+  console.warn("⚠️  Kırık dahili linkler (warn-only, build engellenmez):\n");
+  for (const b of warnBroken) {
+    console.warn(`  ${b.source}`);
+    console.warn(`    URL:    ${b.url}`);
+    console.warn(`    Hedef:  ${b.target} (bulunamadı — FR backfill devam ediyor)`);
+    console.warn();
+  }
+}
+
+if (blockingBroken.length) {
   console.error("🔴 Kırık dahili linkler:\n");
-  for (const b of broken) {
+  for (const b of blockingBroken) {
     console.error(`  ${b.source}`);
     console.error(`    URL:    ${b.url}`);
     console.error(`    Hedef:  ${b.target} (bulunamadı)`);
@@ -193,4 +210,4 @@ if (broken.length) {
   process.exit(1);
 }
 
-console.log("✅ Tüm dahili linkler geçerli.\n");
+console.log("✅ Tüm zorunlu dahili linkler geçerli.\n");
