@@ -1,8 +1,8 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getSupabaseAdmin } from "@/lib/supabase";
+import { verifyConfirmToken } from "@/lib/newsletter-jwt";
 import { addToResendAudience } from "@/lib/mail";
 
-const SUPPORTED = ["tr", "en", "de", "ru", "ar"];
+const SUPPORTED = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 
 function langFrom(req: NextRequest, fallback: string | null): string {
   const q = req.nextUrl.searchParams.get("lang");
@@ -22,49 +22,22 @@ export async function GET(req: NextRequest) {
     return redirectTo(req, langFrom(req, null), "invalid");
   }
 
-  const supabase = getSupabaseAdmin();
-  if (!supabase) {
-    console.error("[Newsletter] confirm: Supabase not configured");
+  // JWT doğrula (imza + süre)
+  const payload = verifyConfirmToken(token);
+  if (!payload) {
+    // Eski hex token olabilir (migration öncesi pending aboneler)
+    // ya da gerçekten geçersiz — her iki durumda da invalid
     return redirectTo(req, langFrom(req, null), "invalid");
   }
 
-  const { data: row, error } = await supabase
-    .from("newsletter_subscribers")
-    .select("id, email, status, language, token_expires_at")
-    .eq("confirmation_token", token)
-    .maybeSingle();
+  const lang = langFrom(req, payload.locale);
 
-  if (error || !row) {
-    return redirectTo(req, langFrom(req, null), "invalid");
-  }
+  // Resend Audience'a ekle (dil = first_name)
+  await addToResendAudience(payload.email, payload.locale);
 
-  const lang = langFrom(req, row.language);
-
-  if (row.status === "confirmed") {
-    return redirectTo(req, lang, "confirmed");
-  }
-  if (row.status === "unsubscribed") {
-    return redirectTo(req, lang, "invalid");
-  }
-
-  if (new Date(row.token_expires_at).getTime() < Date.now()) {
-    return redirectTo(req, lang, "expired");
-  }
-
-  const { error: updErr } = await supabase
-    .from("newsletter_subscribers")
-    .update({
-      status: "confirmed",
-      confirmed_at: new Date().toISOString(),
-    })
-    .eq("id", row.id);
-
-  if (updErr) {
-    console.error("[Newsletter] confirm update error:", updErr);
-    return redirectTo(req, lang, "invalid");
-  }
-
-  await addToResendAudience(row.email);
+  console.log(
+    `[Newsletter] confirmed email=${payload.email} locale=${payload.locale} ts=${new Date().toISOString()}`
+  );
 
   return redirectTo(req, lang, "confirmed");
 }

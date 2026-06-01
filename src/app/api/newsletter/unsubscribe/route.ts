@@ -1,8 +1,8 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getSupabaseAdmin } from "@/lib/supabase";
+import { verifyUnsubToken } from "@/lib/newsletter-jwt";
 import { removeFromResendAudience } from "@/lib/mail";
 
-const SUPPORTED = ["tr", "en", "de", "ru", "ar"];
+const SUPPORTED = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 
 function langFrom(req: NextRequest, fallback: string | null): string {
   const q = req.nextUrl.searchParams.get("lang");
@@ -20,42 +20,20 @@ async function process(req: NextRequest, token: string | null) {
   if (!token) {
     return redirectTo(req, langFrom(req, null), "invalid");
   }
-  const supabase = getSupabaseAdmin();
-  if (!supabase) {
-    console.error("[Newsletter] unsubscribe: Supabase not configured");
+
+  // JWT doğrula
+  const payload = verifyUnsubToken(token);
+  if (!payload) {
     return redirectTo(req, langFrom(req, null), "invalid");
   }
 
-  const { data: row, error } = await supabase
-    .from("newsletter_subscribers")
-    .select("id, email, status, language")
-    .eq("unsubscribe_token", token)
-    .maybeSingle();
+  const lang = langFrom(req, payload.locale);
 
-  if (error || !row) {
-    return redirectTo(req, langFrom(req, null), "invalid");
-  }
+  await removeFromResendAudience(payload.email);
 
-  const lang = langFrom(req, row.language);
-
-  if (row.status === "unsubscribed") {
-    return redirectTo(req, lang, "unsubscribed");
-  }
-
-  const { error: updErr } = await supabase
-    .from("newsletter_subscribers")
-    .update({
-      status: "unsubscribed",
-      unsubscribed_at: new Date().toISOString(),
-    })
-    .eq("id", row.id);
-
-  if (updErr) {
-    console.error("[Newsletter] unsubscribe update error:", updErr);
-    return redirectTo(req, lang, "invalid");
-  }
-
-  await removeFromResendAudience(row.email);
+  console.log(
+    `[Newsletter] unsubscribed email=${payload.email} ts=${new Date().toISOString()}`
+  );
 
   return redirectTo(req, lang, "unsubscribed");
 }
@@ -64,7 +42,7 @@ export async function GET(req: NextRequest) {
   return process(req, req.nextUrl.searchParams.get("token"));
 }
 
-// RFC 8058: List-Unsubscribe-Post = One-Click → POST handler.
+// RFC 8058: List-Unsubscribe-Post = One-Click
 export async function POST(req: NextRequest) {
   return process(req, req.nextUrl.searchParams.get("token"));
 }

@@ -4,7 +4,7 @@ import { Resend } from "resend";
 type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 const FROM_DEFAULT = "Mona Hukuk <bulten@monahukuk.com>";
-const REPLY_TO = "contact@monahukuk.com";
+const REPLY_TO = "info@monahukuk.com";
 
 function getResend(): Resend | null {
   const key = process.env.RESEND_API_KEY;
@@ -225,7 +225,10 @@ export async function sendVerifyEmail(opts: {
   }
 }
 
-export async function addToResendAudience(email: string): Promise<void> {
+export async function addToResendAudience(
+  email: string,
+  locale?: string
+): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY;
   const audienceId = process.env.RESEND_AUDIENCE_ID;
   if (!apiKey || !audienceId) return;
@@ -237,7 +240,13 @@ export async function addToResendAudience(email: string): Promise<void> {
         Authorization: `Bearer ${apiKey}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ email, unsubscribed: false }),
+      // first_name = dil kodu (tr/en/de/ru/ar/es/fr)
+      // Resend Audience'da custom field olmadığından dil burada tutulur.
+      body: JSON.stringify({
+        email,
+        first_name: locale ?? "tr",
+        unsubscribed: false,
+      }),
     });
   } catch (err) {
     console.error("[Newsletter] Audience add error:", err);
