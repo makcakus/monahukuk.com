@@ -203,7 +203,7 @@ async function run() {
       body: JSON.stringify({
         from: FROM,
         to: contact.email,
-        reply_to: "info@monahukuk.com",
+        reply_to: "contact@monahukuk.com",
         subject,
         html,
         text,

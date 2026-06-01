@@ -4,7 +4,7 @@ import { Resend } from "resend";
 type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
 
 const FROM_DEFAULT = "Mona Hukuk <bulten@monahukuk.com>";
-const REPLY_TO = "info@monahukuk.com";
+const REPLY_TO = "contact@monahukuk.com";
 
 function getResend(): Resend | null {
   const key = process.env.RESEND_API_KEY;
