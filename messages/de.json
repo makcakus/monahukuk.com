@@ -1,4 +1,4 @@
-{
+﻿{
   "site": {
     "name": "MONA HUKUK",
     "tagline": "Anwaltliche Vertretung und Rechtsberatung für inländische und ausländische Mandanten in Antalya",
@@ -173,7 +173,7 @@
   "privacy": {
     "title": "Datenschutzerklärung",
     "lead": "Wie wir Ihre personenbezogenen Daten erheben, verwenden und schützen.",
-    "lastUpdated": "Letzte Aktualisierung: 28. April 2026",
+    "lastUpdated": "Letzte Aktualisierung: 1. Januar 2026",
     "intro": "Bei MONA HUKUK legen wir großen Wert auf Ihre Privatsphäre und den Schutz Ihrer personenbezogenen Daten. Diese Datenschutzerklärung erläutert, wie personenbezogene Daten von Personen, die unsere Website besuchen, unsere Dienste nutzen oder mit uns Kontakt aufnehmen, von uns erhoben, verwendet, weitergegeben und geschützt werden. Die Erklärung wurde im Einklang mit dem türkischen Datenschutzgesetz Nr. 6698 (KVKK) und, soweit anwendbar, der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) erstellt.",
     "s1": {
       "title": "1. Verantwortlicher",
@@ -265,7 +265,11 @@
     },
     "s14": {
       "title": "14. Kontakt",
-      "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail contact@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei."
+      "body": "Für Fragen, Anliegen oder Bedenken zu dieser Datenschutzerklärung oder der Verarbeitung Ihrer personenbezogenen Daten können Sie uns über folgende Kanäle kontaktieren: E-Mail contact@monahukuk.com, Telefon +90 (242) 606 14 32, Adresse Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Türkei.",
+    "s15": {
+      "title": "15. Aufzeichnung von Telefongesprächen",
+      "body": "Anrufe bei unserem Büro unter +90 242 606 1432 werden zu folgenden Zwecken aufgezeichnet: Messung und Verbesserung der Servicequalität, Sicherstellung der Informationsintegrität in Rechtsberatungsprozessen, Dokumentation und Nachweis im Streitfall sowie interne Kontrolle. Aufzeichnungen werden ab dem Anrufdatum 30 Tage lang aufbewahrt und danach automatisch und unwiderruflich gelöscht. Bei einem laufenden Rechtsstreit oder einem formellen Beschwerdeverfahren können die betreffenden Aufzeichnungen bis zum Abschluss des Verfahrens aufbewahrt werden. Gesprächsaufzeichnungen werden grundsätzlich nicht an Dritte weitergegeben; eine Weitergabe erfolgt ausschließlich auf gerichtliche Anordnung, auf Anfrage einer gesetzlich zuständigen Behörde oder im Rahmen von Prüfungen nach anwaltlichem Berufsrecht. Rechtsgrundlage: KVKK Art. 5/2-c (Vertragserfüllung) und Art. 5/2-f (berechtigtes Interesse)."
+    }
     }
   },
   "legalNews": {

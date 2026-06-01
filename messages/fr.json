@@ -1,4 +1,4 @@
-{
+﻿{
   "site": {
     "name": "MONA HUKUK",
     "tagline": "Conseil juridique pour les personnes physiques et morales, nationales et étrangères, en Turquie",
@@ -183,7 +183,7 @@
   "privacy": {
     "title": "Politique de confidentialité",
     "lead": "Comment nous collectons, utilisons et protégeons vos données personnelles.",
-    "lastUpdated": "Dernière mise à jour : 28 avril 2026",
+    "lastUpdated": "Dernière mise à jour : 1er janvier 2026",
     "intro": "Chez MONA HUKUK, nous accordons une grande importance à la protection de votre vie privée et de vos données personnelles. La présente Politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons les données personnelles des personnes qui visitent notre site, utilisent nos services ou nous contactent. Cette politique est établie conformément à la loi n° 6698 sur la protection des données personnelles (KVKK) et, dans la mesure applicable, au Règlement général sur la protection des données de l'Union européenne (RGPD).",
     "s1": {
       "title": "1. Responsable du traitement",
@@ -275,7 +275,11 @@
     },
     "s14": {
       "title": "14. Contact",
-      "body": "Pour toute question, demande ou préoccupation concernant la présente Politique de confidentialité ou le traitement de vos données personnelles, vous pouvez nous contacter par e-mail à contact@monahukuk.com, par téléphone au +90 (242) 606 14 32, ou à l'adresse postale : Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Turquie."
+      "body": "Pour toute question, demande ou préoccupation concernant la présente Politique de confidentialité ou le traitement de vos données personnelles, vous pouvez nous contacter par e-mail à contact@monahukuk.com, par téléphone au +90 (242) 606 14 32, ou à l'adresse postale : Meltem Mah. Ismail Baha Sürelsan Cad. 21/10 Muratpaşa, Antalya, Turquie.",
+    "s15": {
+      "title": "15. Enregistrement des appels téléphoniques",
+      "body": "Les appels passés au numéro de notre cabinet +90 242 606 1432 sont enregistrés aux fins suivantes : évaluation et amélioration de la qualité du service, garantie de l'intégrité des informations dans les processus de consultation juridique, documentation et preuve en cas de litige, ainsi qu'audit interne. Les enregistrements sont conservés pendant 30 jours à compter de la date de l'appel, puis supprimés automatiquement et de manière irréversible. En cas de litige juridique actif ou de réclamation formelle, les enregistrements concernés peuvent être conservés jusqu'à la résolution du dossier. Les enregistrements d'appels ne sont pas transmis à des tiers en règle générale ; ils ne peuvent être partagés que sur ordonnance d'un tribunal, à la demande d'une autorité publique légalement habilitée, ou dans le cadre d'inspections relevant des réglementations du barreau. Base juridique : art. 5\/2-c de la KVKK (exécution d'un contrat) et art. 5\/2-f (intérêt légitime)."
+    }
     }
   },
   "footer": {

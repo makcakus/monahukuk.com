@@ -57,6 +57,7 @@ export default async function PrivacyPage({
   const s3items = t.raw("s3.items") as string[];
   const s5items = t.raw("s5.items") as string[];
   const s9items = t.raw("s9.items") as string[];
+  // s15 has no items array — body-only section
 
   return (
     <>
@@ -85,6 +86,7 @@ export default async function PrivacyPage({
           <Section title={t("s12.title")} body={t("s12.body")} />
           <Section title={t("s13.title")} body={t("s13.body")} />
           <Section title={t("s14.title")} body={t("s14.body")} />
+          <Section title={t("s15.title")} body={t("s15.body")} />
         </div>
       </section>
     </>
