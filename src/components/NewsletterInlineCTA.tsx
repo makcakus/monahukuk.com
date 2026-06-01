@@ -246,27 +246,6 @@ export function NewsletterInlineCTA({
     );
   }
 
-  if (state?.status === "interestRegistered") {
-    return (
-      <div id={id} className={`${wrapperBase} ${wrapperPad}`}>
-        <div className="flex items-start gap-3">
-          <CheckCircle
-            className="mt-0.5 shrink-0 text-gold-600 dark:text-gold-400"
-            size={20}
-          />
-          <div>
-            <p className="font-medium text-navy-900 dark:text-cream-50">
-              {c.interestRegisteredTitle}
-            </p>
-            <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
-              {c.interestRegisteredBody}
-            </p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
   if (state?.status === "pending" || state?.status === "resent") {
     return (
       <div id={id} className={`${wrapperBase} ${wrapperPad}`}>
