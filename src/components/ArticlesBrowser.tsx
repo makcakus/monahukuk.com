@@ -71,7 +71,7 @@ export function ArticlesBrowser({
   dateLocale: string;
 }) {
   const [query, setQuery] = useState("");
-  const trimmed = query.trim().toLowerCase();
+  const trimmed = query.trim().toLowerCase().replace(/̇/g, "");
   const isSearching = trimmed.length >= 2;
 
   const dateFmt = useMemo(

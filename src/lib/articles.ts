@@ -229,6 +229,6 @@ export async function getArticleSearchIndex(
     date: a.date,
     category: a.category,
     readingMinutes: a.readingMinutes,
-    searchText: `${a.title} ${a.description} ${a.category ?? ""} ${stripMarkdown(a.body)}`.toLowerCase(),
+    searchText: `${a.title} ${a.description} ${a.category ?? ""} ${stripMarkdown(a.body)}`.toLowerCase().replace(/̇/g, ""),
   }));
 }
