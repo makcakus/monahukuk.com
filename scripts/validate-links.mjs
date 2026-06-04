@@ -29,8 +29,8 @@ const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
 const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
-// Bu locale'lerde kırık linkler build'i engellemez (sadece uyarı)
-// FR backfill devam ediyor — bazı makaleler henüz mevcut değil
+// Bu locale'lerde KAYNAK locale kırık link hard-error değil, sadece uyarı verir.
+// FR: yavaş backfill nedeniyle genel warn-only
 const WARN_ONLY_LOCALES = new Set(["fr"]);
 const SITE = "monahukuk.com";
 
@@ -162,11 +162,21 @@ function scan(rootDir, slugMap, label) {
         const targetMap = norm.kind === "article" ? articleSlugs : newsSlugs;
         const slugSet = targetMap[norm.locale];
         if (!slugSet || !slugSet.has(norm.slug)) {
+          // Slug hedef locale'de bulunamadı.
+          // Eğer slug EN'de mevcutsa → çeviri bekleniyor (warn-only).
+          // Eğer slug hiçbir locale'de yoksa → gerçek hata (blocking).
+          const existsInEn =
+            norm.kind === "article"
+              ? articleSlugs["en"]?.has(norm.slug)
+              : newsSlugs["en"]?.has(norm.slug);
           broken.push({
             source: `${label}/${locale}/${file}`,
             url,
             target: `${norm.locale}/${norm.kind}/${norm.slug}`,
-            warnOnly: WARN_ONLY_LOCALES.has(locale) || WARN_ONLY_LOCALES.has(norm.locale),
+            warnOnly:
+              WARN_ONLY_LOCALES.has(locale) ||
+              WARN_ONLY_LOCALES.has(norm.locale) ||
+              Boolean(existsInEn), // EN'de var → çeviri bekleniyor → warn-only
           });
         }
       }
@@ -193,7 +203,10 @@ if (warnBroken.length) {
   for (const b of warnBroken) {
     console.warn(`  ${b.source}`);
     console.warn(`    URL:    ${b.url}`);
-    console.warn(`    Hedef:  ${b.target} (bulunamadı — FR backfill devam ediyor)`);
+    const reason = WARN_ONLY_LOCALES.has(b.source.split("/")[1])
+      ? "kaynak locale warn-only"
+      : "slug EN'de var — çeviri bekleniyor";
+    console.warn(`    Hedef:  ${b.target} (bulunamadı — ${reason})`);
     console.warn();
   }
 }
