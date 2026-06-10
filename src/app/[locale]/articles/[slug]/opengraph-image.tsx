@@ -13,8 +13,10 @@ export default async function ArticleOGImage({
 }) {
   const { locale, slug } = await params;
   const article = await getArticle(locale, slug);
-  const title = article?.title ?? "MONA HUKUK";
-  const category = article?.category ?? "";
+  // Satori cannot render Arabic script; fall back to EN article for display
+  const displayArticle = locale === "ar" ? await getArticle("en", slug) : article;
+  const title = displayArticle?.title ?? "MONA HUKUK";
+  const category = displayArticle?.category ?? "";
 
   return new ImageResponse(
     (
