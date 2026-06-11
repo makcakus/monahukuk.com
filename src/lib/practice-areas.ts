@@ -8,11 +8,9 @@ export type PracticeIconKey =
   | "Home"
   | "ShieldAlert"
   | "Users"
-  | "Scale"
   | "Cpu"
   | "Briefcase"
   | "FileText"
-  | "HardHat"
   | "Building2"
   | "Key";
 
@@ -118,28 +116,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     },
   },
   {
-    slug: "ceza-hukuku",
-    icon: "Scale",
-    title: {
-      tr: "Ceza Hukuku",
-      en: "Criminal Law",
-      de: "Strafrecht",
-      ru: "Уголовное право",
-      ar: "القانون الجنائي",
-      es: "Derecho Penal",
-      fr: "Droit Pénal",
-    },
-    description: {
-      tr: "Ceza soruşturmaları ve kovuşturmalarında müvekkilleri Antalya mahkemelerinde etkin biçimde temsil ediyoruz. Dolandırıcılık, uyuşturucu, trafik suçları, mala zarar verme ve diğer ceza davalarında güçlü bir savunma sunarak müvekkillerimizin haklarını koruyoruz.",
-      en: "We effectively represent clients before Antalya courts in criminal investigations and prosecutions. We provide a strong defence in fraud, narcotics, traffic offences, property damage, and other criminal cases, safeguarding our clients' rights.",
-      de: "Wir vertreten Mandanten wirksam vor den Gerichten in Antalya in strafrechtlichen Ermittlungen und Strafverfahren. Wir bieten eine starke Verteidigung in Fällen von Betrug, Drogendelikten, Verkehrsdelikten, Sachbeschädigung und anderen Strafsachen und schützen so die Rechte unserer Mandanten.",
-      ru: "Мы эффективно представляем клиентов в судах Антальи на стадии следствия и судебного преследования. Мы обеспечиваем надёжную защиту по делам о мошенничестве, наркотиках, дорожных правонарушениях, повреждении имущества и другим уголовным делам, отстаивая права наших клиентов.",
-      ar: "نمثل العملاء بفعالية أمام محاكم أنطاليا في مراحل التحقيق والملاحقة الجنائية. نقدم دفاعاً قوياً في قضايا الاحتيال والمخدرات والمخالفات المرورية وإتلاف الممتلكات وغيرها من القضايا الجنائية، حمايةً لحقوق موكلينا.",
-      es: "Representamos eficazmente a clientes ante los tribunales de Antalya en investigaciones y enjuiciamientos penales. Ofrecemos una sólida defensa en casos de fraude, narcóticos, infracciones de tráfico, daños a la propiedad y otros delitos, salvaguardando los derechos de nuestros clientes.",
-      fr: "Nous représentons efficacement nos clients devant les tribunaux d'Antalya lors d'enquêtes et de poursuites pénales. Nous assurons une défense solide dans les affaires de fraude, de stupéfiants, d'infractions routières, de dommages aux biens et autres affaires pénales, en protégeant les droits de nos clients.",
-    },
-  },
-  {
     slug: "bilisim-yapay-zeka-hukuku",
     icon: "Cpu",
     title: {
@@ -203,28 +179,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "نقدم الدعم القانوني للورثة الأجانب فيما يخص نقل العقارات والحسابات المصرفية أو غيرها من الأصول الموروثة في تركيا. نرشد العملاء خلال إعداد الوصايا وجرد التركة وإجراءات توزيع الميراث والاعتراف بالوصايا الأجنبية في تركيا.",
       es: "Brindamos apoyo legal a herederos extranjeros para la transmisión de inmuebles, cuentas bancarias y otros activos heredados en Turquía. Orientamos a los clientes en la elaboración de testamentos, inventario de herencias, procedimientos de distribución hereditaria y el reconocimiento de testamentos extranjeros en Turquía.",
       fr: "Nous accompagnons les héritiers étrangers dans le transfert de biens immobiliers, de comptes bancaires et d'autres actifs hérités en Turquie. Nous guidons nos clients dans la rédaction de testaments, l'inventaire successoral, les procédures de partage d'héritage et la reconnaissance des testaments étrangers en Turquie.",
-    },
-  },
-  {
-    slug: "is-hukuku",
-    icon: "HardHat",
-    title: {
-      tr: "İş Hukuku",
-      en: "Labour Law",
-      de: "Arbeitsrecht",
-      ru: "Трудовое право",
-      ar: "قانون العمل",
-      es: "Derecho Laboral",
-      fr: "Droit du Travail",
-    },
-    description: {
-      tr: "Yabancı çalışanların ve uluslararası şirketlerin iş sözleşmesi uyuşmazlıkları, haksız işten çıkarma, kıdem ve ihbar tazminatı talepleri ile işyeri hukuku konularında danışmanlık veriyoruz. Türkiye'deki expat istihdamında karşılaşılan hukuki sorunlara pratik ve hızlı çözümler üretiyoruz.",
-      en: "We advise foreign employees and international companies on employment contract disputes, wrongful termination, severance and notice pay claims, and workplace law. We deliver practical, swift solutions to legal issues encountered in expat employment in Turkey.",
-      de: "Wir beraten ausländische Arbeitnehmer und internationale Unternehmen bei Streitigkeiten aus Arbeitsverträgen, unrechtmäßigen Kündigungen, Ansprüchen auf Abfindung (kıdem tazminatı) und Kündigungsfristentschädigung (ihbar tazminatı) sowie zu Fragen des Arbeitsplatzrechts. Wir liefern praktische und schnelle Lösungen für rechtliche Fragen rund um die Beschäftigung von Expats in der Türkei.",
-      ru: "Мы консультируем иностранных работников и международные компании по спорам из трудовых договоров, неправомерному увольнению, требованиям о выплате выходного пособия (kıdem tazminatı) и компенсации за нарушение срока предупреждения об увольнении (ihbar tazminatı), а также по трудовому законодательству в целом. Мы предлагаем практические и быстрые решения правовых вопросов, возникающих при трудоустройстве экспатов в Турции.",
-      ar: "نقدم المشورة للموظفين الأجانب والشركات الدولية بشأن نزاعات عقود العمل والفصل التعسفي ومطالبات مكافأة نهاية الخدمة وبدل الإشعار وأنظمة العمل الداخلية. نقدم حلولاً عملية وسريعة للمشكلات القانونية المتعلقة بتوظيف المغتربين في تركيا.",
-      es: "Asesoramos a trabajadores extranjeros y empresas internacionales en disputas de contratos laborales, despidos improcedentes, reclamaciones de indemnización por despido y aviso previo, y derecho laboral en general. Ofrecemos soluciones prácticas y rápidas a los problemas legales del empleo de expatriados en Turquía.",
-      fr: "Nous conseillons les salariés étrangers et les entreprises internationales sur les litiges de contrats de travail, les licenciements abusifs, les demandes d'indemnités de rupture et de préavis, et le droit du travail en général. Nous apportons des solutions pratiques et rapides aux problèmes juridiques rencontrés dans l'emploi des expatriés en Turquie.",
     },
   },
   {
