@@ -28,15 +28,6 @@ export default async function ArticlesPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("articles");
-  const index = await getArticleSearchIndex(locale);
-
-  const byCategory = new Map<string, typeof index>();
-  for (const a of index) {
-    const cat = a.category ?? t("uncategorized");
-    if (!byCategory.has(cat)) byCategory.set(cat, []);
-    byCategory.get(cat)!.push(a);
-  }
-
   const HIDDEN_CATEGORIES = new Set([
     // Criminal Law — all locale variants
     "Criminal Law", "Strafrecht", "Ceza Hukuku", "Уголовное право",
@@ -45,6 +36,16 @@ export default async function ArticlesPage({
     "Labour Law", "Arbeitsrecht", "İş Hukuku", "Трудовое право",
     "قانون العمل", "Derecho Laboral", "Droit du travail",
   ]);
+
+  const rawIndex = await getArticleSearchIndex(locale);
+  const index = rawIndex.filter((a) => !HIDDEN_CATEGORIES.has(a.category?.trim() ?? ""));
+
+  const byCategory = new Map<string, typeof index>();
+  for (const a of index) {
+    const cat = a.category ?? t("uncategorized");
+    if (!byCategory.has(cat)) byCategory.set(cat, []);
+    byCategory.get(cat)!.push(a);
+  }
 
   const groups: BrowserGroup[] = [];
   const seen = new Set<string>();
@@ -61,7 +62,7 @@ export default async function ArticlesPage({
     }
   }
   for (const cat of byCategory.keys()) {
-    if (!seen.has(cat) && !HIDDEN_CATEGORIES.has(cat)) {
+    if (!seen.has(cat)) {
       groups.push({
         category: cat,
         iconKey: "BookOpen",
