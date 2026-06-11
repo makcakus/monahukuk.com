@@ -95,13 +95,17 @@ h1, h2, h3, h4, .font-display {
 .prose-legal p {
   margin-bottom: 1.1rem;
   color: var(--prose-body);
-  text-align: justify;
-  hyphens: auto;
   overflow-wrap: break-word;
 }
-:lang(ar) .prose-legal p {
-  text-align: right;
-  hyphens: none;
+@media (min-width: 640px) {
+  .prose-legal p {
+    text-align: justify;
+    hyphens: auto;
+  }
+  :lang(ar) .prose-legal p {
+    text-align: right;
+    hyphens: none;
+  }
 }
 .prose-legal a {
   color: var(--prose-link);
