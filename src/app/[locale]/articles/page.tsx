@@ -37,6 +37,15 @@ export default async function ArticlesPage({
     byCategory.get(cat)!.push(a);
   }
 
+  const HIDDEN_CATEGORIES = new Set([
+    // Criminal Law — all locale variants
+    "Criminal Law", "Strafrecht", "Ceza Hukuku", "Уголовное право",
+    "قانون العقوبات", "Derecho Penal", "Droit pénal",
+    // Labour Law — all locale variants
+    "Labour Law", "Arbeitsrecht", "İş Hukuku", "Трудовое право",
+    "قانون العمل", "Derecho Laboral", "Droit du travail",
+  ]);
+
   const groups: BrowserGroup[] = [];
   const seen = new Set<string>();
   for (const area of PRACTICE_AREAS) {
@@ -52,7 +61,7 @@ export default async function ArticlesPage({
     }
   }
   for (const cat of byCategory.keys()) {
-    if (!seen.has(cat)) {
+    if (!seen.has(cat) && !HIDDEN_CATEGORIES.has(cat)) {
       groups.push({
         category: cat,
         iconKey: "BookOpen",
