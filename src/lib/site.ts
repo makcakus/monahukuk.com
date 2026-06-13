@@ -16,7 +16,7 @@ export const SITE = {
   languages: ["tr", "en", "de", "ru", "ar", "es", "fr"],
   // Google Business Profile ve sosyal medya URL'leri → sameAs schema sinyali
   social: [
-    // "https://maps.app.goo.gl/XXXX",  // GBP linki buraya eklenecek
+    "https://maps.app.goo.gl/txbVdEZPkMGj6wGt7",
   ] as string[],
   ogImage: "/opengraph-image",
 } as const;
