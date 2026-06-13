@@ -14,7 +14,10 @@ export const SITE = {
   hours: { opens: "09:00", closes: "18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
   founded: 2018,
   languages: ["tr", "en", "de", "ru", "ar", "es", "fr"],
-  social: [] as string[],
+  // Google Business Profile ve sosyal medya URL'leri → sameAs schema sinyali
+  social: [
+    // "https://maps.app.goo.gl/XXXX",  // GBP linki buraya eklenecek
+  ] as string[],
   ogImage: "/opengraph-image",
 } as const;
 
