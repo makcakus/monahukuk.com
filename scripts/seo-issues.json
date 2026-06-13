@@ -1,0 +1,2976 @@
+{
+  "totalFiles": 234,
+  "uniqueArticles": 81,
+  "byTranslationKey": {
+    "adoption-by-foreigners-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "tr/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "tr",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Yabancıların Türkiye'de Evlat Edinmesi: Şartlar, Süreç ve Lahey Sözleşmesi",
+        "titleLen": 74,
+        "currentDesc": "Türkiye'de yabancı uyruklu kişilerin evlat edinme süreci, TMK m.305-320 kapsamındaki hukuki şartlar, ÇHGM prosedürleri ve Lahey Sözleşmesi yükümlülükleri hakkında kapsamlı rehber.",
+        "descLen": 179,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "en/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "en",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Adoption in Turkey by Foreign Nationals: Legal Requirements and the Hague Convention",
+        "titleLen": 84,
+        "currentDesc": "A practical guide for foreign nationals seeking to adopt a child in Turkey, covering eligibility conditions under Turkish Civil Code, the ÇHGM process, and Hague Convention obligations.",
+        "descLen": 185,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "de/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "de",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Adoption in der Türkei durch Ausländer: Voraussetzungen, Verfahren und Haager Übereinkommen",
+        "titleLen": 91,
+        "currentDesc": "Ein praxisorientierter Leitfaden für ausländische Staatsangehörige, die ein Kind in der Türkei adoptieren möchten — mit Erläuterungen zu den Zulassungsvoraussetzungen, dem ÇHGM-Verfahren und den Pflichten aus dem Haager Adoptionsübereinkommen.",
+        "descLen": 243,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "ru/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "ru",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Усыновление в Турции иностранными гражданами: условия, процедура и Гаагская конвенция",
+        "titleLen": 85,
+        "currentDesc": "Практическое руководство для иностранных граждан, желающих усыновить ребёнка в Турции: требования турецкого законодательства, порядок работы ÇHGM и обязательства по Гаагской конвенции.",
+        "descLen": 184,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "ar/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "ar",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "تبني الأطفال في تركيا من قِبَل الأجانب: الشروط والإجراءات واتفاقية لاهاي",
+        "titleLen": 72,
+        "currentDesc": "دليل عملي للمواطنين الأجانب الراغبين في تبني طفل في تركيا، يشمل الشروط القانونية بموجب القانون المدني التركي وإجراءات المديرية العامة لخدمات الطفل والتزامات اتفاقية لاهاي.",
+        "descLen": 171,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "es/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "es",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Adopción en Turquía por Extranjeros: Requisitos, Procedimiento y Convenio de La Haya",
+        "titleLen": 84,
+        "currentDesc": "Guía práctica para ciudadanos extranjeros que desean adoptar un niño en Turquía: condiciones del Código Civil turco, procedimiento ante la ÇHGM y obligaciones del Convenio de La Haya.",
+        "descLen": 183,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\adoption-by-foreigners-turkey-guide.mdx",
+        "relPath": "fr/adoption-by-foreigners-turkey-guide.mdx",
+        "locale": "fr",
+        "translationKey": "adoption-by-foreigners-turkey-guide",
+        "currentTitle": "Adoption en Turquie par des Ressortissants Étrangers : Conditions, Procédure et Convention de La Haye",
+        "titleLen": 101,
+        "currentDesc": "Guide pratique pour les étrangers souhaitant adopter un enfant en Turquie : conditions du Code civil turc, procédure ÇHGM et engagements découlant de la Convention de La Haye.",
+        "descLen": 175,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "ai-generated-content-copyright-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "tr/ai-generated-content-copyright-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Yapay Zekâ ile Üretilen İçeriklerde Telif Hakkı: Türk Hukuku Çerçevesi",
+        "titleLen": 70,
+        "currentDesc": "5846 sayılı FSEK kapsamında yapay zekâ ile üretilen içeriklerde eser sahipliği, hak sahipliği sorunları, platform sorumluluğu ve mevcut hukukun bu yeni gerçekliğe uygulanma biçimi.",
+        "descLen": 180,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "en/ai-generated-content-copyright-turkey.mdx",
+        "locale": "en",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Copyright in AI-Generated Content under Turkish Law: What Creators and Businesses Need to Know",
+        "titleLen": 94,
+        "currentDesc": "An analysis of how Turkey's Intellectual and Artistic Works Law (FSEK) applies to AI-generated content — covering authorship requirements, ownership gaps, platform liability, and practical risk management.",
+        "descLen": 205,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "de/ai-generated-content-copyright-turkey.mdx",
+        "locale": "de",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Urheberrecht an KI-generierten Inhalten nach türkischem Recht: Was Unternehmen und Kreative wissen müssen",
+        "titleLen": 105,
+        "currentDesc": "Analyse der Anwendung des türkischen Urheberrechtsgesetzes FSEK auf KI-generierte Inhalte — mit Blick auf Urheberschaft, Eigentumslücken, Plattformhaftung und praktisches Risikomanagement.",
+        "descLen": 188,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "ru/ai-generated-content-copyright-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Авторские права на контент, созданный искусственным интеллектом, по турецкому праву",
+        "titleLen": 83,
+        "currentDesc": "Анализ применения турецкого Закона об интеллектуальных и художественных произведениях (FSEK) к контенту, созданному с помощью ИИ: требования к авторству, пробелы в праве, ответственность платформ и управление рисками.",
+        "descLen": 217,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "ar/ai-generated-content-copyright-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "حقوق الملكية الفكرية في المحتوى الذي ينتجه الذكاء الاصطناعي وفق القانون التركي",
+        "titleLen": 78,
+        "currentDesc": "تحليل تطبيق قانون الأعمال الفكرية والفنية التركي (FSEK) على المحتوى الذي ينتجه الذكاء الاصطناعي، يشمل متطلبات الأحقية في التأليف وثغرات الملكية ومسؤولية المنصات وإدارة المخاطر.",
+        "descLen": 176,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "es/ai-generated-content-copyright-turkey.mdx",
+        "locale": "es",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Derechos de Autor sobre Contenido Generado por IA en Turquía: Marco Legal y Riesgos para Empresas",
+        "titleLen": 97,
+        "currentDesc": "Análisis de la aplicación de la Ley turca de Obras Intelectuales y Artísticas (FSEK) al contenido generado por IA: autoría, titularidad, responsabilidad de plataformas y gestión práctica del riesgo.",
+        "descLen": 198,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\ai-generated-content-copyright-turkey.mdx",
+        "relPath": "fr/ai-generated-content-copyright-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "ai-generated-content-copyright-turkey",
+        "currentTitle": "Droits d'Auteur sur les Contenus Générés par l'IA en Droit Turc : Ce que les Entreprises Doivent Savoir",
+        "titleLen": 103,
+        "currentDesc": "Analyse de l'application de la loi turque sur les œuvres intellectuelles et artistiques (FSEK) aux contenus générés par l'IA : conditions d'autorialité, lacunes de propriété, responsabilité des plateformes et gestion pratique des risques.",
+        "descLen": 238,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "annual-leave-rights-foreign-employees-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\annual-leave-rights-foreign-employees-turkey.mdx",
+        "relPath": "tr/annual-leave-rights-foreign-employees-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "annual-leave-rights-foreign-employees-turkey",
+        "currentTitle": "Türkiye'de Yabancı Çalışanların Yıllık İzin Hakları Rehberi",
+        "titleLen": 59,
+        "currentDesc": "Türkiye'de çalışan yabancılar İş Kanunu'nda yerli işçilerle aynı yıllık izne sahiptir. Gün sayıları, izin planlaması ve kullanılmayan izin ücreti hakkında bilgi.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\annual-leave-rights-foreign-employees-turkey.mdx",
+        "relPath": "de/annual-leave-rights-foreign-employees-turkey.mdx",
+        "locale": "de",
+        "translationKey": "annual-leave-rights-foreign-employees-turkey",
+        "currentTitle": "Jahresurlaub für ausländische Arbeitnehmer in der Türkei",
+        "titleLen": 56,
+        "currentDesc": "Ausländische Arbeitnehmer in der Türkei haben dieselben Urlaubsrechte wie Inländer. Mindestansprüche, Urlaubsplanung und Auszahlung nicht genommener Urlaubstage erklärt.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\annual-leave-rights-foreign-employees-turkey.mdx",
+        "relPath": "ru/annual-leave-rights-foreign-employees-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "annual-leave-rights-foreign-employees-turkey",
+        "currentTitle": "Право на ежегодный отпуск для иностранных работников в Турции",
+        "titleLen": 61,
+        "currentDesc": "Иностранные работники в Турции имеют те же права на ежегодный отпуск, что местные сотрудники. Минимальные нормы, планирование и компенсация за неиспользованный отпуск.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "arbitration-turkey-icc-istac-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\arbitration-turkey-icc-istac-guide.mdx",
+        "relPath": "tr/arbitration-turkey-icc-istac-guide.mdx",
+        "locale": "tr",
+        "translationKey": "arbitration-turkey-icc-istac-guide",
+        "currentTitle": "Türkiye'de Tahkim: Yabancı İşletmeler için ICC ve ISTAC",
+        "titleLen": 55,
+        "currentDesc": "Türkiye'de ICC mi ISTAC mı tercih etmelisiniz? Bu rehber, tahkim hukuki çerçevesini, iki kurumun temel farklarını ve hakem kararlarının nasıl icra edileceğini açıklıyor.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\arbitration-turkey-icc-istac-guide.mdx",
+        "relPath": "en/arbitration-turkey-icc-istac-guide.mdx",
+        "locale": "en",
+        "translationKey": "arbitration-turkey-icc-istac-guide",
+        "currentTitle": "Arbitration in Turkey: ICC vs ISTAC for Foreign Businesses",
+        "titleLen": 58,
+        "currentDesc": "Choosing ICC or ISTAC for a Turkey dispute? This guide covers the legal framework, what sets each institution apart, and how arbitral awards are enforced in Turkey.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\arbitration-turkey-icc-istac-guide.mdx",
+        "relPath": "de/arbitration-turkey-icc-istac-guide.mdx",
+        "locale": "de",
+        "translationKey": "arbitration-turkey-icc-istac-guide",
+        "currentTitle": "Schiedsverfahren in der Türkei: ICC und ISTAC für Unternehmen",
+        "titleLen": 61,
+        "currentDesc": "ICC oder ISTAC für Ihren Türkei-Vertrag? Dieser Leitfaden erklärt den Rechtsrahmen, die Unterschiede beider Institutionen und die Vollstreckung von Schiedssprüchen.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "branch-liaison-subsidiary-turkey-foreign-companies": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "tr/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "tr",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Türkiye'de Şube, İrtibat Bürosu veya Bağlı Şirket: Rehber",
+        "titleLen": 57,
+        "currentDesc": "Türkiye'ye giriş yapacak yabancı şirketler için şube, irtibat bürosu ve bağlı şirket seçeneklerinin hukuki, vergisel ve sorumluluk boyutlarını karşılaştıran rehber.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "en/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "en",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Branch, Liaison or Subsidiary in Turkey: Investor's Guide",
+        "titleLen": 57,
+        "currentDesc": "Choosing between a branch, liaison office or subsidiary in Turkey affects your tax burden, liability, and freedom to operate. A practical guide for foreign companies.",
+        "descLen": 166,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "de/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "de",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Zweigstelle, Verbindungsbüro oder Tochter in der Türkei",
+        "titleLen": 55,
+        "currentDesc": "Welche Niederlassungsform passt zu Ihrem Unternehmen in der Türkei? Verbindungsbüro, Zweigniederlassung und Tochtergesellschaft im Steuer- und Haftungsvergleich.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "ru/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "ru",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Филиал, представительство или дочерняя компания в Турции",
+        "titleLen": 56,
+        "currentDesc": "Выбор между филиалом, представительством и дочерней компанией в Турции влияет на налоги, ответственность и свободу деятельности. Руководство для иностранных компаний.",
+        "descLen": 166,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "es/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "es",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Sucursal, oficina de enlace o filial en Turquía: guía",
+        "titleLen": 53,
+        "currentDesc": "La elección entre sucursal, oficina de enlace y filial en Turquía determina carga fiscal, responsabilidad y libertad operativa. Guía práctica para empresas extranjeras.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "relPath": "fr/branch-liaison-subsidiary-turkey-foreign-companies.mdx",
+        "locale": "fr",
+        "translationKey": "branch-liaison-subsidiary-turkey-foreign-companies",
+        "currentTitle": "Succursale, bureau de liaison ou filiale en Turquie",
+        "titleLen": 51,
+        "currentDesc": "Le choix entre succursale, bureau de liaison et filiale en Turquie détermine fiscalité, responsabilité et liberté opérationnelle. Guide pour les entreprises étrangères.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "citizenship-by-descent-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "tr/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "tr",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Soybağıyla Türk Vatandaşlığı: Türk Ebeveynin Yurt Dışında Doğan Çocukları",
+        "titleLen": 73,
+        "currentDesc": "5901 sayılı Türk Vatandaşlığı Kanunu'nun 6-7. maddeleri çerçevesinde soybağı yoluyla Türk vatandaşlığının kazanılması, tescil prosedürü ve nüfus müdürlüğüne başvuru rehberi.",
+        "descLen": 173,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "en/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "en",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Turkish Citizenship by Descent: A Guide for Children Born Abroad to Turkish Parents",
+        "titleLen": 83,
+        "currentDesc": "How to claim Turkish citizenship through a Turkish parent under Articles 6-7 of the Turkish Citizenship Law No. 5901, including the registration procedure at the civil registry.",
+        "descLen": 177,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "de/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "de",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Türkische Staatsangehörigkeit durch Abstammung: Leitfaden für im Ausland geborene Kinder türkischer Eltern",
+        "titleLen": 106,
+        "currentDesc": "Wie die türkische Staatsangehörigkeit durch Abstammung nach den Artikeln 6 und 7 des türkischen Staatsangehörigkeitsgesetzes Nr. 5901 erworben wird und wie die Anmeldung beim Standesamt erfolgt.",
+        "descLen": 194,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "ru/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "ru",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Гражданство Турции по происхождению: руководство для детей, рождённых за рубежом от турецких родителей",
+        "titleLen": 102,
+        "currentDesc": "Как получить турецкое гражданство по происхождению согласно статьям 6–7 Закона о гражданстве Турции № 5901: порядок регистрации в органах ЗАГС и необходимые документы.",
+        "descLen": 167,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "ar/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "ar",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "الجنسية التركية بالنسب: دليل الأطفال المولودين في الخارج من أحد الوالدين التركيين",
+        "titleLen": 81,
+        "currentDesc": "كيفية الحصول على الجنسية التركية بالنسب وفقاً للمادتين 6 و7 من قانون الجنسية التركي رقم 5901، مع شرح إجراءات التسجيل في دائرة السجل المدني.",
+        "descLen": 139,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "es/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "es",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Ciudadanía Turca por Descendencia: Guía para Hijos de Padres Turcos Nacidos en el Extranjero",
+        "titleLen": 92,
+        "currentDesc": "Cómo reclamar la ciudadanía turca a través de un progenitor turco según los artículos 6-7 de la Ley de Ciudadanía Turca n.º 5901, con el procedimiento de inscripción en el registro civil.",
+        "descLen": 187,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\citizenship-by-descent-turkey-guide.mdx",
+        "relPath": "fr/citizenship-by-descent-turkey-guide.mdx",
+        "locale": "fr",
+        "translationKey": "citizenship-by-descent-turkey-guide",
+        "currentTitle": "Nationalité Turque par Filiation : Guide pour les Enfants de Parents Turcs Nés à l'Étranger",
+        "titleLen": 91,
+        "currentDesc": "Comment faire valoir la nationalité turque par filiation en vertu des articles 6 et 7 de la loi turque sur la nationalité n° 5901, avec la procédure d'inscription à l'état civil.",
+        "descLen": 178,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "company-liquidation-turkey-foreign-investors": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "tr/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "tr",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Türkiye'de Şirket Tasfiyesi: Yabancı Ortak İçin Adım Adım Hukuki Süreç",
+        "titleLen": 70,
+        "currentDesc": "6102 sayılı TTK m.529-548 kapsamında anonim şirket tasfiyesi, tasfiye memuru atanması, alacaklılara ilan, vergi dairesi kapanışı ve yabancı ortakların özel durumu hakkında pratik rehber.",
+        "descLen": 186,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "en/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "en",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Company Liquidation in Turkey for Foreign Investors: A Step-by-Step Legal Guide",
+        "titleLen": 79,
+        "currentDesc": "A practical guide to dissolving a Turkish company under the Turkish Commercial Code (TTK Articles 529–548): liquidator appointment, creditor notifications, tax closure, and repatriating funds as a foreign shareholder.",
+        "descLen": 217,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "de/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "de",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Gesellschaftsauflösung in der Türkei für ausländische Investoren: Schritt-für-Schritt-Leitfaden",
+        "titleLen": 95,
+        "currentDesc": "Praxisleitfaden zur Liquidation einer türkischen Gesellschaft nach TTK Art. 529–548: Bestellung des Liquidators, Gläubigerbekanntmachung, Steueramt-Abschluss und Rückführung von Geldern als ausländischer Gesellschafter.",
+        "descLen": 219,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "ru/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "ru",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Ликвидация компании в Турции для иностранных инвесторов: пошаговое руководство",
+        "titleLen": 78,
+        "currentDesc": "Практическое руководство по ликвидации турецкой компании по статьям 529–548 ТТК: назначение ликвидатора, уведомление кредиторов, закрытие в налоговых органах и репатриация средств.",
+        "descLen": 180,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "es/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "es",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Liquidación de Empresas en Turquía para Inversores Extranjeros: Guía Jurídica Paso a Paso",
+        "titleLen": 89,
+        "currentDesc": "Guía práctica para disolver una empresa turca según los artículos 529–548 del Código de Comercio Turco (TTK): nombramiento de liquidador, notificación a acreedores, cierre fiscal y repatriación de fondos.",
+        "descLen": 204,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\company-liquidation-turkey-foreign-investors.mdx",
+        "relPath": "fr/company-liquidation-turkey-foreign-investors.mdx",
+        "locale": "fr",
+        "translationKey": "company-liquidation-turkey-foreign-investors",
+        "currentTitle": "Liquidation de Société en Turquie pour Investisseurs Étrangers : Guide Juridique Étape par Étape",
+        "titleLen": 96,
+        "currentDesc": "Guide pratique pour dissoudre une société turque en application des articles 529 à 548 du Code de Commerce turc (TTK) : nomination du liquidateur, notification aux créanciers, clôture fiscale et rapatriement des fonds.",
+        "descLen": 218,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "customs-fine-appeal-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\customs-fine-appeal-turkey.mdx",
+        "relPath": "tr/customs-fine-appeal-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "customs-fine-appeal-turkey",
+        "currentTitle": "Gümrük Cezasına İtiraz: 4458 Sayılı Kanun Kapsamında Yabancılar İçin Rehber",
+        "titleLen": 75,
+        "currentDesc": "Türkiye'de gümrük cezası alan yabancılar için itiraz, uzlaşma ve idare mahkemesi süreçlerini açıklayan kapsamlı hukuki rehber.",
+        "descLen": 126,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\customs-fine-appeal-turkey.mdx",
+        "relPath": "ru/customs-fine-appeal-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "customs-fine-appeal-turkey",
+        "currentTitle": "Обжалование таможенного штрафа в Турции: руководство для иностранных граждан",
+        "titleLen": 76,
+        "currentDesc": "Пошаговое руководство по оспариванию таможенных штрафов в Турции по Закону № 4458 — административная жалоба, процедура примирения и суд.",
+        "descLen": 136,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\customs-fine-appeal-turkey.mdx",
+        "relPath": "es/customs-fine-appeal-turkey.mdx",
+        "locale": "es",
+        "translationKey": "customs-fine-appeal-turkey",
+        "currentTitle": "Cómo Recurrir una Multa de Aduanas en Turquía: Guía para Extranjeros",
+        "titleLen": 68,
+        "currentDesc": "Guía paso a paso para extranjeros que impugnan una sanción aduanera en Turquía conforme a la Ley N.º 4458 — recurso administrativo, procedimiento de acuerdo y tribunal.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\customs-fine-appeal-turkey.mdx",
+        "relPath": "fr/customs-fine-appeal-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "customs-fine-appeal-turkey",
+        "currentTitle": "Contester une amende douanière en Turquie : guide pour les ressortissants étrangers",
+        "titleLen": 83,
+        "currentDesc": "Guide pratique pour contester une sanction douanière en Turquie en vertu de la loi n° 4458 — recours administratif, procédure de conciliation et tribunal administratif.",
+        "descLen": 168,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "dask-earthquake-insurance-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "tr/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "tr",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "DASK Zorunlu Deprem Sigortası: Türkiye'de Ev Sahipleri İçin Tam Rehber",
+        "titleLen": 70,
+        "currentDesc": "DASK nedir, kimler yaptırmak zorundadır, ne kadar teminat sağlar ve tapu işlemlerinde neden şarttır? 6305 sayılı Afet Sigortaları Kanunu kapsamında kapsamlı bir rehber.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "en/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "en",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "DASK Mandatory Earthquake Insurance in Turkey: A Complete Guide for Property Owners",
+        "titleLen": 83,
+        "currentDesc": "What is DASK, who must have it, what does it cover, and why is it required for title deed transfers? Everything property owners and buyers in Turkey need to know.",
+        "descLen": 162,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "de/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "de",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "DASK – Pflichtversicherung gegen Erdbeben in der Türkei: Alles, was Immobilieneigentümer wissen müssen",
+        "titleLen": 102,
+        "currentDesc": "Was ist DASK, wer ist versicherungspflichtig, was leistet die Versicherung und warum ist sie beim Grundbucheintrag vorgeschrieben? Der vollständige Leitfaden für Immobilienkäufer und -eigentümer in der Türkei.",
+        "descLen": 209,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "ru/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "ru",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "DASK — обязательное страхование от землетрясений в Турции: полное руководство для владельцев недвижимости",
+        "titleLen": 105,
+        "currentDesc": "Что такое DASK, кто обязан оформить полис, что покрывает страховка и почему без неё невозможно оформить сделку с недвижимостью в Турции.",
+        "descLen": 136,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "es/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "es",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "El seguro obligatorio DASK contra terremotos en Turquía: guía completa para propietarios",
+        "titleLen": 88,
+        "currentDesc": "¿Qué es el DASK, quién está obligado a contratarlo, qué cubre y por qué es imprescindible en las escrituras? Todo lo que deben saber los propietarios e inversores extranjeros en Turquía.",
+        "descLen": 186,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\dask-earthquake-insurance-turkey-guide.mdx",
+        "relPath": "fr/dask-earthquake-insurance-turkey-guide.mdx",
+        "locale": "fr",
+        "translationKey": "dask-earthquake-insurance-turkey-guide",
+        "currentTitle": "DASK – L'assurance obligatoire contre les séismes en Turquie : guide complet pour les propriétaires",
+        "titleLen": 99,
+        "currentDesc": "Qu'est-ce que le DASK, qui doit souscrire cette assurance, que couvre-t-elle et pourquoi est-elle indispensable lors des transactions immobilières en Turquie ?",
+        "descLen": 159,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "data-breach-notification-kvkk-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "tr/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "KVKK'da Kişisel Veri İhlali Bildirimi: Şirketler ve Bireyler İçin Yükümlülükler",
+        "titleLen": 79,
+        "currentDesc": "6698 sayılı KVKK m.12 kapsamında veri ihlali bildirim yükümlülükleri, KVK Kurulu'na bildirim süreleri, ihlal protokolü ve idari para cezaları hakkında kapsamlı rehber.",
+        "descLen": 167,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "en/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "en",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "Personal Data Breach Notification under Turkey's KVKK: What Companies Must Do",
+        "titleLen": 77,
+        "currentDesc": "A practical guide to data breach notification obligations under Turkey's Personal Data Protection Law (KVKK Article 12), including the 72-hour rule, notification content, and administrative fines.",
+        "descLen": 196,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "de/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "de",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "Meldepflicht bei Datenpannen nach dem türkischen KVKK: Was Unternehmen wissen müssen",
+        "titleLen": 84,
+        "currentDesc": "Praxisleitfaden zur Meldepflicht bei Datenschutzverletzungen nach Art. 12 des türkischen Datenschutzgesetzes KVKK — mit der 72-Stunden-Frist, Meldeinhalten und Bußgeldern.",
+        "descLen": 171,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "ru/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "Уведомление об утечке персональных данных по турецкому закону KVKK: обязанности компаний",
+        "titleLen": 88,
+        "currentDesc": "Практическое руководство по обязанностям уведомления об утечке данных согласно ст. 12 турецкого Закона о защите персональных данных (KVKK): правило 72 часов, содержание уведомления и административные штрафы.",
+        "descLen": 207,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "ar/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "الإخطار بانتهاك البيانات الشخصية وفق قانون KVKK التركي: التزامات الشركات والأفراد",
+        "titleLen": 81,
+        "currentDesc": "دليل عملي حول التزامات الإخطار بانتهاك البيانات بموجب المادة 12 من قانون حماية البيانات الشخصية التركي KVKK، يشمل قاعدة 72 ساعة ومضمون الإخطار والغرامات الإدارية.",
+        "descLen": 162,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "es/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "es",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "Notificación de Brechas de Datos bajo el KVKK Turco: Obligaciones para Empresas",
+        "titleLen": 79,
+        "currentDesc": "Guía práctica sobre las obligaciones de notificación de brechas de datos bajo el artículo 12 de la Ley turca de Protección de Datos Personales (KVKK): la regla de 72 horas, el contenido de la notificación y las sanciones administrativas.",
+        "descLen": 237,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\data-breach-notification-kvkk-turkey.mdx",
+        "relPath": "fr/data-breach-notification-kvkk-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "data-breach-notification-kvkk-turkey",
+        "currentTitle": "Notification de Violation de Données sous le KVKK Turc : Ce que les Entreprises Doivent Faire",
+        "titleLen": 93,
+        "currentDesc": "Guide pratique sur les obligations de notification de violation de données en vertu de l'article 12 de la loi turque sur la protection des données personnelles (KVKK) : la règle des 72 heures, le contenu de la notification et les sanctions administratives.",
+        "descLen": 256,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "early-lease-termination-tenant-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\early-lease-termination-tenant-turkey.mdx",
+        "relPath": "tr/early-lease-termination-tenant-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "early-lease-termination-tenant-turkey",
+        "currentTitle": "Kiracının Erken Fesih Hakkı: Türkiye'de Kira Sözleşmesini Bitirmek",
+        "titleLen": 66,
+        "currentDesc": "Türkiye'de kiracı olarak kira süresinden önce taşınmanız gerekiyor mu? Erken fesih kuralları, bildirim yükümlülükleri ve mali sorumluluklarınız hakkında bilmeniz gerekenler.",
+        "descLen": 173,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\early-lease-termination-tenant-turkey.mdx",
+        "relPath": "en/early-lease-termination-tenant-turkey.mdx",
+        "locale": "en",
+        "translationKey": "early-lease-termination-tenant-turkey",
+        "currentTitle": "Early Lease Termination in Turkey: A Tenant's Guide",
+        "titleLen": 51,
+        "currentDesc": "What happens when a tenant in Turkey needs to leave before the lease ends? Learn your rights and obligations under Turkish law before breaking a rental contract.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "entrepreneur-residence-permit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\entrepreneur-residence-permit-turkey.mdx",
+        "relPath": "tr/entrepreneur-residence-permit-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "entrepreneur-residence-permit-turkey",
+        "currentTitle": "Türkiye'de Girişimci ve Serbest Çalışan Yabancılar İçin İkamet İzni Rehberi",
+        "titleLen": 75,
+        "currentDesc": "Türkiye'de iş kurmak veya serbest faaliyet göstermek isteyen yabancıların kısa dönem ikamet izni başvuru süreci, gerekli belgeler ve yasal dayanaklar.",
+        "descLen": 150,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\entrepreneur-residence-permit-turkey.mdx",
+        "relPath": "en/entrepreneur-residence-permit-turkey.mdx",
+        "locale": "en",
+        "translationKey": "entrepreneur-residence-permit-turkey",
+        "currentTitle": "Residence Permit for Entrepreneurs and Freelancers in Turkey",
+        "titleLen": 60,
+        "currentDesc": "A practical guide for foreign nationals who want to start a business or work independently in Turkey, covering the short-term residence permit under YUKK Article 31.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\entrepreneur-residence-permit-turkey.mdx",
+        "relPath": "es/entrepreneur-residence-permit-turkey.mdx",
+        "locale": "es",
+        "translationKey": "entrepreneur-residence-permit-turkey",
+        "currentTitle": "Permiso de Residencia para Emprendedores y Autónomos en Turquía",
+        "titleLen": 63,
+        "currentDesc": "Guía práctica para ciudadanos extranjeros que desean establecer un negocio o trabajar de forma independiente en Turquía, con base en el artículo 31 de la Ley de Extranjería.",
+        "descLen": 173,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\entrepreneur-residence-permit-turkey.mdx",
+        "relPath": "fr/entrepreneur-residence-permit-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "entrepreneur-residence-permit-turkey",
+        "currentTitle": "Titre de Séjour pour Entrepreneurs et Freelances en Turquie",
+        "titleLen": 59,
+        "currentDesc": "Guide pratique pour les ressortissants étrangers souhaitant créer une entreprise ou travailler de façon indépendante en Turquie, sur la base de l'article 31 de la loi YUKK.",
+        "descLen": 172,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "equalization-gifts-inheritance-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "tr/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "Miras Hukukunda Denkleştirme: Sağlığında Yapılan Bağışların Mirasa Katılması",
+        "titleLen": 76,
+        "currentDesc": "Denkleştirme nedir, hangi kazandırmalar tabi tutulur ve miras payı nasıl hesaplanır? TMK m.669-675 kapsamında kapsamlı bir rehber.",
+        "descLen": 130,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "en/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "en",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "Equalization of Lifetime Gifts in Turkish Inheritance Law",
+        "titleLen": 57,
+        "currentDesc": "What is equalization (denkleştirme) in Turkish succession law, which lifetime gifts must be brought back to the estate, and how is each heir's share recalculated? A practical guide under TCC Articles 669–675.",
+        "descLen": 208,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "de/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "de",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "Ausgleichungspflicht im türkischen Erbrecht: Lebzeitige Zuwendungen und ihre Anrechnung auf den Erbteil",
+        "titleLen": 103,
+        "currentDesc": "Was ist die Ausgleichungspflicht (denkleştirme) im türkischen Erbrecht, welche Zuwendungen sind anrechnungspflichtig und wie wird der Erbteil neu berechnet? Praxisleitfaden zu TMK Art. 669–675.",
+        "descLen": 193,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "ru/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "Выравнивание прижизненных даров в турецком наследственном праве",
+        "titleLen": 63,
+        "currentDesc": "Что такое выравнивание (denkleştirme) в турецком праве, какие прижизненные дарения подлежат учёту при разделе наследства и как пересчитываются наследственные доли? Руководство по ст. 669–675 ГК Турции.",
+        "descLen": 201,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "ar/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "التسوية في قانون الميراث التركي: إدراج الهبات المُقدَّمة في حياة المورّث في حساب التركة",
+        "titleLen": 87,
+        "currentDesc": "ما هي التسوية (denkleştirme) في قانون الميراث التركي، وأي الهبات تخضع لها، وكيف يُعاد احتساب الأنصبة؟ دليل شامل وفق المواد 669–675 من القانون المدني التركي.",
+        "descLen": 156,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "es/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "es",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "La nivelación de donaciones en vida en el derecho sucesorio turco",
+        "titleLen": 65,
+        "currentDesc": "¿Qué es la nivelación (denkleştirme) en el derecho hereditario turco, qué donaciones en vida deben computarse y cómo se recalculan las cuotas hereditarias? Guía práctica según los artículos 669 a 675 del Código Civil turco.",
+        "descLen": 223,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\equalization-gifts-inheritance-turkey.mdx",
+        "relPath": "fr/equalization-gifts-inheritance-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "equalization-gifts-inheritance-turkey",
+        "currentTitle": "Le rapport des donations en droit successoral turc : équilibrer les libéralités entre héritiers",
+        "titleLen": 95,
+        "currentDesc": "Qu'est-ce que le rapport des donations (denkleştirme) en droit successoral turc, quelles libéralités sont soumises au rapport et comment les parts héréditaires sont-elles recalculées ? Guide pratique selon les articles 669 à 675 du Code civil turc.",
+        "descLen": 248,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "estate-administrator-appointment-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\estate-administrator-appointment-turkey.mdx",
+        "relPath": "tr/estate-administrator-appointment-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "estate-administrator-appointment-turkey",
+        "currentTitle": "Türkiye'de Tereke Kayyımı: Yabancı Mirasçılar İçin Pratik Rehber",
+        "titleLen": 64,
+        "currentDesc": "Mirasçılar terekenin yönetimini üstlenemiyorsa mahkeme tereke kayyımı atayabilir. Başvuru koşulları, yetkili mahkeme ve dikkat edilmesi gerekenler hakkında bilgi alın.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\estate-administrator-appointment-turkey.mdx",
+        "relPath": "de/estate-administrator-appointment-turkey.mdx",
+        "locale": "de",
+        "translationKey": "estate-administrator-appointment-turkey",
+        "currentTitle": "Nachlasspfleger in der Türkei: Leitfaden für ausländische Erben",
+        "titleLen": 63,
+        "currentDesc": "Ein Nachlasspfleger (tereke kayyımı) wird vom türkischen Gericht ernannt, wenn Erben den Nachlass nicht gemeinsam verwalten können. So funktioniert das Verfahren.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "expropriation-compensation-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\expropriation-compensation-turkey.mdx",
+        "relPath": "tr/expropriation-compensation-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Kamulaştırma ve Tazminat: Türkiye'de Devletin Mülkünüzü Alması Halinde Haklarınız",
+        "titleLen": 81,
+        "currentDesc": "Kamulaştırma sürecinin aşamaları, tazminat tespiti, itiraz yolları ve acele kamulaştırma ile geri alma hakkına ilişkin kapsamlı bir hukuki rehber.",
+        "descLen": 146,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\expropriation-compensation-turkey.mdx",
+        "relPath": "en/expropriation-compensation-turkey.mdx",
+        "locale": "en",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Expropriation in Turkey: How Property Owners Can Challenge State Compensation",
+        "titleLen": 77,
+        "currentDesc": "A detailed guide to the Turkish expropriation process under Law No. 2942, including compensation assessment, appeal rights, urgent expropriation, and the right of repurchase.",
+        "descLen": 174,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\expropriation-compensation-turkey.mdx",
+        "relPath": "de/expropriation-compensation-turkey.mdx",
+        "locale": "de",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Enteignung in der Türkei: Rechte der Eigentümer und Möglichkeiten zur Anfechtung der Entschädigung",
+        "titleLen": 98,
+        "currentDesc": "Praxisleitfaden zum türkischen Enteignungsverfahren nach Gesetz Nr. 2942 — Verfahrensablauf, Entschädigungsbemessung, Anfechtungsfristen und das Rückkaufsrecht.",
+        "descLen": 160,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\expropriation-compensation-turkey.mdx",
+        "relPath": "ru/expropriation-compensation-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Изъятие недвижимости в Турции: права собственников и оспаривание компенсации",
+        "titleLen": 76,
+        "currentDesc": "Полное руководство по турецкому законодательству об экспроприации — процедура, оценка рыночной стоимости, сроки обжалования и право обратного выкупа по Закону № 2942.",
+        "descLen": 166,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\expropriation-compensation-turkey.mdx",
+        "relPath": "es/expropriation-compensation-turkey.mdx",
+        "locale": "es",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Expropiación en Turquía: Cómo Impugnar la Indemnización del Estado",
+        "titleLen": 66,
+        "currentDesc": "Guía completa sobre el proceso de expropiación bajo la Ley turca núm. 2942, incluyendo valoración pericial, plazos de impugnación, expropiación urgente y derecho de retracto.",
+        "descLen": 174,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\expropriation-compensation-turkey.mdx",
+        "relPath": "fr/expropriation-compensation-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "expropriation-compensation-turkey",
+        "currentTitle": "Expropriation en Turquie : Droits des Propriétaires et Contestation de l'Indemnisation",
+        "titleLen": 86,
+        "currentDesc": "Guide pratique sur la procédure d'expropriation en vertu de la Loi turque n° 2942, couvrant l'évaluation du juste prix, les délais de recours, l'expropriation urgente et le droit de rétrocession.",
+        "descLen": 195,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "hate-speech-limits-turkish-criminal-law": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\hate-speech-limits-turkish-criminal-law.mdx",
+        "relPath": "tr/hate-speech-limits-turkish-criminal-law.mdx",
+        "locale": "tr",
+        "translationKey": "hate-speech-limits-turkish-criminal-law",
+        "currentTitle": "Türkiye'de Nefret Söylemi Kanunu: Yabancılar İçin Rehber",
+        "titleLen": 56,
+        "currentDesc": "Türk Ceza Kanunu'nun 216. maddesi, kin tahrikini ve toplumsal aşağılamayı suç olarak düzenler. Türkiye'deki yabancı uyrukluların bilmesi gereken hukuki sınırlar.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\hate-speech-limits-turkish-criminal-law.mdx",
+        "relPath": "de/hate-speech-limits-turkish-criminal-law.mdx",
+        "locale": "de",
+        "translationKey": "hate-speech-limits-turkish-criminal-law",
+        "currentTitle": "Hassrede-Gesetz in der Türkei: Ein Leitfaden für Ausländer",
+        "titleLen": 58,
+        "currentDesc": "Das türkische Strafgesetzbuch bestraft Hetze und öffentliche Herabwürdigung aufgrund von Rasse, Religion oder Herkunft. Das sollten Ausländer in der Türkei wissen.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "inheritance-contract-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "tr/inheritance-contract-turkey-guide.mdx",
+        "locale": "tr",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "Türk Hukukunda Miras Sözleşmesi: Ölüme Bağlı Tasarrufların Hukuki Çerçevesi",
+        "titleLen": 75,
+        "currentDesc": "Miras sözleşmesi nedir, vasiyetnameden farkı nedir, kimler yapabilir ve hukuki sonuçları nelerdir? TMK m.527-549 kapsamında kapsamlı bir rehber.",
+        "descLen": 144,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "en/inheritance-contract-turkey-guide.mdx",
+        "locale": "en",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "Inheritance Contracts in Turkey: A Guide to Binding Testamentary Arrangements",
+        "titleLen": 77,
+        "currentDesc": "What is an inheritance contract under Turkish law, how does it differ from a will, and what are its legal consequences? A practical guide for property owners and foreign nationals in Turkey.",
+        "descLen": 190,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "de/inheritance-contract-turkey-guide.mdx",
+        "locale": "de",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "Erbvertrag nach türkischem Recht: Bindende Verfügungen von Todes wegen",
+        "titleLen": 70,
+        "currentDesc": "Was ist ein Erbvertrag nach türkischem Recht, worin unterscheidet er sich vom Testament und welche Rechtsfolgen hat er? Ein praxisorientierter Leitfaden für Immobilieneigentümer und Ausländer in der Türkei.",
+        "descLen": 206,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "ru/inheritance-contract-turkey-guide.mdx",
+        "locale": "ru",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "Наследственный договор в Турции: обязательные посмертные распоряжения",
+        "titleLen": 69,
+        "currentDesc": "Что такое наследственный договор по турецкому праву, чем он отличается от завещания и какие правовые последствия влечёт? Практическое руководство для собственников недвижимости и иностранных граждан.",
+        "descLen": 199,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "ar/inheritance-contract-turkey-guide.mdx",
+        "locale": "ar",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "عقد الميراث في القانون التركي: الإطار القانوني للتصرفات المضافة إلى ما بعد الوفاة",
+        "titleLen": 81,
+        "currentDesc": "ما هو عقد الميراث بموجب القانون التركي، وكيف يختلف عن الوصية، وما هي آثاره القانونية؟ دليل عملي لأصحاب العقارات والمواطنين الأجانب في تركيا.",
+        "descLen": 140,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "es/inheritance-contract-turkey-guide.mdx",
+        "locale": "es",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "El contrato sucesorio en Turquía: disposiciones mortis causa vinculantes",
+        "titleLen": 72,
+        "currentDesc": "¿Qué es un contrato sucesorio según el derecho turco, en qué se diferencia de un testamento y qué consecuencias jurídicas tiene? Guía práctica para propietarios extranjeros en Turquía.",
+        "descLen": 184,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\inheritance-contract-turkey-guide.mdx",
+        "relPath": "fr/inheritance-contract-turkey-guide.mdx",
+        "locale": "fr",
+        "translationKey": "inheritance-contract-turkey-guide",
+        "currentTitle": "Le pacte successoral en droit turc : dispositions à cause de mort contraignantes",
+        "titleLen": 80,
+        "currentDesc": "Qu'est-ce qu'un pacte successoral selon le droit turc, en quoi diffère-t-il d'un testament et quelles en sont les conséquences juridiques ? Guide pratique pour les propriétaires et les étrangers en Turquie.",
+        "descLen": 206,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "inheritance-tax-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\inheritance-tax-turkey-guide.mdx",
+        "relPath": "tr/inheritance-tax-turkey-guide.mdx",
+        "locale": "tr",
+        "translationKey": "inheritance-tax-turkey-guide",
+        "currentTitle": "Türkiye'de Veraset ve İntikal Vergisi: Yabancılar İçin Rehber",
+        "titleLen": 61,
+        "currentDesc": "Türkiye'de miras yoluyla intikal eden tüm mallar veraset vergisine tabidir. Yabancı mirasçılar için vergi oranları, istisnalar ve beyanname süreleri bu rehberde.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\inheritance-tax-turkey-guide.mdx",
+        "relPath": "de/inheritance-tax-turkey-guide.mdx",
+        "locale": "de",
+        "translationKey": "inheritance-tax-turkey-guide",
+        "currentTitle": "Erbschaftsteuer Türkei: Was ausländische Erben wissen müssen",
+        "titleLen": 60,
+        "currentDesc": "In der Türkei fällt Erbschaftsteuer auf alle ererbten Vermögenswerte an. Steuersätze, Freibeträge, Fristen und wichtige Hinweise für ausländische Erben in Antalya.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\inheritance-tax-turkey-guide.mdx",
+        "relPath": "ru/inheritance-tax-turkey-guide.mdx",
+        "locale": "ru",
+        "translationKey": "inheritance-tax-turkey-guide",
+        "currentTitle": "Налог на наследство в Турции для иностранных граждан",
+        "titleLen": 52,
+        "currentDesc": "В Турции налог на наследство взимается со всех унаследованных активов. Ставки, освобождения, сроки подачи декларации и важные советы для иностранных наследников.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "intoxication-defence-turkish-criminal-law": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\intoxication-defence-turkish-criminal-law.mdx",
+        "relPath": "tr/intoxication-defence-turkish-criminal-law.mdx",
+        "locale": "tr",
+        "translationKey": "intoxication-defence-turkish-criminal-law",
+        "currentTitle": "Türkiye'de Alkol ve Suç: Sarhoşluk Savunması Ne Zaman Geçerli?",
+        "titleLen": 62,
+        "currentDesc": "Türk ceza hukuku sarhoşluk savunmasını yalnızca istem dışı sarhoşlukla sınırlandırır. TCK'nın 34. maddesi iradi alkol alımını savunma gerekçesi olarak kabul etmez.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\intoxication-defence-turkish-criminal-law.mdx",
+        "relPath": "de/intoxication-defence-turkish-criminal-law.mdx",
+        "locale": "de",
+        "translationKey": "intoxication-defence-turkish-criminal-law",
+        "currentTitle": "Alkohol und Strafrecht in der Türkei: der Rauscheinwand erklärt",
+        "titleLen": 63,
+        "currentDesc": "Im türkischen Strafrecht schließt freiwilliger Rausch die Strafbarkeit nie aus. Artikel 34 des türkischen Strafgesetzbuchs greift nur bei unfreiwilliger Berauschung.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\intoxication-defence-turkish-criminal-law.mdx",
+        "relPath": "fr/intoxication-defence-turkish-criminal-law.mdx",
+        "locale": "fr",
+        "translationKey": "intoxication-defence-turkish-criminal-law",
+        "currentTitle": "Alcool et infraction en Turquie: quand l'ivresse est une défense",
+        "titleLen": 64,
+        "currentDesc": "En droit pénal turc, l'ivresse volontaire n'exonère jamais de la responsabilité pénale. L'article 34 du Code pénal turc ne s'applique qu'à l'ivresse involontaire.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "kira-hukukunda-guncel-gelismeler-2025": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "relPath": "tr/kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "locale": "tr",
+        "translationKey": "kira-hukukunda-guncel-gelismeler-2025",
+        "currentTitle": "Kira Hukukunda Güncel Gelişmeler: 2025 Yargıtay ve BAM Kararları",
+        "titleLen": 64,
+        "currentDesc": "Zorunlu arabuluculuk uygulaması, tahliye taahhüdü, iki haklı ihtar ve TBK 344-346 yorumu konularında 2024-2025 döneminde verilen Yargıtay ve bölge adliye mahkemesi kararları.",
+        "descLen": 174,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "relPath": "en/kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "locale": "en",
+        "translationKey": "kira-hukukunda-guncel-gelismeler-2025",
+        "currentTitle": "Turkish Rental Law: Key Court Rulings and Developments in 2025",
+        "titleLen": 62,
+        "currentDesc": "Mandatory mediation, eviction commitments, rent determination under TBK 344, and the two-justified-notice rule — recent Yargıtay and Regional Court decisions shaping Turkish rental law in 2025.",
+        "descLen": 193,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "relPath": "de/kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "locale": "de",
+        "translationKey": "kira-hukukunda-guncel-gelismeler-2025",
+        "currentTitle": "Türkisches Mietrecht 2025: Aktuelle Gerichtsentscheidungen im Überblick",
+        "titleLen": 71,
+        "currentDesc": "Obligatorische Mediation, Räumungsverpflichtung, Mietfestsetzung nach TBK 344 und die Zwei-berechtigte-Mahnungen-Regel — aktuelle Yargıtay- und Berufungsgerichtsentscheidungen zum türkischen Mietrecht.",
+        "descLen": 201,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "relPath": "ru/kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "locale": "ru",
+        "translationKey": "kira-hukukunda-guncel-gelismeler-2025",
+        "currentTitle": "Арендное право Турции 2025: актуальные решения судов",
+        "titleLen": 52,
+        "currentDesc": "Обязательная медиация, обязательство о выселении, определение арендной платы по ст. 344 ТКО и правило двух обоснованных предупреждений — ключевые решения Верховного суда и апелляционных судов по арендному праву Турции.",
+        "descLen": 218,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "relPath": "ar/kira-hukukunda-guncel-gelismeler-2025.mdx",
+        "locale": "ar",
+        "translationKey": "kira-hukukunda-guncel-gelismeler-2025",
+        "currentTitle": "قانون الإيجار التركي: أبرز أحكام المحاكم والتطورات عام 2025",
+        "titleLen": 59,
+        "currentDesc": "الوساطة الإلزامية وتعهدات الإخلاء وتحديد الإيجار بموجب TBK المادة 344 وقاعدة الإشعارَين المبرَّرَين — أحدث قرارات محكمة النقض (يارغيتاي) ومحاكم الاستئناف الإقليمية التي تُشكّل قانون الإيجار التركي عام 2025.",
+        "descLen": 206,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "legal-separation-vs-divorce-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\legal-separation-vs-divorce-turkey.mdx",
+        "relPath": "tr/legal-separation-vs-divorce-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "legal-separation-vs-divorce-turkey",
+        "currentTitle": "Türkiye'de Ayrılık mı Boşanma mı? Yabancılar İçin Hukuki Rehber",
+        "titleLen": 63,
+        "currentDesc": "Türk hukuku hem ayrılık hem de boşanma seçeneğini sunar. Bu rehberde ikisi arasındaki temel farklar ve yabancı uyruklu çiftler için pratik sonuçlar ele alınmaktadır.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\legal-separation-vs-divorce-turkey.mdx",
+        "relPath": "en/legal-separation-vs-divorce-turkey.mdx",
+        "locale": "en",
+        "translationKey": "legal-separation-vs-divorce-turkey",
+        "currentTitle": "Legal Separation vs Divorce in Turkey: Key Differences",
+        "titleLen": 54,
+        "currentDesc": "Turkey recognises both legal separation and full divorce. Learn what each means for your marriage, children, and property rights as a foreign national in Antalya.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\legal-separation-vs-divorce-turkey.mdx",
+        "relPath": "es/legal-separation-vs-divorce-turkey.mdx",
+        "locale": "es",
+        "translationKey": "legal-separation-vs-divorce-turkey",
+        "currentTitle": "Separación legal y divorcio en Turquía",
+        "titleLen": 38,
+        "currentDesc": "El derecho turco reconoce tanto la separación legal como el divorcio. Conozca sus diferencias prácticas y sus consecuencias para los ciudadanos extranjeros en Antalya.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "mortgage-property-purchase-turkey-foreigners": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "tr/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "tr",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Türkiye'de İpotekli Konut Alımı: Yabancılar İçin Banka Kredisi ve İpotek Rehberi",
+        "titleLen": 80,
+        "currentDesc": "Türkiye'de yabancı uyruklu kişilerin ipotekli konut alımı sürecini, banka kredi koşullarını ve TMK kapsamındaki ipotek hükümlerini detaylı olarak açıklıyoruz.",
+        "descLen": 158,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "en/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "en",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Getting a Mortgage in Turkey as a Foreigner: A Complete Guide",
+        "titleLen": 61,
+        "currentDesc": "Can foreigners get a mortgage in Turkey? Learn how Turkish bank loans work, what documents you need, and how property mortgages are registered under Turkish law.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "de/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "de",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Hypothek in der Türkei für Ausländer: Bankkredit und Grundpfandrecht im Überblick",
+        "titleLen": 81,
+        "currentDesc": "Können Ausländer in der Türkei eine Hypothek aufnehmen? Wir erklären Kreditbedingungen türkischer Banken, Grundpfandrechte nach türkischem Recht und den Ablauf des Immobilienkaufs auf Kredit.",
+        "descLen": 191,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "ru/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "ru",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Ипотека в Турции для иностранцев: кредит в турецком банке и залог недвижимости",
+        "titleLen": 78,
+        "currentDesc": "Могут ли иностранцы получить ипотеку в Турции? Разбираем условия банковского кредитования, требования к документам и правила оформления залога по турецкому законодательству.",
+        "descLen": 173,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "es/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "es",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Hipoteca en Turquía para extranjeros: guía completa sobre préstamos bancarios y garantías reales",
+        "titleLen": 96,
+        "currentDesc": "¿Pueden los extranjeros obtener una hipoteca en Turquía? Explicamos las condiciones de los bancos turcos, la documentación necesaria y cómo se constituye el derecho de hipoteca según la ley turca.",
+        "descLen": 196,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\mortgage-property-purchase-turkey-foreigners.mdx",
+        "relPath": "fr/mortgage-property-purchase-turkey-foreigners.mdx",
+        "locale": "fr",
+        "translationKey": "mortgage-property-purchase-turkey-foreigners",
+        "currentTitle": "Crédit immobilier en Turquie pour les étrangers : hypothèque et financement bancaire",
+        "titleLen": 84,
+        "currentDesc": "Les étrangers peuvent-ils obtenir un crédit immobilier en Turquie ? Conditions des banques turques, documents requis et constitution de l'hypothèque selon le droit turc.",
+        "descLen": 169,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "no-poach-wage-fixing-turkey-labour-market": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\no-poach-wage-fixing-turkey-labour-market.mdx",
+        "relPath": "tr/no-poach-wage-fixing-turkey-labour-market.mdx",
+        "locale": "tr",
+        "translationKey": "no-poach-wage-fixing-turkey-labour-market",
+        "currentTitle": "İşe Almama ve Ücret Tespiti Anlaşmalarında Rekabet Hukuku",
+        "titleLen": 57,
+        "currentDesc": "Türkiye'de işe almama ve ücret tespiti anlaşmaları rekabet hukuku ihlali sayılır. 4054 sayılı Kanun kapsamındaki riskler, sektörel örnekler ve uyum yükümlülükleri.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "prenuptial-agreement-foreign-couples-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\prenuptial-agreement-foreign-couples-turkey.mdx",
+        "relPath": "tr/prenuptial-agreement-foreign-couples-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "prenuptial-agreement-foreign-couples-turkey",
+        "currentTitle": "Türkiye'de Mal Rejimi Sözleşmesi: Yabancılar için Rehber",
+        "titleLen": 56,
+        "currentDesc": "Türkiye'de evlenecek veya mülk sahibi yabancı çiftler için mal rejimi sözleşmesi nasıl yapılır, şekil şartları neler ve hangi mal rejimleri arasından seçim yapılabilir?",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\prenuptial-agreement-foreign-couples-turkey.mdx",
+        "relPath": "de/prenuptial-agreement-foreign-couples-turkey.mdx",
+        "locale": "de",
+        "translationKey": "prenuptial-agreement-foreign-couples-turkey",
+        "currentTitle": "Ehevertrag in der Türkei: Ratgeber für ausländische Paare",
+        "titleLen": 57,
+        "currentDesc": "Planen Sie eine Heirat in der Türkei oder besitzen Sie dort Immobilien? So funktioniert der Ehevertrag nach türkischem Recht — und warum ausländische Paare ihn brauchen.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\prenuptial-agreement-foreign-couples-turkey.mdx",
+        "relPath": "ru/prenuptial-agreement-foreign-couples-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "prenuptial-agreement-foreign-couples-turkey",
+        "currentTitle": "Брачный договор в Турции: полное руководство для иностранцев",
+        "titleLen": 60,
+        "currentDesc": "Планируете свадьбу или покупку недвижимости в Турции? Как работает брачный договор по турецкому праву, каковы требования к форме и зачем он нужен иностранным парам.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\prenuptial-agreement-foreign-couples-turkey.mdx",
+        "relPath": "fr/prenuptial-agreement-foreign-couples-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "prenuptial-agreement-foreign-couples-turkey",
+        "currentTitle": "Contrat de mariage en Turquie",
+        "titleLen": 29,
+        "currentDesc": "Établir un contrat de mariage en Turquie : régimes matrimoniaux et conditions de forme pour couples étrangers propriétaires.",
+        "descLen": 124,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "profit-repatriation-dividend-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "tr/profit-repatriation-dividend-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Türkiye'de Kâr Transferi ve Temettü Dağıtımı: Yabancı Yatırımcı Rehberi",
+        "titleLen": 71,
+        "currentDesc": "4875 sayılı Kanun ve 6102 sayılı TTK m.507-509 çerçevesinde yabancı yatırımcıların Türkiye'deki şirketlerden kâr transferi ve temettü dağıtımı sürecine ilişkin kapsamlı hukuki rehber.",
+        "descLen": 183,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "en/profit-repatriation-dividend-turkey.mdx",
+        "locale": "en",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Profit Repatriation and Dividends in Turkey: A Guide for Foreign Investors",
+        "titleLen": 74,
+        "currentDesc": "How foreign investors legally distribute dividends and repatriate profits from Turkey — covering Law No. 4875, TTK Articles 507–509, withholding tax rates, double tax treaties, and practical transfer steps.",
+        "descLen": 206,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "de/profit-repatriation-dividend-turkey.mdx",
+        "locale": "de",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Gewinnrückführung und Dividenden aus der Türkei: Leitfaden für Auslandsinvestoren",
+        "titleLen": 81,
+        "currentDesc": "Wie ausländische Investoren Dividenden aus türkischen Gesellschaften legal ausschütten und ins Ausland transferieren — mit Erläuterungen zu Gesetz Nr. 4875, TTK Art. 507–509, Quellensteuer und Doppelbesteuerungsabkommen.",
+        "descLen": 220,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "ru/profit-repatriation-dividend-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Репатриация прибыли и выплата дивидендов в Турции: руководство для иностранных инвесторов",
+        "titleLen": 89,
+        "currentDesc": "Как иностранные инвесторы законно распределяют дивиденды и переводят прибыль из Турции — Закон № 4875, статьи 507–509 ТТК, ставки удерживаемого налога, соглашения об избежании двойного налогообложения и практические шаги.",
+        "descLen": 221,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "ar/profit-repatriation-dividend-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "تحويل الأرباح وتوزيع الأرباح في تركيا: دليل المستثمر الأجنبي",
+        "titleLen": 60,
+        "currentDesc": "كيف يوزّع المستثمرون الأجانب أرباحهم ويحوّلونها من تركيا — القانون رقم 4875 والمادتان 507 و509 من TTK ومعدلات الضريبة المستقطعة واتفاقيات ازدواج ضريبي والخطوات العملية.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "es/profit-repatriation-dividend-turkey.mdx",
+        "locale": "es",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Repatriación de Beneficios y Dividendos en Turquía: Guía para Inversores Extranjeros",
+        "titleLen": 84,
+        "currentDesc": "Cómo los inversores extranjeros distribuyen y repatrian legalmente beneficios desde Turquía — Ley n.º 4875, artículos 507–509 del TTK, retenciones fiscales, convenios de doble imposición y pasos prácticos.",
+        "descLen": 205,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\profit-repatriation-dividend-turkey.mdx",
+        "relPath": "fr/profit-repatriation-dividend-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "profit-repatriation-dividend-turkey",
+        "currentTitle": "Rapatriement des Bénéfices et Dividendes en Turquie : Guide pour les Investisseurs Étrangers",
+        "titleLen": 92,
+        "currentDesc": "Comment les investisseurs étrangers distribuent et rapatrient légalement leurs bénéfices depuis la Turquie — loi n° 4875, articles 507–509 du TTK, retenue à la source, conventions fiscales et démarches pratiques.",
+        "descLen": 212,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "student-visa-residence-permit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "tr/student-visa-residence-permit-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Türkiye'de Öğrenci Vizesi ve Öğrenci İkamet İzni: 2026 Başvuru Rehberi",
+        "titleLen": 70,
+        "currentDesc": "Türkiye'deki bir üniversiteye kabul alan yabancı öğrenciler için vize başvurusundan öğrenci ikamet iznine uzanan sürecin tüm adımları, yasal dayanakları ve gerekli belgeler.",
+        "descLen": 173,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "en/student-visa-residence-permit-turkey.mdx",
+        "locale": "en",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Student Visa and Student Residence Permit in Turkey: 2026 Guide",
+        "titleLen": 63,
+        "currentDesc": "Everything foreign students need to know about entering Turkey for study, obtaining a student residence permit under YUKK Articles 38-39, and staying legally throughout their programme.",
+        "descLen": 185,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "de/student-visa-residence-permit-turkey.mdx",
+        "locale": "de",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Studentenvisum und Studienaufenthaltserlaubnis in der Türkei: Leitfaden 2026",
+        "titleLen": 76,
+        "currentDesc": "Schritt-für-Schritt-Anleitung für ausländische Studierende, die an einer türkischen Hochschule eingeschrieben sind: Visum, Aufenthaltserlaubnis nach Art. 38–39 YUKK und Verlängerung.",
+        "descLen": 182,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "ru/student-visa-residence-permit-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Студенческая виза и вид на жительство для студентов в Турции: Руководство 2026",
+        "titleLen": 78,
+        "currentDesc": "Пошаговое руководство для иностранных студентов турецких университетов: получение студенческой визы, оформление ВНЖ по статьям 38–39 закона YUKK, продление и права после окончания учёбы.",
+        "descLen": 186,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "ar/student-visa-residence-permit-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "تأشيرة الطالب وإقامة الطالب في تركيا: دليل 2026",
+        "titleLen": 47,
+        "currentDesc": "دليل شامل للطلاب الأجانب الملتحقين بالجامعات التركية: كيفية الحصول على تأشيرة الدراسة وإقامة الطالب بموجب المادتين 38 و39 من قانون YUKK، مع توضيح المستندات المطلوبة.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "es/student-visa-residence-permit-turkey.mdx",
+        "locale": "es",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Visado de Estudiante y Permiso de Residencia para Estudiantes en Turquía: Guía 2026",
+        "titleLen": 83,
+        "currentDesc": "Todo lo que necesitan saber los estudiantes extranjeros que van a estudiar en Turquía: visado de larga duración, permiso de residencia de estudiante conforme a los artículos 38-39 de la Ley YUKK y opciones tras graduarse.",
+        "descLen": 221,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\student-visa-residence-permit-turkey.mdx",
+        "relPath": "fr/student-visa-residence-permit-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "student-visa-residence-permit-turkey",
+        "currentTitle": "Visa Étudiant et Titre de Séjour Étudiant en Turquie : Guide 2026",
+        "titleLen": 65,
+        "currentDesc": "Guide complet pour les étudiants étrangers admis dans une université turque : visa de long séjour, titre de séjour étudiant selon les articles 38-39 de la loi YUKK, renouvellement et droits après le diplôme.",
+        "descLen": 207,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "title-deed-cancellation-lawsuit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "tr/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Tapu İptali ve Tescil Davası: Türkiye'de Sahte veya Hatalı Tapunun İptali",
+        "titleLen": 73,
+        "currentDesc": "Türkiye'de tapu iptali ve tescil davası açılmasının hukuki dayanakları, zamanaşımı sorunu ve pratik adımlar hakkında kapsamlı bir rehber.",
+        "descLen": 137,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "en/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "en",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Title Deed Cancellation Lawsuits in Turkey: How to Challenge a Fraudulent or Wrongful Registration",
+        "titleLen": 98,
+        "currentDesc": "A practical guide to the legal grounds, procedure, and strategic steps for cancelling a wrongful or fraudulent title deed under Turkish law.",
+        "descLen": 140,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "de/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "de",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Grundbuchberichtigung in der Türkei: Wann und wie man einen fehlerhaften Eigentumstitel anficht",
+        "titleLen": 95,
+        "currentDesc": "Ein Leitfaden zu den rechtlichen Grundlagen, Klagegründen und praktischen Schritten bei der Anfechtung eines fehlerhaften oder betrügerischen Grundbucheintrags in der Türkei.",
+        "descLen": 174,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "ru/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Оспаривание свидетельства о праве собственности в Турции: основания и порядок действий",
+        "titleLen": 86,
+        "currentDesc": "Подробный обзор правовых оснований, процедуры и практических шагов для оспаривания недействительной или мошеннической регистрации права собственности в Турции.",
+        "descLen": 159,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "ar/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "دعوى إبطال سند الملكية وإعادة التسجيل في تركيا: الأسس القانونية والخطوات العملية",
+        "titleLen": 80,
+        "currentDesc": "دليل شامل حول دعوى إبطال سندات الملكية المزورة أو الخاطئة في تركيا وفق أحكام القانون المدني التركي وقرارات محكمة التمييز.",
+        "descLen": 121,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "es/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "es",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Demanda de Nulidad del Título de Propiedad en Turquía: Fundamentos Legales y Pasos a Seguir",
+        "titleLen": 91,
+        "currentDesc": "Guía práctica sobre los motivos legales, el procedimiento y las medidas cautelares para impugnar una inscripción registral errónea o fraudulenta en Turquía.",
+        "descLen": 156,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\title-deed-cancellation-lawsuit-turkey.mdx",
+        "relPath": "fr/title-deed-cancellation-lawsuit-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "title-deed-cancellation-lawsuit-turkey",
+        "currentTitle": "Action en Annulation du Titre de Propriété en Turquie : Fondements Juridiques et Démarches Pratiques",
+        "titleLen": 100,
+        "currentDesc": "Guide complet sur les motifs légaux, la procédure et les mesures conservatoires pour contester un titre de propriété frauduleux ou erroné en Turquie.",
+        "descLen": 149,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "turkish-citizenship-practical-benefits": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "tr/turkish-citizenship-practical-benefits.mdx",
+        "locale": "tr",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Türk Vatandaşlığının Avantajları: Pasaport Gücü ve Pratik Haklar",
+        "titleLen": 64,
+        "currentDesc": "Türk vatandaşlığının vize serbestisi, e-Devlet hizmetleri, sağlık, eğitim ve çalışma hakları gibi pratik avantajları ile çift vatandaşlık uyumluluğu üzerine kapsamlı bir rehber.",
+        "descLen": 177,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "en/turkish-citizenship-practical-benefits.mdx",
+        "locale": "en",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Practical Benefits of Turkish Citizenship: Passport Power and Real-World Rights",
+        "titleLen": 79,
+        "currentDesc": "A concrete overview of what Turkish citizenship actually gives you — visa-free travel, e-government access, healthcare, education, work rights, and dual citizenship compatibility.",
+        "descLen": 179,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "de/turkish-citizenship-practical-benefits.mdx",
+        "locale": "de",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Vorteile der türkischen Staatsangehörigkeit: Reisepassstärke und praktische Rechte",
+        "titleLen": 82,
+        "currentDesc": "Ein konkreter Überblick über die praktischen Vorteile der türkischen Staatsbürgerschaft: visumfreies Reisen, E-Government-Dienste, Gesundheitsversorgung, Bildung, Arbeitsrechte und Kompatibilität mit Mehrstaatigkeit.",
+        "descLen": 216,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "ru/turkish-citizenship-practical-benefits.mdx",
+        "locale": "ru",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Практические преимущества гражданства Турции: сила паспорта и реальные права",
+        "titleLen": 76,
+        "currentDesc": "Конкретный обзор того, что даёт турецкое гражданство на практике: безвизовые поездки, электронные госуслуги, медицина, образование, право на работу и совместимость с двойным гражданством.",
+        "descLen": 187,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "es/turkish-citizenship-practical-benefits.mdx",
+        "locale": "es",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Ventajas Prácticas de la Ciudadanía Turca: Fuerza del Pasaporte y Derechos Reales",
+        "titleLen": 81,
+        "currentDesc": "Una visión concreta de lo que ofrece la ciudadanía turca en la práctica: viajes sin visa, servicios electrónicos del gobierno, sanidad, educación, derecho al trabajo y compatibilidad con la doble nacionalidad.",
+        "descLen": 209,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\turkish-citizenship-practical-benefits.mdx",
+        "relPath": "fr/turkish-citizenship-practical-benefits.mdx",
+        "locale": "fr",
+        "translationKey": "turkish-citizenship-practical-benefits",
+        "currentTitle": "Avantages Pratiques de la Nationalité Turque : Force du Passeport et Droits Concrets",
+        "titleLen": 84,
+        "currentDesc": "Un aperçu concret de ce qu'offre réellement la nationalité turque : voyages sans visa, services publics numériques, santé, éducation, droit au travail et compatibilité avec la double nationalité.",
+        "descLen": 195,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "union-rights-foreign-workers-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\union-rights-foreign-workers-turkey.mdx",
+        "relPath": "tr/union-rights-foreign-workers-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "union-rights-foreign-workers-turkey",
+        "currentTitle": "Türkiye'de Yabancı Çalışanların Sendika Üyeliği Hakkı",
+        "titleLen": 53,
+        "currentDesc": "Çalışma izni bulunan yabancı uyruklu çalışanlar Türk sendikalarına üye olabilir. Üyelik koşulları, toplu iş sözleşmesi ve sendikal güvenceler bu rehberde açıklanıyor.",
+        "descLen": 166,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\union-rights-foreign-workers-turkey.mdx",
+        "relPath": "en/union-rights-foreign-workers-turkey.mdx",
+        "locale": "en",
+        "translationKey": "union-rights-foreign-workers-turkey",
+        "currentTitle": "Trade Union Membership Rights for Foreign Workers in Turkey",
+        "titleLen": 59,
+        "currentDesc": "Foreign employees with a valid work permit can join trade unions in Turkey. This guide covers membership rights, collective bargaining, and anti-union dismissal rules.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\union-rights-foreign-workers-turkey.mdx",
+        "relPath": "de/union-rights-foreign-workers-turkey.mdx",
+        "locale": "de",
+        "translationKey": "union-rights-foreign-workers-turkey",
+        "currentTitle": "Gewerkschaftsrechte ausländischer Arbeitnehmer in der Türkei",
+        "titleLen": 60,
+        "currentDesc": "Ausländische Arbeitnehmer können in der Türkei Gewerkschaften beitreten. Dieser Leitfaden erklärt Mitgliedsrechte, Tarifverträge und gewerkschaftlichen Kündigungsschutz.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\union-rights-foreign-workers-turkey.mdx",
+        "relPath": "es/union-rights-foreign-workers-turkey.mdx",
+        "locale": "es",
+        "translationKey": "union-rights-foreign-workers-turkey",
+        "currentTitle": "Derechos Sindicales de los Trabajadores Extranjeros en Turquía",
+        "titleLen": 62,
+        "currentDesc": "Con permiso de trabajo vigente, los extranjeros pueden afiliarse a sindicatos en Turquía. Explicamos la afiliación, convenios colectivos y límites a cargos directivos.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\union-rights-foreign-workers-turkey.mdx",
+        "relPath": "fr/union-rights-foreign-workers-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "union-rights-foreign-workers-turkey",
+        "currentTitle": "Droits syndicaux des travailleurs étrangers en Turquie",
+        "titleLen": 54,
+        "currentDesc": "Les étrangers avec permis de travail peuvent rejoindre des syndicats turcs. Ce guide couvre droits, convention collective et limites aux postes de direction syndicaux.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "\"unlimited-partner-liability-turkish-company-forms\"": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "tr/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "tr",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Türk Şirket Türlerinde Sınırsız Ortak Sorumluluğu: Yatırımcıların Bilmesi Gerekenler",
+        "titleLen": 84,
+        "currentDesc": "Kollektif şirkette ortağın kişisel ve sınırsız sorumluluğu nasıl işler, komandit şirkette komandite-komanditer ayrımı ne anlama gelir ve limited şirkette vergi borçlarındaki kişisel sorumluluk tuzağı nedir?",
+        "descLen": 206,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "en/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "en",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Unlimited Partner Liability in Turkish Company Forms: What Foreign Investors Must Know",
+        "titleLen": 86,
+        "currentDesc": "When partners in a Turkish general partnership or commandite company face personal, unlimited liability for company debts — and the hidden tax-debt trap in LLCs.",
+        "descLen": 161,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "de/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "de",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Unbeschränkte Gesellschafterhaftung in türkischen Gesellschaftsformen: Was Investoren wissen müssen",
+        "titleLen": 99,
+        "currentDesc": "Wann haften Gesellschafter einer türkischen OHG oder Kommanditgesellschaft persönlich und unbeschränkt für Gesellschaftsschulden — und welche Steuerschuldenfalle lauert in der GmbH?",
+        "descLen": 181,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "ru/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "ru",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Неограниченная ответственность партнёров в турецких формах компаний: что нужно знать иностранным инвесторам",
+        "titleLen": 107,
+        "currentDesc": "Когда партнёры турецкого полного товарищества или коммандитного товарищества несут личную неограниченную ответственность по долгам компании — и скрытая ловушка налоговых долгов в ООО.",
+        "descLen": 183,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "ar/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "ar",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "المسؤولية غير المحدودة للشركاء في أشكال الشركات التركية: ما يجب على المستثمرين الأجانب معرفته",
+        "titleLen": 93,
+        "currentDesc": "متى يواجه شركاء شركة التضامن أو التوصية التركية مسؤولية شخصية غير محدودة عن ديون الشركة، وما هو فخ الديون الضريبية المخفي في الشركات ذات المسؤولية المحدودة؟",
+        "descLen": 156,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "es/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "es",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Responsabilidad ilimitada de socios en formas societarias turcas: lo que los inversores extranjeros deben saber",
+        "titleLen": 111,
+        "currentDesc": "Cuándo los socios de una sociedad colectiva o comanditaria turca responden de forma personal e ilimitada por las deudas sociales, y la trampa oculta de las deudas tributarias en las sociedades de responsabilidad limitada.",
+        "descLen": 221,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\unlimited-partner-liability-turkish-company-forms.mdx",
+        "relPath": "fr/unlimited-partner-liability-turkish-company-forms.mdx",
+        "locale": "fr",
+        "translationKey": "\"unlimited-partner-liability-turkish-company-forms\"",
+        "currentTitle": "Responsabilité illimitée des associés dans les formes de sociétés turques : ce que les investisseurs étrangers doivent savoir",
+        "titleLen": 125,
+        "currentDesc": "Quand les associés d'une société en nom collectif ou en commandite turque font face à une responsabilité personnelle et illimitée pour les dettes sociales — et le piège des dettes fiscales dans les SARL.",
+        "descLen": 203,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "verbis-data-controller-registry-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\tr\\verbis-data-controller-registry-turkey.mdx",
+        "relPath": "tr/verbis-data-controller-registry-turkey.mdx",
+        "locale": "tr",
+        "translationKey": "verbis-data-controller-registry-turkey",
+        "currentTitle": "VERBİS Kaydı: KVKK'da Veri Sorumluları Sicili Rehberi",
+        "titleLen": 53,
+        "currentDesc": "Türkiye'de kişisel veri işleyen gerçek ve tüzel kişiler için VERBİS kayıt yükümlülüğü, kapsam, bildirim gereksinimleri ve idari para cezaları hakkında pratik rehber.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\verbis-data-controller-registry-turkey.mdx",
+        "relPath": "fr/verbis-data-controller-registry-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "verbis-data-controller-registry-turkey",
+        "currentTitle": "VERBİS : le registre turc des responsables de traitement",
+        "titleLen": 56,
+        "currentDesc": "La loi KVKK impose aux responsables de traitement de s'inscrire dans VERBİS avant tout traitement de données en Turquie. Qui est concerné et quelles sanctions risquer.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "\"commercial-lease-turkey\"": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\commercial-lease-turkey.mdx",
+        "relPath": "en/commercial-lease-turkey.mdx",
+        "locale": "en",
+        "translationKey": "\"commercial-lease-turkey\"",
+        "currentTitle": "Commercial Lease Agreements in Turkey: Key Rules and Tenant Protections",
+        "titleLen": 71,
+        "currentDesc": "Commercial lease agreements in Turkey: key differences from residential leases, eviction grounds, and tenant protections. A practical guide for businesses.",
+        "descLen": 155,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\commercial-lease-turkey.mdx",
+        "relPath": "fr/commercial-lease-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "\"commercial-lease-turkey\"",
+        "currentTitle": "Bail commercial en Turquie",
+        "titleLen": 26,
+        "currentDesc": "Bail commercial en droit turc, différences avec le bail d'habitation, motifs d'expulsion et droits du preneur commercial. Guide juridique complet pour étrangers.",
+        "descLen": 161,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "entry-ban-turkey-foreigners": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\entry-ban-turkey-foreigners.mdx",
+        "relPath": "en/entry-ban-turkey-foreigners.mdx",
+        "locale": "en",
+        "translationKey": "entry-ban-turkey-foreigners",
+        "currentTitle": "Turkey Entry Ban for Foreigners: Causes, Appeals and How to Get It Lifted",
+        "titleLen": 73,
+        "currentDesc": "A practical guide for foreign nationals facing a Turkey entry ban — what triggers it, how to challenge it, and what legal options are available.",
+        "descLen": 144,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\entry-ban-turkey-foreigners.mdx",
+        "relPath": "de/entry-ban-turkey-foreigners.mdx",
+        "locale": "de",
+        "translationKey": "entry-ban-turkey-foreigners",
+        "currentTitle": "Einreiseverbot für die Türkei: Gründe, Rechtsmittel und Aufhebungsverfahren",
+        "titleLen": 75,
+        "currentDesc": "Was ausländische Staatsangehörige über das türkische Einreiseverbot wissen müssen — rechtliche Grundlagen, Widerspruchsfristen und praktische Handlungsoptionen.",
+        "descLen": 160,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\entry-ban-turkey-foreigners.mdx",
+        "relPath": "fr/entry-ban-turkey-foreigners.mdx",
+        "locale": "fr",
+        "translationKey": "entry-ban-turkey-foreigners",
+        "currentTitle": "Interdiction d'entrée en Turquie : causes, recours et procédures de levée",
+        "titleLen": 73,
+        "currentDesc": "Guide pratique pour les ressortissants étrangers confrontés à une interdiction d'entrée en Turquie — base légale, délais de recours et options disponibles.",
+        "descLen": 155,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "masak-aml-compliance-obligations-foreign-clients": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\masak-aml-compliance-obligations-foreign-clients.mdx",
+        "relPath": "en/masak-aml-compliance-obligations-foreign-clients.mdx",
+        "locale": "en",
+        "translationKey": "masak-aml-compliance-obligations-foreign-clients",
+        "currentTitle": "MASAK Compliance: What Foreign Clients Face in Turkey",
+        "titleLen": 53,
+        "currentDesc": "Turkish banks, notaries and estate agents must verify foreign clients under anti-money laundering law. Learn what documents you need and what MASAK checks involve.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\masak-aml-compliance-obligations-foreign-clients.mdx",
+        "relPath": "de/masak-aml-compliance-obligations-foreign-clients.mdx",
+        "locale": "de",
+        "translationKey": "masak-aml-compliance-obligations-foreign-clients",
+        "currentTitle": "MASAK-Regeln in der Türkei: Leitfaden für ausländische Mandanten",
+        "titleLen": 64,
+        "currentDesc": "Türkische Banken, Notare und Makler müssen ausländische Mandanten nach dem Geldwäschegesetz überprüfen. Welche Unterlagen Sie brauchen und was MASAK-Kontrollen bedeuten.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\masak-aml-compliance-obligations-foreign-clients.mdx",
+        "relPath": "ar/masak-aml-compliance-obligations-foreign-clients.mdx",
+        "locale": "ar",
+        "translationKey": "masak-aml-compliance-obligations-foreign-clients",
+        "currentTitle": "الامتثال لـ MASAK: ما يواجهه العملاء الأجانب في تركيا",
+        "titleLen": 53,
+        "currentDesc": "تلتزم البنوك وكتّاب العدل ووكلاء العقارات في تركيا بالتحقق من هوية العملاء الأجانب بموجب قانون مكافحة غسيل الأموال. تعرّف على الوثائق المطلوبة وما تتضمنه إجراءات MASAK.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "\"rent-determination-lawsuit-turkey\"": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\rent-determination-lawsuit-turkey.mdx",
+        "relPath": "en/rent-determination-lawsuit-turkey.mdx",
+        "locale": "en",
+        "translationKey": "\"rent-determination-lawsuit-turkey\"",
+        "currentTitle": "Rent Determination Lawsuit in Turkey: Setting Market-Rate Rent After 5 Years",
+        "titleLen": 76,
+        "currentDesc": "Rent determination lawsuit in Turkey: how courts set market-rate rent after 5 years, the expert witness process, and what to expect. A practical guide.",
+        "descLen": 151,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "zoning-fine-appeal-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\en\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "en/zoning-fine-appeal-turkey.mdx",
+        "locale": "en",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "Zoning and Construction Fines in Turkey: A Guide for Foreign Property Owners",
+        "titleLen": 76,
+        "currentDesc": "How foreign property owners in Turkey can challenge a municipal zoning or construction fine under Law No. 3194 — what triggers it, how to appeal, and key deadlines.",
+        "descLen": 164,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "de/zoning-fine-appeal-turkey.mdx",
+        "locale": "de",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "Baugeldbuße in der Türkei anfechten: Leitfaden für ausländische Immobilieneigentümer",
+        "titleLen": 84,
+        "currentDesc": "Wie ausländische Immobilieneigentümer in der Türkei eine kommunale Bauordnungsbuße nach Gesetz Nr. 3194 anfechten können — Fristen, Klageweg und häufige Fallstricke.",
+        "descLen": 165,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "ru/zoning-fine-appeal-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "Обжалование штрафа за нарушение градостроительных норм в Турции: руководство для иностранных собственников",
+        "titleLen": 106,
+        "currentDesc": "Как иностранные собственники недвижимости в Турции могут оспорить муниципальный штраф за нарушение строительных норм по Закону № 3194 — сроки, судебный путь и практические советы.",
+        "descLen": 179,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "ar/zoning-fine-appeal-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "الاعتراض على غرامة مخالفة التخطيط العمراني في تركيا: دليل لمالكي العقارات الأجانب",
+        "titleLen": 81,
+        "currentDesc": "كيف يستطيع مالكو العقارات الأجانب في تركيا الطعن في قرار الغرامة البلدية الصادر بموجب المادة 42 من قانون التخطيط العمراني رقم 3194 — المهل القانونية والإجراءات.",
+        "descLen": 160,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "es/zoning-fine-appeal-turkey.mdx",
+        "locale": "es",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "Multas Urbanísticas en Turquía: Guía para Propietarios Extranjeros",
+        "titleLen": 66,
+        "currentDesc": "Cómo los propietarios extranjeros en Turquía pueden impugnar una multa municipal por infracción urbanística conforme a la Ley N.º 3194 — plazos, procedimiento judicial y consejos prácticos.",
+        "descLen": 189,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\zoning-fine-appeal-turkey.mdx",
+        "relPath": "fr/zoning-fine-appeal-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "zoning-fine-appeal-turkey",
+        "currentTitle": "Amendes pour infraction urbanistique en Turquie : guide pour les propriétaires étrangers",
+        "titleLen": 88,
+        "currentDesc": "Comment les propriétaires étrangers en Turquie peuvent contester une amende municipale pour infraction au code de l'urbanisme en vertu de la loi n° 3194 — délais, recours et conseils pratiques.",
+        "descLen": 193,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "ai-tools-employee-data-kvkk-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\ai-tools-employee-data-kvkk-turkey.mdx",
+        "relPath": "de/ai-tools-employee-data-kvkk-turkey.mdx",
+        "locale": "de",
+        "translationKey": "ai-tools-employee-data-kvkk-turkey",
+        "currentTitle": "KI-Tools und Mitarbeiterdaten: KVKK-Pflichten für Arbeitgeber",
+        "titleLen": 61,
+        "currentDesc": "KI-Tools im Betrieb verarbeiten Mitarbeiterdaten und lösen KVKK-Pflichten aus. Was türkische Arbeitgeber wissen müssen — von der Rechtsgrundlage bis zum Auskunftsrecht.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "eviction-landlord-need-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\eviction-landlord-need-turkey.mdx",
+        "relPath": "de/eviction-landlord-need-turkey.mdx",
+        "locale": "de",
+        "translationKey": "eviction-landlord-need-turkey",
+        "currentTitle": "Kündigung wegen Eigenbedarfs in der Türkei (TBK Art. 350)",
+        "titleLen": 57,
+        "currentDesc": "Eigenbedarfskündigung nach türkischem Recht (TBK 350): Voraussetzungen, Fristen, Wiedervermietungsverbot und Schutzrechte des Mieters. Ein Leitfaden für Vermieter und Mieter.",
+        "descLen": 174,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\eviction-landlord-need-turkey.mdx",
+        "relPath": "ru/eviction-landlord-need-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "eviction-landlord-need-turkey",
+        "currentTitle": "Выселение по личной нужде арендодателя в Турции (ТКО ст. 350)",
+        "titleLen": 61,
+        "currentDesc": "Выселение арендатора по личной нужде арендодателя в Турции (ТКО 350): условия, сроки, запрет на повторную сдачу и защита арендатора. Руководство для сторон договора.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "exceptional-turkish-citizenship-outstanding-service": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\exceptional-turkish-citizenship-outstanding-service.mdx",
+        "relPath": "de/exceptional-turkish-citizenship-outstanding-service.mdx",
+        "locale": "de",
+        "translationKey": "exceptional-turkish-citizenship-outstanding-service",
+        "currentTitle": "Türkische Staatsbürgerschaft durch außergewöhnliche Leistungen",
+        "titleLen": 62,
+        "currentDesc": "Wer außergewöhnliche Leistungen auf wissenschaftlichem, wirtschaftlichem oder kulturellem Gebiet erbringt, kann in der Türkei ohne Wartezeit eingebürgert werden.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\exceptional-turkish-citizenship-outstanding-service.mdx",
+        "relPath": "es/exceptional-turkish-citizenship-outstanding-service.mdx",
+        "locale": "es",
+        "translationKey": "exceptional-turkish-citizenship-outstanding-service",
+        "currentTitle": "Ciudadanía Turca Excepcional por Servicios",
+        "titleLen": 42,
+        "currentDesc": "El artículo 12 de la Ley n.º 5901 permite obtener la ciudadanía turca sin cinco años de residencia: científicos, inversores, deportistas y titulares de la Tarjeta Turquesa.",
+        "descLen": 172,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "health-insurance-requirement-residence-permit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\health-insurance-requirement-residence-permit-turkey.mdx",
+        "relPath": "de/health-insurance-requirement-residence-permit-turkey.mdx",
+        "locale": "de",
+        "translationKey": "health-insurance-requirement-residence-permit-turkey",
+        "currentTitle": "Krankenversicherung für die Aufenthaltserlaubnis in der Türkei",
+        "titleLen": 62,
+        "currentDesc": "Welche Aufenthaltserlaubnisse in der Türkei eine Krankenversicherung voraussetzen, welche Policen anerkannt werden und was bei einem Versicherungsablauf passiert.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\health-insurance-requirement-residence-permit-turkey.mdx",
+        "relPath": "es/health-insurance-requirement-residence-permit-turkey.mdx",
+        "locale": "es",
+        "translationKey": "health-insurance-requirement-residence-permit-turkey",
+        "currentTitle": "Seguro Médico Obligatorio para el Permiso de",
+        "titleLen": 44,
+        "currentDesc": "Qué tipo de seguro médico acepta Turquía para el permiso de residencia, qué categorías lo exigen y qué hacer si su póliza caduca durante la vigencia del permiso.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "kvkk-privacy-notice-vs-explicit-consent-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\kvkk-privacy-notice-vs-explicit-consent-turkey.mdx",
+        "relPath": "de/kvkk-privacy-notice-vs-explicit-consent-turkey.mdx",
+        "locale": "de",
+        "translationKey": "kvkk-privacy-notice-vs-explicit-consent-turkey",
+        "currentTitle": "Datenschutzhinweis vs. Einwilligung nach KVKK: Regeln für Firmen",
+        "titleLen": 64,
+        "currentDesc": "Das türkische Datenschutzgesetz (KVKK) verpflichtet Unternehmen, Datenschutzhinweis und Einwilligung strikt zu trennen. Regeln, Fehler und Bußgelder im Überblick.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "lease-versus-licence-to-occupy-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\lease-versus-licence-to-occupy-turkey.mdx",
+        "relPath": "de/lease-versus-licence-to-occupy-turkey.mdx",
+        "locale": "de",
+        "translationKey": "lease-versus-licence-to-occupy-turkey",
+        "currentTitle": "Mietvertrag oder Nutzungsgestattung: Rechte in der Türkei",
+        "titleLen": 57,
+        "currentDesc": "Was ist der Unterschied zwischen einem Mietvertrag und einer Nutzungsgestattung in der Türkei? So schützt das türkische Recht Mieter unabhängig vom Vertragstitel.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "ombudsman-complaint-foreigners-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\ombudsman-complaint-foreigners-turkey.mdx",
+        "relPath": "de/ombudsman-complaint-foreigners-turkey.mdx",
+        "locale": "de",
+        "translationKey": "ombudsman-complaint-foreigners-turkey",
+        "currentTitle": "Ombudsmann in der Türkei: Wie Ausländer Beschwerden einreichen",
+        "titleLen": 62,
+        "currentDesc": "Die türkische Ombudsstelle (Kamu Denetçiliği Kurumu) ist kostenlos und steht ausländischen Staatsangehörigen offen. Wir erklären den Ablauf für Ausländer in Antalya.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "rent-determination-lawsuit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\rent-determination-lawsuit-turkey.mdx",
+        "relPath": "de/rent-determination-lawsuit-turkey.mdx",
+        "locale": "de",
+        "translationKey": "rent-determination-lawsuit-turkey",
+        "currentTitle": "Mietfestsetzungsklage in der Türkei: Marktmiete nach 5 Jahren gerichtlich bestimmen",
+        "titleLen": 83,
+        "currentDesc": "Mietfestsetzungsklage in der Türkei: wie Gerichte nach 5 Jahren die Marktmiete festsetzen, der Gutachterprozess und was zu erwarten ist. Ein praxisnaher Leitfaden.",
+        "descLen": 163,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\rent-determination-lawsuit-turkey.mdx",
+        "relPath": "ru/rent-determination-lawsuit-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "rent-determination-lawsuit-turkey",
+        "currentTitle": "Иск об определении арендной платы в Турции: установление рыночной ставки по истечении 5 лет",
+        "titleLen": 91,
+        "currentDesc": "Иск об определении арендной платы в Турции: как суды устанавливают рыночную ставку после 5 лет, роль эксперта и чего ожидать от процесса. Практическое руководство.",
+        "descLen": 163,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "rent-increase-cap-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\rent-increase-cap-turkey.mdx",
+        "relPath": "de/rent-increase-cap-turkey.mdx",
+        "locale": "de",
+        "translationKey": "rent-increase-cap-turkey",
+        "currentTitle": "Mieterhöhungsbegrenzung in der Türkei: TBK Art. 344 und die VPI-Regel",
+        "titleLen": 69,
+        "currentDesc": "Mieterhöhungsgrenzen nach türkischem Recht (TBK 344) und die VPI-Obergrenze: Was Vermieter und Mieter über jährliche Erhöhungen und die 5-Jahres-Regel wissen müssen.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\rent-increase-cap-turkey.mdx",
+        "relPath": "ru/rent-increase-cap-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "rent-increase-cap-turkey",
+        "currentTitle": "Ограничение повышения арендной платы в Турции: ТКО ст. 344 и правило ИПЦ",
+        "titleLen": 72,
+        "currentDesc": "Ограничение повышения арендной платы по турецкому праву (ТКО 344) и правило ИПЦ: что необходимо знать арендодателям и арендаторам об ежегодных повышениях и пятилетнем правиле.",
+        "descLen": 175,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "short-term-rental-permit-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\short-term-rental-permit-turkey.mdx",
+        "relPath": "de/short-term-rental-permit-turkey.mdx",
+        "locale": "de",
+        "translationKey": "short-term-rental-permit-turkey",
+        "currentTitle": "Genehmigung für Kurzzeitvermietung in der Türkei: Was Sie wissen müssen",
+        "titleLen": 71,
+        "currentDesc": "Das türkische Gesetz Nr. 7464 regelt touristische Kurzzeitvermietungen bis 100 Tage. Wer braucht eine Genehmigung, was sind die Anforderungen und welche Strafen drohen?",
+        "descLen": 168,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\short-term-rental-permit-turkey.mdx",
+        "relPath": "es/short-term-rental-permit-turkey.mdx",
+        "locale": "es",
+        "translationKey": "short-term-rental-permit-turkey",
+        "currentTitle": "Permiso de alquiler turístico a corto plazo en Turquía: Ley 7464",
+        "titleLen": 64,
+        "currentDesc": "La Ley turca 7464 regula los alquileres turísticos de 100 días o menos. Quién necesita permiso, cuáles son los requisitos y qué sanciones existen por operar sin él.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\short-term-rental-permit-turkey.mdx",
+        "relPath": "fr/short-term-rental-permit-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "short-term-rental-permit-turkey",
+        "currentTitle": "Autorisation de location touristique de courte durée en Turquie : Loi 7464",
+        "titleLen": 74,
+        "currentDesc": "La loi turque 7464 encadre les locations touristiques de 100 jours ou moins. Qui a besoin d'une autorisation, quelles sont les exigences et quelles sanctions en l'absence d'autorisation ?",
+        "descLen": 187,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "surviving-spouse-usufruct-rights-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\surviving-spouse-usufruct-rights-turkey.mdx",
+        "relPath": "de/surviving-spouse-usufruct-rights-turkey.mdx",
+        "locale": "de",
+        "translationKey": "surviving-spouse-usufruct-rights-turkey",
+        "currentTitle": "Nießbrauchrecht des überlebenden Ehegatten in der Türkei",
+        "titleLen": 56,
+        "currentDesc": "Wie der überlebende Ehegatte in der Türkei das Nießbrauchrecht am Familienheim beanspruchen kann, welche Erbquoten gelten und wann juristische Beratung nötig ist.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\surviving-spouse-usufruct-rights-turkey.mdx",
+        "relPath": "es/surviving-spouse-usufruct-rights-turkey.mdx",
+        "locale": "es",
+        "translationKey": "surviving-spouse-usufruct-rights-turkey",
+        "currentTitle": "Derechos de usufructo del cónyuge supérstite en",
+        "titleLen": 47,
+        "currentDesc": "Cómo el cónyuge supérstite puede reclamar el usufructo del hogar familiar en Turquía, qué cuotas hereditarias se aplican y cuándo conviene buscar asesoría legal.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "tenant-non-payment-eviction-two-notice-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\tenant-non-payment-eviction-two-notice-turkey.mdx",
+        "relPath": "de/tenant-non-payment-eviction-two-notice-turkey.mdx",
+        "locale": "de",
+        "translationKey": "tenant-non-payment-eviction-two-notice-turkey",
+        "currentTitle": "Kündigung bei Mietrückständen in der Türkei: Zwei Abmahnungen",
+        "titleLen": 61,
+        "currentDesc": "Das türkische Mietrecht bietet Vermietern zwei getrennte Wege, wenn Mieter die Miete nicht zahlen. Dieser Leitfaden erklärt beide — inklusive der Zwei-Abmahnungs-Regel.",
+        "descLen": 168,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\tenant-non-payment-eviction-two-notice-turkey.mdx",
+        "relPath": "fr/tenant-non-payment-eviction-two-notice-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "tenant-non-payment-eviction-two-notice-turkey",
+        "currentTitle": "Expulser un locataire en défaut de paiement",
+        "titleLen": 43,
+        "currentDesc": "Comment le bailleur peut-il agir lorsque le loyer n'est pas payé ? Les deux voies d'expulsion prévues par le Code des obligations turc, expliquées étape par étape.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "tenant-rights-property-sale-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\tenant-rights-property-sale-turkey.mdx",
+        "relPath": "de/tenant-rights-property-sale-turkey.mdx",
+        "locale": "de",
+        "translationKey": "tenant-rights-property-sale-turkey",
+        "currentTitle": "Kauf bricht Miete nicht: Mieterrechte beim Immobilienverkauf in der Türkei",
+        "titleLen": 74,
+        "currentDesc": "Wenn Ihr Vermieter in der Türkei die Wohnung verkauft, müssen Sie nicht ausziehen. Wie das türkische Mietrecht Mieter beim Eigentümerwechsel schützt.",
+        "descLen": 149,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\tenant-rights-property-sale-turkey.mdx",
+        "relPath": "es/tenant-rights-property-sale-turkey.mdx",
+        "locale": "es",
+        "translationKey": "tenant-rights-property-sale-turkey",
+        "currentTitle": "Venta de inmueble no extingue el arrendamiento en Turquía",
+        "titleLen": 57,
+        "currentDesc": "Si tu arrendador vende el inmueble que alquilas en Turquía, no tienes que marcharte. Cómo protege el derecho turco a los inquilinos ante el cambio de propietario.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\tenant-rights-property-sale-turkey.mdx",
+        "relPath": "fr/tenant-rights-property-sale-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "tenant-rights-property-sale-turkey",
+        "currentTitle": "La vente d'un bien ne met pas fin au bail en Turquie",
+        "titleLen": 52,
+        "currentDesc": "Si votre propriétaire vend le logement que vous louez en Turquie, vous n'êtes pas obligé de partir. Comment le droit turc protège les locataires lors du changement de propriétaire.",
+        "descLen": 180,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "turkey-climate-law-emission-permits-sanctions": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\turkey-climate-law-emission-permits-sanctions.mdx",
+        "relPath": "de/turkey-climate-law-emission-permits-sanctions.mdx",
+        "locale": "de",
+        "translationKey": "turkey-climate-law-emission-permits-sanctions",
+        "currentTitle": "Türkisches Klimagesetz: Emissionsgenehmigungen und Bußgelder",
+        "titleLen": 60,
+        "currentDesc": "Das türkische Klimaschutzgesetz Nr. 7552 schreibt Emissionsgenehmigungen vor und setzt empfindliche Bußgelder. Wir erklären ETS, Berichtspflichten und Rechtsbehelfe.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\turkey-climate-law-emission-permits-sanctions.mdx",
+        "relPath": "fr/turkey-climate-law-emission-permits-sanctions.mdx",
+        "locale": "fr",
+        "translationKey": "turkey-climate-law-emission-permits-sanctions",
+        "currentTitle": "Loi n° 7552 sur le climat",
+        "titleLen": 25,
+        "currentDesc": "La loi turque n° 7552 sur le climat instaure un système ETS obligatoire. Champ d'application, amendes administratives et voies de recours pour les entreprises.",
+        "descLen": 159,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "vacate-commitment-turkey-rental": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\de\\vacate-commitment-turkey-rental.mdx",
+        "relPath": "de/vacate-commitment-turkey-rental.mdx",
+        "locale": "de",
+        "translationKey": "vacate-commitment-turkey-rental",
+        "currentTitle": "Räumungsverpflichtung im türkischen Mietrecht",
+        "titleLen": 45,
+        "currentDesc": "Was ist eine Räumungsverpflichtung (tahliye taahhüdü) in der Türkei? Wann ist sie gültig, wann kann der Mieter sie anfechten und welche Risiken entstehen durch ihre Unterzeichnung?",
+        "descLen": 180,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "commercial-lease-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\commercial-lease-turkey.mdx",
+        "relPath": "ru/commercial-lease-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "commercial-lease-turkey",
+        "currentTitle": "Аренда коммерческой недвижимости в Турции: ключевые правила и защита арендатора",
+        "titleLen": 79,
+        "currentDesc": "Договор аренды коммерческой недвижимости в Турции: отличия от жилой аренды, основания для выселения и защита арендатора. Практическое руководство для бизнеса.",
+        "descLen": 158,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "interim-court-orders-divorce-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\interim-court-orders-divorce-turkey.mdx",
+        "relPath": "ru/interim-court-orders-divorce-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "interim-court-orders-divorce-turkey",
+        "currentTitle": "Временные судебные меры при разводе в Турции: что нужно знать",
+        "titleLen": 61,
+        "currentDesc": "При подаче иска о разводе в Турции суд вправе назначить срочные защитные меры по жилью, алиментам и опеке над детьми. Ключевое для иностранных граждан в Анталье.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "security-deposit-rental-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ru\\security-deposit-rental-turkey.mdx",
+        "relPath": "ru/security-deposit-rental-turkey.mdx",
+        "locale": "ru",
+        "translationKey": "security-deposit-rental-turkey",
+        "currentTitle": "Обеспечительный платёж при аренде в Турции (ТКО ст. 342)",
+        "titleLen": 56,
+        "currentDesc": "Правила обеспечительного платежа при аренде в Турции (ТКО 342): максимальный размер, обязанность хранить в банке, условия возврата. Руководство для арендодателей и арендаторов.",
+        "descLen": 176,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "artificial-intelligence-turkish-law-framework": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\artificial-intelligence-turkish-law-framework.mdx",
+        "relPath": "ar/artificial-intelligence-turkish-law-framework.mdx",
+        "locale": "ar",
+        "translationKey": "artificial-intelligence-turkish-law-framework",
+        "currentTitle": "الذكاء الاصطناعي والقانون التركي: الإطار التنظيمي",
+        "titleLen": 49,
+        "currentDesc": "الإطار القانوني لتطبيقات الذكاء الاصطناعي في تركيا: المسؤولية وحقوق الملكية الفكرية وأبعاد قانون حماية البيانات. تحليل شامل للشركات العاملة في قطاع الذكاء الاصطناعي.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "cybercrime-charges-foreigners-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\cybercrime-charges-foreigners-turkey.mdx",
+        "relPath": "ar/cybercrime-charges-foreigners-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "cybercrime-charges-foreigners-turkey",
+        "currentTitle": "تهم الجرائم الإلكترونية التي يواجهها الأجانب في تركيا: دليل 2026",
+        "titleLen": 64,
+        "currentDesc": "من الاختراق الإلكتروني إلى الاحتيال عبر الإنترنت، يواجه الأجانب في تركيا تهماً جسيمة في الجرائم الإلكترونية. تعرّف على الجرائم الرئيسية والعقوبات وخطوات الدفاع من محامٍ في أنطاليا.",
+        "descLen": 180,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\cybercrime-charges-foreigners-turkey.mdx",
+        "relPath": "fr/cybercrime-charges-foreigners-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "cybercrime-charges-foreigners-turkey",
+        "currentTitle": "Cybercriminalité en Turquie",
+        "titleLen": 27,
+        "currentDesc": "Quelles infractions informatiques visent les étrangers en Turquie ? Types de délits, sanctions et stratégies de défense. Guide de notre cabinet à Antalya.",
+        "descLen": 154,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "ecommerce-kvkk-cookie-policy-compliance": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\ecommerce-kvkk-cookie-policy-compliance.mdx",
+        "relPath": "ar/ecommerce-kvkk-cookie-policy-compliance.mdx",
+        "locale": "ar",
+        "translationKey": "ecommerce-kvkk-cookie-policy-compliance",
+        "currentTitle": "الامتثال لـ KVKK وسياسة ملفات تعريف الارتباط لمواقع التجارة الإلكترونية",
+        "titleLen": 71,
+        "currentDesc": "التزامات KVKK لأعمال التجارة الإلكترونية، والإفصاح عن ملفات تعريف الارتباط، والموافقة الصريحة، وإرسال النشرات البريدية. دليل الامتثال للتجارة الإلكترونية من محامٍ متخصص في تكنولوجيا المعلومات في أنطاليا.",
+        "descLen": 203,
+        "fixTitle": true,
+        "fixDesc": true
+      }
+    ],
+    "minority-shareholder-squeeze-out-turkey-llc": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\minority-shareholder-squeeze-out-turkey-llc.mdx",
+        "relPath": "ar/minority-shareholder-squeeze-out-turkey-llc.mdx",
+        "locale": "ar",
+        "translationKey": "minority-shareholder-squeeze-out-turkey-llc",
+        "currentTitle": "حقوق المساهم الأقلية والإقصاء القسري في الشركات ذات المسؤولية المحدودة التركية",
+        "titleLen": 78,
+        "currentDesc": "هل يستطيع الشركاء الأغلبية إجبار مساهم الأقلية على الخروج في شركة ذات مسؤولية محدودة تركية؟ تعرّف على الإطار القانوني وإجراءات المحاكم وكيفية حماية حصتك في تركيا.",
+        "descLen": 162,
+        "fixTitle": true,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\minority-shareholder-squeeze-out-turkey-llc.mdx",
+        "relPath": "es/minority-shareholder-squeeze-out-turkey-llc.mdx",
+        "locale": "es",
+        "translationKey": "minority-shareholder-squeeze-out-turkey-llc",
+        "currentTitle": "Exclusión del Socio Minoritario en Sociedades",
+        "titleLen": 45,
+        "currentDesc": "¿Puede un socio minoritario ser excluido de una Ltd. Şti. en Turquía? Aprenda sobre el procedimiento judicial, los derechos de indemnización y cómo proteger su participación.",
+        "descLen": 174,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "mobbing-workplace-harassment-legal-remedies": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\mobbing-workplace-harassment-legal-remedies.mdx",
+        "relPath": "ar/mobbing-workplace-harassment-legal-remedies.mdx",
+        "locale": "ar",
+        "translationKey": "mobbing-workplace-harassment-legal-remedies",
+        "currentTitle": "التحرش في بيئة العمل (الموبينج) والسبل القانونية للانتصاف: حماية حقوق الموظف",
+        "titleLen": 76,
+        "currentDesc": "التعريف القانوني وأساليب الإثبات والعقوبات المترتبة على التحرش النفسي المنهجي (الموبينج) في بيئة العمل. تحليل موجَّه للموظفين وأصحاب العمل.",
+        "descLen": 139,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "\"rent-increase-cap-turkey\"": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\rent-increase-cap-turkey.mdx",
+        "relPath": "ar/rent-increase-cap-turkey.mdx",
+        "locale": "ar",
+        "translationKey": "\"rent-increase-cap-turkey\"",
+        "currentTitle": "سقف زيادة الإيجار في تركيا: المادة 344 من قانون الالتزامات وقاعدة مؤشر أسعار المستهلك",
+        "titleLen": 85,
+        "currentDesc": "حدود زيادة الإيجار بموجب القانون التركي (TBK 344) وسقف مؤشر أسعار المستهلك: ما يحتاجه الملاك والمستأجرون من معرفة بشأن الزيادات السنوية وقاعدة الخمس سنوات.",
+        "descLen": 155,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "social-media-defamation-legal-remedies": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\ar\\social-media-defamation-legal-remedies.mdx",
+        "relPath": "ar/social-media-defamation-legal-remedies.mdx",
+        "locale": "ar",
+        "translationKey": "social-media-defamation-legal-remedies",
+        "currentTitle": "التشهير عبر وسائل التواصل الاجتماعي في تركيا: دليل سبل الانتصاف القانونية",
+        "titleLen": 73,
+        "currentDesc": "المسارات القانونية للتشهير والإهانة وانتهاك الحقوق الشخصية عبر وسائل التواصل الاجتماعي. دليل شامل للإجراءات الجزائية والتعويض المدني.",
+        "descLen": 133,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\social-media-defamation-legal-remedies.mdx",
+        "relPath": "es/social-media-defamation-legal-remedies.mdx",
+        "locale": "es",
+        "translationKey": "social-media-defamation-legal-remedies",
+        "currentTitle": "Difamación en Redes Sociales",
+        "titleLen": 28,
+        "currentDesc": "Vías legales en Turquía ante insultos o difamación en redes sociales: sanciones penales, indemnización civil, bloqueo de contenidos y derecho al olvido.",
+        "descLen": 152,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "citizenship-long-term-residence": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\citizenship-long-term-residence.mdx",
+        "relPath": "es/citizenship-long-term-residence.mdx",
+        "locale": "es",
+        "translationKey": "citizenship-long-term-residence",
+        "currentTitle": "Ciudadanía Turca por Residencia: Guía Legal Completa",
+        "titleLen": 52,
+        "currentDesc": "Conozca cómo obtener la ciudadanía turca a través de la residencia y en qué se diferencia del permiso de residencia de larga duración. Guía jurídica actualizada.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "citizenship-stateless-persons-born-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\citizenship-stateless-persons-born-turkey.mdx",
+        "relPath": "es/citizenship-stateless-persons-born-turkey.mdx",
+        "locale": "es",
+        "translationKey": "citizenship-stateless-persons-born-turkey",
+        "currentTitle": "Ciudadanía Turca para Niños Apátridas Nacidos en",
+        "titleLen": 48,
+        "currentDesc": "Los niños nacidos en Turquía que de otro modo serían apátridas adquieren la ciudadanía turca al nacer. Marco legal, proceso de reconocimiento y preguntas frecuentes.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "company-merger-acquisition-legal-process": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\company-merger-acquisition-legal-process.mdx",
+        "relPath": "es/company-merger-acquisition-legal-process.mdx",
+        "locale": "es",
+        "translationKey": "company-merger-acquisition-legal-process",
+        "currentTitle": "Fusiones y Adquisiciones de Empresas en Turquía",
+        "titleLen": 47,
+        "currentDesc": "Compraventa de empresas, fusiones y escisiones en Turquía: due diligence, contratos, aprobaciones regulatorias y cierre de la operación. Guía M&A para inversores.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\company-merger-acquisition-legal-process.mdx",
+        "relPath": "fr/company-merger-acquisition-legal-process.mdx",
+        "locale": "fr",
+        "translationKey": "company-merger-acquisition-legal-process",
+        "currentTitle": "Procédure juridique des fusions-acquisitions en",
+        "titleLen": 47,
+        "currentDesc": "Vente, fusion et scission de sociétés en Turquie : due diligence, négociation du contrat et étapes clés de l'opération. Guide M&A par un avocat d'affaires à Antalya.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "criminal-statute-limitations-zamaniasi-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\criminal-statute-limitations-zamaniasi-turkey.mdx",
+        "relPath": "es/criminal-statute-limitations-zamaniasi-turkey.mdx",
+        "locale": "es",
+        "translationKey": "criminal-statute-limitations-zamaniasi-turkey",
+        "currentTitle": "Prescripción Penal en Turquía: Guía para Extranjeros en Antalya",
+        "titleLen": 63,
+        "currentDesc": "La prescripción penal (zamanaşımı) en Turquía determina cuándo se pueden iniciar cargos o ejecutar condenas. Todo lo que los extranjeros en Antalya deben conocer.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\criminal-statute-limitations-zamaniasi-turkey.mdx",
+        "relPath": "fr/criminal-statute-limitations-zamaniasi-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "criminal-statute-limitations-zamaniasi-turkey",
+        "currentTitle": "Prescription pénale en Turquie : guide pour les étrangers",
+        "titleLen": 57,
+        "currentDesc": "La prescription pénale (zamanaşımı) en Turquie fixe les délais pour poursuites et exécution des peines. Ce que tout étranger en Turquie doit comprendre avant d'agir.",
+        "descLen": 165,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "custody-rights-foreign-clients-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\custody-rights-foreign-clients-turkey.mdx",
+        "relPath": "es/custody-rights-foreign-clients-turkey.mdx",
+        "locale": "es",
+        "translationKey": "custody-rights-foreign-clients-turkey",
+        "currentTitle": "Guarda y Custodia en Turquía",
+        "titleLen": 28,
+        "currentDesc": "Derechos de los progenitores extranjeros en la custodia en Turquía: interés superior del menor, modalidades de guarda y régimen de salida del país del niño.",
+        "descLen": 156,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "employer-obligations-hiring-foreign-nationals-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\employer-obligations-hiring-foreign-nationals-turkey.mdx",
+        "relPath": "es/employer-obligations-hiring-foreign-nationals-turkey.mdx",
+        "locale": "es",
+        "translationKey": "employer-obligations-hiring-foreign-nationals-turkey",
+        "currentTitle": "Obligaciones del empleador al contratar extranjeros en Turquía",
+        "titleLen": 62,
+        "currentDesc": "Lo que empleadores en Turquía deben saber antes de contratar a un ciudadano extranjero — permiso de trabajo, cuotas, registro en SGK y sanciones por incumplimiento.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "family-residence-permit-spouse-turkish-citizen": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\family-residence-permit-spouse-turkish-citizen.mdx",
+        "relPath": "es/family-residence-permit-spouse-turkish-citizen.mdx",
+        "locale": "es",
+        "translationKey": "family-residence-permit-spouse-turkish-citizen",
+        "currentTitle": "Permiso de Residencia Familiar para Cónyuge de",
+        "titleLen": 46,
+        "currentDesc": "Guía del permiso de residencia familiar en Turquía para cónyuge extranjero de ciudadano turco: documentos, entrevista, renovación y qué ocurre en caso de divorcio.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "intestate-succession-no-will-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\intestate-succession-no-will-turkey.mdx",
+        "relPath": "es/intestate-succession-no-will-turkey.mdx",
+        "locale": "es",
+        "translationKey": "intestate-succession-no-will-turkey",
+        "currentTitle": "Sucesión intestada en Turquía: orden de herederos y cuotas",
+        "titleLen": 58,
+        "currentDesc": "Sin testamento, el Código Civil turco establece un orden de herederos preciso. Descubra quién hereda, cuánto recibe el cónyuge y qué deben saber los extranjeros.",
+        "descLen": 161,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\intestate-succession-no-will-turkey.mdx",
+        "relPath": "fr/intestate-succession-no-will-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "intestate-succession-no-will-turkey",
+        "currentTitle": "Succession intestate en Turquie : héritiers et parts légales",
+        "titleLen": 60,
+        "currentDesc": "Sans testament, le Code civil turc fixe un ordre précis de succession. Qui hérite, quelle part revient au conjoint, et ce que doivent savoir les étrangers en Turquie.",
+        "descLen": 166,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "long-term-residence-permit-turkey-requirements": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\long-term-residence-permit-turkey-requirements.mdx",
+        "relPath": "es/long-term-residence-permit-turkey-requirements.mdx",
+        "locale": "es",
+        "translationKey": "long-term-residence-permit-turkey-requirements",
+        "currentTitle": "Permiso de Residencia de Larga Duración en Turquía",
+        "titleLen": 50,
+        "currentDesc": "Requisitos para obtener el permiso de residencia permanente en Turquía: 8 años de residencia, ingresos, seguro médico, pérdida del permiso y derechos reconocidos.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\long-term-residence-permit-turkey-requirements.mdx",
+        "relPath": "fr/long-term-residence-permit-turkey-requirements.mdx",
+        "locale": "fr",
+        "translationKey": "long-term-residence-permit-turkey-requirements",
+        "currentTitle": "Permis de Séjour de Longue Durée en Turquie",
+        "titleLen": 43,
+        "currentDesc": "Conditions pour obtenir le permis de séjour permanent en Turquie : 8 ans de résidence, revenus, assurance maladie, droits accordés et perte du permis. Guide 2024.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "probation-period-rights-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\probation-period-rights-turkey.mdx",
+        "relPath": "es/probation-period-rights-turkey.mdx",
+        "locale": "es",
+        "translationKey": "probation-period-rights-turkey",
+        "currentTitle": "Período de Prueba en Turquía",
+        "titleLen": 28,
+        "currentDesc": "Período de prueba en Turquía para extranjeros: duración máxima, extinción sin indemnización, alta en seguridad social y protección antidiscriminatoria.",
+        "descLen": 151,
+        "fixTitle": true,
+        "fixDesc": false
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\probation-period-rights-turkey.mdx",
+        "relPath": "fr/probation-period-rights-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "probation-period-rights-turkey",
+        "currentTitle": "Période d'essai en Turquie",
+        "titleLen": 26,
+        "currentDesc": "Période d'essai en Turquie : durée maximale, résiliation, sécurité sociale et protection contre la discrimination pour étrangers.",
+        "descLen": 129,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "short-term-residence-permit-turkey-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\short-term-residence-permit-turkey-guide.mdx",
+        "relPath": "es/short-term-residence-permit-turkey-guide.mdx",
+        "locale": "es",
+        "translationKey": "short-term-residence-permit-turkey-guide",
+        "currentTitle": "Permiso de Residencia de Corta Duración en Turquía",
+        "titleLen": 50,
+        "currentDesc": "Cómo solicitar el permiso de residencia de corta duración en Turquía: causas válidas, documentos necesarios, renovación, motivos de denegación y recursos legales.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "tax-penalty-objection-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\tax-penalty-objection-turkey.mdx",
+        "relPath": "es/tax-penalty-objection-turkey.mdx",
+        "locale": "es",
+        "translationKey": "tax-penalty-objection-turkey",
+        "currentTitle": "Cómo impugnar una multa fiscal en Turquía: guía para extranjeros",
+        "titleLen": 64,
+        "currentDesc": "Los propietarios e inversores extranjeros en Turquía reciben a veces multas fiscales inesperadas. Conozca las dos vías para impugnar una sanción tributaria en Antalya.",
+        "descLen": 167,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "turkish-citizenship-application-rejection-appeal": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\turkish-citizenship-application-rejection-appeal.mdx",
+        "relPath": "es/turkish-citizenship-application-rejection-appeal.mdx",
+        "locale": "es",
+        "translationKey": "turkish-citizenship-application-rejection-appeal",
+        "currentTitle": "Denegación de la Ciudadanía Turca",
+        "titleLen": 33,
+        "currentDesc": "Qué hacer si su solicitud de ciudadanía turca es denegada: causas de rechazo más frecuentes, recurso ante tribunales contencioso-administrativos y estrategia legal.",
+        "descLen": 164,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\turkish-citizenship-application-rejection-appeal.mdx",
+        "relPath": "fr/turkish-citizenship-application-rejection-appeal.mdx",
+        "locale": "fr",
+        "translationKey": "turkish-citizenship-application-rejection-appeal",
+        "currentTitle": "Refus de nationalité turque",
+        "titleLen": 27,
+        "currentDesc": "Refus de nationalité turque : motifs courants, recours administratif et judiciaire, et nouvelles stratégies pour obtenir un résultat favorable.",
+        "descLen": 143,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "turkish-citizenship-by-investment-full-guide": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\turkish-citizenship-by-investment-full-guide.mdx",
+        "relPath": "es/turkish-citizenship-by-investment-full-guide.mdx",
+        "locale": "es",
+        "translationKey": "turkish-citizenship-by-investment-full-guide",
+        "currentTitle": "Ciudadanía Turca por Inversión: Guía Completa",
+        "titleLen": 45,
+        "currentDesc": "Cómo obtener la ciudadanía turca mediante inversión inmobiliaria, capital, depósito bancario o creación de empleo. Requisitos, proceso paso a paso y errores a evitar.",
+        "descLen": 166,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "turkish-citizenship-for-spouse-and-children": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\turkish-citizenship-for-spouse-and-children.mdx",
+        "relPath": "es/turkish-citizenship-for-spouse-and-children.mdx",
+        "locale": "es",
+        "translationKey": "turkish-citizenship-for-spouse-and-children",
+        "currentTitle": "Ciudadanía Turca para Cónyuge e Hijos Extranjeros",
+        "titleLen": 49,
+        "currentDesc": "Cómo incluir al cónyuge e hijos en la solicitud de ciudadanía turca: documentos necesarios, consentimiento del otro progenitor y situaciones especiales de familia.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "turkish-dual-citizenship-status": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\es\\turkish-dual-citizenship-status.mdx",
+        "relPath": "es/turkish-dual-citizenship-status.mdx",
+        "locale": "es",
+        "translationKey": "turkish-dual-citizenship-status",
+        "currentTitle": "Ciudadanía Turca y Doble Nacionalidad: Guía Completa",
+        "titleLen": 52,
+        "currentDesc": "¿Pierde su nacionalidad de origen al obtener la ciudadanía turca? Análisis de la doble nacionalidad, impuestos, servicio militar y derechos electorales en Turquía.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      },
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\turkish-dual-citizenship-status.mdx",
+        "relPath": "fr/turkish-dual-citizenship-status.mdx",
+        "locale": "fr",
+        "translationKey": "turkish-dual-citizenship-status",
+        "currentTitle": "Nationalité turque et double nationalité",
+        "titleLen": 40,
+        "currentDesc": "Sort de la nationalité d'origine après l'acquisition de la citoyenneté turque, double nationalité, service militaire, fiscalité et droit de vote. Analyse complète.",
+        "descLen": 163,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "crypto-vasp-licensing-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\crypto-vasp-licensing-turkey.mdx",
+        "relPath": "fr/crypto-vasp-licensing-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "crypto-vasp-licensing-turkey",
+        "currentTitle": "Cryptoactifs en Turquie : licences PSCA et obligations SPK",
+        "titleLen": 58,
+        "currentDesc": "La SPK turque impose une licence à tout prestataire de services sur cryptoactifs. Conditions d'autorisation, obligations AML et sanctions en cas d'exploitation illicite.",
+        "descLen": 169,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "off-plan-property-purchase-risks-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\off-plan-property-purchase-risks-turkey.mdx",
+        "relPath": "fr/off-plan-property-purchase-risks-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "off-plan-property-purchase-risks-turkey",
+        "currentTitle": "Achat immobilier sur plan en Turquie",
+        "titleLen": 36,
+        "currentDesc": "Acheter un bien sur plan en Turquie avant livraison comporte des risques réels. Ce guide expose les pièges courants et les protections offertes par le droit turc.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ],
+    "remote-foreign-workers-rights-turkey": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\remote-foreign-workers-rights-turkey.mdx",
+        "relPath": "fr/remote-foreign-workers-rights-turkey.mdx",
+        "locale": "fr",
+        "translationKey": "remote-foreign-workers-rights-turkey",
+        "currentTitle": "Télétravail depuis la Turquie",
+        "titleLen": 29,
+        "currentDesc": "Statut juridique, fiscal et de sécurité sociale des étrangers en télétravail depuis la Turquie pour un employeur étranger. Guide complet Antalya.",
+        "descLen": 145,
+        "fixTitle": true,
+        "fixDesc": false
+      }
+    ],
+    "software-license-agreements-legal-risks": [
+      {
+        "file": "C:\\Users\\avmus\\mona-site\\content\\articles\\fr\\software-license-agreements-legal-risks.mdx",
+        "relPath": "fr/software-license-agreements-legal-risks.mdx",
+        "locale": "fr",
+        "translationKey": "software-license-agreements-legal-risks",
+        "currentTitle": "Risques juridiques des contrats de licence de",
+        "titleLen": 45,
+        "currentDesc": "Droits d'utilisation, clauses de responsabilité, protection des données et exit clauses dans les contrats SaaS, on-premise et développement sur mesure en Turquie.",
+        "descLen": 162,
+        "fixTitle": false,
+        "fixDesc": true
+      }
+    ]
+  }
+}
