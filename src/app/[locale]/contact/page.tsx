@@ -80,7 +80,7 @@ export default async function ContactPage({
 
         <div className="mt-12 overflow-hidden rounded-xl border border-cream-200 shadow-sm">
           <iframe
-            src="https://maps.google.com/maps?q=Meltem+Mah.+Ismail+Baha+Surelsan+Cad.+21%2F10+Muratpasa+Antalya+Turkey&output=embed&z=16"
+            src="https://maps.google.com/maps?q=%C4%B0smail+Baha+S%C3%BCrelsan+Caddesi+21%2F10%2C+Meltem+Mahallesi%2C+Muratpa%C5%9Fa%2C+Antalya%2C+T%C3%BCrkiye&output=embed&z=17"
             width="100%"
             height="320"
             style={{ border: 0 }}
