@@ -80,7 +80,7 @@ export default async function ContactPage({
 
         <div className="mt-12 overflow-hidden rounded-xl border border-cream-200 shadow-sm">
           <iframe
-            src="https://maps.google.com/maps?q=36.889839,30.6676497&output=embed&z=17"
+            src="https://maps.google.com/maps?q=36.892769,30.667378&output=embed&z=18"
             width="100%"
             height="320"
             style={{ border: 0 }}
