@@ -134,6 +134,7 @@ const nextConfig: NextConfig = {
       { source: "/de/articles/yabanci-eslerin-bosanmasinda-mal-paylasimi", destination: "/de/articles/property-division-foreign-spouses-divorce-turkey", permanent: true },
       { source: "/de/articles/yabanci-olarak-turkiye-daire-almak-hukuki-rehber", destination: "/de/articles/buying-property-in-turkey-foreigner-guide", permanent: true },
       { source: "/de/articles/yabanci-sermaye-turkiyede-ortaklik-kurma", destination: "/de/articles/foreign-capital-partnership-turkey", permanent: true },
+      { source: "/de/articles/yabanci-sermayesi-turkiyede-sirket-kurma", destination: "/de/articles/foreign-investor-company-formation-turkey", permanent: true },
       { source: "/de/articles/yabanci-vasiyetnamesi-turkiyede-tanima", destination: "/de/articles/foreign-will-recognition-turkey", permanent: true },
       { source: "/de/articles/yabanci-yatirimci-turkiyede-sirket-kurma", destination: "/de/articles/foreign-investor-company-formation-turkey", permanent: true },
       { source: "/de/articles/yabancilar-icin-idare-mahkemesi-surecleri", destination: "/de/articles/administrative-court-procedure-foreigners", permanent: true },
@@ -422,6 +423,12 @@ const nextConfig: NextConfig = {
       // ── Günlük haber cron: silinmiş tarihli sayfalar → legal-news index ────
       { source: "/:locale(tr|en|de|ru|ar|es|fr)/legal-news/2026-06-01-hukuki-haberler", destination: "/:locale/legal-news", permanent: false },
       { source: "/:locale(tr|en|de|ru|ar|es|fr)/legal-news/2026-06-01-legal-news", destination: "/:locale/legal-news", permanent: false },
+
+      // ── Legal-news: çapraz slug suffix düzeltme ────────────────────────────────
+      // TR-olmayan locale'de hukuki-haberler suffix gelirse → locale legal-news index
+      { source: "/:locale(en|de|ru|ar|es|fr)/legal-news/:date(\\d{4}-\\d{2}-\\d{2})-hukuki-haberler", destination: "/:locale/legal-news", permanent: true },
+      // TR locale'de legal-news suffix gelirse → TR legal-news index
+      { source: "/tr/legal-news/:date(\\d{4}-\\d{2}-\\d{2})-legal-news", destination: "/tr/legal-news", permanent: true },
 
       // ── TR: İngilizce-slug → Türkçe-slug (TR locale yalnızca TR slug kullanır) ─
       { source: "/tr/articles/family-residence-permit-spouse-turkish-citizen", destination: "/tr/articles/aile-ikamet-izni-turk-vatandasi-es", permanent: true },
