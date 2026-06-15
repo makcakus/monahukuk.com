@@ -143,6 +143,7 @@ const nextConfig: NextConfig = {
       { source: "/de/articles/yapay-zeka-turk-hukuku-duzenleme-cercevesi", destination: "/de/articles/artificial-intelligence-turkish-law-framework", permanent: true },
       { source: "/de/articles/yatirim-amacli-konut-alimi-vergi-hukuki-yukumluluk", destination: "/de/articles/investment-property-turkey-tax-legal-obligations", permanent: true },
       { source: "/de/articles/yatirim-yoluyla-turk-vatandasligi-tam-rehber", destination: "/de/articles/turkish-citizenship-by-investment-full-guide", permanent: true },
+      { source: "/de/articles/yazilim-lisans-sozlesmelerinde-hukuki-riskler", destination: "/de/articles/software-license-agreements-legal-risks", permanent: true },
 
       // ── RU: Türkçe-slug → İngilizce-slug ─────────────────────────────────────
       { source: "/ru/articles/aile-ikamet-izni-turk-vatandasi-es", destination: "/ru/articles/family-residence-permit-spouse-turkish-citizen", permanent: true },
