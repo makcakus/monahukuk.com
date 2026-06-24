@@ -98,13 +98,13 @@
   },
   "team": {
     "title": "Notre équipe",
-    "lead": "Une équipe d'avocats expérimentés et de taille maîtrisée, spécialisés dans les clients internationaux.",
+    "lead": "Une équipe d'avocats expérimentés et de taille maîtrisée, dédiée aux clients internationaux.",
     "intro": "MONA HUKUK accompagne les clients étrangers dans leurs démarches juridiques en Turquie grâce à une équipe d'avocats chevronnés, inscrits au barreau turc. Notre équipe intervient dans un large éventail de spécialités : immobilier, citoyenneté, droit de la famille, défense pénale, droit commercial, successions et contentieux administratifs.",
     "labelEducation": "Formation",
     "labelBar": "Barreau",
     "labelAreas": "Domaines de pratique",
     "ctaTitle": "Commencer à travailler avec notre équipe",
-    "ctaBody": "Contactez-nous pour une consultation juridique ou un suivi de dossier."
+    "ctaBody": "Contactez nos avocats à Antalya pour une consultation juridique ou une représentation."
   },
   "legalNews": {
     "title": "Actualités juridiques",
@@ -139,7 +139,7 @@
     "confirmedTitle": "Abonnement confirmé",
     "confirmedBody": "Vous êtes désormais abonné au bulletin juridique hebdomadaire de Mona Hukuk. Le premier numéro vous sera envoyé dès sa parution.",
     "unsubscribedTitle": "Abonnement annulé",
-    "unsubscribedBody": "Votre adresse e-mail a été retirée de notre liste de diffusion. Votre demande a également été prise en compte dans notre liste Resend.",
+    "unsubscribedBody": "Votre adresse e-mail a été retirée de notre liste de diffusion et de notre audience Resend.",
     "expiredTitle": "Lien expiré",
     "expiredBody": "Le lien de confirmation n'est plus valide (durée de validité : 48 heures). Veuillez saisir à nouveau votre adresse e-mail dans le formulaire afin que nous vous envoyions un nouveau message de vérification.",
     "invalidTitle": "Lien invalide",
@@ -199,7 +199,7 @@
         "Données financières : informations de paiement, coordonnées bancaires, données de facturation.",
         "Données d'utilisation du site web : adresse IP, type de navigateur, date et heure de visite, pages consultées, données de cookies.",
         "Données transmises par formulaire : informations communiquées via notre formulaire de contact.",
-        "Données sensibles : traitées uniquement lorsqu'elles sont indispensables à votre dossier et avec votre consentement explicite (ex. données de santé, condamnations pénales)."
+        "Données sensibles : traitées uniquement lorsqu'elles sont indispensables à votre dossier et avec votre consentement explicite (ex. données de santé, antécédents judiciaires)."
       ]
     },
     "s3": {
@@ -217,14 +217,14 @@
     },
     "s4": {
       "title": "4. Bases juridiques du traitement",
-      "body": "Vos données personnelles sont traitées sur la base d'une ou plusieurs des bases juridiques suivantes : (a) la nécessité du traitement pour la conclusion ou l'exécution d'un contrat ; (b) le respect d'une obligation légale ; (c) la protection, l'exercice ou la défense de droits légaux ; (d) la nécessité aux fins des intérêts légitimes que nous poursuivons, sous réserve de ne pas porter atteinte à vos droits et libertés fondamentaux ; (e) votre consentement explicite (notamment pour les communications commerciales et les données sensibles)."
+      "body": "Vos données personnelles sont traitées sur la base d'une ou plusieurs des bases juridiques suivantes : (a) la nécessité du traitement pour la conclusion ou l'exécution d'un contrat ; (b) le respect d'une obligation légale ; (c) la protection, l'exercice ou l'établissement de droits légaux ; (d) la nécessité aux fins des intérêts légitimes que nous poursuivons, sous réserve de ne pas porter atteinte à vos droits et libertés fondamentaux ; (e) votre consentement explicite (notamment pour les communications commerciales et les données sensibles)."
     },
     "s5": {
       "title": "5. Transferts de données personnelles",
       "body": "Vos données personnelles peuvent être transmises aux tiers suivants dans la mesure requise par le service et dans les limites légales :",
       "items": [
         "Autorités judiciaires, administrations et organismes publics (dans le cadre des obligations légales).",
-        "Prestataires de services professionnels tels que traducteurs, conseillers financiers et experts.",
+        "Prestataires de services professionnels tels que traducteurs, comptables et experts en évaluation.",
         "Prestataires de services de paiement, banques et établissements financiers (pour les opérations de paiement).",
         "Prestataires de services cloud, d'e-mail et d'hébergement web (dans le cadre de mesures de sécurité et d'accords contractuels).",
         "Toute autre personne ou entité pour laquelle vous avez donné votre consentement ou pour laquelle la loi l'exige."
@@ -240,7 +240,7 @@
     },
     "s8": {
       "title": "8. Cookies",
-      "body": "Notre site utilise des cookies strictement nécessaires pour améliorer votre expérience de navigation et assurer la sécurité du site. Les cookies analytiques et publicitaires ne sont activés qu'avec votre consentement. Vous pouvez modifier vos préférences en matière de cookies à tout moment via le bandeau de gestion des cookies sur notre site, supprimer ou bloquer les cookies depuis les paramètres de votre navigateur. La désactivation des cookies strictement nécessaires peut affecter le bon fonctionnement de certaines fonctionnalités du site."
+      "body": "Notre site utilise des cookies strictement nécessaires pour améliorer votre expérience de navigation et assurer la sécurité du site. Les cookies analytiques et publicitaires ne sont activés qu'avec votre consentement. Vous pouvez modifier vos préférences en matière de cookies à tout moment via le bandeau de gestion des cookies sur notre site, et supprimer ou bloquer les cookies depuis les paramètres de votre navigateur. La désactivation des cookies strictement nécessaires peut affecter le bon fonctionnement de certaines fonctionnalités du site."
     },
     "s9": {
       "title": "9. Vos droits en tant que personne concernée",

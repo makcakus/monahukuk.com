@@ -31,7 +31,7 @@
     "foreignClients": {
       "title": "Services for Foreign Clients",
       "lead": "All members of our team are fluent in English, enabling us to provide our foreign clients with high-quality legal counsel in their own language. Within this framework, we offer comprehensive services in the following areas:",
-      "item1": "Conducting Turkish Citizenship application procedures",
+      "item1": "Managing Turkish Citizenship application procedures",
       "item2": "Short-term and long-term Residence Permit processes",
       "item3": "Legal counsel and assistance with bureaucratic procedures regarding the acquisition of movable and immovable property in Turkey",
       "item4": "Representation before the Land Registry, notary offices, and relevant public institutions",
@@ -50,7 +50,7 @@
   "about": {
     "title": "About MONA HUKUK",
     "lead": "An independent law firm based in Antalya, advising and representing individuals and companies across the principal branches of Turkish law.",
-    "body": "MONA HUKUK is a law firm in Antalya, established to practise across all branches of Turkish law, now with more than a decade of professional experience. We advise and represent both individuals and institutions in a broad practice spanning commercial and corporate law, family law, criminal law, administrative law, real estate law, and labour law. Alongside our Turkish clients, we provide qualified counsel — in their own language — to foreign nationals and international companies living, investing, or doing business in Antalya, thanks to our team's strong working command of English.\n\nAt the core of our approach is the discipline of assessing each file on its own facts, keeping the client fully informed and obtaining their consent at every step, and protecting professional confidentiality with care. From courtroom advocacy to settlement at the negotiation table, from contract design to administrative submissions, our aim at every stage is to represent the client's interest as effectively as the law allows.",
+    "body": "MONA HUKUK is a law firm in Antalya, established to practise across all branches of Turkish law, now with more than a decade of professional experience. We advise and represent both individuals and institutions in a broad practice spanning commercial and corporate law, family law, criminal law, administrative law, real estate law, and labour law. Alongside our Turkish clients, we provide qualified counsel — in their own language — to foreign nationals and international companies living, investing, or doing business in Antalya, thanks to our team's full command of English.\n\nAt the core of our approach is the discipline of assessing each file on its own facts, keeping the client fully informed and obtaining their consent at every step, and protecting professional confidentiality with care. From courtroom advocacy to settlement at the negotiation table, from contract design to administrative submissions, our aim at every stage is to represent the client's interest as effectively as the law allows.",
     "mission": {
       "title": "Our Mission",
       "body": "To understand the client's rights, expectations, and circumstances accurately, and — through trial or negotiation — to reach the resolution that best protects the interests at stake. We pair this simple principle with transparent communication, predictable cost planning, and professional rigour."
@@ -72,7 +72,7 @@
         },
         "discretion": {
           "title": "Confidentiality and professional rigour",
-          "body": "Professional confidentiality and client information form the foundation of every file we accept. Communications, document handling, and process updates are managed with the same care."
+          "body": "Professional confidentiality and the protection of client information form the foundation of every file we accept. Communications, document handling, and process updates are managed with the same care."
         }
       }
     },
@@ -99,7 +99,7 @@
   "team": {
     "title": "Our Team",
     "lead": "A small, senior team of attorneys committed to international clients.",
-    "intro": "MONA HUKUK represents foreign-national clients in their legal matters in Turkey through a team of experienced attorneys registered with the Turkish bar. Our team serves across a broad expertise range including real estate, citizenship, family law, criminal defence, commercial, inheritance, and administrative disputes.",
+    "intro": "MONA HUKUK represents foreign-national clients in their legal matters in Turkey through a team of experienced attorneys registered with the Turkish bar. Our team has broad expertise across areas including real estate, citizenship, family law, criminal defence, commercial law, inheritance, and administrative disputes.",
     "labelEducation": "Education",
     "labelBar": "Bar",
     "labelAreas": "Practice Areas",
@@ -117,7 +117,7 @@
     "eyebrow": "Legal Bulletin"
   },
   "newsletter": {
-    "kicker": "Mona Hukuk - Weekly Legal Newsletter",
+    "kicker": "Mona Hukuk — Weekly Legal Newsletter",
     "title": "Don't miss the latest legal developments!",
     "body": "Official Gazette notices, court decisions, and key legislative changes delivered to your inbox in a weekly digest. Our Legal Newsletter is completely free.",
     "placeholder": "Your email address",
@@ -177,7 +177,7 @@
     "emailLabel": "Email",
     "emailAddress": "contact@monahukuk.com",
     "hours": "Working hours",
-    "hoursValue": "Monday – Friday, 09:00 – 18:00 (TRT)",
+    "hoursValue": "Monday – Friday, 09:00 – 18:00 (UTC+3)",
     "mapTitle": "MONA HUKUK Office Location"
   },
   "privacy": {
@@ -217,7 +217,7 @@
     },
     "s4": {
       "title": "4. Legal Basis for Processing",
-      "body": "Your personal data is processed on one or more of the following legal bases: (a) being directly related to the establishment or performance of a contract; (b) compliance with a legal obligation; (c) protection, exercise or establishment of our legal rights; (d) being necessary for our legitimate interests, provided that your fundamental rights and freedoms are not harmed; (e) your explicit consent (particularly for marketing and special-category data)."
+      "body": "Your personal data is processed on one or more of the following legal bases: (a) direct relation to the establishment or performance of a contract; (b) compliance with a legal obligation; (c) protection, exercise or establishment of our legal rights; (d) necessity for our legitimate interests, provided that your fundamental rights and freedoms are not harmed; (e) your explicit consent (particularly for marketing and special-category data)."
     },
     "s5": {
       "title": "5. Sharing of Personal Data",
@@ -279,7 +279,7 @@
     },
     "s15": {
       "title": "15. Telephone Call Recordings",
-      "body": "Calls to our office at +90 242 606 1432 are recorded for the following purposes: assessing service quality, maintaining information integrity in legal consultations, documentation and proof in the event of disputes, and internal auditing. Recordings are retained for 30 days from the date of the call and are then automatically and irreversibly deleted. Where an active legal dispute or formal complaint exists, relevant recordings may be retained until the matter is resolved. Call recordings are not transferred to third parties as a rule; they may only be shared pursuant to a court order, a request from a legally authorised public authority, or an audit under bar association regulations. Legal basis: KVKK Art. 5/2-c (performance of a contract) and Art. 5/2-f (legitimate interest)."
+      "body": "Calls to our office at +90 (242) 606 14 32 are recorded for the following purposes: assessing service quality, maintaining information integrity in legal consultations, documentation and proof in the event of disputes, and internal auditing. Recordings are retained for 30 days from the date of the call and are then automatically and irreversibly deleted. Where an active legal dispute or formal complaint exists, relevant recordings may be retained until the matter is resolved. Call recordings are not transferred to third parties as a rule; they may only be shared pursuant to a court order, a request from a legally authorised public authority, or an audit under bar association regulations. Legal basis: KVKK Art. 5/2-c (performance of a contract) and Art. 5/2-f (legitimate interest)."
     }
   },
   "footer": {

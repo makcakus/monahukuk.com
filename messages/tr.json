@@ -33,14 +33,14 @@
       "lead": "Ekibimizin tüm üyeleri İngilizceyi etkin biçimde kullanmakta olup, yabancı müvekkillerimize kendi dillerinde nitelikli bir hukuki danışmanlık imkânı sağlamaktayız. Bu çerçevede kapsamlı hizmetler sunmaktayız:",
       "item1": "Türk Vatandaşlığı başvuru süreçlerinin yürütülmesi",
       "item2": "Kısa ve uzun dönem İkamet İzni işlemleri",
-      "item3": "Türkiye'de menkul ve gayrimenkul edinimine ilişkin hukuki danışmanlık ve bürokratik süreçlerde aracılık",
+      "item3": "Türkiye'de taşınır ve taşınmaz mülk edinimine ilişkin hukuki danışmanlık ve bürokratik süreçlerde yardım",
       "item4": "Tapu, noter ve ilgili resmi kurumlar nezdinde temsil",
       "item5": "Yabancı mahkemelerde verilen kararların Türk mahkemeleri nezdinde tanınması ve tenfizi"
     },
     "approach": {
       "title": "Çalışma Anlayışımız",
       "body": "MONA HUKUK olarak, hukuki hizmetin temelinde güven, gizlilik ve mesleki titizliğin yer aldığına inanıyoruz. Müvekkillerimizle kurduğumuz ilişkiyi uzun vadeli bir iş birliği olarak değerlendirir; her aşamada açık iletişim ve hesap verebilirlik ilkesiyle hareket ederiz.",
-      "closing": "Hukuki süreçlerinizde sağlam bir destek aradığınızda, büromuz sizinle tanışmaktan memnuniyet duyacaktır."
+      "closing": "Hukuki süreçlerinizde güvenilir bir destek aradığınızda, büromuz sizinle görüşmekten memnuniyet duyacaktır."
     },
     "ctaBanner": {
       "title": "Türkiye'de hukuki danışmanlığa mı ihtiyacınız var?",
@@ -50,7 +50,7 @@
   "about": {
     "title": "MONA HUKUK Hakkında",
     "lead": "Antalya merkezli bağımsız bir hukuk bürosu. Bireylere ve şirketlere Türk Hukukunun temel dallarında danışmanlık ve dava takip hizmeti sunar.",
-    "body": "MONA HUKUK; Türk Hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve Şirketler Hukukundan Aile Hukukuna, Ceza Hukukundan İdare Hukukuna, Gayrimenkul Hukukundan İş Hukukuna uzanan geniş bir çalışma alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önünde verilen savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
+    "body": "MONA HUKUK; Türk Hukukunun her dalında çalışmak üzere kurulmuş, on yılı aşan mesleki birikimiyle Antalya'da hizmet veren bir hukuk bürosudur. Ticaret ve Şirketler Hukukundan Aile Hukukuna, Ceza Hukukundan İdare Hukukuna, Gayrimenkul Hukukundan İş Hukukuna uzanan geniş bir çalışma alanında bireylere ve kurumlara temsil ve danışmanlık desteği sunmaktayız. Türk müvekkillerimizin yanı sıra; Antalya'da yaşayan, yatırım yapan ya da iş kuran yabancı uyruklu kişi ve uluslararası şirketlere de ekibimizin İngilizceyi etkin biçimde kullanması sayesinde kendi dillerinde nitelikli bir hukuki destek imkânı sağlıyoruz.\n\nÇalışma anlayışımızın temelinde her dosyayı kendi koşulları içinde değerlendirmek, müvekkilin bilgisini ve onayını süreç boyunca eksiksiz tutmak ve mesleki sırrı titizlikle korumak yer alır. Mahkeme önündeki savunmadan müzakere masasındaki uzlaşıya, sözleşme tasarımından idari başvurulara kadar her aşamada amacımız; müvekkilin menfaatini hukukun çizdiği sınırlar içinde en güçlü biçimde temsil etmektir.",
     "mission": {
       "title": "Misyonumuz",
       "body": "Müvekkilin haklarını, beklentisini ve içinde bulunduğu hukuki süreci doğru anlamak; tartışılan menfaati en iyi koruyacak çözümü mahkeme veya müzakere yoluyla üretmek. Bu sade ilkeyi şeffaf bir iletişim, öngörülebilir maliyet planlaması ve mesleki titizlikle birleştiriyoruz."
@@ -63,7 +63,7 @@
           "body": "Türk Hukukunun temel dallarında çalışan, dosyaya en uygun yaklaşımı tayin edebilen kıdemli bir avukat ekibi. Bireysel davalardan kurumsal danışmanlığa, tek bir büroda bütünsel bir hukuki destek."
         },
         "experience": {
-          "title": "On yılı aşkın saha deneyimi",
+          "title": "On yılı aşkın mesleki deneyim",
           "body": "Antalya'nın yerel mahkemelerinde, adli birimlerinde ve kamu kurumlarında uzun yılların pratik birikimi. Her dosyada usul ve esas yönünden gerçekçi bir başlangıç noktası."
         },
         "transparency": {
@@ -108,7 +108,7 @@
   },
   "legalNews": {
     "title": "Hukuki Haberler",
-    "lead": "Resmî Gazete bülteni ve yargı kararlarından derlenen güncel hukuki gelişmeler — avukatlar ve hukuk takipçileri için.",
+    "lead": "Resmî Gazete duyuruları ve yargı kararlarından derlenen güncel hukuki gelişmeler — avukatlar ve hukuk takipçileri için.",
     "empty": "Henüz haber eklenmedi.",
     "readMore": "Haberi oku",
     "minRead": "dk okuma",
@@ -118,14 +118,14 @@
   },
   "newsletter": {
     "kicker": "Mona Hukuk - Haftalık Hukuk Bülteni",
-    "title": "Güncel Hukuki Gelişmeleri kaçırmayın!",
+    "title": "Güncel Hukuki Gelişmeleri Kaçırmayın!",
     "body": "Resmî Gazete duyuruları, yargı kararları ve önemli mevzuat değişikliklerini haftalık özetle doğrudan e-posta kutunuza gönderiyoruz. Hukuki E-Bülten hizmetimiz tamamen ücretsizdir.",
     "placeholder": "E-posta adresiniz",
     "button": "Abone ol",
     "submitting": "Gönderiliyor…",
     "pendingTitle": "Doğrulama maili gönderildi",
     "resentTitle": "Doğrulama maili tekrar gönderildi",
-    "pendingBody": "E-posta kutunuzu kontrol edin ve aboneliğinizi tamamlamak için iletideki bağlantıya tıklayın. Bağlantı 48 saat geçerlidir.",
+    "pendingBody": "E-posta kutunuzu kontrol edin ve aboneliğinizi tamamlamak için e-postadaki bağlantıya tıklayın. Bağlantı 48 saat geçerlidir.",
     "alreadyTitle": "Zaten abonesiniz",
     "alreadyBody": "Bu e-posta adresi bültenimize halihazırda kayıtlı. Her iletinin altındaki bağlantıyla aboneliği iptal edebilirsiniz.",
     "consent": "E-bülten almak amacıyla e-posta adresimin işlenmesine KVKK kapsamında açık rızamla onay veriyorum. Her iletide yer alan bağlantıyla aboneliğimi kolayca iptal edebilirim.",
@@ -139,9 +139,9 @@
     "confirmedTitle": "Aboneliğiniz onaylandı",
     "confirmedBody": "Mona Hukuk haftalık hukuk bültenine başarıyla abone oldunuz. İlk sayı çıkar çıkmaz size ulaştırılacak.",
     "unsubscribedTitle": "Aboneliğiniz iptal edildi",
-    "unsubscribedBody": "E-posta adresiniz bülten listesinden çıkarıldı. Talebiniz aynı anda Resend listemizden de düşürüldü.",
+    "unsubscribedBody": "E-posta adresiniz bülten listesinden çıkarıldı. Resend listemizden de eş zamanlı olarak kaldırıldı.",
     "expiredTitle": "Bağlantının süresi dolmuş",
-    "expiredBody": "Onay bağlantısı 48 saatlik geçerlilik süresini aşmış. Lütfen forma yeniden e-posta adresinizi girin; size yeni bir doğrulama maili gönderelim.",
+    "expiredBody": "Onay bağlantısı 48 saatlik geçerlilik süresi dolmuş. Lütfen forma yeniden e-posta adresinizi girin; size yeni bir doğrulama e-postası gönderelim.",
     "invalidTitle": "Bağlantı geçersiz",
     "invalidBody": "Bu bağlantı tanınmıyor ya da daha önce kullanıldı. Sorun devam ederse contact@monahukuk.com adresine yazabilirsiniz.",
     "backToNews": "Hukuki Haberlere dön",
@@ -157,7 +157,7 @@
     "uncategorized": "Genel",
     "articleOne": "makale",
     "articleMany": "makale",
-    "relatedSuffix": "ile İlgili Makaleler",
+    "relatedSuffix": "— İlgili Makaleler",
     "relatedTitle": "İlgili Makaleler",
     "viewPracticeArea": "Bu çalışma alanını incele",
     "searchPlaceholder": "Makale ara — başlık ve içerikte",
@@ -232,7 +232,7 @@
     },
     "s6": {
       "title": "6. Yurt Dışına Veri Aktarımı",
-      "body": "Kullandığımız bazı bulut tabanlı hizmet sağlayıcıları (e-posta, dosya depolama, analitik) Türkiye dışında yer alabilir. Yurt dışına yapılacak veri aktarımları, KVKK'da öngörülen koşullara — ilgili kişinin açık rızası, yeterli koruma sağlayan ülkelere aktarım, taahhütname veya bağlayıcı şirket kuralları çerçevesinde — uygun biçimde gerçekleştirilir. AB'de yerleşik kişiler için aktarımlar GDPR uyumlu standart sözleşme hükümleri veya eşdeğer güvencelerle yapılır."
+      "body": "Kullandığımız bazı bulut tabanlı hizmet sağlayıcıları (e-posta, dosya depolama, analitik) Türkiye dışında yer alabilir. Yurt dışına yapılacak veri aktarımları, KVKK'da öngörülen koşullar çerçevesinde —ilgili kişinin açık rızası, yeterli koruma sağlayan ülkelere aktarım, taahhütname veya bağlayıcı şirket kuralları çerçevesinde — uygun biçimde gerçekleştirilir. AB'de yerleşik kişiler için aktarımlar GDPR uyumlu standart sözleşme hükümleri veya eşdeğer güvencelerle yapılır."
     },
     "s7": {
       "title": "7. Saklama Süresi",
@@ -259,7 +259,7 @@
     },
     "s10": {
       "title": "10. Haklarınızı Nasıl Kullanabilirsiniz",
-      "body": "Yukarıdaki haklarınızı kullanmak için talebinizi contact@monahukuk.com adresine e-posta yoluyla veya yazılı olarak büromuzun adresine ileterek bize başvurabilirsiniz. Başvurunuza, KVKK'nın öngördüğü süre içinde ücretsiz olarak yanıt veririz. Talebin niteliği ek bir maliyet gerektirdiğinde, Veri Koruma Kurulu tarafından belirlenen tarifeye göre ücret talep edilebilir. Talebimizin reddedilmesi veya yanıtın yetersiz bulunması halinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz."
+      "body": "Yukarıdaki haklarınızı kullanmak için talebinizi contact@monahukuk.com adresine e-posta yoluyla veya yazılı olarak büromuzun adresine ileterek bize başvurabilirsiniz. Başvurunuza, KVKK'nın öngördüğü süre içinde ücretsiz olarak yanıt veririz. Talebin niteliği ek bir maliyet gerektirdiğinde, Veri Koruma Kurulu tarafından belirlenen tarifeye göre ücret talep edilebilir. Başvurunuzun reddedilmesi veya yanıtın yetersiz bulunması halinde Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz."
     },
     "s11": {
       "title": "11. Veri Güvenliği",
@@ -279,7 +279,7 @@
     },
     "s15": {
       "title": "15. Telefon Görüşmesi Kayıtları",
-      "body": "Büromuzun 0242 606 1432 numaralı hattını aramanız halinde görüşmeniz; hizmet kalitesinin ölçülmesi, danışmanlık süreçlerinde bilgi bütünlüğünün sağlanması, uyuşmazlık halinde ispat ve belgeleme ile iç denetim amaçlarıyla kayıt altına alınmaktadır. Kayıtlar arama tarihinden itibaren 30 gün saklanmakta, bu sürenin sonunda otomatik olarak ve geri dönüşümsüz biçimde silinmektedir. Aktif bir hukuki uyuşmazlık veya resmi şikâyet sürecinin varlığı halinde ilgili kayıtlar söz konusu süreç sonuçlanıncaya kadar saklanabilir. Görüşme kayıtlarınız kural olarak üçüncü kişilere aktarılmaz; yalnızca mahkeme kararı, yetkili kamu kurumu talebi veya avukatlık mevzuatı kapsamındaki denetimlerde paylaşılabilir. Hukuki dayanak: KVKK m. 5/2-c (sözleşmenin ifası) ve m. 5/2-f (meşru menfaat)."
+      "body": "Büromuzun +90 242 606 1432 numaralı hattını aramanız halinde görüşmeniz; hizmet kalitesinin ölçülmesi, danışmanlık süreçlerinde bilgi bütünlüğünün sağlanması, uyuşmazlık halinde ispat ve belgeleme ile iç denetim amaçlarıyla kayıt altına alınmaktadır. Kayıtlar arama tarihinden itibaren 30 gün saklanmakta, bu sürenin sonunda otomatik olarak ve geri dönüşümsüz biçimde silinmektedir. Aktif bir hukuki uyuşmazlık veya resmi şikâyet sürecinin varlığı halinde ilgili kayıtlar söz konusu süreç sonuçlanıncaya kadar saklanabilir. Görüşme kayıtlarınız kural olarak üçüncü kişilere aktarılmaz; yalnızca mahkeme kararı, yetkili kamu kurumu talebi veya avukatlık mevzuatı kapsamındaki denetimlerde paylaşılabilir. Hukuki dayanak: KVKK m. 5/2-c (sözleşmenin ifası) ve m. 5/2-f (meşru menfaat)."
     }
   },
   "footer": {
@@ -290,7 +290,7 @@
     "siteMap": "Site Haritası"
   },
   "cookies": {
-    "title": "Çerez Kullanımı (KVKK)",
+    "title": "Çerez Bildirimi (KVKK / GDPR)",
     "body": "Web sitemizi geliştirmek ve size daha iyi bir deneyim sunmak için zorunlu çerezler kullanıyoruz. Analitik ve pazarlama çerezleri yalnızca onayınızla aktif edilir.",
     "acceptAll": "Tümünü Kabul Et",
     "rejectAll": "Sadece Gerekli",

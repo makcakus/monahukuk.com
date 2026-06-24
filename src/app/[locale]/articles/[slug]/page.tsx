@@ -40,7 +40,7 @@ export async function generateMetadata({
     const langs: Record<string, string> = {};
 
     // EN, DE, RU, AR: translationKey === their slug
-    for (const loc of ["en", "de", "ru", "ar"] as const) {
+    for (const loc of ["en", "de", "ru", "ar", "es", "fr", "zh"] as const) {
       if (loc === locale) {
         langs[loc] = `/articles/${slug}`;
       } else {
@@ -118,7 +118,7 @@ export default async function ArticlePage({
     ru: "Адв.",
     ar: "المحامي",
     es: "Abog.",
-    fr: "Me",
+    fr: "Me.",
     zh: "律师",
   };
   const BAR_LABEL: Record<string, string> = {
