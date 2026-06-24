@@ -13,7 +13,7 @@ export const SITE = {
   geo: { latitude: 36.8841, longitude: 30.7056 },
   hours: { opens: "09:00", closes: "18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
   founded: 2018,
-  languages: ["tr", "en", "de", "ru", "ar", "es", "fr"],
+  languages: ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"],
   // Google Business Profile ve sosyal medya URL'leri → sameAs schema sinyali
   social: [
     "https://maps.app.goo.gl/txbVdEZPkMGj6wGt7",
@@ -119,5 +119,19 @@ export const KEYWORDS: Record<string, string[]> = {
     "droit du travail Turquie avocat",
     "droit commercial Turquie avocat",
     "KVKK RGPD avocat Turquie",
+  ],
+  zh: [
+    "安塔利亚律师",
+    "土耳其外国人律师",
+    "安塔利亚律师事务所",
+    "土耳其中文律师",
+    "土耳其移民律师",
+    "土耳其居留许可律师",
+    "土耳其房产律师",
+    "土耳其国籍律师",
+    "安塔利亚离婚律师",
+    "土耳其劳动法律师",
+    "土耳其商法律师",
+    "KVKK 土耳其律师",
   ],
 };

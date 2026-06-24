@@ -11,11 +11,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
   const all = await Promise.all(
     routing.locales.map(async (locale) => {
       const articles = await getAllArticles(locale);
-      return articles.map((a) => ({ locale, slug: a.slug }));
+      return articles.slice(0, 10).map((a) => ({ locale, slug: a.slug }));
     })
   );
   return all.flat();
@@ -100,6 +103,7 @@ export default async function ArticlePage({
     ar: "ar-SA",
     es: "es-ES",
     fr: "fr-FR",
+    zh: "zh-CN",
   };
   const dateFmt = new Intl.DateTimeFormat(localeBcp47[locale] ?? "en-GB", {
     year: "numeric",
@@ -115,6 +119,7 @@ export default async function ArticlePage({
     ar: "المحامي",
     es: "Abog.",
     fr: "Me",
+    zh: "律师",
   };
   const BAR_LABEL: Record<string, string> = {
     tr: "Antalya Barosu",
@@ -124,6 +129,7 @@ export default async function ArticlePage({
     ar: "نقابة محامي أنطاليا",
     es: "Colegio de Abogados de Antalya",
     fr: "Barreau d'Antalya",
+    zh: "安塔利亚律师协会",
   };
   const titlePrefix = TITLE_PREFIX[locale] ?? "Av.";
   const barLabel = BAR_LABEL[locale] ?? "Antalya Barosu";

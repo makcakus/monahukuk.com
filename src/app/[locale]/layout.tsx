@@ -105,7 +105,36 @@ export default async function LocaleLayout({
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{if(localStorage.getItem('theme')==='dark'){document.documentElement.classList.add('dark');}}catch(e){}})();`,
+            __html: `(function(){try{
+  var s=localStorage.getItem('theme');
+  if(s==='dark'){document.documentElement.classList.add('dark');return;}
+  if(s==='light')return;
+  function day(lat,lon){
+    var n=new Date();
+    var h=n.getUTCHours()+n.getUTCMinutes()/60;
+    var doy=Math.floor((n-new Date(Date.UTC(n.getUTCFullYear(),0,0)))/86400000);
+    var B=2*Math.PI/365*(doy-81);
+    var d=0.4094*Math.sin(B);
+    var l=lat*Math.PI/180;
+    var c=-Math.tan(l)*Math.tan(d);
+    if(c<=-1)return true;
+    if(c>=1)return false;
+    var ha=Math.acos(c)*12/Math.PI;
+    var noon=12-lon/15;
+    return h>=noon-ha&&h<noon+ha;
+  }
+  var d0=day(36.9,30.7);
+  if(!d0)document.documentElement.classList.add('dark');
+  if(navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(function(p){
+      var d1=day(p.coords.latitude,p.coords.longitude);
+      if(d1!==d0){
+        if(d1)document.documentElement.classList.remove('dark');
+        else document.documentElement.classList.add('dark');
+      }
+    },null,{timeout:5000,maximumAge:3600000});
+  }
+}catch(e){}})();`,
           }}
         />
       </head>
