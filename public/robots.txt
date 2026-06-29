@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: */opengraph-image
 
 Sitemap: https://monahukuk.com/sitemap.xml
