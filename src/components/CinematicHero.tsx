@@ -35,9 +35,6 @@ export function CinematicHero() {
       <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-end px-6 pb-24 pt-32 md:pb-32">
         <div className="max-w-3xl">
           <div className="mb-20 md:mb-24">
-            <p className="animate-hero-rise text-xs uppercase tracking-[0.3em] text-gold-300 mb-6">
-              {t("hero.kicker")}
-            </p>
             <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)]">
               {t("hero.title")}
             </h1>
