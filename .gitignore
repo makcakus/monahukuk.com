@@ -34,6 +34,11 @@ yarn-error.log*
 .env*
 !.env.example
 
+# GSC OAuth credentials — local-only, never commit
+gsc-oauth-client.json
+gsc-token.json
+gsc-submitted.json
+
 # vercel
 .vercel
 
