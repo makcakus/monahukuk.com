@@ -82,7 +82,7 @@ export function Header() {
               {word}
             </span>
           ))}
-          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] text-gold-700 leading-snug">
+          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug" style={{ color: "#FFBE98" }}>
             <span>Antalya</span>
             <span>Türkiye</span>
           </span>
