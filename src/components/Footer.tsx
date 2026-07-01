@@ -22,7 +22,7 @@ export function Footer() {
         </div>
 
         <div className="min-w-0">
-          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3 h-[1rem] truncate">
+          <p className="text-xs uppercase tracking-[0.2em] mb-3 h-[1rem] truncate" style={{ color: "#FFBE98" }}">
             {tFooter("siteMap")}
           </p>
           <ul className="space-y-2 text-sm">
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div className="min-w-0">
-          <p className="text-xs uppercase tracking-[0.2em] text-gold-400 mb-3 h-[1rem] truncate">
+          <p className="text-xs uppercase tracking-[0.2em] mb-3 h-[1rem] truncate" style={{ color: "#FFBE98" }}">
             {tContact("title")}
           </p>
           <ul className="space-y-2 text-sm text-cream-200/90">
@@ -56,7 +56,7 @@ export function Footer() {
             </li>
           </ul>
 
-          <p className="mt-6 text-xs uppercase tracking-[0.2em] text-gold-400 mb-2">
+          <p className="mt-6 text-xs uppercase tracking-[0.2em] mb-2" style={{ color: "#FFBE98" }}>
             {tFooter("newsletterHeading")}
           </p>
           <Link
