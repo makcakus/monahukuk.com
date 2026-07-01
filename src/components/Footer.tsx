@@ -43,7 +43,7 @@ export function Footer() {
             {tContact("title")}
           </p>
           <ul className="space-y-2 text-sm text-cream-200/90">
-            <li className="truncate">{tContact("officeAddress")}</li>
+            <li>{tContact("officeAddress")}</li>
             <li className="truncate">
               <a href={`tel:${tContact("phoneNumber").replace(/\s|\(|\)/g, "")}`} className="hover:text-gold-300">
                 {tContact("phoneNumber")}
