@@ -16,11 +16,13 @@
 
 import puppeteer from "puppeteer";
 import { readFileSync, writeFileSync, existsSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 
 // ─── Yapılandırma ──────────────────────────────────────────────────────────
 const GSC_PROPERTY = "https://monahukuk.com/";
 const GSC_INSPECT_BASE = `https://search.google.com/u/0/search-console/inspect?resource_id=${encodeURIComponent(GSC_PROPERTY)}&id=`;
-const SUBMITTED_LOG = new URL("../gsc-submitted.json", import.meta.url).pathname;
+const SUBMITTED_LOG = join(dirname(fileURLToPath(import.meta.url)), "../gsc-submitted.json");
 const DELAY_BETWEEN_URLS = 8000; // ms — kota aşımını önlemek için
 const DAILY_QUOTA = 10; // GSC günlük limit
 
@@ -155,21 +157,44 @@ async function main() {
 
   const toSend = pending.slice(0, DAILY_QUOTA);
 
+  // Script'e özel ayrı Chrome profili — ana Chrome ile aynı profili paylaşmak
+  // "profile already in use" hatasına yol açıyordu (Chrome açıkken script
+  // çalıştırılamıyordu). İlk çalıştırmada bu profile Google hesabına manuel
+  // giriş yapılması gerekir; sonraki çalıştırmalarda oturum saklanır.
+  const GSC_PROFILE_DIR =
+    process.platform === "win32"
+      ? `C:\\Users\\${process.env.USERNAME}\\AppData\\Local\\Google\\Chrome\\GSC-Automation`
+      : `${process.env.HOME}/.config/google-chrome-gsc`;
+
   const browser = await puppeteer.launch({
     headless: false, // GSC oturumunuzu görmek için false
     executablePath:
       process.platform === "win32"
         ? "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
         : "/usr/bin/google-chrome",
-    userDataDir:
-      process.platform === "win32"
-        ? `C:\\Users\\${process.env.USERNAME}\\AppData\\Local\\Google\\Chrome\\User Data`
-        : `${process.env.HOME}/.config/google-chrome`,
-    args: ["--no-sandbox", "--disable-dev-shm-usage"],
+    userDataDir: GSC_PROFILE_DIR,
+    args: ["--no-sandbox", "--disable-dev-shm-usage", "--no-first-run"],
   });
 
   const page = await browser.newPage();
   await page.setViewport({ width: 1400, height: 900 });
+
+  // Yeni profilde oturum açılmamış olabilir — kontrol et ve gerekirse bekle
+  await page.goto("https://search.google.com/search-console/welcome", {
+    waitUntil: "networkidle2",
+    timeout: 30000,
+  });
+  const isLoggedIn = await page.evaluate(
+    () =>
+      !document.querySelector('input[type="email"]') &&
+      !window.location.href.includes("accounts.google.com")
+  );
+  if (!isLoggedIn) {
+    console.log("🔐  Giriş yapılmamış. Açılan Chrome penceresinde mustafaakcakus@gmail.com");
+    console.log("    ile giriş yapın, ardından bu terminalde Enter'a basın...\n");
+    await new Promise((resolve) => process.stdin.once("data", resolve));
+    console.log("▶️   Devam ediliyor...\n");
+  }
 
   let successCount = 0;
   let quotaHit = false;
