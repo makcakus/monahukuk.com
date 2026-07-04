@@ -103,6 +103,37 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
  * Makaleler tarih-desc sıralamasındadır; "next" daha eski, "prev" daha yenidir.
  * Kategori yoksa tüm makaleler içinde arama yapar.
  */
+/**
+ * Bir makalenin gerçekten çevirisi bulunan locale'lerini döndürür
+ * (translationKey üzerinden, dosya varlığı kontrol edilerek).
+ * LangSwitcher gibi UI'ların var olmayan çeviriye link vermesini önler.
+ */
+export async function getAvailableLocalesForArticle(
+  locale: string,
+  slug: string
+): Promise<string[]> {
+  const article = await getArticle(locale, slug);
+  if (!article) return [];
+
+  const tk = article.translationKey;
+  if (!tk) return [locale];
+
+  const locales = new Set<string>([locale]);
+
+  for (const loc of ["en", "de", "ru", "ar", "es", "fr", "zh"]) {
+    if (loc === locale) continue;
+    const exists = await getArticle(loc, tk);
+    if (exists) locales.add(loc);
+  }
+
+  if (locale !== "tr") {
+    const allTr = await getAllArticles("tr");
+    if (allTr.some((a) => a.translationKey === tk)) locales.add("tr");
+  }
+
+  return [...locales];
+}
+
 export async function getAdjacentArticles(
   locale: string,
   current: { slug: string; category?: string }

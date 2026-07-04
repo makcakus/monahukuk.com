@@ -25,7 +25,10 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
   const locale = useLocale();
   const [pending, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
+  const [availableLocales, setAvailableLocales] = useState<string[] | null>(null);
   const ref = useRef<HTMLDivElement>(null);
+
+  const articleSlug = pathname.match(/^\/articles\/([^/]+)$/)?.[1];
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -36,6 +39,28 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
     document.addEventListener("mousedown", onClickOutside);
     return () => document.removeEventListener("mousedown", onClickOutside);
   }, []);
+
+  useEffect(() => {
+    if (!articleSlug) {
+      setAvailableLocales(null);
+      return;
+    }
+    let cancelled = false;
+    fetch(`/api/article-locales?locale=${locale}&slug=${articleSlug}`)
+      .then((r) => r.json())
+      .then((data) => {
+        if (!cancelled) setAvailableLocales(data.locales ?? null);
+      })
+      .catch(() => {
+        if (!cancelled) setAvailableLocales(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [articleSlug, locale]);
+
+  // Makale sayfasında değilsek veya liste henüz/başarısız yüklendiyse tüm dilleri göster.
+  const visibleLocales = articleSlug && availableLocales ? LOCALES.filter((l) => availableLocales.includes(l)) : LOCALES;
 
   function switchTo(l: string) {
     setOpen(false);
@@ -61,7 +86,7 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
           "absolute top-full mt-2 w-[160px] rounded-sm border border-cream-200 bg-cream-50 shadow-md py-1 z-50 dark:border-navy-800 dark:bg-navy-900",
           align === "end" ? "end-0" : "start-0"
         )}>
-          {LOCALES.map((l) => (
+          {visibleLocales.map((l) => (
             <button
               key={l}
               type="button"
