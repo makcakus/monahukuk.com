@@ -46,7 +46,7 @@ function parseFrontmatter(raw) {
 }
 
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
-const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr"];
+const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr", "zh"];
 // Bu locale'lerde eksikler build'i engellemez (sadece uyarı verir)
 const WARN_ONLY_LOCALES = new Set(["fr"]);
 

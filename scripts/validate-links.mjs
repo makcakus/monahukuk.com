@@ -28,7 +28,7 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
 // Bu locale'lerde KAYNAK locale kırık link hard-error değil, sadece uyarı verir.
 // FR: yavaş backfill nedeniyle genel warn-only
 const WARN_ONLY_LOCALES = new Set(["fr"]);

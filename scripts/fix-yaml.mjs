@@ -10,7 +10,7 @@
 import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
-const LOCALES   = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const LOCALES   = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
 const FIELDS    = ["title", "description", "category"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 

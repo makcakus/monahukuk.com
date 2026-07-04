@@ -29,7 +29,7 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 const STRICT = process.argv.includes("--strict");
 
