@@ -71,3 +71,38 @@ export async function getAllGazettePosts(locale: string): Promise<GazettePost[]>
     .filter((p): p is GazettePost => p !== null && !p.draft)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
+
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+
+/**
+ * Bir hukuki haber postunun diğer locale'lerdeki gerçek slug'larını döndürür.
+ *
+ * Gazette postlarının translationKey'i yok; slug konvansiyonu locale'e göre
+ * farklı (TR: "-hukuki-haberler", diğerleri: "-legal-news"), bu yüzden
+ * eşleştirme frontmatter'daki `date` alanı üzerinden yapılır. Tarih-önekli
+ * olmayan eski postlar (örn. "kira-hukukunda-guncel-gelismeler-2025") için
+ * doğrudan slug eşleşmesine düşülür.
+ *
+ * LangSwitcher ve sitemap.ts'in var olmayan/yanlış slug'a link vermesini önler.
+ */
+export async function getLegalNewsLocaleSlugs(
+  locale: string,
+  slug: string
+): Promise<Record<string, string>> {
+  const post = await getGazettePost(locale, slug);
+  if (!post) return {};
+
+  const result: Record<string, string> = { [locale]: slug };
+  const isDatedSlug = /^\d{4}-\d{2}-\d{2}-/.test(slug);
+
+  for (const loc of LOCALES) {
+    if (loc === locale) continue;
+    const otherPosts = await getAllGazettePosts(loc);
+    const match = isDatedSlug
+      ? otherPosts.find((p) => p.date === post.date)
+      : otherPosts.find((p) => p.slug === slug);
+    if (match) result[loc] = match.slug;
+  }
+
+  return result;
+}

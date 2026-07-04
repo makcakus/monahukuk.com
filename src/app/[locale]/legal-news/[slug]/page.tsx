@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
-import { getGazettePost, getAllGazettePosts } from "@/lib/hukuki-haberler";
+import { getGazettePost, getAllGazettePosts, getLegalNewsLocaleSlugs } from "@/lib/hukuki-haberler";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { BreadcrumbSchema } from "@/components/ArticleSchema";
@@ -27,17 +27,13 @@ export async function generateMetadata({
   const post = await getGazettePost(locale, slug);
   if (!post) return {};
 
-  // Aynı slug için tüm dillerde versiyon var mı? Hreflang yalnızca var olanlara yazılsın.
-  const localeList = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
-  const checks = await Promise.all(
-    localeList.map(async (l) => {
-      const p = await getGazettePost(l, slug);
-      return p ? l : null;
-    })
-  );
+  // Slug konvansiyonu locale'e göre farklı (TR: "-hukuki-haberler", diğerleri:
+  // "-legal-news"), bu yüzden hreflang'ı date eşleştirmesiyle her locale'in
+  // kendi gerçek slug'ından oluşturuyoruz.
+  const localeSlugs = await getLegalNewsLocaleSlugs(locale, slug);
   const articleLanguages: Record<string, string> = {};
-  for (const l of checks) {
-    if (l) articleLanguages[l] = `/legal-news/${slug}`;
+  for (const [l, s] of Object.entries(localeSlugs)) {
+    articleLanguages[l] = `/legal-news/${s}`;
   }
 
   return pageMetadata({

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { getAllArticles } from "@/lib/articles";
-import { getAllGazettePosts } from "@/lib/hukuki-haberler";
+import { getAllGazettePosts, getLegalNewsLocaleSlugs } from "@/lib/hukuki-haberler";
 import { PRACTICE_AREAS } from "@/lib/practice-areas";
 import { SITE } from "@/lib/site";
 
@@ -68,14 +68,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       alternates: { languages: altLanguages("/legal-news", LEGAL_NEWS_LOCALES) },
     });
     // Tekil haberler
+    // Not: gazette slug konvansiyonu locale'e göre farklı (TR "-hukuki-haberler",
+    // diğerleri "-legal-news"), bu yüzden alternate URL'leri post.slug'ı tüm
+    // locale'lere kopyalayarak değil, her locale'in kendi gerçek slug'ını
+    // bularak (getLegalNewsLocaleSlugs, date eşleştirmesi) oluşturuyoruz.
     const posts = await getAllGazettePosts(locale);
     for (const post of posts) {
+      const localeSlugs = await getLegalNewsLocaleSlugs(locale, post.slug);
+      const languages: Record<string, string> = {};
+      for (const [loc, slug] of Object.entries(localeSlugs)) {
+        languages[loc] = `${SITE.url}/${loc}/legal-news/${slug}`;
+      }
+      const xDefaultSlug = localeSlugs["en"] ?? localeSlugs["tr"];
+      if (xDefaultSlug) {
+        const xDefaultLocale = localeSlugs["en"] ? "en" : "tr";
+        languages["x-default"] = `${SITE.url}/${xDefaultLocale}/legal-news/${xDefaultSlug}`;
+      }
+
       entries.push({
         url: `${SITE.url}/${locale}/legal-news/${post.slug}`,
         lastModified: new Date(post.date),
         changeFrequency: "yearly",
         priority: 0.6,
-        alternates: { languages: altLanguages(`/legal-news/${post.slug}`, LEGAL_NEWS_LOCALES) },
+        alternates: { languages },
       });
     }
   }

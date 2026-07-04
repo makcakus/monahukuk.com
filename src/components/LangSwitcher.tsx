@@ -26,9 +26,11 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
   const [pending, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
   const [availableLocales, setAvailableLocales] = useState<string[] | null>(null);
+  const [legalNewsSlugs, setLegalNewsSlugs] = useState<Record<string, string> | null>(null);
   const ref = useRef<HTMLDivElement>(null);
 
   const articleSlug = pathname.match(/^\/articles\/([^/]+)$/)?.[1];
+  const legalNewsSlug = pathname.match(/^\/legal-news\/([^/]+)$/)?.[1];
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -59,13 +61,43 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
     };
   }, [articleSlug, locale]);
 
-  // Makale sayfasında değilsek veya liste henüz/başarısız yüklendiyse tüm dilleri göster.
-  const visibleLocales = articleSlug && availableLocales ? LOCALES.filter((l) => availableLocales.includes(l)) : LOCALES;
+  useEffect(() => {
+    if (!legalNewsSlug) {
+      setLegalNewsSlugs(null);
+      return;
+    }
+    let cancelled = false;
+    fetch(`/api/legal-news-locales?locale=${locale}&slug=${legalNewsSlug}`)
+      .then((r) => r.json())
+      .then((data) => {
+        if (!cancelled) setLegalNewsSlugs(data.slugs ?? null);
+      })
+      .catch(() => {
+        if (!cancelled) setLegalNewsSlugs(null);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [legalNewsSlug, locale]);
+
+  // Makale/haber sayfasında değilsek veya liste henüz/başarısız yüklendiyse tüm dilleri göster.
+  const visibleLocales = articleSlug && availableLocales
+    ? LOCALES.filter((l) => availableLocales.includes(l))
+    : legalNewsSlug && legalNewsSlugs
+      ? LOCALES.filter((l) => l in legalNewsSlugs)
+      : LOCALES;
 
   function switchTo(l: string) {
     setOpen(false);
     startTransition(() => {
-      router.replace(pathname, { locale: l });
+      // Hukuki haber slug konvansiyonu locale'e göre farklı (TR: "-hukuki-haberler",
+      // diğerleri: "-legal-news"), bu yüzden aynı pathname'i değil hedef locale'in
+      // gerçek slug'ını kullanmak gerekiyor.
+      if (legalNewsSlug && legalNewsSlugs?.[l]) {
+        router.replace(`/legal-news/${legalNewsSlugs[l]}`, { locale: l });
+      } else {
+        router.replace(pathname, { locale: l });
+      }
     });
   }
 
