@@ -102,7 +102,7 @@ function HomeContent() {
           <div className="md:col-span-4 md:text-end">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-6 text-sm font-medium text-navy-950 hover:bg-gold-600 transition-colors whitespace-nowrap w-full sm:w-auto h-[48px] flex-shrink-0"
+              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 text-sm font-medium text-navy-950 hover:bg-gold-500 transition-colors whitespace-nowrap w-full sm:w-auto h-[48px] flex-shrink-0"
             >
               <span className="block text-center">{t("ctaBanner.button")}</span>
               <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
