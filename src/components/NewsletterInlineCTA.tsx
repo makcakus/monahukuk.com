@@ -304,7 +304,7 @@ export function NewsletterInlineCTA({
           <button
             type="submit"
             disabled={isPending}
-            className="shrink-0 rounded-md bg-[#FFBE98] px-5 py-2.5 text-sm font-medium text-navy-950 hover:bg-[#f5a87a] disabled:opacity-60 transition-colors"
+            className="shrink-0 rounded-md bg-gold-500 px-5 py-2.5 text-sm font-medium text-navy-950 hover:bg-gold-600 disabled:opacity-60 transition-colors"
           >
             {isPending ? c.submitting : c.button}
           </button>

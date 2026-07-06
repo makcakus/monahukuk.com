@@ -39,7 +39,7 @@ export function NewsletterBanner() {
   }
 
   return (
-    <div className="my-10 rounded-2xl px-8 py-8" style={{ backgroundColor: "#FFBE98" }}>
+    <div className="my-10 rounded-2xl px-8 py-8 bg-gold-500">
       <div className="mx-auto max-w-lg">
         <p className="text-sm font-semibold uppercase tracking-[0.14em] text-gray-900 mb-1">
           {t("kicker")}

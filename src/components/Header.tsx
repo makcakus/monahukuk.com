@@ -82,7 +82,7 @@ export function Header() {
               {word}
             </span>
           ))}
-          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug" style={{ color: "#E8956D" }}>
+          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
             <span>Antalya</span>
             <span>Türkiye</span>
           </span>
@@ -172,7 +172,7 @@ export function Header() {
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-sm bg-[#FFBE98] px-4 text-sm font-medium text-navy-950 hover:bg-[#f5a87a] transition-colors whitespace-nowrap w-auto h-[40px] flex-shrink-0"
+            className="inline-flex items-center justify-center rounded-sm bg-gold-500 px-4 text-sm font-medium text-navy-950 hover:bg-gold-600 transition-colors whitespace-nowrap w-auto h-[40px] flex-shrink-0"
           >
             <span className="block text-center">{tCta("consult")}</span>
           </Link>
