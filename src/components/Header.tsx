@@ -172,7 +172,7 @@ export function Header() {
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-sm bg-gold-400 px-4 text-sm font-medium text-navy-950 hover:bg-gold-500 transition-colors whitespace-nowrap w-auto h-[40px] flex-shrink-0"
+            className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 text-sm font-medium text-navy-950 hover:bg-gold-400 transition-colors whitespace-nowrap w-auto h-[40px] flex-shrink-0"
           >
             <span className="block text-center">{tCta("consult")}</span>
           </Link>
