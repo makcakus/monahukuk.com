@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SITE, KEYWORDS } from "./site";
+import { SITE } from "./site";
 import { routing } from "@/i18n/routing";
 
 interface PageMetaInput {
@@ -10,7 +10,6 @@ interface PageMetaInput {
   ogImage?: string;
   type?: "website" | "article";
   publishedTime?: string;
-  extraKeywords?: string[];
   /** Per-locale relative paths for article hreflang. Keys: locale codes + "x-default". Values: path relative to /{locale}. */
   articleLanguages?: Record<string, string>;
   /** noindex sayfaları (newsletter onay sayfaları vb.) için. */
@@ -25,7 +24,6 @@ export function pageMetadata({
   ogImage,
   type = "website",
   publishedTime,
-  extraKeywords = [],
   articleLanguages,
   noindex = false,
 }: PageMetaInput): Metadata {
@@ -50,16 +48,12 @@ export function pageMetadata({
     languages["x-default"] = `${SITE.url}/tr${cleanPath === "/" ? "" : cleanPath}`;
   }
 
-  const baseKw = KEYWORDS[locale] ?? KEYWORDS["tr"];
-  const keywords = [...extraKeywords, ...baseKw];
-
   const image = ogImage ?? `${SITE.url}${SITE.ogImage}`;
 
   return {
     metadataBase: new URL(SITE.url),
     title,
     description,
-    keywords,
     alternates: { canonical, languages },
     openGraph: {
       type,

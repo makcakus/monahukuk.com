@@ -26,6 +26,8 @@ export function CookieBanner() {
       localStorage.setItem(STORAGE_KEY, value);
       localStorage.setItem(STORAGE_KEY + "-date", new Date().toISOString());
     } catch {}
+    // GoogleAnalytics bileşeni bu olayı dinler; onay gelirse sayfa yenilenmeden yüklenir
+    window.dispatchEvent(new CustomEvent("cookie-consent", { detail: value }));
     setVisible(false);
   }
 

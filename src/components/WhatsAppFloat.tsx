@@ -1,11 +1,15 @@
+"use client";
+
 /**
  * Görev 8: Floating WhatsApp irtibat butonu.
  * Tüm sayfalarda sağ alt köşede sabit; tıklayınca wa.me linki ile WhatsApp Web/uygulaması açılır.
- * Mesaj 5 dilde gömülü; locale prop'una göre seçilir.
+ * Mesaj dillere göre gömülü; locale prop'una göre seçilir.
  *
  * Numara: SITE.phoneE164 = "+902426061432" (lib/site.ts).
- * Server component — JS gerekmez (basit <a> tag).
+ * Client component — tıklama GA4 event'i olarak izlenir (lib/analytics.ts).
  */
+
+import { track } from "@/lib/analytics";
 
 // Mona Hukuk WhatsApp irtibat numarası (kurucunun cep hattı).
 // Ofis sabit hattı (SITE.phoneE164) WhatsApp'ta kayıtlı olmadığı için
@@ -20,6 +24,7 @@ const MESSAGES: Record<string, string> = {
   ar: "مرحباً، أرغب في الحصول على استشارة قانونية.",
   es: "Hola, me gustaría obtener una consulta legal.",
   fr: "Bonjour, je souhaite obtenir une consultation juridique.",
+  zh: "您好，我想咨询法律问题。",
 };
 
 const ARIA: Record<string, string> = {
@@ -30,6 +35,7 @@ const ARIA: Record<string, string> = {
   ar: "تواصل عبر واتساب",
   es: "Contáctenos por WhatsApp",
   fr: "Contactez-nous sur WhatsApp",
+  zh: "通过 WhatsApp 联系我们",
 };
 
 export function WhatsAppFloat({ locale }: { locale: string }) {
@@ -44,6 +50,7 @@ export function WhatsAppFloat({ locale }: { locale: string }) {
       rel="noopener noreferrer"
       aria-label={label}
       title={label}
+      onClick={() => track("whatsapp_click", { locale })}
       className="fixed bottom-6 end-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-gold-300 shadow-lg shadow-navy-950/30 hover:scale-105 hover:bg-gold-400 transition-transform print:hidden"
     >
       <svg

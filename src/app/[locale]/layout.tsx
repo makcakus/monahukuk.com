@@ -10,8 +10,9 @@ import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import { LegalServiceSchema, WebsiteSchema } from "@/components/LegalServiceSchema";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { routing } from "@/i18n/routing";
-import { SITE, KEYWORDS } from "@/lib/site";
+import { SITE } from "@/lib/site";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -46,7 +47,6 @@ export async function generateMetadata({
       template: `%s · ${t("name")}`,
     },
     description: t("description"),
-    keywords: [...(KEYWORDS[locale] ?? KEYWORDS["tr"])],
     applicationName: t("name"),
     authors: [{ name: t("name"), url: SITE.url }],
     creator: t("name"),
@@ -54,7 +54,7 @@ export async function generateMetadata({
     category: "Law Firm",
     alternates: {
       canonical: `/${locale}`,
-      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", es: "/es", fr: "/fr", "x-default": "/en" },
+      languages: { tr: "/tr", en: "/en", de: "/de", ru: "/ru", ar: "/ar", es: "/es", fr: "/fr", zh: "/zh", "x-default": "/en" },
     },
     openGraph: {
       type: "website",
@@ -150,6 +150,7 @@ export default async function LocaleLayout({
         </NextIntlClientProvider>
         <Analytics />
         <SpeedInsights />
+        <GoogleAnalytics />
       </body>
     </html>
   );

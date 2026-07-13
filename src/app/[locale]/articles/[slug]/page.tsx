@@ -73,7 +73,6 @@ export async function generateMetadata({
     description: article.description,
     type: "article",
     publishedTime: article.date,
-    extraKeywords: article.category ? [article.category] : [],
     articleLanguages,
     ogImage,
   });
