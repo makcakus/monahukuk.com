@@ -17,6 +17,9 @@ import {
   Building2,
   Key,
   BookOpen,
+  Scale,
+  HardHat,
+  Copyright,
 } from "lucide-react";
 import type { ReactNode } from "react";
 import type { ArticleSearchEntry } from "@/lib/articles";
@@ -35,6 +38,9 @@ const ICONS: Record<IconKey, ReactNode> = {
   Building2: <Building2 size={20} />,
   Key: <Key size={20} />,
   BookOpen: <BookOpen size={20} />,
+  Scale: <Scale size={20} />,
+  HardHat: <HardHat size={20} />,
+  Copyright: <Copyright size={20} />,
 };
 
 export interface BrowserGroup {

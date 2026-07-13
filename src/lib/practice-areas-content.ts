@@ -1968,6 +1968,639 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
     },
   },
+  {
+    slug: "ceza-hukuku",
+    metaTitle: {
+      tr: "Antalya Ceza Avukatı | Tutuklama, HAGB ve Ceza Davası Savunması",
+      en: "Antalya Criminal Lawyer | Criminal Defence for Foreigners in Turkey",
+      de: "Strafverteidiger Antalya | Strafverteidigung für Ausländer in der Türkei",
+      ru: "Адвокат по уголовным делам в Анталье | Уголовная защита в Турции",
+      ar: "محامي جنائي في أنطاليا | الدفاع الجنائي عن الأجانب في تركيا",
+      es: "Abogado Penalista en Antalya | Defensa Penal para Extranjeros en Turquía",
+      fr: "Avocat Pénaliste à Antalya | Défense Pénale des Étrangers en Turquie",
+    },
+    metaDescription: {
+      tr: "Antalya'da ceza avukatı olarak yabancı ve Türk müvekkillerin haklarını ceza soruşturmalarında, tutuklama ve adli kontrol süreçlerinde, beyaz yaka davalarında ve kanun yollarında koruyoruz.",
+      en: "As criminal defence lawyers in Antalya, we protect the rights of foreign and Turkish clients in criminal investigations, detention and judicial control proceedings, white-collar cases, and appeals.",
+      de: "Als Strafverteidiger in Antalya schützen wir die Rechte ausländischer und türkischer Mandanten in strafrechtlichen Ermittlungen, in Haft- und Justizkontrollverfahren, in Wirtschaftsstrafsachen und bei Rechtsmitteln.",
+      ru: "Как адвокаты по уголовным делам в Анталье мы защищаем права иностранных и турецких клиентов в уголовных расследованиях, при заключении под стражу и мерах судебного контроля, в беловоротничковых делах и при обжаловании.",
+      ar: "بوصفنا محامي دفاع جنائي في أنطاليا، نحمي حقوق العملاء الأجانب والأتراك في التحقيقات الجنائية وإجراءات التوقيف والرقابة القضائية وقضايا ذوي الياقات البيضاء والطعون.",
+      es: "Como abogados penalistas en Antalya, protegemos los derechos de los clientes extranjeros y turcos en investigaciones penales, procedimientos de prisión provisional y control judicial, casos de cuello blanco y recursos.",
+      fr: "En tant qu'avocats pénalistes à Antalya, nous protégeons les droits des clients étrangers et turcs dans les enquêtes pénales, les procédures de détention et de contrôle judiciaire, les affaires en col blanc et les voies de recours.",
+    },
+    intro: {
+      tr: "Türkiye'de bir suç isnadıyla karşılaşmak herkes için ağır bir tecrübedir; yabancı bir kişi için bu tecrübe dil engeli, ülkeden uzaklık ve Türk hukuk sistemine yabancı olma sebebiyle çok daha çetrefilli hâle gelir. Antalya'da ceza avukatı olarak görev yapan ekibimiz, karakol ya da savcılıktaki ilk ifadeden nihai hükme ve kanun yollarına kadar her aşamada müvekkillerinin yanındadır.\n\nCeza soruşturması ve kovuşturmalarında müdafilik, tutuklama kararlarına itiraz ve adli kontrol talepleri, hükmün açıklanmasının geri bırakılması (HAGB) gibi lehe mekanizmaların değerlendirilmesi, beyaz yaka suçları ile şirket yöneticilerinin cezai sorumluluğu ve mal varlığı dondurma kararlarına itiraz en sık karşılaştığımız konuların başında gelmektedir. Her dosyayı kendi koşulları içinde değerlendirir, hukuki gerekçesi en güçlü savunmayı müvekkille birlikte kurarız.",
+      en: "Facing a criminal accusation in Turkey is a heavy experience for anyone, and for a foreign national it becomes far more difficult through the language barrier, distance from home, and unfamiliarity with the Turkish legal system. Our team, serving as criminal defence lawyers in Antalya, stands beside our clients at every stage — from the first statement at the police station or prosecutor's office to the final judgment and any appeal.\n\nDefence in criminal investigations and prosecutions, challenges to detention orders and requests for judicial control, the evaluation of favourable mechanisms such as the deferral of the announcement of the verdict (HAGB), white-collar offences and the criminal liability of company directors, and objections to asset-freeze decisions are among the matters we handle most frequently. We assess each file on its own facts and, together with the client, build the defence with the strongest legal foundation.",
+      de: "Sich in der Türkei einem Strafvorwurf gegenüberzusehen, ist für jeden eine schwere Erfahrung; für einen Ausländer wird sie durch die Sprachbarriere, die Entfernung von der Heimat und die Unvertrautheit mit dem türkischen Rechtssystem noch weitaus schwieriger. Unser Team, tätig als Strafverteidiger in Antalya, steht seinen Mandanten in jeder Phase zur Seite — von der ersten Aussage auf der Polizeiwache oder bei der Staatsanwaltschaft bis zum endgültigen Urteil und zu den Rechtsmitteln.\n\nVerteidigung in strafrechtlichen Ermittlungen und Anklagen, Einwände gegen Haftbeschlüsse und Anträge auf Justizkontrolle, die Bewertung günstiger Mechanismen wie der Aussetzung der Urteilsverkündung (HAGB), Wirtschaftsstraftaten und die strafrechtliche Verantwortung von Unternehmensleitern sowie Einsprüche gegen Vermögenssperren gehören zu den Fragen, mit denen wir uns am häufigsten befassen. Wir beurteilen jeden Fall individuell und bauen die Verteidigung mit der stärksten rechtlichen Grundlage gemeinsam mit dem Mandanten auf.",
+      ru: "Столкнуться с уголовным обвинением в Турции — тяжёлое испытание для любого, а для иностранца оно становится намного сложнее из-за языкового барьера, удалённости от дома и незнания турецкой правовой системы. Наша команда, выступающая как адвокаты по уголовным делам в Анталье, находится рядом с клиентами на каждом этапе — от первого допроса в полиции или прокуратуре до окончательного приговора и обжалования.\n\nЗащита в уголовных расследованиях и судебных разбирательствах, обжалование постановлений о заключении под стражу и ходатайства о судебном контроле, оценка благоприятных механизмов, таких как отсрочка оглашения приговора (HAGB), беловоротничковые преступления и уголовная ответственность руководителей компаний, а также обжалование решений о заморозке активов — наиболее частые направления нашей работы. Каждое дело мы рассматриваем индивидуально и вместе с клиентом выстраиваем защиту с наиболее прочным правовым основанием.",
+      ar: "مواجهة تهمة جنائية في تركيا تجربة قاسية لأي شخص، وتزداد صعوبةً بكثير على الأجنبي بسبب حاجز اللغة والبُعد عن الوطن وعدم الإلمام بالنظام القانوني التركي. فريقنا، بصفته محامي دفاع جنائي في أنطاليا، يقف بجانب موكليه في كل مرحلة — من أول إفادة في مركز الشرطة أو النيابة العامة وحتى الحكم النهائي والطعون.\n\nالدفاع في التحقيقات والملاحقات الجنائية، والطعن في قرارات التوقيف وطلبات الرقابة القضائية، وتقييم الآليات المواتية مثل إرجاء النطق بالحكم (HAGB)، وجرائم ذوي الياقات البيضاء والمسؤولية الجنائية لمديري الشركات، والاعتراض على قرارات تجميد الأموال، من أكثر المسائل التي نتعامل معها. نقيّم كل قضية بحسب ملابساتها الخاصة، ونبني الدفاع ذا الأساس القانوني الأقوى مع الموكل.",
+      es: "Enfrentar una acusación penal en Turquía es una experiencia dura para cualquiera, y para un extranjero se vuelve mucho más difícil por la barrera del idioma, la distancia de su país y el desconocimiento del sistema jurídico turco. Nuestro equipo, que actúa como abogados penalistas en Antalya, acompaña a sus clientes en cada etapa: desde la primera declaración en la comisaría o la fiscalía hasta la sentencia final y los recursos.\n\nLa defensa en investigaciones y procesos penales, la impugnación de las órdenes de prisión provisional y las solicitudes de control judicial, la evaluación de mecanismos favorables como el aplazamiento del pronunciamiento de la sentencia (HAGB), los delitos de cuello blanco y la responsabilidad penal de los administradores de empresas, así como las objeciones a las decisiones de congelamiento de activos, son los asuntos que tratamos con mayor frecuencia. Evaluamos cada caso según sus propios méritos y, junto con el cliente, construimos la defensa con el fundamento jurídico más sólido.",
+      fr: "Faire face à une accusation pénale en Turquie est une épreuve pour quiconque, et pour un ressortissant étranger elle devient bien plus difficile en raison de la barrière de la langue, de l'éloignement du pays et de la méconnaissance du système juridique turc. Notre équipe, qui exerce en tant qu'avocats pénalistes à Antalya, accompagne ses clients à chaque étape — de la première déclaration au commissariat ou au parquet jusqu'au jugement définitif et aux voies de recours.\n\nLa défense dans les enquêtes et poursuites pénales, la contestation des ordonnances de détention et les demandes de contrôle judiciaire, l'évaluation de mécanismes favorables tels que l'ajournement du prononcé du jugement (HAGB), les infractions en col blanc et la responsabilité pénale des dirigeants d'entreprise, ainsi que les oppositions aux décisions de gel des avoirs, figurent parmi les dossiers que nous traitons le plus fréquemment. Nous apprécions chaque affaire selon ses propres mérites et bâtissons, avec le client, la défense reposant sur les fondements juridiques les plus solides.",
+    },
+    services: {
+      tr: [
+        "Soruşturma ve kovuşturma aşamalarında şüpheli ve sanık müdafiliği: ifade, savcılık ve mahkeme temsili",
+        "Yabancı uyruklu sanıklar için tercüman, konsolosluk bildirimi, susma ve avukat haklarının korunması",
+        "Tutuklama kararlarına itiraz ile adli kontrol ve tahliye talepleri",
+        "HAGB, cezanın ertelenmesi ve uzlaştırma gibi lehe mekanizmaların değerlendirilmesi",
+        "Şirket yöneticileri ve yatırımcılar için beyaz yaka suçları (dolandırıcılık, güveni kötüye kullanma, vergi) savunması",
+        "MASAK mal varlığı dondurma kararlarına karşı yargısal denetim ve itiraz süreçleri",
+        "Yurt dışı çıkış yasağı ve tahdit kodu kayıtlarının kaldırılması için başvurular",
+        "İstinaf ve temyiz kanun yolları ile suç mağdurlarının müşteki vekilliği",
+      ],
+      en: [
+        "Defence of suspects and defendants at every stage: statement, prosecutor's office, and trial representation",
+        "Protection of foreign nationals' rights to an interpreter, consular notification, silence, and counsel",
+        "Objections to detention orders and requests for judicial control or release",
+        "Assessment of favourable mechanisms such as HAGB, sentence suspension, and reconciliation",
+        "White-collar defence for company directors and investors (fraud, breach of trust, tax offences)",
+        "Judicial review and objection proceedings against MASAK asset-freeze decisions",
+        "Applications to lift overseas exit bans and restriction (tahdit) code entries",
+        "Istinaf and temyiz appeals, and representation of crime victims as complainant's counsel",
+      ],
+      de: [
+        "Verteidigung von Beschuldigten und Angeklagten in jeder Phase: Aussage, Staatsanwaltschaft und Vertretung in der Hauptverhandlung",
+        "Schutz der Rechte ausländischer Staatsangehöriger auf Dolmetscher, konsularische Benachrichtigung, Schweigen und Verteidiger",
+        "Einwände gegen Haftbeschlüsse sowie Anträge auf Justizkontrolle oder Freilassung",
+        "Bewertung günstiger Mechanismen wie HAGB, Strafaussetzung und Täter-Opfer-Ausgleich",
+        "Wirtschaftsstrafrechtliche Verteidigung von Unternehmensleitern und Investoren (Betrug, Untreue, Steuerdelikte)",
+        "Gerichtliche Überprüfung und Einspruchsverfahren gegen MASAK-Vermögenssperren",
+        "Anträge auf Aufhebung von Ausreiseverboten und Einträgen im Beschränkungscode (Tahdit)",
+        "Rechtsmittel der Berufung (istinaf) und Revision (temyiz) sowie Nebenklagevertretung von Straftatopfern",
+      ],
+      ru: [
+        "Защита подозреваемых и обвиняемых на каждом этапе: допрос, прокуратура и представительство в суде",
+        "Защита прав иностранных граждан на переводчика, консульское уведомление, молчание и адвоката",
+        "Обжалование постановлений о заключении под стражу и ходатайства о судебном контроле или освобождении",
+        "Оценка благоприятных механизмов, таких как HAGB, отсрочка наказания и примирение сторон",
+        "Беловоротничковая защита руководителей компаний и инвесторов (мошенничество, злоупотребление доверием, налоговые преступления)",
+        "Судебный контроль и процедуры обжалования решений MASAK о заморозке активов",
+        "Заявления об отмене запретов на выезд за границу и записей ограничительного кода (tahdit)",
+        "Обжалование в порядке истинаф и темйиз, а также представление потерпевших в качестве частного обвинителя",
+      ],
+      ar: [
+        "الدفاع عن المشتبه بهم والمتهمين في كل مرحلة: الإفادة والنيابة العامة والتمثيل أمام المحكمة",
+        "حماية حقوق المواطنين الأجانب في المترجم والإبلاغ القنصلي والصمت والاستعانة بمحامٍ",
+        "الطعن في قرارات التوقيف وطلبات الرقابة القضائية أو الإفراج",
+        "تقييم الآليات المواتية مثل إرجاء النطق بالحكم (HAGB) وتأجيل العقوبة والصلح الجزائي",
+        "الدفاع في جرائم ذوي الياقات البيضاء عن مديري الشركات والمستثمرين (الاحتيال وإساءة الأمانة والجرائم الضريبية)",
+        "الرقابة القضائية وإجراءات الاعتراض على قرارات تجميد الأموال الصادرة عن MASAK",
+        "طلبات رفع حظر الخروج من البلاد وقيود رمز التقييد (tahdit)",
+        "الطعن بالاستئناف (istinaf) والتمييز (temyiz)، وتمثيل ضحايا الجرائم بصفة المدّعي بالحق الشخصي",
+      ],
+      es: [
+        "Defensa de investigados y acusados en cada etapa: declaración, fiscalía y representación en el juicio",
+        "Protección de los derechos del extranjero a intérprete, notificación consular, silencio y asistencia letrada",
+        "Impugnación de las órdenes de prisión provisional y solicitudes de control judicial o de libertad",
+        "Evaluación de mecanismos favorables como el HAGB, la suspensión de la pena y la mediación penal",
+        "Defensa de cuello blanco para administradores e inversores (estafa, apropiación indebida, delitos fiscales)",
+        "Control judicial y procedimientos de oposición contra las decisiones de congelamiento de activos de MASAK",
+        "Solicitudes para levantar prohibiciones de salida del país y registros del código de restricción (tahdit)",
+        "Recursos de istinaf y temyiz, y representación de las víctimas como acusación particular",
+      ],
+      fr: [
+        "Défense des mis en cause et des prévenus à chaque étape : déclaration, parquet et représentation à l'audience",
+        "Protection des droits du ressortissant étranger à l'interprète, à la notification consulaire, au silence et à l'avocat",
+        "Contestation des ordonnances de détention et demandes de contrôle judiciaire ou de remise en liberté",
+        "Évaluation des mécanismes favorables tels que le HAGB, le sursis à l'exécution de la peine et la médiation pénale",
+        "Défense en col blanc des dirigeants et des investisseurs (escroquerie, abus de confiance, infractions fiscales)",
+        "Contrôle juridictionnel et procédures d'opposition contre les décisions de gel des avoirs du MASAK",
+        "Demandes de levée des interdictions de sortie du territoire et des inscriptions au code de restriction (tahdit)",
+        "Voies de recours (istinaf et temyiz) et constitution de partie civile pour les victimes d'infractions",
+      ],
+    },
+    process: {
+      tr: "Her dosyayı önce olay, delil durumu ve müvekkilin konumunu inceleyerek ele alır, duruma en uygun savunma stratejisini belirleriz. İfade, tutuklama sorgusu ya da çıkış yasağı gibi acil durumlarda derhal müdahale ederiz; çünkü ilk ifade çoğu zaman soruşturmanın tüm seyrini belirler. İdari veya ilk derece aşamasının yetmediği hâllerde itiraz ile istinaf ve temyiz yollarına başvurur, gerektiğinde Anayasa Mahkemesi'ne bireysel başvuru yaparız. Müvekkillerimiz sürecin her aşamasında kendi dilinde bilgilendirilir; tercüman ve konsolosluk koordinasyonu sağlanır ve karar vermeleri gereken her noktada yanlarında dururuz.",
+      en: "We begin every matter by examining the incident, the state of the evidence, and the client's position, then determine the defence strategy best suited to the situation. In urgent situations — a statement to be given, a detention hearing, or an exit ban — we intervene immediately, because the first statement often shapes the entire course of the investigation. Where the administrative or first-instance stage is insufficient, we pursue objections and the istinaf and temyiz appeal routes, and where necessary an individual application to the Constitutional Court. Our clients are kept informed at every stage in their own language, with interpreter and consular coordination arranged, and we stand by them at every decision point.",
+      de: "Wir gehen jeden Fall an, indem wir zunächst den Sachverhalt, die Beweislage und die Position des Mandanten prüfen, und bestimmen dann die für die Situation am besten geeignete Verteidigungsstrategie. In dringenden Situationen — einer bevorstehenden Aussage, einer Haftprüfung oder einem Ausreiseverbot — greifen wir sofort ein, denn die erste Aussage prägt häufig den gesamten Verlauf der Ermittlungen. Reicht die administrative oder erstinstanzliche Phase nicht aus, verfolgen wir Einwände sowie die Rechtsmittel der Berufung und Revision und stellen bei Bedarf eine Individualbeschwerde beim Verfassungsgericht. Unsere Mandanten werden in jeder Phase in ihrer eigenen Sprache informiert; Dolmetscher- und Konsularkoordination werden gewährleistet, und wir stehen ihnen an jedem Entscheidungspunkt zur Seite.",
+      ru: "Каждое дело мы начинаем с изучения обстоятельств, состояния доказательств и положения клиента, а затем определяем наиболее подходящую стратегию защиты. В срочных ситуациях — предстоящий допрос, рассмотрение вопроса о заключении под стражу или запрет на выезд — мы вмешиваемся незамедлительно, поскольку первый допрос нередко определяет весь ход расследования. Если административного или первого судебного этапа недостаточно, мы подаём жалобы и обращаемся к процедурам истинаф и темйиз, а при необходимости — с индивидуальной жалобой в Конституционный суд. Наши клиенты информируются на каждом этапе на их родном языке; обеспечивается координация с переводчиком и консульством, и мы остаёмся рядом с ними в каждый момент принятия решения.",
+      ar: "نتناول كل قضية أولاً بفحص الواقعة وحالة الأدلة وموقف الموكل، ثم نحدد استراتيجية الدفاع الأنسب للحالة. في الحالات العاجلة — إفادة وشيكة أو جلسة توقيف أو حظر خروج — نتدخل فوراً، لأن الإفادة الأولى كثيراً ما تحدد مجرى التحقيق بأكمله. وعندما لا تكفي المرحلة الإدارية أو مرحلة الدرجة الأولى، نلجأ إلى الاعتراض وطرق الاستئناف والتمييز، وعند الحاجة نتقدم بطلب فردي إلى المحكمة الدستورية. نُبقي موكلينا على اطلاع في كل مرحلة بلغتهم الأم، مع تأمين التنسيق مع المترجم والقنصلية، ونقف بجانبهم في كل نقطة يتعين فيها اتخاذ قرار.",
+      es: "Abordamos cada asunto examinando primero el hecho, el estado de las pruebas y la situación del cliente, y luego determinamos la estrategia de defensa más adecuada. En situaciones urgentes —una declaración por prestar, una audiencia de prisión provisional o una prohibición de salida— intervenimos de inmediato, porque la primera declaración a menudo define todo el curso de la investigación. Cuando la vía administrativa o la primera instancia son insuficientes, interponemos oposiciones y recurrimos a las vías de istinaf y temyiz y, cuando es necesario, a una demanda individual ante el Tribunal Constitucional. Mantenemos informados a nuestros clientes en cada etapa, en su propio idioma, con coordinación de intérprete y consulado, y les acompañamos en cada punto de decisión.",
+      fr: "Nous abordons chaque dossier en examinant d'abord les faits, l'état des preuves et la position du client, puis nous déterminons la stratégie de défense la mieux adaptée. Dans les situations urgentes — une déclaration à venir, une audience de détention ou une interdiction de sortie — nous intervenons immédiatement, car la première déclaration détermine souvent tout le cours de l'enquête. Lorsque la phase administrative ou de première instance est insuffisante, nous formons des oppositions et engageons les voies de recours de l'istinaf et du temyiz et, si nécessaire, un recours individuel devant la Cour constitutionnelle. Nos clients sont informés à chaque étape dans leur propre langue, avec une coordination de l'interprète et du consulat, et nous les accompagnons à chaque moment de décision.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Şüpheli sıfatıyla karakola ya da savcılığa çağrıldım; ne yapmalıyım?",
+          a: "Derhal bir ceza avukatı tutun ve avukatınız yanınızda olmadan hiçbir ifade vermeyin. Yabancı uyruklu olarak ücretsiz tercüman ve konsolosluğunuza bildirim yapılması hakkına sahipsiniz. İlk ifade çoğu zaman soruşturmanın seyrini belirlediğinden, hazırlıksız verilmemelidir.",
+        },
+        {
+          q: "HAGB nedir ve nasıl işler?",
+          a: "HAGB (hükmün açıklanmasının geri bırakılması), CMK m. 231 kapsamında; sanığın daha önce kasıtlı bir suçtan mahkûm olmaması ve varsa zararın giderilmiş olması koşuluyla, iki yıl veya daha az hapis gerektiren suçlarda mahkemenin mahkûmiyet kararını beş yıllık denetim süresi boyunca açıklamamasına imkân tanır. Bu sürede kasıtlı bir suç işlenmezse mahkûmiyet hiçbir zaman resmî olarak ilan edilmez ve dava düşer.",
+        },
+        {
+          q: "Tutuklanabilir miyim; adli kontrol bir alternatif midir?",
+          a: "Tutuklama son çaredir ve yalnızca kuvvetli suç şüphesinin yanı sıra kaçma ya da delil karartma gibi bir sebep bulunduğunda uygulanır. Yabancılar için çoğu zaman kaçma riski gerekçe gösterilir; ancak savunma, Türkiye'deki bağlarınızı belgeleyerek tutuklama yerine adli kontrol talep edebilir: yurt dışı çıkış yasağı, pasaportun teslimi veya karakola imza gibi tedbirler bunlara örnektir.",
+        },
+      ],
+      en: [
+        {
+          q: "I have been called to the police station or prosecutor's office as a suspect — what should I do?",
+          a: "Retain a criminal lawyer immediately and give no statement without your lawyer present. As a foreign national, you have the right to a free interpreter and to notification of your consulate. The first statement often determines the course of the investigation, so it should never be given unprepared.",
+        },
+        {
+          q: "What is HAGB and how does it work?",
+          a: "HAGB (deferral of the announcement of the verdict), under Article 231 of the Code of Criminal Procedure, allows the court to withhold a conviction for a five-year supervision period in offences carrying two years or less of imprisonment, provided the defendant has no prior intentional conviction and any loss has been remedied. If no intentional offence is committed during that period, the conviction is never formally announced and the case is dismissed.",
+        },
+        {
+          q: "Can I be detained, and is judicial control an alternative?",
+          a: "Detention is a last resort, applied only where there is strong suspicion of the offence together with a ground such as flight risk or tampering with evidence. For foreigners, flight risk is often cited; however, the defence can request judicial control instead — measures such as an exit ban, surrender of the passport, or signing in at a police station — by documenting your ties to Turkey.",
+        },
+      ],
+      de: [
+        {
+          q: "Ich wurde als Beschuldigter zur Polizei oder Staatsanwaltschaft geladen — was soll ich tun?",
+          a: "Beauftragen Sie sofort einen Strafverteidiger und machen Sie ohne Ihren Anwalt keine Aussage. Als Ausländer haben Sie das Recht auf einen kostenlosen Dolmetscher und auf Benachrichtigung Ihres Konsulats. Die erste Aussage bestimmt häufig den Verlauf der Ermittlungen und sollte daher niemals unvorbereitet erfolgen.",
+        },
+        {
+          q: "Was ist HAGB und wie funktioniert es?",
+          a: "HAGB (Aussetzung der Urteilsverkündung) ermöglicht es dem Gericht nach Art. 231 der türkischen Strafprozessordnung, bei Straftaten mit einer Freiheitsstrafe von zwei Jahren oder weniger die Verurteilung für eine fünfjährige Bewährungszeit zurückzuhalten — vorausgesetzt, der Angeklagte wurde zuvor nicht wegen einer vorsätzlichen Tat verurteilt und ein etwaiger Schaden wurde ausgeglichen. Wird in diesem Zeitraum keine vorsätzliche Straftat begangen, wird die Verurteilung nie förmlich verkündet und das Verfahren eingestellt.",
+        },
+        {
+          q: "Kann ich in Untersuchungshaft genommen werden, und ist die Justizkontrolle eine Alternative?",
+          a: "Die Untersuchungshaft ist das letzte Mittel und wird nur angewandt, wenn neben einem dringenden Tatverdacht auch ein Grund wie Flucht- oder Verdunkelungsgefahr besteht. Bei Ausländern wird häufig die Fluchtgefahr angeführt; die Verteidigung kann jedoch anstelle der Haft eine Justizkontrolle beantragen — Maßnahmen wie ein Ausreiseverbot, die Abgabe des Reisepasses oder eine Meldeauflage bei der Polizei —, indem sie Ihre Bindungen an die Türkei belegt.",
+        },
+      ],
+      ru: [
+        {
+          q: "Меня вызвали в полицию или прокуратуру в качестве подозреваемого — что делать?",
+          a: "Немедленно наймите адвоката по уголовным делам и не давайте никаких показаний без присутствия адвоката. Как иностранный гражданин вы имеете право на бесплатного переводчика и на уведомление вашего консульства. Первый допрос нередко определяет ход расследования, поэтому к нему нельзя приступать неподготовленным.",
+        },
+        {
+          q: "Что такое HAGB и как это работает?",
+          a: "HAGB (отсрочка оглашения приговора) согласно статье 231 Уголовно-процессуального кодекса позволяет суду не оглашать обвинительный приговор в течение пятилетнего испытательного срока по преступлениям, наказуемым лишением свободы на два года или менее, при условии, что у подсудимого нет прежней судимости за умышленное преступление и причинённый ущерб возмещён. Если в этот период не совершено умышленного преступления, приговор так и не оглашается официально, а дело прекращается.",
+        },
+        {
+          q: "Могут ли меня заключить под стражу и является ли судебный контроль альтернативой?",
+          a: "Заключение под стражу — крайняя мера, применяемая только при наличии веских подозрений в совершении преступления наряду с таким основанием, как риск побега или сокрытие доказательств. Для иностранцев часто ссылаются на риск побега; однако защита может ходатайствовать о судебном контроле вместо стражи — такие меры, как запрет на выезд, сдача паспорта или явка в полицию для отметки, — документально подтвердив ваши связи с Турцией.",
+        },
+      ],
+      ar: [
+        {
+          q: "استُدعيتُ إلى مركز الشرطة أو النيابة بصفة مشتبه به؛ ماذا أفعل؟",
+          a: "وكّل محامياً جنائياً على الفور ولا تُدلِ بأي إفادة دون حضور محاميك. بصفتك أجنبياً، لك الحق في مترجم مجاني وفي إبلاغ قنصليتك. الإفادة الأولى كثيراً ما تحدد مجرى التحقيق، لذا يجب ألّا تُقدَّم دون استعداد.",
+        },
+        {
+          q: "ما هو HAGB وكيف يعمل؟",
+          a: "HAGB (إرجاء النطق بالحكم)، بموجب المادة 231 من قانون المحاكمات الجزائية، يتيح للمحكمة حجب الإدانة طوال مدة رقابة تبلغ خمس سنوات في الجرائم التي عقوبتها الحبس سنتان أو أقل، شريطة ألّا يكون المتهم قد أُدين سابقاً بجريمة عمدية وأن يكون الضرر — إن وُجد — قد جُبِر. وإذا لم تُرتكب جريمة عمدية خلال تلك المدة، فلا يُعلَن الحكم رسمياً أبداً وتسقط الدعوى.",
+        },
+        {
+          q: "هل يمكن توقيفي، وهل الرقابة القضائية بديل عن ذلك؟",
+          a: "التوقيف ملاذ أخير، ولا يُطبَّق إلا عند وجود اشتباه قوي بالجريمة إلى جانب سبب مثل خطر الفرار أو العبث بالأدلة. وبالنسبة للأجانب، كثيراً ما يُستند إلى خطر الفرار؛ غير أن الدفاع يمكنه طلب الرقابة القضائية بدلاً من التوقيف — تدابير مثل حظر الخروج من البلاد أو تسليم جواز السفر أو التوقيع في مركز الشرطة — من خلال توثيق روابطك بتركيا.",
+        },
+      ],
+      es: [
+        {
+          q: "Me han citado a la comisaría o a la fiscalía como investigado, ¿qué debo hacer?",
+          a: "Contrate de inmediato a un abogado penalista y no preste declaración sin su abogado presente. Como extranjero, tiene derecho a un intérprete gratuito y a la notificación de su consulado. La primera declaración suele determinar el curso de la investigación, por lo que nunca debe prestarse sin preparación.",
+        },
+        {
+          q: "¿Qué es el HAGB y cómo funciona?",
+          a: "El HAGB (aplazamiento del pronunciamiento de la sentencia), conforme al artículo 231 de la Ley de Enjuiciamiento Criminal, permite al tribunal retener la condena durante un periodo de prueba de cinco años en delitos con pena de dos años o menos de prisión, siempre que el acusado carezca de condena previa por delito doloso y se haya reparado el eventual perjuicio. Si no se comete un delito doloso durante ese periodo, la condena nunca se pronuncia formalmente y la causa se archiva.",
+        },
+        {
+          q: "¿Pueden decretarme prisión provisional? ¿Es el control judicial una alternativa?",
+          a: "La prisión provisional es un último recurso y solo se aplica cuando existe una fuerte sospecha del delito junto con un motivo como el riesgo de fuga o la manipulación de pruebas. En el caso de los extranjeros suele alegarse el riesgo de fuga; sin embargo, la defensa puede solicitar el control judicial en su lugar —medidas como la prohibición de salida, la entrega del pasaporte o la comparecencia periódica en comisaría— documentando sus vínculos con Turquía.",
+        },
+      ],
+      fr: [
+        {
+          q: "J'ai été convoqué au commissariat ou au parquet en tant que mis en cause — que dois-je faire ?",
+          a: "Mandatez immédiatement un avocat pénaliste et ne faites aucune déclaration sans votre avocat. En tant qu'étranger, vous avez droit à un interprète gratuit et à la notification de votre consulat. La première déclaration détermine souvent le cours de l'enquête et ne doit donc jamais être faite sans préparation.",
+        },
+        {
+          q: "Qu'est-ce que le HAGB et comment fonctionne-t-il ?",
+          a: "Le HAGB (ajournement du prononcé du jugement), au titre de l'article 231 du Code de procédure pénale, permet au tribunal de suspendre une condamnation pendant une période de probation de cinq ans pour les infractions passibles de deux ans d'emprisonnement ou moins, à condition que le prévenu n'ait pas de condamnation antérieure pour une infraction intentionnelle et que tout préjudice ait été réparé. Si aucune infraction intentionnelle n'est commise durant cette période, la condamnation n'est jamais formellement prononcée et l'affaire est classée.",
+        },
+        {
+          q: "Puis-je être placé en détention, et le contrôle judiciaire est-il une alternative ?",
+          a: "La détention est un dernier recours, appliquée uniquement en présence de forts soupçons de l'infraction assortis d'un motif tel que le risque de fuite ou l'altération des preuves. Pour les étrangers, le risque de fuite est souvent invoqué ; toutefois, la défense peut demander un contrôle judiciaire à la place — des mesures telles qu'une interdiction de sortie du territoire, la remise du passeport ou l'obligation de pointer au commissariat — en documentant vos liens avec la Turquie.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "is-hukuku",
+    metaTitle: {
+      tr: "Antalya İş Hukuku Avukatı | Kıdem Tazminatı & İşe İade Davası",
+      en: "Antalya Labour Lawyer | Severance Pay & Reinstatement Claims in Turkey",
+      de: "Arbeitsrechtsanwalt Antalya | Abfindung & Wiedereinstellungsklage",
+      ru: "Адвокат по трудовому праву в Анталье | Выходное пособие и восстановление на работе",
+      ar: "محامي قانون العمل في أنطاليا | تعويض نهاية الخدمة ودعاوى إعادة العامل",
+      es: "Abogado Laboralista en Antalya | Indemnización por Despido y Readmisión en Turquía",
+      fr: "Avocat en Droit du Travail à Antalya | Indemnités de Licenciement et Réintégration en Turquie",
+    },
+    metaDescription: {
+      tr: "Antalya'da iş hukuku avukatı olarak işe iade davaları, kıdem ve ihbar tazminatı, fazla mesai ve yıllık izin alacakları ile mobbing uyuşmazlıklarında yabancı ve yerli çalışanların ve işverenlerin haklarını koruyoruz.",
+      en: "As labour lawyers in Antalya, we protect the rights of foreign and local employees and employers in reinstatement claims, severance and notice pay, overtime and annual leave entitlements, and workplace harassment disputes.",
+      de: "Als Arbeitsrechtsanwälte in Antalya schützen wir die Rechte ausländischer und einheimischer Arbeitnehmer und Arbeitgeber bei Wiedereinstellungsklagen, Abfindungen und Kündigungsentschädigungen, Überstunden- und Jahresurlaubsansprüchen sowie Mobbingstreitigkeiten.",
+      ru: "Как адвокаты по трудовому праву в Анталье мы защищаем права иностранных и местных работников и работодателей в делах о восстановлении на работе, выходных пособиях и компенсациях за уведомление, требованиях по сверхурочной работе и ежегодному отпуску, а также в спорах о притеснениях на рабочем месте.",
+      ar: "بوصفنا محامي قانون العمل في أنطاليا، نحمي حقوق الموظفين وأصحاب العمل الأجانب والمحليين في دعاوى إعادة العامل إلى عمله وتعويض نهاية الخدمة وتعويض الإخطار ومستحقات العمل الإضافي والإجازة السنوية ونزاعات التحرش في مكان العمل.",
+      es: "Como abogados laboralistas en Antalya, protegemos los derechos de trabajadores y empleadores extranjeros y locales en demandas de readmisión, indemnizaciones por despido y preaviso, derechos de horas extraordinarias y vacaciones anuales, y disputas por acoso laboral.",
+      fr: "En tant qu'avocats en droit du travail à Antalya, nous défendons les droits des salariés et employeurs étrangers et locaux dans les demandes de réintégration, les indemnités de licenciement et de préavis, les droits aux heures supplémentaires et congés annuels, et les litiges de harcèlement au travail.",
+    },
+    intro: {
+      tr: "Antalya; turizm, sağlık, gayrimenkul ve teknoloji sektörlerinde hem yabancı hem yerli çalışanı yoğun biçimde istihdam eden bir şehirdir. İş ilişkisinin kurulması, sürdürülmesi ve özellikle sona ermesi aşamalarında ise çalışan ile işveren arasında sıklıkla uyuşmazlık doğmaktadır. Antalya'da iş hukuku avukatı olarak görev yapan ekibimiz, hem hakkının korunmasını isteyen çalışanların hem de yükümlülüklerini hukuka uygun biçimde yerine getirmek isteyen işverenlerin yanındadır.\n\nİşe iade davaları, kıdem ve ihbar tazminatı alacakları, fazla mesai ve yıllık izin ücreti uyuşmazlıkları, iş sözleşmelerinin hazırlanması ve incelenmesi ile mobbing ve ayrımcılık iddiaları en sık karşılaştığımız konuların başında gelmektedir. Türk iş hukuku, çalışma izniyle istihdam edilen yabancıya Türk çalışanla aynı korumaları tanır; biz de her dosyayı kendi koşulları içinde değerlendirir, çoğu iş uyuşmazlığında zorunlu olan arabuluculuk aşamasından iş mahkemesine kadar en güçlü hukuki yolu birlikte belirleriz.",
+      en: "Antalya is a city that employs both foreign and local workers heavily across the tourism, healthcare, real estate, and technology sectors. Disputes frequently arise between employee and employer at the stages of forming, maintaining, and above all ending the employment relationship. Our team, serving as labour lawyers in Antalya, stands beside both employees seeking to protect their rights and employers wishing to meet their obligations in accordance with the law.\n\nReinstatement claims, severance and notice pay entitlements, overtime and annual leave disputes, the drafting and review of employment contracts, and allegations of mobbing and discrimination are among the most frequent matters we handle. Turkish labour law grants a foreigner employed under a work permit the same protections as a Turkish worker; we assess each case on its own merits and, from the mediation stage that is mandatory in most labour disputes through to the labour court, identify together the path with the strongest legal foundation.",
+      de: "Antalya ist eine Stadt, die in den Bereichen Tourismus, Gesundheitswesen, Immobilien und Technologie sowohl ausländische als auch einheimische Arbeitnehmer in großer Zahl beschäftigt. Bei der Begründung, Aufrechterhaltung und vor allem bei der Beendigung des Arbeitsverhältnisses kommt es häufig zu Streitigkeiten zwischen Arbeitnehmer und Arbeitgeber. Unser Team, tätig als Arbeitsrechtsanwälte in Antalya, steht sowohl Arbeitnehmern, die ihre Rechte schützen möchten, als auch Arbeitgebern, die ihren Pflichten rechtskonform nachkommen wollen, zur Seite.\n\nWiedereinstellungsklagen, Ansprüche auf Abfindung und Kündigungsentschädigung, Streitigkeiten über Überstunden und Jahresurlaub, die Gestaltung und Prüfung von Arbeitsverträgen sowie Vorwürfe von Mobbing und Diskriminierung gehören zu den häufigsten Fragen, mit denen wir uns befassen. Das türkische Arbeitsrecht gewährt einem mit Arbeitserlaubnis beschäftigten Ausländer denselben Schutz wie einem türkischen Arbeitnehmer; wir beurteilen jeden Fall individuell und bestimmen gemeinsam vom bei den meisten Arbeitsstreitigkeiten obligatorischen Schlichtungsverfahren bis zum Arbeitsgericht den rechtlich stärksten Weg.",
+      ru: "Анталья — город, активно нанимающий как иностранных, так и местных работников в сферах туризма, здравоохранения, недвижимости и технологий. На этапах заключения, продолжения и особенно прекращения трудовых отношений между работником и работодателем часто возникают споры. Наша команда, выступающая как адвокаты по трудовому праву в Анталье, находится рядом как с работниками, стремящимися защитить свои права, так и с работодателями, желающими исполнять свои обязанности в соответствии с законом.\n\nДела о восстановлении на работе, требования о выходном пособии и компенсации за уведомление, споры о сверхурочной работе и ежегодном отпуске, составление и проверка трудовых договоров, а также заявления о моббинге и дискриминации — наиболее частые направления нашей работы. Турецкое трудовое право предоставляет иностранцу, нанятому по разрешению на работу, те же гарантии, что и турецкому работнику; мы рассматриваем каждое дело индивидуально и — от обязательной в большинстве трудовых споров процедуры медиации до трудового суда — совместно определяем путь с наиболее прочным правовым основанием.",
+      ar: "أنطاليا مدينة توظّف بكثافة العاملين الأجانب والمحليين في قطاعات السياحة والصحة والعقارات والتكنولوجيا. وكثيراً ما تنشأ نزاعات بين العامل وصاحب العمل في مراحل نشوء علاقة العمل واستمرارها، وقبل كل شيء عند انتهائها. فريقنا، بصفته محامي قانون عمل في أنطاليا، يقف إلى جانب كلٍّ من العاملين الراغبين في حماية حقوقهم وأصحاب العمل الراغبين في الوفاء بالتزاماتهم وفقاً للقانون.\n\nدعاوى إعادة العامل إلى عمله ومستحقات تعويض نهاية الخدمة وتعويض الإخطار ونزاعات العمل الإضافي والإجازة السنوية وصياغة عقود العمل ومراجعتها وادعاءات التنمر والتمييز من بين أكثر القضايا التي نتعامل معها. يمنح قانون العمل التركي الأجنبي الموظَّف بتصريح عمل الحماية ذاتها الممنوحة للعامل التركي؛ ونحن نقيّم كل قضية بحسب ملابساتها الخاصة، ونحدد معاً المسار ذا الأساس القانوني الأقوى، من مرحلة الوساطة الإلزامية في معظم نزاعات العمل وصولاً إلى محكمة العمل.",
+      es: "Antalya es una ciudad que emplea intensamente a trabajadores tanto extranjeros como locales en los sectores del turismo, la sanidad, el inmobiliario y la tecnología. En las etapas de constitución, mantenimiento y, sobre todo, extinción de la relación laboral surgen con frecuencia disputas entre empleado y empleador. Nuestro equipo, que actúa como abogados laboralistas en Antalya, acompaña tanto a los trabajadores que desean proteger sus derechos como a los empleadores que desean cumplir sus obligaciones conforme a la ley.\n\nLas demandas de readmisión, los derechos a indemnización por despido y por preaviso, las disputas sobre horas extraordinarias y vacaciones anuales, la redacción y revisión de contratos de trabajo y las alegaciones de acoso laboral y discriminación son los asuntos que tratamos con mayor frecuencia. El derecho laboral turco concede al extranjero empleado con permiso de trabajo las mismas protecciones que a un trabajador turco; evaluamos cada caso según sus propios méritos e identificamos juntos, desde la fase de mediación obligatoria en la mayoría de los conflictos laborales hasta el juzgado de lo social, la vía con el fundamento jurídico más sólido.",
+      fr: "Antalya est une ville qui emploie massivement des travailleurs étrangers comme locaux dans les secteurs du tourisme, de la santé, de l'immobilier et de la technologie. Des litiges surviennent fréquemment entre salarié et employeur aux étapes de la formation, du maintien et surtout de la rupture de la relation de travail. Notre équipe, qui exerce en tant qu'avocats en droit du travail à Antalya, se tient aux côtés tant des salariés soucieux de protéger leurs droits que des employeurs souhaitant remplir leurs obligations conformément à la loi.\n\nLes demandes de réintégration, les droits aux indemnités de licenciement et de préavis, les litiges relatifs aux heures supplémentaires et aux congés annuels, la rédaction et la revue des contrats de travail ainsi que les allégations de harcèlement moral et de discrimination figurent parmi les dossiers que nous traitons le plus fréquemment. Le droit du travail turc accorde à l'étranger employé sous permis de travail les mêmes protections qu'à un travailleur turc ; nous apprécions chaque affaire selon ses propres mérites et déterminons ensemble, de la phase de médiation obligatoire dans la plupart des litiges du travail jusqu'au tribunal du travail, la voie offrant les fondements juridiques les plus solides.",
+    },
+    services: {
+      tr: [
+        "İşe iade davaları ve iş güvencesi kapsamındaki fesih uyuşmazlıkları",
+        "Kıdem ve ihbar tazminatı hesaplaması, tahsili ve dava takibi",
+        "Fazla mesai, yıllık izin ve ödenmeyen ücret alacaklarının tespiti ve talebi",
+        "Yabancı ve yerli çalışanlar ile işverenler için iş sözleşmesi hazırlığı ve incelemesi",
+        "Çalışma izniyle bağlantılı istihdam ve fesih süreçlerinin yönetimi",
+        "İşyerinde mobbing, ayrımcılık ve tacize karşı hukuki başvurular",
+        "Rekabet yasağı (non-compete) sözleşmelerinin düzenlenmesi ve uyuşmazlıkları",
+        "Zorunlu arabuluculuk sürecinin yürütülmesi ve iş mahkemesinde temsil",
+      ],
+      en: [
+        "Reinstatement claims and termination disputes under job security",
+        "Calculation, collection, and litigation of severance and notice pay",
+        "Determining and claiming overtime, annual leave, and unpaid wage entitlements",
+        "Employment contract drafting and review for foreign and local employees and employers",
+        "Management of employment and termination processes linked to work permits",
+        "Legal action against workplace mobbing, discrimination, and harassment",
+        "Drafting and disputes over non-compete clauses",
+        "Conducting the mandatory mediation process and representation before the labour court",
+      ],
+      de: [
+        "Wiedereinstellungsklagen und Kündigungsstreitigkeiten im Rahmen des Kündigungsschutzes",
+        "Berechnung, Einziehung und gerichtliche Durchsetzung von Abfindung und Kündigungsentschädigung",
+        "Feststellung und Geltendmachung von Überstunden-, Jahresurlaubs- und ausstehenden Lohnansprüchen",
+        "Gestaltung und Prüfung von Arbeitsverträgen für ausländische und einheimische Arbeitnehmer und Arbeitgeber",
+        "Steuerung von Einstellungs- und Kündigungsprozessen im Zusammenhang mit Arbeitserlaubnissen",
+        "Rechtliche Schritte gegen Mobbing, Diskriminierung und Belästigung am Arbeitsplatz",
+        "Gestaltung von und Streitigkeiten über Wettbewerbsverbote (Non-Compete)",
+        "Durchführung des obligatorischen Schlichtungsverfahrens und Vertretung vor dem Arbeitsgericht",
+      ],
+      ru: [
+        "Дела о восстановлении на работе и споры об увольнении в рамках гарантий занятости",
+        "Расчёт, взыскание и судебное сопровождение выходного пособия и компенсации за уведомление",
+        "Установление и взыскание требований по сверхурочной работе, ежегодному отпуску и невыплаченной зарплате",
+        "Составление и проверка трудовых договоров для иностранных и местных работников и работодателей",
+        "Ведение процессов найма и увольнения, связанных с разрешением на работу",
+        "Правовые действия против моббинга, дискриминации и притеснений на рабочем месте",
+        "Составление и споры по условиям о неконкуренции (non-compete)",
+        "Проведение обязательной процедуры медиации и представительство в трудовом суде",
+      ],
+      ar: [
+        "دعاوى إعادة العامل إلى عمله ونزاعات الفصل في إطار ضمان العمل",
+        "احتساب تعويض نهاية الخدمة وتعويض الإخطار وتحصيلهما ومتابعة الدعاوى المتعلقة بهما",
+        "تحديد مستحقات العمل الإضافي والإجازة السنوية والأجور غير المدفوعة والمطالبة بها",
+        "صياغة عقود العمل ومراجعتها للعاملين وأصحاب العمل الأجانب والمحليين",
+        "إدارة إجراءات التوظيف والفصل المرتبطة بتصاريح العمل",
+        "الإجراءات القانونية ضد التنمر والتمييز والتحرش في مكان العمل",
+        "صياغة شروط عدم المنافسة (non-compete) والنزاعات المتعلقة بها",
+        "إجراء عملية الوساطة الإلزامية والتمثيل أمام محكمة العمل",
+      ],
+      es: [
+        "Demandas de readmisión y disputas de despido en el marco de la garantía de empleo",
+        "Cálculo, cobro y litigio de la indemnización por despido y por preaviso",
+        "Determinación y reclamación de horas extraordinarias, vacaciones anuales y salarios impagados",
+        "Redacción y revisión de contratos de trabajo para trabajadores y empleadores extranjeros y locales",
+        "Gestión de los procesos de contratación y despido vinculados a los permisos de trabajo",
+        "Acciones legales contra el acoso laboral, la discriminación y el hostigamiento en el trabajo",
+        "Redacción y disputas sobre cláusulas de no competencia (non-compete)",
+        "Tramitación del proceso de mediación obligatoria y representación ante el juzgado de lo social",
+      ],
+      fr: [
+        "Demandes de réintégration et litiges de licenciement dans le cadre de la protection de l'emploi",
+        "Calcul, recouvrement et contentieux des indemnités de licenciement et de préavis",
+        "Détermination et réclamation des heures supplémentaires, congés annuels et salaires impayés",
+        "Rédaction et revue de contrats de travail pour salariés et employeurs étrangers et locaux",
+        "Gestion des processus d'embauche et de licenciement liés aux permis de travail",
+        "Actions en justice contre le harcèlement moral, la discrimination et le harcèlement au travail",
+        "Rédaction et litiges relatifs aux clauses de non-concurrence (non-compete)",
+        "Conduite de la procédure de médiation obligatoire et représentation devant le tribunal du travail",
+      ],
+    },
+    process: {
+      tr: "Her dosyaya, iş sözleşmesi, bordro, işe giriş-çıkış kayıtları ve fesih bildirimi gibi belgelerin incelenmesiyle başlar; çalışanın gerçek kıdemini, ücretini ve doğmuş alacaklarını netleştiririz. Çoğu bireysel iş uyuşmazlığında dava öncesi zorunlu olan arabuluculuk aşamasını titizlikle yürütür, uzlaşmanın müvekkilin lehine olduğu durumlarda anlaşma koşullarını müzakere ederiz. Uzlaşma sağlanamadığında Antalya İş Mahkemesi nezdinde dava açar; ispat yükünün büyük ölçüde işverende olduğu izin ve fazla mesai gibi kalemlerde delil stratejisini buna göre kurarız. Müvekkillerimiz süreç boyunca kendi dilinde bilgilendirilir ve her karar noktasında yanlarında dururuz.",
+      en: "We begin every case by reviewing documents such as the employment contract, payslips, entry and exit records, and the termination notice, and clarify the employee's actual seniority, wage, and accrued entitlements. We carefully conduct the mediation stage, which is a mandatory pre-litigation step in most individual labour disputes, and negotiate settlement terms where a resolution serves the client's interest. When no settlement is reached, we file proceedings before the Antalya Labour Court and, for items such as leave and overtime where the burden of proof rests largely with the employer, build the evidentiary strategy accordingly. Our clients are kept informed throughout in their own language, and we stand by them at every decision point.",
+      de: "Wir beginnen jeden Fall mit der Prüfung von Unterlagen wie Arbeitsvertrag, Lohnabrechnungen, Ein- und Austrittsnachweisen sowie der Kündigung und klären die tatsächliche Betriebszugehörigkeit, das Entgelt und die entstandenen Ansprüche des Arbeitnehmers. Das Schlichtungsverfahren, das bei den meisten individuellen Arbeitsstreitigkeiten ein obligatorischer vorgerichtlicher Schritt ist, führen wir sorgfältig durch und verhandeln Vergleichsbedingungen, sofern eine Einigung im Interesse des Mandanten liegt. Kommt keine Einigung zustande, klagen wir vor dem Arbeitsgericht Antalya und richten die Beweisstrategie bei Positionen wie Urlaub und Überstunden, bei denen die Beweislast weitgehend beim Arbeitgeber liegt, entsprechend aus. Unsere Mandanten werden durchgehend in ihrer eigenen Sprache informiert, und wir stehen ihnen an jedem Entscheidungspunkt zur Seite.",
+      ru: "Каждое дело мы начинаем с изучения документов — трудового договора, расчётных листков, записей о приёме и увольнении, уведомления о расторжении — и уточняем фактический стаж работника, его заработную плату и возникшие требования. Мы тщательно проводим стадию медиации, которая в большинстве индивидуальных трудовых споров является обязательным досудебным этапом, и согласовываем условия мирового соглашения, когда его достижение отвечает интересам клиента. Если соглашение не достигнуто, мы подаём иск в Трудовой суд Антальи и по таким позициям, как отпуск и сверхурочная работа, где бремя доказывания в значительной степени лежит на работодателе, выстраиваем доказательственную стратегию соответствующим образом. На протяжении всего процесса клиенты информируются на их родном языке, и мы находимся рядом с ними в каждой точке принятия решений.",
+      ar: "نبدأ كل قضية بمراجعة المستندات مثل عقد العمل وكشوف الرواتب وسجلات الدخول والخروج وإشعار الفصل، ونوضّح الأقدمية الفعلية للعامل وأجره والمستحقات التي نشأت له. ونجري بعناية مرحلة الوساطة، التي تُعدّ خطوة إلزامية سابقة للتقاضي في معظم نزاعات العمل الفردية، ونتفاوض على شروط التسوية حين تكون في مصلحة الموكل. وعند تعذّر التسوية، نرفع الدعوى أمام محكمة العمل في أنطاليا، ونبني استراتيجية الإثبات وفقاً لذلك في بنود مثل الإجازة والعمل الإضافي حيث يقع عبء الإثبات إلى حدٍّ كبير على صاحب العمل. ويظل موكلونا على اطلاع طوال العملية بلغتهم الأم، ونقف بجانبهم عند كل نقطة قرار.",
+      es: "Comenzamos cada caso revisando documentos como el contrato de trabajo, las nóminas, los registros de alta y baja y la notificación de despido, y aclaramos la antigüedad real del trabajador, su salario y los derechos devengados. Llevamos a cabo con rigor la fase de mediación, que es un paso previo obligatorio en la mayoría de los conflictos laborales individuales, y negociamos los términos de un acuerdo cuando su consecución conviene al cliente. Cuando no se alcanza un acuerdo, interponemos demanda ante el Juzgado de lo Social de Antalya y, en partidas como las vacaciones y las horas extraordinarias, donde la carga de la prueba recae en gran medida sobre el empleador, construimos la estrategia probatoria en consecuencia. Mantenemos informados a nuestros clientes durante todo el proceso en su propio idioma y los acompañamos en cada punto de decisión.",
+      fr: "Nous débutons chaque dossier par l'examen de documents tels que le contrat de travail, les bulletins de paie, les registres d'entrée et de sortie et la notification de licenciement, et nous précisons l'ancienneté réelle du salarié, sa rémunération et les droits acquis. Nous menons avec soin la phase de médiation, étape préalable obligatoire dans la plupart des litiges individuels du travail, et négocions les termes d'un accord lorsqu'une résolution sert l'intérêt du client. À défaut d'accord, nous saisissons le Tribunal du travail d'Antalya et, pour des postes tels que les congés et les heures supplémentaires où la charge de la preuve incombe largement à l'employeur, nous construisons la stratégie probatoire en conséquence. Nos clients sont informés tout au long de la procédure dans leur propre langue, et nous les accompagnons à chaque moment de décision.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "İş güvencesi kapsamında mıyım ve işe iade davası açabilir miyim?",
+          a: "İşe iade davası, belirli sayıda işçi çalıştıran bir işyerinde, belirli bir kıdeme sahip ve belirsiz süreli sözleşmeyle çalışan çalışanın geçerli sebep gösterilmeksizin işten çıkarılması halinde açılabilir. Fesih bildiriminin tebliğinden itibaren yasal süre içinde (genellikle bir ay) önce zorunlu arabuluculuğa, uzlaşma sağlanamazsa iş mahkemesine başvurulur.",
+        },
+        {
+          q: "Yabancı çalışan olarak kıdem ve ihbar tazminatı hakkım var mı?",
+          a: "Evet. Çalışma iznine dayalı olarak Türk hukukuna tabi bir iş sözleşmesiyle çalışan yabancı, kıdem ve ihbar tazminatı bakımından Türk çalışanla aynı korumalara sahiptir. Kıdem tazminatı çalışılan her tam yıl için son giydirilmiş brüt ücret üzerinden hesaplanır; istifa gibi bazı hâllerde ise kural olarak kıdem tazminatı doğmaz.",
+        },
+        {
+          q: "Kullanmadığım yıllık izinlerin ücretini alabilir miyim?",
+          a: "İş sözleşmesi hangi sebeple sona ererse ersin, kullandırılmayan yıllık izin günlerinin ücreti son ücret üzerinden ödenmek zorundadır. Yerleşik uygulamaya göre iznin kullandırıldığını ispat yükü işverendedir ve bu yalnızca tanık beyanıyla değil, imzalı izin belgeleriyle ispatlanır; belge yoksa mahkeme çalışan lehine ödemeye hükmeder.",
+        },
+      ],
+      en: [
+        {
+          q: "Am I covered by job security and can I file a reinstatement claim?",
+          a: "A reinstatement claim may be filed where an employee working under an indefinite-term contract, with a certain seniority, at a workplace employing a certain number of workers, is dismissed without a valid reason being shown. Within the statutory period from service of the termination notice (generally one month), the matter first goes to mandatory mediation and, if no settlement is reached, to the labour court.",
+        },
+        {
+          q: "As a foreign employee, am I entitled to severance and notice pay?",
+          a: "Yes. A foreigner working under a work-permit-based employment contract governed by Turkish law enjoys the same protections as a Turkish worker with respect to severance and notice pay. Severance pay is calculated on the last gross 'dressed' wage for each full year worked; in certain cases such as resignation, however, no severance entitlement generally arises.",
+        },
+        {
+          q: "Can I claim payment for annual leave I did not use?",
+          a: "Regardless of the reason the employment contract ends, the pay for unused annual leave days must be settled on the final wage. Under settled practice the burden of proving that leave was granted rests with the employer, and it must be shown by signed leave records rather than witness testimony alone; where no such records exist, the court rules in the employee's favour.",
+        },
+      ],
+      de: [
+        {
+          q: "Falle ich unter den Kündigungsschutz und kann ich eine Wiedereinstellungsklage erheben?",
+          a: "Eine Wiedereinstellungsklage kann erhoben werden, wenn ein Arbeitnehmer mit unbefristetem Vertrag und einer bestimmten Betriebszugehörigkeit in einem Betrieb mit einer bestimmten Zahl von Beschäftigten ohne Angabe eines gültigen Grundes gekündigt wird. Innerhalb der gesetzlichen Frist ab Zustellung der Kündigung (in der Regel ein Monat) erfolgt zunächst die obligatorische Schlichtung und, falls keine Einigung zustande kommt, die Klage vor dem Arbeitsgericht.",
+        },
+        {
+          q: "Habe ich als ausländischer Arbeitnehmer Anspruch auf Abfindung und Kündigungsentschädigung?",
+          a: "Ja. Ein Ausländer, der auf Grundlage einer Arbeitserlaubnis mit einem dem türkischen Recht unterliegenden Arbeitsvertrag beschäftigt ist, genießt hinsichtlich Abfindung und Kündigungsentschädigung denselben Schutz wie ein türkischer Arbeitnehmer. Die Abfindung wird für jedes volle Beschäftigungsjahr auf Grundlage des letzten Brutto-Gesamtentgelts berechnet; in bestimmten Fällen wie einer Eigenkündigung entsteht in der Regel jedoch kein Abfindungsanspruch.",
+        },
+        {
+          q: "Kann ich die Vergütung für nicht genommenen Jahresurlaub verlangen?",
+          a: "Unabhängig davon, aus welchem Grund das Arbeitsverhältnis endet, ist die Vergütung für nicht gewährte Urlaubstage auf Grundlage des letzten Entgelts auszuzahlen. Nach gefestigter Praxis trägt der Arbeitgeber die Beweislast dafür, dass der Urlaub gewährt wurde, und dies ist durch unterzeichnete Urlaubsnachweise und nicht allein durch Zeugenaussagen zu belegen; fehlen solche Nachweise, entscheidet das Gericht zugunsten des Arbeitnehmers.",
+        },
+      ],
+      ru: [
+        {
+          q: "Распространяются ли на меня гарантии занятости и могу ли я подать иск о восстановлении на работе?",
+          a: "Иск о восстановлении на работе может быть подан, если работник, работающий по бессрочному договору, имеющий определённый стаж, на предприятии с определённым числом работников, уволен без указания уважительной причины. В установленный законом срок с момента вручения уведомления об увольнении (как правило, один месяц) дело сначала передаётся на обязательную медиацию, а при недостижении соглашения — в трудовой суд.",
+        },
+        {
+          q: "Имею ли я, как иностранный работник, право на выходное пособие и компенсацию за уведомление?",
+          a: "Да. Иностранец, работающий по трудовому договору на основе разрешения на работу, подчинённому турецкому праву, пользуется теми же гарантиями, что и турецкий работник, в отношении выходного пособия и компенсации за уведомление. Выходное пособие рассчитывается за каждый полный отработанный год исходя из последней полной («одетой») брутто-зарплаты; в некоторых случаях, например при увольнении по собственному желанию, право на выходное пособие, как правило, не возникает.",
+        },
+        {
+          q: "Могу ли я потребовать оплату за неиспользованный ежегодный отпуск?",
+          a: "Независимо от причины прекращения трудового договора оплата за неиспользованные дни ежегодного отпуска должна быть произведена по последней зарплате. Согласно устоявшейся практике бремя доказывания предоставления отпуска лежит на работодателе, и это должно подтверждаться подписанными документами об отпуске, а не только показаниями свидетелей; при отсутствии таких документов суд выносит решение в пользу работника.",
+        },
+      ],
+      ar: [
+        {
+          q: "هل أنا مشمول بضمان العمل وهل يمكنني رفع دعوى إعادة إلى العمل؟",
+          a: "يمكن رفع دعوى إعادة العامل إلى عمله عندما يُفصَل عامل يعمل بعقد غير محدد المدة، ولديه أقدمية معينة، في منشأة توظّف عدداً معيناً من العمال، دون إبداء سبب صالح. وخلال المهلة القانونية من تاريخ تبليغ إشعار الفصل (عادةً شهر واحد)، يُحال الأمر أولاً إلى الوساطة الإلزامية، وإن تعذّرت التسوية يُرفع إلى محكمة العمل.",
+        },
+        {
+          q: "بصفتي عاملاً أجنبياً، هل لي الحق في تعويض نهاية الخدمة وتعويض الإخطار؟",
+          a: "نعم. يتمتع الأجنبي العامل بعقد عمل خاضع للقانون التركي بناءً على تصريح عمل بالحماية ذاتها الممنوحة للعامل التركي فيما يخص تعويض نهاية الخدمة وتعويض الإخطار. ويُحتسب تعويض نهاية الخدمة عن كل سنة كاملة من العمل على أساس آخر أجر إجمالي شامل؛ إلا أنه في بعض الحالات مثل الاستقالة لا ينشأ عادةً حق في تعويض نهاية الخدمة.",
+        },
+        {
+          q: "هل يمكنني المطالبة بأجر الإجازة السنوية التي لم أستخدمها؟",
+          a: "أياً كان سبب انتهاء عقد العمل، يجب دفع أجر أيام الإجازة السنوية غير المستخدَمة على أساس آخر أجر. ووفقاً للتطبيق المستقر، يقع عبء إثبات منح الإجازة على صاحب العمل، ويجب إثبات ذلك بمستندات إجازة موقّعة لا بشهادة الشهود وحدها؛ وفي غياب هذه المستندات تحكم المحكمة لصالح العامل.",
+        },
+      ],
+      es: [
+        {
+          q: "¿Estoy cubierto por la garantía de empleo y puedo interponer una demanda de readmisión?",
+          a: "Puede interponerse una demanda de readmisión cuando un trabajador con contrato indefinido, con cierta antigüedad, en un centro de trabajo que emplea a un determinado número de trabajadores, es despedido sin que se alegue una causa válida. Dentro del plazo legal desde la notificación del despido (por lo general un mes), el asunto pasa primero a la mediación obligatoria y, si no se alcanza un acuerdo, al juzgado de lo social.",
+        },
+        {
+          q: "Como trabajador extranjero, ¿tengo derecho a indemnización por despido y por preaviso?",
+          a: "Sí. Un extranjero que trabaja con un contrato de trabajo sujeto al derecho turco sobre la base de un permiso de trabajo goza de las mismas protecciones que un trabajador turco en cuanto a la indemnización por despido y por preaviso. La indemnización por despido se calcula sobre el último salario bruto 'vestido' por cada año completo trabajado; en ciertos casos, como la dimisión, por regla general no surge derecho a indemnización.",
+        },
+        {
+          q: "¿Puedo reclamar el pago de las vacaciones anuales que no disfruté?",
+          a: "Cualquiera que sea el motivo de extinción del contrato de trabajo, debe abonarse la retribución de los días de vacaciones anuales no disfrutados sobre el último salario. Según la práctica consolidada, la carga de probar que se concedieron las vacaciones recae en el empleador, y debe acreditarse mediante registros de vacaciones firmados y no solo con testimonios; si no existen tales registros, el tribunal resuelve a favor del trabajador.",
+        },
+      ],
+      fr: [
+        {
+          q: "Suis-je couvert par la protection de l'emploi et puis-je engager une demande de réintégration ?",
+          a: "Une demande de réintégration peut être engagée lorsqu'un salarié travaillant sous contrat à durée indéterminée, disposant d'une certaine ancienneté, dans un établissement employant un certain nombre de salariés, est licencié sans qu'un motif valable soit avancé. Dans le délai légal à compter de la notification du licenciement (en général un mois), l'affaire passe d'abord par la médiation obligatoire puis, à défaut d'accord, devant le tribunal du travail.",
+        },
+        {
+          q: "En tant que salarié étranger, ai-je droit à des indemnités de licenciement et de préavis ?",
+          a: "Oui. Un étranger travaillant sous un contrat de travail régi par le droit turc sur la base d'un permis de travail bénéficie des mêmes protections qu'un travailleur turc en matière d'indemnités de licenciement et de préavis. L'indemnité de licenciement est calculée sur le dernier salaire brut « habillé » pour chaque année complète travaillée ; dans certains cas comme la démission, aucun droit à indemnité ne naît toutefois en règle générale.",
+        },
+        {
+          q: "Puis-je réclamer le paiement des congés annuels que je n'ai pas pris ?",
+          a: "Quelle que soit la cause de la rupture du contrat de travail, la rémunération des jours de congé annuel non pris doit être réglée sur le dernier salaire. Selon la pratique établie, la charge de prouver que les congés ont été accordés incombe à l'employeur, et cela doit être démontré par des registres de congés signés et non par le seul témoignage ; en l'absence de tels documents, le tribunal statue en faveur du salarié.",
+        },
+      ],
+    },
+  },
+  {
+    slug: "fikri-mulkiyet-hukuku",
+    metaTitle: {
+      tr: "Antalya Fikri Mülkiyet Avukatı | Marka Tescili & Telif Hakkı",
+      en: "Antalya Intellectual Property Lawyer | Trademark & Copyright Protection",
+      de: "Anwalt für geistiges Eigentum Antalya | Marken- & Urheberrecht",
+      ru: "Адвокат по интеллектуальной собственности в Анталье | Товарные знаки и авторское право",
+      ar: "محامي الملكية الفكرية في أنطاليا | تسجيل العلامات التجارية وحقوق المؤلف",
+      es: "Abogado de Propiedad Intelectual en Antalya | Marcas y Derechos de Autor",
+      fr: "Avocat en Propriété Intellectuelle à Antalya | Marques et Droit d'Auteur",
+    },
+    metaDescription: {
+      tr: "Antalya'da fikri mülkiyet avukatı olarak marka tescili ve itirazı, telif hakkı (FSEK) ihlalleri, yazılım lisans sözleşmeleri, alan adı uyuşmazlıkları ve fikri mülkiyet due diligence süreçlerinde yerli ve yabancı müvekkillere destek veriyoruz.",
+      en: "As an intellectual property lawyer in Antalya, we assist domestic and foreign clients with trademark registration and opposition, copyright infringement (FSEK), software licensing agreements, domain name disputes, and IP due diligence.",
+      de: "Als Anwalt für geistiges Eigentum in Antalya unterstützen wir in- und ausländische Mandanten bei Markenanmeldung und Widerspruch, Urheberrechtsverletzungen (FSEK), Softwarelizenzverträgen, Domainstreitigkeiten und IP-Due-Diligence.",
+      ru: "Как адвокат по интеллектуальной собственности в Анталье, мы помогаем местным и иностранным клиентам в регистрации и оспаривании товарных знаков, делах о нарушении авторских прав (FSEK), договорах на ПО, доменных спорах и due diligence интеллектуальной собственности.",
+      ar: "بصفتنا محامي ملكية فكرية في أنطاليا، ندعم العملاء المحليين والأجانب في تسجيل العلامات التجارية والاعتراض عليها، وانتهاكات حقوق المؤلف (FSEK)، وعقود البرمجيات، ونزاعات أسماء النطاقات، والعناية الواجبة للملكية الفكرية.",
+      es: "Como abogado de propiedad intelectual en Antalya, asistimos a clientes nacionales y extranjeros en el registro y oposición de marcas, infracciones de derechos de autor (FSEK), contratos de software, disputas de dominios y diligencia debida de propiedad intelectual.",
+      fr: "En tant qu'avocat en propriété intellectuelle à Antalya, nous assistons les clients nationaux et étrangers en matière d'enregistrement et d'opposition de marques, de contrefaçon de droits d'auteur (FSEK), de contrats de logiciels, de litiges de noms de domaine et de due diligence de propriété intellectuelle.",
+    },
+    intro: {
+      tr: "Bir marka, bir yazılım kodu ya da özgün bir tasarım, çoğu teknoloji şirketinin ve yaratıcı girişimin en değerli varlığıdır. Ancak bu varlıkların Türkiye'de hukuken korunması; doğru tescil, sağlam sözleşmeler ve gerektiğinde etkili bir ihlal takibi olmaksızın hızla belirsizleşebilir. Antalya'da fikri mülkiyet avukatı olarak, hem yerli müvekkillerin hem de Türk pazarına giren yabancı teknoloji ve yazılım şirketlerinin fikri haklarını tescilden ihtilafa kadar her aşamada koruyoruz.\n\nMarka tescili ve itiraz süreçleri, 5846 sayılı Fikir ve Sanat Eserleri Kanunu (FSEK) kapsamında telif koruması, 6769 sayılı Sınai Mülkiyet Kanunu uyarınca patent ve tasarım işlemleri, yazılım lisans ve hak devri sözleşmeleri ile .tr alan adı uyuşmazlıkları en sık çalıştığımız konuların başında gelir. Her dosyayı müvekkilin ticari hedefiyle birlikte değerlendirir; korumanın en güçlü ve maliyet açısından en verimli olduğu yolu birlikte belirleriz.",
+      en: "For most technology companies and creative ventures, a trademark, a piece of software code, or an original design is the single most valuable asset. Yet the legal protection of these assets in Turkey can quickly become uncertain without proper registration, sound contracts, and, where necessary, effective enforcement against infringement. As an intellectual property lawyer in Antalya, we protect the IP rights of both domestic clients and foreign technology and software companies entering the Turkish market, at every stage from registration to dispute.\n\nTrademark registration and opposition proceedings, copyright protection under Law No. 5846 on Intellectual and Artistic Works (FSEK), patent and design matters under Law No. 6769 on Industrial Property, software licensing and IP assignment agreements, and .tr domain name disputes are among the matters we handle most frequently. We assess each case alongside the client's commercial objective and, together, identify the path offering the strongest and most cost-effective protection.",
+      de: "Eine Marke, ein Software-Code oder ein originelles Design ist für die meisten Technologieunternehmen und kreativen Gründungen das wertvollste Gut. Der rechtliche Schutz dieser Vermögenswerte in der Türkei kann jedoch ohne die richtige Eintragung, belastbare Verträge und – wo nötig – eine wirksame Verfolgung von Verletzungen rasch unsicher werden. Als Anwalt für geistiges Eigentum in Antalya schützen wir die Immaterialgüterrechte sowohl inländischer Mandanten als auch ausländischer Technologie- und Softwareunternehmen, die in den türkischen Markt eintreten, von der Eintragung bis zum Rechtsstreit.\n\nMarkenanmeldung und Widerspruchsverfahren, urheberrechtlicher Schutz nach dem Gesetz Nr. 5846 über geistige und künstlerische Werke (FSEK), Patent- und Designverfahren nach dem Gesetz Nr. 6769 über gewerbliches Eigentum, Softwarelizenz- und Rechteübertragungsverträge sowie Streitigkeiten um .tr-Domains gehören zu den Themen, mit denen wir am häufigsten befasst sind. Wir beurteilen jeden Fall gemeinsam mit dem geschäftlichen Ziel des Mandanten und bestimmen den Weg, der den stärksten und zugleich kosteneffizientesten Schutz bietet.",
+      ru: "Товарный знак, программный код или оригинальный дизайн — для большинства технологических компаний и креативных стартапов это самый ценный актив. Однако правовая защита этих активов в Турции без надлежащей регистрации, надёжных договоров и, при необходимости, эффективного преследования нарушений может быстро оказаться под вопросом. Как адвокат по интеллектуальной собственности в Анталье, мы защищаем права как местных клиентов, так и иностранных технологических и софтверных компаний, выходящих на турецкий рынок, на всех этапах — от регистрации до судебного спора.\n\nРегистрация товарных знаков и процедуры возражения, защита произведений по закону № 5846 об интеллектуальных и художественных произведениях (FSEK), процедуры по патентам и промышленным образцам согласно закону № 6769 о промышленной собственности, договоры лицензирования и передачи прав на ПО, а также споры по доменам .tr — наиболее частые направления нашей работы. Каждое дело мы рассматриваем вместе с коммерческой целью клиента и определяем путь, обеспечивающий наиболее надёжную и при этом экономически эффективную защиту.",
+      ar: "تُعدّ العلامة التجارية أو الشيفرة البرمجية أو التصميم الأصلي من أثمن أصول معظم شركات التكنولوجيا والمشاريع الإبداعية. غير أن الحماية القانونية لهذه الأصول في تركيا قد تصبح غير مؤكدة بسرعة دون تسجيل صحيح وعقود متينة، وعند الاقتضاء، ملاحقة فعّالة للانتهاكات. وبصفتنا محامي ملكية فكرية في أنطاليا، نحمي الحقوق الفكرية للعملاء المحليين ولشركات التكنولوجيا والبرمجيات الأجنبية الداخلة إلى السوق التركية في كل مرحلة، من التسجيل حتى النزاع القضائي.\n\nتُعدّ إجراءات تسجيل العلامات التجارية والاعتراض عليها، وحماية المصنفات بموجب القانون رقم 5846 بشأن المصنفات الفكرية والفنية (FSEK)، وإجراءات البراءات والتصاميم بموجب القانون رقم 6769 بشأن الملكية الصناعية، وعقود ترخيص البرمجيات ونقل الحقوق، ونزاعات نطاقات .tr، من أكثر الموضوعات التي نتناولها. نقيّم كل ملف مع الهدف التجاري للموكل، ونحدد المسار الذي يوفر الحماية الأقوى والأكثر كفاءة من حيث التكلفة.",
+      es: "Una marca, un código de software o un diseño original constituyen el activo más valioso de la mayoría de las empresas tecnológicas y de los emprendimientos creativos. Sin embargo, la protección jurídica de estos activos en Turquía puede volverse rápidamente incierta sin un registro adecuado, contratos sólidos y, cuando sea necesario, una persecución eficaz de las infracciones. Como abogado de propiedad intelectual en Antalya, protegemos los derechos de propiedad intelectual tanto de clientes nacionales como de empresas tecnológicas y de software extranjeras que entran en el mercado turco, en cada etapa, desde el registro hasta el litigio.\n\nEl registro de marcas y los procedimientos de oposición, la protección de obras conforme a la Ley n.º 5846 de obras intelectuales y artísticas (FSEK), los trámites de patentes y diseños en virtud de la Ley n.º 6769 de propiedad industrial, los contratos de licencia y cesión de software y las disputas por dominios .tr figuran entre los asuntos que tratamos con mayor frecuencia. Evaluamos cada caso junto con el objetivo comercial del cliente y determinamos la vía que ofrece la protección más sólida y a la vez más eficiente en costes.",
+      fr: "Une marque, un code logiciel ou un design original constitue l'actif le plus précieux de la plupart des entreprises technologiques et des projets créatifs. Or, la protection juridique de ces actifs en Turquie peut rapidement devenir incertaine sans un enregistrement approprié, des contrats solides et, le cas échéant, une poursuite efficace des atteintes. En tant qu'avocat en propriété intellectuelle à Antalya, nous protégeons les droits de propriété intellectuelle tant des clients nationaux que des entreprises technologiques et logicielles étrangères qui entrent sur le marché turc, à chaque étape, de l'enregistrement jusqu'au contentieux.\n\nL'enregistrement de marques et les procédures d'opposition, la protection des œuvres au titre de la loi n° 5846 sur les œuvres intellectuelles et artistiques (FSEK), les démarches de brevets et de dessins et modèles au titre de la loi n° 6769 sur la propriété industrielle, les contrats de licence et de cession de logiciels ainsi que les litiges relatifs aux domaines .tr figurent parmi les sujets que nous traitons le plus fréquemment. Nous apprécions chaque dossier au regard de l'objectif commercial du client et déterminons la voie offrant la protection la plus solide et la plus efficiente en termes de coûts.",
+    },
+    services: {
+      tr: [
+        "Marka tescil başvurusu, sınıf araştırması ve TÜRKPATENT nezdinde temsil",
+        "Marka başvurularına itiraz, yayına itiraz ve YİDK süreçlerinin takibi",
+        "Telif hakkı (FSEK) ihlallerinde tespit, men, tazminat ve ihtar süreçleri",
+        "Yazılım lisans, SaaS ve fikri mülkiyet hak devri (temlik) sözleşmelerinin hazırlanması",
+        ".tr alan adı uyuşmazlıkları ve alan adı işgaline (cybersquatting) karşı mücadele",
+        "Patent ve endüstriyel tasarım tescili ile hükümsüzlük davalarında danışmanlık",
+        "Yabancı yatırımcı ve teknoloji şirketleri için fikri mülkiyet due diligence",
+        "Ticari sır ve know-how korunması ile gizlilik (NDA) sözleşmeleri",
+      ],
+      en: [
+        "Trademark registration applications, class searches, and representation before TÜRKPATENT",
+        "Opposition to trademark applications, publication opposition, and Re-examination Board (YİDK) proceedings",
+        "Determination, injunction, damages, and cease-and-desist notices in copyright infringement (FSEK)",
+        "Drafting of software licensing, SaaS, and intellectual property assignment agreements",
+        ".tr domain name disputes and action against cybersquatting",
+        "Counsel on patent and industrial design registration and invalidation actions",
+        "Intellectual property due diligence for foreign investors and technology companies",
+        "Trade secret and know-how protection and confidentiality (NDA) agreements",
+      ],
+      de: [
+        "Markenanmeldung, Klassenrecherche und Vertretung vor dem TÜRKPATENT",
+        "Widerspruch gegen Markenanmeldungen, Veröffentlichungswiderspruch und Verfahren vor der Beschwerdekammer (YİDK)",
+        "Feststellung, Unterlassung, Schadensersatz und Abmahnung bei Urheberrechtsverletzungen (FSEK)",
+        "Erstellung von Softwarelizenz-, SaaS- und Rechteübertragungsverträgen",
+        "Streitigkeiten um .tr-Domains und Vorgehen gegen Domain-Grabbing (Cybersquatting)",
+        "Beratung bei Patent- und Designeintragungen sowie Nichtigkeitsklagen",
+        "IP-Due-Diligence für ausländische Investoren und Technologieunternehmen",
+        "Schutz von Geschäftsgeheimnissen und Know-how sowie Vertraulichkeitsvereinbarungen (NDA)",
+      ],
+      ru: [
+        "Подача заявки на регистрацию товарного знака, поиск по классам и представительство в TÜRKPATENT",
+        "Возражения против заявок на товарные знаки, возражения при публикации и сопровождение процедур в Апелляционной палате (YİDK)",
+        "Установление факта, запрет, возмещение ущерба и досудебные претензии при нарушении авторских прав (FSEK)",
+        "Подготовка договоров лицензирования ПО, SaaS и передачи (уступки) прав интеллектуальной собственности",
+        "Споры по доменам .tr и борьба с захватом доменных имён (киберсквоттингом)",
+        "Консультации по регистрации патентов и промышленных образцов и делам о признании их недействительными",
+        "Due diligence интеллектуальной собственности для иностранных инвесторов и технологических компаний",
+        "Защита коммерческой тайны и ноу-хау, а также соглашения о конфиденциальности (NDA)",
+      ],
+      ar: [
+        "تقديم طلب تسجيل العلامة التجارية والبحث في الفئات والتمثيل أمام TÜRKPATENT",
+        "الاعتراض على طلبات العلامات التجارية والاعتراض عند النشر ومتابعة إجراءات مجلس إعادة النظر (YİDK)",
+        "إثبات الانتهاك والمنع والتعويض والإنذار في انتهاكات حقوق المؤلف (FSEK)",
+        "إعداد عقود ترخيص البرمجيات وخدمات SaaS ونقل (تنازل) حقوق الملكية الفكرية",
+        "نزاعات نطاقات .tr ومكافحة الاستيلاء على أسماء النطاقات (cybersquatting)",
+        "الاستشارة في تسجيل البراءات والتصاميم الصناعية ودعاوى البطلان",
+        "العناية الواجبة للملكية الفكرية للمستثمرين وشركات التكنولوجيا الأجانب",
+        "حماية الأسرار التجارية والمعرفة الفنية واتفاقيات السرية (NDA)",
+      ],
+      es: [
+        "Solicitud de registro de marca, búsqueda por clases y representación ante la TÜRKPATENT",
+        "Oposición a solicitudes de marca, oposición en la publicación y seguimiento de los procedimientos ante la Sala de Recursos (YİDK)",
+        "Constatación, cese, indemnización y requerimiento en infracciones de derechos de autor (FSEK)",
+        "Redacción de contratos de licencia de software, SaaS y cesión de derechos de propiedad intelectual",
+        "Disputas por dominios .tr y lucha contra la ocupación de dominios (cybersquatting)",
+        "Asesoramiento en el registro de patentes y diseños industriales y en acciones de nulidad",
+        "Diligencia debida de propiedad intelectual para inversores y empresas tecnológicas extranjeras",
+        "Protección de secretos comerciales y know-how y acuerdos de confidencialidad (NDA)",
+      ],
+      fr: [
+        "Dépôt de demande d'enregistrement de marque, recherche par classes et représentation devant le TÜRKPATENT",
+        "Opposition aux demandes de marque, opposition à la publication et suivi des procédures devant la chambre de recours (YİDK)",
+        "Constat, cessation, dommages-intérêts et mise en demeure en cas de contrefaçon de droits d'auteur (FSEK)",
+        "Rédaction de contrats de licence de logiciel, de SaaS et de cession de droits de propriété intellectuelle",
+        "Litiges relatifs aux domaines .tr et lutte contre le cybersquatting",
+        "Conseil en enregistrement de brevets et de dessins et modèles et en actions en nullité",
+        "Due diligence de propriété intellectuelle pour les investisseurs et entreprises technologiques étrangers",
+        "Protection des secrets d'affaires et du savoir-faire et accords de confidentialité (NDA)",
+      ],
+    },
+    process: {
+      tr: "Her dosyaya, korunacak fikri hakkın niteliğini ve müvekkilin ticari hedefini analiz ederek başlarız. Marka ve tasarım işlemlerinde önce mevcut tesciller üzerinde araştırma yapar, çakışma ve ret riskini başvuru öncesinde değerlendiririz. Telif ve lisans uyuşmazlıklarında öncelikle ihtar ve sulh yollarını değerlendirir; sonuç alınamadığında TÜRKPATENT nezdindeki idari süreçleri ya da fikri ve sınai haklar hukuk mahkemesindeki davayı yürütürüz. Yabancı müvekkillerimiz sürecin her aşamasında kendi dilinde bilgilendirilir ve karar vermeleri gereken her noktada yanlarında dururuz.",
+      en: "We begin every matter by analysing the nature of the right to be protected and the client's commercial objective. In trademark and design matters, we first conduct a search of existing registrations and assess the risk of conflict and refusal before filing. In copyright and licensing disputes, we first weigh cease-and-desist and amicable settlement routes; where these fail, we pursue administrative proceedings before TÜRKPATENT or litigation before the specialised intellectual and industrial property court. Our foreign clients are kept informed at every stage in their own language, and we stand by them at every decision point.",
+      de: "Wir beginnen jeden Fall mit einer Analyse des zu schützenden Rechts und des geschäftlichen Ziels des Mandanten. Bei Marken- und Designverfahren recherchieren wir zunächst bestehende Eintragungen und bewerten das Kollisions- und Ablehnungsrisiko bereits vor der Anmeldung. Bei Urheberrechts- und Lizenzstreitigkeiten prüfen wir zuerst Abmahnung und gütliche Einigung; bleibt dies erfolglos, führen wir das Verwaltungsverfahren vor dem TÜRKPATENT oder die Klage vor dem Fachgericht für gewerblichen Rechtsschutz und Urheberrecht. Unsere ausländischen Mandanten werden in jeder Phase in ihrer eigenen Sprache informiert, und wir stehen ihnen an jedem Entscheidungspunkt zur Seite.",
+      ru: "Каждое дело мы начинаем с анализа характера защищаемого права и коммерческой цели клиента. По товарным знакам и промышленным образцам мы сначала проводим поиск по существующим регистрациям и оцениваем риск совпадения и отказа ещё до подачи заявки. В спорах об авторских правах и лицензиях мы прежде всего рассматриваем претензионный и мировой путь; если результата достичь не удаётся, ведём административные процедуры в TÜRKPATENT или дело в специализированном суде по правам интеллектуальной и промышленной собственности. Наши иностранные клиенты информируются на каждом этапе на их родном языке, и мы находимся рядом с ними в каждый момент принятия решения.",
+      ar: "نبدأ كل ملف بتحليل طبيعة الحق الفكري المراد حمايته والهدف التجاري للموكل. في إجراءات العلامات التجارية والتصاميم، نجري أولاً بحثاً في التسجيلات القائمة ونقيّم خطر التعارض والرفض قبل تقديم الطلب. وفي نزاعات حقوق المؤلف والتراخيص، نبحث أولاً في سبل الإنذار والتسوية الودية؛ وعند تعذّر النتيجة، نتابع الإجراءات الإدارية أمام TÜRKPATENT أو الدعوى أمام محكمة الحقوق الفكرية والصناعية المتخصصة. ويُبقى موكلونا الأجانب على اطلاع في كل مرحلة بلغتهم الأم، ونقف بجانبهم عند كل نقطة قرار.",
+      es: "Comenzamos cada caso analizando la naturaleza del derecho que se pretende proteger y el objetivo comercial del cliente. En los trámites de marcas y diseños, primero realizamos una búsqueda sobre los registros existentes y evaluamos el riesgo de coincidencia y denegación antes de la solicitud. En las disputas de derechos de autor y de licencias, valoramos en primer lugar la vía del requerimiento y del acuerdo amistoso; si no se obtiene resultado, tramitamos los procedimientos administrativos ante la TÜRKPATENT o la demanda ante el tribunal especializado en derechos de propiedad intelectual e industrial. Mantenemos informados a nuestros clientes extranjeros en cada etapa, en su propio idioma, y les acompañamos en cada punto de decisión.",
+      fr: "Nous commençons chaque dossier par une analyse de la nature du droit à protéger et de l'objectif commercial du client. Pour les démarches de marques et de dessins et modèles, nous effectuons d'abord une recherche sur les enregistrements existants et évaluons le risque de conflit et de rejet avant le dépôt. Pour les litiges de droits d'auteur et de licences, nous privilégions d'abord la mise en demeure et le règlement amiable ; à défaut de résultat, nous conduisons les procédures administratives devant le TÜRKPATENT ou l'action devant le tribunal spécialisé en droits de propriété intellectuelle et industrielle. Nos clients étrangers sont informés à chaque étape dans leur propre langue, et nous les accompagnons à chaque moment de décision.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Markamı Türkiye'de tescil ettirmeden kullanabilir miyim?",
+          a: "Tescilsiz kullanım sınırlı bir koruma sağlar; ancak markanız üzerinde en güçlü ve ülke genelinde geçerli hakkı TÜRKPATENT nezdindeki tescil verir. Tescil, başkalarının aynı ya da benzer markayı almasını engeller ve ihlal halinde hukuki takibi büyük ölçüde kolaylaştırır.",
+        },
+        {
+          q: "Yazılımım Türkiye'de telif hakkıyla korunuyor mu?",
+          a: "Evet. Bilgisayar programları 5846 sayılı FSEK kapsamında eser olarak korunur ve koruma, eserin oluşturulduğu anda kendiliğinden doğar; ayrı bir tescil zorunlu değildir. Yine de sözleşmelerde hak sahipliğinin ve devir kapsamının açıkça düzenlenmesi, ileride doğabilecek uyuşmazlıkları önlemek için kritiktir.",
+        },
+        {
+          q: "Markamı taşıyan .tr alan adını başkası almışsa ne yapabilirim?",
+          a: "Marka ya da ticaret unvanınızla aynı ya da karıştırılabilecek kadar benzer bir alan adı için, İnternet Alan Adları Yönetmeliği'ndeki koşullar sağlanıyorsa uyuşmazlık çözüm sürecine başvurabilir ya da mahkeme yoluna gidebilirsiniz. Alan adını tescil ettirenin o isim üzerinde meşru bir hakkının bulunmaması, talebinizi güçlendiren temel unsurlardan biridir.",
+        },
+      ],
+      en: [
+        {
+          q: "Can I use my trademark in Turkey without registering it?",
+          a: "Unregistered use offers only limited protection; the strongest right in your mark, valid nationwide, is conferred by registration with TÜRKPATENT. Registration prevents others from registering an identical or similar mark and greatly facilitates legal enforcement in the event of infringement.",
+        },
+        {
+          q: "Is my software protected by copyright in Turkey?",
+          a: "Yes. Computer programs are protected as works under Law No. 5846 (FSEK), and protection arises automatically upon creation of the work; no separate registration is required. Nonetheless, clearly regulating ownership and the scope of assignment in your contracts is critical to preventing potential future disputes.",
+        },
+        {
+          q: "What can I do if someone has registered the .tr domain bearing my trademark?",
+          a: "If the domain is identical to your trademark or trade name, or confusingly similar, and the conditions of the Internet Domain Names Regulation are met, you may initiate the dispute resolution procedure or pursue the court route. The registrant's lack of a legitimate right in that name is one of the key factors that strengthen your claim.",
+        },
+      ],
+      de: [
+        {
+          q: "Kann ich meine Marke in der Türkei ohne Eintragung nutzen?",
+          a: "Eine nicht eingetragene Nutzung bietet nur begrenzten Schutz; das stärkste und landesweit geltende Recht an Ihrer Marke verleiht jedoch die Eintragung beim TÜRKPATENT. Die Eintragung verhindert, dass andere eine identische oder ähnliche Marke anmelden, und erleichtert im Verletzungsfall die rechtliche Verfolgung erheblich.",
+        },
+        {
+          q: "Ist meine Software in der Türkei urheberrechtlich geschützt?",
+          a: "Ja. Computerprogramme sind nach dem Gesetz Nr. 5846 (FSEK) als Werke geschützt, und der Schutz entsteht automatisch mit der Schöpfung des Werkes; eine gesonderte Eintragung ist nicht erforderlich. Dennoch ist es entscheidend, die Rechtsinhaberschaft und den Umfang der Übertragung in den Verträgen klar zu regeln, um spätere Streitigkeiten zu vermeiden.",
+        },
+        {
+          q: "Was kann ich tun, wenn jemand die .tr-Domain mit meiner Marke registriert hat?",
+          a: "Für eine Domain, die mit Ihrer Marke oder Ihrem Handelsnamen identisch oder verwechselbar ähnlich ist, können Sie – sofern die Voraussetzungen der Verordnung über Internet-Domainnamen erfüllt sind – das Streitbeilegungsverfahren einleiten oder den Gerichtsweg beschreiten. Dass der Domaininhaber kein berechtigtes Recht an diesem Namen hat, ist einer der zentralen Faktoren, die Ihren Anspruch stärken.",
+        },
+      ],
+      ru: [
+        {
+          q: "Могу ли я использовать товарный знак в Турции без регистрации?",
+          a: "Использование без регистрации даёт лишь ограниченную защиту; наиболее прочное и действующее на всей территории страны право на ваш знак предоставляет регистрация в TÜRKPATENT. Регистрация не позволяет другим зарегистрировать идентичный или сходный знак и значительно облегчает правовое преследование в случае нарушения.",
+        },
+        {
+          q: "Защищено ли моё программное обеспечение авторским правом в Турции?",
+          a: "Да. Компьютерные программы охраняются как произведения по закону № 5846 (FSEK), и охрана возникает автоматически в момент создания произведения; отдельная регистрация не требуется. Тем не менее чёткое закрепление в договорах правообладания и объёма передачи прав крайне важно для предотвращения возможных будущих споров.",
+        },
+        {
+          q: "Что делать, если кто-то зарегистрировал домен .tr с моим товарным знаком?",
+          a: "Если домен идентичен вашему товарному знаку или торговому наименованию либо сходен с ним до степени смешения, при соблюдении условий Положения об интернет-доменных именах вы можете инициировать процедуру разрешения спора или обратиться в суд. Отсутствие у владельца домена законного права на это наименование — один из ключевых факторов, усиливающих ваше требование.",
+        },
+      ],
+      ar: [
+        {
+          q: "هل يمكنني استخدام علامتي التجارية في تركيا دون تسجيل؟",
+          a: "يوفّر الاستخدام غير المسجَّل حماية محدودة؛ أما الحق الأقوى والساري في جميع أنحاء البلاد على علامتك فيمنحه التسجيل لدى TÜRKPATENT. يمنع التسجيل الآخرين من تسجيل علامة مطابقة أو مشابهة، ويُسهّل الملاحقة القانونية إلى حد كبير في حال الانتهاك.",
+        },
+        {
+          q: "هل برمجياتي محمية بحقوق المؤلف في تركيا؟",
+          a: "نعم. تُحمى برامج الحاسوب بوصفها مصنفات بموجب القانون رقم 5846 (FSEK)، وتنشأ الحماية تلقائياً لحظة إنشاء المصنف؛ ولا يُشترط تسجيل منفصل. ومع ذلك، فإن التنظيم الواضح لملكية الحقوق ونطاق النقل في العقود أمر بالغ الأهمية لتفادي النزاعات المحتملة مستقبلاً.",
+        },
+        {
+          q: "ماذا أفعل إذا سجّل شخص آخر نطاق .tr الذي يحمل علامتي التجارية؟",
+          a: "إذا كان النطاق مطابقاً لعلامتك التجارية أو اسمك التجاري أو مشابهاً له إلى حد يثير اللبس، وتحققت شروط لائحة أسماء نطاقات الإنترنت، يمكنك اللجوء إلى إجراءات حل النزاع أو إلى القضاء. ويُعدّ عدم وجود حق مشروع لمسجِّل النطاق على ذلك الاسم من العوامل الأساسية التي تعزز مطالبتك.",
+        },
+      ],
+      es: [
+        {
+          q: "¿Puedo usar mi marca en Turquía sin registrarla?",
+          a: "El uso no registrado ofrece una protección limitada; en cambio, el derecho más sólido y válido en todo el país sobre su marca lo confiere el registro ante la TÜRKPATENT. El registro impide que otros registren una marca idéntica o similar y facilita considerablemente la persecución legal en caso de infracción.",
+        },
+        {
+          q: "¿Está protegido mi software por derechos de autor en Turquía?",
+          a: "Sí. Los programas de ordenador están protegidos como obras conforme a la Ley n.º 5846 (FSEK), y la protección surge automáticamente en el momento de la creación de la obra; no se exige un registro independiente. No obstante, regular con claridad en los contratos la titularidad de los derechos y el alcance de la cesión es fundamental para prevenir posibles disputas futuras.",
+        },
+        {
+          q: "¿Qué puedo hacer si otra persona ha registrado el dominio .tr con mi marca?",
+          a: "Si el dominio es idéntico a su marca o nombre comercial, o similar hasta el punto de generar confusión, y se cumplen los requisitos del Reglamento de nombres de dominio de internet, puede iniciar el procedimiento de resolución de disputas o acudir a la vía judicial. Que el titular del dominio no tenga un derecho legítimo sobre ese nombre es uno de los factores clave que refuerzan su reclamación.",
+        },
+      ],
+      fr: [
+        {
+          q: "Puis-je utiliser ma marque en Turquie sans l'enregistrer ?",
+          a: "L'usage non enregistré n'offre qu'une protection limitée ; c'est en revanche l'enregistrement auprès du TÜRKPATENT qui confère le droit le plus solide et valable sur l'ensemble du territoire. L'enregistrement empêche des tiers de déposer une marque identique ou similaire et facilite considérablement la poursuite juridique en cas d'atteinte.",
+        },
+        {
+          q: "Mon logiciel est-il protégé par le droit d'auteur en Turquie ?",
+          a: "Oui. Les programmes d'ordinateur sont protégés en tant qu'œuvres au titre de la loi n° 5846 (FSEK), et la protection naît automatiquement dès la création de l'œuvre ; aucun enregistrement distinct n'est exigé. Il demeure néanmoins essentiel de régler clairement dans les contrats la titularité des droits et l'étendue de la cession afin de prévenir d'éventuels litiges futurs.",
+        },
+        {
+          q: "Que puis-je faire si quelqu'un a enregistré le domaine .tr portant ma marque ?",
+          a: "Si le domaine est identique à votre marque ou à votre nom commercial, ou similaire au point de prêter à confusion, et que les conditions du règlement sur les noms de domaine internet sont réunies, vous pouvez engager la procédure de règlement des litiges ou saisir la voie judiciaire. L'absence de droit légitime du titulaire du domaine sur ce nom est l'un des facteurs déterminants qui renforcent votre demande.",
+        },
+      ],
+    },
+  },
 ];
 
 export function getPracticeAreaContent(slug: string): PracticeAreaContent | undefined {

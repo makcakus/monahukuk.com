@@ -1,4 +1,4 @@
-import { Globe, Home, ShieldAlert, Users, Scale, Cpu, Briefcase, FileText, HardHat, Building2, Key, ArrowRight } from "lucide-react";
+import { Globe, Home, ShieldAlert, Users, Scale, Cpu, Briefcase, FileText, HardHat, Building2, Key, Copyright, ArrowRight } from "lucide-react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
@@ -17,6 +17,7 @@ const ICONS: Record<string, React.ReactNode> = {
   HardHat: <HardHat size={22} />,
   Building2: <Building2 size={22} />,
   Key: <Key size={22} />,
+  Copyright: <Copyright size={22} />,
 };
 
 export async function generateMetadata({

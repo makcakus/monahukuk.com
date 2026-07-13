@@ -12,7 +12,10 @@ export type PracticeIconKey =
   | "Briefcase"
   | "FileText"
   | "Building2"
-  | "Key";
+  | "Key"
+  | "Scale"
+  | "HardHat"
+  | "Copyright";
 
 export type PracticeArea = {
   slug: string;
@@ -223,6 +226,72 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       ar: "نرفع الطعون أمام المحاكم الإدارية ضد رفض التأشيرات وإلغاء تصاريح الإقامة وقرارات الترحيل وغيرها من الإجراءات الإدارية. نسعى بنشاط إلى إلغاء القرارات الإدارية غير المشروعة ونحمي حقوق المواطنين الأجانب أمام السلطات العامة.",
       es: "Tramitamos recursos ante tribunales administrativos contra denegaciones de visado, cancelaciones de permisos de residencia, decisiones de deportación y otros actos administrativos. Luchamos activamente por la anulación de decisiones administrativas ilegales, defendiendo los derechos de los extranjeros ante las autoridades públicas.",
       fr: "Nous conduisons des recours devant les tribunaux administratifs contre les refus de visa, les annulations de permis de séjour, les décisions d'expulsion et autres actes administratifs. Nous nous battons activement pour l'annulation des décisions administratives illégales, défendant les droits des ressortissants étrangers devant les autorités publiques.",
+    },
+  },
+  {
+    slug: "ceza-hukuku",
+    icon: "Scale",
+    title: {
+      tr: "Ceza Hukuku",
+      en: "Criminal Law",
+      de: "Strafrecht",
+      ru: "Уголовное право",
+      ar: "قانون العقوبات",
+      es: "Derecho Penal",
+      fr: "Droit pénal",
+    },
+    description: {
+      tr: "Türkiye'de ceza soruşturması ve kovuşturmasının her aşamasında yabancı uyruklu ve Türk müvekkillerin haklarını savunuyoruz — karakoldaki ilk ifadeden üst mahkemelerdeki kanun yollarına kadar. Antalya'daki ceza avukatlarımız tutuklama ve adli kontrol itirazları, beyaz yaka ve şirket sorumluluğu, mal varlığı dondurma itirazları ile tercüman ve konsolosluk haklarının korunması konularında hizmet verir. Her dosyayı ölçülü ve delile dayalı bir strateji ile yönetiyoruz.",
+      en: "We defend the rights of foreign nationals and Turkish clients at every stage of criminal proceedings in Turkey — from the first statement at the police station to appeals before the higher courts. Our criminal defence lawyers in Antalya handle detention and judicial control challenges, white-collar and corporate liability, asset-freeze objections, and the protection of interpreter and consular rights. We manage each case with a measured, evidence-focused strategy.",
+      de: "Wir verteidigen die Rechte ausländischer Staatsangehöriger und türkischer Mandanten in jeder Phase eines Strafverfahrens in der Türkei — von der ersten Aussage auf der Polizeiwache bis zu den Rechtsmitteln vor den höheren Gerichten. Unsere Strafverteidiger in Antalya befassen sich mit Einwänden gegen Untersuchungshaft und Justizkontrolle, mit Wirtschafts- und Organhaftung, mit Einsprüchen gegen Vermögenssperren sowie mit dem Schutz des Dolmetscher- und Konsularrechts. Jeden Fall bearbeiten wir mit einer besonnenen, beweisorientierten Strategie.",
+      ru: "Мы защищаем права иностранных граждан и турецких клиентов на каждом этапе уголовного процесса в Турции — от первого допроса в полиции до обжалования в вышестоящих судах. Наши адвокаты по уголовным делам в Анталье занимаются оспариванием заключения под стражу и мер судебного контроля, вопросами беловоротничковой и корпоративной ответственности, обжалованием заморозки активов, а также защитой прав на переводчика и консульское уведомление. Каждое дело мы ведём взвешенно и с опорой на доказательства.",
+      ar: "ندافع عن حقوق المواطنين الأجانب والعملاء الأتراك في كل مرحلة من مراحل الإجراءات الجنائية في تركيا — من أول إفادة في مركز الشرطة وحتى الطعون أمام المحاكم العليا. يتولى محامو الدفاع الجنائي لدينا في أنطاليا الطعن في قرارات التوقيف والرقابة القضائية، ومسائل مسؤولية ذوي الياقات البيضاء والمديرين، والاعتراض على تجميد الأموال، وحماية حقوق الترجمة والإبلاغ القنصلي. ندير كل قضية باستراتيجية متزنة تستند إلى الأدلة.",
+      es: "Defendemos los derechos de los extranjeros y de los clientes turcos en cada etapa del proceso penal en Turquía, desde la primera declaración en la comisaría hasta los recursos ante los tribunales superiores. Nuestros abogados penalistas en Antalya se ocupan de las impugnaciones de la prisión provisional y del control judicial, de la responsabilidad de directivos y de cuello blanco, de las objeciones al congelamiento de activos y de la protección de los derechos a intérprete y a notificación consular. Gestionamos cada caso con una estrategia mesurada y basada en las pruebas.",
+      fr: "Nous défendons les droits des ressortissants étrangers et des clients turcs à chaque étape de la procédure pénale en Turquie — de la première déclaration au commissariat jusqu'aux voies de recours devant les juridictions supérieures. Nos avocats pénalistes à Antalya traitent les contestations de la détention provisoire et du contrôle judiciaire, la responsabilité des dirigeants et la délinquance en col blanc, les oppositions au gel des avoirs ainsi que la protection des droits à l'interprète et à la notification consulaire. Nous menons chaque dossier avec une stratégie mesurée et fondée sur les preuves.",
+    },
+  },
+  {
+    slug: "is-hukuku",
+    icon: "HardHat",
+    title: {
+      tr: "İş Hukuku",
+      en: "Labour Law",
+      de: "Arbeitsrecht",
+      ru: "Трудовое право",
+      ar: "قانون العمل",
+      es: "Derecho Laboral",
+      fr: "Droit du travail",
+    },
+    description: {
+      tr: "Türkiye'de çalışan yabancı ve yerli çalışanlar ile onları istihdam eden şirketler için iş hukuku uyuşmazlıklarının tamamını yürütüyoruz. İşe iade davaları, kıdem ve ihbar tazminatı alacakları, fazla mesai ve yıllık izin uyuşmazlıkları, iş sözleşmesi hazırlığı ve mobbing iddialarında Antalya'da deneyimli iş hukuku avukatıyla yanınızdayız.",
+      en: "We handle the full range of labour law disputes for foreign and local employees, as well as the companies that employ them. Our experienced labour lawyers in Antalya assist with reinstatement claims, severance and notice pay disputes, overtime and annual leave matters, employment contract drafting, and workplace harassment claims.",
+      de: "Wir bearbeiten das gesamte Spektrum arbeitsrechtlicher Streitigkeiten für ausländische und einheimische Arbeitnehmer sowie für die Unternehmen, die sie beschäftigen. Unsere erfahrenen Arbeitsrechtsanwälte in Antalya unterstützen bei Wiedereinstellungsklagen, Streitigkeiten über Abfindungen und Kündigungsentschädigungen, Fragen zu Überstunden und Jahresurlaub, der Gestaltung von Arbeitsverträgen sowie bei Mobbingklagen.",
+      ru: "Мы ведём весь спектр трудовых споров для иностранных и местных работников, а также для нанимающих их компаний. Наши опытные адвокаты по трудовому праву в Анталье помогают в делах о восстановлении на работе, спорах о выходном пособии и компенсации за уведомление, вопросах сверхурочной работы и ежегодного отпуска, составлении трудовых договоров и жалобах на притеснения на рабочем месте.",
+      ar: "نتولى النطاق الكامل لنزاعات قانون العمل لصالح الموظفين الأجانب والمحليين وكذلك الشركات التي توظفهم. يساعد محامو قانون العمل المتمرسون لدينا في أنطاليا في دعاوى إعادة العامل إلى عمله ونزاعات تعويض نهاية الخدمة وتعويض الإخطار ومسائل العمل الإضافي والإجازة السنوية وصياغة عقود العمل ودعاوى التحرش في مكان العمل.",
+      es: "Gestionamos toda la gama de disputas de derecho laboral para trabajadores extranjeros y locales, así como para las empresas que los emplean. Nuestros experimentados abogados laboralistas en Antalya asisten en demandas de readmisión, disputas de indemnización por despido y por preaviso, cuestiones de horas extraordinarias y vacaciones anuales, redacción de contratos de trabajo y reclamaciones por acoso laboral.",
+      fr: "Nous traitons l'ensemble des litiges de droit du travail pour les salariés étrangers et locaux, ainsi que pour les entreprises qui les emploient. Nos avocats en droit du travail expérimentés à Antalya interviennent dans les demandes de réintégration, les litiges relatifs aux indemnités de licenciement et de préavis, les questions d'heures supplémentaires et de congés annuels, la rédaction de contrats de travail et les réclamations pour harcèlement au travail.",
+    },
+  },
+  {
+    slug: "fikri-mulkiyet-hukuku",
+    icon: "Copyright",
+    title: {
+      tr: "Fikri Mülkiyet Hukuku",
+      en: "Intellectual Property Law",
+      de: "Recht des geistigen Eigentums",
+      ru: "Право интеллектуальной собственности",
+      ar: "قانون الملكية الفكرية",
+      es: "Derecho de Propiedad Intelectual",
+      fr: "Droit de la Propriété Intellectuelle",
+    },
+    description: {
+      tr: "Marka tescili ve itiraz süreçlerinden telif hakkı ihlallerine, yazılım lisans ve hak devri sözleşmelerinden alan adı uyuşmazlıklarına kadar tüm Fikri Mülkiyet Hukuku hizmetlerini sunuyoruz. TÜRKPATENT nezdinde marka, patent ve tasarım işlemleri, FSEK kapsamında eser koruması ve yabancı teknoloji şirketleri için fikri mülkiyet due diligence süreçlerinde Antalya'da yanınızdayız.",
+      en: "We provide the full range of intellectual property law services — from trademark registration and opposition proceedings to copyright infringement disputes, software licensing and IP assignment agreements, and domain name disputes. In Antalya we support trademark, patent, and design matters before TÜRKPATENT, copyright protection under the FSEK, and intellectual property due diligence for foreign technology companies.",
+      de: "Von der Markenanmeldung und Widerspruchsverfahren über Urheberrechtsverletzungen bis zu Softwarelizenz- und Rechteübertragungsverträgen sowie Domainstreitigkeiten bieten wir sämtliche Leistungen im Recht des geistigen Eigentums. Wir begleiten Sie in Antalya bei Marken-, Patent- und Designverfahren vor dem TÜRKPATENT, beim urheberrechtlichen Werkschutz nach dem FSEK und bei der IP-Due-Diligence für ausländische Technologieunternehmen.",
+      ru: "Мы оказываем полный спектр услуг в области права интеллектуальной собственности — от регистрации товарных знаков и процедур возражения до споров о нарушении авторских прав, договоров лицензирования и передачи прав на программное обеспечение, а также споров по доменным именам. В Анталье мы сопровождаем регистрацию товарных знаков, патентов и промышленных образцов в TÜRKPATENT, защиту произведений по закону FSEK и due diligence интеллектуальной собственности для иностранных технологических компаний.",
+      ar: "نقدم خدمات قانون الملكية الفكرية كاملةً — من تسجيل العلامات التجارية وإجراءات الاعتراض إلى نزاعات انتهاك حقوق المؤلف، ومن عقود ترخيص البرمجيات ونقل الحقوق إلى نزاعات أسماء النطاقات. في أنطاليا نرافقكم في إجراءات العلامات التجارية والبراءات والتصاميم أمام TÜRKPATENT، وحماية المصنفات بموجب قانون FSEK، والعناية الواجبة للملكية الفكرية لشركات التكنولوجيا الأجنبية.",
+      es: "Ofrecemos todos los servicios de derecho de propiedad intelectual, desde el registro de marcas y los procedimientos de oposición hasta las disputas por infracción de derechos de autor, los contratos de licencia y cesión de software y los conflictos de nombres de dominio. En Antalya le acompañamos en los trámites de marcas, patentes y diseños ante la TÜRKPATENT, en la protección de obras conforme a la ley FSEK y en la diligencia debida de propiedad intelectual para empresas tecnológicas extranjeras.",
+      fr: "Nous proposons l'ensemble des services en droit de la propriété intellectuelle, de l'enregistrement de marques et des procédures d'opposition aux litiges relatifs à la contrefaçon de droits d'auteur, en passant par les contrats de licence et de cession de logiciels et les litiges de noms de domaine. À Antalya, nous vous accompagnons dans les démarches de marques, brevets et dessins et modèles devant le TÜRKPATENT, dans la protection des œuvres selon la loi FSEK et dans la due diligence de propriété intellectuelle pour les entreprises technologiques étrangères.",
     },
   },
 ];

@@ -28,17 +28,8 @@ export default async function ArticlesPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("articles");
-  const HIDDEN_CATEGORIES = new Set([
-    // Criminal Law — all locale variants
-    "Criminal Law", "Strafrecht", "Ceza Hukuku", "Уголовное право",
-    "قانون العقوبات", "Derecho Penal", "Droit pénal",
-    // Labour Law — all locale variants
-    "Labour Law", "Arbeitsrecht", "İş Hukuku", "Трудовое право",
-    "قانون العمل", "Derecho Laboral", "Droit du travail",
-  ]);
 
-  const rawIndex = await getArticleSearchIndex(locale);
-  const index = rawIndex.filter((a) => !HIDDEN_CATEGORIES.has(a.category?.trim() ?? ""));
+  const index = await getArticleSearchIndex(locale);
 
   const byCategory = new Map<string, typeof index>();
   for (const a of index) {
