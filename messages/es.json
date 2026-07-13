@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "MONA HUKUK",
-    "tagline": "Bufete de Abogados en Antalya | Abogacía y Asesoría Legal",
+    "tagline": "Bufete de Abogados en Antalya | Asesoría Legal y Representación Judicial",
     "description": "Representamos a clientes turcos y extranjeros en Antalya en inglés y turco. Equipo experimentado para todas sus necesidades legales."
   },
   "nav": {
@@ -24,7 +24,7 @@
     "hero": {
       "kicker": "Antalya · Turquía",
       "title": "MONA HUKUK",
-      "lead": "Con sede en Antalya, nuestro bufete cuenta con más de una década de experiencia profesional y un equipo de especialistas para prestar servicios de asesoría jurídica y representación ante los tribunales.",
+      "lead": "Con sede en Antalya, nuestro bufete cuenta con más de una década de experiencia profesional y un equipo experimentado para prestar servicios de asesoría jurídica y representación ante los tribunales.",
       "imageAlt": "Antalya — playa de Konyaaltı, montes Tauro y panorama de la ciudad"
     },
     "practiceIntro": "Nuestro despacho, con sede en Antalya, ofrece asesoramiento jurídico integral y representación procesal a particulares y empresas. Con más de diez años de experiencia profesional, evaluamos cada caso según sus propias circunstancias y adoptamos un enfoque orientado a la solución, transparente y meticuloso en la gestión de cada asunto.",
@@ -85,7 +85,7 @@
   },
   "practiceAreas": {
     "title": "Áreas de práctica",
-    "lead": "Nos especializamos en los asuntos que más frecuentemente ponen en contacto a extranjeros y empresas internacionales con el sistema jurídico turco.",
+    "lead": "Nos centramos en los asuntos que más frecuentemente ponen en contacto a extranjeros y empresas internacionales con el sistema jurídico turco.",
     "comingSoon": "Las páginas detalladas de las áreas de práctica se publicarán próximamente.",
     "backToList": "Todas las áreas de práctica",
     "servicesTitle": "Servicios que ofrecemos",
@@ -99,7 +99,7 @@
   "team": {
     "title": "Nuestro equipo",
     "lead": "Un equipo pequeño y sénior de abogados comprometidos con los clientes internacionales.",
-    "intro": "MONA HUKUK representa a clientes extranjeros en sus asuntos jurídicos en Turquía a través de un equipo de abogados experimentados registrados en el Colegio de Abogados turco. Nuestro equipo trabaja en un amplio abanico de especialidades que incluye inmuebles, ciudadanía, derecho de familia, defensa penal, derecho mercantil, herencias y conflictos administrativos.",
+    "intro": "MONA HUKUK representa a clientes extranjeros en sus asuntos jurídicos en Turquía a través de un equipo de abogados experimentados registrados en el Colegio de Abogados turco. Nuestro equipo trabaja en un amplio abanico de áreas de práctica que incluye inmuebles, ciudadanía, derecho de familia, defensa penal, derecho mercantil, herencias y conflictos administrativos.",
     "labelEducation": "Formación",
     "labelBar": "Colegio",
     "labelAreas": "Áreas de práctica",

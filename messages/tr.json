@@ -1,7 +1,7 @@
 {
   "site": {
     "name": "MONA HUKUK",
-    "tagline": "Antalya Avukat | Avukatlık ve Hukuki Danışmanlık",
+    "tagline": "Antalya Avukatlık Bürosu | Hukuki Danışmanlık ve Dava Takibi",
     "description": "Antalya'da yerli ve yabancı müvekkillere Türkçe ve İngilizce hukuki danışmanlık ve dava takibi hizmeti sunuyoruz. Deneyimli ekibimizle her hukuki ihtiyacınızda yanınızdayız."
   },
   "nav": {
@@ -22,9 +22,9 @@
   },
   "home": {
     "hero": {
-      "kicker": "Antalya Avukatı · Türkiye",
+      "kicker": "Antalya · Türkiye",
       "title": "MONA HUKUK",
-      "lead": "Antalya'da faaliyet gösteren avukatlık büromuz, on yılı aşan mesleki birikimi ve alanında uzmanlaşmış kadrosuyla bireylere ve şirketlere hukuki danışmanlık ve dava takip hizmetleri sunmaktadır.",
+      "lead": "Antalya'da faaliyet gösteren avukatlık büromuz, on yılı aşan mesleki birikimi ve deneyimli kadrosuyla bireylere ve şirketlere hukuki danışmanlık ve dava takip hizmetleri sunmaktadır.",
       "imageAlt": "Antalya — Konyaaltı sahili, Toros Dağları ve şehir manzarası"
     },
     "practiceIntro": "Antalya merkezli büromuz, bireylere ve şirketlere kapsamlı hukuki danışmanlık ve dava takip hizmeti sunmaktadır. On yılı aşan mesleki deneyimimizle her dosyayı kendi koşulları içinde değerlendirir; çözüm odaklı, şeffaf ve titiz bir süreç yönetimi anlayışıyla çalışırız.",
@@ -99,7 +99,7 @@
   "team": {
     "title": "Ekibimiz",
     "lead": "Uluslararası müvekkillere odaklanmış küçük ve kıdemli bir avukat ekibi.",
-    "intro": "MONA HUKUK, Türkiye'de baroya kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, Aile Hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir uzmanlık yelpazesinde hizmet vermektedir.",
+    "intro": "MONA HUKUK, Türkiye'de baroya kayıtlı deneyimli avukatlardan oluşan bir ekiple yabancı uyruklu müvekkillerin Türkiye'deki hukuki süreçlerini yönetmektedir. Ekibimiz; gayrimenkul, vatandaşlık, Aile Hukuku, ceza savunması, ticaret, miras ve idari uyuşmazlıklar dahil geniş bir çalışma alanı yelpazesinde hizmet vermektedir.",
     "labelEducation": "Eğitim",
     "labelBar": "Baro",
     "labelAreas": "Çalışma Alanları",
