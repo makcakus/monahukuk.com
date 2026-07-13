@@ -41,14 +41,14 @@ export function NewsletterBanner() {
   return (
     <div className="my-10 rounded-2xl px-8 py-8 bg-gold-400">
       <div className="mx-auto max-w-lg">
-        <p className="text-sm font-semibold uppercase tracking-[0.14em] text-gray-900 mb-1">
+        <p className="text-sm font-semibold uppercase tracking-[0.14em] text-navy-950 mb-1">
           {t("kicker")}
         </p>
-        <h2 className="font-display text-2xl text-gray-900 leading-snug mb-3">
+        <h2 className="font-display text-2xl text-navy-950 leading-snug mb-3">
           {t("title")}
         </h2>
 
-        <p className="text-sm text-gray-800 mb-6 leading-relaxed">{t("body")}</p>
+        <p className="text-sm text-navy-900 mb-6 leading-relaxed">{t("body")}</p>
 
         <form action={formAction} className="space-y-3">
           <input type="hidden" name="locale" value={locale} />
@@ -59,12 +59,12 @@ export function NewsletterBanner() {
               required
               autoComplete="email"
               placeholder={t("placeholder")}
-              className="flex-1 rounded-lg border border-[#e8a882] bg-white px-4 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
+              className="flex-1 rounded-lg border border-navy-300 bg-white px-4 py-2.5 text-sm text-navy-950 placeholder:text-navy-400 focus:outline-none focus:ring-2 focus:ring-navy-700 focus:border-transparent transition"
             />
             <button
               type="submit"
               disabled={isPending}
-              className="shrink-0 rounded-lg bg-orange-500 px-6 py-2.5 text-sm font-medium text-white hover:bg-orange-600 disabled:opacity-60 transition-colors"
+              className="shrink-0 rounded-lg bg-navy-900 px-6 py-2.5 text-sm font-medium text-cream-50 hover:bg-navy-800 disabled:opacity-60 transition-colors"
             >
               {isPending ? t("submitting") : t("button")}
             </button>
@@ -75,9 +75,9 @@ export function NewsletterBanner() {
               type="checkbox"
               name="consent"
               required
-              className="mt-0.5 shrink-0 accent-orange-500"
+              className="mt-0.5 shrink-0 accent-navy-700"
             />
-            <span className="text-xs text-gray-700 leading-relaxed">{t("consent")}</span>
+            <span className="text-xs text-navy-800 leading-relaxed">{t("consent")}</span>
           </label>
 
           {state?.status === "error" && (
