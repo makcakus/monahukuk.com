@@ -42,15 +42,13 @@ export default async function ArticlesPage({
   const seen = new Set<string>();
   for (const area of PRACTICE_AREAS) {
     const title = pickPA(area.title, locale);
-    if (byCategory.has(title)) {
-      groups.push({
-        category: title,
-        iconKey: area.icon,
-        practiceSlug: area.slug,
-        items: byCategory.get(title)!,
-      });
-      seen.add(title);
-    }
+    groups.push({
+      category: title,
+      iconKey: area.icon,
+      practiceSlug: area.slug,
+      items: byCategory.get(title) ?? [],
+    });
+    seen.add(title);
   }
   for (const cat of byCategory.keys()) {
     if (!seen.has(cat)) {
