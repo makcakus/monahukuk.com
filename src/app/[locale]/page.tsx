@@ -60,6 +60,13 @@ function HomeContent() {
             <p className="mt-6 text-ink-soft leading-relaxed">
               {t("foreignClients.lead")}
             </p>
+            <Link
+              href="/remote-representation"
+              className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold-700 hover:text-gold-800 underline decoration-gold-400 underline-offset-4"
+            >
+              {t("foreignClients.remoteLink")}
+              <ArrowRight size={15} className="shrink-0 rtl:rotate-180" />
+            </Link>
           </div>
           <ul className="space-y-4 pt-2">
             {[

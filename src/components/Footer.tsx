@@ -29,6 +29,7 @@ export function Footer() {
             <li><Link href="/about" className="hover:text-gold-300 block truncate max-w-full">{t("about")}</Link></li>
             <li><Link href="/team" className="hover:text-gold-300 block truncate max-w-full">{t("team")}</Link></li>
             <li><Link href="/practice-areas" className="hover:text-gold-300 block truncate max-w-full">{t("practiceAreas")}</Link></li>
+            <li><Link href="/remote-representation" className="hover:text-gold-300 block truncate max-w-full">{t("remoteRepresentation")}</Link></li>
             <li><Link href="/articles" className="hover:text-gold-300 block truncate max-w-full">{t("articles")}</Link></li>
             {showLegalNews && (
               <li><Link href="/legal-news" className="hover:text-gold-300 block truncate max-w-full">{t("legalNews")}</Link></li>

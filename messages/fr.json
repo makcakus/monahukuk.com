@@ -9,6 +9,7 @@
     "about": "À propos",
     "team": "Notre équipe",
     "practiceAreas": "Domaines de pratique",
+    "remoteRepresentation": "Représentation à distance",
     "articles": "Articles juridiques",
     "legalNews": "Actualités juridiques",
     "contact": "Contact",
@@ -35,7 +36,8 @@
       "item2": "Traitement des permis de séjour temporaires et permanents",
       "item3": "Conseil juridique et assistance administrative pour l'acquisition de biens mobiliers et immobiliers en Turquie",
       "item4": "Représentation auprès des services cadastraux, notariaux et des administrations compétentes",
-      "item5": "Reconnaissance et exécution en Turquie de décisions rendues par des juridictions étrangères"
+      "item5": "Reconnaissance et exécution en Turquie de décisions rendues par des juridictions étrangères",
+      "remoteLink": "Comment fonctionne la représentation par procuration sans se rendre en Turquie ?"
     },
     "approach": {
       "title": "Notre approche",

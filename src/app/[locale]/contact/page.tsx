@@ -86,11 +86,11 @@ export default async function ContactPage({
         </ul>
 
         <div className="mt-12">
-          <BookingSection />
+          <ContactForm subjects={subjects} />
         </div>
 
         <div className="mt-12">
-          <ContactForm subjects={subjects} />
+          <BookingSection />
         </div>
 
         <div className="mt-12 overflow-hidden rounded-xl border border-cream-200 shadow-sm">

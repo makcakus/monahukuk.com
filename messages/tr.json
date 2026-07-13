@@ -9,6 +9,7 @@
     "about": "Hakkımızda",
     "team": "Ekibimiz",
     "practiceAreas": "Çalışma Alanları",
+    "remoteRepresentation": "Uzaktan Temsil",
     "articles": "Hukuki Makaleler",
     "legalNews": "Hukuki Haberler",
     "contact": "İletişim",
@@ -35,7 +36,8 @@
       "item2": "Kısa ve uzun dönem İkamet İzni işlemleri",
       "item3": "Türkiye'de taşınır ve taşınmaz mülk edinimine ilişkin hukuki danışmanlık ve bürokratik süreçlerde yardım",
       "item4": "Tapu, noter ve ilgili resmi kurumlar nezdinde temsil",
-      "item5": "Yabancı mahkemelerde verilen kararların Türk mahkemeleri nezdinde tanınması ve tenfizi"
+      "item5": "Yabancı mahkemelerde verilen kararların Türk mahkemeleri nezdinde tanınması ve tenfizi",
+      "remoteLink": "Türkiye'ye gelmeden vekâletname ile temsil nasıl işler?"
     },
     "approach": {
       "title": "Çalışma Anlayışımız",

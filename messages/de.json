@@ -9,6 +9,7 @@
     "about": "Über uns",
     "team": "Unser Team",
     "practiceAreas": "Rechtsgebiete",
+    "remoteRepresentation": "Vertretung per Vollmacht",
     "articles": "Rechtsartikel",
     "legalNews": "Rechtsnachrichten",
     "contact": "Kontakt",
@@ -35,7 +36,8 @@
       "item2": "Kurz- und langfristige Aufenthaltserlaubnisverfahren",
       "item3": "Rechtsberatung und Unterstützung bei bürokratischen Verfahren im Zusammenhang mit dem Erwerb von beweglichem und unbeweglichem Vermögen in der Türkei",
       "item4": "Vertretung vor dem Grundbuchamt, Notaren und zuständigen Behörden",
-      "item5": "Anerkennung und Vollstreckung ausländischer Gerichtsentscheidungen vor türkischen Gerichten"
+      "item5": "Anerkennung und Vollstreckung ausländischer Gerichtsentscheidungen vor türkischen Gerichten",
+      "remoteLink": "Wie funktioniert die Vertretung per Vollmacht ohne Anreise in die Türkei?"
     },
     "approach": {
       "title": "Unser Ansatz",

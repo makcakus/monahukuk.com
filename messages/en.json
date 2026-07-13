@@ -9,6 +9,7 @@
     "about": "About Us",
     "team": "Our Team",
     "practiceAreas": "Practice Areas",
+    "remoteRepresentation": "Remote Representation",
     "articles": "Legal Articles",
     "legalNews": "Legal News",
     "contact": "Contact",
@@ -35,7 +36,8 @@
       "item2": "Short-term and long-term Residence Permit processes",
       "item3": "Legal counsel and assistance with bureaucratic procedures regarding the acquisition of movable and immovable property in Turkey",
       "item4": "Representation before the Land Registry, notary offices, and relevant public institutions",
-      "item5": "Recognition and enforcement of foreign court judgments before Turkish courts"
+      "item5": "Recognition and enforcement of foreign court judgments before Turkish courts",
+      "remoteLink": "How does representation by power of attorney work without traveling to Turkey?"
     },
     "approach": {
       "title": "Our Approach",
