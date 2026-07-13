@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
+import { BookingSection } from "@/components/BookingSection";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
@@ -83,6 +84,10 @@ export default async function ContactPage({
             </li>
           ))}
         </ul>
+
+        <div className="mt-12">
+          <BookingSection />
+        </div>
 
         <div className="mt-12">
           <ContactForm subjects={subjects} />
