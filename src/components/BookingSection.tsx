@@ -104,13 +104,21 @@ export function BookingSection() {
         </div>
       </div>
 
-      <div className="mt-5 overflow-hidden rounded-lg border border-cream-200 dark:border-navy-700 bg-white">
+      <div className="mt-5 max-h-[640px] overflow-y-auto rounded-lg border border-cream-200 dark:border-navy-700 bg-white">
+        {/*
+          Google'ın kendi sayfası cross-origin olduğundan iframe yüksekliği
+          içeriğe göre otomatik ölçülemez (CORS). Bu yüzden iframe'e içeriğin
+          tamamının sığacağı sabit bir yükseklik veriyoruz (Google'ın kendi iç
+          scroll çubuğu hiç devreye girmesin diye); görünür alanı ise sarmalayan
+          div'in max-h + overflow-y-auto'su sınırlıyor — böylece kutu yuvarlak
+          kenarında düzgün biter ve fazlası kutu içinde aşağı kaydırılarak görülür.
+        */}
         <iframe
           src={BOOKING_URL}
           title={c.iframeTitle}
           width="100%"
-          height="640"
-          style={{ border: 0 }}
+          height="1000"
+          style={{ border: 0, display: "block" }}
           loading="lazy"
           onLoad={() => track("booking_calendar_view", { locale })}
         />
