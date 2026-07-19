@@ -11,8 +11,9 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
 
-export const dynamicParams = true;
-export const revalidate = 86400;
+// Content only changes via git deploy (MDX files), never at runtime, so every
+// article page is fully static — no ISR/KV incremental cache needed on Cloudflare.
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const all = await Promise.all(

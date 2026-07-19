@@ -23,13 +23,5 @@
 		// Enable image optimization
 		// see https://opennext.js.org/cloudflare/howtos/image
 		"binding": "IMAGES"
-	},
-	"kv_namespaces": [
-		{
-			// ISR/incremental cache for revalidate=86400 article pages
-			// namespace created via: wrangler kv namespace create mona-site-cache
-			"binding": "NEXT_INC_CACHE_KV",
-			"id": "5605e9c31058425c849ff63999dc6f2e"
-		}
-	]
+	}
 }
