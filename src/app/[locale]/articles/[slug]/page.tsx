@@ -18,7 +18,7 @@ export async function generateStaticParams() {
   const all = await Promise.all(
     routing.locales.map(async (locale) => {
       const articles = await getAllArticles(locale);
-      return articles.slice(0, 10).map((a) => ({ locale, slug: a.slug }));
+      return articles.map((a) => ({ locale, slug: a.slug }));
     })
   );
   return all.flat();
