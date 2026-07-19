@@ -11,6 +11,12 @@
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
 	},
+	"r2_buckets": [
+		{
+			"bucket_name": "mona-site-cache",
+			"binding": "NEXT_INC_CACHE_R2_BUCKET"
+		}
+	],
 	"services": [
 		{
 			// Self-reference service binding, the service name must match the worker name
