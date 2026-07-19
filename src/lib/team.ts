@@ -29,7 +29,7 @@ export const TEAM: Member[] = [
       zh: "合伙律师",
     },
     education: "Selçuk University / Selçuk Üniversitesi Hukuk Fakültesi, 2014",
-    bar: "Antalya Barosu",
+    bar: "Antalya Barosu · Sicil No. 5151",
     areas: [
       { tr: "Bilişim & Yapay Zekâ Hukuku", en: "IT & AI Law", de: "IT- & KI-Recht", ru: "IT и ИИ-право", ar: "قانون تقنية المعلومات والذكاء الاصطناعي", es: "Derecho TI e IA", fr: "Droit Informatique et IA", zh: "信息技术与人工智能法" },
       { tr: "Kişisel Veri Koruma (KVKK)", en: "Data Protection (KVKK)", de: "Datenschutz (KVKK)", ru: "Защита данных (KVKK)", ar: "حماية البيانات (KVKK)", es: "Protección de Datos (KVKK)", fr: "Protection des Données (KVKK)", zh: "个人数据保护（KVKK）" },
@@ -62,7 +62,7 @@ export const TEAM: Member[] = [
       zh: "合伙律师",
     },
     education: "Akdeniz University / Akdeniz Üniversitesi Hukuk Fakültesi, 2014",
-    bar: "Antalya Barosu",
+    bar: "Antalya Barosu · Sicil No. 5253",
     areas: [
       { tr: "Ticaret & Şirketler Hukuku", en: "Commercial & Corporate Law", de: "Handels- & Gesellschaftsrecht", ru: "Коммерческое и корпоративное право", ar: "القانون التجاري والشركات", es: "Derecho Mercantil y Societario", fr: "Droit Commercial et des Sociétés", zh: "商事与公司法" },
       { tr: "Gayrimenkul", en: "Real Estate", de: "Immobilienrecht", ru: "Недвижимость", ar: "العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier", zh: "房地产法" },
@@ -94,7 +94,7 @@ export const TEAM: Member[] = [
       zh: "高级律师",
     },
     education: "Selçuk University / Selçuk Üniversitesi Hukuk Fakültesi, 2014",
-    bar: "Antalya Barosu",
+    bar: "Antalya Barosu · Sicil No. 8994",
     areas: [
       { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي", es: "Derecho Penal", fr: "Droit Pénal", zh: "刑法" },
       { tr: "İş Hukuku", en: "Labour Law", de: "Arbeitsrecht", ru: "Трудовое право", ar: "قانون العمل", es: "Derecho Laboral", fr: "Droit du Travail", zh: "劳动法" },
@@ -125,7 +125,7 @@ export const TEAM: Member[] = [
       zh: "律师",
     },
     education: "Istanbul University / İstanbul Üniversitesi Hukuk Fakültesi, 2022",
-    bar: "Antalya Barosu",
+    bar: "Antalya Barosu · Sicil No. 10282",
     areas: [
       { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي", es: "Derecho Penal", fr: "Droit Pénal", zh: "刑法" },
       { tr: "Ticaret Hukuku", en: "Commercial Law", de: "Handelsrecht", ru: "Коммерческое право", ar: "القانون التجاري", es: "Derecho Mercantil", fr: "Droit Commercial", zh: "商事法" },
