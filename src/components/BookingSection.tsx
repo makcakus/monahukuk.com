@@ -104,7 +104,7 @@ export function BookingSection() {
         </div>
       </div>
 
-      <div className="mt-5 max-h-[640px] overflow-y-auto rounded-lg border border-cream-200 dark:border-navy-700 bg-white">
+      <div className="mt-5 max-h-[320px] overflow-y-auto rounded-lg border border-cream-200 dark:border-navy-700 bg-white">
         {/*
           Google'ın kendi sayfası cross-origin olduğundan iframe yüksekliği
           içeriğe göre otomatik ölçülemez (CORS). Bu yüzden iframe'e içeriğin
