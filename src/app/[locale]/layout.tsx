@@ -13,8 +13,6 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { routing } from "@/i18n/routing";
 import { SITE } from "@/lib/site";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const sans = Inter({
   subsets: ["latin", "latin-ext", "cyrillic"],
@@ -148,8 +146,6 @@ export default async function LocaleLayout({
           <CookieBanner />
           <WhatsAppFloat locale={locale} />
         </NextIntlClientProvider>
-        <Analytics />
-        <SpeedInsights />
         <GoogleAnalytics />
       </body>
     </html>

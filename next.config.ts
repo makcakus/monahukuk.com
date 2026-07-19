@@ -5,6 +5,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  staticPageGenerationTimeout: 180,
   images: {
     remotePatterns: [
       {
@@ -515,3 +516,5 @@ const nextConfig: NextConfig = {
 };
 
 export default withNextIntl(nextConfig);
+
+import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());
