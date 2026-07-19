@@ -104,7 +104,17 @@ export function BookingSection() {
         </div>
       </div>
 
-      <div className="mt-5 max-h-[320px] overflow-y-auto rounded-lg border border-cream-200 dark:border-navy-700 bg-white">
+      {/*
+        bg-white yerine inline stil: globals.css'teki `.dark .bg-white { ...navy
+        !important }` global kuralı bu kutuyu da koyulaştırıyordu; inline stil o
+        kuralın eşleşmesini engelleyip kartı koyu modda da beyaz tutar (iframe
+        yüklenirken ve yuvarlak köşelerde navy sızmasın diye). [color-scheme:light]
+        hem iframe'i hem de kutunun kendi kaydırma çubuğunu açık temada tutar.
+      */}
+      <div
+        className="mt-5 max-h-[320px] overflow-y-auto rounded-lg border border-cream-200 dark:border-navy-700 [color-scheme:light]"
+        style={{ backgroundColor: "#ffffff" }}
+      >
         {/*
           Google'ın kendi sayfası cross-origin olduğundan iframe yüksekliği
           içeriğe göre otomatik ölçülemez (CORS). Bu yüzden iframe'e içeriğin
@@ -112,13 +122,20 @@ export function BookingSection() {
           scroll çubuğu hiç devreye girmesin diye); görünür alanı ise sarmalayan
           div'in max-h + overflow-y-auto'su sınırlıyor — böylece kutu yuvarlak
           kenarında düzgün biter ve fazlası kutu içinde aşağı kaydırılarak görülür.
+
+          colorScheme: "light" — ziyaretçi koyu modda olsa bile Google'ın gömülü
+          randevu sayfasını her zaman açık temada render ettirir. Aksi halde
+          Google prefers-color-scheme: dark'ı algılayıp arka planı koyulaştırıyor
+          ama metin renklerini düzgün ayarlamadığından "Ön Görüşme — MONA HUKUK"
+          gibi yazılar koyu-üstüne-koyu kalıp okunmaz oluyordu. Sarmalayan div de
+          bg-white olduğundan kart koyu modda da beyaz ve okunur kalır.
         */}
         <iframe
           src={BOOKING_URL}
           title={c.iframeTitle}
           width="100%"
           height="1000"
-          style={{ border: 0, display: "block" }}
+          style={{ border: 0, display: "block", colorScheme: "light" }}
           loading="lazy"
           onLoad={() => track("booking_calendar_view", { locale })}
         />
