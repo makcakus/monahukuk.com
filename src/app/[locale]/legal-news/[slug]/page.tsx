@@ -3,14 +3,21 @@ import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Link } from "@/i18n/navigation";
 import { getGazettePost, getAllGazettePosts, getLegalNewsLocaleSlugs } from "@/lib/hukuki-haberler";
+import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { BreadcrumbSchema } from "@/components/ArticleSchema";
 
+// Tüm gazette postları git ile deploy edilir, runtime'da değişmez; hepsi statik.
+// dynamicParams=false: ön-derlenmeyen (var olmayan) slug'lar temiz 404 döner
+// (OpenNext-Cloudflare'de on-demand fallback güvenilir çalışmıyor).
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  const locales = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
+  // routing.locales (zh dahil 8 dil) — önceki hardcoded 7'lik liste zh haberlerini
+  // ön-derlemeyi atlıyordu, bu da Çince haber sayfalarının 404 dönmesine yol açıyordu.
   const all = await Promise.all(
-    locales.map(async (locale) => {
+    routing.locales.map(async (locale) => {
       const posts = await getAllGazettePosts(locale);
       return posts.map((p) => ({ locale, slug: p.slug }));
     })

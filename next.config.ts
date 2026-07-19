@@ -1,7 +1,56 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import fs from "node:fs";
+import path from "node:path";
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
+
+// Bir tarihli hukuki-haber bülteni her dilde yayınlanmıyor (örn. 2026-07-06
+// yalnızca tr+en). Eski sitemap/hreflang sürümleri bu var olmayan dil
+// varyantlarını Google'a bildirdiği için GSC'de "404" olarak görünüyorlar.
+// Var olmayan (locale, tarih) kombinasyonlarını build anında hesaplayıp o dilin
+// haber liste sayfasına 301 yönlendiriyoruz — 404 yerine anlamlı bir sayfa +
+// temiz GSC sinyali. Geçerli sayfalar (o dilde gerçekten olanlar) hiç
+// eşleşmediği için asla yanlışlıkla yönlendirilmez.
+const LEGAL_NEWS_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+
+function legalNewsGhostRedirects() {
+  const gazetteDir = path.join(process.cwd(), "content", "hukuki-haberler");
+  const datesByLocale = new Map<string, Set<string>>();
+  const allDates = new Set<string>();
+
+  for (const locale of LEGAL_NEWS_LOCALES) {
+    const dates = new Set<string>();
+    let files: string[] = [];
+    try {
+      files = fs.readdirSync(path.join(gazetteDir, locale));
+    } catch {
+      // Bu dilde hiç haber klasörü yoksa, tüm tarihler bu dil için "hayalet".
+    }
+    for (const f of files) {
+      const m = f.match(/^(\d{4}-\d{2}-\d{2})-/);
+      if (m) {
+        dates.add(m[1]);
+        allDates.add(m[1]);
+      }
+    }
+    datesByLocale.set(locale, dates);
+  }
+
+  const redirects: { source: string; destination: string; permanent: boolean }[] = [];
+  for (const date of allDates) {
+    for (const locale of LEGAL_NEWS_LOCALES) {
+      if (datesByLocale.get(locale)!.has(date)) continue; // geçerli sayfa — dokunma
+      const suffix = locale === "tr" ? "hukuki-haberler" : "legal-news";
+      redirects.push({
+        source: `/${locale}/legal-news/${date}-${suffix}`,
+        destination: `/${locale}/legal-news`,
+        permanent: true,
+      });
+    }
+  }
+  return redirects;
+}
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
@@ -25,6 +74,8 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Var olmayan dil/tarih haber varyantları → o dilin haber listesi (build anında hesaplanır)
+      ...legalNewsGhostRedirects(),
       // ── Locale prefix'siz statik sayfalar → TR (defaultLocale) ──────────────
       // Google eski dış linklerden veya eski sitemap'tan bu URL'leri taradı.
       // next-intl localePrefix:"always" kullandığından bunlar 404 döndürüyor.
