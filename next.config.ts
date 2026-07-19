@@ -32,6 +32,8 @@ const nextConfig: NextConfig = {
       { source: "/team", destination: "/tr/team", permanent: true },
       { source: "/about", destination: "/tr/about", permanent: true },
       { source: "/practice-areas", destination: "/tr/practice-areas", permanent: true },
+      // "kita-hukuku" typo (doğrusu "kira-hukuku") — tüm locale'lerde aynı slug kullanılıyor
+      { source: "/:locale(tr|en|de|ru|ar|es|fr|zh)/practice-areas/kita-hukuku", destination: "/:locale/practice-areas/kira-hukuku", permanent: true },
       { source: "/articles", destination: "/tr/articles", permanent: true },
       // EN-slug makaleler prefix'siz erişimlerde → EN locale
       // (catch-all aşağıdaki kural öncesinde bu spesifik slug'ları yakalamalı)
