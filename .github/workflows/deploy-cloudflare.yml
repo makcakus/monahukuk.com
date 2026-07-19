@@ -30,6 +30,10 @@ jobs:
 
       - name: Build OpenNext bundle
         run: npx opennextjs-cloudflare build
+        env:
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ vars.NEXT_PUBLIC_GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_BOOKING_URL: ${{ vars.NEXT_PUBLIC_BOOKING_URL }}
+          NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
 
       - name: Deploy to Cloudflare Workers
         run: npx wrangler deploy
