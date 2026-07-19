@@ -483,6 +483,7 @@ const nextConfig: NextConfig = {
       { source: "/tr/articles/will-drafting-foreigners-turkey", destination: "/tr/articles/vasiyetname-duzenleme-yabancilar-icin", permanent: true },
       { source: "/tr/articles/custody-rights-foreign-clients-turkey", destination: "/tr/articles/velayet-davalarinda-yabancilarin-haklari", permanent: true },
       { source: "/tr/articles/certificate-of-inheritance-foreign-heirs", destination: "/tr/articles/veraset-ilami-yabanci-mirasci-rehber", permanent: true },
+      { source: "/tr/articles/veraset-ilami-yabanci-mirasci-rehberi", destination: "/tr/articles/veraset-ilami-yabanci-mirasci-rehber", permanent: true },
       { source: "/tr/articles/visa-denial-cancellation-lawsuit-turkey", destination: "/tr/articles/vize-reddi-iptal-davasi", permanent: true },
       { source: "/tr/articles/turkish-citizenship-for-spouse-and-children", destination: "/tr/articles/yabanci-es-cocuk-icin-turk-vatandasligi", permanent: true },
       { source: "/tr/articles/property-division-foreign-spouses-divorce-turkey", destination: "/tr/articles/yabanci-eslerin-bosanmasinda-mal-paylasimi", permanent: true },
