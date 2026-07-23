@@ -28,6 +28,14 @@ jobs:
           npm run fix:yaml
           npm run validate
 
+      - name: Restore Next.js build cache
+        uses: actions/cache@v4
+        with:
+          path: .next/cache
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('package-lock.json') }}-${{ hashFiles('src/**', 'content/**', 'messages/**') }}
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('package-lock.json') }}-
+
       - name: Build OpenNext bundle
         run: npx opennextjs-cloudflare build
         env:
