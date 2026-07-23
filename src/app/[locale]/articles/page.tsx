@@ -3,7 +3,10 @@ import { PageHero } from "@/components/PageHero";
 import { getArticleSearchIndex } from "@/lib/articles";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 import { pageMetadata } from "@/lib/seo";
-import { ArticlesBrowser, type BrowserGroup } from "@/components/ArticlesBrowser";
+import { ArticlesBrowser, type BrowserGroup, type BrowserSubgroup } from "@/components/ArticlesBrowser";
+import { TCK_GROUP_ORDER, getTckGroup, isTckArticle } from "@/lib/tck-groups";
+
+const TCK_HEADING = "Türk Ceza Kanunu - Tüm Suçlar";
 
 export async function generateMetadata({
   params,
@@ -42,12 +45,37 @@ export default async function ArticlesPage({
   const seen = new Set<string>();
   for (const area of PRACTICE_AREAS) {
     const title = pickPA(area.title, locale);
-    groups.push({
-      category: title,
-      iconKey: area.icon,
-      practiceSlug: area.slug,
-      items: byCategory.get(title) ?? [],
-    });
+    const items = byCategory.get(title) ?? [];
+
+    if (locale === "tr" && area.slug === "ceza-hukuku") {
+      const nonTck = items.filter((a) => !isTckArticle(a.slug));
+      const tckBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTckArticle(a.slug)) continue;
+        const group = getTckGroup(a.slug)!;
+        if (!tckBySlug.has(group)) tckBySlug.set(group, []);
+        tckBySlug.get(group)!.push(a);
+      }
+      const subgroups: BrowserSubgroup[] = TCK_GROUP_ORDER.filter((g) =>
+        tckBySlug.has(g)
+      ).map((g) => ({ title: g, items: tckBySlug.get(g)! }));
+
+      groups.push({
+        category: title,
+        iconKey: area.icon,
+        practiceSlug: area.slug,
+        items: nonTck,
+        nestedHeading: subgroups.length > 0 ? TCK_HEADING : undefined,
+        subgroups: subgroups.length > 0 ? subgroups : undefined,
+      });
+    } else {
+      groups.push({
+        category: title,
+        iconKey: area.icon,
+        practiceSlug: area.slug,
+        items,
+      });
+    }
     seen.add(title);
   }
   for (const cat of byCategory.keys()) {
