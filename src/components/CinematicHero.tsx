@@ -3,8 +3,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
-const HERO_IMAGE_URL =
-  "https://images.unsplash.com/photo-1676389608621-802649bd5f87?fm=jpg&q=75&w=2400&auto=format&fit=crop";
+const HERO_IMAGE_URL = "/images/hero/antalya-konyaalti-hero.avif";
 
 export function CinematicHero() {
   const t = useTranslations("home");
