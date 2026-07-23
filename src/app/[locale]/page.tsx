@@ -98,26 +98,6 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* CTA banner */}
-      <section className="border-t border-cream-200">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-8 md:grid-cols-12 items-center">
-          <div className="md:col-span-8">
-            <h2 className="font-display text-3xl md:text-4xl text-navy-900">
-              {t("ctaBanner.title")}
-            </h2>
-          </div>
-          <div className="md:col-span-4 md:text-end">
-            <Link
-              href="/contact"
-              className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 text-sm font-medium text-navy-950 hover:bg-gold-500 transition-colors whitespace-nowrap w-full sm:w-auto h-[48px] flex-shrink-0"
-            >
-              <span className="block text-center">{t("ctaBanner.button")}</span>
-              <ArrowRight size={16} className="shrink-0 rtl:rotate-180" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* Newsletter */}
       <section className="border-t border-cream-200 bg-cream-100/40">
         <div className="mx-auto max-w-3xl px-6 py-16">
