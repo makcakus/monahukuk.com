@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
-const HERO_IMAGE_URL = "/images/hero/antalya-konyaalti-hero.avif";
+const HERO_IMAGE_URL = "/images/hero/antalya-side-apollon-tapinagi-hero.jpeg";
 
 export function CinematicHero() {
   const t = useTranslations("home");
@@ -63,15 +63,6 @@ export function CinematicHero() {
       <div className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-cream-100/80">
         <ChevronDown size={28} className="animate-scroll-bob" strokeWidth={1.5} />
       </div>
-
-      <a
-        href="https://unsplash.com/@mahykisreal"
-        target="_blank"
-        rel="noopener noreferrer nofollow"
-        className="absolute bottom-3 end-4 z-10 text-[10px] uppercase tracking-wider text-cream-100/55 hover:text-cream-100/90 transition-colors"
-      >
-        Photo · Burak Mike / Unsplash
-      </a>
     </section>
   );
 }
