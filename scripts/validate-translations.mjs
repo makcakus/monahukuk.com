@@ -49,6 +49,13 @@ const CONTENT_DIR = join(process.cwd(), "content", "articles");
 const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr", "zh"];
 // Bu locale'lerde eksikler build'i engellemez (sadece uyarı verir)
 const WARN_ONLY_LOCALES = new Set(["fr"]);
+// TR-only kalıcı içerik: çeviri planlanmıyor (2026-07-23 kararı — TCK suç
+// makaleleri serisi, 91 makale). translationKey bu sonekle bitiyorsa
+// çeviri kontrolünden tamamen muaf tutulur (warn-only değil, hiç sayılmaz).
+const TR_ONLY_KEY_SUFFIXES = ["-turkish-penal-code"];
+function isTrOnly(translationKey) {
+  return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
+}
 
 // TR makalelerini oku
 const trDir = join(CONTENT_DIR, "tr");
@@ -83,6 +90,8 @@ for (const file of trFiles) {
   const data = parseFrontmatter(raw);
   const slug = basename(file).replace(/\.mdx?$/, "");
   const translationKey = (data.translationKey || slug).toString();
+
+  if (isTrOnly(translationKey)) continue;
 
   total++;
 
