@@ -65,9 +65,17 @@ export default async function ArticlesPage({
         iconKey: area.icon,
         practiceSlug: area.slug,
         items: nonTck,
-        nestedHeading: subgroups.length > 0 ? TCK_HEADING : undefined,
-        subgroups: subgroups.length > 0 ? subgroups : undefined,
       });
+
+      if (subgroups.length > 0) {
+        groups.push({
+          category: TCK_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups,
+        });
+      }
     } else {
       groups.push({
         category: title,
