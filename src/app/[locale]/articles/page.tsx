@@ -123,7 +123,6 @@ export default async function ArticlesPage({
               searchClear: t("searchClear"),
               searchEmpty: t("searchEmpty"),
               searchResultsLabel: t("searchResultsLabel"),
-              relatedSuffix: t("relatedSuffix"),
               articleOne: t("articleOne"),
               articleMany: t("articleMany"),
               readMore: t("readMore"),

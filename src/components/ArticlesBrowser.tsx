@@ -64,7 +64,6 @@ export interface BrowserUiStrings {
   searchClear: string;
   searchEmpty: string;
   searchResultsLabel: string;
-  relatedSuffix: string;
   articleOne: string;
   articleMany: string;
   readMore: string;
@@ -270,7 +269,7 @@ function GroupedView({
               </span>
               <span className="flex-1 min-w-0 overflow-hidden">
                 <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug line-clamp-2 overflow-hidden">
-                  {g.category} {ui.relatedSuffix}
+                  {g.category}
                 </span>
                 <span className="block text-xs uppercase tracking-[0.18em] text-ink-mute dark:text-cream-200/60 mt-1 truncate">
                   {totalCount} {totalCount === 1 ? ui.articleOne : ui.articleMany}
