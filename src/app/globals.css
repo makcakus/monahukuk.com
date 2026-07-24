@@ -103,11 +103,18 @@ h1, h2, h3, h4, .font-display {
   text-align: left;
   hyphens: none;
 }
+.prose-legal p:has(> em:only-child) {
+  text-align: left;
+  hyphens: none;
+}
 :lang(ar) .prose-legal p {
   text-align: right;
   hyphens: none;
 }
 :lang(ar) .prose-legal p:has(> strong:only-child) {
+  text-align: right;
+}
+:lang(ar) .prose-legal p:has(> em:only-child) {
   text-align: right;
 }
 .prose-legal a {
