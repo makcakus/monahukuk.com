@@ -3,7 +3,11 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
-const HERO_IMAGE_URL = "/images/hero/antalya-side-apollon-tapinagi-hero.jpeg";
+const HERO_IMAGE_URL = "/images/hero/antalya-donme-dolap-hero.jpg";
+// Dönme dolabın merkezi (göbeği), kaynak fotoğrafta yaklaşık %70 sağda / %55 yukarıda.
+// Ken Burns zoom'un bu noktaya doğru yakınlaşması için transform-origin ve
+// object-position aynı noktaya hizalanır.
+const HERO_FOCAL_POINT = "70% 55%";
 
 export function CinematicHero() {
   const t = useTranslations("home");
@@ -11,7 +15,10 @@ export function CinematicHero() {
 
   return (
     <section className="relative isolate -mt-px h-[88vh] min-h-[640px] w-full overflow-hidden">
-      <div className="absolute inset-0 animate-ken-burns">
+      <div
+        className="absolute inset-0 animate-ken-burns"
+        style={{ transformOrigin: HERO_FOCAL_POINT }}
+      >
         <Image
           src={HERO_IMAGE_URL}
           alt={t("hero.imageAlt")}
@@ -19,6 +26,7 @@ export function CinematicHero() {
           priority
           sizes="100vw"
           className="object-cover"
+          style={{ objectPosition: HERO_FOCAL_POINT }}
         />
       </div>
 
