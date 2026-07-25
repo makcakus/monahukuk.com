@@ -5,8 +5,10 @@ import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 import { pageMetadata } from "@/lib/seo";
 import { ArticlesBrowser, type BrowserGroup, type BrowserSubgroup } from "@/components/ArticlesBrowser";
 import { TCK_GROUP_ORDER, getTckGroup, isTckArticle } from "@/lib/tck-groups";
+import { CMK_GROUP_ORDER, getCmkGroup, isCmkArticle } from "@/lib/cmk-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu - Tüm Suçlar";
+const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 
 export async function generateMetadata({
   params,
@@ -48,7 +50,9 @@ export default async function ArticlesPage({
     const items = byCategory.get(title) ?? [];
 
     if (locale === "tr" && area.slug === "ceza-hukuku") {
-      const nonTck = items.filter((a) => !isTckArticle(a.slug));
+      const nonSeries = items.filter(
+        (a) => !isTckArticle(a.slug) && !isCmkArticle(a.slug)
+      );
       const tckBySlug = new Map<string, typeof items>();
       for (const a of items) {
         if (!isTckArticle(a.slug)) continue;
@@ -60,11 +64,22 @@ export default async function ArticlesPage({
         tckBySlug.has(g)
       ).map((g) => ({ title: g, items: tckBySlug.get(g)! }));
 
+      const cmkBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isCmkArticle(a.slug)) continue;
+        const group = getCmkGroup(a.slug)!;
+        if (!cmkBySlug.has(group)) cmkBySlug.set(group, []);
+        cmkBySlug.get(group)!.push(a);
+      }
+      const cmkSubgroups: BrowserSubgroup[] = CMK_GROUP_ORDER.filter((g) =>
+        cmkBySlug.has(g)
+      ).map((g) => ({ title: g, items: cmkBySlug.get(g)! }));
+
       groups.push({
         category: title,
         iconKey: area.icon,
         practiceSlug: area.slug,
-        items: nonTck,
+        items: nonSeries,
       });
 
       if (subgroups.length > 0) {
@@ -74,6 +89,16 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups,
+        });
+      }
+
+      if (cmkSubgroups.length > 0) {
+        groups.push({
+          category: CMK_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: cmkSubgroups,
         });
       }
     } else {
