@@ -51,9 +51,14 @@ const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr", "zh"];
 const WARN_ONLY_LOCALES = new Set(["fr"]);
 // TR-only kalıcı içerik: çeviri planlanmıyor (2026-07-23 kararı — TCK suç
 // makaleleri serisi, 91 makale; 2026-07-24 kararı — CMK konu makaleleri
-// serisi). translationKey bu soneklerden biriyle bitiyorsa çeviri
-// kontrolünden tamamen muaf tutulur (warn-only değil, hiç sayılmaz).
-const TR_ONLY_KEY_SUFFIXES = ["-turkish-penal-code", "-turkish-criminal-procedure-code"];
+// serisi; 2026-07-25 kararı — İş Hukuku mevzuat serisi). translationKey bu
+// soneklerden biriyle bitiyorsa çeviri kontrolünden tamamen muaf tutulur
+// (warn-only değil, hiç sayılmaz).
+const TR_ONLY_KEY_SUFFIXES = [
+  "-turkish-penal-code",
+  "-turkish-criminal-procedure-code",
+  "-turkish-labour-law",
+];
 function isTrOnly(translationKey) {
   return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
 }

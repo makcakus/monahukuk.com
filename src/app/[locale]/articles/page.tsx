@@ -6,9 +6,15 @@ import { pageMetadata } from "@/lib/seo";
 import { ArticlesBrowser, type BrowserGroup, type BrowserSubgroup } from "@/components/ArticlesBrowser";
 import { TCK_GROUP_ORDER, getTckGroup, isTckArticle } from "@/lib/tck-groups";
 import { CMK_GROUP_ORDER, getCmkGroup, isCmkArticle } from "@/lib/cmk-groups";
+import {
+  IS_HUKUKU_GROUP_ORDER,
+  getIsHukukuGroup,
+  isIsHukukuMevzuatArticle,
+} from "@/lib/is-hukuku-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu - Tüm Suçlar";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
+const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
 
 export async function generateMetadata({
   params,
@@ -99,6 +105,35 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: cmkSubgroups,
+        });
+      }
+    } else if (locale === "tr" && area.slug === "is-hukuku") {
+      const nonSeries = items.filter((a) => !isIsHukukuMevzuatArticle(a.slug));
+      const isHukukuBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isIsHukukuMevzuatArticle(a.slug)) continue;
+        const group = getIsHukukuGroup(a.slug)!;
+        if (!isHukukuBySlug.has(group)) isHukukuBySlug.set(group, []);
+        isHukukuBySlug.get(group)!.push(a);
+      }
+      const isHukukuSubgroups: BrowserSubgroup[] = IS_HUKUKU_GROUP_ORDER.filter(
+        (g) => isHukukuBySlug.has(g)
+      ).map((g) => ({ title: g, items: isHukukuBySlug.get(g)! }));
+
+      groups.push({
+        category: title,
+        iconKey: area.icon,
+        practiceSlug: area.slug,
+        items: nonSeries,
+      });
+
+      if (isHukukuSubgroups.length > 0) {
+        groups.push({
+          category: IS_HUKUKU_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: isHukukuSubgroups,
         });
       }
     } else {
