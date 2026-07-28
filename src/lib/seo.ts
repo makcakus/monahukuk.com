@@ -38,9 +38,14 @@ export function pageMetadata({
     for (const [lang, relPath] of Object.entries(articleLanguages)) {
       languages[lang] = `${SITE.url}/${lang}${relPath}`;
     }
-    // x-default points to the EN version when available, otherwise current locale
-    const xDefaultPath = articleLanguages["en"] ?? cleanPath;
-    languages["x-default"] = `${SITE.url}/en${xDefaultPath}`;
+    // x-default points to the EN version when available, otherwise the
+    // current locale's own canonical URL (not hardcoded /en — that produced
+    // a broken URL for TR-only content that has no EN translation).
+    if (articleLanguages["en"]) {
+      languages["x-default"] = `${SITE.url}/en${articleLanguages["en"]}`;
+    } else {
+      languages["x-default"] = `${SITE.url}/${locale}${cleanPath}`;
+    }
   } else {
     for (const l of routing.locales) {
       languages[l] = `${SITE.url}/${l}${cleanPath === "/" ? "" : cleanPath}`;
