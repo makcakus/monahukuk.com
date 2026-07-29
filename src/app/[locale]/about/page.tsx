@@ -53,17 +53,6 @@ export default async function AboutPage({
         </div>
       </section>
 
-      {/* Mission */}
-      <section className="border-t border-cream-200 bg-cream-100/60">
-        <div className="mx-auto max-w-3xl px-6 py-16">
-          <h2 className="font-display text-2xl text-navy-900 mb-4">
-            {t("mission.title")}
-          </h2>
-          <span className="gold-divider mb-6" />
-          <p className="text-ink-soft leading-relaxed">{t("mission.body")}</p>
-        </div>
-      </section>
-
       {/* Founder / Author profile — E-E-A-T */}
       <section
         id={founderSlug}

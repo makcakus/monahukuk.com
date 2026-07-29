@@ -50,7 +50,7 @@ export default async function TeamPage({
         <JsonLd key={`person-${m.name}`} data={personSchema(m, locale)} />
       ))}
 
-      <PageHero title={t("title")} lead={t("lead")} />
+      <PageHero title={t("title")} />
 
       {/* Intro / SEO content */}
       <section className="mx-auto max-w-3xl px-6 pt-8 pb-4">
