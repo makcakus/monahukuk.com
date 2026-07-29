@@ -2,20 +2,13 @@ import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
-import { ArrowRight, Scale, Award, Eye, Lock } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 import { TEAM, pick } from "@/lib/team";
 import { authorSlug } from "@/lib/author";
 import { JsonLd } from "@/components/JsonLd";
 import { personSchema } from "@/lib/schema";
-
-const ICONS: Record<string, React.ReactNode> = {
-  scope: <Scale size={22} />,
-  experience: <Award size={22} />,
-  transparency: <Eye size={22} />,
-  discretion: <Lock size={22} />,
-};
 
 export async function generateMetadata({
   params,
@@ -44,7 +37,6 @@ export default async function AboutPage({
   const tNav = await getTranslations("nav");
   const tTeam = await getTranslations("team");
 
-  const whyKeys = ["scope", "experience", "transparency", "discretion"] as const;
   const founder = TEAM[0]; // Av. Mustafa AKÇAKUŞ
   const founderSlug = authorSlug(founder.name);
 
@@ -69,36 +61,6 @@ export default async function AboutPage({
           </h2>
           <span className="gold-divider mb-6" />
           <p className="text-ink-soft leading-relaxed">{t("mission.body")}</p>
-        </div>
-      </section>
-
-      {/* Why Us */}
-      <section className="border-t border-cream-200">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <h2 className="font-display text-3xl md:text-4xl text-navy-900 mb-2">
-            {t("whyUs.title")}
-          </h2>
-          <span className="gold-divider mt-4" />
-          <div className="mt-12 grid gap-8 sm:grid-cols-2">
-            {whyKeys.map((key) => (
-              <div
-                key={key}
-                className="flex gap-4 overflow-hidden rounded-xl border border-navy-100 bg-white p-6 shadow-sm h-[220px]"
-              >
-                <span className="mt-1 inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-navy-900 text-cream-50">
-                  {ICONS[key]}
-                </span>
-                <div className="min-w-0 flex-1 overflow-hidden">
-                  <h3 className="font-semibold text-navy-900 mb-2 leading-snug line-clamp-2 overflow-hidden">
-                    {t(`whyUs.items.${key}.title`)}
-                  </h3>
-                  <p className="text-sm leading-relaxed text-ink-soft line-clamp-5 overflow-hidden">
-                    {t(`whyUs.items.${key}.body`)}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
