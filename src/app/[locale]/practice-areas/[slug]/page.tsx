@@ -70,9 +70,9 @@ export default async function PracticeAreaDetailPage({
 
   // Related articles by category match
   const allArticles = await getAllArticles(locale);
-  const related = allArticles
-    .filter((art) => art.category === title)
-    .slice(0, 6);
+  const matchingArticles = allArticles.filter((art) => art.category === title);
+  const related = matchingArticles.slice(0, 6);
+  const hasMoreArticles = matchingArticles.length > related.length;
 
   // FAQ schema for SEO
   const faqSchema =
@@ -211,6 +211,17 @@ export default async function PracticeAreaDetailPage({
                 </li>
               ))}
             </ul>
+            {hasMoreArticles && (
+              <div className="mt-6">
+                <Link
+                  href="/articles"
+                  className="inline-flex items-center gap-2 text-sm font-medium text-navy-900 dark:text-cream-50 hover:text-gold-600 dark:hover:text-gold-400 transition-colors"
+                >
+                  {t("viewAllArticles")}
+                  <ArrowRight size={14} className="rtl:rotate-180" />
+                </Link>
+              </div>
+            )}
           </section>
         )}
 
