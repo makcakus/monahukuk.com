@@ -51,7 +51,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Ön görüşme",
-        body: "Talebiniz çevrim içi bir görüşmede değerlendirilir; işleminiz için gereken vekâletname içeriği ve belgeler belirlenir. Gayrimenkul işlemleri için vekâletnamenin fotoğraflı ve özel yetkili olması gerekir.",
+        body: "Talebiniz çevrim içi bir görüşmede değerlendirilir; işleminiz için gereken vekâletname içeriği ve belgeler belirlenir. Gayrimenkul işlemleri, aile davaları ve tanıma-tenfiz süreçlerinde vekâletnamenin fotoğraflı ve özel yetkili olması gerekir.",
       },
       {
         title: "Vekâletnamenin düzenlenmesi",
@@ -89,7 +89,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "Vekâletnameyi sonlandırabilir miyim?",
-        a: "Evet. Vekâlet veren, vekâletnameyi her zaman azil yoluyla sonlandırabilir; azil noter kanalıyla yapılır ve ilgili kurumlara bildirilir.",
+        a: "Evet. Vekâlet veren, vekâletnameyi her zaman azil yoluyla sonlandırabilir; azil konsolosluk veya noter kanalıyla yapılır ve ilgili kurumlara bildirilir.",
       },
     ],
     ctaTitle: "Sürecinizi birlikte değerlendirelim",
@@ -111,7 +111,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Initial meeting",
-        body: "Your matter is assessed in an online meeting; the required PoA content and supporting documents are identified. For real estate transactions, the PoA must bear your photograph and contain specific authorisations.",
+        body: "Your matter is assessed in an online meeting; the required PoA content and supporting documents are identified. For real estate transactions, family law cases, and proceedings to recognise and enforce a foreign judgment, the PoA must bear your photograph and contain specific authorisations.",
       },
       {
         title: "Executing the power of attorney",
@@ -149,7 +149,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "Can I revoke the power of attorney?",
-        a: "Yes. The principal may revoke the PoA at any time; revocation is made through a notary and notified to the relevant authorities.",
+        a: "Yes. The principal may revoke the PoA at any time; revocation is made through a consulate or a notary and notified to the relevant authorities.",
       },
     ],
     ctaTitle: "Let's assess your matter together",
@@ -171,7 +171,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Erstgespräch",
-        body: "Ihr Anliegen wird in einem Online-Gespräch bewertet; Inhalt der erforderlichen Vollmacht und Unterlagen werden festgelegt. Für Immobiliengeschäfte muss die Vollmacht ein Lichtbild und besondere Befugnisse enthalten.",
+        body: "Ihr Anliegen wird in einem Online-Gespräch bewertet; Inhalt der erforderlichen Vollmacht und Unterlagen werden festgelegt. Für Immobiliengeschäfte, familienrechtliche Verfahren und Verfahren zur Anerkennung und Vollstreckung ausländischer Urteile muss die Vollmacht ein Lichtbild und besondere Befugnisse enthalten.",
       },
       {
         title: "Errichtung der Vollmacht",
@@ -209,7 +209,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "Kann ich die Vollmacht widerrufen?",
-        a: "Ja. Der Vollmachtgeber kann die Vollmacht jederzeit widerrufen; der Widerruf erfolgt über einen Notar und wird den zuständigen Stellen mitgeteilt.",
+        a: "Ja. Der Vollmachtgeber kann die Vollmacht jederzeit widerrufen; der Widerruf erfolgt über das Konsulat oder einen Notar und wird den zuständigen Stellen mitgeteilt.",
       },
     ],
     ctaTitle: "Lassen Sie uns Ihr Anliegen gemeinsam bewerten",
@@ -231,7 +231,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Предварительная встреча",
-        body: "Ваш вопрос оценивается на онлайн-встрече; определяются содержание доверенности и необходимые документы. Для сделок с недвижимостью доверенность должна содержать фотографию и специальные полномочия.",
+        body: "Ваш вопрос оценивается на онлайн-встрече; определяются содержание доверенности и необходимые документы. Для сделок с недвижимостью, семейных дел и производств о признании и приведении в исполнение иностранных судебных решений доверенность должна содержать фотографию и специальные полномочия.",
       },
       {
         title: "Оформление доверенности",
@@ -269,7 +269,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "Могу ли я отозвать доверенность?",
-        a: "Да. Доверитель может отозвать доверенность в любое время; отзыв оформляется через нотариуса и доводится до сведения соответствующих органов.",
+        a: "Да. Доверитель может отозвать доверенность в любое время; отзыв оформляется через консульство или нотариуса и доводится до сведения соответствующих органов.",
       },
     ],
     ctaTitle: "Оценим ваш вопрос вместе",
@@ -291,7 +291,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "الاجتماع الأولي",
-        body: "يُقيَّم طلبكم في اجتماع عبر الإنترنت، وتُحدَّد صيغة الوكالة والوثائق اللازمة. وفي معاملات العقارات يجب أن تكون الوكالة مصحوبة بصورة شخصية ومتضمنة صلاحيات خاصة.",
+        body: "يُقيَّم طلبكم في اجتماع عبر الإنترنت، وتُحدَّد صيغة الوكالة والوثائق اللازمة. وفي معاملات العقارات وقضايا الأسرة وإجراءات الاعتراف بالأحكام الأجنبية وتنفيذها يجب أن تكون الوكالة مصحوبة بصورة شخصية ومتضمنة صلاحيات خاصة.",
       },
       {
         title: "تنظيم الوكالة",
@@ -329,7 +329,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "هل يمكنني إنهاء الوكالة؟",
-        a: "نعم. يجوز للموكِّل عزل الوكيل وإنهاء الوكالة في أي وقت؛ ويتم العزل عبر كاتب العدل ويُبلَّغ إلى الجهات المعنية.",
+        a: "نعم. يجوز للموكِّل عزل الوكيل وإنهاء الوكالة في أي وقت؛ ويتم العزل عبر القنصلية أو كاتب العدل ويُبلَّغ إلى الجهات المعنية.",
       },
     ],
     ctaTitle: "لنُقيِّم معاملتكم معاً",
@@ -351,7 +351,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Reunión inicial",
-        body: "Su asunto se evalúa en una reunión en línea; se determinan el contenido del poder y los documentos necesarios. Para operaciones inmobiliarias, el poder debe llevar fotografía y facultades especiales.",
+        body: "Su asunto se evalúa en una reunión en línea; se determinan el contenido del poder y los documentos necesarios. Para operaciones inmobiliarias, asuntos de derecho de familia y procedimientos de reconocimiento y ejecución de sentencias extranjeras, el poder debe llevar fotografía y facultades especiales.",
       },
       {
         title: "Otorgamiento del poder",
@@ -389,7 +389,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "¿Puedo revocar el poder?",
-        a: "Sí. El poderdante puede revocar el poder en cualquier momento; la revocación se realiza ante notario y se comunica a los organismos pertinentes.",
+        a: "Sí. El poderdante puede revocar el poder en cualquier momento; la revocación se realiza ante el consulado o notario y se comunica a los organismos pertinentes.",
       },
     ],
     ctaTitle: "Evaluemos juntos su asunto",
@@ -411,7 +411,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "Entretien initial",
-        body: "Votre demande est évaluée lors d'un entretien en ligne ; le contenu de la procuration et les pièces nécessaires sont déterminés. Pour les opérations immobilières, la procuration doit comporter une photographie et des pouvoirs spéciaux.",
+        body: "Votre demande est évaluée lors d'un entretien en ligne ; le contenu de la procuration et les pièces nécessaires sont déterminés. Pour les opérations immobilières, les affaires de droit de la famille et les procédures de reconnaissance et d'exécution de jugements étrangers, la procuration doit comporter une photographie et des pouvoirs spéciaux.",
       },
       {
         title: "Établissement de la procuration",
@@ -449,7 +449,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "Puis-je révoquer la procuration ?",
-        a: "Oui. Le mandant peut révoquer la procuration à tout moment ; la révocation s'effectue par voie notariale et est notifiée aux autorités concernées.",
+        a: "Oui. Le mandant peut révoquer la procuration à tout moment ; la révocation s'effectue auprès du consulat ou par voie notariale et est notifiée aux autorités concernées.",
       },
     ],
     ctaTitle: "Évaluons ensemble votre démarche",
@@ -471,7 +471,7 @@ const COPY: Record<Locale, Copy> = {
     steps: [
       {
         title: "初次会谈",
-        body: "通过线上会谈评估您的需求，确定委托书所需内容及相关文件。房产交易的委托书须附照片并载明特别授权。",
+        body: "通过线上会谈评估您的需求，确定委托书所需内容及相关文件。房产交易、家事案件以及外国判决承认与执行程序的委托书须附照片并载明特别授权。",
       },
       {
         title: "出具委托书",
@@ -509,7 +509,7 @@ const COPY: Record<Locale, Copy> = {
       },
       {
         q: "我可以撤销委托书吗？",
-        a: "可以。委托人可随时通过公证途径撤销委托，撤销将通知相关机构。",
+        a: "可以。委托人可随时通过领事馆或公证途径撤销委托，撤销将通知相关机构。",
       },
     ],
     ctaTitle: "让我们共同评估您的事务",
