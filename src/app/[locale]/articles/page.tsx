@@ -11,10 +11,12 @@ import {
   getIsHukukuGroup,
   isIsHukukuMevzuatArticle,
 } from "@/lib/is-hukuku-groups";
+import { TTK_GROUP_ORDER, getTtkGroup, isTtkArticle } from "@/lib/ttk-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu - Tüm Suçlar";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
+const TTK_HEADING = "Türk Ticaret Kanunu - Ticari İşletme";
 
 export async function generateMetadata({
   params,
@@ -134,6 +136,35 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: isHukukuSubgroups,
+        });
+      }
+    } else if (locale === "tr" && area.slug === "ticaret-sirketler-hukuku") {
+      const nonSeries = items.filter((a) => !isTtkArticle(a.slug));
+      const ttkBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkArticle(a.slug)) continue;
+        const group = getTtkGroup(a.slug)!;
+        if (!ttkBySlug.has(group)) ttkBySlug.set(group, []);
+        ttkBySlug.get(group)!.push(a);
+      }
+      const ttkSubgroups: BrowserSubgroup[] = TTK_GROUP_ORDER.filter((g) =>
+        ttkBySlug.has(g)
+      ).map((g) => ({ title: g, items: ttkBySlug.get(g)! }));
+
+      groups.push({
+        category: title,
+        iconKey: area.icon,
+        practiceSlug: area.slug,
+        items: nonSeries,
+      });
+
+      if (ttkSubgroups.length > 0) {
+        groups.push({
+          category: TTK_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkSubgroups,
         });
       }
     } else {

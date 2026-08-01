@@ -58,6 +58,8 @@ const TR_ONLY_KEY_SUFFIXES = [
   "-turkish-penal-code",
   "-turkish-criminal-procedure-code",
   "-turkish-labour-law",
+  // 2026-08-01 kararı — TTK Kitap 1 (Ticari İşletme) konu makaleleri serisi, 9 makale
+  "-turkish-commercial-code",
 ];
 function isTrOnly(translationKey) {
   return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
