@@ -16,13 +16,23 @@
 // hamile yazılı faiz kuponları, iptal kararı - yetki/ödeme yasağı/ilan/
 // hükümleri, kuponlarda ve banknotlarda usul, ipotekli borç senedi ve
 // irat senedine ilişkin saklılık) kapsayan ilk batch ile başlamıştır.
-// m.670'ten itibaren başlayan "Dördüncü Kısım - Kambiyo Senetleri"
-// (poliçe/bono/çek) sonraki batch'lerde ele alınacaktır.
+//
+// İkinci batch, m.670'ten itibaren başlayan "Dördüncü Kısım - Kambiyo
+// Senetleri"nin açılışını ve "Birinci Bölüm - Poliçe"nin ilk iki
+// ayırımını kapsar: borçlanma ehliyeti, poliçenin şekil unsurları
+// (Birinci Ayırım - Poliçenin Düzenlenmesi ve Şekli, m.670-680: zorunlu
+// unsurlar, unsurların bulunmaması, münferit unsurlar, imza edenlerin
+// sorumluluğu, açık poliçe) ve ciro (İkinci Ayırım, m.681-690). Poliçenin
+// kalan ayırımları (Kabul ve Aval, Ödeme, Kabul Etmeme ve Ödememe
+// Hâllerinde Başvurma Hakları) ile bono ve çeke ilişkin bölümler sonraki
+// batch'lerde ele alınacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
   "Nama Yazılı Senetler",
   "Hamile Yazılı Senetler",
+  "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "Kambiyo Senetleri: Poliçede Ciro",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -33,6 +43,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
   "nama-yazili-senetler-ttk-654": "Nama Yazılı Senetler",
   "hamile-yazili-senetler-ttk-658": "Hamile Yazılı Senetler",
+  "kambiyo-senetlerine-borclanma-ehliyeti-ve-policenin-sekil-unsurlari-ttk-670":
+    "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "policede-imza-edenlerin-sorumlulugu-ttk-677":
+    "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "policede-ciro-ttk-681": "Kambiyo Senetleri: Poliçede Ciro",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
