@@ -17,12 +17,18 @@ import {
   getTtkBook2GenelGroup,
   isTtkBook2GenelArticle,
 } from "@/lib/ttk-book2-genel-hukumler-groups";
+import {
+  TTK_BOOK2_KOLLEKTIF_GROUP_ORDER,
+  getTtkBook2KollektifGroup,
+  isTtkBook2KollektifArticle,
+} from "@/lib/ttk-book2-kollektif-sirket-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
 const TTK_HEADING = "Türk Ticaret Kanunu - Ticari İşletme";
 const TTK_BOOK2_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Genel Hükümler)";
+const TTK_BOOK2_KOLLEKTIF_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Kollektif Şirket)";
 
 export async function generateMetadata({
   params,
@@ -146,7 +152,10 @@ export default async function ArticlesPage({
       }
     } else if (locale === "tr" && area.slug === "ticaret-sirketler-hukuku") {
       const nonSeries = items.filter(
-        (a) => !isTtkArticle(a.slug) && !isTtkBook2GenelArticle(a.slug)
+        (a) =>
+          !isTtkArticle(a.slug) &&
+          !isTtkBook2GenelArticle(a.slug) &&
+          !isTtkBook2KollektifArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -195,6 +204,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkBook2GenelSubgroups,
+        });
+      }
+
+      const ttkBook2KollektifBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkBook2KollektifArticle(a.slug)) continue;
+        const group = getTtkBook2KollektifGroup(a.slug)!;
+        if (!ttkBook2KollektifBySlug.has(group))
+          ttkBook2KollektifBySlug.set(group, []);
+        ttkBook2KollektifBySlug.get(group)!.push(a);
+      }
+      const ttkBook2KollektifSubgroups: BrowserSubgroup[] =
+        TTK_BOOK2_KOLLEKTIF_GROUP_ORDER.filter((g) =>
+          ttkBook2KollektifBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkBook2KollektifBySlug.get(g)! }));
+
+      if (ttkBook2KollektifSubgroups.length > 0) {
+        groups.push({
+          category: TTK_BOOK2_KOLLEKTIF_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkBook2KollektifSubgroups,
         });
       }
     } else {
