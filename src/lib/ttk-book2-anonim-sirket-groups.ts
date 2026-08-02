@@ -36,8 +36,15 @@
 // Sermaye Koyma Borcu"nun tamamı: payın asgari itibarî değeri,
 // bölünmezliği, imtiyazlı paylar, oyda imtiyaz, pay bedelini ifa
 // borcu, ödemeye çağrı, temerrüt ve ıskat usulü, m.476-483) kapsayacak
-// şekilde genişletilmiştir. "Yedinci Bölüm - Menkul Kıymetler"
-// (m.484 vd.) ayrı bir batch'te ele alınacaktır.
+// şekilde genişletilmiştir. Sekizinci batch ile m.484-506'yı ("Yedinci
+// Bölüm - Menkul Kıymetler"in tamamı: pay senetlerinin türleri,
+// dönüştürülmesi, bastırılması, şekli, yıpranmış pay senetleri ve
+// hamiline yazılı payların devri, m.484-489; nama yazılı payların
+// devrinde ilke ve devrin kanuni/iradi sınırlandırılması ile pay
+// defteri, m.490-501; intifa senetleri ile borçlanma senetleriyle alma
+// ve değiştirme hakkını içeren menkul kıymetler, m.502-506) kapsayacak
+// şekilde genişletilmiştir. "Sekizinci Bölüm - Kâr, Kazanç ve Tasfiye
+// Payı" (m.507 vd.) ayrı bir batch'te ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -61,6 +68,9 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
   "Esas Sermayenin Azaltılması",
   "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
+  "Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri",
+  "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
+  "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -106,6 +116,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "esas-sermayenin-azaltilmasi-ttk-473": "Esas Sermayenin Azaltılması",
   "pay-asgari-itibari-deger-imtiyazli-paylar-ve-pay-bedelini-ifa-borcu-ttk-476":
     "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
+  "pay-senetleri-turler-bastirilmasi-ve-hamiline-yazili-paylarin-devri-ttk-484":
+    "Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri",
+  "nama-yazili-paylarin-devri-ve-devrin-sinirlandirilmasi-ttk-491":
+    "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
+  "intifa-senetleri-ve-borclanma-senetleriyle-alma-degistirme-hakkini-iceren-menkul-kiymetler-ttk-502":
+    "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
