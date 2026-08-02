@@ -20,14 +20,25 @@
 // atfı, emredici hükümler ilkesi; sermaye - en az tutar, ayni sermaye,
 // mal bedelleri ve kurucu menfaatleri, esas sermaye payları, intifa
 // senetleri; kuruluş - kurulma anı, tescil istemi, tescil ve ilan, tüzel
-// kişilik) kapsayan ilk batch ile başlamıştır; ikinci batch ile m.589
-// vd. ("İkinci Bölüm - Şirket Sözleşmesinin Değiştirilmesi") kapsayacak
-// şekilde genişletilecektir.
+// kişilik) kapsayan ilk batch ile başlamıştır; ikinci batch ile m.589-615'i
+// ("İkinci Bölüm - Şirket Sözleşmesinin Değiştirilmesi": genel ilke,
+// sermaye artırımı/rüçhan hakkı, sermaye azaltımı; "Üçüncü Bölüm -
+// Ortakların Hak ve Borçları": esas sermaye payının devri ve payın konu
+// olduğu işlemler, pay defteri, miras/eşler arası mal rejimi/icra yoluyla
+// geçiş, gerçek değerin belirlenmesi, tescil, paylı mülkiyet/intifa/rehin;
+// geri verme yasağı, ortakların sorumluluğu, ek ödeme ve yan edim
+// yükümlülükleri; kâr payı, kendi pay iktisabı, bağlılık yükümlülüğü ve
+// rekabet yasağı, bilgi alma ve inceleme hakkı) kapsayacak şekilde
+// genişletilmiştir.
 
 export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
   "Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi",
   "Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri",
   "Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil",
+  "Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması",
+  "Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler",
+  "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
+  "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
 ];
 
 // slug -> TTK_BOOK2_LIMITED_GROUP_ORDER içindeki başlık. Madde numarası
@@ -40,6 +51,14 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri",
   "limited-sirketin-kurulusu-kurulma-ani-ve-tescil-ttk-585":
     "Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil",
+  "limited-sirket-sozlesmesinin-degistirilmesi-sermaye-artirimi-ve-azaltilmasi-ttk-589":
+    "Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması",
+  "esas-sermaye-payinin-devri-ve-payin-konu-oldugu-islemler-ttk-593":
+    "Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler",
+  "geri-verme-yasagi-ortaklarin-sorumlulugu-ek-odeme-ve-yan-edim-yukumlulukleri-ttk-601":
+    "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
+  "kar-payi-sirketin-kendi-paylarini-iktisabi-baglilik-yukumlulugu-ve-bilgi-alma-hakki-ttk-608":
+    "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
 };
 
 export function getTtkBook2LimitedGroup(slug: string): string | null {
