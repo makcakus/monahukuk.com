@@ -23,9 +23,15 @@
 // sahibinin genel kurula katılma ve temsil hakkı, oy hakkı ile bilgi
 // alma ve inceleme hakkı, özel denetim isteme hakkı, genel kurul
 // kararlarının iptali, butlanı ve sonuçları) kapsayacak şekilde
-// genişletilmiştir. Bu batch ile "Dördüncü Bölüm - Genel Kurul"
-// (m.407-451) tamamlanmış olup, m.452'de başlayan "Beşinci Bölüm -
-// Esas Sözleşmenin Değiştirilmesi" ayrı bir batch'te ele alınacaktır.
+// genişletilmiştir. Beşinci batch ile "Dördüncü Bölüm - Genel Kurul"
+// (m.407-451) tamamlanmıştır. Altıncı batch ile m.452-472'yi ("Beşinci
+// Bölüm - Esas Sözleşmenin Değiştirilmesi"nin genel usul kısmı: genel
+// ilke ve usul, m.452-455; ile "İkinci Ayırım - Özel Değişiklikler"in
+// "A) Sermayenin artırılması" alt başlığının tamamı: ortak hükümler,
+// sermaye taahhüdü yoluyla artırım, rüçhan hakkı, m.456-461; iç
+// kaynaklardan ve şarta bağlı sermaye artırımı, m.462-472) kapsayacak
+// şekilde genişletilmiştir. "B) Esas sermayenin azaltılması" (m.473
+// vd.) ayrı bir batch'te ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -44,6 +50,9 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı",
   "Özel Denetim İsteme Hakkı",
   "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
+  "Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul",
+  "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
+  "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -80,6 +89,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "ozel-denetim-isteme-hakki-ttk-438": "Özel Denetim İsteme Hakkı",
   "genel-kurul-kararlarinin-iptali-butlani-ve-sonuclari-ttk-445":
     "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
+  "esas-sozlesmenin-degistirilmesi-genel-ilke-ve-usul-ttk-452":
+    "Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul",
+  "sermaye-artiriminin-ortak-hukumleri-sermaye-taahhudu-yoluyla-artirim-ve-ruchan-hakki-ttk-456":
+    "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
+  "ic-kaynaklardan-ve-sarta-bagli-sermaye-artirimi-ttk-462":
+    "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
