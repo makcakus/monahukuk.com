@@ -43,8 +43,16 @@
 // devrinde ilke ve devrin kanuni/iradi sınırlandırılması ile pay
 // defteri, m.490-501; intifa senetleri ile borçlanma senetleriyle alma
 // ve değiştirme hakkını içeren menkul kıymetler, m.502-506) kapsayacak
-// şekilde genişletilmiştir. "Sekizinci Bölüm - Kâr, Kazanç ve Tasfiye
-// Payı" (m.507 vd.) ayrı bir batch'te ele alınacaktır.
+// şekilde genişletilmiştir. Dokuzuncu batch ile m.507-528'i ("Sekizinci
+// Bölüm - Kâr, Kazanç ve Tasfiye Payı"nın tamamı: kâr ve tasfiye payı
+// hakkı, hesaplama biçimi, kâr payı, hazırlık dönemi faizi, kazanç
+// payları, geri alma hakkı, m.507-513; "Dokuzuncu Bölüm - Şirketin
+// Finansal Tabloları, Yedek Akçeler"in tamamı: anonim şirketlerin ve
+// şirketler topluluğunun finansal tabloları ile yönetim kurulunun
+// yıllık faaliyet raporu, m.514-518; yedek akçeler, çeşitli hükümler ve
+// özel hükümler, m.519-528) kapsayacak şekilde genişletilmiştir.
+// "Onuncu Bölüm - Sona Erme ve Tasfiye" (m.529 vd.) ayrı bir batch'te
+// ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -71,6 +79,9 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri",
   "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
   "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
+  "Anonim Şirkette Kâr ve Tasfiye Payı Hakkı",
+  "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
+  "Yedek Akçeler ve Çeşitli/Özel Hükümler",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -122,6 +133,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
   "intifa-senetleri-ve-borclanma-senetleriyle-alma-degistirme-hakkini-iceren-menkul-kiymetler-ttk-502":
     "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
+  "anonim-sirkette-kar-ve-tasfiye-payi-hakki-ttk-507":
+    "Anonim Şirkette Kâr ve Tasfiye Payı Hakkı",
+  "anonim-sirketin-finansal-tablolari-ve-yonetim-kurulunun-yillik-faaliyet-raporu-ttk-514":
+    "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
+  "yedek-akceler-ve-cesitli-ozel-hukumler-ttk-519":
+    "Yedek Akçeler ve Çeşitli/Özel Hükümler",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
