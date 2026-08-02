@@ -69,7 +69,7 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Eşya Taşımada Taşıma Sözleşmesi: Taşıma Senedi ve Yük Senedi",
   "esya-tasimada-ambalaj-yukleme-boslatma-ve-gonderenin-sorumlulugu-ttk-862":
     "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
-  "esya-tasimada-yukleme-suresi-talimat-ve-taşima-engelleri-ttk-866":
+  "esya-tasimada-yukleme-suresi-talimat-ve-tasima-engelleri-ttk-866":
     "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
   "esya-tasimada-ucret-teslim-ve-ziya-karinesi-ttk-870":
     "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
