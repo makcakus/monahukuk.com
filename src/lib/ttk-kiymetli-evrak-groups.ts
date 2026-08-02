@@ -39,6 +39,22 @@
 // ödeme, yabancı ülke parasıyla ödeme, tevdi) kapsar. Poliçenin son
 // ayırımı (Kabul Etmeme ve Ödememe Hâllerinde Başvurma Hakları) ile bono
 // ve çeke ilişkin bölümler sonraki batch'lerde ele alınacaktır.
+//
+// Dördüncü batch, "Birinci Bölüm - Poliçe"nin "Beşinci Ayırım - Kabul
+// Etmeme ve Ödememe Hâllerinde Başvurma Hakları"nın tamamını (m.713-732)
+// iki yazı hâlinde kapsar: ilk yazı başvurma hakkının doğumunu, kabul
+// etmeme ve ödememe protestosunun süresini, şeklini (noterlikçe
+// düzenlenme, içerik, protesto belgesi, kısmi kabul hâlinde protesto,
+// birden fazla kişiye karşı protesto), saklama yükümünü, sakat
+// protestoyu, protesto düzenlenmesi gerekmeyen hâlleri ve ihbar
+// zorunluluğunu (m.713-723) ele alır; ikinci yazı ise teselsülü,
+// başvurma hakkının kapsamını (hamilin ve ödeyenin istemleri), makbuz
+// isteme hakkını, retreti, başvurma hakkının düşmesini, mücbir
+// sebepleri ve sebepsiz zenginleşmeyi (m.724-732) kapsar. Bu batch ile
+// Beşinci Ayırım ve dolayısıyla Birinci Bölüm "Poliçe" tamamen işlenmiş
+// olur. Poliçe bölümü bir sonraki batch'te "Altıncı Ayırım - Poliçe
+// Nüshaları ve Suretleri" (m.743 vd.) ile devam edecek, ardından bono ve
+// çeke ilişkin bölümler ele alınacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -48,6 +64,7 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Poliçede Ciro",
   "Kambiyo Senetleri: Poliçede Kabul ve Aval",
   "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
+  "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -67,6 +84,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetleri: Poliçede Kabul ve Aval",
   "policede-aval-ttk-700": "Kambiyo Senetleri: Poliçede Kabul ve Aval",
   "policede-vade-ve-odeme-ttk-703": "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
+  "policede-odememe-protestosu-ve-basvurma-hakkinin-dogumu-ttk-713":
+    "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "policede-basvurma-hakkinin-kapsami-retret-ve-dusmesi-ttk-724":
+    "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
