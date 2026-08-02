@@ -26,6 +26,19 @@
 // kalan ayırımları (Kabul ve Aval, Ödeme, Kabul Etmeme ve Ödememe
 // Hâllerinde Başvurma Hakları) ile bono ve çeke ilişkin bölümler sonraki
 // batch'lerde ele alınacaktır.
+//
+// Üçüncü batch, "Birinci Bölüm - Poliçe"nin "Üçüncü Ayırım - Kabul ve
+// Aval" (m.691-702: kabule arz, kabule arz şartı ve yasağı, görüldükten
+// belirli süre sonra ödenecek poliçelerde arz süresi, bir daha kabule
+// arz, kabulün şekli ve sınırlandırılması, adresli/yerleşim yerli
+// poliçede kabul, kabulün hükümleri, kabul şerhinin çizilmesi, aval
+// verenler, aval şekli, aval hükümleri) ve "Dördüncü Ayırım - Ödeme"
+// (m.703-712: vadenin belirlenmesi, görüldüğünde ve görüldükten belirli
+// süre sonra ödenecek poliçe, sürelerin hesabı, takvimlerin çatışması,
+// ödeme için ibraz, makbuz isteme hakkı, vadeden önce ve vadesinde
+// ödeme, yabancı ülke parasıyla ödeme, tevdi) kapsar. Poliçenin son
+// ayırımı (Kabul Etmeme ve Ödememe Hâllerinde Başvurma Hakları) ile bono
+// ve çeke ilişkin bölümler sonraki batch'lerde ele alınacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -33,6 +46,8 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Hamile Yazılı Senetler",
   "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
   "Kambiyo Senetleri: Poliçede Ciro",
+  "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -48,6 +63,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "policede-imza-edenlerin-sorumlulugu-ttk-677":
     "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
   "policede-ciro-ttk-681": "Kambiyo Senetleri: Poliçede Ciro",
+  "policenin-kabule-arzi-ve-kabulu-ttk-691":
+    "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "policede-aval-ttk-700": "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "policede-vade-ve-odeme-ttk-703": "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
