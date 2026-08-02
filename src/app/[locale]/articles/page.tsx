@@ -27,6 +27,11 @@ import {
   getTtkBook2KomanditGroup,
   isTtkBook2KomanditArticle,
 } from "@/lib/ttk-book2-komandit-sirket-groups";
+import {
+  TTK_BOOK2_ANONIM_GROUP_ORDER,
+  getTtkBook2AnonimGroup,
+  isTtkBook2AnonimArticle,
+} from "@/lib/ttk-book2-anonim-sirket-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -35,6 +40,7 @@ const TTK_HEADING = "Türk Ticaret Kanunu - Ticari İşletme";
 const TTK_BOOK2_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Genel Hükümler)";
 const TTK_BOOK2_KOLLEKTIF_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Kollektif Şirket)";
 const TTK_BOOK2_KOMANDIT_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Komandit Şirket)";
+const TTK_BOOK2_ANONIM_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Anonim Şirket)";
 
 export async function generateMetadata({
   params,
@@ -162,7 +168,8 @@ export default async function ArticlesPage({
           !isTtkArticle(a.slug) &&
           !isTtkBook2GenelArticle(a.slug) &&
           !isTtkBook2KollektifArticle(a.slug) &&
-          !isTtkBook2KomanditArticle(a.slug)
+          !isTtkBook2KomanditArticle(a.slug) &&
+          !isTtkBook2AnonimArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -257,6 +264,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkBook2KomanditSubgroups,
+        });
+      }
+
+      const ttkBook2AnonimBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkBook2AnonimArticle(a.slug)) continue;
+        const group = getTtkBook2AnonimGroup(a.slug)!;
+        if (!ttkBook2AnonimBySlug.has(group))
+          ttkBook2AnonimBySlug.set(group, []);
+        ttkBook2AnonimBySlug.get(group)!.push(a);
+      }
+      const ttkBook2AnonimSubgroups: BrowserSubgroup[] =
+        TTK_BOOK2_ANONIM_GROUP_ORDER.filter((g) =>
+          ttkBook2AnonimBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkBook2AnonimBySlug.get(g)! }));
+
+      if (ttkBook2AnonimSubgroups.length > 0) {
+        groups.push({
+          category: TTK_BOOK2_ANONIM_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkBook2AnonimSubgroups,
         });
       }
     } else {
