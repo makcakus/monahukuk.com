@@ -55,6 +55,25 @@
 // olur. Poliçe bölümü bir sonraki batch'te "Altıncı Ayırım - Poliçe
 // Nüshaları ve Suretleri" (m.743 vd.) ile devam edecek, ardından bono ve
 // çeke ilişkin bölümler ele alınacaktır.
+//
+// Beşinci batch, üç yazı hâlinde "Birinci Bölüm - Poliçe"nin kalan üç
+// ayırımını, dolayısıyla Poliçe bölümünün tamamını (m.670-775) tamamlar.
+// İlk yazı "Altıncı Ayırım - Poliçe Nüshaları ve Suretleri"ni (m.743-747:
+// nüshaların isteme hakkı, nüshalar arasındaki ilişki, kabul için
+// gönderilen nüshanın akıbeti, suretlerin şekli ve hükümleri, senet
+// aslının suret hamiline teslimi) kapsar. İkinci yazı "Yedinci Ayırım -
+// Çeşitli Hükümler"i (m.748-765: senet metnindeki değişiklikler,
+// zamanaşımı süreleri ve kesilmesi, tatil günleri, sürelerin hesabı,
+// atıfet süreleri yasağı, işlemlerin yapılacağı yer, imzalar, iptal -
+// önleyici önlemler, poliçeyi eline geçirenin bilinip bilinmemesi, ihtar,
+// ilan, iade davası, iptal kararı, teminat) kapsar. Üçüncü yazı ise
+// "Sekizinci Ayırım - Kanunlar İhtilafı"nı (m.766-775: ehliyet, şekil ve
+// süreler, borçlanmaların hükümleri, kısmi kabul ve ödeme, sebepsiz
+// zenginleşmeden doğan haklar, karşılığın hamile geçmesi, iptal kararı)
+// kapsar. Bu batch ile Birinci Bölüm "Poliçe" (m.670-775) tamamen
+// işlenmiş olur. Bir sonraki batch, "İkinci Bölüm - Bono veya Emre
+// Yazılı Senet" (m.776-779) ile devam edecek, ardından "Üçüncü Bölüm -
+// Çek" (m.780-849) ele alınacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -65,6 +84,7 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Poliçede Kabul ve Aval",
   "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
   "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -88,6 +108,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
   "policede-basvurma-hakkinin-kapsami-retret-ve-dusmesi-ttk-724":
     "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "police-nushalari-ve-suretleri-ttk-743":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "police-zamanasimi-ve-cesitli-hukumler-ttk-748":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "police-kanunlar-ihtilafi-ttk-766":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
