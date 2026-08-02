@@ -42,6 +42,11 @@ import {
   getTtkBook2LimitedGroup,
   isTtkBook2LimitedArticle,
 } from "@/lib/ttk-book2-limited-sirket-groups";
+import {
+  TTK_KIYMETLI_EVRAK_GROUP_ORDER,
+  getTtkKiymetliEvrakGroup,
+  isTtkKiymetliEvrakArticle,
+} from "@/lib/ttk-kiymetli-evrak-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -54,6 +59,7 @@ const TTK_BOOK2_ANONIM_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (An
 const TTK_BOOK2_SPB_KOMANDIT_HEADING =
   "Türk Ticaret Kanunu - Ticaret Şirketleri (Sermayesi Paylara Bölünmüş Komandit Şirket)";
 const TTK_BOOK2_LIMITED_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Limited Şirket)";
+const TTK_KIYMETLI_EVRAK_HEADING = "Türk Ticaret Kanunu - Kıymetli Evrak";
 
 export async function generateMetadata({
   params,
@@ -184,7 +190,8 @@ export default async function ArticlesPage({
           !isTtkBook2KomanditArticle(a.slug) &&
           !isTtkBook2AnonimArticle(a.slug) &&
           !isTtkBook2SpbKomanditArticle(a.slug) &&
-          !isTtkBook2LimitedArticle(a.slug)
+          !isTtkBook2LimitedArticle(a.slug) &&
+          !isTtkKiymetliEvrakArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -348,6 +355,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkBook2LimitedSubgroups,
+        });
+      }
+
+      const ttkKiymetliEvrakBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkKiymetliEvrakArticle(a.slug)) continue;
+        const group = getTtkKiymetliEvrakGroup(a.slug)!;
+        if (!ttkKiymetliEvrakBySlug.has(group))
+          ttkKiymetliEvrakBySlug.set(group, []);
+        ttkKiymetliEvrakBySlug.get(group)!.push(a);
+      }
+      const ttkKiymetliEvrakSubgroups: BrowserSubgroup[] =
+        TTK_KIYMETLI_EVRAK_GROUP_ORDER.filter((g) =>
+          ttkKiymetliEvrakBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkKiymetliEvrakBySlug.get(g)! }));
+
+      if (ttkKiymetliEvrakSubgroups.length > 0) {
+        groups.push({
+          category: TTK_KIYMETLI_EVRAK_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkKiymetliEvrakSubgroups,
         });
       }
     } else {
