@@ -109,6 +109,28 @@
 // Çeşitli Hükümler" (sahte veya tahrif edilmiş çek, m.812'den başlar;
 // kapsamın tam sınırı sonraki bir chunk fetch'i ile belirlenecektir)
 // kalmıştır.
+//
+// Sekizinci batch, iki yazı hâlinde "Dördüncü Ayırım - Çeşitli
+// Hükümler" (m.812-818) ve "Beşinci Ayırım - Kanunlar İhtilafı"
+// (m.819-823) başlıklarını tamamen kapsar. İlk yazı Dördüncü Ayırım'ı
+// tek bir makalede ele alır: sahte veya tahrif edilmiş çekte muhatap
+// bankanın kusursuz sorumluluğu ve düzenleyenin kusuru istisnası
+// (m.812), çekin istisnai denizaşırı hâllerde nüsha olarak
+// düzenlenmesi (m.813), üç yıllık zamanaşımı (m.814), banka kavramının
+// tanımı (m.815), tatil günleri ve sürelerin hesabı (m.816-817) ve
+// poliçeye ait hangi hükümlerin çeke uygulanacağını gösteren seçici
+// atıf listesi ile buna bağlı protesto ikamesi (m.818). İkinci yazı ise
+// Beşinci ve son Ayırım'ı tek bir makalede ele alır: muhatap olma
+// ehliyeti (m.819), şekil ve süreler (m.820), borçlanmaların hükümleri
+// - düzenlenme yeri kanunu, ödeme yeri hukuku ve yerleşim yeri hukuku
+// (m.821-823). Bu batch ile Üçüncü Bölüm "Çek" (m.780-823) ve
+// dolayısıyla Dördüncü Kısım "Kambiyo Senetleri" (m.670-823) tamamen
+// işlenmiş olur. Bir sonraki batch, Üçüncü Kitap "Kıymetli Evrak"ın
+// "Beşinci Kısım - Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre
+// Yazılı Senetler" (m.824-831) ile devam edecek, ardından "Altıncı
+// Kısım - Makbuz Senedi ve Varant" (m.832-849) ele alınarak Üçüncü
+// Kitap tamamen tamamlanacak ve seri Dördüncü Kitap "Taşıma İşleri"ne
+// geçecektir.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -123,6 +145,7 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Bono",
   "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
   "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -163,6 +186,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
   "cekte-odememe-ve-basvurma-haklari-ttk-808":
     "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cekte-sahtecilik-nusha-zamanasimi-ve-uygulanacak-hukumler-ttk-812":
+    "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
+  "cekte-kanunlar-ihtilafi-ttk-819":
+    "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
