@@ -91,6 +91,24 @@
 // ve ibraz süresinin geçmesinden sonraki ciro). Çek Bölümü'nün kalan
 // ayırımları ("Ödeme ve Ödememe Hâlleri", m.794-811, ve "Çeşitli
 // Hükümler", m.812 vd.) sonraki batch'lerde ele alınacaktır.
+//
+// Yedinci batch, üç yazı hâlinde "Üçüncü Ayırım - Ödeme ve Ödememe"yi
+// (m.794-811) tamamen kapsar. İlk yazı "A) Ödeme" başlığının ilk
+// yarısını (m.794-802: aval, muacceliyet, ödeme için ibraz - genel
+// olarak/takvim farklılığı/takas odası, çekten cayma - genel olarak/
+// özel hâller, ciroların incelenmesi, yabancı ülke parasıyla ödenecek
+// çek) kapsar. İkinci yazı "A) Ödeme" başlığının ikinci yarısını
+// (m.803-807: çizgili çek - şekil ve şartları/hükümleri, hesaba
+// geçirilmek üzere düzenlenen çek - genel olarak, hamilin haklarının
+// iflas hâlinde ve hesaba geçirilmeme hâlinde kullanılması) kapsar.
+// Üçüncü yazı ise "B) Ödememe" başlığının tamamını (m.808-811: hamilin
+// başvurma hakları, protesto, başvurma hakkının kapsamı, mücbir
+// sebepler) kapsar. Bu batch ile Üçüncü Ayırım ve dolayısıyla Çek
+// Bölümü'nün ödeme/ödememe rejimi tamamen işlenmiş olur. Kambiyo
+// Senetleri Kısmı'nı tamamlamak için yalnızca "Dördüncü Ayırım -
+// Çeşitli Hükümler" (sahte veya tahrif edilmiş çek, m.812'den başlar;
+// kapsamın tam sınırı sonraki bir chunk fetch'i ile belirlenecektir)
+// kalmıştır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -104,6 +122,7 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
   "Kambiyo Senetleri: Bono",
   "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -138,6 +157,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
   "cekin-devri-ciro-yoluyla-ttk-788":
     "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "cekte-odeme-ibraz-ve-cayma-ttk-794":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cizgili-cek-ve-hesaba-gecirilecek-cek-ttk-803":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cekte-odememe-ve-basvurma-haklari-ttk-808":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
