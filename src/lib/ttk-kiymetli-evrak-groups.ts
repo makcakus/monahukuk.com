@@ -74,6 +74,23 @@
 // işlenmiş olur. Bir sonraki batch, "İkinci Bölüm - Bono veya Emre
 // Yazılı Senet" (m.776-779) ile devam edecek, ardından "Üçüncü Bölüm -
 // Çek" (m.780-849) ele alınacaktır.
+//
+// Altıncı batch, iki yazı hâlinde "İkinci Bölüm - Bono veya Emre Yazılı
+// Senet"i tamamen (m.776-779) ve "Üçüncü Bölüm - Çek"in ilk iki
+// ayırımını (m.780-793) kapsar. İlk yazı bonoyu tek bir makalede ele
+// alır: unsurlar, unsurların bulunmaması, poliçe hükümlerinin bonoya
+// uygulanması (ciro, vade, ödeme, başvurma hakları, zamanaşımı, iptal,
+// aval) ve düzenleyenin poliçeyi kabul eden gibi doğrudan sorumlu
+// olması ilkesi (m.776-779). İkinci ve üçüncü yazılar Çek Bölümü'nün
+// açılışını oluşturur: "Birinci Ayırım - Çeklerin Düzenlenmesi ve
+// Şekli" (m.780-787: unsurlar, unsurların bulunmaması, muhatap olma
+// ehliyeti, karşılık, kabul yasağı, kimin lehine çekilebileceği, faiz
+// şartı, adresli ve yerleşim yerli çek) ve "İkinci Ayırım - Devir"
+// (m.788-793: devredilebilirlik, ciro, hak sahipliğini ispat görevi,
+// hamiline yazılı çek üzerine yapılan ciro, elden çıkan çek, protestodan
+// ve ibraz süresinin geçmesinden sonraki ciro). Çek Bölümü'nün kalan
+// ayırımları ("Ödeme ve Ödememe Hâlleri", m.794-811, ve "Çeşitli
+// Hükümler", m.812 vd.) sonraki batch'lerde ele alınacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -85,6 +102,8 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
   "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
   "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "Kambiyo Senetleri: Bono",
+  "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -114,6 +133,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
   "police-kanunlar-ihtilafi-ttk-766":
     "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "bono-veya-emre-yazili-senet-ttk-776": "Kambiyo Senetleri: Bono",
+  "cekin-duzenlenmesi-ve-sekil-sartlari-ttk-780":
+    "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "cekin-devri-ciro-yoluyla-ttk-788":
+    "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
