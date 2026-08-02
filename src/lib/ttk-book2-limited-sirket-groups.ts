@@ -38,7 +38,13 @@
 // kapsamı ve sınırlandırılması, görevden alma, ticari mümessil/vekiller,
 // haksız fiil sorumluluğu; sermaye kaybı ve borca batıklık, iflasın
 // bildirilmesi/konkordato talebi, denetçi) kapsayacak şekilde
-// genişletilmiştir.
+// genişletilmiştir; dördüncü ve SON batch ile m.636-644'ü ("Beşinci
+// Bölüm - Sona Erme ve Ayrılma"nın tamamı: sona erme sebepleri ve
+// sonuçları, tescil ve ilan, çıkma ve çıkmaya katılma, çıkarma, ayrılma
+// akçesi - istem/tutar ve ödeme, tasfiye, uygulanacak hükümler)
+// kapsayacak şekilde genişletilmiştir. m.644 ile Limited Şirket (Altıncı
+// Kısım, m.573-644) ve dolayısıyla TTK Kitap 2 "Ticaret Şirketleri"nin
+// tamamı (m.124-644) tamamlanmıştır; bu dosya bu haliyle nihaidir.
 
 export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
   "Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi",
@@ -51,6 +57,8 @@ export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
   "Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar",
   "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
   "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
+  "Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma",
+  "Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler",
 ];
 
 // slug -> TTK_BOOK2_LIMITED_GROUP_ORDER içindeki başlık. Madde numarası
@@ -77,6 +85,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
   "limited-sirkette-sermaye-kaybi-borca-batikligi-ve-denetci-ttk-633":
     "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
+  "limited-sirketin-sona-ermesi-cikma-ve-cikarilma-ttk-636":
+    "Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma",
+  "ayrilma-akcesi-tasfiye-ve-limited-sirkete-uygulanacak-diger-hukumler-ttk-641":
+    "Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler",
 };
 
 export function getTtkBook2LimitedGroup(slug: string): string | null {
