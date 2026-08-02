@@ -55,9 +55,16 @@
 // tamamı: sona erme sebepleri, özel sona erme hâlleri ve sona ermenin
 // hükümleri, m.529-535; tasfiye memurları ve tasfiye işleri, m.536-544;
 // tasfiyenin sonu, ek tasfiye ve tasfiyeden dönülmesi, m.545-548)
-// kapsayacak şekilde genişletilmiştir. Bununla "Anonim Şirket" (m.329-563)
-// bölümü büyük ölçüde tamamlanmış olup, "Onbirinci Bölüm - Hukuki
-// Sorumluluk" (m.549 vd.) ayrı bir batch'te ele alınacaktır.
+// kapsayacak şekilde genişletilmiştir. Onbirinci batch ile m.549-561'i
+// ("Onbirinci Bölüm - Hukuki Sorumluluk"un tamamı: sorumluluk hâlleri -
+// belgelerin ve beyanların kanuna aykırılığı, sermaye hakkında yanlış
+// beyanlar, değer biçilmesinde yolsuzluk, halktan para toplama yasağı,
+// kurucuların/yönetim kurulu üyelerinin/yöneticilerin/tasfiye
+// memurlarının sorumluluğu, denetçinin sorumluluğu, m.549-554; şirketin
+// zararı, teselsül ve başvuru, ibra, zamanaşımı, yetkili mahkeme,
+// m.555-561) kapsayacak şekilde genişletilmiştir. Bununla "Anonim
+// Şirket" (m.329-563) bölümü tamamlanmıştır; m.562-563 ("Onikinci Bölüm
+// - Cezai Sorumluluk") bu grubun kapsamı dışındadır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -90,6 +97,8 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları",
   "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
   "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
+  "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
+  "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -153,6 +162,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
   "tasfiyenin-sonu-ek-tasfiye-ve-tasfiyeden-donulmesi-ttk-545":
     "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
+  "anonim-sirkette-hukuki-sorumluluk-halleri-ttk-549":
+    "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
+  "sirketin-zarari-ibra-zamanasimi-ve-yetkili-mahkeme-ttk-555":
+    "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
