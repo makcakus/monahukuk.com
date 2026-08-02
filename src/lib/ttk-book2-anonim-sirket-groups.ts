@@ -30,8 +30,14 @@
 // "A) Sermayenin artırılması" alt başlığının tamamı: ortak hükümler,
 // sermaye taahhüdü yoluyla artırım, rüçhan hakkı, m.456-461; iç
 // kaynaklardan ve şarta bağlı sermaye artırımı, m.462-472) kapsayacak
-// şekilde genişletilmiştir. "B) Esas sermayenin azaltılması" (m.473
-// vd.) ayrı bir batch'te ele alınacaktır.
+// şekilde genişletilmiştir. Yedinci batch ile m.473-483'ü ("Beşinci
+// Bölüm - Esas Sözleşmenin Değiştirilmesi"nin son kısmı: "B) Esas
+// sermayenin azaltılması", m.473-475; ile "Altıncı Bölüm - Pay ve
+// Sermaye Koyma Borcu"nun tamamı: payın asgari itibarî değeri,
+// bölünmezliği, imtiyazlı paylar, oyda imtiyaz, pay bedelini ifa
+// borcu, ödemeye çağrı, temerrüt ve ıskat usulü, m.476-483) kapsayacak
+// şekilde genişletilmiştir. "Yedinci Bölüm - Menkul Kıymetler"
+// (m.484 vd.) ayrı bir batch'te ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -53,6 +59,8 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul",
   "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
   "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
+  "Esas Sermayenin Azaltılması",
+  "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -95,6 +103,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
   "ic-kaynaklardan-ve-sarta-bagli-sermaye-artirimi-ttk-462":
     "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
+  "esas-sermayenin-azaltilmasi-ttk-473": "Esas Sermayenin Azaltılması",
+  "pay-asgari-itibari-deger-imtiyazli-paylar-ve-pay-bedelini-ifa-borcu-ttk-476":
+    "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
