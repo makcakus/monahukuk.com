@@ -71,6 +71,23 @@ export interface BrowserUiStrings {
   viewPracticeArea: string;
 }
 
+function normalize(s: string): string {
+  return s.toLowerCase().replace(/̇/g, "");
+}
+
+// Arama sonuçlarını alaka düzeyine göre sıralar: başlıkta tam/başında/içinde
+// eşleşme, açıklamada eşleşme, kategoride eşleşme, en son yalnızca gövde
+// metninde eşleşme. Aynı seviyedeki sonuçlar orijinal sırasını korur.
+function matchRank(a: ArticleSearchEntry, query: string): number {
+  const title = normalize(a.title);
+  if (title === query) return 0;
+  if (title.startsWith(query)) return 1;
+  if (title.includes(query)) return 2;
+  if (normalize(a.description).includes(query)) return 3;
+  if (a.category && normalize(a.category).includes(query)) return 4;
+  return 5;
+}
+
 export function ArticlesBrowser({
   groups,
   ui,
@@ -100,7 +117,9 @@ export function ArticlesBrowser({
       ...g.items,
       ...(g.subgroups?.flatMap((sg) => sg.items) ?? []),
     ]);
-    return all.filter((a) => a.searchText.includes(trimmed));
+    return all
+      .filter((a) => a.searchText.includes(trimmed))
+      .sort((x, y) => matchRank(x, trimmed) - matchRank(y, trimmed));
   }, [isSearching, trimmed, groups]);
 
   return (
