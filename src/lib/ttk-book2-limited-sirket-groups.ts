@@ -29,6 +29,15 @@
 // geri verme yasağı, ortakların sorumluluğu, ek ödeme ve yan edim
 // yükümlülükleri; kâr payı, kendi pay iktisabı, bağlılık yükümlülüğü ve
 // rekabet yasağı, bilgi alma ve inceleme hakkı) kapsayacak şekilde
+// genişletilmiştir; üçüncü batch ile m.616-635'i ("Dördüncü Bölüm -
+// Şirketin Organları"nın tamamı: genel kurul - devredilemez yetkiler,
+// toplantıya çağrı, oy hakkı ve hesaplanması, oydan yoksunluk, olağan ve
+// önemli karar nisapları, kararların butlanı ve iptali; müdürler -
+// atanma ve birden fazla müdürde karar alma, devredilemez görevler, özen
+// ve bağlılık yükümü/rekabet yasağı, eşit işlem, temsil yetkisinin
+// kapsamı ve sınırlandırılması, görevden alma, ticari mümessil/vekiller,
+// haksız fiil sorumluluğu; sermaye kaybı ve borca batıklık, iflasın
+// bildirilmesi/konkordato talebi, denetçi) kapsayacak şekilde
 // genişletilmiştir.
 
 export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
@@ -39,6 +48,9 @@ export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
   "Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler",
   "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
   "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
+  "Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar",
+  "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
+  "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
 ];
 
 // slug -> TTK_BOOK2_LIMITED_GROUP_ORDER içindeki başlık. Madde numarası
@@ -59,6 +71,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
   "kar-payi-sirketin-kendi-paylarini-iktisabi-baglilik-yukumlulugu-ve-bilgi-alma-hakki-ttk-608":
     "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
+  "limited-sirkette-genel-kurul-yetkiler-toplantilar-oy-hakki-ve-kararlar-ttk-616":
+    "Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar",
+  "limited-sirkette-mudurler-yonetim-temsil-ve-yukumlulukler-ttk-623":
+    "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
+  "limited-sirkette-sermaye-kaybi-borca-batikligi-ve-denetci-ttk-633":
+    "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
 };
 
 export function getTtkBook2LimitedGroup(slug: string): string | null {
