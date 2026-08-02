@@ -48,16 +48,51 @@
 // Sözleşmesinin Uygulanması" başlığı (m.856-874) tamamen kapsanmış
 // olur.
 //
-// İkinci Kısmın kalan bölümü "B) Taşıyıcının Sorumluluğu" (m.875-893),
-// "Üçüncü Kısım - Taşınma Eşyası" (m.894-901), "Dördüncü Kısım -
-// Değişik Tür Araçlarla Taşıma" (m.902-905), "Beşinci Kısım - Yolcu
-// Taşıma" (m.906-916) ve "Altıncı Kısım - Taşıma İşleri Komisyoncusu"
-// (m.917-930) sonraki batch'lerde ele alınacaktır.
+// Üçüncü batch, İkinci Kısmın kalan bölümü olan "B) Taşıyıcının
+// Sorumluluğu" başlığının tamamını (m.875-893) kapsar: zıya, hasar
+// veya gecikmeden doğan zarardan sorumluluğun temel kuralı ve
+// gönderen/gönderilenin katkı kusurunun etkisi, m.875; sorumluluktan
+// kurtulma - en yüksek özen standardına dayanan genel kurtulma sebebi,
+// m.876, araç arızası ve kiralayanın kusurundan kurtulma yasağı,
+// m.877, ispat yükünü tersine çeviren özel hâller (üstü açık araç,
+// yetersiz ambalajlama, eşyanın doğal niteliği, canlı hayvan taşıması
+// vb.) ve bunların istisnaları, m.878; yardımcıların (kendi adamları
+// ve taşımanın icrasında yararlanılan kişiler) kusurundan sorumluluk,
+// m.879; tazminatta esas alınacak değer - tam zıyada teslim yeri ve
+// zamanındaki değer, hasarda değer farkı yöntemi, m.880; zarar saptama
+// giderlerinin tazmini, m.881; sorumluluk sınırları - CMR'den mülhem
+// kilogram başına 8,33 SDR sınırı ve gecikmede taşıma ücretinin üç
+// katı sınırı, m.882; diğer giderlerin (navlun iadesi, vergi, resim)
+// tazmini, m.883; eşya/kişi zararları dışında kalan diğer zararlarda
+// tam zıya tazminatının üç katı üst sınırı, m.884; sorumluluktan
+// kurtulma sebepleri ve sınırlamaların sözleşme dışı istemlere ve
+// üçüncü kişi istemlerine uzanması, m.885; kasıt veya pervasızca
+// davranışın tüm kurtulma sebeplerini ve sınırlamaları ortadan
+// kaldırması, m.886; bu kuralın taşıyıcının yardımcılarına karşı
+// açılan davalarda uygulanması, m.887; taşımayı fiilen yürüten üçüncü
+// kişi olan fiilî taşıyıcının asıl taşıyıcı ile müteselsil
+// sorumluluğu, m.888; açık ve gizli zarar ile gecikme bildirimlerinin
+// süre ve şekil şartları, m.889; taşıma davalarında ek yetkili
+// mahkeme, m.890; taşıyıcının TMK m.950-953 uyarınca eşya üzerindeki
+// hapis hakkı, m.891; birden çok taşıyıcı arasında hapis hakkının
+// zincirleme korunması, m.892; ve aynı eşya üzerindeki birden çok
+// hapis hakkının öncelik sırası, m.893. Bu batch ile İkinci Kısım
+// "Eşya Taşıma"nın "B) Taşıyıcının Sorumluluğu" başlığı (m.875-893)
+// tamamlanmış, dolayısıyla İkinci Kısmın m.856-893 arasındaki tüm
+// hükümleri (hem "A) Taşıma Sözleşmesinin Uygulanması" hem de "B)
+// Taşıyıcının Sorumluluğu") eksiksiz kapsanmış olur.
+//
+// Sonraki batch, "Üçüncü Kısım - Taşınma Eşyası Taşıması" (m.894-901)
+// ve "Dördüncü Kısım - Değişik Tür Araçlar ile Taşıma" (m.902-905)
+// başlıklarını kapsayacaktır; "Beşinci Kısım - Yolcu Taşıma"
+// (m.906-916) ve "Altıncı Kısım - Taşıma İşleri Komisyoncusu"
+// (m.917-930) daha sonraki batch'lerde ele alınacaktır.
 
 export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Taşıma İşlerinde Genel Hükümler",
   "Eşya Taşımada Taşıma Sözleşmesi: Taşıma Senedi ve Yük Senedi",
   "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "Eşya Taşımada Taşıyıcının Sorumluluğu",
 ];
 
 // slug -> TTK_TASIMA_ISLERI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -73,6 +108,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
   "esya-tasimada-ucret-teslim-ve-ziya-karinesi-ttk-870":
     "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "esya-tasimada-tasiyicinin-sorumlulugu-ve-kurtulma-sebepleri-ttk-875":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "esya-tasimada-tazminat-hesabi-ve-sorumluluk-sinirlari-ttk-880":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "esya-tasimada-fiili-tasiyici-bildirim-ve-hapis-hakki-ttk-888":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
 };
 
 export function getTtkTasimaIsleriGroup(slug: string): string | null {
