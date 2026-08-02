@@ -82,17 +82,53 @@
 // hükümleri (hem "A) Taşıma Sözleşmesinin Uygulanması" hem de "B)
 // Taşıyıcının Sorumluluğu") eksiksiz kapsanmış olur.
 //
-// Sonraki batch, "Üçüncü Kısım - Taşınma Eşyası Taşıması" (m.894-901)
-// ve "Dördüncü Kısım - Değişik Tür Araçlar ile Taşıma" (m.902-905)
-// başlıklarını kapsayacaktır; "Beşinci Kısım - Yolcu Taşıma"
-// (m.906-916) ve "Altıncı Kısım - Taşıma İşleri Komisyoncusu"
-// (m.917-930) daha sonraki batch'lerde ele alınacaktır.
+// Dördüncü batch, "Üçüncü Kısım - Taşınma Eşyası Taşıması" (m.894-901)
+// hükümlerinin tamamını kapsar: uygulanacak hükümler - taşınma eşyası
+// tanımı ve Birinci/İkinci Kısım hükümlerinin aksi kararlaştırılmadıkça
+// veya milletlerarası sözleşme öngörmedikçe uygulanması, m.894;
+// taşıyıcının yükümlülükleri - mobilya sökme/kurma ve yükleme/boşaltmanın
+// (m.863'teki genel varsayımın aksine) her zaman taşıyıcıya ait olması,
+// gönderen tüketici ise ambalajlama ve işaretlemenin de taşıyıcıya
+// geçmesi, m.895; taşıma senedi düzenleme zorunluluğunun kalkması,
+// tehlikeli mal bildiriminin tüketici gönderen için sadeleştirilmesi ve
+// taşıyıcının gümrük/idari kurallar konusunda bilgilendirme yükümü,
+// m.896; gönderenin özel hâllerde sorumluluğunun (m.864/2'den farklı
+// olarak) yükleme hacminin metreküpü başına 1.500 SDR ile sınırlanması,
+// m.897; taşınma eşyasına özgü, genel rejimden (m.878) farklı
+// sorumluluktan kurtulma sebepleri - kıymetli eşya, yetersiz ambalaj,
+// gönderenin kendi işlemi, canlı hayvan/bitki, kırılgan eşya vb., m.898;
+// taşıyıcının sorumluluk sınırının (m.882'den farklı olarak) metreküp
+// başına 1.500 SDR olması, m.899; açık zarar için üç iş günü, gizli
+// zarar için ondört günlük (m.889'dan kısaltılmış) bildirim süreleri,
+// m.900; ve gönderen tüketici ise taşıyıcının, sözleşme kurulurken
+// sorumluluk hükümleri ve sigorta imkânları hakkında, teslimde ise
+// bildirim kuralları hakkında yazılı olarak bilgilendirme yapmadıkça
+// tüm bu ayrıcalıklardan (m.898, m.899, m.900 ve İkinci Kısımdaki
+// kurtulma hâlleri) yararlanamaması, m.901. Aynı batch, "Dördüncü Kısım
+// - Değişik Tür Araçlar ile Taşıma" (m.902-905) hükümlerinin de
+// tamamını kapsar: multimodal taşıma sözleşmelerine TTK'nın Birinci ve
+// İkinci Kısım hükümlerinin uygulanması için aranan dört kümülatif şart,
+// m.902; zarar yerinin belli olduğu hâllerde o taşıma kısmının kendi
+// rejimine (ayrı bir sözleşme yapılmış olsaydı hangi hükümlere tabi
+// olacak idiyse ona) tabi tutulması - "ağ sistemi" - ve ispat yükü,
+// m.903; bildirimin zarar yerinin bilinip bilinmemesinden bağımsız
+// olarak m.889'a tabi olması ve zamanaşımı başlangıcının teslim tarihi
+// olması, m.904; ve konusu taşınma eşyası olan değişik tür araçlarla
+// taşımalarda Üçüncü Kısım hükümlerinin uygulanması ile m.903'teki ağ
+// sisteminin ancak bağlayıcı bir milletlerarası sözleşme varsa devreye
+// girmesi, m.905. Bu batch ile Üçüncü Kısım "Taşınma Eşyası Taşıması"
+// (m.894-901) ve Dördüncü Kısım "Değişik Tür Araçlar ile Taşıma"
+// (m.902-905) eksiksiz tamamlanmış olur. Sonraki batch'ler, "Beşinci
+// Kısım - Yolcu Taşıma" (m.906-916) ve "Altıncı Kısım - Taşıma İşleri
+// Komisyoncusu" (m.917-930) başlıklarını ele alacak; ikincisiyle
+// birlikte Dördüncü Kitap "Taşıma İşleri" tamamen kapsanmış olacaktır.
 
 export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Taşıma İşlerinde Genel Hükümler",
   "Eşya Taşımada Taşıma Sözleşmesi: Taşıma Senedi ve Yük Senedi",
   "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
   "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
 ];
 
 // slug -> TTK_TASIMA_ISLERI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -114,6 +150,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Eşya Taşımada Taşıyıcının Sorumluluğu",
   "esya-tasimada-fiili-tasiyici-bildirim-ve-hapis-hakki-ttk-888":
     "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "tasinma-esyasi-tasimasi-ttk-894":
+    "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "degisik-tur-araclar-ile-tasima-ttk-902":
+    "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
 };
 
 export function getTtkTasimaIsleriGroup(slug: string): string | null {
