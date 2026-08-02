@@ -13,9 +13,10 @@
 // batch halinde yazılacaktır. Bu dosya, m.329-358'i ("Birinci Bölüm -
 // Genel Hükümler, Kuruluş ve Temel İlkeler") kapsayan ilk batch ile
 // başlamış; ikinci batch ile m.359-396'yı ("İkinci Bölüm - Yönetim
-// Kurulu") kapsayacak şekilde genişletilmiştir. Sonraki batch'ler
-// (m.397 - Denetleme ve devamı) bu diziye yeni başlıklar eklenerek
-// genişletilmeye devam edecektir.
+// Kurulu") kapsayacak şekilde genişletilmiş; üçüncü batch ile
+// m.397-406'yı ("Üçüncü Bölüm - Denetleme") kapsayacak şekilde
+// genişletilmiştir. Sonraki batch'ler (m.407 - Genel Kurul ve devamı)
+// bu diziye yeni başlıklar eklenerek genişletilmeye devam edecektir.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -25,6 +26,8 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Yönetim Kurulunun Devredilemez Görevleri, Sermaye Kaybı ve Borca Batıklık",
   "Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi",
   "Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar",
+  "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
+  "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -44,6 +47,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi",
   "yonetim-kurulu-toplantilari-mali-haklar-ve-yasaklar-ttk-390":
     "Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar",
+  "anonim-sirkette-denetleme-kapsam-denetci-secimi-ve-nitelikleri-ttk-397":
+    "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
+  "denetim-raporu-gorus-yazilari-denetcinin-sorumlulugu-ve-topluluk-ozel-denetimi-ttk-402":
+    "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
