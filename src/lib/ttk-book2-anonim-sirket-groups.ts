@@ -15,8 +15,13 @@
 // başlamış; ikinci batch ile m.359-396'yı ("İkinci Bölüm - Yönetim
 // Kurulu") kapsayacak şekilde genişletilmiş; üçüncü batch ile
 // m.397-406'yı ("Üçüncü Bölüm - Denetleme") kapsayacak şekilde
-// genişletilmiştir. Sonraki batch'ler (m.407 - Genel Kurul ve devamı)
-// bu diziye yeni başlıklar eklenerek genişletilmeye devam edecektir.
+// genişletilmiş; dördüncü batch ile m.407-424'ü ("Dördüncü Bölüm - Genel
+// Kurul"un ilk yarısı: genel olarak, görev ve yetkileri, toplantılar,
+// çağrı, toplantının yapılması ve esas sözleşme değişikliklerinde
+// nisaplar) kapsayacak şekilde genişletilmiştir. Genel Kurul bölümünün
+// ikinci yarısı (m.425-451: pay sahibinin kişisel hakları, genel kurul
+// kararlarının iptali ve butlanı) ayrı bir batch'te bu diziye eklenerek
+// devam edecektir.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -28,6 +33,9 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar",
   "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
   "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
+  "Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı",
+  "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
+  "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -51,6 +59,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
   "denetim-raporu-gorus-yazilari-denetcinin-sorumlulugu-ve-topluluk-ozel-denetimi-ttk-402":
     "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
+  "genel-kurulun-gorev-ve-yetkileri-toplanti-turleri-ve-cagri-ttk-407":
+    "Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı",
+  "genel-kurul-toplantisinin-yapilmasi-hazir-bulunanlar-listesi-nisap-baskanlik-ve-erteleme-ttk-417":
+    "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
+  "esas-sozlesme-degisikliklerinde-nisaplar-tutanak-ve-kararlarin-etkisi-ttk-421":
+    "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
