@@ -47,6 +47,11 @@ import {
   getTtkKiymetliEvrakGroup,
   isTtkKiymetliEvrakArticle,
 } from "@/lib/ttk-kiymetli-evrak-groups";
+import {
+  TTK_TASIMA_ISLERI_GROUP_ORDER,
+  getTtkTasimaIsleriGroup,
+  isTtkTasimaIsleriArticle,
+} from "@/lib/ttk-tasima-isleri-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -60,6 +65,7 @@ const TTK_BOOK2_SPB_KOMANDIT_HEADING =
   "Türk Ticaret Kanunu - Ticaret Şirketleri (Sermayesi Paylara Bölünmüş Komandit Şirket)";
 const TTK_BOOK2_LIMITED_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Limited Şirket)";
 const TTK_KIYMETLI_EVRAK_HEADING = "Türk Ticaret Kanunu - Kıymetli Evrak";
+const TTK_TASIMA_ISLERI_HEADING = "Türk Ticaret Kanunu - Taşıma İşleri";
 
 export async function generateMetadata({
   params,
@@ -191,7 +197,8 @@ export default async function ArticlesPage({
           !isTtkBook2AnonimArticle(a.slug) &&
           !isTtkBook2SpbKomanditArticle(a.slug) &&
           !isTtkBook2LimitedArticle(a.slug) &&
-          !isTtkKiymetliEvrakArticle(a.slug)
+          !isTtkKiymetliEvrakArticle(a.slug) &&
+          !isTtkTasimaIsleriArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -378,6 +385,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkKiymetliEvrakSubgroups,
+        });
+      }
+
+      const ttkTasimaIsleriBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkTasimaIsleriArticle(a.slug)) continue;
+        const group = getTtkTasimaIsleriGroup(a.slug)!;
+        if (!ttkTasimaIsleriBySlug.has(group))
+          ttkTasimaIsleriBySlug.set(group, []);
+        ttkTasimaIsleriBySlug.get(group)!.push(a);
+      }
+      const ttkTasimaIsleriSubgroups: BrowserSubgroup[] =
+        TTK_TASIMA_ISLERI_GROUP_ORDER.filter((g) =>
+          ttkTasimaIsleriBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkTasimaIsleriBySlug.get(g)! }));
+
+      if (ttkTasimaIsleriSubgroups.length > 0) {
+        groups.push({
+          category: TTK_TASIMA_ISLERI_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkTasimaIsleriSubgroups,
         });
       }
     } else {
