@@ -122,6 +122,34 @@
 // Kısım - Yolcu Taşıma" (m.906-916) ve "Altıncı Kısım - Taşıma İşleri
 // Komisyoncusu" (m.917-930) başlıklarını ele alacak; ikincisiyle
 // birlikte Dördüncü Kitap "Taşıma İşleri" tamamen kapsanmış olacaktır.
+//
+// Beşinci batch, "Beşinci Kısım - Yolcu Taşıma" (m.906-916) hükümlerinin
+// tamamını iki yazıda kapsar. İlk yazı, sözleşmenin kurulmasından
+// hareketin başlamasına kadar olan hükümleri işler: yolcunun taşıyıcının
+// iç hizmet kurallarına uyma yükümü, m.906; seferin sözleşme kurulduktan
+// sonra fakat hareketten önce yapılamaması hâllerinde mücbir sebep,
+// kusursuzluk, taşıyıcı kusuru ve ikame sefer/üç misli tazminat
+// senaryoları, m.907; hareketin gecikmesinde yolcunun cayma hakkı ve
+// zarar ispatı aranmaksızın hükmedilen üç misli bilet tazminatı, m.908;
+// sefer sırasında taşıyıcının kendi fiiliyle yol değiştirmesi veya tarife
+// dışı durması, m.909; Hükümet emri, idari tasarruf, araç onarımı veya
+// ansızın çıkan tehlike gibi zorunlu sebeplerle gecikmede yolcunun
+// bekleme veya oranlı ücretle cayma seçimi, m.910; ve seferin hareketten
+// sonra duraklaması hâlinde kusura göre değişen ücret ve tazminat
+// sonuçları, m.911. İkinci yazı ise bagaj ve kişisel eşyadan taşıyıcının
+// sorumluluğu (m.875-886'ya yollama) ile hapis hakkını, m.912-913;
+// taşıyıcının yolcuları güvenle ulaştırma genel yükümü, kaza sonucu
+// ölüm/yaralanmada en yüksek özen standardına dayanan tazminat
+// sorumluluğu ve dört özel hâlde zarar ispatı aranmaksızın hükmedilen üç
+// misli tazminat ile idari para cezası, m.914; yolcunun seyahat sırasında
+// ölmesi hâlinde bagaj ve eşyanın korunması, m.915; ve bakanlığın
+// yönetmelik çıkarma yetkisi ile bagaj sorumluluğunun SDR sınırı, m.916,
+// hükümlerini kapsar. Bu batch ile Beşinci Kısım "Yolcu Taşıma"
+// (m.906-916) eksiksiz tamamlanmış olur. Sonraki ve SON batch, "Altıncı
+// Kısım - Taşıma İşleri Komisyoncusu" (m.917-930) hükümlerini kapsayacak
+// ve bununla birlikte Dördüncü Kitap "Taşıma İşleri" tamamen
+// kapsanmış olacak; seri bundan sonra Beşinci Kitap "Deniz Ticareti"
+// (m.931-1400) ile devam edecektir.
 
 export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Taşıma İşlerinde Genel Hükümler",
@@ -129,6 +157,7 @@ export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
   "Eşya Taşımada Taşıyıcının Sorumluluğu",
   "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "Yolcu Taşıma",
 ];
 
 // slug -> TTK_TASIMA_ISLERI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -154,6 +183,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
   "degisik-tur-araclar-ile-tasima-ttk-902":
     "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "yolcu-tasimada-seferin-yapilamamasi-ve-gecikmesi-ttk-906": "Yolcu Taşıma",
+  "yolcu-tasimada-bagaj-tasiyicinin-sorumlulugu-ve-yolcunun-olumu-ttk-912":
+    "Yolcu Taşıma",
 };
 
 export function getTtkTasimaIsleriGroup(slug: string): string | null {
