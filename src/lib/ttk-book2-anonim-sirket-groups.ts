@@ -18,10 +18,14 @@
 // genişletilmiş; dördüncü batch ile m.407-424'ü ("Dördüncü Bölüm - Genel
 // Kurul"un ilk yarısı: genel olarak, görev ve yetkileri, toplantılar,
 // çağrı, toplantının yapılması ve esas sözleşme değişikliklerinde
-// nisaplar) kapsayacak şekilde genişletilmiştir. Genel Kurul bölümünün
-// ikinci yarısı (m.425-451: pay sahibinin kişisel hakları, genel kurul
-// kararlarının iptali ve butlanı) ayrı bir batch'te bu diziye eklenerek
-// devam edecektir.
+// nisaplar) kapsayacak şekilde genişletilmiştir. Beşinci batch ile
+// m.425-451'i ("Dördüncü Bölüm - Genel Kurul"un ikinci yarısı: pay
+// sahibinin genel kurula katılma ve temsil hakkı, oy hakkı ile bilgi
+// alma ve inceleme hakkı, özel denetim isteme hakkı, genel kurul
+// kararlarının iptali, butlanı ve sonuçları) kapsayacak şekilde
+// genişletilmiştir. Bu batch ile "Dördüncü Bölüm - Genel Kurul"
+// (m.407-451) tamamlanmış olup, m.452'de başlayan "Beşinci Bölüm -
+// Esas Sözleşmenin Değiştirilmesi" ayrı bir batch'te ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -36,6 +40,10 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı",
   "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
   "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
+  "Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı",
+  "Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı",
+  "Özel Denetim İsteme Hakkı",
+  "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -65,6 +73,13 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
   "esas-sozlesme-degisikliklerinde-nisaplar-tutanak-ve-kararlarin-etkisi-ttk-421":
     "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
+  "pay-sahibinin-genel-kurula-katilma-ve-temsil-hakki-ttk-425":
+    "Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı",
+  "genel-kurulda-oy-hakki-ile-bilgi-alma-ve-inceleme-hakki-ttk-434":
+    "Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı",
+  "ozel-denetim-isteme-hakki-ttk-438": "Özel Denetim İsteme Hakkı",
+  "genel-kurul-kararlarinin-iptali-butlani-ve-sonuclari-ttk-445":
+    "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
