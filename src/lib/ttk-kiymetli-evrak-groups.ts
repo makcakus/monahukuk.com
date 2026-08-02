@@ -157,6 +157,29 @@
 // Varant" (m.832-849) ile Üçüncü Kitap "Kıymetli Evrak"ı tamamen
 // tamamlayacak; ardından seri Dördüncü Kitap "Taşıma İşleri"ne
 // (m.850 vd.) geçecektir.
+//
+// Onuncu ve son Kıymetli Evrak batch'i, iki yazı hâlinde "Altıncı
+// Kısım - Makbuz Senedi ve Varant"ı (m.832-849) tamamen kapsar. İlk
+// yazı "A) Umumi Mağazalar" (genel olarak - umumi mağazanın tanımı ve
+// izin şartı, m.832; istisnalar - saklama sözleşmesine tabi sıradan
+// depolar ve şekle uymayan/izinsiz kurumların senetleri, m.833) ile
+// "B) Makbuz Senedi ve Varant" başlığının "I) Şekil" (makbuz senedi,
+// m.834; varant, m.835; dip koçanlı defter, m.836; kısmi senet,
+// m.837) ve "II) Ciro" (genel olarak - ikili senet sisteminin devir
+// rejimi, m.838; hükümleri - mülkiyet ve rehin hakkının ciro
+// senaryosuna göre ayrılması, m.839; varantın cirosu - borç, faiz ve
+// vade kaydı, m.840) alt bölümlerini kapsar. İkinci yazı ise "C)
+// Mallar Üzerinde Tasarruflar" (yapılamayacak işlemler - haciz, el
+// koyma ve rehin yasağı, m.841; malın geri alınması - genel olarak
+// ve kısmen geri alma, m.842-843; sattırma hakkı - şartlar, satış
+// bedelinin dağıtımı, başvurma hakkı ve sigorta, m.844-847), "D)
+// Zamanaşımı" (poliçe zamanaşımına atıf, m.848) ve "E) Senetlerin
+// Zıyaı"nı (kaybolan senedin mahkeme kararıyla yenilenmesi usulü,
+// m.849) kapsar. Bu batch ile Altıncı Kısım (m.832-849) ve
+// dolayısıyla Üçüncü Kitap "Kıymetli Evrak" (m.645-849) TAMAMEN
+// TAMAMLANMIŞ olur. TTK makale serisi bundan sonra Dördüncü Kitap
+// "Taşıma İşleri"ne (m.850-930) geçecek; bu yeni kitap için ayrı bir
+// lib dosyası (ttk-book4-*-groups.ts) kullanılacaktır.
 
 export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
@@ -173,6 +196,7 @@ export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
   "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
   "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
   "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
+  "Makbuz Senedi ve Varant",
 ];
 
 // slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
@@ -221,6 +245,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
   "emre-yazili-odeme-vaatleri-ve-cirosu-kabil-diger-senetler-ttk-830":
     "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
+  "umumi-magazalar-makbuz-senedi-ve-varant-ttk-832": "Makbuz Senedi ve Varant",
+  "umumi-magazada-tasarruflar-sattirma-hakki-ve-zamanasimi-ttk-841":
+    "Makbuz Senedi ve Varant",
 };
 
 export function getTtkKiymetliEvrakGroup(slug: string): string | null {
