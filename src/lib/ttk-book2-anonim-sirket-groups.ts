@@ -62,9 +62,14 @@
 // kurucuların/yönetim kurulu üyelerinin/yöneticilerin/tasfiye
 // memurlarının sorumluluğu, denetçinin sorumluluğu, m.549-554; şirketin
 // zararı, teselsül ve başvuru, ibra, zamanaşımı, yetkili mahkeme,
-// m.555-561) kapsayacak şekilde genişletilmiştir. Bununla "Anonim
-// Şirket" (m.329-563) bölümü tamamlanmıştır; m.562-563 ("Onikinci Bölüm
-// - Cezai Sorumluluk") bu grubun kapsamı dışındadır.
+// m.555-561) kapsayacak şekilde genişletilmiştir. Onikinci (ve son)
+// batch ile m.562-563'ü ("Onikinci Bölüm - Cezai Sorumluluk"un tamamı:
+// idari para cezası, adli para cezası ve hapis cezası gerektiren
+// fiiller, tekerrür hükmü, mülga soruşturma/kovuşturma usulü)
+// kapsayacak şekilde genişletilmiştir. Bununla "Anonim Şirket"
+// (m.329-563) bölümü eksiksiz tamamlanmıştır; m.564 vd. ("Beşinci Kısım
+// - Sermayesi Paylara Bölünmüş Komandit Şirket") için bkz.
+// ttk-book2-spb-komandit-sirket-groups.ts.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -99,6 +104,7 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
   "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
   "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
+  "Anonim Şirkette Cezai Sorumluluk",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -166,6 +172,7 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
   "sirketin-zarari-ibra-zamanasimi-ve-yetkili-mahkeme-ttk-555":
     "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
+  "anonim-sirkette-cezai-sorumluluk-ttk-562": "Anonim Şirkette Cezai Sorumluluk",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {

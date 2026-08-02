@@ -32,6 +32,11 @@ import {
   getTtkBook2AnonimGroup,
   isTtkBook2AnonimArticle,
 } from "@/lib/ttk-book2-anonim-sirket-groups";
+import {
+  TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER,
+  getTtkBook2SpbKomanditGroup,
+  isTtkBook2SpbKomanditArticle,
+} from "@/lib/ttk-book2-spb-komandit-sirket-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -41,6 +46,8 @@ const TTK_BOOK2_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Genel Hü
 const TTK_BOOK2_KOLLEKTIF_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Kollektif Şirket)";
 const TTK_BOOK2_KOMANDIT_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Komandit Şirket)";
 const TTK_BOOK2_ANONIM_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Anonim Şirket)";
+const TTK_BOOK2_SPB_KOMANDIT_HEADING =
+  "Türk Ticaret Kanunu - Ticaret Şirketleri (Sermayesi Paylara Bölünmüş Komandit Şirket)";
 
 export async function generateMetadata({
   params,
@@ -169,7 +176,8 @@ export default async function ArticlesPage({
           !isTtkBook2GenelArticle(a.slug) &&
           !isTtkBook2KollektifArticle(a.slug) &&
           !isTtkBook2KomanditArticle(a.slug) &&
-          !isTtkBook2AnonimArticle(a.slug)
+          !isTtkBook2AnonimArticle(a.slug) &&
+          !isTtkBook2SpbKomanditArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -287,6 +295,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkBook2AnonimSubgroups,
+        });
+      }
+
+      const ttkBook2SpbKomanditBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkBook2SpbKomanditArticle(a.slug)) continue;
+        const group = getTtkBook2SpbKomanditGroup(a.slug)!;
+        if (!ttkBook2SpbKomanditBySlug.has(group))
+          ttkBook2SpbKomanditBySlug.set(group, []);
+        ttkBook2SpbKomanditBySlug.get(group)!.push(a);
+      }
+      const ttkBook2SpbKomanditSubgroups: BrowserSubgroup[] =
+        TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER.filter((g) =>
+          ttkBook2SpbKomanditBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkBook2SpbKomanditBySlug.get(g)! }));
+
+      if (ttkBook2SpbKomanditSubgroups.length > 0) {
+        groups.push({
+          category: TTK_BOOK2_SPB_KOMANDIT_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkBook2SpbKomanditSubgroups,
         });
       }
     } else {
