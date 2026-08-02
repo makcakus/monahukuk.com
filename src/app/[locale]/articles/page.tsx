@@ -37,6 +37,11 @@ import {
   getTtkBook2SpbKomanditGroup,
   isTtkBook2SpbKomanditArticle,
 } from "@/lib/ttk-book2-spb-komandit-sirket-groups";
+import {
+  TTK_BOOK2_LIMITED_GROUP_ORDER,
+  getTtkBook2LimitedGroup,
+  isTtkBook2LimitedArticle,
+} from "@/lib/ttk-book2-limited-sirket-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -48,6 +53,7 @@ const TTK_BOOK2_KOMANDIT_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (
 const TTK_BOOK2_ANONIM_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Anonim Şirket)";
 const TTK_BOOK2_SPB_KOMANDIT_HEADING =
   "Türk Ticaret Kanunu - Ticaret Şirketleri (Sermayesi Paylara Bölünmüş Komandit Şirket)";
+const TTK_BOOK2_LIMITED_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Limited Şirket)";
 
 export async function generateMetadata({
   params,
@@ -177,7 +183,8 @@ export default async function ArticlesPage({
           !isTtkBook2KollektifArticle(a.slug) &&
           !isTtkBook2KomanditArticle(a.slug) &&
           !isTtkBook2AnonimArticle(a.slug) &&
-          !isTtkBook2SpbKomanditArticle(a.slug)
+          !isTtkBook2SpbKomanditArticle(a.slug) &&
+          !isTtkBook2LimitedArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -318,6 +325,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkBook2SpbKomanditSubgroups,
+        });
+      }
+
+      const ttkBook2LimitedBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkBook2LimitedArticle(a.slug)) continue;
+        const group = getTtkBook2LimitedGroup(a.slug)!;
+        if (!ttkBook2LimitedBySlug.has(group))
+          ttkBook2LimitedBySlug.set(group, []);
+        ttkBook2LimitedBySlug.get(group)!.push(a);
+      }
+      const ttkBook2LimitedSubgroups: BrowserSubgroup[] =
+        TTK_BOOK2_LIMITED_GROUP_ORDER.filter((g) =>
+          ttkBook2LimitedBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkBook2LimitedBySlug.get(g)! }));
+
+      if (ttkBook2LimitedSubgroups.length > 0) {
+        groups.push({
+          category: TTK_BOOK2_LIMITED_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkBook2LimitedSubgroups,
         });
       }
     } else {
