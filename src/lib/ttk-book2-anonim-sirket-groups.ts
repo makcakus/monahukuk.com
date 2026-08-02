@@ -51,8 +51,13 @@
 // şirketler topluluğunun finansal tabloları ile yönetim kurulunun
 // yıllık faaliyet raporu, m.514-518; yedek akçeler, çeşitli hükümler ve
 // özel hükümler, m.519-528) kapsayacak şekilde genişletilmiştir.
-// "Onuncu Bölüm - Sona Erme ve Tasfiye" (m.529 vd.) ayrı bir batch'te
-// ele alınacaktır.
+// Onuncu batch ile m.529-548'i ("Onuncu Bölüm - Sona Erme ve Tasfiye"nin
+// tamamı: sona erme sebepleri, özel sona erme hâlleri ve sona ermenin
+// hükümleri, m.529-535; tasfiye memurları ve tasfiye işleri, m.536-544;
+// tasfiyenin sonu, ek tasfiye ve tasfiyeden dönülmesi, m.545-548)
+// kapsayacak şekilde genişletilmiştir. Bununla "Anonim Şirket" (m.329-563)
+// bölümü büyük ölçüde tamamlanmış olup, "Onbirinci Bölüm - Hukuki
+// Sorumluluk" (m.549 vd.) ayrı bir batch'te ele alınacaktır.
 
 export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
@@ -82,6 +87,9 @@ export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
   "Anonim Şirkette Kâr ve Tasfiye Payı Hakkı",
   "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
   "Yedek Akçeler ve Çeşitli/Özel Hükümler",
+  "Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları",
+  "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
+  "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
 ];
 
 // slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
@@ -139,6 +147,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
   "yedek-akceler-ve-cesitli-ozel-hukumler-ttk-519":
     "Yedek Akçeler ve Çeşitli/Özel Hükümler",
+  "anonim-sirketin-sona-ermesi-sebepler-ve-sonuclari-ttk-529":
+    "Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları",
+  "anonim-sirkette-tasfiye-tasfiye-memurlari-ve-tasfiye-isleri-ttk-536":
+    "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
+  "tasfiyenin-sonu-ek-tasfiye-ve-tasfiyeden-donulmesi-ttk-545":
+    "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
 };
 
 export function getTtkBook2AnonimGroup(slug: string): string | null {
