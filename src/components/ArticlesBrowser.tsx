@@ -280,7 +280,7 @@ function GroupedView({
         return (
           <details
             key={g.category}
-            className="group rounded-xl border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 overflow-hidden hover:border-gold-400 transition-colors"
+            className="group rounded-xl border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 overflow-hidden hover:border-gold-400 hover:shadow-md hover:shadow-navy-950/5 transition-all duration-200"
           >
             <summary className="cursor-pointer list-none flex items-center gap-4 px-6 select-none h-[96px] overflow-hidden">
               <span className="inline-flex w-10 h-10 shrink-0 items-center justify-center rounded-full bg-navy-900 dark:bg-gold-500 text-cream-50 dark:text-navy-950 group-open:bg-gold-500 group-open:text-navy-950 transition-colors">

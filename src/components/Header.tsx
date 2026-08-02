@@ -96,8 +96,9 @@ export function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
+                  data-active={active}
                   className={clsx(
-                    "whitespace-nowrap text-sm font-medium transition-colors",
+                    "nav-underline whitespace-nowrap text-sm font-medium transition-colors",
                     active
                       ? "text-navy-900 dark:text-cream-50"
                       : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50"
@@ -172,7 +173,7 @@ export function Header() {
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 text-sm font-medium text-navy-950 hover:bg-gold-400 transition-colors whitespace-nowrap w-auto h-[40px] flex-shrink-0"
+            className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 text-sm font-medium text-navy-950 hover:bg-gold-400 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
           >
             <span className="block text-center">{tCta("consult")}</span>
           </Link>
