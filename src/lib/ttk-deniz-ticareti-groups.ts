@@ -771,6 +771,66 @@
 // dosya yalnızca yukarıda sayılan m.931-1177 aralığını kapsar ve ileriki
 // batch'ler, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"ndan itibaren
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Onsekizinci batch, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"nın
+// açılışını kapsar: "A) Taşıyanın sorumluluğu" başlığı altında "I. Genel
+// olarak" (m.1178 - taşıyanın navlun sözleşmesinin ifasında, özellikle
+// yükletme, istif, elden geçirme, taşıma, koruma, gözetim ve boşaltmada
+// tedbirli bir taşıyandan beklenen özeni gösterme yükümlülüğü ile eşyanın
+// zıyaı, hasarı veya geç tesliminden doğan zararlardan ancak bunların
+// eşyanın taşıyanın hâkimiyetinde bulunduğu sırada meydana gelmiş olması
+// şartıyla sorumlu olması, m.1178/1-2; hâkimiyetin başlangıcı - eşyanın
+// yükletenden veya yükleme limanı makamlarından/üçüncü kişilerden teslim
+// alındığı an - ve sona ermesi - gönderilene fiilen teslim, gönderilenin
+// kaçınması hâlinde emre hazır tutulma (m.1174'teki tevdi mekanizmasıyla
+// doğrudan bağlantılı) veya boşaltma limanı makamlarına/üçüncü kişilere
+// teslim, hangisi önce gerçekleşirse, m.1178/3; sözleşmede kararlaştırılan
+// veya olayın özelliklerine göre makul süre içinde teslim edilmemesi
+// hâlinde teslimde gecikme karinesi, m.1178/4; ve teslim süresinin
+// dolmasından itibaren aralıksız altmış gün içinde teslim olunmayan
+// eşyanın zayi olmuş sayılabilmesi karinesi, m.1178/5) ve "II. Sorumluluktan
+// kurtulma hâlleri"ni (m.1179-1181: 1) taşıyana yüklenemeyecek sebep -
+// taşıyanın veya adamlarının kastından/ihmalinden doğmayan zarardan
+// sorumsuzluk ile bunun ispat yükünün taşıyana ait olması ve "taşıyanın
+// adamları" kavramının işlevsel-geniş tanımı, m.1179; 2) teknik kusur ve
+// yangın - geminin sevkine veya teknik yönetimine ilişkin hareket ya da
+// yangın sonucu zarardan taşıyanın yalnız kendi kusurundan sorumlu olması,
+// yükün menfaati gereği alınan önlemlerin teknik yönetime dahil sayılmaması
+// ve tereddüt hâlinde zararın teknik yönetimin sonucu olmadığının kabulü,
+// m.1180; ve 3) denizde kurtarma - müşterek avarya hâli hariç can ve eşya
+// kurtarmadan doğan zarardan sorumsuzluk ile salt eşya kurtarmaya yönelik
+// teşebbüslerde ayrıca makul hareket tarzı şartı, m.1181) kapsar. Bu batch
+// ayrıca "III. Taşıyanın kusursuzluk ve uygun illiyet bağı karinelerinden
+// yararlandığı hâller"i (m.1182: denizin/suların tehlike ve kazaları, harp
+// olayları/karışıklık/kamu düşmanı hareketleri/makam emirleri/karantina,
+// mahkeme el koyma kararları, grev/lokavt, yükleten-taşıtan-malik ve
+// adamlarının fiil/ihmali, kendiliğinden eksilme/gizli ayıp/doğal nitelik,
+// ambalaj yetersizliği ve işaret yetersizliği şeklindeki sekiz bentlik
+// kusursuzluk karinesi listesi, m.1182/1; taşıyanın sorumlu olduğu bir
+// olayın bu sebeplerin ortaya çıkmasına yol açtığının ispatı hâlinde
+// karineden yararlanılamaması, m.1182/2; ve zararın muhtemelen bu
+// sebeplerden birinden ileri geldiği durumlarda -aksi ispatlanabilir-
+// karine, m.1182/3) ve "IV. Sebeplerin birleşmesi"ni (m.1183 - taşıyan
+// kusurunun başka bir sebeple birleşerek zarara yol açması hâlinde
+// taşıyanın yalnızca kendi kusuruna bağlanabilen kısımdan sorumlu olması
+// ve bu kısmi sorumluluk için kusura bağlanamayacak kısmın taşıyanca
+// ispatı zorunluluğu) kapsayarak, taşıyanın hâkimiyet esaslı sorumluluk
+// tetikleyicisi, ispat yükü tersine çevrilmiş kusur standardı, dar
+// kapsamlı teknik kusur/yangın istisnası, sekiz bentlik kusursuzluk
+// karinesi listesi ve karma nedensellikte kısmi sorumluluk kuralından
+// oluşan temel sorumluluk mimarisini (m.1178-1183) tamamlar. Üçüncü
+// Ayırım bundan sonra "V. İnceleme ve bildirim" (m.1184-1185), "VI.
+// Sorumluluğu sınırlandırma hakkı" (m.1186-1187 - sorumluluk sınırları ve
+// bu haktan kayıp), "VII. Tazminat istemi için süre" (m.1188-1189 - hak
+// düşürücü süre), "VIII. Sözleşme dışı istemler" (m.1190) ve "IX. Fiilî
+// taşıyanın sorumluluğu" (m.1191-1192) ile devam edecek, ardından "B)
+// Taşıyanın hakları" (m.1193'ten itibaren - navlun ödenmesini istem hakkı)
+// izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1183 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -787,6 +847,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
   "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
   "Navlun Sözleşmesi: Boşaltma",
+  "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -869,6 +930,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Boşaltma",
   "bosaltmanin-yapilmamasi-kismi-carter-ve-kirkambar-bosaltma-ttk-1174":
     "Navlun Sözleşmesi: Boşaltma",
+  "tasiyanin-sorumlulugunun-genel-esaslari-ve-kurtulma-halleri-ttk-1178":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "tasiyanin-kusursuzluk-karineleri-ve-sebeplerin-birlesmesi-ttk-1182":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
