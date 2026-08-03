@@ -1567,6 +1567,64 @@
 // Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
 // yalnızca yukarıda sayılan m.931-1241 aralığını kapsar ve ileriki batch'ler
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Otuzdördüncü ve bu dosya bakımından son batch, "B) Diğer denizde taşıma
+// senetleri"ni (m.1242) kapsayarak Altıncı Ayırım "Denizde Taşıma Senetleri"ni
+// (m.1228-1242) baştan sona tamamlar; ardından "Yedinci Ayırım: Emredici
+// Hükümler"in tamamını (m.1243-1245) kapsayarak koca "Üçüncü Bölüm: Navlun
+// Sözleşmesi"ni (m.1138-1245) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ
+// TAMAMLAR. Bu batch, m.1242'yi - taşıyanın taşınacak eşyayı teslim aldığını
+// göstermek üzere düzenlediği konişmentodan başka her tür senedin, taşıma
+// sözleşmesinin yapılmış ve eşyanın senette yazılı olduğu gibi taşıyan
+// tarafından teslim alınmış olduğuna karine oluşturması, ancak bu karinenin
+// aksinin ispatlanabilmesi - konişmentodaki iyiniyetli üçüncü kişiye karşı
+// çürütülemez karineden (m.1239/3, m.1240/1) temel farkı - kapsamıştır. Bu
+// batch ayrıca "A) Genel olarak" başlıklı m.1243'ü - bir navlun sözleşmesinde,
+// konişmentoda veya diğer bir denizde taşıma senedinde yer alıp da taşıyanın
+// borç ve sorumluluklarına ilişkin 1141, 1150, 1151 ve 1178-1192; taşıtan ve
+// yükletenin borç ve sorumluluklarına ilişkin 1145-1149, 1165 ve 1208; ve
+// denizde taşıma senetlerine ilişkin 1228-1242 nci maddeler hükümlerinden
+// kaynaklanan borç ve sorumlulukları doğrudan veya dolaylı olarak önceden
+// kaldıran veya daraltan bütün kayıt ve şartların geçersiz olması, m.1243/1;
+// sigortadan doğan hak ve alacakların taşıyana devredilmesi veya taşıyana
+// benzer menfaatler sağlanması ile kanunlarla düzenlenmiş ispat yükünün
+// taşıyan lehine tersine çevrilmesi sonucunu doğuran kayıtların da birinci
+// fıkraya tabi olması, m.1243/2; sorumluluğu kaldıran/daraltan kayıtların
+// geçersizliğinin sözleşmenin veya senedin geri kalan hükümlerini etkilememesi,
+// m.1243/3; ve taşıyanın borç ve sorumluluğunu genişleten veya ağırlaştıran
+// kayıtların geçerli olması, m.1243/4 - kapsamıştır. Bu batch son olarak
+// "B) İstisnalar" başlıklı m.1244'ü - canlı hayvan taşıması veya 1151/3
+// uyarınca güvertede taşınacağı yazılıp fiilen böyle taşınan eşya, mutat
+// olmayan özel anlaşmalar ("emre değildir" kaydı şartıyla) ve taşıyana
+// yükleme öncesi/boşaltma sonrası düşen yükümlülükler bakımından m.1243/1'in
+// uygulanmaması, m.1244/1; konişmentoya müşterek avaryaya ilişkin kayıt
+// konulmasının m.1243 tarafından engellenmemesi, m.1244/2; ve sorumluluğu
+// önceden kaldıran/daraltan kayıtlar hakkında Türk Borçlar Kanununun emredici
+// hükümlerinin saklı tutulması, m.1244/3 - ve "C) Yolculuk çarteri sözleşmesi"
+// başlıklı m.1245'i - m.1243'ün yolculuk çarteri sözleşmelerine hiç
+// uygulanmaması, ancak böyle bir sözleşmeye dayalı konişmento düzenlenirse
+// taşıtan olmayan konişmento hamili ile taşıyan arasındaki ilişkide m.1243'ün
+// yeniden uygulanması, m.1245/1 - kapsamıştır. BU BATCH İLE "B) DİĞER DENİZDE
+// TAŞIMA SENETLERİ" (m.1242) VE BÖYLECE ALTINCI AYIRIM "DENİZDE TAŞIMA
+// SENETLERİ" (m.1228-1242) İLK MADDESİNDEN SON MADDESİNE KADAR, VE "YEDİNCİ
+// AYIRIM: EMREDİCİ HÜKÜMLER" (m.1243-1245) BAŞTAN SONA TAMAMLANMIŞ, VE
+// BÖYLECE ÜÇÜNCÜ BÖLÜM "NAVLUN SÖZLEŞMESİ" (m.1138-1245) İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur — dizinin onlarca batch boyunca
+// sürdürdüğü, deniz ticaretinde eşya taşıma sözleşmelerinin kuruluşundan
+// yükleme/boşaltma usulüne, taşıyan ve taşıtan sorumluluğundan konişmentonun
+// kıymetli evrak/ispat işlevine ve emredici hükümler çerçevesine kadar
+// bütün yaşam döngüsünü kapsayan devasa bir başarıdır. Beşinci Kitap "Deniz
+// Ticareti" bundan sonra sırasıyla "Dördüncü Bölüm: Zamanaşımı" (m.1246 -
+// gemi kira sözleşmeleri, zaman çarteri sözleşmeleri ve navlun sözleşmeleri/
+// konişmento istemlerine uygulanacak genel zamanaşımı süresi, m.1188'deki
+// hak düşürücü süreden ayrı bir kurum) ve ardından tamamen yeni bir konuya,
+// "Beşinci Bölüm: Deniz Yoluyla Yolcu Taşıma Sözleşmesi"ne (m.1247'den
+// itibaren - deniz yoluyla yolcu taşıma sözleşmeleri) geçecek olup, kitabın
+// devamında henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma,
+// Kurtarma, Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması
+// ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1245 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1729,6 +1787,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Denizde Taşıma Senetleri: Konişmento",
   "navlunu-ispat-ttk-1240": "Denizde Taşıma Senetleri: Konişmento",
   "yukletenin-verdigi-garantiler-ttk-1241":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "diger-tasima-senetleri-ve-emredici-hukumlerin-kapsami-ttk-1242":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "emredici-hukumlerin-istisnalari-ve-yolculuk-carteri-ttk-1244":
     "Denizde Taşıma Senetleri: Konişmento",
 };
 
