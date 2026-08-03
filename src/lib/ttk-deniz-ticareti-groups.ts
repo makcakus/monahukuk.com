@@ -100,19 +100,52 @@
 // Bölüm'ün Birinci ve İkinci Ayırımları (m.996-1011) eksiksiz
 // tamamlanmış olur.
 //
-// Bundan sonraki batch'ler Dördüncü Bölüm'ün geri kalanıyla devam
-// edecektir: Üçüncü Ayırım "Gemi Rehni" (m.1012-1058 - gemi ipoteğine
-// ilişkin uzun ve teknik bir alt bölüm) ve Dördüncü Ayırım "İntifa
-// Hakkı" (m.1059-1060); bu iki ayırımın tamamlanmasıyla Birinci Kısım
-// "Gemi" sona erecektir. Beşinci Kitap "Deniz Ticareti" bundan sonra
-// sırasıyla İkinci Kısım "Donatan ve Donatma İştiraki" (m.1061+), Üçüncü
-// Kısım "Kaptan" (m.1088+), Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"
+// Beşinci batch, Üçüncü Ayırım "Gemi Rehni"nin açılışını kapsar
+// (m.1012-1029): sicile kayıtlı olmayan gemilerde donatma iştiraki
+// yoluyla işletilen gemilerdeki iştirak payının rehninin Türk Medenî
+// Kanununun alacaklar ve diğer haklar üzerindeki rehinlere ilişkin
+// hükümlerine tabi olması, m.1012; tersane sahibinin, geminin yapımı ve
+// onarımından doğan alacakları için feragat edilemeyen kanuni ipotek
+// isteme hakkı, bu ipoteğin TMK m.895-897 uyarınca kurulması ve
+// kurulmadan önce sicile şerh verilebilmesi ile kısmi tamamlanma
+// hâlinde teminat ipoteği imkânı, m.1013 (B) Sicile kayıtlı olan
+// gemilerin rehni – I) Tersane sahibinin ipoteği); gemi ipoteğinin
+// niteliği ve sicile kayıtlı gemilerin sözleşmeye dayalı rehninde tek
+// yol olması, m.1014; kurulması - malik ile alacaklının şekle bağlı
+// anlaşması ve tescili, m.1015; sicile geçirilecek hususlar - alacaklı
+// kimliği, alacak tutarı, faiz, derece, yabancı para ve azami miktar
+// ipoteği, m.1016; ipoteğin derecesinin TMK'nın taşınmaz rehni
+// hükümlerine göre belirlenmesi, m.1017; teminat altına aldığı alacak
+// - TMK m.875-876 atfı ve malike ihbar yoluyla muacceliyet, m.1018;
+// faizler - kanuni asgari faize genişletme imkânı, m.1019 (II) Gemi
+// ipoteği); ipoteğin kapsamı - gemi, gemi payı, bütünleyici parça,
+// eklenti, kamulaştırma bedeli ve üçüncü kişi tazminat istemleri,
+// m.1020; birlikte gemi ipoteğinde birden çok geminin müteselsil
+// sorumluluğu ve alacağın paylaştırılması, m.1021; ve sigorta
+// tazminatı - kural olarak ipoteğin sigorta tazminatını kapsaması,
+// m.1022; sigortacının yapacağı ödemeler, m.1023; gemi ipoteğinin
+// sigortacıya bildirilmesi - bildirim yükümü, birden çok sigortacı ve
+// ipotekli alacaklının yerleşim yeri değişikliği, m.1024-1026;
+// sigortacının borcundan kurtulması, m.1027; ipoteğin ödeyen
+// sigortacıya geçmesi, m.1028; ve sigortacının prim ve ödemeleri kabul
+// etmek zorunluluğu, m.1029 (6) İpoteğin kapsamı) kapsanmıştır. Bu
+// batch ile Üçüncü Ayırım "Gemi Rehni"nin açılışı (m.1012-1029)
+// tamamlanmış olur.
+//
+// Bundan sonraki batch'ler Üçüncü Ayırım "Gemi Rehni"nin geri kalanıyla
+// devam edecektir: ipoteğin hükümleri, devri, değiştirilmesi ve sona
+// ermesi (m.1030-1053) ile yapı hâlindeki gemiler üzerinde ipotek
+// (m.1054-1058); bunları Dördüncü Ayırım "İntifa Hakkı" (m.1059-1060)
+// izleyecek ve bu iki ayırımın tamamlanmasıyla Birinci Kısım "Gemi"
+// sona erecektir. Beşinci Kitap "Deniz Ticareti" bundan sonra sırasıyla
+// İkinci Kısım "Donatan ve Donatma İştiraki" (m.1061+), Üçüncü Kısım
+// "Kaptan" (m.1088+), Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"
 // (m.1119+ - çarter sözleşmeleri, navlun sözleşmeleri, taşıma senedi) ve
 // kitabın devamındaki Deniz Kazaları (Çatma, Kurtarma, Müşterek Avarya),
 // Gemi Alacakları, Sorumluluğun Sınırlanması ve Cebrî İcraya İlişkin
 // Özel Hükümler Kısımlarını da kapsayacak olup, kitabın m.1400'e kadar
 // sürmesi nedeniyle onlarca ayrı batch gerektirecektir; bu dosya
-// yalnızca yukarıda sayılan m.931-1011 aralığını kapsar ve ileriki
+// yalnızca yukarıda sayılan m.931-1029 aralığını kapsar ve ileriki
 // batch'lerde yeni slug eşlemeleriyle genişletilecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
@@ -120,6 +153,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Geminin Kimliği",
   "Gemi: Gemi Sicili",
   "Gemi: Mülkiyet ve Diğer Ayni Haklar",
+  "Gemi: Gemi Rehni ve İpoteği",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -143,6 +177,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Gemi: Mülkiyet ve Diğer Ayni Haklar",
   "gemi-payi-ve-yapi-halindeki-gemiler-uzerinde-mulkiyet-ttk-1006":
     "Gemi: Mülkiyet ve Diğer Ayni Haklar",
+  "gemi-rehninin-turleri-ve-tersane-sahibinin-ipotek-hakki-ttk-1012":
+    "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-ipoteginin-niteligi-kurulmasi-ve-sicile-tescili-ttk-1014":
+    "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-ipoteginin-kapsami-ve-sigorta-tazminati-iliskisi-ttk-1020":
+    "Gemi: Gemi Rehni ve İpoteği",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
