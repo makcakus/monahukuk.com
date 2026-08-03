@@ -569,6 +569,83 @@
 // İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1151 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Onbeşinci batch, "A) Yükleme"nin "VI. Süreler" alt bölümünü
+// (m.1152-1157) ve bunun doğrudan hukuki sonuçlarını düzenleyen
+// "VII. Yolculuk başlamadan önce sözleşmenin feshi" (m.1158) ile
+// "VIII. Yüklemenin hiç veya süresinde yapılmaması" (m.1159-1160) alt
+// bölümlerini kapsar. "VI. Süreler" bakımından: hazırlık bildirimi -
+// yüklemenin belli bir günde başlayacağı kararlaştırılmamışsa taşıyan
+// veya temsilcisinin gemi m.1142'deki demirleme yerine varınca
+// taşıtana bildirimde bulunması, yalnızca liman/bölge kararlaştırılmış
+// hâllerde bekleme alanında kalma ve liman yönetimi talimatının
+// taşıtan talimatı sayılması, taşıtandan başka bir muhataba bildirim
+// gerektiğinde bulunamama/kaçınma hâlinde derhâl taşıtana bildirim ve
+// bildirim girişim tarihinde yapılmış sayılma kurgusu, ve bildirimin
+// şekle bağlı olmaması ama muhatabına ulaşması zorunluluğu, m.1152;
+// yükleme süresi - hazırlık bildiriminin ulaşmasını izleyen ilk takvim
+// gününden veya fiilen başlanmışsa o andan itibaren işlemeye başlaması,
+// sözleşmede belirlenmemişse yirmidört saat kesintisiz çalışma
+// varsayımıyla hesaplanması ve ayrı ücret kararlaştırılabilmesi,
+// m.1153; sürastarya süresi - kararlaştırılmışsa taşıyanın yükleme
+// süresinden fazla bekleme zorunluluğu, süre belirtilmeksizin
+// sürastaryadan söz edilmişse on günlük yasal süre ve sürenin
+// bildirime gerek kalmaksızın kendiliğinden başlaması, m.1154;
+// sürastarya parası - miktarın sözleşmeyle sınırlanabilmesi veya
+// zorunlu/yararlı giderler ölçütü, borçlusunun yükleme limanında
+// taşıtan olması ve taşıyanın ödeme/teminat şartına bağlı bekleme ve
+// tam zarar talebi hakkı, zaman birimi sonunda muacceliyet ve
+// navluna ilişkin hükümlerin kıyasen dahi uygulanamaması, m.1155;
+// yükleme ve sürastarya sürelerinin hesabı - yükleme süresinin
+// takvime göre aralıksız hesaplanması, taşıtanın faaliyet alanındaki
+// tesadüfi sebeplerin süreye dahil edilmesi, taşıyanın faaliyet
+// alanındaki tesadüfi sebeplerin süreden sayılmaması, her iki tarafı
+// ilgilendiren tesadüfi sebeplerin (fırtına, buz istilası, seferberlik)
+// süreye eklenmesi ama yine de sürastarya parası doğurması, ve
+// sürastarya süresinin -taşıyan kusuru hariç- bu hâllerden etkilenmeden
+// kesintisiz hesaplanması, m.1156; ve hızlandırma primi - yüklemenin
+// süresinden önce bitirilmesi hâlinde taşıyanın taşıtana ödeme
+// yapmasını öngören anlaşmaların geçerliliği ve navlun belirlemeye
+// ilişkin idari/mali/cezai hükümleri dolanma amacı taşıyan anlaşmaların
+// geçersizliği, m.1157 kapsanmıştır. Bu batch ayrıca "VII. Yolculuk
+// başlamadan önce sözleşmenin feshi" - taşıtanın gemi yüklemesini
+// tamamlayıp yolculuğa çıkıncaya kadar fesih hakkı, fesih tazminatının
+// yoksun kalınan kazanç ve doğmuş alacaklardan oluşması, tereddüt
+// hâlinde toplam navlunun yüzde otuzunun karine sayılması, yeni navlun
+// sözleşmeleriyle elde edilen kazancın mahsubu, eşya yüklendikten sonra
+// fesihte boşaltma süresinin ayrıca beklenmesi ve bu zararın sürastarya
+// ücretinden az olamaması, ve birden fazla yolculukta fesih hakkının
+// ayrı ayrı veya birlikte kullanılabilmesi, m.1158; ve "VIII. Yüklemenin
+// hiç veya süresinde yapılmaması" - 1) yüklemenin hiç yapılmaması:
+// yükleme ve sürastarya süresi bittiği hâlde yükleme başlamamışsa
+// taşıyanın sözleşmeyi feshedilmiş sayma veya beklemeye devam etme
+// seçimlik hakları, feshi kabul edip tazminat isteyebilmek için yazılı
+// bildirim zorunluluğu ve beklemeye devam edilirse tam zarar talebi,
+// m.1159, ve 2) eksik yükleme: sürenin sonunda taşıyanın beklemek
+// zorunda olmaması, taşıtan talimatıyla beklenirse gider/zarar talebi,
+// taşıtanın yola çıkma istemi hâlinde taşıyanın tam navlun, doğmuş
+// sürastarya ücreti, gider/zarar ve ek teminat talep edebilmesi ile
+// başka eşyayla doldurulan alanın navlununun mahsubu, ve hiçbir talimat
+// verilmemişse taşıyanın talimat istemli yazılı bildirimi ile süre
+// sonunda sözleşmeyi feshedilmiş sayarak m.1158 haklarını kullanabilmesi,
+// m.1160 kapsanmıştır. BU BATCH İLE "A) YÜKLEME"NİN SÜRELER, YOLCULUK
+// BAŞLAMADAN FESİH VE YÜKLEMENİN HİÇ/EKSİK YAPILMAMASI ALT BÖLÜMLERİ
+// (m.1152-1160) TAMAMLANMIŞ olur. "A) Yükleme"den geriye yalnızca "IX)
+// Birden çok yükleten veya taşıtanın bulunması" (m.1161-1162), "X)
+// Kırkambar sözleşmesi" yükleme hükümleri (m.1163-1164) ve "XI) Belgeleri
+// verme yükümlülüğü" (m.1165) kalmakta olup, bunlar ileriki bir batch'te
+// ele alınarak "A) Yükleme" tamamen kapatılacaktır; bunun ardından "B)
+// Boşaltma" (m.1166-1177 - Yükleme ile büyük ölçüde paralel bir yapı
+// izleyecektir) ve ardından kitabın en hacimli ve en yoğun içtihada konu
+// olan bölümlerinden biri olan "Üçüncü Ayırım: Taşıyanın Sorumluluğu ve
+// Hakları" (m.1178'den itibaren - yük zararlarından sorumluluk,
+// sorumluluk sınırları, hak düşürücü süreler, fiilî taşıyanın
+// sorumluluğu ve taşıyanın navlun hakları dâhil) izleyecektir; kitabın
+// devamında henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz
+// Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1160 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -582,6 +659,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi Kira Sözleşmeleri",
   "Zaman Çarteri Sözleşmesi",
   "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
+  "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -652,6 +730,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
   "yuklemede-demirleme-yeri-giderler-ve-esya-bildirimi-ttk-1142":
     "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
+  "hazirlik-bildirimi-yukleme-suresi-ve-surastarya-ttk-1152":
+    "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
+  "yolculuk-baslamadan-fesih-ve-eksik-yukleme-ttk-1158":
+    "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
