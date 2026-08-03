@@ -145,11 +145,51 @@
 // ölmesi hâlinde bagaj ve eşyanın korunması, m.915; ve bakanlığın
 // yönetmelik çıkarma yetkisi ile bagaj sorumluluğunun SDR sınırı, m.916,
 // hükümlerini kapsar. Bu batch ile Beşinci Kısım "Yolcu Taşıma"
-// (m.906-916) eksiksiz tamamlanmış olur. Sonraki ve SON batch, "Altıncı
-// Kısım - Taşıma İşleri Komisyoncusu" (m.917-930) hükümlerini kapsayacak
-// ve bununla birlikte Dördüncü Kitap "Taşıma İşleri" tamamen
-// kapsanmış olacak; seri bundan sonra Beşinci Kitap "Deniz Ticareti"
-// (m.931-1400) ile devam edecektir.
+// (m.906-916) eksiksiz tamamlanmış olur.
+//
+// Altıncı ve SON batch, "Altıncı Kısım - Taşıma İşleri Komisyoncusu"
+// (m.917-930) hükümlerinin tamamını iki yazıda kapsar. İlk yazı,
+// Kısmın tanım ve temel sözleşme hükümlerini işler: taşıma işleri
+// komisyonculuğu sözleşmesinin tanımı, ticari işletme faaliyeti niteliği
+// ve genel taşıma sözleşmesi hükümlerinin kıyasen uygulanması, m.917;
+// komisyoncunun eşyanın taşıtılmasına ilişkin örgütleme borcu (araç/yol
+// belirleme, taşıyıcı seçimi ve gerekli sözleşmelerin kurulması, bilgi ve
+// talimat verme, gönderenin tazminat haklarının teminat altına alınması),
+// sigortalama/ambalajlama/işaretleme/gümrükleme gibi başkaca edimler
+// bakımından sınırlı yüküm, kendi adına veya gönderen adına sözleşme
+// yapma imkânı ve sadakat/talimata uyma borcu, m.918; gönderenin
+// ambalajlama, işaretleme, belge sağlama ve tehlikeli mal bildirimi
+// yükümleri ile bunların ihlalinde kusursuz sorumluluğu (m.864/2-5'e
+// yollama), m.919; ücretin eşyanın taşıyıcıya tesliminde (nihai teslimde
+// değil) muaccel olması, m.920; taşıma giderlerini de içeren kesin ücret
+// kararlaştırılmasının komisyoncuyu taşıyıcının hak ve yükümlülüklerine
+// sahip kılması, m.921; ve gönderenin, komisyoncunun kendi adına yaptığı
+// sözleşmelerden doğan alacaklarını ancak devirden sonra ileri
+// sürebilmesi ile bu alacakların komisyoncunun alacaklılarına karşı
+// gönderene geçmiş sayılması, m.922, hükümlerini kapsar. İkinci yazı ise
+// komisyoncunun TMK m.950-953 uyarınca eşya üzerindeki hapis hakkı,
+// m.923; zincirleme taşımalarda bu hakkın m.892'ye kıyasen korunması,
+// m.924; önceki taşıyıcı/komisyoncunun alacaklarını ödeyen sonraki
+// komisyoncuya istem ve hapis haklarının geçmesi (halefiyet), m.925;
+// komisyoncunun taşıma işini bizzat üstlenmesi hâlinde taşıyıcı/taşıyan
+// sayılması ve hem komisyon hem taşıma ücretini birlikte isteyebilmesi
+// ("kendi işine alma" / Selbsteintritt), m.926; komisyoncunun kendi
+// hesabına yaptığı sözleşmeye dayanarak eşyayı başka gönderenlerin
+// eşyasıyla birlikte taşıtabilmesi (toplama yük) ve bu hâlde taşıyıcı
+// sayılması, m.927; komisyoncunun zilyetliğindeki eşyanın zıya ve
+// hasarından taşıyıcı rejimine kıyasen sorumluluğu ile örgütleme
+// yükümlerinin ihlalinden kusura dayalı ayrı sorumluluğu ve katkı kusuru
+// indirimi, m.928; yardımcılarının (kendi adamları ve taşımada
+// yararlanılan kişiler) kusurundan taşıyıcı rejimine paralel sorumluluk,
+// m.929; ve bu Kısımdaki tüm istem ve hakların bir yıllık zamanaşımına
+// tabi olması ile m.855'e sınırlı yollama, m.930, hükümlerini kapsar. Bu
+// batch ile Altıncı Kısım "Taşıma İşleri Komisyoncusu" (m.917-930)
+// eksiksiz tamamlanmış, dolayısıyla Dördüncü Kitap "Taşıma İşleri"
+// (m.850-930) da BAŞTAN SONA TAMAMEN KAPSANMIŞ olur. Seri bundan sonra
+// Beşinci Kitap "Deniz Ticareti" (m.931-1400) ile devam edecek olup, bu
+// yeni Kitap için ayrı bir lib dosyası (ttk-deniz-ticareti-*-groups.ts
+// veya benzeri) oluşturulması gerekecektir; bu dosya yalnızca Dördüncü
+// Kitap "Taşıma İşleri"ni kapsar ve Beşinci Kitap ile genişletilmez.
 
 export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Taşıma İşlerinde Genel Hükümler",
@@ -158,6 +198,7 @@ export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
   "Eşya Taşımada Taşıyıcının Sorumluluğu",
   "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
   "Yolcu Taşıma",
+  "Taşıma İşleri Komisyoncusu",
 ];
 
 // slug -> TTK_TASIMA_ISLERI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -186,6 +227,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yolcu-tasimada-seferin-yapilamamasi-ve-gecikmesi-ttk-906": "Yolcu Taşıma",
   "yolcu-tasimada-bagaj-tasiyicinin-sorumlulugu-ve-yolcunun-olumu-ttk-912":
     "Yolcu Taşıma",
+  "tasima-isleri-komisyonculugu-sozlesmesi-ve-hukumleri-ttk-917":
+    "Taşıma İşleri Komisyoncusu",
+  "tasima-isleri-komisyoncusunun-sorumlulugu-ve-zamanasimi-ttk-923":
+    "Taşıma İşleri Komisyoncusu",
 };
 
 export function getTtkTasimaIsleriGroup(slug: string): string | null {
