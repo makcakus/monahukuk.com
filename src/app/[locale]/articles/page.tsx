@@ -52,6 +52,11 @@ import {
   getTtkTasimaIsleriGroup,
   isTtkTasimaIsleriArticle,
 } from "@/lib/ttk-tasima-isleri-groups";
+import {
+  TTK_DENIZ_TICARETI_GROUP_ORDER,
+  getTtkDenizTicaretiGroup,
+  isTtkDenizTicaretiArticle,
+} from "@/lib/ttk-deniz-ticareti-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
@@ -66,6 +71,7 @@ const TTK_BOOK2_SPB_KOMANDIT_HEADING =
 const TTK_BOOK2_LIMITED_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Limited Şirket)";
 const TTK_KIYMETLI_EVRAK_HEADING = "Türk Ticaret Kanunu - Kıymetli Evrak";
 const TTK_TASIMA_ISLERI_HEADING = "Türk Ticaret Kanunu - Taşıma İşleri";
+const TTK_DENIZ_TICARETI_HEADING = "Türk Ticaret Kanunu - Deniz Ticareti";
 
 export async function generateMetadata({
   params,
@@ -198,7 +204,8 @@ export default async function ArticlesPage({
           !isTtkBook2SpbKomanditArticle(a.slug) &&
           !isTtkBook2LimitedArticle(a.slug) &&
           !isTtkKiymetliEvrakArticle(a.slug) &&
-          !isTtkTasimaIsleriArticle(a.slug)
+          !isTtkTasimaIsleriArticle(a.slug) &&
+          !isTtkDenizTicaretiArticle(a.slug)
       );
       const ttkBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -408,6 +415,29 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: ttkTasimaIsleriSubgroups,
+        });
+      }
+
+      const ttkDenizTicaretiBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isTtkDenizTicaretiArticle(a.slug)) continue;
+        const group = getTtkDenizTicaretiGroup(a.slug)!;
+        if (!ttkDenizTicaretiBySlug.has(group))
+          ttkDenizTicaretiBySlug.set(group, []);
+        ttkDenizTicaretiBySlug.get(group)!.push(a);
+      }
+      const ttkDenizTicaretiSubgroups: BrowserSubgroup[] =
+        TTK_DENIZ_TICARETI_GROUP_ORDER.filter((g) =>
+          ttkDenizTicaretiBySlug.has(g)
+        ).map((g) => ({ title: g, items: ttkDenizTicaretiBySlug.get(g)! }));
+
+      if (ttkDenizTicaretiSubgroups.length > 0) {
+        groups.push({
+          category: TTK_DENIZ_TICARETI_HEADING,
+          iconKey: "BookOpen",
+          practiceSlug: null,
+          items: [],
+          subgroups: ttkDenizTicaretiSubgroups,
         });
       }
     } else {
