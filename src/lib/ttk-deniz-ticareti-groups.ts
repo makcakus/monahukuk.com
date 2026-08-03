@@ -352,6 +352,72 @@
 // devamındaki henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları, Gemi
 // Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin
 // Özel Hükümler dahil) m.1400'e kadar sürecek şekilde izleyecektir.
+//
+// Onbirinci ve bu dosya bakımından son batch, Üçüncü Kısım "Kaptan"ın
+// geri kalanı olan "D) Kanundan doğan temsil yetkisi"ni (m.1103-1118)
+// kapsayarak Üçüncü Kısmı baştan sona tamamlar. Bu batch, "I) Donatanın
+// temsilcisi sıfatıyla - 1) Kapsamı"nın tamamını kapsar: a) gemi bağlama
+// limanında bulunduğu sırada kaptanın hukuki işlemlerinin kural olarak
+// donatanı bağlamaması ve gemi adamı tutma yetkisinin istisna olarak
+// korunması, m.1103; b) gemi bağlama limanı dışında bulunduğu sırada
+// kaptanın donatım/yakıt/kumanya/gemi adamları/denize-yola-yüke
+// elverişlilik ve yolculuğun güvenli sürdürülmesine ilişkin geniş temsil
+// yetkisi, taşıma sözleşmeleri yapma ve dava açma yetkisi ile yabancı
+// bayraklı gemilerde malike/kiracıya açılacak dava ve takiplerin kaptana
+// da yöneltilebilmesi, m.1104; ve c) kredi işlemlerinde zaruret ve
+// ihtiyaçla ölçülülük şartı, işlemin geçerliliğinin fiilen amacına uygun
+// kullanılıp kullanılmadığına bağlı olmaması ile kötüniyetli/ağır ihmalli
+// üçüncü kişi istisnası ve kambiyo taahhütlerinde açık yetki şartı,
+// m.1105 kapsanmıştır. Ardından "2) Temsil yetkisinin sınırlandırılması"
+// - sınırlandırmanın yalnızca bunu bilen üçüncü kişilere karşı ileri
+// sürülebilmesi, m.1106; "3) Fesihten sonra kaptanın yetkilerinin
+// kaldırılması" - donatanın fesih bildirim süresinde kaptanın yetki
+// kullanmasını yasaklayabilmesi, m.1107; "4) Kaptanın vekâletsiz iş
+// görmesi" - yetkisiz biçimde kendi parasından avans veren veya kendi
+// adına borçlanan kaptanın tazminat alacağı bakımından üçüncü kişi
+// sayılması, m.1108; "5) Donatanın kaptanın yaptığı işlemlerden doğan
+// sorumluluğu" - donatanın kaptanın kanuni yetkileri dâhilindeki
+// işlemlerinden dolayı hak iktisap etmesi ve borç altına girmesi,
+// kaptanın kural olarak şahsen borçlanmaması ve m.1088-1089'daki kişisel
+// sorumluluğun saklı tutulması, m.1109; ve "6) Kaptanın donatana karşı
+// hak ve yükümlülükleri" - iç ilişkide yetki kapsamının m.1103-1105'e
+// tabi olması, bilgi verme ve talimat alma yükümlülüğü, olağanüstü
+// tamir/alımlarda zorunluluk şartı, hesap verme yükümlülüğü ve navlun
+// dışında alınan ödül/tazminatların donatan hesabına yazılması, m.1110
+// kapsanmıştır. Bu batch ayrıca "II) Kendi hesabına gemiye eşya yükleme
+// yasağı" - donatanın muvafakati olmaksızın yükleme yasağı ve ihlalinde
+// en yüksek navlun ödeme yükümlülüğü ile aşan zarar için tazminat hakkı,
+// m.1111; "III) Yükle ilgili olanların menfaatlerini koruma yükümlülüğü
+// - 1) Genel olarak" - yükün korunması özeni, özel önlemlerde talimat
+// alma/kendi takdirine göre hareket etme, büyük zararı önlemek için
+// eşyayı boşaltma/satma/rehnetme yetkisi ve yükle ilgililerin istem
+// haklarını kendi adına kullanma yetkisi, m.1112; "2) Rotadan sapma" -
+// umulmayan hâlde başka rotadan devam/ara verme/kalkma limanına dönme
+// ve navlun sözleşmesinin sona ermesinde m.1211'e yönlendirme, m.1113;
+// ve "3) Eşya üzerinde tasarruf yetkisi - a) Genel olarak" - yolculuğun
+// devamı için zorunluluk hâlinde tasarruf yetkisi, m.1114, "b) Müşterek
+// avarya hâlinde" - ilgililere en az zarar veren önlemin seçilmesi
+// zorunluluğu, m.1115, ve "c) Diğer hâllerde" - para ihtiyacının başka
+// yolla karşılanamaması veya donatan için katlanılamayacak zarar şartı,
+// m.1116 kapsanmıştır. Son olarak "d) Kaptanın işlemlerinin donatanı
+// bağlaması" - m.1116 uyarınca yapılan tasarruftan zarar gören yükle
+// ilgililerin zararının donatanca tazmini ve tazminat miktarının m.1186
+// ile satış hâlinde net satış bedeliyle belirlenmesi, m.1117; ve "4) Dış
+// ilişkide işlemlerin geçerliliği" - m.1112, 1114, 1115 ve 1117'ye göre
+// yapılan işlemlerin geçerliliğinin m.1105/2'deki iyiniyet ölçütüne göre
+// belirlenmesi, m.1118 kapsanmıştır. BU BATCH İLE ÜÇÜNCÜ KISIM "KAPTAN"
+// (m.1088-1118) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ
+// TAMAMLANMIŞ olur. Beşinci Kitap "Deniz Ticareti" bundan sonra Dördüncü
+// Kısım "Deniz Ticareti Sözleşmeleri" (m.1119'dan itibaren - gemi kira
+// sözleşmeleri, zaman çarteri sözleşmesi, navlun ve eşya/yolcu taşıma
+// sözleşmeleri) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1118
+// aralığını kapsar ve ileriki batch'ler, Dördüncü Kısım "Deniz Ticareti
+// Sözleşmeleri"nden itibaren yeni bir dosyada yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -414,6 +480,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "kaptanin-geminin-elverisliligine-iliskin-gorevleri-ve-yola-cikmasi-ttk-1090":
     "Kaptan",
   "gemi-jurnali-ve-deniz-raporu-ttk-1096": "Kaptan",
+  "kaptanin-donatani-temsil-yetkisi-ve-kredi-islemleri-ttk-1103": "Kaptan",
+  "kaptanin-yuke-iliskin-yukumlulukleri-ve-tasarruf-yetkisi-ttk-1111":
+    "Kaptan",
+  "kaptanin-esya-uzerinde-tasarrufunun-donatani-baglamasi-ttk-1117":
+    "Kaptan",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
