@@ -82,24 +82,44 @@
 // m.995 kapsanmıştır. Bu batch ile Üçüncü Bölüm "Gemi Sicili" (m.954-995)
 // eksiksiz tamamlanmış olur.
 //
-// Bundan sonraki batch'ler Dördüncü Bölüm "Mülkiyet ve Diğer Ayni
-// Haklar" (m.996 vd. - mülkiyetin iktisabı ve zıyaı, gemi rehni/ipoteği,
-// intifa hakkı) ile devam edecektir. Beşinci Kitap "Deniz Ticareti"
-// bundan sonra sırasıyla İkinci Kısım "Donatan ve Donatma İştiraki"
-// (m.1061+), Üçüncü Kısım "Kaptan" (m.1088+), Dördüncü Kısım "Deniz
-// Ticareti Sözleşmeleri" (m.1119+ - çarter sözleşmeleri, navlun
-// sözleşmeleri, taşıma senedi) ve kitabın devamındaki Deniz Kazaları
-// (Çatma, Kurtarma, Müşterek Avarya), Gemi Alacakları, Sorumluluğun
-// Sınırlanması ve Cebrî İcraya İlişkin Özel Hükümler Kısımlarını da
-// kapsayacak olup, kitabın m.1400'e kadar sürmesi nedeniyle onlarca ayrı
-// batch gerektirecektir; bu dosya yalnızca yukarıda sayılan m.931-995
-// aralığını kapsar ve ileriki batch'lerde yeni slug eşlemeleriyle
-// genişletilecektir.
+// Dördüncü batch, Dördüncü Bölüm "Mülkiyet ve Diğer Ayni Haklar"ın
+// açılışını kapsar: Birinci Ayırım "Uygulanacak Hükümler" (m.996-997 -
+// bu bölüm hükümlerinin yalnız Türk Gemi Siciline kayıtlı gemiler
+// hakkında uygulanması ile sicile kayıtlı olmayan Türk gemileri
+// üzerindeki mülkiyet ve sınırlı ayni haklara Türk Medenî Kanununun
+// taşınırlara ilişkin hükümlerinin uygulanması) ve İkinci Ayırım
+// "Mülkiyet"in tamamı (m.998-1011): İktisabı - Aslen (sahiplenme, m.998;
+// olağan zamanaşımı, m.999; olağanüstü zamanaşımı, m.1000) ve Devren
+// (devrin şekli, m.1001; devrin kapsamı, m.1002); Zıya (geminin zıyaı,
+// m.1003; terk, m.1004; zamanaşımı, m.1005); Sicile kayıtlı gemi payı ve
+// iştirak payı üzerinde mülkiyet - İktisabı (aslen, m.1006; devren -
+// devir yoluyla, m.1007, iştirak payının bırakılması yoluyla, m.1008) ve
+// Zıyaı (m.1009); ve Yapı hâlinde bulunan gemiler ve yapı payları
+// üzerindeki mülkiyet - sicile kaydolunmayan (m.1010) ve sicile
+// kaydolunan (m.1011) yapılar ve yapı payları. Bu batch ile Dördüncü
+// Bölüm'ün Birinci ve İkinci Ayırımları (m.996-1011) eksiksiz
+// tamamlanmış olur.
+//
+// Bundan sonraki batch'ler Dördüncü Bölüm'ün geri kalanıyla devam
+// edecektir: Üçüncü Ayırım "Gemi Rehni" (m.1012-1058 - gemi ipoteğine
+// ilişkin uzun ve teknik bir alt bölüm) ve Dördüncü Ayırım "İntifa
+// Hakkı" (m.1059-1060); bu iki ayırımın tamamlanmasıyla Birinci Kısım
+// "Gemi" sona erecektir. Beşinci Kitap "Deniz Ticareti" bundan sonra
+// sırasıyla İkinci Kısım "Donatan ve Donatma İştiraki" (m.1061+), Üçüncü
+// Kısım "Kaptan" (m.1088+), Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"
+// (m.1119+ - çarter sözleşmeleri, navlun sözleşmeleri, taşıma senedi) ve
+// kitabın devamındaki Deniz Kazaları (Çatma, Kurtarma, Müşterek Avarya),
+// Gemi Alacakları, Sorumluluğun Sınırlanması ve Cebrî İcraya İlişkin
+// Özel Hükümler Kısımlarını da kapsayacak olup, kitabın m.1400'e kadar
+// sürmesi nedeniyle onlarca ayrı batch gerektirecektir; bu dosya
+// yalnızca yukarıda sayılan m.931-1011 aralığını kapsar ve ileriki
+// batch'lerde yeni slug eşlemeleriyle genişletilecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
   "Gemi: Geminin Kimliği",
   "Gemi: Gemi Sicili",
+  "Gemi: Mülkiyet ve Diğer Ayni Haklar",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -117,6 +137,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yapi-halindeki-gemilere-ozgu-sicil-ttk-986": "Gemi: Gemi Sicili",
   "sicil-mudurlugu-kararlarina-itiraz-ve-turk-uluslararasi-gemi-sicili-ttk-993":
     "Gemi: Gemi Sicili",
+  "gemi-mulkiyetinde-uygulanacak-hukumler-ve-aslen-iktisap-ttk-996":
+    "Gemi: Mülkiyet ve Diğer Ayni Haklar",
+  "gemi-mulkiyetinin-devren-iktisabi-ve-ziyai-ttk-1001":
+    "Gemi: Mülkiyet ve Diğer Ayni Haklar",
+  "gemi-payi-ve-yapi-halindeki-gemiler-uzerinde-mulkiyet-ttk-1006":
+    "Gemi: Mülkiyet ve Diğer Ayni Haklar",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
