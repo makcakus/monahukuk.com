@@ -61,17 +61,38 @@
 // m.968-971); ve sicil işlemlerini yaptırmaya davet usulü (m.972). Bu
 // batch ile Üçüncü Bölüm "Gemi Sicili"nin açılışı tamamlanmış olur.
 //
-// Üçüncü Bölüm "Gemi Sicili", sonraki batch'lerde sicilin hükümleri,
-// açıklığı ve karineleri, sicilin gerçek hukuki duruma uygun hâle
-// getirilmesi, itirazlar, şerhler, sicile güven ilkesi, zamanaşımı ve
-// yapı hâlindeki gemilere özgü sicil (m.973-995) ile devam edecek; bunu
-// Dördüncü Bölüm "Mülkiyet ve Diğer Ayni Haklar" (m.996+) izleyecektir.
-// Beşinci Kitap "Deniz Ticareti" bundan sonra sırasıyla Kaptan, Donatan
-// ve Donatma İştiraki, Deniz Ticareti Sözleşmeleri, Deniz Kazaları
+// Üçüncü batch, Üçüncü Bölüm "Gemi Sicili"nin geri kalanını kapsar ve bu
+// bölümü m.954-995 aralığında eksiksiz tamamlar (m.973-995): sicilin
+// açıklığı, m.973; sicil karineleri (malik ve hak sahibi karinesi,
+// silinen hakkın yokluğu karinesi), m.974; sicilin gerçek hukuki duruma
+// uygun hâle getirilmesi ve bu istemin zamanaşımına uğramaması, m.975;
+// itirazlar, m.976; şerhler - verilebilecekleri hâller, verilmesi,
+// sağladığı hak, hükümden düşmesi ve silinmesi, m.977-981; itiraz veya
+// şerhin ihtiyati tedbirin kalkmasıyla kendiliğinden kalkması, m.982;
+// sicile güven ilkesi - TMK'daki tapu siciline güven ilkesinin deniz
+// ticareti hukukundaki karşılığı, m.983; zamanaşımı, m.984; ve kayıt
+// giderleri, m.985 (Sicilin Hükümleri) ile İ) Yapı Hâlindeki Gemilere
+// Özgü Sicil'in tamamı: genel esaslar, m.986; tescil isteminin şekli ve
+// içeriği, m.987-988; tescil edilecek hususlar ve değişiklik bildirimi,
+// m.989-990; sicilin hükümleri (ilgi ispatı şartlı açıklık, karine ve
+// sicile güven ilkesinin kıyasen uygulanması), m.991; ve silinme,
+// m.992 (m.986-992) ile son olarak J) Sicil müdürlüğünün kararlarına
+// itiraz, m.993; K) Yönetmelik çıkarma yetkisi, m.994; ve L) Türk
+// Uluslararası Gemi Sicili'ne ilişkin özel hükümlerin saklı tutulması,
+// m.995 kapsanmıştır. Bu batch ile Üçüncü Bölüm "Gemi Sicili" (m.954-995)
+// eksiksiz tamamlanmış olur.
+//
+// Bundan sonraki batch'ler Dördüncü Bölüm "Mülkiyet ve Diğer Ayni
+// Haklar" (m.996 vd. - mülkiyetin iktisabı ve zıyaı, gemi rehni/ipoteği,
+// intifa hakkı) ile devam edecektir. Beşinci Kitap "Deniz Ticareti"
+// bundan sonra sırasıyla İkinci Kısım "Donatan ve Donatma İştiraki"
+// (m.1061+), Üçüncü Kısım "Kaptan" (m.1088+), Dördüncü Kısım "Deniz
+// Ticareti Sözleşmeleri" (m.1119+ - çarter sözleşmeleri, navlun
+// sözleşmeleri, taşıma senedi) ve kitabın devamındaki Deniz Kazaları
 // (Çatma, Kurtarma, Müşterek Avarya), Gemi Alacakları, Sorumluluğun
 // Sınırlanması ve Cebrî İcraya İlişkin Özel Hükümler Kısımlarını da
 // kapsayacak olup, kitabın m.1400'e kadar sürmesi nedeniyle onlarca ayrı
-// batch gerektirecektir; bu dosya yalnızca yukarıda sayılan m.931-972
+// batch gerektirecektir; bu dosya yalnızca yukarıda sayılan m.931-995
 // aralığını kapsar ve ileriki batch'lerde yeni slug eşlemeleriyle
 // genişletilecektir.
 
@@ -92,6 +113,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Gemi: Gemi Sicili",
   "geminin-tescili-usulu-ttk-959": "Gemi: Gemi Sicili",
   "gemi-sicilinden-silinme-ve-gemi-tasdiknamesi-ttk-965": "Gemi: Gemi Sicili",
+  "gemi-sicilinin-hukumleri-ve-sicile-guven-ilkesi-ttk-973": "Gemi: Gemi Sicili",
+  "yapi-halindeki-gemilere-ozgu-sicil-ttk-986": "Gemi: Gemi Sicili",
+  "sicil-mudurlugu-kararlarina-itiraz-ve-turk-uluslararasi-gemi-sicili-ttk-993":
+    "Gemi: Gemi Sicili",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
