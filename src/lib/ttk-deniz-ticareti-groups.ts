@@ -699,6 +699,78 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1165 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Onyedinci ve bu dosya bakımından son batch, "B) Boşaltma"yı (m.1166-1177)
+// baştan sona ve eksiksiz kapsayarak İkinci Ayırım "Yükleme ve Boşaltma"yı
+// (m.1142-1177) tamamen kapatır. Bu batch, demirleme yeri - kaptanın eşyayı
+// boşaltmak için gemiyi sözleşmede kararlaştırılan yere demirlemesi ve
+// yalnızca liman/bölge kararlaştırılmışsa bekleme alanında boşaltma yerinin
+// belirlenmesini beklemesi, m.1166 (I); boşaltma giderleri - aksi
+// kararlaştırılmadıkça eşyanın gemiden çıkartılması giderinin taşıyana,
+// geri kalan boşaltma giderlerinin gönderilene ait olması, m.1167 (II); ve
+// süreler kümesinin tamamını (III) kapsar: hazırlık bildirimi - boşaltmanın
+// belli bir günde başlayacağı kararlaştırılmamışsa taşıyan veya
+// temsilcisinin gemi m.1166'daki demirleme yerine varınca gönderilene
+// bildirimde bulunması, liman/bölge senaryosunda bekleme alanında kalma ve
+// liman yönetimi talimatının gönderilenin talimatı sayılması, çarter
+// partiye, konişmentoya veya taşıtanın talimatına göre gönderilenden başka
+// bir muhataba bildirim gerektiğinde bulunamama/kaçınma hâlinde derhâl
+// taşıtana bildirim ve bildirim girişim tarihinde yapılmış sayılma kurgusu,
+// m.1168 (1); boşaltma süresi - hazırlık bildiriminin ulaşmasını izleyen
+// ilk takvim gününden veya fiilen başlanmışsa o andan itibaren işlemeye
+// başlaması ve sözleşmede belirlenmemişse çok faktörlü ölçütle
+// hesaplanması, m.1169 (2); sürastarya süresi - kararlaştırılmışsa
+// taşıyanın boşaltma süresinden fazla bekleme zorunluluğu, süre
+// belirtilmeksizin sürastaryadan söz edilmişse on günlük yasal süre ve
+// bildirime gerek kalmaksızın kendiliğinden başlaması, m.1170 (3);
+// sürastarya parası - miktar ve muacceliyet kurallarının yükleme limanıyla
+// aynı olması, ancak boşaltma limanında doğan sürastarya parasının
+// borçlusunun -gönderilen değil- taşıtan olması ve m.1155/4'ün aksine
+// taşıyana gemiyi alıkoyma hakkının tanınmamış olması, m.1171 (4);
+// boşaltma ve sürastarya sürelerinin hesabı - gönderilenin faaliyet
+// alanındaki tesadüfi sebeplerin süreye dahil edilmesi, taşıyanın faaliyet
+// alanındaki tesadüfi sebeplerin süreden sayılmaması, ortak tesadüfi
+// sebeplerin süreye eklenmesi ama yine de sürastarya parası doğurması ve
+// sürastarya süresinin -taşıyan kusuru hariç- kesintisiz hesaplanması,
+// m.1172 (5); ve hızlandırma primi - boşaltmanın süresinden önce
+// bitirilmesi hâlinde taşıyanın taşıtana ödeme yapmasını öngören
+// anlaşmaların geçerliliği ve navlun belirlemeye ilişkin hükümleri dolanma
+// amaçlı anlaşmaların geçersizliği, m.1173 (6) kapsanmıştır. Bu batch
+// ayrıca "IV) Boşaltmanın hiç veya süresinde yapılmaması" - gönderilenin
+// hazır olduğunu bildirip de süresinde teslim almaması hâlinde taşıyanın
+// Türk Borçlar Kanunu m.107-109'daki alacaklı temerrüdü haklarını
+// kullanabilmesi, gönderilenin kaçınması/cevapsız kalması/bulunamaması
+// hâlinde aynı yola başvurup taşıtana da bildirim zorunluluğu, ve
+// gönderilenin gecikmesi veya tevdi işlemi yüzünden aşılan süre için
+// sürastarya parası, sürastarya süresi sonrası gecikmeler için tam zarar
+// istenebilmesi, m.1174; "V) Kısmi çarter sözleşmelerinde" - birden çok
+// taşıtanla yapılan bağımsız yolculuk çarteri sözleşmelerinde m.1168 ilâ
+// 1174'ün her sözleşme için ayrı ayrı uygulanması, m.1175; ve "VI)
+// Kırkambar sözleşmesinde boşaltma" - gönderilenin çağrı üzerine
+// gecikmeden teslim alma yükümlülüğü ve gönderilen tanınmıyorsa ilan
+// yoluyla bildirim, m.1176 (1), ile taşıtanın üçüncü şahıslarla yaptığı
+// kırkambar sözleşmelerinin, yolculuk çarteri taşıyanının m.1168-1174'e
+// tabi hak ve yükümlülüklerini değiştirmemesi, m.1177 (2) kapsanmıştır. BU
+// BATCH İLE "B) BOŞALTMA" (m.1166-1177) İLK MADDESİNDEN SON MADDESİNE
+// KADAR EKSİKSİZ TAMAMLANMIŞ olur ve bununla birlikte İKİNCİ AYIRIM
+// "YÜKLEME VE BOŞALTMA" (m.1142-1177) BAŞTAN SONA TAMAMEN KAPANMIŞ olur.
+// Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"nin Üçüncü Bölümü "Navlun
+// Sözleşmesi" bundan sonra, kitabın en hacimli ve en yoğun içtihada konu
+// olan Ayırımlarından biri olan "Üçüncü Ayırım: Taşıyanın Sorumluluğu ve
+// Hakları" (m.1178'den itibaren) ile devam edecektir: A) Taşıyanın
+// sorumluluğu - genel olarak, sorumluluktan kurtulma hâlleri, kusursuzluk
+// karineleri, sebeplerin birleşmesi, inceleme ve bildirim, sorumluluğu
+// sınırlandırma hakkı, tazminat istemi için süre, fiilî taşıyanın
+// sorumluluğu; B) Taşıyanın hakları - navlun ödenmesini istem hakkı. Bu
+// Ayırım, m.1141'deki elverişlilik yükümlülüğü ve bu dosyada işlenen
+// hâkimiyet (custody) kavramları üzerine inşa edilecek olup, hacmi
+// nedeniyle birden fazla ileriki batch'e yayılacaktır; kitabın devamında
+// henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz Kazaları,
+// Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin
+// Özel Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu
+// dosya yalnızca yukarıda sayılan m.931-1177 aralığını kapsar ve ileriki
+// batch'ler, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"ndan itibaren
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -714,6 +786,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
   "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
   "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
+  "Navlun Sözleşmesi: Boşaltma",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -792,6 +865,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
   "kirkambar-sozlesmesinde-yukleme-ve-belge-verme-yukumlulugu-ttk-1163":
     "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
+  "bosaltmada-demirleme-yeri-giderler-sureler-ve-surastarya-ttk-1166":
+    "Navlun Sözleşmesi: Boşaltma",
+  "bosaltmanin-yapilmamasi-kismi-carter-ve-kirkambar-bosaltma-ttk-1174":
+    "Navlun Sözleşmesi: Boşaltma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
