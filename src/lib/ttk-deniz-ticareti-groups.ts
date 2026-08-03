@@ -1392,6 +1392,48 @@
 // m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda
 // sayılan m.931-1229 aralığını kapsar ve ileriki batch'ler yeni slug
 // eşlemeleriyle devam edecektir.
+//
+// Otuzuncu ve bu dosya bakımından son batch, "III. Hükümleri" başlığının
+// "1. Kıymetli evrak olma niteliği → a) Eşyanın yetkili konişmento hamiline
+// teslimi" alt başlığını (m.1230-1233) baştan sona ve eksiksiz kapsar. Bu
+// batch, m.1230'u - konişmentonun meşru hamilinin eşyayı teslim almaya
+// yetkili olması, m.1230/1; ve konişmento birden çok nüsha hâlinde
+// düzenlenmişse eşyanın tek nüshanın meşru hamiline teslim edilmesinin
+// yeterli olması, m.1230/2 - kapsamıştır. Bu batch ayrıca m.1231'i -
+// konişmentonun birden çok meşru hamilinin aynı zamanda başvurması hâlinde
+// kaptanın hepsinin istemini reddederek eşyayı umumi ambara veya başka
+// güvenli bir yere tevdi etmek ve bu hareket tarzının sebeplerini de
+// göstererek konişmento hamillerine bildirmek zorunda olması, m.1231/1; ve
+// kaptanın hareket tarzına ve sebeplerine ilişkin resmî bir senet
+// düzenletmeye yetkili olması ile bu sebeple yapılan giderler hakkında 1201
+// inci maddenin uygulanması, m.1231/2 - kapsamıştır. Bu batch ayrıca m.1232'yi
+// - emre yazılı bir konişmento düzenlenmişse kaptanın, yükletenin eşyanın
+// geri verilmesi veya teslimi hususundaki talimatını ancak konişmentonun
+// bütün nüshaları kendisine geri verildiği takdirde yerine getirebilmesi,
+// m.1232/1; gemi varma limanına ulaşmadan bir konişmento hamilinin eşyanın
+// teslimini istemesi hâlinde de aynı hükmün uygulanması, m.1232/2; kaptanın
+// bu hükümlere aykırı hareket etmesi hâlinde taşıyanın konişmentonun meşru
+// hamiline karşı sorumlu kalmaya devam etmesi, m.1232/3; ve konişmento emre
+// yazılı değilse, yükleten ve konişmentoda adı yazılı gönderilenin muvafakat
+// etmesi hâlinde konişmentonun hiçbir nüshası ibraz edilmese bile eşyanın
+// geri verilebilmesi veya teslim olunabilmesi, ancak bütün nüshalar geri
+// verilmiş değilse taşıyanın doğabilecek zararlar için önce teminat
+// gösterilmesini isteyebilmesi, m.1232/4 - kapsamıştır. Son olarak bu batch
+// m.1233'ü - navlun sözleşmesinin, geminin varma limanına ulaşmasından önce
+// umulmayan bir hâl yüzünden 1209 ilâ 1227 nci maddeler gereğince
+// kendiliğinden veya feshedilmesi sonucunda hükümden düşmesi hâlinde de
+// 1232 nci madde hükmünün uygulanması - kapsamıştır. BU BATCH İLE "III.
+// HÜKÜMLERİ" BAŞLIĞININ "1. KIYMETLİ EVRAK OLMA NİTELİĞİ → A) EŞYANIN
+// YETKİLİ KONİŞMENTO HAMİLİNE TESLİMİ" ALT BAŞLIĞI (m.1230-1233) TAMAMLANMIŞ
+// olur. Altıncı Ayırım bundan sonra "b) Konişmentonun eşyayı temsili"
+// (m.1234'ten itibaren - konişmentonun eşya üzerindeki mülkiyet ve zilyetliği
+// temsil işlevi, m.1230-1233'te kurulan teslim-yetkisi çerçevesinin üzerine
+// inşa edilen doktrinsel açıdan merkezi bir konu) ile devam edecek olup,
+// kitabın devamında henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım
+// (Deniz Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1233 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1540,6 +1582,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "konismentonun-tanimi-turleri-ve-duzenlenmesi-ttk-1228":
     "Denizde Taşıma Senetleri: Konişmento",
   "konismentonun-icerigi-ttk-1229": "Denizde Taşıma Senetleri: Konişmento",
+  "konismento-hamiline-teslim-genel-esaslar-ttk-1230":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "yukletenin-talimati-ve-sozlesmenin-hukumden-dusmesi-ttk-1232":
+    "Denizde Taşıma Senetleri: Konişmento",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
