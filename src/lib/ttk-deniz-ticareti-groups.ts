@@ -875,6 +875,52 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1185 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Yirminci batch, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"nın "VI.
+// Sorumluluğu sınırlandırma hakkı" alt başlığını (m.1186-1187) baştan sona
+// kapsar. Bu batch, m.1186'yı - eşyanın uğradığı her türlü zıya veya hasar
+// nedeniyle taşıyanın, koli veya ünite başına 666,67 Özel Çekme Hakkı (SDR)
+// ile zıyaa/hasara uğrayan eşyanın gayri safî ağırlığının her bir kilogramı
+// için 2 SDR'den hangisi yüksekse o sınırla sorumlu olması ve eşyanın cinsi/
+// değeri yüklemeden önce bildirilip taşıma senedine yazılmışsa bu istisnanın
+// devreye girmesi, SDR'nin fiilî ödeme günündeki TCMB kuruna göre TL'ye
+// çevrilmesi, m.1186/1; tazminat toplamının eşyanın boşaltıldığı veya
+// boşaltılması gereken yerdeki ve tarihteki değerine göre, borsa fiyatı/cari
+// piyasa fiyatı/olağan değer hiyerarşisiyle hesaplanması, m.1186/2; eşya
+// konteyner/palet gibi bir taşıma gerecine topluca konmuşsa taşıma senedinde
+// içerik olarak yazılmış her koli/ünitenin ayrı sayılması, aksi hâlde taşıma
+// gerecinin tek koli sayılması ve bizzat taşıma gerecinin zıyaında -taşıyana
+// ait olmadıkça- ayrı bir koli sayılması, m.1186/3; yükletenin bildiriminin
+// taşıma senedine yazılmışsa karine oluşturması ama taşıyan bakımından
+// bağlayıcı olmaması ve m.1239/3'ün bu kayıtlara uygulanmaması, m.1186/4;
+// yükletenin cins/değeri kasten gerçeğe aykırı bildirmesi hâlinde taşıyanın
+// hiçbir şekilde sorumlu olmaması, m.1186/5; taşıma süresinin aşılmasından
+// doğan sorumluluğun geciken eşya için ödenecek navlunun iki buçuk katıyla,
+// bu tutarın da toplam navlun miktarıyla sınırlı olması, m.1186/6; birinci ve
+// altıncı fıkraların birlikte uygulanması hâlinde toplam sorumluluğun tam
+// zıya tazminatını aşamaması, m.1186/7; ve tarafların birinci/altıncı
+// fıkralardaki sınırlardan daha yüksek tutarlar kararlaştırabilmesi, ancak
+// birinci fıkra bakımından kararlaştırılan sınırın o fıkradaki daha yüksek
+// sınırın altında olamaması, m.1186/8 - kapsar. Bu batch ayrıca m.1187'yi -
+// zarara veya teslimdeki gecikmeye kasten veya pervasızca bir davranışla ve
+// böyle bir zararın/gecikmenin meydana gelmesi ihtimalinin bilinciyle
+// işlenmiş bir fiil/ihmalin sebebiyet verdiği ispat edildiğinde taşıyanın
+// 1186 ncı maddedeki sorumluluk sınırlarından yararlanamaması, m.1187/1; ve
+// aynı standarda uyan taşıyanın adamlarının da 1190 ıncı maddenin ikinci
+// fıkrasına dayanarak bu sınırlardan yararlanamaması, m.1187/2 - kapsayarak
+// BU BATCH İLE "VI. SORUMLULUĞU SINIRLANDIRMA HAKKI" (m.1186-1187) İLK
+// MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Üçüncü Ayırım
+// bundan sonra "VII. Tazminat istemi için süre" (m.1188-1189 - bir yıllık
+// hak düşürücü süre, rücu davası için doksan günlük ek süre, hak düşürücü
+// süre itirazından yararlanma hakkının kaybı), "VIII. Sözleşme dışı
+// istemler" (m.1190) ve "IX. Fiilî taşıyanın sorumluluğu" (m.1191-1192) ile
+// devam edecek, ardından "B) Taşıyanın hakları" (m.1193'ten itibaren)
+// izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1187 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -980,6 +1026,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "esyanin-incelenmesi-ttk-1184": "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "ziya-hasar-ve-gecikme-bildirimi-ttk-1185":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "tasiyanin-sorumlulugunu-sinirlandirma-haklari-ttk-1186":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "sorumlulugu-sinirlandirma-hakkinin-kaybi-ttk-1187":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 };
 
