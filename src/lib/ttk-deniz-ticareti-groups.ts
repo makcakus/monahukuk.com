@@ -1343,6 +1343,55 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1227 aralığını kapsar ve ileriki batch'ler, Altıncı Ayırım "Denizde
 // Taşıma Senetleri"nden itibaren yeni slug eşlemeleriyle devam edecektir.
+//
+// Yirmidokuzuncu ve bu dosya bakımından son batch, "Altıncı Ayırım: Denizde
+// Taşıma Senetleri"ni açar: "A) Konişmento" başlığının "I. Tanımı, türleri ve
+// düzenlenmesi" (m.1228) ve "II. İçeriği" (m.1229) alt bölümlerini kapsar. Bu
+// batch, m.1228'i - konişmentonun temel tanımını: bir taşıma sözleşmesinin
+// yapıldığını ispatlayan, eşyanın taşıyan tarafından teslim alındığını veya
+// gemiye yüklendiğini gösteren ve taşıyanın eşyayı ancak onun ibrazı
+// karşılığında teslimle yükümlü olduğu senet olması, m.1228/1; yükletenin
+// izniyle taşınmak üzere teslim alınan fakat henüz gemiye yükletilmemiş eşya
+// için "tesellüm konişmentosu" düzenlenebilmesi, eşya gemiye alınır alınmaz
+// taşıyanın geçici makbuz veya tesellüm konişmentosunun geri verilmesi
+// karşılığında yükletenin istediği kadar nüshada "yükleme konişmentosu"
+// düzenlemekle yükümlü olması, tesellüm konişmentosuna eşyanın ne zaman ve
+// hangi gemiye yüklendiğine dair şerh verilmesi hâlinde bu konişmentonun
+// yükleme konişmentosu hükmünde sayılması ve konişmentonun kaptan, taşıyan
+// veya kaptanın yetkilendirdiği bir temsilci tarafından taşıyan ad ve
+// hesabına düzenlenebilmesi, m.1228/2; konişmentonun nama, emre ve hamile
+// yazılı olarak düzenlenebilmesi, aksi kararlaştırılmadıkça yükletenin
+// istemi üzerine konişmentonun gönderilenin emrine veya sadece emre -bu son
+// hâlde "emre"nin yükletenin emrine anlamına gelmesi- olarak düzenlenmesi ve
+// konişmentonun gönderilen sıfatıyla taşıyanın veya kaptanın namına da
+// yazılı olabilmesi, m.1228/3; konişmentonun bütün nüshalarının aynı metni
+// içermesi ve her birinde kaç nüsha hâlinde düzenlendiğinin gösterilmesi
+// zorunluluğu, m.1228/4; ve yükletenin, istem üzerine, konişmentonun kendisi
+// tarafından imzalanmış bir kopyasını taşıyana verme zorunluluğu, m.1228/5 -
+// kapsamıştır. Bu batch ayrıca m.1229'u - konişmentoda bulunması gereken on
+// beş kayıt kalemini dört tematik grupta: eşya tanımı (yükletenin beyanına
+// uygun cins, işaret, tehlikeli eşya bilgisi, koli/parça sayısı ve ağırlık,
+// m.1229/1-a; eşyanın haricen belli olan hâl ve durumu, m.1229/1-b), taraf
+// kimlikleri (taşıyan, kaptan, gemi adı/tabiiyeti, yükleten ve -bildirilmişse-
+// gönderilen, m.1229/1 c-g), yolculuk/lojistik bilgileri (yükleme limanı ve
+// teslim tarihi, boşaltma limanı, düzenleme yeri ve tarihi, m.1229/1 h-j) ve
+// hukuki/ticari şartlar (taşıyan imzası, navlunun gönderilen tarafından
+// ödenmesi kaydı, boşaltma limanında teslim tarihi/süresi, sorumluluk
+// sınırlarını genişleten şartlar ve diğer kayıtlar, m.1229/1 k-o) - ve
+// birinci fıkrada sayılan unsurlardan bir veya birkaçının konişmentoda
+// bulunmamasının, senet 1228 inci maddenin birinci fıkrasındaki unsurları
+// taşıdığı sürece, senedin hukuken konişmento sayılmasını engellemeyeceğini,
+// m.1229/2 - kapsamıştır. BU BATCH İLE "A) KONİŞMENTO"NUN "I. TANIMI, TÜRLERİ
+// VE DÜZENLENMESİ" VE "II. İÇERİĞİ" ALT BAŞLIKLARI (m.1228-1229) TAMAMLANMIŞ
+// olur. Altıncı Ayırım bundan sonra "III. Hükümleri" (m.1230'dan itibaren -
+// konişmentonun kıymetli evrak olma niteliği, eşyanın yetkili konişmento
+// hamiline teslimi, birden çok konişmento hamilinin başvurusu ve yükletenin
+// talimatı dâhil) ile devam edecek olup, kitabın devamında henüz kapsanmamış
+// çok sayıda Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları,
+// Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil)
+// m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda
+// sayılan m.931-1229 aralığını kapsar ve ileriki batch'ler yeni slug
+// eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1362,6 +1411,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "Navlun Sözleşmesi: Taşıyanın Hakları",
   "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "Denizde Taşıma Senetleri: Konişmento",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -1487,6 +1537,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "fesih-hakkinin-kullanilmasi-ve-sonuclari-ttk-1224":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "konismentonun-tanimi-turleri-ve-duzenlenmesi-ttk-1228":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "konismentonun-icerigi-ttk-1229": "Denizde Taşıma Senetleri: Konişmento",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
