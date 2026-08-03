@@ -1013,6 +1013,49 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1192 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Yirmiüçüncü ve bu dosya bakımından son batch, Üçüncü Ayırım "Taşıyanın
+// Sorumluluğu ve Hakları"nın "B) Taşıyanın hakları" başlığını açar: "I.
+// Navlun ödenmesini istem hakkı" (m.1193-1198). Bu batch, navlun miktarının
+// ölçü, tartı veya sayı üzerine kararlaştırılmış olması hâlinde, tereddüt
+// hâlinde, gönderilene teslim edilen eşyanın ölçü, tartı veya sayısına göre
+// belirlenmesi, m.1193; zaman üzerine kararlaştırılmış navlunun -yüklemenin
+// belli bir günde başlayacağı öngörülmüşse o günden, değilse 1152 nci madde
+// uyarınca hazırlık bildiriminde bulunulduğu günü izleyen günden, safra ile
+// yolculukta ise yolculuğa hazır olunduğunun haber verildiği günü izleyen
+// günden ya da geminin yola çıktığı günden itibaren- işlemeye başlaması,
+// sürastarya süresince işlememesi, boşaltmanın tamamlandığı günden sonra
+// işlememesi ve taşıyanın kusuru olmaksızın yolculuk gecikir veya kesilirse
+// 1221/1 ve 1222/2 hükümleri saklı kalmak üzere araya giren günler için de
+// ödenmesi, m.1194; navlun miktarı kararlaştırılmamışsa yükleme zamanı ve
+// yerinde mutat olan navlunun ödenmesi ile taşınmak üzere teslim alınan
+// eşya kararlaştırılmış olandan fazla ise fazlası için de sözleşmede
+// belirlenen miktarın oranlanmasına göre navlun ödenmesi, m.1195; taşıyanın
+// navlun dışında pey akçesi, prim, bahşiş ve benzeri bir ad altında başkaca
+// istemde bulunamaması, aksine sözleşme yoksa gemiciliğin olağan ve
+// olağanüstü giderlerinin -özellikle kılavuz, liman, fener, römorkaj,
+// karantina, buz kırdırma ve benzeri hizmetlere ilişkin resim ve ücretler
+// ile bu giderleri doğuran sebeplere ilişkin önlemlerin- navlun
+// sözleşmesi hükümlerine göre yükümlü olmasa bile yalnız taşıyana düşmesi,
+// ve bu kuralın müşterek avarya hâlleri ile eşyanın korunması, emniyet
+// altına alınması ve kurtarılması için yapılan giderlere uygulanmaması,
+// m.1196; navlunun eşyanın tesliminin istendiği anda ve her hâlde
+// boşaltma süresinin sonunda muaccel olması, m.1197; ve taşıyanın,
+// bozulmuş veya hasarlanmış olup olmadığına bakılmaksızın eşyayı navlun
+// yerine kabul etmek zorunda tutulamaması, m.1198 - kapsamıştır. Üçüncü
+// Ayırım'ın "B) Taşıyanın hakları" başlığı bundan sonra "I. Navlun
+// ödenmesini istem hakkı" başlığının m.1198'den sonra hangi maddeyle
+// devam ettiği veya "B) Taşıyanın hakları"nın bir sonraki numaralı alt
+// başlığı ile ilerleyecek olup, bu kapsam ileriki bir batch'te
+// mevzuat.gov.tr üzerinden ayrıca teyit edilecektir (chunk 16 metni,
+// m.1198'in hemen ardından "4. Zıyaa uğrayan eşyanın durumu" başlığının
+// ortasında kesilmiş olup, bu başlığa ve sonrasına ilişkin resmi metin
+// henüz alınmamıştır); kitabın devamında henüz kapsanmamış çok sayıda
+// Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1198 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1030,6 +1073,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
   "Navlun Sözleşmesi: Boşaltma",
   "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "Navlun Sözleşmesi: Taşıyanın Hakları",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -1131,6 +1175,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "fiili-tasiyanin-sorumlulugu-ttk-1191":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "navlun-miktarinin-belirlenmesi-ttk-1193":
+    "Navlun Sözleşmesi: Taşıyanın Hakları",
+  "navlun-disi-giderler-muacceliyet-ve-esyanin-navlun-yerine-birakilmasi-ttk-1196":
+    "Navlun Sözleşmesi: Taşıyanın Hakları",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
