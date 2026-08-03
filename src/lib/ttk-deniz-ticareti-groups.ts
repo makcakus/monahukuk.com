@@ -1679,6 +1679,43 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1250
 // aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Otuzaltıncı batch, "Beşinci Bölüm: Deniz Yoluyla Yolcu Taşıma
+// Sözleşmesi"nin "E) Yolcunun yükümlülükleri" (m.1251-1253), "F)
+// Taşıyanın hapis hakkı" (m.1254) ve "G) Ölen yolcunun bagajı" (m.1255)
+// başlıklarını kapsar. "E) Yolcunun yükümlülükleri" alt başlığı -
+// kaptanın gemide düzeni sağlamaya yönelik tüm talimatına uyma
+// zorunluluğu, m.1251; bagaj olarak gemiye getirilen eşyanın cins,
+// niteliği ve tehlikeleri hakkında doğru beyanda bulunma yükümlülüğü
+// ile taşıyana karşı doğrudan, diğer zarar görenlere karşı kusura
+// bağlı - tehlikeli veya gizlice getirilmiş bagaj istisnası saklı
+// kalmak kaydıyla - iki kademeli sorumluluk, kaptanın eksik/yanlış
+// bilgiyle veya gizlice getirilen eşyayı gemiden çıkarma ve denize
+// atma yetkisi, gizli bagajın gemide alıkonulması hâlinde en yüksek
+// ücretin ödenmesi yükümlülüğü ve taşıyan/yetkili temsilcisinin
+// bilgisinin kaptanın bilgisi sayılması, m.1252; ve yolcunun hareket
+// limanında veya ara limanlarda gemiye zamanında gelme zorunluluğu,
+// buna aykırılıkta kaptan beklemeden yola çıkmış olsa dahi taşıma
+// ücretinin tamamının ödenmesi yükümlülüğü ve yerine başka yolcu
+// alınmışsa bu tutarın indirilmesi, m.1253 - kapsanmıştır. Bu batch
+// ayrıca "F) Taşıyanın hapis hakkı" - taşıyanın, deniz yoluyla yolcu
+// taşıma sözleşmesinden doğan bütün alacakları için Türk Medenî
+// Kanununun 950 ilâ 953 üncü maddeleri uyarınca yolcuya ait bagaj
+// üzerindeki hapis hakkı, m.1254 - ve "G) Ölen yolcunun bagajı" -
+// yolcunun yolculuk sırasında ölmesi hâlinde 915 inci madde hükmünün
+// uygulanması, m.1255 - başlıklarını kapsamıştır. Bu batch ile
+// "Beşinci Bölüm: Deniz Yoluyla Yolcu Taşıma Sözleşmesi"nin
+// tanımlayıcı/yapısal hükümleri (m.1247-1255) eksiksiz tamamlanmış
+// olur. Beşinci Bölüm bundan sonra "H) Yolcunun uğradığı zararlardan
+// sorumluluk" (m.1256'dan itibaren - yolcunun ölümü veya yaralanması
+// ile bagaj zıyaı/hasarından doğan sorumluluğun somut, maddi hukuk
+// çerçevesi) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması
+// ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1255
+// aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1850,6 +1887,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "zamanasimi-ve-yolcu-tasima-sozlesmesinin-tanimi-ttk-1246":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "yolcu-tasima-sozlesmesinde-taraflar-ve-bagaj-ttk-1248":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcunun-yukumlulukleri-ttk-1251": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "tasiyanin-hapis-hakki-ve-olen-yolcunun-bagaji-ttk-1254":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
