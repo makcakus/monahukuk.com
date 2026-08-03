@@ -831,6 +831,50 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1183 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Ondokuzuncu batch, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"nın "V.
+// İnceleme ve bildirim" alt başlığını (m.1184-1185) baştan sona kapsar. Bu
+// batch, m.1184'ü - gönderilenin eşyayı teslim almadan önce taşıyan, kaptan
+// veya gönderilenin, eşyanın hâl ve durumunu, ölçü, sayı veya tartısını
+// tespit ettirmek amacıyla mahkemeye, yetkili diğer makamlara veya bu husus
+// için yetkili uzmanlara inceletebilmesi ve mümkün oldukça diğer tarafın da
+// incelemede hazır bulundurulması, m.1184/1; inceleme giderlerinin kural
+// olarak başvuruda bulunana ait olması, ancak sonuçta taşıyanın tazminat
+// vermesi gereken bir zıya veya hasar belirlenirse giderlerin taşıyana
+// geçmesi, m.1184/2 - ve m.1185'i - zıya veya hasarın en geç teslim
+// sırasında, haricen belli değilse teslim tarihinden itibaren aralıksız üç
+// gün içinde yazılı olarak bildirilmesi ve ihbarnamede zararın genel olarak
+// belirtilmesi zorunluluğu, m.1185/1; eşyanın incelenmesinin tarafların
+// katılımıyla mahkeme, yetkili makam veya resmen atanmış uzmanlarca
+// yapılmış olması hâlinde ayrıca bildirime gerek olmaması, m.1185/2;
+// gerçek veya muhtemel zıya/hasar hâlinde taşıyan ve gönderilenin eşyanın
+// incelenmesi ve koli sayısının belirlenmesi için karşılıklı kolaylık
+// gösterme yükümlülüğü, m.1185/3; zıya veya hasarın ne bildirilmiş ne de
+// tespit ettirilmiş olması hâlinde taşıyanın eşyayı taşıma senedinde yazılı
+// olduğu gibi teslim ettiği ve sonradan belirlenen zararın taşıyanın
+// sorumlu olmadığı bir sebepten ileri geldiği yönündeki -aksi ispatlanabilir-
+// çifte karine, m.1185/4; teslimdeki gecikmenin, teslim tarihinden itibaren
+// aralıksız altmış gün içinde yazılı olarak bildirilmesi zorunluluğu ve
+// süresinde bildirilmeyen gecikme zararları için tazminat ödenmemesi,
+// m.1185/5; ve eşyanın fiilî taşıyan tarafından teslimi hâlinde kendisine
+// veya taşıyana yapılan bildirimin karşılıklı olarak diğerine yapılmış
+// sayılması ile kaptan ve sorumlu gemi zabiti dâhil taşıyan veya fiilî
+// taşıyan ad ve hesabına hareket eden bir kişiye yapılan bildirimin
+// taşıyana veya fiilî taşıyana yapılmış sayılması, m.1185/6 - kapsanmıştır.
+// BU BATCH İLE "V. İNCELEME VE BİLDİRİM" (m.1184-1185) İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Üçüncü Ayırım bundan sonra
+// "VI. Sorumluluğu sınırlandırma hakkı" (m.1186-1187 - sorumluluk sınırları/
+// SDR bazlı hesaplama, sorumluluğu sınırlandırma hakkının kaybı), "VII.
+// Tazminat istemi için süre" (m.1188-1189 - bir yıllık hak düşürücü süre,
+// hak düşürücü süre itirazından yararlanma hakkının kaybı), "VIII. Sözleşme
+// dışı istemler" (m.1190) ve "IX. Fiilî taşıyanın sorumluluğu" (m.1191-1192)
+// ile devam edecek, ardından "B) Taşıyanın hakları" (m.1193'ten itibaren)
+// izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1185 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -933,6 +977,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "tasiyanin-sorumlulugunun-genel-esaslari-ve-kurtulma-halleri-ttk-1178":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "tasiyanin-kusursuzluk-karineleri-ve-sebeplerin-birlesmesi-ttk-1182":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "esyanin-incelenmesi-ttk-1184": "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "ziya-hasar-ve-gecikme-bildirimi-ttk-1185":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 };
 
