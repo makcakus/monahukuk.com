@@ -47,20 +47,38 @@
 // Birinci Kısım "Gemi"nin "Genel Hükümler" ve "Geminin Kimliği"
 // bölümleri (m.931-953) eksiksiz tamamlanmış olur.
 //
-// Birinci Kısım "Gemi", sonraki batch'lerde Üçüncü Bölüm "Gemi Sicili"
-// (m.954-993+, uzun ve teknik bir sicil rejimi) ve Dördüncü Bölüm
-// "Mülkiyet ve Diğer Ayni Haklar" (m.996+) ile devam edecektir. Beşinci
-// Kitap "Deniz Ticareti" bundan sonra sırasıyla Kaptan, Donatan ve
-// Donatma İştiraki, Deniz Ticareti Sözleşmeleri, Deniz Kazaları (Çatma,
-// Kurtarma, Müşterek Avarya), Gemi Alacakları, Sorumluluğun Sınırlanması
-// ve Cebrî İcraya İlişkin Özel Hükümler Kısımlarını da kapsayacak olup,
-// kitabın m.1400'e kadar sürmesi nedeniyle onlarca ayrı batch
-// gerektirecektir; bu dosya yalnızca yukarıda sayılan m.931-953 aralığını
-// kapsar ve ileriki batch'lerde yeni slug eşlemeleriyle genişletilecektir.
+// İkinci batch, Birinci Kısım "Gemi"nin Üçüncü Bölümü "Gemi Sicili"nin
+// açılışını kapsar (m.954-972): sicil müdürlüklerinin kuruluşu ve
+// mahkeme gözetimi, yetkili sicil müdürlüğü, tescili caiz/zorunlu/yasak
+// gemiler (Genel Hükümler, m.954-958); tescil isteminin şekli ve
+// içeriği, gerekli belgeler, tescil edilecek hususlar, mülkiyet itirazı
+// hâlinde şerh, yapı hâlindeki gemilere özgü sicilden geçiş ve tescildeki
+// değişikliklerin bildirilmesi (Geminin Tescili, m.959-964); sicilden
+// istem üzerine ve resen silinme ile Türk Bayrağını kaybeden gemilerde
+// ipotek alacaklılarının onayına bağlı koruma mekanizması (Silinme,
+// m.965-967); gemi tasdiknamesinin içeriği, yeniden düzenlenmesi,
+// değişikliklerin işlenmesi ve ibraz zorunluluğu (Gemi Tasdiknamesi,
+// m.968-971); ve sicil işlemlerini yaptırmaya davet usulü (m.972). Bu
+// batch ile Üçüncü Bölüm "Gemi Sicili"nin açılışı tamamlanmış olur.
+//
+// Üçüncü Bölüm "Gemi Sicili", sonraki batch'lerde sicilin hükümleri,
+// açıklığı ve karineleri, sicilin gerçek hukuki duruma uygun hâle
+// getirilmesi, itirazlar, şerhler, sicile güven ilkesi, zamanaşımı ve
+// yapı hâlindeki gemilere özgü sicil (m.973-995) ile devam edecek; bunu
+// Dördüncü Bölüm "Mülkiyet ve Diğer Ayni Haklar" (m.996+) izleyecektir.
+// Beşinci Kitap "Deniz Ticareti" bundan sonra sırasıyla Kaptan, Donatan
+// ve Donatma İştiraki, Deniz Ticareti Sözleşmeleri, Deniz Kazaları
+// (Çatma, Kurtarma, Müşterek Avarya), Gemi Alacakları, Sorumluluğun
+// Sınırlanması ve Cebrî İcraya İlişkin Özel Hükümler Kısımlarını da
+// kapsayacak olup, kitabın m.1400'e kadar sürmesi nedeniyle onlarca ayrı
+// batch gerektirecektir; bu dosya yalnızca yukarıda sayılan m.931-972
+// aralığını kapsar ve ileriki batch'lerde yeni slug eşlemeleriyle
+// genişletilecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
   "Gemi: Geminin Kimliği",
+  "Gemi: Gemi Sicili",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -70,6 +88,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "gemi-tanimlari-ve-genel-hukumler-ttk-931": "Gemi: Genel Hükümler",
   "geminin-adi-bayragi-ve-baglama-limani-ttk-938": "Gemi: Geminin Kimliği",
   "gemilerde-ceza-hukumleri-ve-yonetmelik-ttk-947": "Gemi: Geminin Kimliği",
+  "gemi-sicili-kurulusu-ve-tescili-caiz-zorunlu-gemiler-ttk-954":
+    "Gemi: Gemi Sicili",
+  "geminin-tescili-usulu-ttk-959": "Gemi: Gemi Sicili",
+  "gemi-sicilinden-silinme-ve-gemi-tasdiknamesi-ttk-965": "Gemi: Gemi Sicili",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
