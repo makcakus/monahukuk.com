@@ -132,21 +132,44 @@
 // batch ile Üçüncü Ayırım "Gemi Rehni"nin açılışı (m.1012-1029)
 // tamamlanmış olur.
 //
-// Bundan sonraki batch'ler Üçüncü Ayırım "Gemi Rehni"nin geri kalanıyla
-// devam edecektir: ipoteğin hükümleri, devri, değiştirilmesi ve sona
-// ermesi (m.1030-1053) ile yapı hâlindeki gemiler üzerinde ipotek
-// (m.1054-1058); bunları Dördüncü Ayırım "İntifa Hakkı" (m.1059-1060)
-// izleyecek ve bu iki ayırımın tamamlanmasıyla Birinci Kısım "Gemi"
-// sona erecektir. Beşinci Kitap "Deniz Ticareti" bundan sonra sırasıyla
-// İkinci Kısım "Donatan ve Donatma İştiraki" (m.1061+), Üçüncü Kısım
-// "Kaptan" (m.1088+), Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"
-// (m.1119+ - çarter sözleşmeleri, navlun sözleşmeleri, taşıma senedi) ve
-// kitabın devamındaki Deniz Kazaları (Çatma, Kurtarma, Müşterek Avarya),
-// Gemi Alacakları, Sorumluluğun Sınırlanması ve Cebrî İcraya İlişkin
-// Özel Hükümler Kısımlarını da kapsayacak olup, kitabın m.1400'e kadar
-// sürmesi nedeniyle onlarca ayrı batch gerektirecektir; bu dosya
-// yalnızca yukarıda sayılan m.931-1029 aralığını kapsar ve ileriki
-// batch'lerde yeni slug eşlemeleriyle genişletilecektir.
+// Altıncı batch, Üçüncü Ayırım "Gemi Rehni"nin devamını kapsar ve
+// "7) İpoteğin hükümleri" (m.1030-1037: alacağın muacceliyetinden önce
+// ipotekli alacaklının gemi maliki aleyhine - teminatın tehlikeye
+// düşmesi hâlinde ültimatom ve ihtiyati haciz/yediemin/ilamlı takip
+// yoluyla kademeli koruma, m.1030 - ve üçüncü kişiler aleyhine - yalnızca
+// men davası, m.1031 - hakları ile malikin def'ide bulunma, m.1032,
+// muacceliyet bildirimi, m.1033, ve kendisine temsilci atanmasını
+// isteme, m.1034, hakları; alacağın muacceliyetinden sonra malikin
+// borcu ödeme hakkı, m.1035, alacağın malike geçmesi/halefiyet, m.1036,
+// ve belgelerin verilmesini istem hakkı, m.1037), "8) Gemi ipoteğinin
+// devri ve değiştirilmesi" (m.1038-1043: alacağın devriyle ipoteğin
+// otomatik geçişi, ayrılmazlık ilkesi ve tescilin kurucu niteliği,
+// m.1038, yeni alacaklıya karşı ileri sürülebilecek def'i ve itirazlar
+// ile sicile güven ilkesinin sınırları, m.1039, ipoteğin içeriğinin,
+// m.1041, derecesinin, m.1042, ve teminat altına aldığı alacağın,
+// m.1043, değiştirilmesi) ve "9) Gemi ipoteğinin sona ermesi"
+// (m.1044-1053: alacağın düşmesi, m.1044, alacaklı ve malik
+// sıfatlarının birleşmesi, m.1045, birlikte gemi ipoteğinde malikin
+// ve borçlunun halefiyeti, m.1046-1047, sicil-dışı ipoteklerin
+// zamanaşımına bağlı düşmesi, m.1048, tarafların anlaşması, m.1049,
+// alacaklının feragati, m.1050, ipoteğin süresinin dolması, m.1051,
+// ve alacaklının bilinmemesi ile paranın tevdii hâllerinde mahkemece
+// düşme kararı verilmesi, m.1052-1053) kapsanmıştır. Bu batch ile
+// gemi ipoteğinin çekirdek rejimi (m.1013-1053) eksiksiz tamamlanmış
+// olur; Üçüncü Ayırım "Gemi Rehni"nden geriye yalnızca "III) Yapı
+// hâlindeki gemiler üzerinde ipotek" (m.1054-1058) kalmakta olup, bunu
+// Dördüncü Ayırım "İntifa Hakkı" (m.1059-1060) izleyecek ve bu iki
+// ayırımın tamamlanmasıyla Birinci Kısım "Gemi" sona erecektir. Beşinci
+// Kitap "Deniz Ticareti" bundan sonra sırasıyla İkinci Kısım "Donatan ve
+// Donatma İştiraki" (m.1061+), Üçüncü Kısım "Kaptan" (m.1088+), Dördüncü
+// Kısım "Deniz Ticareti Sözleşmeleri" (m.1119+ - çarter sözleşmeleri,
+// navlun sözleşmeleri, taşıma senedi) ve kitabın devamındaki Deniz
+// Kazaları (Çatma, Kurtarma, Müşterek Avarya), Gemi Alacakları,
+// Sorumluluğun Sınırlanması ve Cebrî İcraya İlişkin Özel Hükümler
+// Kısımlarını da kapsayacak olup, kitabın m.1400'e kadar sürmesi
+// nedeniyle onlarca ayrı batch gerektirecektir; bu dosya yalnızca
+// yukarıda sayılan m.931-1053 aralığını kapsar ve ileriki batch'lerde
+// yeni slug eşlemeleriyle genişletilecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -183,6 +206,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Gemi: Gemi Rehni ve İpoteği",
   "gemi-ipoteginin-kapsami-ve-sigorta-tazminati-iliskisi-ttk-1020":
     "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-ipoteginin-hukumleri-alacagin-muacceliyetinden-once-ve-sonra-ttk-1030":
+    "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-ipoteginin-devri-ve-degistirilmesi-ttk-1038":
+    "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-ipoteginin-sona-ermesi-ttk-1044": "Gemi: Gemi Rehni ve İpoteği",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
