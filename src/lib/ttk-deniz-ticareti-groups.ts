@@ -1434,6 +1434,47 @@
 // İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1233 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Otuzbirinci ve bu dosya bakımından son batch, "III. Hükümleri" başlığının
+// "1. Kıymetli evrak olma niteliği → b) Konişmentonun eşyayı temsili" alt
+// başlığını (m.1234-1236) baştan sona ve eksiksiz kapsayarak "1. Kıymetli
+// evrak olma niteliği"nin (m.1230-1236) tamamını kapatır. Bu batch, m.1234'ü
+// - eşya, kaptan veya taşıyanın diğer bir temsilcisi tarafından taşınmak
+// üzere teslim alınınca konişmentonun, konişmento gereğince eşyayı teslim
+// almaya yetkili olan kişiye tesliminin, 1235 inci madde hükümleri saklı
+// kalmak şartıyla, Türk Medenî Kanununun 957 ve 980 inci maddelerinde
+// yazılı hukuki sonuçları doğurması, yani konişmentonun yetkili hamile
+// tesliminin eşyanın kendisinin fiilen tesliminin hukuki sonuçlarını
+// doğurması, m.1234 - kapsamıştır. Bu batch ayrıca m.1235'i - emre yazılı
+// bir konişmento birden fazla nüsha hâlinde düzenlenmişse, nüshalardan
+// birinin hamilinin, konişmentonun teslimine 1234 üncü madde gereğince
+// bağlanan sonuçları, kendisi henüz teslim isteminde bulunmadan önce bir
+// diğer nüshaya dayanarak 1230 uncu madde uyarınca kaptandan eşyayı zaten
+// teslim almış olan kişi aleyhine ileri süremeyeceği, m.1235/1; ve kaptan
+// eşyayı henüz teslim etmeden birden çok konişmento hamili ona başvurup
+// ellerinde bulundurdukları konişmento nüshalarına dayanarak eşya üzerinde
+// birbirine zıt haklar ileri sürerlerse, konişmentonun birden çok
+// nüshalarını çeşitli kişilere devretmiş olan ortak ciranta tarafından
+// eşyayı teslim almaya yetkili kılacak şekilde ilk önce ciro ve teslim
+// edilmiş olan nüshanın hamilinin diğerlerine tercih olunması ile ciro
+// edilip de başka bir yere gönderilen konişmento nüshası hakkında gönderme
+// tarihinin konişmento hamiline teslim tarihi hükmünde sayılması, m.1235/2
+// - kapsamıştır. Son olarak bu batch m.1236'yı - eşyanın, ancak konişmento
+// nüshasının, eşyanın teslim alındığına ilişkin şerh düşülerek geri
+// verilmesi karşılığında teslim edilmesi - kapsamıştır. BU BATCH İLE "III.
+// HÜKÜMLERİ" BAŞLIĞININ "1. KIYMETLİ EVRAK OLMA NİTELİĞİ" ALT BAŞLIĞI
+// (m.1230-1236) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ
+// olur. Altıncı Ayırım bundan sonra "2. İspat işlevi" (m.1237'den itibaren
+// - konişmentonun taşıyan ile konişmento hamili arasındaki hukuki ilişkiyi
+// ispat işlevi, bu ilişkinin taşıyan ile taşıtan arasındaki navlun
+// sözleşmesi ilişkisinden ayrımı ve yolculuk çarteri sözleşmesine gönderme
+// yapan konişmentolarda çarter partinin ibrazına ilişkin özel kurallar) ile
+// devam edecek olup, kitabın devamında henüz kapsanmamış çok sayıda
+// Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1236 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1585,6 +1626,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "konismento-hamiline-teslim-genel-esaslar-ttk-1230":
     "Denizde Taşıma Senetleri: Konişmento",
   "yukletenin-talimati-ve-sozlesmenin-hukumden-dusmesi-ttk-1232":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "konismentonun-esyayi-temsili-genel-olarak-ttk-1234":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "konismentonun-birden-cok-hamili-ve-geri-verilmesi-ttk-1235":
     "Denizde Taşıma Senetleri: Konişmento",
 };
 
