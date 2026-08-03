@@ -1475,6 +1475,52 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1236 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Otuzikinci ve bu dosya bakımından son batch, "2. İspat işlevi"ni
+// (m.1237-1239) baştan sona ve eksiksiz kapsar. Bu batch, m.1237'yi -
+// taşıyan ile konişmento hamili arasındaki hukuki ilişkilerde konişmentonun
+// esas alınması, m.1237/1; taşıyan ile taşıtan arasındaki hukuki ilişkilerin
+// ise navlun sözleşmesinin hükümlerine bağlı kalması, m.1237/2; ve
+// konişmentoda yolculuk çarteri sözleşmesine gönderme varsa, konişmento
+// devredilirken çarter partinin bir suretinin de yeni hamile ibraz edilmesi
+// şartıyla, çarter partide yer alan hükümlerin nitelikleri elverdiği ölçüde
+// konişmento hamiline karşı da ileri sürülebilmesi - m.1245/1'in ikinci
+// cümlesi saklı kalmak kaydıyla -, m.1237/3 - kapsamıştır. Bu batch ayrıca
+// m.1238'i - konişmentoyu taşıyan sıfatıyla imzalayan veya kendi ad ve
+// hesabına imzalatan kişinin taşıyan sayılması, m.1238/1; taşıyanın adı ve
+// soyadı veya ticaret unvanı ile işletme merkezi gösterilmemiş veya açıkça
+// anlaşılmıyorsa donatanın taşıyan sayılması, meğerki hamilin açık istemi
+// üzerine donatan gerçek taşıyanı bildirip belgelendirmiş olsun, m.1238/2;
+// kaptan veya taşıyanın diğer bir temsilcisi tarafından düzenlenen ve
+// taşıyanın kimliğini açıkça göstermeyen konişmentoda, temsilcinin de
+// donatanla birlikte taşıyan sayılması, aynı istisnayla, m.1238/3; ve
+// taşıyanın kimliğinin yanlış veya geç bildirilmesi hâlinde taşıyan, donatan
+// ve temsilcinin doğacak zararlardan müteselsilen sorumlu olması ile
+// 1188 inci maddedeki hak düşürücü sürenin taşıyanın doğru kimliği
+// bildirilene kadar işlemeye başlamaması, m.1238/4 - kapsamıştır. Son olarak
+// bu batch m.1239'u - konişmentonun eşyanın genel olarak cinsi, işaretleri,
+// koli veya parça adedi, ağırlık veya miktarı hakkındaki beyanlarına,
+// taşıyanın bu beyanların gerçeği yansıtmadığını bilmesi, haklı sebeple
+// şüphe etmesi veya kontrol için yeterli imkâna sahip olmaması hâllerinde
+// çekince koyma zorunluluğu, m.1239/1; taşıyanın eşyanın haricen belli olan
+// hâlini beyan etmeyi ihmal etmesi hâlinde eşyanın haricen iyi hâlde olduğu
+// beyan edilmiş sayılması, m.1239/2; ve çekince konulan beyanlar saklı
+// kalmak üzere konişmentonun, eşyanın beyan edildiği gibi teslim alındığına
+// veya yüklendiğine karine oluşturması ile bu karinenin aksinin, konişmentoyu
+// içerdiği eşya tanımına güvenerek iyiniyetle devralan gönderilen dâhil
+// üçüncü kişiye karşı ispatlanamaması - 1186 ncı maddenin dördüncü fıkrası
+// saklı kalmak kaydıyla -, m.1239/3 - kapsamıştır. BU BATCH İLE "2. İSPAT
+// İŞLEVİ" (m.1237-1239) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ
+// TAMAMLANMIŞ olur. Altıncı Ayırım bundan sonra "d) Navlunu ispat" (m.1240 -
+// konişmentonun navlun ödeme yükümlülüğüne ilişkin ispat işlevi) ve "e)
+// Yükleten tarafından verilen garantiler" (m.1241) ile devam edecek,
+// ardından "B) Diğer denizde taşıma senetleri" (m.1242'den itibaren)
+// izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1239 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1630,6 +1676,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "konismentonun-esyayi-temsili-genel-olarak-ttk-1234":
     "Denizde Taşıma Senetleri: Konişmento",
   "konismentonun-birden-cok-hamili-ve-geri-verilmesi-ttk-1235":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "hukuki-iliskiyi-ve-tasiyani-ispat-ttk-1237":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "esyanin-durumunu-ispat-ve-cekince-ttk-1239":
     "Denizde Taşıma Senetleri: Konişmento",
 };
 
