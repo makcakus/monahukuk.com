@@ -308,6 +308,50 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1087
 // aralığını kapsar ve ileriki batch'ler, Üçüncü Kısım "Kaptan"dan
 // itibaren yeni bir dosyada yeni slug eşlemeleriyle devam edecektir.
+//
+// Onuncu batch, Beşinci Kitap "Deniz Ticareti"nin Üçüncü Kısmı
+// "Kaptan"ını (m.1088-1118) açar. Bu batch, "A) Özen yükümlülüğü" -
+// kaptanın bütün işlerinde, özellikle ifası kendisine düşen
+// sözleşmelerin yerine getirilmesinde tedbirli bir kaptan gibi hareket
+// etme zorunluluğu, m.1088; "B) Sorumluluğu" - kaptanın kusuruyla yol
+// açtığı zararlardan yolcular dahil gemi ve eşyayla ilgili herkese
+// karşı sorumluluğu, donatanın emrine uymanın sorumluluğu kaldırmaması,
+// durumu bilerek emir veren donatanın da sorumlu olması ve milletlerarası
+// sorumluluk sınırlandırma sözleşmelerinden doğan hakkın saklı tutulması,
+// m.1089; ve "C) Görevleri"nin açılışını kapsar: I) Geminin elverişliliği
+// ile ilgili olarak - 1) geminin denize ve yola elverişli olmasına ve
+// gemiye/gemi adamlarına/yüke ait belgelerin gemide bulunmasına dikkat
+// etme, m.1090, 2) yükleme ve boşaltma araçlarının elverişliliğine,
+// istifin özel istifçilerce yapılsa bile denizcilik usullerine uygun
+// gerçekleştirilmesine, aşırı yüklenmemeye, gerekli safraya ve
+// ambarların donanımına dikkat etme, m.1091; II) yabancı mevzuata uyma -
+// yabancı ülke kolluk/vergi/gümrük kurallarına uymamaktan ve harp kaçağı
+// eşya yüklemekten doğan zararları tazmin yükümlülüğü, m.1092; III) yola
+// çıkma - ilk elverişli fırsatta yola çıkma zorunluluğu, kaptanın
+// yönetemeyecek durumda olması hâlinde donatandan talimat alma veya
+// vekil kaptan bırakma ile vekilin seçiminde kusur standardı, m.1093;
+// IV) gemide hazır bulunma - yükleme/boşaltma sırasında ve güvenli
+// olmayan limanda kaptan ile ikinci kaptanın eşzamanlı ayrılma yasağı,
+// tehlike/deniz hâlinde mutlak gemide kalma yükümlülüğü, m.1094; V)
+// kaptanın gemi zabitlerine danışması - danışmanın kaptanı bağlamaması
+// ve nihai sorumluluğun daima kaptanda kalması, m.1095; VI) gemi jurnali
+// - tutma yükümlülüğü ve tutacak kişiler, m.1096, içeriği ve imza şartı,
+// m.1097; VII) deniz raporu - düzenlenmesini isteyebilecek kişiler,
+// düzenleneceği yer ve düzenleyici makam, m.1098, tespit edilecek
+// konular, m.1099, usulü, m.1100, tutanağın aslının saklanması, m.1101;
+// ve VIII) donatanın menfaatlerini koruma - gemi zayi olsa bile kaptanın
+// gerektiği sürece bu yükümlülüğü sürdürmesi, m.1102 kapsanmıştır. Bu
+// batch ile "A) Özen yükümlülüğü", "B) Sorumluluğu" ve "C) Görevleri"nin
+// I-VIII alt başlıkları (m.1088-1102) tamamlanmış olur; Üçüncü Kısım
+// "Kaptan"ın geri kalanı, özellikle "D) Kanundan doğan temsil yetkisi"
+// (m.1103-1118 - kaptanın donatanı temsil yetkisinin kapsamı, kredi
+// işlemleri, sınırlandırılması, vekâletsiz iş görme ve yükle ilgili
+// olanların menfaatlerini koruma) ileriki bir batch'te ele alınarak
+// Üçüncü Kısım tamamlanacak, ardından Beşinci Kitap Dördüncü Kısım
+// "Deniz Ticareti Sözleşmeleri" (m.1119'dan itibaren) ve kitabın
+// devamındaki henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları, Gemi
+// Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin
+// Özel Hükümler dahil) m.1400'e kadar sürecek şekilde izleyecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -317,6 +361,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Gemi Rehni ve İpoteği",
   "Gemi: İntifa Hakkı",
   "Donatan ve Donatma İştiraki",
+  "Kaptan",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -365,6 +410,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Donatan ve Donatma İştiraki",
   "donatma-istirakinin-sona-ermesi-ve-tasfiyesi-ttk-1082":
     "Donatan ve Donatma İştiraki",
+  "kaptanin-ozen-yukumlulugu-ve-sorumlulugu-ttk-1088": "Kaptan",
+  "kaptanin-geminin-elverisliligine-iliskin-gorevleri-ve-yola-cikmasi-ttk-1090":
+    "Kaptan",
+  "gemi-jurnali-ve-deniz-raporu-ttk-1096": "Kaptan",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
