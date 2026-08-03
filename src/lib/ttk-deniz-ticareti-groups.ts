@@ -953,6 +953,66 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1189 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Yirmiikinci ve bu dosya bakımından son batch, Üçüncü Ayırım "Taşıyanın
+// Sorumluluğu ve Hakları"nın "VIII. Sözleşme dışı istemler" (m.1190) ve "IX.
+// Fiilî taşıyanın sorumluluğu" (m.1191-1192) alt başlıklarını kapsar. Bu
+// batch, m.1190'ı - taşıyanın sorumluluktan kurtulması hâlleri ile
+// sorumluluğu sınırlandırılmasına ilişkin hükümlerin, navlun sözleşmesine
+// konu eşyanın zıya, hasar veya geç teslimi yüzünden taşıyan aleyhine
+// haksız fiile veya diğer bir sebebe dayanılarak açılacak bütün davalarda
+// uygulanması, m.1190/1; böyle bir davanın taşıyanın adamlarından biri
+// aleyhine açılması hâlinde, o adamın da görevi veya yetkisi sınırları
+// içinde hareket ettiğini ispat etmek kaydıyla aynı kurtulma hâlleri ve
+// sınırlandırma hakkından yararlanabilmesi, m.1190/2; ve taşıyan ile
+// adamlarından istenebilecek tazminat miktarlarının toplamının, 1187 nci
+// madde hükmü saklı kalmak kaydıyla, 1186 ncı maddedeki sorumluluk sınırını
+// aşamaması, m.1190/3 - kapsar. Bu batch ayrıca m.1191'i - taşımanın
+// gerçekleştirilmesinin kısmen veya tamamen bir fiilî taşıyana bırakıldığı
+// takdirde taşıyanın, navlun sözleşmesine göre bu bırakma hakkına sahip
+// olup olmadığı dikkate alınmaksızın taşımanın tamamından sorumlu kalmaya
+// devam etmesi ve fiilî taşıyan ile onun taşıma borcunun ifasında
+// kullandığı, görevi/yetkisi sınırı içinde hareket eden adamlarının fiil ve
+// ihmallerinden de bu Kanun hükümlerine göre sorumlu olması, m.1191/1; bu
+// Kanunun taşıyanın sorumluluğuna ilişkin tüm hükümlerinin fiilî taşıyanın
+// bizzat gerçekleştirdiği taşımadan sorumluluğu hakkında da geçerli olması
+// ve fiilî taşıyanın adamları aleyhine dava açılması hâlinde 1187/2 ile
+// 1190/2-3'ün uygulanması, m.1191/2; taşıyanın kanunen kendisine
+// yüklenmeyen bir borç/yükümlülüğü üstlenmesi veya tanınan bir haktan
+// vazgeçmesi sonucunu doğuran özel anlaşmaların, açık ve yazılı onayı
+// olmadıkça fiilî taşıyanı bağlamaması ama taşıyanı bağlamaya devam etmesi,
+// m.1191/3; taşıyan ile fiilî taşıyanın aynı zarardan sorumlu oldukları
+// takdirde ve ölçüde müteselsil sorumlu olmaları, m.1191/4; taşıyan, fiilî
+// taşıyan ve adamları tarafından ödenecek tazminatın toplamının kanundaki
+// sorumluluk sınırlarını aşamaması, m.1191/5; ve bu madde hükümlerinin
+// taşıyan ile fiilî taşıyan arasındaki rücu ilişkisini etkilememesi,
+// m.1191/6 - kapsar. Son olarak bu batch m.1192'yi - 1191/1 hükmüne halel
+// gelmemek kaydıyla, navlun sözleşmesinde taşımanın belirli bir kısmının
+// taşıyandan başka bir kişi tarafından gerçekleştirileceğinin öngörülmüş
+// olması durumunda, eşya fiilî taşıyanın hâkimiyetinde iken meydana gelecek
+// zıya, hasar veya teslimdeki gecikmeden taşıyanın sorumlu olmayacağına
+// ilişkin şart konabilmesi, ancak bu şartın yetkili Türk mahkemesinde fiilî
+// taşıyan aleyhine dava açılamadığı hâllerde geçersiz olması ve zararın
+// fiilî taşıyanın hâkimiyetinde meydana geldiğini ispat yükünün taşıyana
+// ait olması, m.1192/1; şartın geçerliğinin, fiilî taşıyanın adı, unvanı ve
+// işyeri adresinin navlun sözleşmesinden anlaşılmasına, belirlenmemişse
+// taşıyanın belirlendiği anda ve en geç eşyanın fiilî taşıyana teslimini
+// takiben derhâl gönderilene bildirimde bulunmasına bağlı olması ve
+// bildirim yapılmazsa taşıyanın sorumluluğunun devam etmesi, m.1192/2; ve
+// fiilî taşıyanın, eşyanın hâkimi olduğu sırada ortaya çıkan zıya, hasar
+// veya gecikmeden 1191/2 uyarınca sorumlu olması, m.1192/3 - kapsayarak BU
+// BATCH İLE "A) TAŞIYANIN SORUMLULUĞU" (m.1178-1192) İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Üçüncü Ayırım bundan sonra "B)
+// Taşıyanın hakları" (m.1193'ten itibaren - "I. Navlun ödenmesini istem
+// hakkı", m.1193-1198: ölçü/tartı/sayı üzerine navlun, zaman üzerine
+// navlun, navlun kararlaştırılmamışsa, navlun dışında kalan prim ve
+// giderler, navlunun muacceliyeti, eşyanın navlun yerine bırakılması) ile
+// devam edecek olup, kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1192 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1066,6 +1126,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "tazminat-isteminde-hak-dusurucu-sure-ttk-1188":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "hak-dusurucu-sureden-yararlanma-hakkinin-kaybi-ttk-1189":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "sozlesme-disi-istemler-ttk-1190":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "fiili-tasiyanin-sorumlulugu-ttk-1191":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 };
 
