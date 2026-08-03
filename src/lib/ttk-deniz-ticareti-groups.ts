@@ -1279,6 +1279,70 @@
 // dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
 // yukarıda sayılan m.931-1220 aralığını kapsar ve ileriki batch'ler yeni
 // slug eşlemeleriyle devam edecektir.
+//
+// Yirmisekizinci ve bu dosya bakımından son batch, "Beşinci Ayırım: Yolculuğun
+// Başlamasına veya Devamına Engel Olan Sebepler Yüzünden Sözleşmenin Sona
+// Ermesi"nin "B) Sözleşmenin feshi" başlığının geri kalan tamamını
+// (m.1221-1227) kapsayarak hem bu başlığı hem de içinde bulunduğu Beşinci
+// Ayırımı (m.1209-1227) baştan sona tamamlar. Bu batch, "3. Geminin yolculuk
+// sırasında tamirinin gerekmesi"ni (m.1221 - geminin yolculuk sırasında
+// tamiri gerekirse, navlunun tamamı ile taşıyanın o ana kadar doğmuş bulunan
+// diğer alacaklarının ödenmesi veya temin edilmesi şartıyla eşyanın gemiden
+// alınabilmesi ya da tamirin bitmesinin beklenebilmesi seçimlik hakkı ve
+// navlunun zaman üzerine kararlaştırıldığı hâllerde tamir süresinin hesaba
+// katılmaması, m.1221/1; 1222 nci maddenin birinci fıkrasının ilk cümlesi
+// hükmünün saklı tutulması, m.1221/2; ve kısmi yolculuk çarteri sözleşmeleri
+// ile kırkambar sözleşmelerinde eşya tamir sırasında boşaltılmışsa taşıtanın
+// tam navlun ve diğer alacakları ödeyerek eşyayı geri alabilmesi, m.1221/3),
+// "III. Diğer sebeplerin etkisi"ni (m.1222 - kanunda öngörülenler dışında bir
+// tabiî olay veya umulmayan diğer bir hâl yüzünden yolculuğun başlamadan veya
+// başladıktan sonra gecikmesinin, sözleşmenin belli amacının kaybolması
+// istisnası saklı kalmak üzere, tarafların hak ve yükümlülüklerini
+// değiştirmemesi ile uzunca süreceği anlaşılan umulmayan hâl kaynaklı
+// gecikmelerde taşıtanın rizikosu ve gideri kendisine ait olmak ve zamanında
+// tekrar yüklemek şartıyla teminat göstererek eşyayı geçici boşaltma yetkisi
+// ve yeniden yüklenmemesi hâlinde tam navlun ile zararın tazmini yükümlülüğü,
+// m.1222/1; gecikmenin bir kamu tasarrufundan kaynaklandığı hâllerde zaman
+// üzerine kararlaştırılan navlunun işlememesi, m.1222/2; ve kısmi yolculuk
+// çarteri sözleşmeleri ile kırkambar sözleşmelerinde taşıtanın geçici
+// boşaltma hakkını ancak diğer taşıtanların muvafakatiyle kullanabilmesi,
+// m.1222/3), "IV. Eşya üzerinde tasarruf yetkisi olan kişinin fesih hakkı"nı
+// (m.1223 - taşıtanın eşya üzerinde tasarruf yetkisine sahip olmadığı
+// hâllerde, ona ait fesih hakkının eşya üzerinde tasarruf yetkisi olan kişi
+// tarafından kullanılması), "V. Fesih hakkının kullanılması"nı (m.1224-1226 -
+// feshin bildiriminin faks, elektronik mektup veya benzeri teknik araçlarla
+// da mümkün olmak üzere yazılı olarak yapılması, m.1224; navlun sözleşmesi
+// yolculuk başlamadan önce bu Ayırımda öngörülen sebeplerle feshedilirse
+// tarafların birbirine tazminat ödemeksizin yalnızca o ana kadar doğmuş
+// borçlarını ifa etmesi, m.1225; ve navlun sözleşmesi yolculuk başladıktan
+// sonra feshedilirse taşıyana o ana kadar doğmuş alacakları dışında, eşya
+// yükleme limanına geri getirilmiş olsa bile, 1210 uncu maddenin ikinci
+// fıkrasına göre hesap edilecek mesafe navlununun da ödenmesi, aksi
+// kararlaştırılmadıkça eşyanın fesih hakkının kullanıldığı sırada geminin
+// bulunduğu veya en yakın olduğu limanda boşaltılması ile kısmi yolculuk
+// çarteri ve kırkambar sözleşmelerinde boşaltmanın gecikme veya aktarmaya
+// sebep olması hâlinde diğer taşıtanların muvafakati şartı, ve kaptanın
+// yükümlülükleri hakkındaki 1211 inci madde hükmünün yolculuk başladıktan
+// sonraki fesihte de uygulanması, m.1226) ve son olarak "C) Birden çok
+// yolculuğun özellikleri"ni (m.1227 - geminin birden çok yolculuk için
+// tutulduğu hâllerde 1209 ilâ 1226 ncı madde hükümlerinin ancak sözleşmenin
+// niteliği ve içeriği cevaz veriyorsa uygulanması, m.1227/1; ve sözleşmeye
+// göre yükleme limanına yolculuk yapmak zorunda olan gemi bu limana varmışsa,
+// taşıyana bu yolculuk için ayrıca 1210 uncu maddenin ikinci fıkrasına göre
+// hesap olunacak mesafe tazminatının ödenmesi, m.1227/2) kapsamıştır. BU
+// BATCH İLE "B) SÖZLEŞMENİN FESHİ" (m.1218-1227) VE BÖYLECE "BEŞİNCİ AYIRIM:
+// YOLCULUĞUN BAŞLAMASINA VEYA DEVAMINA ENGEL OLAN SEBEPLER YÜZÜNDEN
+// SÖZLEŞMENİN SONA ERMESİ" (m.1209-1227) İLK MADDESİNDEN SON MADDESİNE KADAR
+// EKSİKSİZ TAMAMLANMIŞ olur. Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"nin
+// Üçüncü Bölümü "Navlun Sözleşmesi" bundan sonra "Altıncı Ayırım: Denizde
+// Taşıma Senetleri" (konişmento - tanımı, türleri, düzenlenmesi, içeriği,
+// kıymetli evrak olma niteliği ve ispat işlevi dâhil, m.1228'den itibaren)
+// ile devam edecek olup, kitabın devamında henüz kapsanmamış çok sayıda
+// Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1227 aralığını kapsar ve ileriki batch'ler, Altıncı Ayırım "Denizde
+// Taşıma Senetleri"nden itibaren yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1418,6 +1482,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "taraflara-fesih-hakki-veren-haller-ttk-1218":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "taraflarin-fesih-hakkina-sahip-olmadigi-haller-ttk-1219":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "geminin-tamiri-ve-diger-sebeplerin-etkisi-ttk-1221":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "fesih-hakkinin-kullanilmasi-ve-sonuclari-ttk-1224":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
 };
 
