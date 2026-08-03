@@ -170,6 +170,40 @@
 // nedeniyle onlarca ayrı batch gerektirecektir; bu dosya yalnızca
 // yukarıda sayılan m.931-1053 aralığını kapsar ve ileriki batch'lerde
 // yeni slug eşlemeleriyle genişletilecektir.
+//
+// Yedinci ve bu dosya bakımından son batch, Üçüncü Ayırım "Gemi
+// Rehni"nin "III) Yapı hâlindeki gemiler üzerinde ipotek" alt başlığını
+// (m.1054-1058: ipoteğin konusu - omurganın konulup yapının açık ve
+// sürekli şekilde ayırt edilebilir hâle geldiği andan itibaren kurulma
+// imkânı ile onsekiz gros tonilatodan küçük yapılarda ipotek yasağı,
+// m.1054; kurulması - malik-alacaklı anlaşması ve yapı hâlindeki
+// gemilere özgü sicile tescil, m.1055; kapsamı - yapımın her aşamasını
+// ve tersanede işaretlenmiş henüz monte edilmemiş malzemeyi de kapsama
+// alan genişletilmiş ipotek kapsamı ile sigorta tazminatının ancak
+// ayrıca sigorta ettirilmişse kapsanması, m.1056; derecesi - yapımı
+// tamamlanan geminin gemi siciline geçişinde ipoteğin eski derecesini
+// koruması, m.1057; ve uygulanacak hükümler - m.1014-1053'teki ordinar
+// gemi ipoteği rejiminin özel hükümler saklı kalmak kaydıyla kıyasen
+// uygulanması, m.1058) ve Dördüncü Ayırım "İntifa Hakkı"nın tamamını
+// (m.1059-1060: kurulması - sicile kayıtlı gemiler üzerinde intifa
+// hakkı kurulabilmesi, aksi kararlaştırılmadıkça tam yararlanma yetkisi
+// ve akdî intifa hakkının m.1015'teki gemi ipoteği kuruluş mekanizmasına
+// tabi olması, m.1059; ve uygulanacak hükümler - TMK'nın taşınmazlar
+// üzerindeki intifa hakkı hükümlerine tabi olma ile intifa hakkı-gemi
+// ipoteği ilişkisinde TMK m.869'a atıf, m.1060) kapsamıştır. Bu batch
+// ile Birinci Kısım "Gemi" (m.931-1060) İLK MADDESİNDEN SON MADDESİNE
+// KADAR EKSİKSİZ TAMAMLANMIŞ olur. Beşinci Kitap "Deniz Ticareti" bundan
+// sonra sırasıyla İkinci Kısım "Donatan ve Donatma İştiraki"
+// (m.1061-1087), Üçüncü Kısım "Kaptan" (m.1088-1118) ve Dördüncü Kısım
+// "Deniz Ticareti Sözleşmeleri" (m.1119'dan itibaren - gemi kira
+// sözleşmeleri, zaman çarteri, navlun ve taşıma sözleşmeleri) ile devam
+// edecek olup, kitabın devamında henüz kapsanmamış çok sayıda Kısım
+// (Deniz Kazaları - Çatma, Kurtarma, Müşterek Avarya -, Gemi Alacakları,
+// Sorumluluğun Sınırlanması ve Cebrî İcraya İlişkin Özel Hükümler dahil)
+// m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1060 aralığını kapsar ve ileriki batch'ler,
+// İkinci Kısım'dan itibaren yeni bir dosyada yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -177,6 +211,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Gemi Sicili",
   "Gemi: Mülkiyet ve Diğer Ayni Haklar",
   "Gemi: Gemi Rehni ve İpoteği",
+  "Gemi: İntifa Hakkı",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -211,6 +246,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "gemi-ipoteginin-devri-ve-degistirilmesi-ttk-1038":
     "Gemi: Gemi Rehni ve İpoteği",
   "gemi-ipoteginin-sona-ermesi-ttk-1044": "Gemi: Gemi Rehni ve İpoteği",
+  "yapi-halindeki-gemiler-uzerinde-ipotek-ttk-1054":
+    "Gemi: Gemi Rehni ve İpoteği",
+  "gemi-uzerinde-intifa-hakki-ttk-1059": "Gemi: İntifa Hakkı",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
