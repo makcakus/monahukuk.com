@@ -921,6 +921,38 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1187 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Yirmibirinci batch, Üçüncü Ayırım "Taşıyanın Sorumluluğu ve Hakları"nın
+// "VII. Tazminat istemi için süre" alt başlığını (m.1188-1189) baştan sona
+// kapsar. Bu batch, m.1188'i - eşyanın zıyaı veya hasarı ile geç
+// tesliminden dolayı taşıyana karşı her türlü tazminat istem hakkının bir
+// yıl içinde yargı yoluna başvurulmadığı takdirde düşmesi, m.1188/1; bu
+// sürenin taşıyanın eşyayı veya bir kısmını teslim ettiği veya eşya hiç
+// teslim edilmemişse onun teslim edilmesinin gerektiği tarihten itibaren
+// işlemeye başlaması, m.1188/2; sorumlu tutulan kişinin rücu davasının
+// birinci fıkradaki hak düşürücü sürenin sona ermesinden sonra da
+// açılabilmesi, ancak bu hakkın tazminat bedelinin ödendiği veya dava
+// dilekçesinin tebellüğ edildiği tarihten itibaren doksan gün içinde
+// kullanılmadıkça düşmesi, m.1188/3; ve bu sürenin tarafların dava
+// sebebinin doğmasından sonra yapacakları bir anlaşmayla uzatılabilmesi,
+// m.1188/4 - kapsar. Bu batch ayrıca m.1189'u - tazminat isteminin
+// muhatabının, zarar göreni dava açma süresini kaçırması sonucunu
+// doğuracak şekilde oyalaması hâlinde hak düşürücü sürenin geçmiş olduğu
+// itirazından yararlanamaması, m.1189/1; ve bu takdirde dava açma
+// süresinin, zarar görenin bu durumu öğrendiği tarihten itibaren yeniden
+// işlemeye başlaması, m.1189/2 - kapsayarak BU BATCH İLE "VII. TAZMİNAT
+// İSTEMİ İÇİN SÜRE" (m.1188-1189) İLK MADDESİNDEN SON MADDESİNE KADAR
+// EKSİKSİZ TAMAMLANMIŞ olur. Üçüncü Ayırım bundan sonra "VIII. Sözleşme
+// dışı istemler" (m.1190 - taşıyanın savunma ve sınırlama haklarının
+// eşya zararına dayanan sözleşme dışı istemlere genişletilmesi) ve "IX.
+// Fiilî taşıyanın sorumluluğu" (m.1191-1192) ile devam edecek, ardından
+// "B) Taşıyanın hakları" (m.1193'ten itibaren - navlun ödenmesini istem
+// hakkı) izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda
+// Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1189 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1030,6 +1062,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "tasiyanin-sorumlulugunu-sinirlandirma-haklari-ttk-1186":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "sorumlulugu-sinirlandirma-hakkinin-kaybi-ttk-1187":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "tazminat-isteminde-hak-dusurucu-sure-ttk-1188":
+    "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
+  "hak-dusurucu-sureden-yararlanma-hakkinin-kaybi-ttk-1189":
     "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
 };
 
