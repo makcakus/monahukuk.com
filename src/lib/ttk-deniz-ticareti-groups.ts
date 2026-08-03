@@ -464,6 +464,41 @@
 // m.931-1130 aralığını kapsar ve ileriki batch'ler, İkinci Bölüm "Zaman
 // Çarteri Sözleşmesi"nden itibaren yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Onüçüncü ve bu dosya bakımından son batch, Dördüncü Kısım "Deniz Ticareti
+// Sözleşmeleri"nin İkinci Bölümü "Zaman Çarteri Sözleşmesi"ni (m.1131-1137)
+// baştan sona ve eksiksiz kapsar: A) Tanımı - tahsis edenin donatılmış bir
+// geminin ticari yönetimini belli bir süre için ve bir ücret karşılığında
+// tahsis olunana bırakmayı üstlenmesi ile teknik yönetimi elinde bulunduran
+// tahsis edenin geminin zilyedi sayılması, m.1131; B) Zaman çarter partisi -
+// taraflardan her birinin kendi giderine sözleşme şartlarını içeren bir
+// zaman çarter partisi düzenlenmesini isteme hakkı, m.1132; C) Tarafların
+// hakları ve borçları - I) Tahsis edenin borçları - geminin kararlaştırılan
+// tarih ve yerde hazır bulundurulması ile sözleşme süresince denize ve yola
+// elverişli ve amaca uygun bir hâlde bulundurulması, m.1133; II) Geminin
+// ticari yönetimi - ticari yönetimin tahsis olunana ait olması ve kaptanın
+// buna ilişkin talimatlara uyma zorunluluğu, m.1134; III) Giderler - geminin
+// ticari işletilmesinden doğan, özellikle yakıt temini için gerekli
+// giderler dâhil tüm giderlere tahsis olunanın katlanması, m.1135; IV)
+// Ücret ödeme borcu ve teminatı - tahsis ücretinin aylık ve peşin ödenmesi,
+// yirmidört saati aşan hareketsizlikte ücret muafiyeti ve tahsis edenin
+// hapis hakkı, alacak rehni ile m.1201'deki hapis hakkından oluşan üçlü
+// teminat paketi, m.1136; ve V) Tahsis olunanın sorumluluğu ve gemiyi iade
+// yükümlülüğü - geminin ticari yönetiminden doğan zararlardan tahsis
+// olunanın sorumluluğu ile gecikmeli iadede tahsis ücretinin iki katı
+// tutarında tazminat, m.1137 - kapsanmıştır. BU BATCH İLE İKİNCİ BÖLÜM
+// "ZAMAN ÇARTERİ SÖZLEŞMESİ" (m.1131-1137) İLK MADDESİNDEN SON MADDESİNE
+// KADAR EKSİKSİZ TAMAMLANMIŞ olur. Dördüncü Kısım "Deniz Ticareti
+// Sözleşmeleri" bundan sonra çok daha hacimli bir sonraki Bölüme, Üçüncü
+// Bölüm "Navlun Sözleşmesi"ne (m.1138'den itibaren - yolculuk çarteri ve
+// kırkambar sözleşmeleri, yükleme/boşaltma usulü, taşıyanın sorumluluğu ve
+// hakları dâhil) geçecek olup, kitabın devamında henüz kapsanmamış pek çok
+// Kısım ve Bölüm (Deniz Kazaları - Çatma, Kurtarma, Müşterek Avarya -, Gemi
+// Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel
+// Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
+// yalnızca yukarıda sayılan m.931-1137 aralığını kapsar ve ileriki
+// batch'ler, Üçüncü Bölüm "Navlun Sözleşmesi"nden itibaren yeni slug
+// eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -475,6 +510,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Donatan ve Donatma İştiraki",
   "Kaptan",
   "Gemi Kira Sözleşmeleri",
+  "Zaman Çarteri Sözleşmesi",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -537,6 +573,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Gemi Kira Sözleşmeleri",
   "gemi-kira-sozlesmesinin-hukum-ve-sonuclari-ii-ttk-1127":
     "Gemi Kira Sözleşmeleri",
+  "zaman-carteri-sozlesmesinin-tanimi-ve-taraflarin-borclari-ttk-1131":
+    "Zaman Çarteri Sözleşmesi",
+  "zaman-carteri-sozlesmesinde-ucret-ve-tahsis-olunanin-sorumlulugu-ttk-1136":
+    "Zaman Çarteri Sözleşmesi",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
