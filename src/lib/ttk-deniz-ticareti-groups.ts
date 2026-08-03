@@ -1521,6 +1521,52 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1239 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Otuzüçüncü ve bu dosya bakımından son batch, "2. İspat işlevi"nin geri
+// kalanını, yani "d) Navlunu ispat" (m.1240) ve "e) Yükleten tarafından
+// verilen garantiler" (m.1241) alt başlıklarını kapsayarak "2. İspat işlevi"ni
+// (m.1237-1241) baştan sona tamamlar. Bu batch, m.1240'ı - 1229 uncu maddenin
+// birinci fıkrasının (l) bendi uyarınca navlunun gönderilen tarafından
+// ödeneceğine veya yükleme limanında gerçekleşip gönderilen tarafından
+// ödenecek olan sürastarya parasına ilişkin bir kaydı içermeyen konişmentonun,
+// gönderilenin navlun veya sürastarya parası ödemekle yükümlü olmadığına
+// karine oluşturması ve bu karinenin aksinin, gönderilen dâhil, konişmentoyu
+// devralan iyiniyetli üçüncü kişiye karşı ispatlanamaması, m.1240/1; navlun
+// eşyanın ölçüsüne, sayısına veya tartısına göre kararlaştırılmış ve bunlar
+// konişmentoda gösterilmişse, konişmentoda aksine bir şart olmadıkça navlunun
+// buna göre belirlenmesi ve 1239 uncu maddenin birinci fıkrası uyarınca
+// yazılan şerhin bu anlamda aksine bir şart sayılmaması, m.1240/2; ve navlun
+// için taşıma sözleşmesine yollama yapılması hâlinde bu yollamanın kapsamına
+// boşaltma süresi, sürastarya süresi ve sürastarya parası hakkındaki
+// hükümlerin girmemesi, m.1240/3 - kapsamıştır. Bu batch ayrıca m.1241'i -
+// konişmentoya konulan eşya ile ilgili kayıtlar hakkında 1145 inci maddenin
+// uygulanması, m.1241/1; taşıyan veya bir temsilcisi tarafından konişmentonun,
+// yükletenin bildirdiği kayıtlara veya eşyanın haricen belli olan hâl ve
+// niteliğine ilişkin bir çekince eklenmeksizin düzenlenmesi yüzünden
+// taşıyanın uğrayacağı zararı yükletenin tazmin edeceğine dair her taahhüt
+// veya anlaşmanın, gönderilen dâhil, konişmentoyu iyiniyetle iktisap eden
+// bütün üçüncü kişilere karşı geçersiz olması - uluslararası uygulamada
+// "letter of indemnity" olarak bilinen pratiğe getirilen temel sınırlama -,
+// m.1241/2; böyle bir taahhüt veya anlaşmanın taraflar arasında geçerli
+// olması, meğerki taşıyan veya temsilcisi bu çekinceyi koymamak suretiyle
+// gönderilen dâhil üçüncü kişileri aldatma amacı gütsün - bu durumda,
+// konulmayan çekince yükletenin bildirdiği kayıtlara ilişkinse taşıyanın
+// 1145 inci madde uyarınca yükletenden tazminat isteyememesi -, m.1241/3;
+// ve aldatma kastının varlığı hâlinde taşıyanın, konişmentodaki kayıtlara
+// güvenerek hareket eden gönderilen dâhil üçüncü kişilere karşı, 1186 ncı
+// maddedeki sorumluluk sınırlarından yararlanmaksızın sorumlu olması,
+// m.1241/4 - kapsamıştır. BU BATCH İLE "d) NAVLUNU İSPAT" VE "e) YÜKLETEN
+// TARAFINDAN VERİLEN GARANTİLER" (m.1240-1241) VE BÖYLECE "2. İSPAT İŞLEVİ"
+// (m.1237-1241) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ
+// olur. Altıncı Ayırım bundan sonra "B) Diğer denizde taşıma senetleri"
+// (m.1242'den itibaren - konişmento dışındaki denizde taşıma senetlerine
+// ilişkin residüel hükümler) ve ardından "Yedinci Ayırım: Emredici Hükümler"
+// (m.1243'ten itibaren) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi
+// Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel
+// Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
+// yalnızca yukarıda sayılan m.931-1241 aralığını kapsar ve ileriki batch'ler
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1680,6 +1726,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "hukuki-iliskiyi-ve-tasiyani-ispat-ttk-1237":
     "Denizde Taşıma Senetleri: Konişmento",
   "esyanin-durumunu-ispat-ve-cekince-ttk-1239":
+    "Denizde Taşıma Senetleri: Konişmento",
+  "navlunu-ispat-ttk-1240": "Denizde Taşıma Senetleri: Konişmento",
+  "yukletenin-verdigi-garantiler-ttk-1241":
     "Denizde Taşıma Senetleri: Konişmento",
 };
 
