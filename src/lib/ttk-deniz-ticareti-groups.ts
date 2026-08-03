@@ -499,6 +499,76 @@
 // yalnızca yukarıda sayılan m.931-1137 aralığını kapsar ve ileriki
 // batch'ler, Üçüncü Bölüm "Navlun Sözleşmesi"nden itibaren yeni slug
 // eşlemeleriyle devam edecektir.
+//
+// Ondördüncü batch, Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"nin Üçüncü
+// Bölümü "Navlun Sözleşmesi"ni (m.1138'den itibaren) açar. Bu, gemi kira
+// sözleşmeleri ve zaman çarteri sözleşmesinden çok daha hacimli, çarter
+// partilerini ve taşıma senetlerini kapsayan, kitabın en büyük
+// Bölümlerinden biridir. Bu batch, yeni Bölümün Birinci Ayırımı "Genel
+// Hükümler"ini (m.1138-1141) baştan sona ve eksiksiz kapsar: navlun
+// sözleşmesinin türleri - yolculuk çarteri sözleşmesinde geminin
+// tamamının/bir kısmının/belli bir yerinin taşıtana tahsisi ile kırkambar
+// sözleşmesinde ayırt edilmiş eşyanın taşınması ayrımı ve posta idaresinin
+// deniz taşımalarının Bölüm dışında kalması, m.1138; yolculuk çarter
+// partisi - taraflardan her birinin kendi giderine düzenlenmesini isteme
+// hakkı, m.1139; kamaralar - geminin tamamının tahsisinde kamaraların
+// hariç tutulmuş sayılması ve taşıtan izni olmaksızın kamaralara eşya
+// yükletilememesi, m.1140; ve taşıyanın, gemiyi denize, yola ve yüke
+// elverişli bulundurma yükümlülüğü - her türlü navlun sözleşmesinde geçerli
+// bu temel yükümlülük, yükle ilgili olanlara karşı elverişsizlikten doğan
+// sorumluluk ve tedbirli bir taşıyandan beklenen özenin gösterilmesine
+// rağmen keşfedilemeyen eksiklik hâlinde kurtuluş imkânı, m.1141
+// kapsanmıştır. Bu batch ayrıca İkinci Ayırım "Yükleme ve Boşaltma"nın,
+// daha doğrusu "A) Yükleme" alt başlığının açılışını kapsar (m.1142-1151):
+// demirleme yeri - kaptanın sözleşmede kararlaştırılan yere demirlemesi ve
+// yalnızca liman/bölge kararlaştırılmışsa bekleme alanında yükleme yerinin
+// belirlenmesini beklemesi, m.1142; yükleme giderleri - aksi
+// kararlaştırılmadıkça eşyanın gemiye kadar taşıma giderinin taşıtana,
+// yükleme giderinin taşıyana ait olması, m.1143; yüklenecek eşya -
+// kararlaştırılandan başka eşya için taşıyanın durumu güçleşmedikçe kabul
+// yükümlülüğü ve eşyanın ferden belirlenmiş olması hâlinde bu hakkın
+// işlememesi, m.1144, doğru bildirimde bulunma yükümlülüğü - eşya hakkında
+// taşıtan ve yükletenin tam ve doğru beyan yükümlülüğü ile taşıyana karşı
+// doğrudan, diğer zarar görenlere karşı kusura bağlı iki kademeli
+// sorumluluk, m.1145, caiz olmayan eşya ve yükleme hakkında - harp kaçağı
+// veya yasaklı eşya yükleme ile kolluk/vergi/gümrük kurallarına aykırılık,
+// kaptan onayının sorumluluğu kaldırmaması ve kaptanın tehlike hâlinde
+// karaya çıkarma/denize atma yetkisi, m.1146, gizlice yüklenen eşya
+// hakkında - kaptan bilgisi olmaksızın gizli yükleme yapanın sorumluluğu
+// ile kaptanın karaya çıkarma, denize atma veya en yüksek navlunla gemide
+// tutma yetkisi, m.1147, tehlikeli eşya hakkında - kaptan bilgisi
+// olmaksızın yüklenen tehlikeli eşyada taşıtan/yükletenin kusursuz
+// sorumluluğu, kaptanın her zaman ve heryerde eşyayı zararsız hâle
+// getirme yetkisi ve kaptanın bilerek onay verdiği tehlikeli eşyanın
+// zarar vermesi hâlinde dahi taşıyan/kaptanın tazminat yükümlülüğünün
+// bulunmaması, m.1148, ve bilgi - taşıyan veya acentesinin bilgisinin
+// m.1146-1148 bakımından kaptanın bilgisi sayılması, m.1149; başka gemiye
+// yükleme ve aktarma - taşıtan izni olmaksızın başka gemiye yükleme
+// yasağı, buna aykırılığın sorumluluk doğurması ve tehlike hâlinde
+// yolculuk başladıktan sonraki aktarmaların istisna tutulması, m.1150; ve
+// güverteye konacak eşya - kural olarak güvertede taşıma ve küpeşteye
+// asma yasağı, yükletenle anlaşma/ticari teamül/mevzuat istisnaları,
+// güverte kaydının taşıma senedine düşülmesi zorunluluğu ve iyiniyetli
+// üçüncü kişilere karşı ileri sürülememesi, aykırı güverte taşımasında
+// m.1178-1179'a göre sorumluluk ve m.1186/1187'ye göre sınırlama, ve
+// ambarda taşıma anlaşmasına aykırı güverte taşımasının m.1187 anlamında
+// kasıtlı/pervasız fiil sayılması, m.1151 kapsanmıştır. BU BATCH İLE
+// BİRİNCİ AYIRIM "GENEL HÜKÜMLER" (m.1138-1141) İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur; İkinci Ayırım "Yükleme ve
+// Boşaltma"nın geri kalanı, özellikle "A) Yükleme"nin süreler (hazırlık
+// bildirimi, yükleme süresi, sürastarya), yolculuk başlamadan önce fesih,
+// yüklemenin hiç veya süresinde yapılmaması, birden çok yükleten/taşıtan,
+// kırkambar sözleşmesi ve belgeleri verme yükümlülüğü alt başlıklarını
+// kapsayan m.1152-1165 aralığı ile "B) Boşaltma" (m.1166-1177) ileriki
+// batch'lerde ele alınacak olup, bunların ardından çok önemli ve yoğun
+// biçimde içtihada konu olan "Üçüncü Ayırım: Taşıyanın Sorumluluğu ve
+// Hakları" (m.1178'den itibaren - yük zararlarından sorumluluk,
+// sorumluluk sınırları, hak düşürücü süreler dâhil) izleyecektir; kitabın
+// devamında henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz
+// Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1151 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -511,6 +581,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Kaptan",
   "Gemi Kira Sözleşmeleri",
   "Zaman Çarteri Sözleşmesi",
+  "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -577,6 +648,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Zaman Çarteri Sözleşmesi",
   "zaman-carteri-sozlesmesinde-ucret-ve-tahsis-olunanin-sorumlulugu-ttk-1136":
     "Zaman Çarteri Sözleşmesi",
+  "navlun-sozlesmesinin-turleri-ve-elverislilik-yukumlulugu-ttk-1138":
+    "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
+  "yuklemede-demirleme-yeri-giderler-ve-esya-bildirimi-ttk-1142":
+    "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
