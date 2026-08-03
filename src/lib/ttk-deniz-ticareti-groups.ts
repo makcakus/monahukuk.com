@@ -646,6 +646,59 @@
 // İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1160 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Onaltıncı ve bu dosya bakımından son batch, "A) Yükleme"nin geri kalan
+// tamamını (m.1161-1165) kapsayarak bu alt başlığı baştan sona kapatır. Bu
+// batch, "IX. Birden çok yükleten veya taşıtanın bulunması"nı (m.1161-1162:
+// birden çok yükleten - yolculuk çarteri sözleşmesine veya taşıtanın
+// sonradan verdiği geçerli talimata göre eşyanın aynı limanda birden çok
+// kişiden teslim alınacağı hâllerde hazırlık bildiriminin yalnızca taşıtana
+// yapılması, m.1152-1160 hükümlerinin birden çok yükleten bulunması dikkate
+// alınmaksızın uygulanması ve yükletenlerin kendi eşyaları için yükleme
+// yerinin değiştirilmesini isteyebilmesi -giderleri taşıtana ait olmak ve
+// yükleme/sürastarya süreleri manevra sırasında işlemeye devam etmek
+// kaydıyla-, m.1161, ve birden çok taşıtan - geminin belli kısımları veya
+// yerleri için birden çok taşıtanla yapılan bağımsız yolculuk çarteri
+// sözleşmelerinde m.1152-1157 hükümlerinin her sözleşme için ayrı ayrı
+// uygulanması, ancak m.1158'deki fesih hâllerinde gemiye alınmış eşyanın
+// boşaltılması yolculuğun gecikmesine veya aktarmaya sebep olabilecekse
+// diğer bütün taşıtanların onayı alınmadıkça boşaltmanın istenememesi,
+// m.1162) kapsar. Ardından "X. Kırkambar sözleşmesi"nin yükleme hükümlerini
+// (m.1163-1164: yükleme anı - taşıtanın taşıyanın veya yetkili temsilcisinin
+// çağrısı üzerine gecikmeden eşyayı yükleme zorunluluğu, gecikme hâlinde
+// taşıyanın teslimi beklememesi ve taşıtanın -başka eşyadan elde edilen
+// navlunun mahsubu kaydıyla- tam navlun ödeme yükümlülüğü, ve taşıyanın bu
+// istemi ancak yola çıkmadan önce yazılı bildirimde bulunmuşsa ileri
+// sürebilmesi, m.1163, ve taşıtanın sözleşmeyi feshetmesi - yüklemeden sonra
+// tam navlun ve 1201 inci madde uyarınca teminat altına alınmış diğer
+// alacakları ödeyerek veya 1202 nci madde uyarınca teminat vererek fesih
+// hakkı, gemiye alınmış eşyanın boşaltılması yolculuğun gecikmesine veya
+// aktarmaya sebep olabilecekse diğer bütün taşıtanların onayı şartı -m.1162
+// ile birebir örtüşen bir cross-consent mekanizması- ve taşıyanın eşyanın
+// çıkarılması için rota değiştirme veya limana uğrama zorunluluğunun
+// bulunmaması, m.1164) kapsamıştır. Son olarak "XI. Belgeleri verme
+// yükümlülüğü"nü (m.1165: her türlü navlun sözleşmesinde taşıtan ve
+// yükletenin, eşyanın teslim alınacağı süre içinde eşyanın taşınması için
+// gerekli belgeleri taşıyana verme zorunluluğu ve bu belgelerdeki
+// yolsuzluklardan, özellikle gerçeğe uymayan beyanlardan doğan zararlardan
+// taşıtan ve yükletenin taşıyana ve yükle ilgili diğer kişilere karşı 1145
+// inci madde gereğince sorumlu olması) kapsayarak BU BATCH İLE "A) YÜKLEME"
+// (m.1142-1165) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ
+// olur. İkinci Ayırım "Yükleme ve Boşaltma" bundan sonra "B) Boşaltma"
+// (m.1166-1177 - demirleme yeri, boşaltma giderleri, süreler, boşaltmanın
+// hiç veya süresinde yapılmaması, kısmi çarter sözleşmelerinde ve kırkambar
+// sözleşmesinde boşaltma dâhil, "A) Yükleme" ile büyük ölçüde paralel bir
+// yapı izleyecektir) ile devam edecek olup, bunun ardından kitabın en
+// hacimli ve en yoğun içtihada konu olan bölümlerinden biri olan "Üçüncü
+// Ayırım: Taşıyanın Sorumluluğu ve Hakları" (m.1178'den itibaren - yük
+// zararlarından sorumluluk, sorumluluk sınırları, hak düşürücü süreler,
+// fiilî taşıyanın sorumluluğu ve taşıyanın navlun hakları dâhil)
+// izleyecektir; kitabın devamında henüz kapsanmamış çok sayıda Ayırım,
+// Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1165 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -660,6 +713,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Zaman Çarteri Sözleşmesi",
   "Navlun Sözleşmesi: Genel Hükümler ve Yükleme",
   "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
+  "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -734,6 +788,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
   "yolculuk-baslamadan-fesih-ve-eksik-yukleme-ttk-1158":
     "Navlun Sözleşmesi: Yükleme Süreleri ve Sürastarya",
+  "birden-cok-yukleten-ve-tasitan-ttk-1161":
+    "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
+  "kirkambar-sozlesmesinde-yukleme-ve-belge-verme-yukumlulugu-ttk-1163":
+    "Navlun Sözleşmesi: Kırkambar ve Yüklemenin Tamamlanması",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
