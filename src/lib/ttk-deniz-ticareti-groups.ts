@@ -1056,6 +1056,78 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1198 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Yirmidördüncü ve bu dosya bakımından son batch, "B) Taşıyanın hakları"
+// başlığının geri kalanının tamamını kapsayarak hem bu alt başlığı hem de
+// içinde bulunduğu "Üçüncü Ayırım: Taşıyanın Sorumluluğu ve Hakları"nı
+// (m.1178-1207) baştan sona kapatır. Bu batch, önce "I. Navlun ödenmesini
+// istem hakkı"nın kalan iki maddesini tamamlar: "4. Zıyaa uğrayan eşyanın
+// durumu" - boşaltma süresinin sonuna kadar bir kaza sonucunda zıyaa
+// uğrayan eşya için navlun ödenmemesi ve peşin ödenmişse geri alınması,
+// navlun götürü kararlaştırılmışsa kısmi zıyada oransal indirim hakkı,
+// niteliği itibarıyla içinden bozulma/kendiliğinden eksilme/olağan akma ve
+// sızma yüzünden zıyaa uğrayan eşya ile yolda ölen hayvanlar için teslim
+// edilmiş olup olmadığına bakılmaksızın navlun ödenmesi (m.1182/1(f)'deki
+// kusursuzluk karinesiyle bağlantılı istisna) ve müşterek avarya dolayısıyla
+// feda edilen eşyaya düşen navlun için garame paylarında müşterek avarya
+// hükümlerinin uygulanması, m.1199; ve "5. Navlun borçlusu" - navlunun
+// borçlusunun taşıtan olması, m.1200. Ardından "II. Hapis hakkı"nı
+// (m.1201-1202) kapsar: "1. Genel olarak" - taşıyanın navlun sözleşmesinden
+// doğan bütün alacakları için TMK m.950-953 uyarınca eşya üzerinde hapis
+// hakkına sahip olması, hapis hakkının eşya taşıyanın zilyetliğinde
+// bulunduğu sürece devam etmesi ve teslimden sonra dahi otuz gün içinde
+// mahkemeye müracaat edilmek ve eşya henüz gönderilenin zilyetliğinde
+// bulunmak şartıyla kullanılabilmesi, hapis hakkının yalnızca üzerinde
+// kullanıldığı eşyanın taşındığı yolculuktan doğan alacakları teminat altına
+// alması ve ancak alacağı teminata alacak miktardaki eşya üzerinde
+// kullanılabilmesi -müşterek avarya ve kurtarma alacakları için eşyanın
+// tümü üzerinde kullanılabilmesi istisnası saklı kalmak üzere-, m.1201; ve
+// "2. Çekişmeli tutarın yatırılması ve teminat" - taşıyanın alacakları
+// hakkında uyuşmazlık çıkması hâlinde çekişmeli tutar mahkemece belirlenecek
+// yere yatırılır yatırılmaz eşyayı teslim etme zorunluluğu ve taşıyanın
+// eşyanın tesliminden sonra yeterli teminat göstererek yatırılmış tutarı
+// çekebilmesi, m.1202. Son olarak bu batch, "III. Üçüncü kişi gönderilenin
+// durumu"nu (m.1203-1207) baştan sona kapsar: "1. Ödeme yükümlülüğünün
+// doğması" - eşyanın taşıtandan başka bir kişiye teslim edilecek olması
+// hâlinde bu kişinin, navlun sözleşmesi/konişmento/diğer bir denizde taşıma
+// senedi uyarınca eşyanın teslimini istediğinde bu belgenin hükümlerine göre
+// ödemeye yetkili kılındığı bütün alacakları ödemekle yükümlü olması, m.1203;
+// "2. Gönderilene karşı hapis hakkının kullanılması" - gönderilenin, eşyanın
+// teslimini istediği andan itibaren sadece 1203 üncü maddedeki alacaklar
+// için hapis hakkının kullanılmasına katlanma zorunluluğu, 1398-1400 üncü
+// maddelere göre yürütülecek takiplerde bildirim ve tebliğlerin önce
+// gönderilene, gönderilen bulunamaz veya kaçınırsa taşıtana yapılması, ve
+// eşyanın tek bir navlun sözleşmesine dayanılarak taşınıp birden çok
+// konişmentoya/taşıma senedine dayanılarak çeşitli gönderilenlere teslim
+// edileceği hâllerde hapis hakkının her konişmentoya isabet eden alacaklar
+// için ayrı ayrı kullanılması, m.1204; ve "3. Rücu hakkı" - eşyayı
+// gönderilene teslim etmiş olan taşıyanın 1203 üncü maddeye göre
+// gönderilenden istenebilecek alacakları taşıtandan isteyememesi, ancak
+// taşıtanın sebepsiz zenginleştiği oranda rücu edebilmesi (a) Eşyanın
+// teslimi hâlinde, m.1205); taşıyanın hapis hakkı kullandığı eşyanın paraya
+// çevrilmesinden alacağını tamamen alamadığı oranda taşıtandan
+// isteyebilmesi (b) Hapis hakkının paraya çevrilmesi hâlinde, m.1206); ve
+// gönderilen teslim isteme hakkını kullanmazsa taşıtanın navlun sözleşmesi
+// gereğince navlunu ve diğer alacakları taşıyana ödemekle yükümlü kalması
+// ile bu hâlde taşıtanın boşaltmayla ilgili hükümler bakımından gönderilen
+// yerine geçmesi (c) Gönderilenin eşyayı teslim almaması hâlinde, m.1207) -
+// kapsanmıştır. BU BATCH İLE "B) TAŞIYANIN HAKLARI" (m.1193-1207) VE
+// BÖYLECE ÜÇÜNCÜ AYIRIM "TAŞIYANIN SORUMLULUĞU VE HAKLARI" (m.1178-1207)
+// İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Dördüncü
+// Kısım "Deniz Ticareti Sözleşmeleri"nin Üçüncü Bölümü "Navlun Sözleşmesi"
+// bundan sonra "Dördüncü Ayırım: Taşıtanın ve Yükletenin Sorumluluğu"
+// (m.1208'den itibaren - taşıtan ve yükletenin, kendilerinin veya
+// adamlarının kusurundan kaynaklanmadıkça taşıyanın/fiilî taşıyanın geminin
+// zıyaı veya hasarı dolayısıyla uğradığı zarardan sorumlu olmaması, m.1208 -
+// karşılaştırmalı olarak kısa bir Ayırım olup muhtemelen "Beşinci Ayırım:
+// Yolculuğun Başlamasına veya Devamına Engel Olan Sebepler Yüzünden
+// Sözleşmenin Sona Ermesi"nin açılışıyla aynı veya buna yakın bir ileriki
+// batch'te birleştirilecektir) ile devam edecek olup, kitabın devamında
+// henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi
+// Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel
+// Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
+// yalnızca yukarıda sayılan m.931-1207 aralığını kapsar ve ileriki batch'ler
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1178,6 +1250,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "navlun-miktarinin-belirlenmesi-ttk-1193":
     "Navlun Sözleşmesi: Taşıyanın Hakları",
   "navlun-disi-giderler-muacceliyet-ve-esyanin-navlun-yerine-birakilmasi-ttk-1196":
+    "Navlun Sözleşmesi: Taşıyanın Hakları",
+  "ziyaa-ugrayan-esyanin-navlun-durumu-ve-hapis-hakki-ttk-1199":
+    "Navlun Sözleşmesi: Taşıyanın Hakları",
+  "ucuncu-kisi-gonderilenin-navlun-yukumlulugu-ttk-1203":
     "Navlun Sözleşmesi: Taşıyanın Hakları",
 };
 
