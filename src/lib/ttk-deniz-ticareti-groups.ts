@@ -1232,6 +1232,53 @@
 // Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1217 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Yirmiyedinci ve bu dosya bakımından son batch, "Beşinci Ayırım: Yolculuğun
+// Başlamasına veya Devamına Engel Olan Sebepler Yüzünden Sözleşmenin Sona
+// Ermesi"nin "B) Sözleşmenin feshi" başlığının açılışını kapsar. "A)
+// Sözleşmenin hükümden düşmesi"nin aksine, burada sözleşme kendiliğinden
+// sona ermez; kanunun taraflara tanıdığı bir fesih hakkının bilfiil
+// kullanılması gerekir. Bu batch, "I. Taraflara fesih hakkı veren hâl"i
+// (m.1218) baştan sona kapsar: ambargo veya devlet hizmeti için el
+// konulması, varma yeri ülkesiyle ticaretin yasaklanması, yükleme/varma
+// limanlarının abluka altına alınması, eşyanın tamamının ihracının/
+// ithalinin/transit geçişinin yasaklanması gibi bir kamu tasarrufu yüzünden
+// sözleşmenin ifasının engellenmesinin her iki tarafa da tazminatsız fesih
+// hakkı vermesi, m.1218/1; yolculuk henüz başlamamışsa engelin kısa zamanda
+// kalkmayacağının anlaşılmış olması, başladıktan sonra ise bir ay boyunca
+// engelin kalkmasının beklenmesi şartı ve bu sürelerin kaptanın limanda mı
+// yoksa denizde mi bulunduğuna göre hesaplanması, m.1218/2; kısmi yolculuk
+// çarteri sözleşmeleri ile kırkambar sözleşmelerinde bekleme süresi
+// olmaksızın fesih hakkının kullanılabilmesi, m.1218/3; savaş çıkması
+// sebebiyle geminin veya eşyanın zapt/müsadere tehlikesiyle karşı karşıya
+// kalması hâlinde de bekleme süresi olmaksızın fesih hakkının kullanılması,
+// m.1218/4; ve taşıtanın, engelin yolculuk başlamadan önce ortaya çıktığı
+// hâllerde 1144 üncü maddeden doğan ikame eşya yükleme hakkının saklı
+// tutulması, m.1218/5. Bu batch ayrıca "II. Tarafların fesih hakkına sahip
+// olmadığı hâller"i (m.1219-1220) kapsar: eşyanın sadece bir kısmına
+// ilişkin engellerin taraflara fesih hakkı vermemesi, taşıtanın savaş/
+// ihracat/ithalat yasağı gibi sebeplerle serbest sayılmayan kısmı her
+// hâlde gemiden uzaklaştırma zorunluluğu, yolculuk başlamadan önceki
+// hâllerde taşıyanın durumunu ağırlaştırmamak şartıyla ikame eşya yükleme
+// veya yarı navlun ödeyerek fesih seçimlik hakları, kısıtlanan kısmın hiç
+// taşınmamış veya yolculuk devam ederken gemiden uzaklaştırılmış olsa bile
+// taşıyana tam navlun ödenmesi ve kısmi yolculuk çarteri ile kırkambar
+// sözleşmelerinde bu hâlde fesih hakkının hiç bulunmaması, m.1219; ve
+// kaptanın denizde can/eşya kurtarma veya diğer haklı bir sebeple rotadan
+// sapmasının tarafların hak ve yükümlülüklerini etkilememesi ve taşıyanın
+// bu yüzden sorumlu olmaması ile Türk Medenî Kanunu m.2 dürüstlük kuralının
+// saklı tutulması, m.1220. Beşinci Ayırım bundan sonra "B) Sözleşmenin
+// feshi"nin geri kalan hükümleriyle (m.1221'den itibaren - geminin
+// yolculuk sırasında tamirinin gerekmesi, diğer sebeplerin etkisi, eşya
+// üzerinde tasarruf yetkisi olan kişinin fesih hakkı, fesih hakkının
+// kullanılması/bildirimi, feshin hüküm ve sonuçları - sözleşme yolculuk
+// başlamadan/başladıktan sonra feshedilmişse, birden çok yolculuğun
+// özellikleri) devam edecek olup, kitabın devamında henüz kapsanmamış çok
+// sayıda Ayırım, Bölüm ve Kısım (Deniz Kazaları, Gemi Alacakları,
+// Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler
+// dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1220 aralığını kapsar ve ileriki batch'ler yeni
+// slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1367,6 +1414,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yolculuk-baslamadan-once-esyanin-zayi-olmasi-ttk-1214":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "yolculuk-basladiktan-sonra-esyanin-zayi-olmasi-ttk-1216":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "taraflara-fesih-hakki-veren-haller-ttk-1218":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "taraflarin-fesih-hakkina-sahip-olmadigi-haller-ttk-1219":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
 };
 
