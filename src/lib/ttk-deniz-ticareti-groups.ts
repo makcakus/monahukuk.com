@@ -418,6 +418,52 @@
 // aralığını kapsar ve ileriki batch'ler, Dördüncü Kısım "Deniz Ticareti
 // Sözleşmeleri"nden itibaren yeni bir dosyada yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Onikinci batch, Beşinci Kitap "Deniz Ticareti"nin Dördüncü Kısmı
+// "Deniz Ticareti Sözleşmeleri"ni (m.1119'dan itibaren) açar. Bu, çarter
+// sözleşmelerini ve navlun ile eşya/yolcu taşıma sözleşmelerini kapsayan,
+// kitabın en hacimli Kısımlarından biridir. Bu batch, bu yeni Kısmın
+// Birinci Bölümü "Gemi Kira Sözleşmeleri"ni (m.1119-1130) baştan sona ve
+// eksiksiz kapsar: A) Tanımı ve türleri - kiraya verenin belirli bir süre
+// için geminin kullanılmasını kira bedeli karşılığında kiracıya bırakmayı
+// üstlendiği sözleşme ile gemi adamlarının da birlikte verilmesinin
+// sözleşmenin niteliğini değiştirmemesi, m.1119; B) Gemi kira senedi -
+// taraflardan her birinin kendi giderine gemi kira çarter partisi
+// düzenlenmesini isteme hakkı, m.1120; C) Sicile şerh - sözleşmenin Türk
+// Gemi Siciline veya özel sicile şerhi ve bu şerhin sonraki maliklere
+// kiracının gemiyi kullanmasına izin verme zorunluluğu yüklemesi, m.1121;
+// D) Hüküm ve sonuçları - geminin kullanılmasından doğan üçüncü kişi
+// istemlerinin kiracıya ait olması, m.1122 (I); kiraya verenin gemiyi
+// denize elverişli ve amaca uygun teslim borcu, m.1123 (II); geminin
+// ayıplarından doğan giderlerin kiraya verene, olağan bakım ve işletme
+// giderlerinin kiracıya ait olması ile yirmidört saati aşan hareketsizlik
+// hâlinde kira bedeli indirimi, m.1124 (III); kiracının gemiyi tahsis
+// amacına uygun kullanma hakkı ve donatım malzemesini misli iade şartıyla
+// kullanma hakkı, m.1125 (IV); kiracının sigorta yaptırma yükümlülüğü ve
+// poliçede kiraya verenin ismen bildirilmesi ile "kimin olacaksa onun
+// lehine" yaptırılması zorunluluğu, m.1126 (V); gemi adamlarının
+// çalıştırılmasından doğan borçların kural olarak kiracıya ait olması,
+// mürettebatlı kiralamada kiraya verenin müteselsil sorumluluğu, m.1127
+// (VI); kira bedelinin aylık ve peşin ödenmesi ile kiraya verenin hapis
+// hakkı, alacak rehni ve m.1201'deki hapis hakkından oluşan üçlü teminat
+// paketi, m.1128 (VII); geminin teslim alındığı hâliyle iadesi, normal
+// kullanımdan doğan aşınmadan sorumsuzluk ve gecikmeli iadede kademeli
+// (ilk onbeş gün olağan, sonrası iki kat) tazminat, m.1129 (VIII); ve E)
+// Uygulanacak hükümler - Türk Borçlar Kanununun adi kira sözleşmesi
+// hükümlerinin nitelikleri elverdiği ölçüde uygulanması, m.1130 -
+// kapsanmıştır. BU BATCH İLE BİRİNCİ BÖLÜM "GEMİ KİRA SÖZLEŞMELERİ"
+// (m.1119-1130) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ
+// TAMAMLANMIŞ olur. Dördüncü Kısım "Deniz Ticareti Sözleşmeleri" bundan
+// sonra İkinci Bölüm "Zaman Çarteri Sözleşmesi" (m.1131'den itibaren) ile
+// devam edecek, ardından geniş kapsamlı navlun sözleşmeleri ve eşya/
+// yolcu taşıma sözleşmeleri Bölümleri izleyecek olup, kitabın devamında
+// henüz kapsanmamış pek çok Kısım ve Bölüm (Deniz Kazaları - Çatma,
+// Kurtarma, Müşterek Avarya -, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1130 aralığını kapsar ve ileriki batch'ler, İkinci Bölüm "Zaman
+// Çarteri Sözleşmesi"nden itibaren yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -428,6 +474,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: İntifa Hakkı",
   "Donatan ve Donatma İştiraki",
   "Kaptan",
+  "Gemi Kira Sözleşmeleri",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -485,6 +532,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Kaptan",
   "kaptanin-esya-uzerinde-tasarrufunun-donatani-baglamasi-ttk-1117":
     "Kaptan",
+  "gemi-kira-sozlesmesinin-tanimi-ve-sekli-ttk-1119": "Gemi Kira Sözleşmeleri",
+  "gemi-kira-sozlesmesinin-hukum-ve-sonuclari-i-ttk-1122":
+    "Gemi Kira Sözleşmeleri",
+  "gemi-kira-sozlesmesinin-hukum-ve-sonuclari-ii-ttk-1127":
+    "Gemi Kira Sözleşmeleri",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
