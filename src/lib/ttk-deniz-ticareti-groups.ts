@@ -1625,6 +1625,60 @@
 // ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1245 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Otuzbeşinci batch, "Dördüncü Bölüm: Zamanaşımı"nı (m.1246) baştan sona
+// kapsar: gemi kira sözleşmeleri, zaman çarteri sözleşmeleri ve navlun
+// sözleşmelerinden veya konişmentodan veya onun düzenlenmesinden doğan
+// bütün alacakların, 1188 inci madde hükmü saklı kalmak kaydıyla, bir
+// yılda zamanaşımına uğraması ve bu iki kurumun -zamanaşımının def'i
+// niteliğinde, kesilme/durma kurallarına tabi ve re'sen gözetilemeyen
+// bir kurum olmasına karşın hak düşürücü sürenin bu kurallara tabi
+// olmayan ve mahkemece re'sen gözetilen bir kurum olması bakımından-
+// usul farkları, m.1246/1; ve sürenin alacağın muaccel olmasıyla
+// işlemeye başlaması, m.1246/2 kapsanmıştır. Bu batch ayrıca, tamamen
+// yeni bir konuya açılan "Beşinci Bölüm: Deniz Yoluyla Yolcu Taşıma
+// Sözleşmesi"nin açılışını kapsar: "A) Tanımı" başlıklı m.1247 -
+// yolcunun veya yolcu ve bagajının deniz yolu ile taşınması için,
+// taşıyan tarafından veya onun adına ve hesabına yapılan sözleşme
+// olarak tanım, m.1247/1; Devlet ve diğer kamu tüzel kişileri
+// tarafından yapılan ticari yolcu taşıma sözleşmelerine de bu Bölüm
+// hükümlerinin uygulanması, m.1247/2; ve hava yastıklı araçlar ile
+// yapılan yolcu taşımasının bu Bölüm hükümlerine tabi olmaması,
+// m.1247/3 -; "B) Taşıyan ve fiilî taşıyan" başlıklı m.1248 - taşıma
+// sözleşmesini yapan veya onun adına ve hesabına yapılan kişinin,
+// taşıma bizzat kendisi veya bir fiilî taşıyan tarafından
+// gerçekleştirilmiş olsun, taşıyan sayılması, m.1248/1, ve fiilî
+// taşıyanın, taşıyandan farklı olarak, bir geminin maliki, kiracısı
+// veya işleteni sıfatıyla taşımanın tamamını veya bir kısmını fiilen
+// gerçekleştiren kişi olarak tanımı, m.1248/2 - eşya taşımasındaki
+// m.1191-1192 çerçevesiyle paralel bir yapı kurmuştur -; "C) Yolcu"
+// başlıklı m.1249 - deniz yoluyla yolcu taşıma sözleşmesine dayanarak
+// veya bu Bölüm hükümlerine tabi olmayan bir navlun sözleşmesinin
+// konusu olan aracı veya canlı hayvanları gözetmek üzere taşıyanın
+// onayı ile gemide taşınan kişilerin de yolcu sayılması, m.1249/1, ve
+// sözleşmede adı yazılı yolcunun taşınma hakkını bir başkasına
+// devredememesi, m.1249/2 -; ve "D) Bagaj" başlıklı m.1250 - canlı
+// hayvanlar ile bir navlun sözleşmesine dayanılarak taşınan eşya ve
+// araçların bagaj kapsamı dışında tutulması ve deniz yoluyla yolcu
+// taşıma sözleşmesi gereğince taşınan eşya ve araçların bagaj
+// kapsamında olması, m.1250/1; yolcunun kamarasında veya kendi
+// zilyetliğinde/hâkimiyetinde/gözetiminde bulundurduğu eşyanın ve
+// -1258 ve 1263 üncü maddelerin uygulaması hariç olmak üzere- kendi
+// aracında bulundurduğu bagajın kabin bagajı sayılması, m.1250/2; ve
+// aksi kararlaştırılmadıkça yolcunun gemiye getirdiği bagaj için
+// taşıma ücretinden başka bir ücret istenememesi, m.1250/3 -
+// kapsanmıştır. Bu batch ile "Dördüncü Bölüm: Zamanaşımı" (m.1246)
+// baştan sona tamamlanmış ve "Beşinci Bölüm: Deniz Yoluyla Yolcu
+// Taşıma Sözleşmesi"nin tanımı, taşıyan/fiilî taşıyan, yolcu ve bagaj
+// kavramlarını içeren açılışı (m.1247-1250) kapsanmıştır. Beşinci
+// Bölüm bundan sonra "E) Yolcunun yükümlülükleri" (m.1251'den
+// itibaren) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması
+// ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1250
+// aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1645,6 +1699,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Taşıyanın Hakları",
   "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "Denizde Taşıma Senetleri: Konişmento",
+  "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -1792,6 +1847,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Denizde Taşıma Senetleri: Konişmento",
   "emredici-hukumlerin-istisnalari-ve-yolculuk-carteri-ttk-1244":
     "Denizde Taşıma Senetleri: Konişmento",
+  "zamanasimi-ve-yolcu-tasima-sozlesmesinin-tanimi-ttk-1246":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcu-tasima-sozlesmesinde-taraflar-ve-bagaj-ttk-1248":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
