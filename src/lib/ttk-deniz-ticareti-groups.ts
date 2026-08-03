@@ -204,6 +204,57 @@
 // yukarıda sayılan m.931-1060 aralığını kapsar ve ileriki batch'ler,
 // İkinci Kısım'dan itibaren yeni bir dosyada yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Sekizinci batch, Beşinci Kitap "Deniz Ticareti"nin İkinci Kısmı
+// "Donatan ve Donatma İştiraki"ni (m.1061-1087) açar. Bu batch, "A)
+// Donatan" alt başlığının tamamını (m.1061-1063: donatanın tanımı -
+// gemisini menfaat sağlamak amacıyla kullanan gemi maliki ile kendisine
+// ait olmayan bir gemiyi kendi adına bizzat veya kaptan aracılığıyla
+// kullanan kişinin üçüncü kişilerle ilişkilerinde donatan sayılması,
+// m.1061; gemi adamlarının, zorunlu/isteğe bağlı kılavuzun kusurlarından
+// doğan sorumluluk - yolcu ve yük ilgilileri bakımından taşıyanın
+// sorumluluğu hükümlerine atıf ve milletlerarası sorumluluk sınırlandırma
+// sözleşmelerinden doğan hakkın saklı tutulması, m.1062; ve donatan
+// sıfatı dolayısıyla açılacak davalarda geminin bağlama limanındaki
+// yetkili mahkeme, m.1063) ve "B) Donatma İştiraki" alt başlığının
+// açılışını (m.1064-1075: iştirakin tanımı - paylı mülkiyet hâlindeki
+// ortak donatanların gemiyi hepsi adına ve hesabına işletmesi ile tek
+// başına gemi maliki/işletme hakkı sahibi ticaret şirketleri ve tüzel
+// kişiler bakımından istisna, m.1064; iştirakin onbeş gün içinde ticaret
+// ve gemi sicillerine tescili ve tescil edilecek hususlar, m.1065;
+// paydaşlar arası ilişkilerde sözleşme önceliği ve 1067-1087 nci
+// maddelerin yedek hukuk niteliği, m.1066; iştirak kararlarının pay
+// değerine göre oy çoğunluğuyla alınması ile sözleşme değişikliği/
+// sözleşmeye aykırı veya amaca yabancı kararlarda oybirliği şartı,
+// m.1067 (1) Kararlar); gemi müdürünün oy çoğunluğuyla, paydaş olmayan
+// biri için oybirliğiyle atanması, her zaman çoğunlukla azli ve
+// atama/azlin sicillere tescili, m.1068; yönetim yetkisinin 1070 inci
+// maddeye tabi olması ile olağanüstü tamirler ve kaptan atama/azli için
+// önceden iştirak kararı gereği, m.1069 (2) Gemi müdürü - a) Atanması ve
+// görevden alınması, b) Yönetim yetkisi); temsil yetkisinin kapsamı -
+// olağan işler, donatım/bakım, navlun sözleşmeleri, sigorta ettirme,
+// kaptanın yalnızca gemi müdürüne bağlı olması, dava/takip temsili ve
+// kambiyo taahhüdü/ödünç para/gemi satışı-rehni için özel yetki şartı,
+// m.1070; işlemlerin hak ve borçlarının iştirake ait olması, m.1071; ve
+// temsil yetkisi sınırlamalarının yalnızca bunu bilen üçüncü kişilere
+// karşı ileri sürülebilmesi, m.1072 (c) Temsil yetkisi - aa) Kapsamı, bb)
+// Hükümleri, cc) Sınırlandırılması); ve özen yükümlülüğü - tedbirli bir
+// donatanın özeni, m.1073, defter tutma ve belge saklama yükümlülüğü,
+// m.1074, ve bilgi/hesap verme yükümlülüğü - paydaşların istem üzerine
+// bilgi alma hakkı ile çoğunluğun hesabı onaylamasının itiraz eden
+// paydaşın haklarını düşürmemesi, m.1075 (d) Yükümlülükleri - aa) Özen
+// yükümlülüğü, bb) Defter tutma ve belgeleri saklama yükümlülüğü, cc)
+// Bilgi ve hesap verme yükümlülüğü)) kapsamıştır. Donatma İştiraki'nin
+// geri kalanı (m.1076-1087: kazanca ve zarara katılma, giderlere
+// katılma, paydaş donatanların şahsında değişiklik, paydaş donatan olan
+// kaptan, paydaş donatanların sorumluluğu, sona ermesi, tasfiyesi ve
+// yetkili mahkeme) ileriki bir batch'te ele alınacak olup, bunun
+// ardından Beşinci Kitap sırasıyla Üçüncü Kısım "Kaptan" (m.1088-1118)
+// ve Dördüncü Kısım "Deniz Ticareti Sözleşmeleri" (m.1119'dan itibaren)
+// ile devam edecek; kitabın devamında henüz kapsanmamış çok sayıda Kısım
+// (Deniz Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -212,6 +263,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Mülkiyet ve Diğer Ayni Haklar",
   "Gemi: Gemi Rehni ve İpoteği",
   "Gemi: İntifa Hakkı",
+  "Donatan ve Donatma İştiraki",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -249,6 +301,11 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yapi-halindeki-gemiler-uzerinde-ipotek-ttk-1054":
     "Gemi: Gemi Rehni ve İpoteği",
   "gemi-uzerinde-intifa-hakki-ttk-1059": "Gemi: İntifa Hakkı",
+  "donatan-kavrami-ve-sorumlulugu-ttk-1061": "Donatan ve Donatma İştiraki",
+  "donatma-istirakinin-tanimi-tescili-ve-paydaslar-arasi-iliskiler-ttk-1064":
+    "Donatan ve Donatma İştiraki",
+  "gemi-muduru-atanmasi-yonetim-ve-temsil-yetkisi-ttk-1068":
+    "Donatan ve Donatma İştiraki",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
