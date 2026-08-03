@@ -255,6 +255,59 @@
 // (Deniz Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
 // Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
 // şekilde bulunmaktadır.
+//
+// Dokuzuncu ve bu dosya bakımından son batch, "B) Donatma İştiraki"nin
+// geri kalanını (m.1076-1087) kapsayarak İkinci Kısım "Donatan ve
+// Donatma İştiraki"ni tamamen kapatır: kazanca ve zarara katılma -
+// iştirakin kazanç/zararının gemi payına göre dağıtılması ve takvim
+// yılı sonunda hesap/dağıtım yapılması, m.1076 (V); giderlere katılma -
+// paydaşların iştirakin (özellikle donatım/tamir) giderlerine payları
+// oranında katılma zorunluluğu ile ödemeyen paydaşın hesabına diğer
+// paydaşlarca verilen avansların doğurduğu temerrüt faizi ve
+// sigortalanabilir menfaatin sigorta ettirilmesi hâlinde sigorta
+// giderlerinin borçlu paydaşa ait olması, m.1077 (VI); paydaş
+// donatanların şahsında değişiklik - şahıs değişikliğinin iştirakin
+// devamına engel olmaması ve hiçbir paydaşın iştirakten çıkarılamaması,
+// m.1078 (VII); ve paydaş donatan olan kaptan - onayı olmaksızın işine
+// son verilen kaptan-paydaşın payının bilirkişi değeriyle diğer
+// paydaşlarca satın alınmasını isteme hakkı ile bu hakkın haklı sebep
+// olmaksızın gecikmede hak düşürücü niteliği, m.1079 (VIII) kapsanmıştır.
+// Ardından paydaş donatanların sorumluluğu ele alınmıştır: iştirakin
+// borçlarından üçüncü kişilere karşı iştirak payı oranında şahsi
+// sorumluluk (deniz alacaklarından sorumluluğun sınırlandırılması
+// hükümleri saklı), m.1080 (1); ve iştirak payının devri hâlinde
+// devredenin bildirime kadar süren sorumluluğu, devralanın iktisap
+// anından itibaren bağlılığı ve önceki kararlara/taahhütlere bağlılığı,
+// tekeffül hakları saklı kalmak kaydıyla diğer paydaşların devralana
+// karşı takas hakkı ile cebrî icra yoluyla iktisapta da aynı hükümlerin
+// uygulanması, m.1081 (2) kapsanmıştır. Son olarak sona erme ve tasfiye
+// düzenlenmiştir: sona erme sebepleri - çoğunluk kararıyla fesih ve
+// geminin devri kararının fesih hükmünde sayılması, m.1082 (a); çıkmak
+// isteyen paydaşın haklı sebeple izin veya mahkemeden fesih istemi,
+// dürüstlük kuralına göre daraltılmış haklı sebep standardı ve
+// mahkemece diğer paydaşlara tanınan bilirkişi değeriyle pay devralma
+// süresi, m.1083 (b); iştirakin iflasının sona erdirici etkisi, m.1084
+// (c) (X); paydaş donatanın ölüm veya iflasının sona ermeyi
+// gerektirmemesi, m.1085 (2); tasfiye - geminin açık artırmayla satışı
+// esası, navlun sözleşmesiyle bağlılık sırasında satış yasağı ve
+// istisnası, oybirlikle satış şeklinin değiştirilebilmesi ile
+// uzlaşılamaması hâlinde mahkemece tasfiye memuru atanması ve kollektif
+// şirket tasfiye memurlarına ilişkin hükümlerin kıyasen uygulanması,
+// m.1086 (XI); ve yetkili mahkeme - paydaş donatanlar aleyhine bu
+// sıfatları dolayısıyla açılacak davalarda bağlama limanı mahkemesinin
+// ek yetkili mahkeme olması, m.1087 (XII) kapsanmıştır. Bu batch ile
+// İkinci Kısım "Donatan ve Donatma İştiraki" (m.1061-1087) İLK
+// MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Beşinci
+// Kitap "Deniz Ticareti" bundan sonra sırasıyla Üçüncü Kısım "Kaptan"
+// (m.1088-1118) ve Dördüncü Kısım "Deniz Ticareti Sözleşmeleri"
+// (m.1119'dan itibaren - gemi kira sözleşmeleri, zaman çarteri, navlun
+// sözleşmeleri) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1087
+// aralığını kapsar ve ileriki batch'ler, Üçüncü Kısım "Kaptan"dan
+// itibaren yeni bir dosyada yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -305,6 +358,12 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "donatma-istirakinin-tanimi-tescili-ve-paydaslar-arasi-iliskiler-ttk-1064":
     "Donatan ve Donatma İştiraki",
   "gemi-muduru-atanmasi-yonetim-ve-temsil-yetkisi-ttk-1068":
+    "Donatan ve Donatma İştiraki",
+  "donatma-istirakinde-kazanc-zarar-ve-giderlere-katilma-ttk-1076":
+    "Donatan ve Donatma İştiraki",
+  "donatma-istirakinde-paydas-donatanlarin-sorumlulugu-ttk-1080":
+    "Donatan ve Donatma İştiraki",
+  "donatma-istirakinin-sona-ermesi-ve-tasfiyesi-ttk-1082":
     "Donatan ve Donatma İştiraki",
 };
 
