@@ -1128,6 +1128,56 @@
 // Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
 // yalnızca yukarıda sayılan m.931-1207 aralığını kapsar ve ileriki batch'ler
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Yirmibeşinci batch, "Dördüncü Ayırım: Taşıtanın ve Yükletenin
+// Sorumluluğu"nu (m.1208) baştan sona ve eksiksiz kapsayarak bu kısa
+// Ayırımı kapatır: "A) Kusur sorumluluğu" - taşıtan ve yükletenin,
+// kendilerinin veya adamlarının kusurundan kaynaklanmış olmadıkça,
+// taşıyanın veya fiilî taşıyanın geminin zıyaı veya hasarı dolayısıyla ya
+// da diğer bir sebeple uğradığı zarardan sorumlu olmaması ve özel
+// hükümlerin saklı tutulması, m.1208. Bu batch ayrıca "Beşinci Ayırım:
+// Yolculuğun Başlamasına veya Devamına Engel Olan Sebepler Yüzünden
+// Sözleşmenin Sona Ermesi"nin açılışını kapsar: "A) Sözleşmenin hükümden
+// düşmesi → I. Geminin zayi olması sebebiyle" alt başlığının tamamını
+// (m.1209-1213): yolculuk başlamadan önce geminin umulmayan bir hâl
+// yüzünden zayi olması hâlinde iki taraftan birinin ötekine tazminat
+// vermekle yükümlü olmaksızın navlun sözleşmesinin hükümden düşmesi ve
+// yalnızca zıya anına kadar doğmuş borçların ifasının gerekmesi, m.1209
+// (1. Yolculuk başlamadan önce); yolculuk başladıktan sonra geminin zayi
+// olması hâlinde taşıyana o ana kadar doğmuş alacakları dışında mesafe
+// navlunu ödenmesi gerekmesi, mesafe navlununun kurtarılan eşyanın
+// miktarına, alınan mesafeye, yolculuğun giderlerine/süresine/rizikolarına
+// göre hakkaniyete uygun hesaplanması ve kurtarılan eşyanın emniyet altına
+// alındığı yer ve tarihteki değerini aşamaması, m.1210 (2. Yolculuk
+// başladıktan sonra - a) Mesafe navlunu); sözleşmenin hükümden düşmesinin
+// kaptanın 1112 nci madde gereğince yükle ilgili olanların menfaatini
+// koruma yükümlülüğünü ortadan kaldırmaması, acil hâllerde danışmaya gerek
+// olmaksızın eşyayı başka gemiyle taşıtma/depo ettirme/satma yetkisi ve bu
+// amaçla rehnetme/kısmen satma yetkisi, taşıyanın mesafe navlunu/alacakları
+// ile müşterek avarya garame payları/kurtarma alacakları ödenmedikçe veya
+// teminat gösterilmedikçe kaptanın eşyayı elden çıkarmaya zorunlu olmaması,
+// ve donatanın da kaptanın bu yükümlülükleri ifasından doğan zararlardan
+// taşıyanla birlikte sorumlu olması, m.1211 (b) Kaptanın yükümlülükleri);
+// sözleşmede ismen kararlaştırılmış gemi dışında başka bir gemiye
+// yükleme/aktarmaya önceden yetkili olan taşıyanın, bu geminin zıyaı
+// hâlinde taşımayı başka uygun bir gemiyle yapabilmesi/tamamlatabilmesi ve
+// seçimini gecikmeksizin taşıtana bildirme yükümlülüğü, m.1212 (3. Başka
+// gemiye yükleme ve aktarma); ve denize elverişsiz hâle gelmiş geminin
+// mahkemenin tespit kararıyla zayi olmuş sayılması, m.1213 (4. Geminin
+// denize elverişsiz hâle gelmesi) - kapsanmıştır. BU BATCH İLE "DÖRDÜNCÜ
+// AYIRIM: TAŞITANIN VE YÜKLETENİN SORUMLULUĞU" (m.1208) İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur ve "Beşinci Ayırım"ın "A)
+// Sözleşmenin hükümden düşmesi → I. Geminin zayi olması sebebiyle" alt
+// başlığı (m.1209-1213) de baştan sona kapanmış olur. Beşinci Ayırım bundan
+// sonra "II. Eşyanın zayi olması sebebiyle" (m.1214'ten itibaren - geminin
+// değil eşyanın zayi olması hâlinde sözleşmenin âkıbeti, sözleşmede ferden
+// belirlenmiş/tür-cinsiyle belirlenmiş eşya ayrımı, yolculuk
+// başlamadan/başladıktan sonra ayrımı) ile devam edecek olup, kitabın
+// devamında henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım (Deniz
+// Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1213 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1146,6 +1196,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Navlun Sözleşmesi: Boşaltma",
   "Navlun Sözleşmesi: Taşıyanın Sorumluluğu",
   "Navlun Sözleşmesi: Taşıyanın Hakları",
+  "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -1255,6 +1306,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Navlun Sözleşmesi: Taşıyanın Hakları",
   "ucuncu-kisi-gonderilenin-navlun-yukumlulugu-ttk-1203":
     "Navlun Sözleşmesi: Taşıyanın Hakları",
+  "tasitan-ve-yukletenin-kusur-sorumlulugu-ttk-1208":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "geminin-yolculuk-basladiktan-sonra-zayi-olmasi-ttk-1210":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
