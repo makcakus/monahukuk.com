@@ -1178,6 +1178,60 @@
 // İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1213 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Yirmialtıncı ve bu dosya bakımından son batch, "Beşinci Ayırım: Yolculuğun
+// Başlamasına veya Devamına Engel Olan Sebepler Yüzünden Sözleşmenin Sona
+// Ermesi"nin "A) Sözleşmenin hükümden düşmesi → II. Eşyanın zayi olması
+// sebebiyle" alt başlığını (m.1214-1217) baştan sona ve eksiksiz kapsar: "1.
+// Yolculuk başlamadan önce" - a) Eşya sözleşmede ferden belirlenmişse:
+// ferden belirlenen eşyanın tamamının umulmayan bir hâl yüzünden zayi
+// olması hâlinde navlun sözleşmesinin taraflardan biri ötekine tazminat
+// vermekle yükümlü olmaksızın hükümden düşmesi, ancak o ana kadar doğmuş
+// alacakların ifasının gerekmesi; eşyanın bir kısmının zayi olması hâlinde
+// taşıtanın kararlaştırılan navlunun yarısını ödeyerek sözleşmeyi feshetme
+// veya taşıyanın durumunu güçleştirmemek şartıyla başka eşya yükleme
+// seçimlik haklarına sahip olması ve bu hakları gemi limandan ayrılana
+// kadar kullanmadığı takdirde tam navlun ödemekle yükümlü kalması; ikame
+// eşya yüklemeyi tercih eden taşıtanın bu yüklemeyi giderlerine katlanarak
+// en kısa zamanda bitirme ve sebep olduğu zararları tazmin etme
+// zorunluluğu, m.1214; ve b) Eşya, tür veya cinsi ile belirlenmişse:
+// ferden belirlenmemiş eşyanın yüklenmek üzere tesliminden önce tamamı
+// zayi olsa bile sözleşmenin sona ermemesi; taşıtanın 1144 üncü maddeden
+// doğan, kararlaştırılandan başka eşya yükleme hakkının saklı tutulması;
+// tür ve cinsi ile gösterilmiş eşyanın yüklenmek üzere tesliminin onu
+// ferden belirlenmiş hâle getirmesi; ve tür/cinsiyle gösterilmiş eşyanın
+// henüz bekleme süresi dolmadan gemiye yüklendikten veya kaptan tarafından
+// teslim alındıktan sonra tamamen zayi olması hâlinde, taşıtanın ikame
+// eşya teslimine hazır olduğunu gecikmeksizin bildirmesi ve aynı süre
+// içinde teslime başlaması şartıyla sözleşmenin hükümden düşmemesi -
+// taşıtanın bu yüklemeyi en kısa zamanda bitirme, fazla giderlerini
+// üstlenme ve bekleme süresinin uzamasından doğan zararı tazmin etme
+// yükümlülüğü dâhil, m.1215 - kapsanmıştır. Bu batch ayrıca "2. Yolculuk
+// başladıktan sonra"yı kapsar: a) Eşyanın tamamının zayi olması - taşınan
+// eşyanın umulmayan bir hâl yüzünden tamamının zayi olması hâlinde iki
+// taraftan birinin ötekine tazminat vermeye zorunlu olmaksızın navlun
+// sözleşmesinin hükümden düşmesi, taşıyana yalnızca sözleşmenin sona
+// erdiği ana kadar doğmuş diğer alacaklarının ödenmesi ve 1199 uncu
+// maddenin ikinci ve üçüncü fıkralarının saklı tutulması, m.1216; ve b)
+// Eşyanın bir kısmının zayi olması - yolculuk başladıktan sonra eşyanın
+// umulmayan bir hâl yüzünden bir kısmının zayi olmasının sözleşmeyi
+// hükümden düşürmemesi ve zayi olan kısım hiç taşınmamış veya yolculuk
+// devam ederken gemiden uzaklaştırılmış olsa bile taşıyana tam navlun
+// ödenmesi, 1199 uncu maddenin ikinci ve üçüncü fıkrası hükümleri saklı
+// kalmak kaydıyla, m.1217 - kapsanmıştır. BU BATCH İLE "II. EŞYANIN ZAYİ
+// OLMASI SEBEBİYLE" (m.1214-1217) İLK MADDESİNDEN SON MADDESİNE KADAR
+// EKSİKSİZ TAMAMLANMIŞ olur ve böylece "I. Geminin zayi olması sebebiyle"
+// (m.1209-1213) ile "II. Eşyanın zayi olması sebebiyle" (m.1214-1217)
+// birlikte "A) Sözleşmenin hükümden düşmesi" (m.1209-1217) başlığını da
+// baştan sona tamamlamış olur. Beşinci Ayırım bundan sonra "B) Sözleşmenin
+// feshi" (m.1218'den itibaren - taraflara fesih hakkı veren hâller:
+// ambargo/devlet el koyması, ticaret yasağı, abluka, ihracat-ithalat-
+// transit yasağı gibi kamu tasarrufu sebepleri) ile devam edecek olup,
+// kitabın devamında henüz kapsanmamış çok sayıda Ayırım, Bölüm ve Kısım
+// (Deniz Kazaları, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1217 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1309,6 +1363,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "tasitan-ve-yukletenin-kusur-sorumlulugu-ttk-1208":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "geminin-yolculuk-basladiktan-sonra-zayi-olmasi-ttk-1210":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "yolculuk-baslamadan-once-esyanin-zayi-olmasi-ttk-1214":
+    "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
+  "yolculuk-basladiktan-sonra-esyanin-zayi-olmasi-ttk-1216":
     "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
 };
 
