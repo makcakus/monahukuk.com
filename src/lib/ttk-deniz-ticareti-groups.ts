@@ -2581,6 +2581,76 @@
 // "Üçüncü Bölüm: Kurtarma"nın devamından itibaren yeni slug eşlemeleriyle
 // devam edecektir.
 
+// Ellisekizinci batch, "V- Kurtaranın hakları" başlığını baştan sona
+// tamamlayan iki yazıyla devam eder: "1. Kurtarma ücreti" alt başlığının son
+// bendi "f) Ücretten mahrumiyet" (m.1311) ve yeni bir alt başlık olan "2.
+// Özel tazminat" (m.1312). İlk yazı m.1311'i kapsar: kurtaranın kurtarma
+// faaliyetini kendi kusuruyla zorunlu kılması veya daha da güçleştirmesi
+// yahut hileli davranış sayılan ya da dürüstlüğe sığmayan diğer hareketlerde
+// bulunması hâlinde, kurtarma ücretinden tamamen veya kısmen mahrum
+// bırakılabilmesi -bu yaptırımın, m.1303/1-a'daki özen yükümlülüğüne bağlı
+// bir disiplin mekanizması olduğu ve m.1304'teki "faydalı sonuç → ücret"
+// ilkesinin doğurduğu hakkı sonradan geri alınabilir kıldığı analiz
+// edilmiştir- kapsanmıştır. Bu yazı ile "1. Kurtarma ücreti" alt başlığı
+// a) İlkeler'den (m.1304) f) Ücretten mahrumiyet'e (m.1311) kadar eksiksiz
+// tamamlanmış olur. İkinci yazı ise m.1312'yi -tek maddelik ama yedi
+// fıkralık zengin bir düzenlemeyi- işler: çevre zararı tehdidi oluşturan bir
+// araç veya eşya için kurtarma faaliyetinde bulunan ancak m.1305'e göre
+// yetersiz bir ücrete hak kazanan kurtaranın giderlerini malikten özel
+// tazminat olarak isteyebilmesi ve bunun için mahkemenin olağan kurtarma
+// ücretini kurtarılan şeylerin en yüksek değerine kadar yükseltmiş olmasının
+// gerekmemesi -bu maddenin, m.1304 yazısında "Bölümde aksi yazılı
+// olmadıkça" ibaresiyle ima edilen ve kesin şeklinin ancak Bölümün ilerleyen
+// maddelerinde teyit edilebileceği belirtilen istisnanın tam olarak kendisi
+// olduğu ve 1989 Uluslararası Kurtarma Sözleşmesi'ndeki "special
+// compensation" kavramına dayandığı vurgulanmıştır-, m.1312/1; çevre
+// zararının fiilen önlenmiş veya sınırlandırılmış olması hâlinde bu
+// tazminatın giderlerin en çok yüzde otuzuna, hakkaniyet gerektirirse
+// 1305 inci maddenin birinci fıkrasındaki kıstaslar da gözetilerek giderlerin
+// en çok yüzde yüzüne kadar artırılabilmesi, m.1312/2; "kurtaranın
+// giderleri" kavramının, makul harcamalar ile 1305 inci maddenin birinci
+// fıkrasının (h), (i) ve (j) bentlerindeki kıstaslara göre belirlenecek
+// teçhizat/personel tutarını ifade etmesi, m.1312/3; özel tazminatın
+// toplamının, yalnızca kurtaranın 1305 inci madde uyarınca alabileceği
+// kurtarma ücretini aştığı takdirde ve oranda ödenmesi -bu kuralın, özel
+// tazminatı bir ek ödül değil bir taban/güvence mekanizması hâline
+// getirdiği analiz edilmiştir-, m.1312/4; kurtaranın ihmali nedeniyle çevre
+// zararını önleyememesi veya sınırlandıramaması hâlinde bu tazminattan da
+// tamamen veya kısmen mahrum bırakılabilmesi -bu kuralın m.1311'deki
+// mahrumiyet mekanizmasının özel tazminat bağlamındaki bir paraleli olduğu
+// vurgulanmıştır-, m.1312/5; donatanın rücu haklarının saklı tutulması,
+// m.1312/6; ve bu madde uyarınca yapılacak ödemelerin müşterek avarya
+// paylaştırmasına girmemesi -bu ayrışmanın, m.1272'de incelenen müşterek
+// avaryanın risk havuzlama/dayanışma mantığı ile kurtarma hukukunun teşvik/
+// ödül mantığının kanun metninde bilinçli olarak birbirinden ayrı
+// tutulduğunu gösterdiği analiz edilmiştir-, m.1312/7 - kapsanmıştır. Bu
+// yazı ile "V- Kurtaranın hakları" başlığının "2. Özel tazminat" alt
+// başlığı da tamamlanmış olur. Araştırmada, m.1311 bakımından maddenin
+// esasına göre karar veren bir Yargıtay kararına rastlanmadığı, ancak
+// Yargıtay 11. Hukuk Dairesi'nin E.2016/8081 K.2018/1811 sayılı kararında
+// (Tibil gemisi patlaması) davalının m.1311'e dayalı bir mahrumiyet
+// savunmasını açıkça ileri sürdüğü ve bu savunmanın -kararın gerekçesinde
+// ayrıca tartışılmamış olsa da- fiilen karşılık bulmadığı tespit edilmiş;
+// m.1312 bakımından ise maddenin yedi fıkralık hesaplama mekanizmasını
+// (giderler, yüzde otuz/yüzde yüz artırım, ihmal nedeniyle mahrumiyet) somut
+// olaya uygulayan bir karara rastlanmadığı, ancak aynı Tibil gemisi olayının
+// ihtiyati hacze itiraz aşamasına ilişkin Yargıtay 11. Hukuk Dairesi
+// E.2014/11224 K.2014/13369 sayılı kararının özel tazminat alacağını
+// m.1352/c uyarınca deniz alacağı saydığı ve önceki batch'te aktarılan
+// İstanbul 17. Asliye Ticaret Mahkemesi E.2015/27 K.2023/280 kararının dava
+// konusu tespitinde m.1312'ye açıkça atıf yaptığı ancak davanın m.1298
+// eşiğinde reddedilmesi nedeniyle m.1312'nin esasa göre tartışılmadığı
+// dürüstçe belirtilmiştir. Bu batch ile "Üçüncü Bölüm: Kurtarma"nın
+// "V- Kurtaranın hakları" başlığı ("1. Kurtarma ücreti" m.1304-1311 ve
+// "2. Özel tazminat" m.1312) baştan sona tamamlanmış olur; Bölümün devamı
+// (gemi alacaklısı hakkı, kurtarma sözleşmesinin sona ermesi ve zamanaşımı
+// dahil) ileriki bir batch'in konusu olacak olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil)
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1312 aralığını
+// kapsar ve ileriki batch'ler, "Üçüncü Bölüm: Kurtarma"nın devamından
+// itibaren yeni slug eşlemeleriyle devam edecektir.
+
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
   "Gemi: Geminin Kimliği",
@@ -2830,6 +2900,8 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Kurtarma",
   "kurtarma-ucretinde-gemi-adamlarina-verilecek-pay-ttk-1310":
     "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinden-mahrumiyet-ttk-1311": "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinde-ozel-tazminat-ttk-1312": "Deniz Kazaları: Kurtarma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
