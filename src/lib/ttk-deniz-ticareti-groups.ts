@@ -1997,6 +1997,46 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1269 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Kırk dördüncü ve bu dosya bakımından son batch, "XV) Zamanaşımı" (m.1270)
+// ve "XVI) Emredici hükümler" (m.1271) başlıklarını kapsar. m.1270, üç fıkra
+// hâlinde: yolcunun ölümünden ve bedensel zararından ilgilisi lehine doğan
+// bütün tazminat istemlerinin on yılda zamanaşımına uğramasını, m.1270/1;
+// yolcu taşıma sözleşmesinden doğan, bagajın zıyaa veya hasara uğramasından
+// doğan alacaklar dâhil olmak üzere diğer bütün alacakların iki yılda
+// zamanaşımına uğramasını ve bu sürenin, bagajın zıyaı veya hasarı hâlinde
+// hangisi daha sonra vukubulmuş ise yolcunun gemiden indiği veya inmesi
+// gereken tarihten, diğer bütün alacaklarda ise muaccel oldukları tarihten
+// itibaren işlemeye başlamasını, m.1270/2; ve birinci ile ikinci fıkralarda
+// belirlenen zamanaşımı sürelerinin, tazminat istemi doğduktan sonra,
+// taşıyanın yazılı beyanı veya tarafların yazılı anlaşmasıyla
+// uzatılabilmesini, m.1270/3 - düzenlemiştir. m.1271 ise iki fıkra hâlinde:
+// yolcunun ölümü veya yaralanması sonucunu doğuran olaydan veya bagajın
+// zıyaa veya hasara uğramasından önce yapılmış olan sözleşmelerde yer alan,
+// bu Bölüm hükümlerine göre sorumlu herhangi bir kişinin sorumluluğunu
+// kaldıran veya 1263 üncü maddenin dördüncü fıkrası hükmü saklı kalmak
+// kaydıyla bu Bölümde öngörülen sorumluluk sınırlarını indiren veya
+// taşıyana veya fiilî taşıyana düşen ispat yükünün yerini değiştiren her
+// şartın hükümsüz olmasını, şartın hükümsüzlüğünün taşıma sözleşmesinin
+// geçersizliği sonucunu doğurmamasını, m.1271/1; ve tazminat istemi
+// doğmadan önce yapılan yetki ve tahkim sözleşmelerinin geçerli olmamasını,
+// m.1271/2 - düzenlemiştir. BU BATCH İLE "XV) ZAMANAŞIMI" VE "XVI)
+// EMREDİCİ HÜKÜMLER" (m.1270-1271) EKSİKSİZ TAMAMLANMIŞ olur ve bununla
+// birlikte "Beşinci Bölüm: Deniz Yoluyla Yolcu Taşıma Sözleşmesi"
+// (m.1247-1271) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ
+// olur. Beşinci Kitap "Deniz Ticareti" bundan sonra Beşinci Kısım "Deniz
+// Kazaları"na geçecek ve bu Kısmın "Birinci Bölüm: Müşterek Avarya"sı
+// (m.1272'den itibaren - dizinin daha önce m.1196, m.1199 ve m.1244
+// yazılarında tekrar tekrar bir istisna veya atıf noktası olarak
+// karşılaştığı ama şimdiye kadar doğrudan incelemediği, doktrinsel
+// bakımdan çok eski ve kendine özgü bir deniz ticareti kurumu) ile
+// açılacak, ardından "İkinci Bölüm: Çatma" ve "Üçüncü Bölüm: Kurtarma"
+// izleyecektir; kitabın devamında henüz kapsanmamış çok sayıda Kısım (Gemi
+// Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel
+// Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya
+// yalnızca yukarıda sayılan m.931-1271 aralığını kapsar ve ileriki
+// batch'ler, Beşinci Kısım "Deniz Kazaları"ndan itibaren yeni bir dosyada
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2197,6 +2237,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "istemlerin-dayanagi-ttk-1268": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "bagajin-ziyai-veya-hasarinin-bildirimi-ttk-1269":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcu-tasimasinda-zamanasimi-ttk-1270": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcu-tasimasinda-emredici-hukumler-ttk-1271":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
