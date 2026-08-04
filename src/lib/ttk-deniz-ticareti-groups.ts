@@ -2469,6 +2469,57 @@
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1306 aralığını
 // kapsar ve ileriki batch'ler, m.1306'dan sonraki alt başlıktan itibaren yeni
 // slug eşlemeleriyle devam edecektir.
+//
+// Ellialtıncı batch, "Üçüncü Bölüm: Kurtarma"nın "1. Kurtarma ücreti" alt
+// başlığının kalan iki bendini -"d) Gönderilenin sorumluluğu" (m.1307) ve "e)
+// Ücretin paylaştırılması - aa) Tek ücret" (m.1308)- iki ayrı yazıyla işler.
+// İlk yazı m.1307'yi kapsar: eşyayı teslim alırken kurtarma ücreti
+// ödeneceğini bilen gönderilenin, eşya teslim edilmemiş olsaydı paraya
+// çevrilmesi hâlinde ödenecek oranda şahsen sorumlu tutulması -bu hükmün,
+// m.1274/2'deki müşterek avaryada gönderilenin bilgi temelli şahsi
+// sorumluluğuyla yapısal olarak neredeyse özdeş bir mekanizma (sübjektif
+// bilgi tetikleyicisi + paraya çevrilme oranıyla sınırlı kapsam) taşıdığı ve
+// bu paralelliğin, eşya teslim edildiğinde alacaklının ayni teminatının
+// fiilen ortadan kalkması ortak mantığından kaynaklandığı analiz edilmiştir-,
+// m.1307/1; ve teslim edilen eşyayla birlikte başka şeylerin de kurtarılmış
+// olması hâlinde gönderilenin sorumluluğunun teslim edilen eşyaya düşecek
+// miktarla sınırlı kalması -bu sınırlamanın, m.1306/2'deki borçlular arası
+// teselsül bulunmaması ilkesiyle tutarlı olduğu vurgulanmıştır-, m.1307/2 -
+// kapsanmıştır. İkinci yazı ise m.1308'i işler: birden çok kurtaranın
+// bulunması hâlinde, tehlikenin başladığı andan eşyanın geri verilmesinin
+// istendiği ana kadarki tüm kurtarma faaliyeti için tek bir ücret
+// belirlenmesi ve her kurtaranın payını bu toplam ücretten alması -bu
+// ilkenin, m.1304/3'teki tavan kuralının anlamlı işlemesini güvence altına
+// aldığı analiz edilmiştir-, m.1308/1; ve kurtarma ücretinden pay alınması
+// için birden çok dava açılması hâlinde, davaların öncelik hiyerarşisine
+// (tekel sahibi kurtaran, sözleşme yapan kurtaran, en fazla gemiyle/
+// teçhizatla katılan kurtaran) göre birleştirilmesi ile hakem önündeki
+// davanın mahkemedeki ilk davayla birleştirilip bekletici sorun yapılması -
+// bu usul mekanizmasının, m.1308/1'deki tek ücret ilkesinin usul hukukundaki
+// doğal uzantısı olduğu vurgulanmıştır-, m.1308/2 - kapsanmıştır.
+// Araştırmada, m.1307/1 bakımından "teslim alırken bilme" şartının teslim
+// SÜRECİNİN hangi anına bağlanacağını doğrudan çözen üç dereceli bir
+// yargılama (İstanbul 17. ATM E.2014/1419 K.2020/251; İstanbul BAM 43. HD
+// E.2021/281 K.2024/404, kesinleşti; Yargıtay 11. HD E.2024/4398 K.2025/2802
+// - Abane/doğal gaz gemisi kararı, boşaltmanın başlamasından 4 dakika sonra
+// edinilen bilginin dahi "teslim alırken bilme" sayıldığı) tespit edilmiş;
+// buna karşılık m.1308 bakımından maddenin esasına göre karar veren bir
+// Yargıtay kararına rastlanmadığı, en yakın örneklerin -m.1308'e dayalı
+// savunmanın ileri sürülüp kararın gerekçesi olmadığı bir istinaf kararı
+// (İstanbul BAM 43. HD E.2023/1457 K.2025/1629) ile mülga TTK döneminden,
+// madde numarasına atıf yapmayan ama aynı tek ücret/dava birleştirme
+// desenini fiilen uygulayan bir Yargıtay karar düzeltme kararı (E.2013/15978
+// K.2013/23262) olduğu- dürüstçe belirtilmiştir. Bu batch ile "1. Kurtarma
+// ücreti" alt başlığının "d) Gönderilenin sorumluluğu" (m.1307) bendi
+// tamamlanmış ve "e) Ücretin paylaştırılması" bendinin ilk alt kısmı olan
+// "aa) Tek ücret" (m.1308) işlenmiş olur; "e) Ücretin paylaştırılması"nın
+// devamı (muhtemelen "bb)" biçiminde yeni bir alt başlıkla) ileriki bir
+// batch'in konusu olacak olup, kitabın devamında henüz kapsanmamış çok
+// sayıda Kısım (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1308 aralığını kapsar ve ileriki batch'ler,
+// m.1308'den sonraki alt başlıktan itibaren yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2711,6 +2762,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "kurtarma-ucretinin-belirlenmesinde-kistaslar-ttk-1305":
     "Deniz Kazaları: Kurtarma",
   "kurtarma-ucretinin-borclulari-ttk-1306": "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinde-gonderilenin-sorumlulugu-ttk-1307":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinde-tek-ucret-ilkesi-ve-dava-birlestirilmesi-ttk-1308":
+    "Deniz Kazaları: Kurtarma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
