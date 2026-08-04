@@ -2520,6 +2520,66 @@
 // yukarıda sayılan m.931-1308 aralığını kapsar ve ileriki batch'ler,
 // m.1308'den sonraki alt başlıktan itibaren yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Elliyedinci batch, "e) Ücretin paylaştırılması" bendinin kalan iki alt
+// kısmını -"bb) Birden çok kurtaran arasında" (m.1309) ve "cc) Gemi
+// adamlarına ve kurtaranın diğer adamlarına verilecek pay" (m.1310)- iki
+// ayrı yazıyla işleyerek bu bendi ve dolayısıyla "1. Kurtarma ücreti" alt
+// başlığını baştan sona tamamlar. İlk yazı m.1309'u kapsar: kurtarma
+// ücretinin birden çok kurtaran arasında, 1305 inci maddedeki on kıstas
+// dikkate alınarak kurtarma faaliyetine katıldıkları oranda paylaştırılması
+// -bu atfın, aynı on kıstasın kurtarma hukukunda iki farklı işlevde
+// (malik-kurtaran dış ilişkisinde toplam ücretin belirlenmesi ve
+// kurtaranlar arası iç ilişkide bu toplamın bölüştürülmesi) tutarlı biçimde
+// kullanıldığını gösterdiği, ve bu paylaşımın m.1303/1-c ve d'deki çok
+// kurtaranlı iş birliği yükümlülükleriyle kurtarma hukukunun teşvik
+// mantığı arasındaki çelişkiyi önlediği analiz edilmiştir- kapsanmıştır.
+// İkinci yazı ise m.1310'u işler: bir aracın başka bir gemi tarafından
+// kurtarılması hâlinde donatanın, giderleri ayırdıktan sonra kalan
+// kurtarma ücretinden kaptana ve gemi adamlarına 1305 inci maddenin birinci
+// fıkrasındaki kıstaslara göre pay vermesi -bu yapının, kurtarma ücretinin
+// önce donatana akıp oradan gemi adamlarına paylaştırılmasının denizcilik
+// geleneğindeki köklü "kurtarma payı" anlayışının modern kanuni ifadesi
+// olduğu vurgulanmıştır-, m.1310/1; pay cetvelinin hazırlanması, bildirimi,
+// onbeş günlük itiraz süresi ve mahkeme onayının kesinliği -bu usul
+// yapısının, m.1306/1'deki belirlenme anı mantığıyla benzer biçimde,
+// kurtarma faaliyetinin tamamlanmasının hemen ardından net bir hesap
+// kapanışı sağlamayı amaçladığı analiz edilmiştir-, m.1310/2-4; kurtarmaya
+// tahsis edilmiş gemi veya römorkörde bu hükümlerin uygulanmaması ve bu
+// araçlardaki personelin maliklerden ayrıca pay isteyememesi -bu istisnanın,
+// m.1298/4-b'deki "tehlikedeki araçta çalışanların faaliyeti kurtarma
+// sayılmaz" kuralının, bu kez kurtaran tarafın personeli için tersinden
+// uygulanması olduğu vurgulanmıştır-, m.1310/5; ve kurtarmanın gemi olmayan
+// bir araçtan yapılması hâlinde ücretin öncelikle sözleşmeye, yoksa kıyasen
+// 1305 inci maddedeki kıstaslara göre paylaştırılması, m.1310/6 -
+// kapsanmıştır. Araştırmada, m.1309 bakımından maddenin esasına göre karar
+// veren bir Yargıtay kararına rastlanmadığı, en yakın örneğin İstanbul 17.
+// ATM'nin Kurtkulağı römorkörü kararında (E.2014/723 K.2018/195) birden
+// çok römorkörün katkısının süre oranına göre ayrı ayrı hesaplanması
+// olduğu ancak bu kararın madde numarasına atıf yapmadığı dürüstçe
+// belirtilmiş; m.1310/5 bakımından ise, mülga TTK 1230/son fıkrasını -
+// yeni m.1310/5 ile yapısal olarak neredeyse özdeş bir hükmü- doğrudan
+// uygulayan üç dereceli bir yargılama zinciri (Antalya 1. ATM E.2018/414
+// K.2019/704; Antalya BAM 11. HD E.2020/322 K.2021/608; Yargıtay 11. HD
+// E.2021/5010 K.2022/9410, tahsisli römorkör personelinin ayrıca pay
+// isteyemeyeceği yönünde bozma; ve nihai olarak Antalya BAM 11. HD
+// E.2023/577 K.2023/1245, kesinleşti) tespit edilmiş; ayrıca önceki
+// batch'te aktarılan İstanbul 17. ATM E.2015/27 K.2023/280 kararının dava
+// konusu tespitinin m.1310 ve m.1312'ye açıkça atıf yaptığı ancak davanın
+// m.1298 eşiğinde reddedilmesi nedeniyle m.1310'un kararın gerekçesinde
+// fiilen tartışılmadığı dürüstçe belirtilmiştir. Bu batch ile "e) Ücretin
+// paylaştırılması" bendi (aa) Tek ücret m.1308, bb) Birden çok kurtaran
+// arasında m.1309, cc) Gemi adamlarına ve kurtaranın diğer adamlarına
+// verilecek pay m.1310) ve dolayısıyla "V- Kurtaranın hakları - 1.
+// Kurtarma ücreti" alt başlığının tamamı baştan sona tamamlanmış olur;
+// "Üçüncü Bölüm: Kurtarma"nın devamı (özel tazminat, gemi alacaklısı hakkı,
+// kurtarma sözleşmesinin sona ermesi ve zamanaşımı dahil) ileriki bir
+// batch'in konusu olacak olup, kitabın devamında henüz kapsanmamış çok
+// sayıda Kısım (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1310 aralığını kapsar ve ileriki batch'ler,
+// "Üçüncü Bölüm: Kurtarma"nın devamından itibaren yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2765,6 +2825,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "kurtarma-ucretinde-gonderilenin-sorumlulugu-ttk-1307":
     "Deniz Kazaları: Kurtarma",
   "kurtarma-ucretinde-tek-ucret-ilkesi-ve-dava-birlestirilmesi-ttk-1308":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinin-kurtaranlar-arasinda-paylasimi-ttk-1309":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinde-gemi-adamlarina-verilecek-pay-ttk-1310":
     "Deniz Kazaları: Kurtarma",
 };
 
