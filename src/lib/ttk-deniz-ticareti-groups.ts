@@ -1918,6 +1918,49 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda
 // sayılan m.931-1265 aralığını kapsar ve ileriki batch'ler yeni slug
 // eşlemeleriyle devam edecektir.
+//
+// Kırk ikinci batch, "XI) İstemlerin birleşmesi" (m.1266) ve "XII)
+// Sorumluluğu sınırlandırma hakkının kaybı" (m.1267) başlıklarını
+// kapsar. m.1266, üç fıkra hâlinde: 1262 ve 1263 üncü maddelerdeki
+// sorumluluk sınırlarının, yolcunun ölümü veya yaralanmasından yahut
+// bagajının zıyaı veya hasarından kaynaklanan bütün tazminat
+// istemlerinin toplamına uygulanmasını, m.1266/1; bir fiilî taşıyan
+// tarafından gerçekleştirilen taşımada, taşıyandan, fiilî taşıyandan ve
+// bunların görevleri dâhilinde hareket eden adamlarından alınacak
+// tazminatların toplamının, bu Bölüm hükümlerine göre taşıyanın veya
+// fiilî taşıyanın mahkûm edilebileceği en yüksek tutarı aşamamasını -şu
+// kadar ki bu kişilerden hiçbirinin kendisine uygulanacak sorumluluk
+// sınırını aşan bir tutardan sorumlu tutulamamasını-, m.1266/2; ve
+// taşıyanın veya fiilî taşıyanın adamlarının, 1265 inci maddeye göre
+// 1262 ve 1263 üncü maddelerdeki sorumluluk sınırlarından yararlandığı
+// bütün durumlarda, taşıyandan ve yerine göre fiilî taşıyandan ve
+// bunların adamlarından alınacak tazminatların toplamının bu sınırları
+// aşamamasını, m.1266/3 - düzenlemiştir. m.1267 ise, iki fıkra hâlinde:
+// zarara, böyle bir zarara sebep olmak kastıyla veya pervasızca bir
+// davranışla ve böyle bir zararın meydana gelmesi ihtimalinin bilinci
+// ile işlenmiş bir fiilin veya ihmalin sebebiyet verdiği ispat edilen
+// taşıyanın, 1262 ve 1263 üncü maddelerle 1264 üncü maddenin birinci
+// fıkrasında öngörülen sorumluluk sınırlarından yararlanamamasını,
+// m.1267/1; ve aynı kasten/pervasızca-ile-bilinç standardını karşılayan
+// taşıyanın veya fiilî taşıyanın adamlarının da birinci fıkrada
+// belirtilen sorumluluk sınırlarından yararlanamamasını, m.1267/2 -
+// düzenlemiştir. BU BATCH İLE "XI) İSTEMLERİN BİRLEŞMESİ" VE "XII)
+// SORUMLULUĞU SINIRLANDIRMA HAKKININ KAYBI" (m.1266-1267) EKSİKSİZ
+// TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra "XIII) İstemlerin
+// dayanağı" (m.1268 - yolcunun ölümü, yaralanması veya bagajının zıyaı
+// yahut hasarına ilişkin olarak taşıyana veya fiilî taşıyana karşı
+// yalnızca bu Bölüm hükümleri uyarınca dava açılabilmesi) ve "XIV)
+// Bagajın zıyaı veya hasara uğradığının bildirimi" (m.1269 - muhtemelen
+// kargo bağlamındaki m.1185 bildirim yükümlülüğüne paralel bagaj bildirim
+// şartları) ile devam edecek, ardından "XV) Zamanaşımı" (m.1270) ve
+// "XVI) Emredici hükümler" (m.1271) ile Beşinci Bölüm "Deniz Yoluyla
+// Yolcu Taşıma Sözleşmesi" tamamen kapanacaktır; kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1267
+// aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2112,6 +2155,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "sorumluluk-sinirlarina-iliskin-ortak-hukumler-ttk-1264":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "tasiyanin-adamlarinin-savunmalari-ve-sorumluluk-sinirlari-ttk-1265":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "istemlerin-birlesmesi-ttk-1266": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "sorumlulugu-sinirlandirma-hakkinin-kaybi-ttk-1267":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
