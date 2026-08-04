@@ -51,14 +51,21 @@ const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr", "zh"];
 const WARN_ONLY_LOCALES = new Set(["fr"]);
 // TR-only kalıcı içerik: çeviri planlanmıyor (2026-07-23 kararı — TCK suç
 // makaleleri serisi, 91 makale; 2026-07-24 kararı — CMK konu makaleleri
-// serisi; 2026-07-25 kararı — İş Hukuku mevzuat serisi). translationKey bu
-// soneklerden biriyle bitiyorsa çeviri kontrolünden tamamen muaf tutulur
-// (warn-only değil, hiç sayılmaz).
+// serisi). translationKey bu soneklerden biriyle bitiyorsa çeviri
+// kontrolünden tamamen muaf tutulur (warn-only değil, hiç sayılmaz).
+//
+// NOT: Bu istisna listesi aynı zamanda "kademeli çeviri" serileri için de
+// kullanılıyor — TTK serisi (-turkish-commercial-code) gibi, önce sadece
+// İngilizceye çevrilip DE/RU/AR/ES/ZH'nin sonradan tamamlanması planlanan
+// içerikler de buradan geçici olarak muaf tutuluyor (build'i kilitlememek
+// için). 2026-08-04 kararı — İş Hukuku mevzuatı serisi (-turkish-labour-law)
+// bu şekilde İngilizceye çevrildi; DE/RU/AR/ES/ZH henüz eksik, aynı TTK
+// modeliyle istisnada tutuluyor.
 const TR_ONLY_KEY_SUFFIXES = [
   "-turkish-penal-code",
   "-turkish-criminal-procedure-code",
   "-turkish-labour-law",
-  // 2026-08-01 kararı — TTK Kitap 1 (Ticari İşletme) konu makaleleri serisi, 9 makale
+  // 2026-08-01 kararı — TTK serisi (kademeli çeviri, önce EN)
   "-turkish-commercial-code",
 ];
 function isTrOnly(translationKey) {
