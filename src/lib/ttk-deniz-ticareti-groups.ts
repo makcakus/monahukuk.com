@@ -2414,6 +2414,61 @@
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1304 aralığını
 // kapsar ve ileriki batch'ler, m.1305'ten itibaren yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Ellibeşinci batch, "Üçüncü Bölüm: Kurtarma"nın "1. Kurtarma ücreti" alt
+// başlığının kalan iki bölümünü -"b) Ücretin belirlenmesi" (m.1305) ve "c)
+// Borçlular" (m.1306)- iki ayrı yazıyla işler. İlk yazı, m.1305'i tek başına
+// kapsar: kurtarma ücreti taraflarca belirlenmemişse veya 1301 inci maddeye
+// göre mahkemece uyarlanması istenmişse, ücretin, kurtarma faaliyetini
+// özendirecek bir anlayışla ve sıralama dikkate alınmaksızın on kıstasa göre
+// belirlenmesi -aracın/eşyanın kurtarıldıktan sonraki değeri (a), çevre
+// zararını önleme çaba ve becerisi (b), elde edilen başarının derecesi (c),
+// karşılaşılan tehlikenin ve göze alınan rizikonun niteliği/büyüklüğü (d),
+// aracın/eşyanın/insan hayatının kurtarılması için gösterilen çaba ve beceri
+// (e), harcanan zaman/giderler/uğranılan zarar (f), yüklenilen sorumluluk
+// rizikosu ve teçhizatın uğradığı diğer rizikolar (g), hizmetin çabukluğu
+// (h), araç ve teçhizatın kullanıma hazır bulundurulmuş ve fiilen kullanılmış
+// olması (i) ve teçhizatın kurtarmaya hazır olması, etkinliği ve değeri (j)-,
+// m.1305/1; resmî kurumların giderleri ve harçları ile gümrük resimleri ve
+// eşyanın saklanması/korunması/değer biçilmesi/satılması giderlerinin
+// kurtarma ücretine girmemesi, m.1305/2; ve ücretin para olarak saptanması
+// ile aksi kararlaştırılmadıkça kurtarılan şeylerin değerinin bir yüzdesi
+// olarak belirlenememesi, m.1305/3 - kapsanmıştır. İkinci yazı ise m.1306'yı
+// işler: kurtarma ücretinin borçlularının, kurtarılan aracın ve diğer
+// eşyanın kurtarma faaliyetinin tamamlandığı andaki malikleri olması -bu
+// tek anlı yaklaşımın, m.1274'teki müşterek avarya borçlularının üç farklı
+// zaman anına (donatan için olay anı, navlun/eşya için boşaltma tarihi) göre
+// belirlenmesinden farklı, kurtarma faaliyetinin kendi başına tanımlanabilir
+// bir olay olmasından kaynaklanan bir tasarım olduğu vurgulanmıştır-, m.1306/1;
+// ve ücretin, aracın maliki ile diğer eşyanın malikleri arasında kurtarılan
+// değerler oranında paylaşılması ve borçlular arasında teselsül bulunmaması
+// -bu müteselsil olmayan modelin, m.1289/1'deki çatmada eşya zararı için
+// donatanların üçüncü kişilere karşı müteselsil olmayan sorumluluğuyla
+// yapısal bir paralellik taşıdığı analiz edilmiştir-, m.1306/2 - kapsanmıştır.
+// Araştırmada, m.1305 bakımından on kıstası tek tek uygulayan ve yüzde
+// yasağını doğrudan işleten zengin bir İstanbul 17. Asliye Ticaret Mahkemesi
+// içtihadı (E.2016/80 K.2021/16; E.2014/723 K.2018/195; E.2014/1419 K.2020/251
+// - Abane gemisi, önceki batch'te aktarılan Yargıtay 11. Hukuk Dairesi
+// E.2024/4398 K.2025/2802 kararının dayandığı ilk derece kararı) ile bir
+// istinaf kararı (İstanbul BAM 43. Hukuk Dairesi E.2021/585 K.2024/716) tespit
+// edilmiş; m.1306/1 bakımından "malik = borçlu" kuralını doğrudan uygulayan üç
+// Yargıtay 11. Hukuk Dairesi kararı (E.2020/272 K.2020/4974 ve devamındaki
+// E.2021/6153 K.2022/7431 - Nil-K/Mercy God gemisi, malik ile donatan
+// ayrımının vurgulandığı; E.2017/5338 K.2019/1789) tespit edilmiş; ancak
+// m.1306/2'deki paylaşım/teselsül-yokluğu kuralını bizzat ve pinpoint
+// biçimde tartışan bir karara rastlanmadığı, en yakın somut örneğin Abane
+// gemisi kararındaki gemi/yakıt-yük ayrı hesaplaması olduğu ancak bu kararın
+// "teselsül yoktur" kuralını ayrıca gerekçe olarak zikretmediği dürüstçe
+// belirtilmiştir. Bu batch ile "Üçüncü Bölüm: Kurtarma"nın "V- Kurtaranın
+// hakları - 1. Kurtarma ücreti" alt başlığı (a) İlkeler m.1304, b) Ücretin
+// belirlenmesi m.1305, c) Borçlular m.1306) baştan sona tamamlanmış olur;
+// Bölümün devamı (muhtemelen "2. ..." biçiminde yeni bir alt başlıkla,
+// m.1400'e kadar sürecek şekilde) ileriki bir batch'in konusu olacak olup,
+// kitabın devamında henüz kapsanmamış çok sayıda Kısım (Gemi Alacakları,
+// Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil)
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1306 aralığını
+// kapsar ve ileriki batch'ler, m.1306'dan sonraki alt başlıktan itibaren yeni
+// slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2653,6 +2708,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Kurtarma",
   "kurtarmada-taraflarin-yukumlulukleri-ve-kurtarma-ucreti-ilkeleri-ttk-1303-1304":
     "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinin-belirlenmesinde-kistaslar-ttk-1305":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarma-ucretinin-borclulari-ttk-1306": "Deniz Kazaları: Kurtarma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
