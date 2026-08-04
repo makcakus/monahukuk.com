@@ -2246,6 +2246,45 @@
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1289 aralığını
 // kapsar ve ileriki batch'ler, m.1290'dan itibaren yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Ellibirinci batch, "C) Kusurlu çatma"nın kalan iki alt başlığını -"II.
+// Ortak kusur - 2. Bedensel zarar" (m.1290) ve "III. Kılavuzun kusuru"
+// (m.1291)- işleyerek "C) Kusurlu çatma"yı İLK MADDESİNDEN SON MADDESİNE
+// KADAR TAMAMLAR; ardından Bölümün bir sonraki başlığı olan "D) Dava öncesi
+// delil tespiti"ni m.1292 ile açar. İlk yazı m.1290-1291'i kapsar: ortak
+// kusurlu çatmada gemilerde bulunan kişilerin ölümünden, yaralanmasından
+// veya sağlığının bozulmasından doğan zararlardan donatanların -eşya
+// zararındaki m.1289/1'in müteselsil olmayan modelinin tam tersine-
+// müteselsilen sorumlu olması ve oranın tespiti mümkün olmazsa veya taraflar
+// eşit kusurluysa eşit sorumluluk, m.1290/1; donatanların birbirine
+// rücuunda her donatanın kusurunun ağırlığı oranında sorumlu olması,
+// m.1290/2; kılavuzun kusurundan doğan çatmada, zorunlu danışman kılavuz
+// veya isteğe bağlı kılavuzda donatanın sorumlu, buna karşılık zorunlu sevk
+// kılavuzunda donatanın sorumsuz olması, m.1291/1-2 - kapsanmıştır. İkinci
+// yazı ise "D) Dava öncesi delil tespiti"ni m.1292 ile açar: dava öncesi
+// delil tespitlerinde çatmanın meydana geldiği yerde deniz ticareti
+// işlerine bakan asliye ticaret mahkemesi, bulunmadığı takdirde asliye
+// ticaret mahkemesi, o da yoksa ticaret davalarına bakan asliye hukuk
+// mahkemesinin kademeli yetkisi, m.1292/1; çatmaya karışan her geminin
+// kaptanına veya temsilcisine tespit yapılacağının bildirilmesi, m.1292/2;
+// ve tespit raporunda çatmaya karışan gemilerin kusur oranlarının
+// belirtilmemesi, m.1292/3. Araştırmada, m.1290 bakımından İstanbul Bölge
+// Adliye Mahkemesi 12. Hukuk Dairesi'nin m.1289-1290 ayrımını doğrudan teyit
+// eden ve çift yönlü rücu zincirini somut uygulayan kesinleşmiş bir kararı,
+// m.1291 bakımından ise İstanbul Anadolu 6. Asliye Ticaret Mahkemesi'nin
+// m.1291/1'i pinpoint uygulayan (henüz kesinleşmemiş) bir kararı tespit
+// edilmiştir; m.1291/2 (zorunlu sevk kılavuzu sorumsuzluğu) ve m.1292 (dava
+// öncesi delil tespiti usulü) bakımından ise pinpoint bir içtihada
+// rastlanmadığı dürüstçe belirtilmiştir. BU BATCH İLE "C) KUSURLU ÇATMA"
+// (m.1288-1291) TAMAMLANMIŞ ve "D) DAVA ÖNCESİ DELİL TESPİTİ" m.1292 İLE
+// AÇILMIŞ olur. "İkinci Bölüm: Çatma" bundan sonra m.1293'ten itibaren
+// (E) Şekil şartı yokluğu ve Bölümün geri kalan hükümleriyle) devam edecek,
+// ardından "Üçüncü Bölüm: Kurtarma" izleyecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1292 aralığını kapsar ve ileriki batch'ler, m.1293'ten itibaren
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2470,6 +2509,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Çatma",
   "kusurlu-catma-tek-tarafin-kusuru-ve-ortak-kusur-ttk-1288-1289":
     "Deniz Kazaları: Çatma",
+  "catmada-bedensel-zarar-ve-kilavuzun-kusuru-ttk-1290-1291":
+    "Deniz Kazaları: Çatma",
+  "catmada-dava-oncesi-delil-tespiti-ttk-1292": "Deniz Kazaları: Çatma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
