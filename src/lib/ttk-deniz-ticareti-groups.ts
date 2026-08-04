@@ -1835,6 +1835,49 @@
 // dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
 // yukarıda sayılan m.931-1261 aralığını kapsar ve ileriki batch'ler yeni
 // slug eşlemeleriyle devam edecektir.
+//
+// Kırkıncı batch, "VII) Bedensel zarardan doğan sorumluluğun sınırı"
+// (m.1262) ve "VIII) Bagaj ve araçların zıyaı veya hasarından doğan
+// sorumluluğun sınırı" (m.1263) başlıklarını kapsar. "VII) Bedensel
+// zarardan doğan sorumluluğun sınırı" - yolcunun ölümü veya
+// yaralanmasından dolayı taşıyanın 1256 ncı madde gereğince
+// sorumluluğunun, hiçbir hâlde, her olay için yolcu başına 400.000 Özel
+// Çekme Hakkını geçememesi; 1256 ncı maddenin birinci fıkrasının ikinci
+// cümlesi hükmünün -taşıyan kusurlu ise yukarıdaki miktarı aşan zarardan
+// da sorumlu olması, yani kusurlu taşıyan için sınırsız sorumluluğun-
+// saklı tutulması; ve tazminatın irat şeklinde belirlenmesi hâlinde,
+// ödenecek tazminatın anapara değeri toplamının da bu miktarı aşamaması,
+// m.1262 - kapsanmıştır. Bu batch ayrıca "VIII) Bagaj ve araçların zıyaı
+// veya hasarından doğan sorumluluğun sınırı" - kabin bagajının zıya veya
+// hasarından dolayı taşıyanın sorumluluğunun, hiçbir hâlde, her taşıma
+// için yolcu başına 2.250 Özel Çekme Hakkını aşamaması, m.1263/1; araçlar
+// ve içlerinde veya üzerlerinde taşınan her çeşit bagajın zıya veya
+// hasarından dolayı taşıyanın sorumluluğunun, hiçbir hâlde, her taşıma
+// için araç başına 12.700 Özel Çekme Hakkını aşamaması, m.1263/2; birinci
+// ve ikinci fıkralarda belirtilenler dışındaki (diğer) bagajın zıyaı veya
+// hasarından dolayı taşıyanın sorumluluğunun, hiçbir hâlde, her taşıma
+// için yolcu başına 3.375 Özel Çekme Hakkını aşamaması -ve bu sınırın,
+// m.1260'ın saklanmak üzere teslim edilen değerli eşya için atıfta
+// bulunduğu sınırla aynı olması-, m.1263/3; ve taşıyan ile yolcunun,
+// taşıyanın sorumluluğuna, zararın tamamından indirilmek üzere aracın
+// uğrayacağı zıya veya hasar için 330 Özel Çekme Hakkını, diğer bagajın
+// uğrayacağı zıya veya hasar için de yolcu başına 149 Özel Çekme Hakkını
+// aşmayacak bir muafiyetin uygulanması hususunda anlaşabilmeleri,
+// m.1263/4 - başlığını da kapsamıştır. BU BATCH İLE "VII) BEDENSEL
+// ZARARDAN DOĞAN SORUMLULUĞUN SINIRI" VE "VIII) BAGAJ VE ARAÇLARIN ZIYAI
+// VEYA HASARINDAN DOĞAN SORUMLULUĞUN SINIRI" (m.1262-1263) EKSİKSİZ
+// TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra "IX) Sorumluluk
+// sınırlarına ilişkin ortak hükümler" (m.1264'ten itibaren - m.1260'ın
+// önceden atıfta bulunduğu, tarafların sorumluluk sınırlarını anlaşmayla
+// yükseltebilmesi kuralı dahil) ve "X) Taşıyanın adamlarının savunmaları
+// ve sorumluluk sınırları" (m.1265 - bu sınırların taşıyanın adamlarına
+// da genişletilmesi) ile devam edecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1263
+// aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2021,6 +2064,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yolcunun-degerli-esyasindan-tasiyanin-sorumlulugu-ttk-1260":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "yolcunun-birlikte-kusuru-ve-sorumlulugun-azaltilmasi-ttk-1261":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "bedensel-zarardan-dogan-sorumlulugun-siniri-ttk-1262":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "bagaj-ve-araclarin-zayi-veya-hasarindan-dogan-sorumlulugun-siniri-ttk-1263":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
