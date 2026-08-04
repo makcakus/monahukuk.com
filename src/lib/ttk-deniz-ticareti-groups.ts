@@ -2328,6 +2328,44 @@
 // m.931-1297 aralığını kapsar ve ileriki batch'ler, "Üçüncü Bölüm:
 // Kurtarma"nın açılışından (m.1298'den) itibaren yeni slug eşlemeleriyle
 // devam edecektir.
+//
+// Elliüçüncü batch, "Üçüncü Bölüm: Kurtarma"yı (Salvage, m.1298-1319) açar.
+// Bu batch, Bölümün ilk üç maddesini iki yazıyla işler. İlk yazı yalnızca
+// m.1298'i kapsar: "A) Eşya kurtarma - I. Kurtarma faaliyeti" başlığı
+// altında, seyrüsefere elverişli sularda tehlikeye uğramış su aracı veya
+// diğer eşyanın kurtarılması için yapılan her fiil veya hareketin kurtarma
+// faaliyeti oluşturduğu genel tanımı (f.1); "su aracı" ve "eşya"
+// terimlerinin -hak kazanılmamış navlun alacağı dahil- tanımı (f.2); "eşya"
+// teriminin kapsamı dışında kalan mineral kaynak platformları/açık deniz
+// sondaj birimleri ile deniz yatağındaki kültür eserleri (f.3); ve
+// "kurtarma faaliyeti" teriminin kapsamı dışında kalan üç hâl -malikin
+// açık ve makul karşı koyması, tehlikedeki araçta çalışanların faaliyetleri
+// ve tehlike doğmadan önce kurulmuş bir sözleşmenin ifası (f.4)- işlenmiştir.
+// İkinci yazı ise "II- Diğer hâller" başlıklı m.1299'u -Bölüm hükümlerinin
+// kurtaranın mevzuat gereğince kurtarma yükümlülüğü bulunması ve kurtarma
+// faaliyetinde bulunan aracın kurtarılan araçla aynı malike ait olması
+// hâllerinde de uygulanması- ve "III- Kurtarma sözleşmesi - 1. Sözleşme
+// yapma yetkisi" başlıklı m.1300'ü -kaptanın aracın, malik ile kaptanın ise
+// araçtaki eşyanın malikleri adına, yetkili mahkeme veya tahkimi
+// kararlaştırmak dahil, kurtarma sözleşmesi yapmaya yetkili olması- kapsar.
+// Araştırmada, m.1298'in tüm fıkraları bakımından zengin bir içtihat kümesi
+// (özellikle m.1298/4-b ve 4-c'yi birlikte uygulayan, gemi adamlarının bir
+// saldırganı etkisiz hale getirip gemiyi kurtarmasının dahi kurtarma
+// faaliyeti sayılmadığına hükmeden Yargıtay 11. Hukuk Dairesi E.2023/517
+// K.2024/2511 kararı) ve m.1300 bakımından da doğrudan uygulanan bir
+// içtihat çifti (kaptanın yetkili mahkeme kararlaştırma yetkisinin donatanı
+// bağladığına hükmeden Yargıtay 11. Hukuk Dairesi E.2016/3986 K.2016/4311
+// kararı) tespit edilmiş; buna karşılık m.1299'a doğrudan ve pinpoint
+// biçimde dayanan bir karara rastlanmadığı dürüstçe belirtilmiştir. Bu
+// batch ile "Üçüncü Bölüm: Kurtarma"nın ilk üç maddesi (m.1298-1300)
+// tamamlanmış olur; Bölümün devamı (m.1301'den itibaren kurtarma
+// sözleşmesinin hakkaniyet denetimi, kurtarma ücretinin şartları ve "no
+// cure, no pay" ilkesi dahil, m.1319'a kadar) ileriki bir batch'te ele
+// alınacak olup, kitabın devamında henüz kapsanmamış çok sayıda Kısım
+// (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin
+// Özel Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu
+// dosya yalnızca yukarıda sayılan m.931-1300 aralığını kapsar ve ileriki
+// batch'ler, m.1301'den itibaren yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2351,6 +2389,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "Deniz Kazaları: Müşterek Avarya",
   "Deniz Kazaları: Çatma",
+  "Deniz Kazaları: Kurtarma",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -2559,6 +2598,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Çatma",
   "catmada-kaptanin-yardim-gorevi-saklanan-hukumler-ve-zamanasimi-ttk-1295-1297":
     "Deniz Kazaları: Çatma",
+  "kurtarma-faaliyetinin-tanimi-ve-kapsami-ttk-1298": "Deniz Kazaları: Kurtarma",
+  "kurtarmada-diger-haller-ve-sozlesme-yapma-yetkisi-ttk-1299-1300":
+    "Deniz Kazaları: Kurtarma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
