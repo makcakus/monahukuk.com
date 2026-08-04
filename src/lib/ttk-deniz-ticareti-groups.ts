@@ -2073,6 +2073,39 @@
 // Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1273 aralığını
 // kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
+//
+// Kırk altıncı batch, "Birinci Bölüm: Müşterek Avarya"nın "B) Borçlular ve
+// teminat" alt başlığını (m.1274-1277) baştan sona ve eksiksiz kapsar: "I.
+// Garame paylarının borçluları" (m.1274) - garame paylarının üç kişisel
+// borçlusunu (müşterek avarya hareketinin meydana geldiği andaki donatan,
+// navlunun boşaltma tarihindeki alacaklısı ve diğer eşyanın boşaltma
+// tarihindeki maliki), m.1274/1; ve garameye girecek eşyanın gönderileninin,
+// teslim alırken garame payı düştüğünü bilmesi hâlinde eşyanın teslim
+// zamanındaki değerine kadar şahsen sorumlu olmasını, m.1274/2 - ve "II.
+// Alacaklıların rehin hakları - 1. Genel olarak" (m.1275) - alacaklıların
+// gemi üzerinde gemi alacaklısı hakkına, garameye girecek eşya üzerinde TMK
+// m.950-953 uyarınca hapis hakkına ve navlun üzerinde TMK m.954-961 uyarınca
+// alacak rehnine sahip olmasını - kapsamıştır. Bu batch ayrıca "2. Gemiye
+// düşen garame payı için teminat" (m.1276) - geminin, zararın tespit ve
+// paylaştırılacağı limandan (m.1279) ayrılabilmesi için gemiye düşen garame
+// paylarına karşılık yükle ilgililere teminat gösterilmesi zorunluluğunu -
+// ve "3. Hapis hakkının kullanılması" (m.1277) - kaptanın, garame payları
+// ödenmedikçe veya m.1201 gereğince teminat gösterilmedikçe garameye
+// iştirak edecek eşyayı teslim edememesini ve ederse şahsen sorumlu
+// tutulmasını, m.1277/1; donatanın talimatı hâlinde m.1089/2-3'ün
+// uygulanmasını, m.1277/2; ve alacaklıların garameye giren eşya üzerindeki
+// hapis hakkının, alacaklılar adına taşıyan tarafından m.1201 hükümlerine
+// göre kullanılmasını, m.1277/3 - kapsamıştır. BU BATCH İLE "B) BORÇLULAR
+// VE TEMİNAT" (m.1274-1277) EKSİKSİZ TAMAMLANMIŞ olur. Birinci Bölüm
+// "Müşterek Avarya" bundan sonra "C) Dispeç" (m.1278'den itibaren - dispeç
+// nedir, kimin yaptıracağı, dispeççi ve dispeç raporuna itiraz/onay
+// süreçlerinin usulü) ile devam edecek, ardından "İkinci Bölüm: Çatma" ve
+// "Üçüncü Bölüm: Kurtarma" izleyecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1277 aralığını kapsar ve ileriki batch'ler, "C) Dispeç"ten itibaren
+// yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2280,6 +2313,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "musterek-avaryanin-tanimi-ttk-1272": "Deniz Kazaları: Müşterek Avarya",
   "musterek-avaryada-uygulanacak-kurallar-ttk-1273":
+    "Deniz Kazaları: Müşterek Avarya",
+  "musterek-avarya-garame-paylarinin-borclulari-ttk-1274":
+    "Deniz Kazaları: Müşterek Avarya",
+  "musterek-avaryada-teminat-ve-hapis-hakkinin-kullanilmasi-ttk-1276-1277":
     "Deniz Kazaları: Müşterek Avarya",
 };
 
