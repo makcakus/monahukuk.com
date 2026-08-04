@@ -1763,6 +1763,53 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1256 aralığını kapsar ve ileriki batch'ler yeni slug
 // eşlemeleriyle devam edecektir.
+//
+// Otuzsekizinci batch, "II. Fiilî taşıyanın sorumluluğu" (m.1257), "III.
+// Taşıma süresi" (m.1258) ve "IV. Zorunlu sigorta" (m.1259) başlıklarını
+// kapsar. "II. Fiilî taşıyanın sorumluluğu" - taşımanın tamamının veya bir
+// kısmının bir fiilî taşıyana bırakılmış olmasının taşıyanın taşımanın
+// tamamından sorumlu kalmaya devam etmesini etkilememesi ve fiilî taşıyanın
+// da kendisi tarafından yapılan bölüm için sorumlu olması, m.1257/1;
+// taşıyanın, taşımanın fiilî taşıyan tarafından yapıldığı hâllerde fiilî
+// taşıyanın kusurundan ve onun adamlarının görevlerini yerine getirdikleri
+// sırada işledikleri kusurdan sorumlu olması, m.1257/2; taşıyanın kanunen
+// kendisine yükletilmeyen bir borç veya yükümlülüğü üstlenmesi ya da
+// tanınan bir haktan vazgeçmesi sonucunu doğuran özel anlaşmaların, açık
+// ve yazılı kabul olmadıkça fiilî taşıyanı bağlamaması, m.1257/3; taşıyan
+// ile fiilî taşıyanın birlikte sorumlu oldukları takdirde ve ölçüde
+// müteselsil sorumlu olmaları, m.1257/4; ve bu madde hükümlerinin taşıyan
+// ile fiilî taşıyan arasındaki rücu ilişkisini etkilememesi, m.1257/5 -
+// kargo bağlamındaki m.1191 ile büyük ölçüde paralel bir yapı kurarak -
+// kapsanmıştır. Bu batch ayrıca "III. Taşıma süresi" - yolcu ve kabin
+// bagajı bakımından, liman tesisinde bulunulan süre hariç olmak üzere
+// gemide bulunulan/gemiye alınan/gemiden çıkartılan süre ile ücretin
+// taşıma ücretine dahil olması veya aracın taşıyanca tahsis edilmiş
+// olması şartıyla su üzerinde yapılan ek taşıma süresi, kabin bagajı
+// bakımından ayrıca, bagaj taşıyana teslim edilmiş olup henüz geri
+// verilmemişse liman tesisinde geçirilen sürenin de taşıma süresine
+// dahil olması, ve diğer bagaj bakımından taşıyanca teslim alınmasından
+// yolcuya teslimine kadar geçen basit sürenin taşıma süresi sayılması,
+// m.1258 - ve "IV. Zorunlu sigorta" - onikiden fazla yolcu taşımak için
+// ruhsat almış bir gemi ile yolcu taşındığında taşımanın tamamını veya
+// bir kısmını üstlenen veya gerçekleştiren bütün taşıyanların yolcuların
+// ölüm veya yaralanmasından doğabilecek sorumluluklarına karşı sigorta
+// yaptırma zorunluluğu, uluslararası sefer ruhsatlı gemilerde asgari
+// 250.000 Özel Çekme Hakkı ve diğer gemilerde asgari 100.000 Özel Çekme
+// Hakkı teminat sınırı (4/7/2024-7519/20 md. ile değişik), ve bu şartları
+// yerine getirmeyen geminin yola çıkmasına izin verilmemesi, m.1259 -
+// kapsanmıştır. BU BATCH İLE "II. FİİLÎ TAŞIYANIN SORUMLULUĞU", "III.
+// TAŞIMA SÜRESİ" ve "IV. ZORUNLU SİGORTA" (m.1257-1259) İLK MADDESİNDEN
+// SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur. Beşinci Bölüm bundan
+// sonra "V) Değerli eşya" (m.1260'tan itibaren - yolcunun beraberinde
+// taşıdığı nakit, mücevher ve sanat eseri gibi değerli eşyaya ilişkin
+// özel kurallar) ile ve bu Bölümü tamamlayacak sorumluluk sınırlama ve
+// usul hükümleriyle (m.1261-1265) devam edecek olup, kitabın devamında
+// henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma, Kurtarma,
+// Müşterek Avarya -, Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek
+// şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1259
+// aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
+// edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1941,6 +1988,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "gemi-kazasi-nedeniyle-olum-yaralanma-ve-bagaj-sorumlulugu-ttk-1256":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "gemi-kazasi-tanimi-ve-sorumluluk-hukmunun-sinirlari-ttk-1256-tanimlar":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "fiili-tasiyanin-yolcu-tasimasindaki-sorumlulugu-ttk-1257":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcu-tasimasinda-tasima-suresi-ve-zorunlu-sigorta-ttk-1258":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
