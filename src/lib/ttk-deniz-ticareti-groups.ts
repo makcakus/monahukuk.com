@@ -2366,6 +2366,54 @@
 // Özel Hükümler dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu
 // dosya yalnızca yukarıda sayılan m.931-1300 aralığını kapsar ve ileriki
 // batch'ler, m.1301'den itibaren yeni slug eşlemeleriyle devam edecektir.
+//
+// ElliDördüncü batch, "Üçüncü Bölüm: Kurtarma"nın devamını iki yazıyla
+// işler. İlk yazı, "III- Kurtarma sözleşmesi" alt başlığının kalan iki
+// maddesini tamamlar: "2. Sözleşmenin uyarlanması veya iptali" başlıklı
+// m.1301 -kurtarma sözleşmesinin yanlış yönlendirme veya tehlikenin etkisi
+// altında yapılmış olması VE (kabul edilen şartların hak ve nasafet
+// ilkelerine aykırı bulunması YA DA kurtarma ücretinin yapılan hizmetlerle
+// aşırı oransız olması) hâllerinde, istem üzerine mahkemece uyarlanabilmesi
+// veya iptal edilebilmesi- ve "3. Emredici hükümler" başlıklı m.1302 -Bölüm
+// hükümlerinin kural olarak sözleşmeyle değiştirilebilir olması (f.1), buna
+// karşılık sözleşmenin uyarlanması/iptaline ve çevre zararını önleme özen
+// yükümlülüğüne ilişkin hükümlerin emredici kalması (f.2). Bu yazı ile
+// "III- Kurtarma sözleşmesi" alt başlığı (m.1300-1302) tamamlanmış olur.
+// İkinci yazı ise "IV- Tarafların yükümlülükleri" başlıklı m.1303 -kurtaranın
+// malike karşı özenli faaliyet, çevre zararını önleme özeni, başka
+// kurtaranlardan yardım isteme ve makul istem hâlinde başka kurtaranların
+// müdahalesini ücretini değiştirmeden kabul etme yükümlülükleri (f.1);
+// malikin/kaptanın kurtarana karşı işbirliği, çevre zararını önleme özeni ve
+// emniyete alınan aracı/eşyayı teslim alma yükümlülükleri (f.2); ve "çevre
+// zararı" tanımı (f.3)- ile "V- Kurtaranın hakları - 1. Kurtarma ücreti -
+// a) İlkeler" başlıklı m.1304'ü -faydalı sonuç veren her türlü kurtarma
+// faaliyetinin ücret istemine hak kazandırması (f.1), faydalı sonuç
+// vermeyen faaliyet için Bölümde aksi yazılı olmadıkça ücret isteme hakkı
+// doğmaması yani "no cure, no pay" ilkesinin kanuni ifadesi (f.2) ve
+// kurtarma ücretinin kurtarılan eşyanın kurtarılma sonrasındaki değerini
+// geçememesi (f.3)- açar. Araştırmada, m.1301 bakımından maddenin tam
+// metnini alıntılayarak uygulayan Yargıtay 11. Hukuk Dairesi E.2021/1390
+// K.2021/2031 kararı (m.1300 ile birlikte ele alınmıştı, ancak somut olayda
+// mahkeme gerçek bir tehlikenin bulunmadığı gerekçesiyle faaliyeti çekme
+// hizmeti saymış olup uyarlama/iptal mekanizmasının bizzat işletildiği bir
+// karara rastlanmamıştır) tespit edilmiş; m.1302'ye ve m.1303'e doğrudan ve
+// pinpoint biçimde dayanan bir karara rastlanmadığı dürüstçe belirtilmiştir.
+// m.1304 bakımından ise, faydalı sonuç ilkesini doğrudan uygulayan çok
+// sayıda karar (Nil-K/Mercy God gemisi hakkında Yargıtay 11. Hukuk Dairesi
+// E.2020/272 K.2020/4974 ve devamındaki E.2021/6153 K.2022/7431; Abane
+// gemisi hakkında E.2024/4398 K.2025/2802; İnce Karadeniz gemisi hakkında
+// E.2023/517 K.2024/2511; ve faydalı sonuç vermeyen -"semeresiz kalan"-
+// faaliyet için eski TTK döneminde dahi ücret reddedilen E.2013/12749
+// K.2014/2130) tespit edilmiştir. Bu batch ile "Üçüncü Bölüm: Kurtarma"nın
+// m.1301-1304 aralığı tamamlanmış olur; Bölümün devamı (m.1305'ten
+// itibaren, muhtemelen "b) Kurtarma ücretinin belirlenmesi" başlığı ve
+// kurtarma ücretinin hesaplanma kriterleri dahil, m.1319'a kadar) ileriki
+// bir batch'te ele alınacak olup, kitabın devamında henüz kapsanmamış çok
+// sayıda Kısım (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1304 aralığını
+// kapsar ve ileriki batch'ler, m.1305'ten itibaren yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2600,6 +2648,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Çatma",
   "kurtarma-faaliyetinin-tanimi-ve-kapsami-ttk-1298": "Deniz Kazaları: Kurtarma",
   "kurtarmada-diger-haller-ve-sozlesme-yapma-yetkisi-ttk-1299-1300":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarma-sozlesmesinin-uyarlanmasi-iptali-ve-emredici-hukumler-ttk-1301-1302":
+    "Deniz Kazaları: Kurtarma",
+  "kurtarmada-taraflarin-yukumlulukleri-ve-kurtarma-ucreti-ilkeleri-ttk-1303-1304":
     "Deniz Kazaları: Kurtarma",
 };
 
