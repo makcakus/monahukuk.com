@@ -2037,6 +2037,42 @@
 // yalnızca yukarıda sayılan m.931-1271 aralığını kapsar ve ileriki
 // batch'ler, Beşinci Kısım "Deniz Kazaları"ndan itibaren yeni bir dosyada
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Kırk beşinci batch, Beşinci Kısım "Deniz Kazaları"nın "Birinci Bölüm:
+// Müşterek Avarya"sını açar ve bu Bölümün "A) Genel hükümler" alt başlığını
+// (m.1272-1273) baştan sona ve eksiksiz kapsar: "I. Tanım" (m.1272) -
+// müşterek avarya hareketinin dört kurucu unsurunu (ortak bir deniz
+// sergüzeştine atılmış olan gemiyi, yükü, diğer eşyayı ve navlunu birlikte
+// tehdit eden bir tehlike; olağanüstü bir fedakârlık veya gider; bile bile
+// hareket edilmesi; makul bir hareket tarzı oluşturma) ve bu hareketin
+// doğrudan sonucu olan zarar/giderlerin müşterek avarya sayılmasını,
+// m.1272/1; müşterek avaryadan sayılacak bir giderin yapılmaması için göze
+// alınan her fazla giderin, önlenmiş olan giderin tutarına kadar garameye
+// girmesini, m.1272/2; ve müşterek avarya garamesine giren zarar ve
+// giderlerin gemi, yük, navlun ve diğer eşya arasında Bölüm hükümlerine
+// göre paylaşılmasını, m.1272/3 - ve "II. Uygulanacak kurallar" (m.1273) -
+// taraflarca başka bir husus kararlaştırılmamış olduğu takdirde müşterek
+// avarya garamesinin, Milletlerarası Denizcilik Komitesi tarafından
+// hazırlanıp Türkçe'ye çevrilip yayımlanmış en son tarihli York-Anvers
+// Kurallarına tabi olmasını, m.1273/1; ve York-Anvers Kurallarının
+// çevirisinin Sigortacılık Genel Müdürlüğü ile Ulaştırma, Denizcilik ve
+// Haberleşme Bakanlığı tarafından kurulacak bir ihtisas komitesince
+// hazırlanıp orijinal metinle birlikte Resmî Gazetede yayımlanmasını ve
+// York-Anvers Kurallarındaki değişikliklerin de aynı yöntemle resen veya
+// başvuru üzerine yayımlanmasını, m.1273/2 - kapsamıştır. Dizi, müşterek
+// avaryanın daha önce m.1196, m.1199 ve m.1244 yazılarında yalnızca bir
+// istisna/atıf noktası olarak dolaylı biçimde geçtiğini, bu batch ile ilk
+// kez doğrudan ve kendi başına tanımlandığını vurgular. BU BATCH İLE "A)
+// GENEL HÜKÜMLER" (m.1272-1273) EKSİKSİZ TAMAMLANMIŞ olur ve bununla
+// birlikte Beşinci Kısım "Deniz Kazaları" resmen AÇILMIŞ olur. Birinci
+// Bölüm "Müşterek Avarya" bundan sonra "B) Borçlular ve teminat" (m.1274
+// vd. - müşterek avarya garame paylarının kişisel borçluları ve bu borcun
+// teminatı) ile devam edecek, ardından "İkinci Bölüm: Çatma" ve "Üçüncü
+// Bölüm: Kurtarma" izleyecek olup, kitabın devamında henüz kapsanmamış
+// çok sayıda Kısım (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve
+// Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1273 aralığını
+// kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2058,6 +2094,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Taşıtanın Sorumluluğu ve Sözleşmenin Sona Ermesi",
   "Denizde Taşıma Senetleri: Konişmento",
   "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "Deniz Kazaları: Müşterek Avarya",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -2241,6 +2278,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "yolcu-tasimasinda-zamanasimi-ttk-1270": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "yolcu-tasimasinda-emredici-hukumler-ttk-1271":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "musterek-avaryanin-tanimi-ttk-1272": "Deniz Kazaları: Müşterek Avarya",
+  "musterek-avaryada-uygulanacak-kurallar-ttk-1273":
+    "Deniz Kazaları: Müşterek Avarya",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
