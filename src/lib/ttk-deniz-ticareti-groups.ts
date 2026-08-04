@@ -1878,6 +1878,46 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1263
 // aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Kırk birinci batch, "IX) Sorumluluk sınırlarına ilişkin ortak
+// hükümler" (m.1264) ve "X) Taşıyanın adamlarının savunmaları ve
+// sorumluluk sınırları" (m.1265) başlıklarını kapsar. m.1264, iki
+// fıkra hâlinde: taşıyan ve yolcunun, 1262 ve 1263 üncü maddelerde
+// öngörülenden daha yüksek sorumluluk sınırlarını aralarında açıkça ve
+// yazılı olarak kararlaştırabilmelerini -m.1260'ın değerli eşya
+// hükmünün önceden atıfta bulunduğu, m.1186/8'deki tarafların anlaşmayla
+// sınırları yükseltme hakkıyla paralel ama ondan daha ağır bir formalite
+// (açıklık ve yazılılık) şartı taşıyan tek yönlü mekanizmayı-, m.1264/1;
+// ve 1262 ve 1263 üncü maddelerdeki sorumluluk sınırlarına faiz
+// alacakları ile yargılama giderlerinin dâhil olmadığını, m.1264/2 -
+// düzenlemiştir. m.1265 ise, taşıyanın veya fiilî taşıyanın adamları
+// aleyhine bu Bölümde düzenlenen zararlar dolayısıyla dava açılması
+// hâlinde, bu kişilerin, zararın görevlerini yerine getirdikleri sırada
+// meydana gelmiş olduğunu ispatlamak şartıyla, taşıyana ve fiilî
+// taşıyana bu Bölümde tanınan savunma imkânlarından ve sorumluluk
+// sınırlarından yararlanabilmelerini -kargo bağlamındaki m.1190/2'nin
+// "görevi veya yetkisi sınırları içinde hareket ettiğini ispat etmek"
+// kaydıyla adamlara tanıdığı savunma taşınabilirliği mekanizmasıyla
+// yapısal olarak yakından paralel bir kuralı- düzenlemiştir. BU BATCH
+// İLE "IX) SORUMLULUK SINIRLARINA İLİŞKİN ORTAK HÜKÜMLER" VE "X)
+// TAŞIYANIN ADAMLARININ SAVUNMALARI VE SORUMLULUK SINIRLARI" (m.1264-
+// 1265) EKSİKSİZ TAMAMLANMIŞ olur; bununla birlikte "H) Yolcunun
+// uğradığı zararlardan sorumluluk" (m.1256-1265) da İLK MADDESİNDEN SON
+// MADDESİNE KADAR TAMAMEN TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra
+// "XI) İstemlerin birleşmesi" (m.1266) ve "XII) Sorumluluğu
+// sınırlandırma hakkının kaybı" (m.1267 - kasıtlı/pervasız davranış
+// nedeniyle sorumluluk sınırından yararlanamama standardı) ile devam
+// edecek, ardından "XIII) İstemlerin dayanağı" (m.1268), "XIV) Bagajın
+// zıyaı veya hasara uğradığının bildirimi" (m.1269), "XV) Zamanaşımı"
+// (m.1270) ve "XVI) Emredici hükümler" (m.1271) ile Beşinci Bölüm
+// "Deniz Yoluyla Yolcu Taşıma Sözleşmesi" tamamen kapanacak, bunun
+// ardından kitap Beşinci Kısım "Deniz Kazaları"na geçecektir; kitabın
+// devamında henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma,
+// Kurtarma, Müşterek Avarya -, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda
+// sayılan m.931-1265 aralığını kapsar ve ileriki batch'ler yeni slug
+// eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2068,6 +2108,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "bedensel-zarardan-dogan-sorumlulugun-siniri-ttk-1262":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "bagaj-ve-araclarin-zayi-veya-hasarindan-dogan-sorumlulugun-siniri-ttk-1263":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "sorumluluk-sinirlarina-iliskin-ortak-hukumler-ttk-1264":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "tasiyanin-adamlarinin-savunmalari-ve-sorumluluk-sinirlari-ttk-1265":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
