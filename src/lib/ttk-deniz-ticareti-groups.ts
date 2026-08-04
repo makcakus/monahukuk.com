@@ -2106,6 +2106,33 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1277 aralığını kapsar ve ileriki batch'ler, "C) Dispeç"ten itibaren
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Kırk yedinci batch, "C) Dispeç"in "I. Genel olarak" kısmını (m.1278-1280)
+// TAMAMEN kapsar: "1. Yaptırma yükümlülüğü" (m.1278) - donatanın dispeçi
+// gecikmeksizin yaptırma yükümlülüğü ve ihlalinde ilgililerin her birine
+// karşı sorumluluğu, m.1278/1; dispeç süresinde yaptırılmazsa sigortacı
+// dahil ilgililerden herhangi birinin bunu isteme ve yaptırma yetkisi,
+// m.1278/2; dispeççinin olayın müşterek avarya sayılmayacağı gerekçesiyle
+// istemi reddetmesi hâlinde m.1279'daki yer mahkemesine başvuru ve basit
+// yargılama usulü, m.1278/3 - "2. Yapılacağı yer" (m.1279) - zararın
+// tespit ve paylaştırılmasının varma yerinde, eğer buraya varılmazsa
+// yolculuğun bittiği limanda yapılacağı - ve "3. Dispeççi" (m.1280) -
+// dispeççinin ilgililerin oybirliğiyle veya oybirliği sağlanamazsa
+// dispeçin yapılacağı yer mahkemesince atanması, m.1280/1; ilgililerin
+// belge sağlama yükümlülüğü ile mahkemenin belge ibrazına karar verme
+// yetkisi, m.1280/2-3; dispeççinin dispeç örneği verme yükümlülüğü,
+// m.1280/4 - kapsamıştır. BU BATCH İLE "C) DİSPEÇ - I. GENEL OLARAK"
+// (m.1278-1280) EKSİKSİZ TAMAMLANMIŞ olur. Birinci Bölüm "Müşterek
+// Avarya" bundan sonra "C) Dispeç"in "II. Dispeçin onaylanmasını isteme
+// hakkı ve dispeçe itiraz" alt kısmıyla (m.1281'den itibaren - dispeç
+// raporuna itiraz ve onay usulü, çekişmesiz yargı işi niteliği) devam
+// edecek, ardından "İkinci Bölüm: Çatma" ve "Üçüncü Bölüm: Kurtarma"
+// izleyecek olup, kitabın devamında henüz kapsanmamış çok sayıda Kısım
+// (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî İcraya
+// İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1280 aralığını
+// kapsar ve ileriki batch'ler, m.1281'den itibaren yeni slug
+// eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2317,6 +2344,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "musterek-avarya-garame-paylarinin-borclulari-ttk-1274":
     "Deniz Kazaları: Müşterek Avarya",
   "musterek-avaryada-teminat-ve-hapis-hakkinin-kullanilmasi-ttk-1276-1277":
+    "Deniz Kazaları: Müşterek Avarya",
+  "dispecin-yaptirilmasi-yukumlulugu-ttk-1278": "Deniz Kazaları: Müşterek Avarya",
+  "dispecin-yapilacagi-yer-ve-dispecci-ttk-1279-1280":
     "Deniz Kazaları: Müşterek Avarya",
 };
 
