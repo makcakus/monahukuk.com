@@ -2203,6 +2203,49 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1285 aralığını kapsar ve ileriki batch'ler, "İkinci Bölüm: Çatma"nın
 // açılışından (m.1286'dan) itibaren yeni slug eşlemeleriyle devam edecektir.
+//
+// Ellinci batch, Beşinci Kısım "Deniz Kazaları"nın "İkinci Bölüm: Çatma"sını
+// (m.1286-1297) açar ve bu Bölümün ilk dört maddesini iki ayrı yazıyla kapsar.
+// İlk yazı "A) Uygulama alanı" (m.1286) ve "B) Kusursuz çatma"yı (m.1287)
+// kapsar: çatmanın -iki veya daha çok geminin çarpışmasının- tanımı ve Bölüm
+// hükümlerinin gemilere, gemilerde bulunan insanlara veya eşyaya verilen
+// zararın tazminiyle sınırlı kapsamı, m.1286/1; çatma olmaksızın da -bir
+// manevra veya seyir kuralı ihlaliyle- verilen zararlara çatma hükümlerinin
+// uygulanacağı yönündeki genişletici hüküm, m.1286/2; çatmanın umulmayan bir
+// hâl veya mücbir sebep yüzünden meydana gelmiş ya da nedeninin
+// anlaşılamamış olması hâlinde herkesin kendi zararına katlanması kuralı,
+// m.1287/1; ve bu kuralın gemilerin hepsi veya biri kaza anında demirdeyken
+// meydana gelen hâllere de uygulanması, m.1287/2. İkinci yazı ise "C)
+// Kusurlu çatma"nın "I. Bir tarafın kusuru" (m.1288) ve "II. Ortak kusur - 1.
+// Eşya zararı" (m.1289) alt başlıklarını kapsar: çatmanın gemilerden birinin
+// donatanının veya gemi adamlarının kusurundan ileri gelmesi hâlinde zararın
+// o geminin donatanınca tazmini, m.1288; çatmanın çarpışan gemilerin
+// donatanlarının veya gemi adamlarının kusurlarından ileri gelmesi hâlinde
+// donatanların kusurlarının ağırlığı -belirlenemezse veya eşitse eşit- oranında
+// sorumlu olması ve bu sorumluluğun üçüncü kişilere karşı müteselsil
+// olmaması, m.1289/1; ve çatmanın gemi adamlarının geminin sevkine veya
+// teknik yönetimine ilişkin bir hareketinin sonucu olması hâlinde donatanın
+// kendi yükünün ilgililerine karşı m.1062/1 ve m.1180/1 uyarınca sorumsuzluğu
+// ile bu sorumsuzluğun yabancı hukuka göre alınan tazminatlar bakımından
+// doğurduğu çok kademeli rücu zinciri, m.1289/2 - kapsanmıştır. Araştırmada,
+// çatmanın deniz ticaretinin en sık dava konusu olan kurumlarından biri
+// olduğu doğrulanmış; m.1286'nın uygulama alanının sınırını (bir mavnanın
+// kıyı yapısına çarpmasının çatma sayılmayacağını) doğrudan test eden bir
+// Yargıtay 11. Hukuk Dairesi kararı ile m.1288 ve m.1289/1'in kusur oranına
+// göre müteselsil olmayan sorumluluk ilkesini somut olarak uygulayan iki
+// karar (biri tek taraflı kusur, diğeri -Reina 1/Ankara Feribotu davası- %60/
+// %40 kusur oranlı müşterek kusurlu çatma) tespit edilmiştir; m.1287
+// (kusursuz çatma) ve m.1289/2 (navigasyon hatası rücu zinciri) bakımından
+// ise pinpoint bir içtihada rastlanmadığı dürüstçe belirtilmiştir. BU BATCH
+// İLE "İKİNCİ BÖLÜM: ÇATMA"NIN İLK DÖRT MADDESİ (m.1286-1289) TAMAMLANMIŞ
+// olur. "İkinci Bölüm: Çatma" bundan sonra "2. Can ve beden zararı" (m.1290)
+// ile devam edecek, ardından Bölümün geri kalanı (m.1291-1297) ve "Üçüncü
+// Bölüm: Kurtarma" izleyecek olup, kitabın devamında henüz kapsanmamış çok
+// sayıda Kısım (Gemi Alacakları, Sorumluluğun Sınırlandırılması ve Cebrî
+// İcraya İlişkin Özel Hükümler dahil) m.1400'e kadar sürecek şekilde
+// bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1289 aralığını
+// kapsar ve ileriki batch'ler, m.1290'dan itibaren yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2225,6 +2268,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Denizde Taşıma Senetleri: Konişmento",
   "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "Deniz Kazaları: Müşterek Avarya",
+  "Deniz Kazaları: Çatma",
 ];
 
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
@@ -2422,6 +2466,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "dispecin-onaylanmasi-ve-onay-kararinin-ilam-niteligi-ttk-1282-1284":
     "Deniz Kazaları: Müşterek Avarya",
   "musterek-avaryada-zamanasimi-ttk-1285": "Deniz Kazaları: Müşterek Avarya",
+  "catmanin-uygulama-alani-ve-kusursuz-catma-ttk-1286-1287":
+    "Deniz Kazaları: Çatma",
+  "kusurlu-catma-tek-tarafin-kusuru-ve-ortak-kusur-ttk-1288-1289":
+    "Deniz Kazaları: Çatma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
