@@ -1810,6 +1810,31 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1259
 // aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Otuzdokuzuncu batch, "V) Değerli eşya" (m.1260) ve "VI) Birlikte kusur"
+// (m.1261) başlıklarını kapsar. "V) Değerli eşya" - taşıyanın, yolcuya ait
+// para, kıymetli evrak, altın, gümüş, mücevher, sanat eseri, süs eşyası ve
+// diğer değerli eşyanın zıyaından veya hasarından kural olarak sorumlu
+// olmaması, meğerki bu tür eşya taşıyana saklaması için verilmiş olsun; bu
+// durumda taşıyanın, 1264 üncü maddenin birinci fıkrası uyarınca daha
+// yüksek bir sorumluluk sınırı kararlaştırılmamışsa, 1263 üncü maddenin
+// üçüncü fıkrasında öngörülen sınırlar içinde sorumlu olması, m.1260 -
+// kapsanmıştır. Bu batch ayrıca "VI) Birlikte kusur" - taşıyanın, yolcunun
+// ölümüne, yaralanmasına, bagajının zayi olmasına veya hasara uğramasına
+// yolcunun kastının veya ihmalinin sebebiyet verdiğini ya da bunda
+// etkisinin bulunduğunu ispat etmesi hâlinde, mahkemenin taşıyanın kısmen
+// veya tamamen sorumlu olmadığına karar verebilmesi, ispat yükünün
+// taşıyanda olması, m.1261 - başlığını da kapsamıştır. BU BATCH İLE "V)
+// DEĞERLİ EŞYA" VE "VI) BİRLİKTE KUSUR" (m.1260-1261) EKSİKSİZ
+// TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra "VII) Bedensel zarardan
+// doğan sorumluluğun sınırı" (m.1262) ve "VIII) Bagaj ve araçların zıyaı
+// veya hasarından doğan sorumluluğun sınırı" (m.1263) ile devam edecek
+// olup, kitabın devamında henüz kapsanmamış çok sayıda Kısım (Deniz
+// Kazaları - Çatma, Kurtarma, Müşterek Avarya -, Gemi Alacakları,
+// Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler
+// dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1261 aralığını kapsar ve ileriki batch'ler yeni
+// slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1992,6 +2017,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "fiili-tasiyanin-yolcu-tasimasindaki-sorumlulugu-ttk-1257":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "yolcu-tasimasinda-tasima-suresi-ve-zorunlu-sigorta-ttk-1258":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcunun-degerli-esyasindan-tasiyanin-sorumlulugu-ttk-1260":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "yolcunun-birlikte-kusuru-ve-sorumlulugun-azaltilmasi-ttk-1261":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
