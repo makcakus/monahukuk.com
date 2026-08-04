@@ -2133,6 +2133,52 @@
 // bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1280 aralığını
 // kapsar ve ileriki batch'ler, m.1281'den itibaren yeni slug
 // eşlemeleriyle devam edecektir.
+//
+// Kırk sekizinci batch, "C) Dispeç"in "II. Dispeçin onaylanmasını isteme
+// hakkı ve dispeçe itiraz" alt kısmını (m.1281-1284) TAMAMEN kapsar ve bu
+// alt kısmı iki ayrı yazıyla işler. İlk yazı, tek başına beş fıkra içeren
+// m.1281'i ("1. Duruşma") baştan sona kapsar: sigortacılar dâhil ilgililerin
+// dispeçin onaylanmasını isteme veya avarya türüne ya da hesaplarına itiraz
+// etme hakkı, m.1281/1; dilekçede duruşmaya çağrılacak ilgililerin ad ve
+// soyadlarının bildirilmesi, m.1281/2; mahkemenin dispeççiden belge istemesi
+// ve gerekirse ibraz emri verme yetkisi, m.1281/3; ilgililerin hepsinin
+// duruşmaya çağrılması, çağrının üç unsuru (belgelerin incelenebileceği,
+// önceden de itiraz edilebileceği, gelinmezse onay verilmiş sayılacağı) ve
+// onbeş günlük tebliğ süresi, m.1281/4; ve itirazın en geç ilk celsede,
+// hiçbir tereddüde yer bırakmayacak şekilde açık ve etraflı yapılması
+// zorunluluğu, haklı sebeple hâkimin bir defalık ek süre verme yetkisi ve bu
+// koşullara uyulmamasının itirazın yapılmamış sayılması yaptırımı, m.1281/5.
+// İkinci yazı ise m.1282, m.1283 ve m.1284'ü kapsar: itirazsız dispecin
+// doğrudan onaylanması, itiraz üzerine ilgililerin dinlenmesi ve itirazın
+// yerinde görülmesi veya başka surette anlaşmaya varılması hâlinde dispecin
+// düzeltilerek onaylanması, m.1282/1; itirazın hemen karara bağlanamaması
+// hâlinde itirazın kapsamı dışındaki kısımların ayrı kararla onaylanıp
+// itiraz edilen kısım için duruşmaya devam olunması (kısmi onay), m.1282/2;
+// m.1281 ve m.1282 hükümleri saklı kalmak kaydıyla basit yargılama usulünün
+// uygulanması, m.1283; ve dispeç onama kararının kesinleşmesiyle -itiraza
+// uğramamış bir raporda kesinleşmeden önce dahi- alacakların ödetilmesi için
+// ilam niteliği kazanması ile bu ilamın usulüne göre duruşmaya çağrılmamış
+// ilgililer aleyhine hiçbir sonuç doğurmaması, m.1284. Dizi, bu batch'te
+// önceki dört batch'te (m.1273, m.1274-1277, m.1278, m.1279-1280) gözlemlenen
+// "Yargıtay içtihadı seyrek kalır" örüntüsünden KISMEN farklı bir tabloyla
+// karşılaşmış; m.1281'e pinpoint atıfla tam metnini alıntılayan güncel bir
+// Sakarya Bölge Adliye Mahkemesi kararı ile m.1284'ün ilam niteliği sonucunu
+// bir dava şartı (hukuki yarar) meselesine bağlayan, karşı oylu bir Yargıtay
+// 11. Hukuk Dairesi karar çifti tespit etmiştir. BU BATCH İLE "C) DİSPEÇ"
+// BAŞLIĞI (m.1278-1284) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ
+// TAMAMLANMIŞ olur. Birinci Bölüm "Müşterek Avarya"dan geriye yalnızca "D)
+// Zamanaşımı" (m.1285 - müşterek avarya garame payı alacaklarının bir yıllık
+// zamanaşımı süresi ve bu sürenin geminin m.1279'daki yere vardığı tarihten
+// itibaren işlemeye başlaması) kalmakta olup, bu madde bir sonraki batch'in
+// konusu olacak ve bununla birlikte "Birinci Bölüm: Müşterek Avarya"
+// (m.1272-1285) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ
+// olacaktır. Beşinci Kitap "Deniz Ticareti" bundan sonra "İkinci Bölüm:
+// Çatma" ve "Üçüncü Bölüm: Kurtarma" ile devam edecek olup, kitabın
+// devamında henüz kapsanmamış çok sayıda Kısım (Gemi Alacakları,
+// Sorumluluğun Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler
+// dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
+// yukarıda sayılan m.931-1284 aralığını kapsar ve ileriki batch'ler,
+// m.1285'ten itibaren yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2347,6 +2393,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Kazaları: Müşterek Avarya",
   "dispecin-yaptirilmasi-yukumlulugu-ttk-1278": "Deniz Kazaları: Müşterek Avarya",
   "dispecin-yapilacagi-yer-ve-dispecci-ttk-1279-1280":
+    "Deniz Kazaları: Müşterek Avarya",
+  "dispece-itiraz-ve-durusma-usulu-ttk-1281": "Deniz Kazaları: Müşterek Avarya",
+  "dispecin-onaylanmasi-ve-onay-kararinin-ilam-niteligi-ttk-1282-1284":
     "Deniz Kazaları: Müşterek Avarya",
 };
 
