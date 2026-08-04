@@ -2179,6 +2179,30 @@
 // dahil) m.1400'e kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca
 // yukarıda sayılan m.931-1284 aralığını kapsar ve ileriki batch'ler,
 // m.1285'ten itibaren yeni slug eşlemeleriyle devam edecektir.
+//
+// Kırk dokuzuncu ve bu dosya bakımından son batch, "D) Zamanaşımı" başlığının
+// tamamını (m.1285) TEK bir yazıyla kapsar: müşterek avarya garame payı
+// alacaklarının bir yılda zamanaşımına uğraması, m.1285/1; ve bu sürenin
+// geminin 1279 uncu maddede belirtilen yere vardığı tarihten itibaren
+// işlemeye başlaması, m.1285/2. Madde kısa (iki fıkra) olduğundan bu yazı,
+// madde metni analizinin yanı sıra, "Birinci Bölüm: Müşterek Avarya"nın
+// TAMAMINA (A) Genel hükümler m.1272-1273, B) Borçlular ve teminat
+// m.1274-1277, C) Dispeç m.1278-1284, D) Zamanaşımı m.1285) dair geniş bir
+// SENTEZ bölümü de içerir. BU BATCH İLE "D) ZAMANAŞIMI" (m.1285) VE
+// BUNUNLA BİRLİKTE "BİRİNCİ BÖLÜM: MÜŞTEREK AVARYA" (m.1272-1285) İLK
+// MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞ olur -bu, sıradan
+// bir batch değil, binlerce yıllık bir deniz ticareti kurumunu (lex Rhodia
+// de iactu'dan York-Anvers Kuralları'na) baştan sona işleyen BÜYÜK bir
+// milestone'dur. Beşinci Kitap "Deniz Ticareti" bundan sonra "İkinci Bölüm:
+// Çatma"ya (m.1286-1297 - iki geminin çarpışmasından doğan zararın kusur
+// esasına göre paylaştırılması, müşterek avaryadaki dayanışma/paylaşım
+// rejiminden farklı bir haksız fiil/kusur sorumluluğu rejimi) geçecek,
+// ardından "Üçüncü Bölüm: Kurtarma" izleyecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1285 aralığını kapsar ve ileriki batch'ler, "İkinci Bölüm: Çatma"nın
+// açılışından (m.1286'dan) itibaren yeni slug eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2397,6 +2421,7 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "dispece-itiraz-ve-durusma-usulu-ttk-1281": "Deniz Kazaları: Müşterek Avarya",
   "dispecin-onaylanmasi-ve-onay-kararinin-ilam-niteligi-ttk-1282-1284":
     "Deniz Kazaları: Müşterek Avarya",
+  "musterek-avaryada-zamanasimi-ttk-1285": "Deniz Kazaları: Müşterek Avarya",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
