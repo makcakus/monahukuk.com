@@ -1961,6 +1961,42 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1267
 // aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Kırk üçüncü batch, "XIII) İstemlerin dayanağı" (m.1268) ve "XIV) Bagajın
+// zıyaı veya hasara uğradığının bildirimi" (m.1269) başlıklarını kapsar.
+// m.1268, tek fıkra hâlinde: yolcunun ölümünden, yaralanmasından, bagajının
+// zıyaı veya hasarından dolayı, taşıyana veya fiilî taşıyana karşı, yalnızca
+// bu Bölüm hükümleri uyarınca tazminat davası açılabilmesini -Beşinci
+// Bölüm'ün münhasır dava dayanağı niteliğini- düzenler; bu yazı, kargo
+// bağlamındaki m.1190 "Sözleşme dışı istemler" ile karşılaştırmalı olarak,
+// m.1190'ın (aynı korumaları alternatif dava sebeplerine GENİŞLETME)
+// tekniği ile m.1268'in (alternatif dava sebeplerini doğrudan FOREKLOZE
+// ETME) tekniği arasındaki yapısal farkı ele alır. m.1269 ise üç fıkra
+// hâlinde: bagajın zıyaı veya hasarının, haricen belli ise kabin bagajının
+// indirilmesinden önce/indirilirken ya da diğer bagajın tesliminden önce/
+// teslimi sırasında, haricen belli değilse bagajın indirilmesinden veya
+// tesliminden ya da teslim edilmesi gereken tarihten itibaren onbeş gün
+// içinde taşıyana veya temsilcisine yazılı olarak bildirilmesini, m.1269/1;
+// yolcu bu bildirimi yapmamışsa, aksi ispat edilene kadar, bagajın iyi
+// hâlde alındığının kabul edilmesini, m.1269/2; ve bagajın durumunun
+// teslimi sırasında bir ortak inceleme veya tespit işlemine konu olması
+// hâlinde yazılı bildirime gerek olmamasını, m.1269/3 - düzenler; bu yazı,
+// kargo bağlamındaki m.1185 bildirim rejimiyle -görünür hasarın anında
+// bildirilmesi paralelliği, gizli hasar bildirim süresindeki üç gün/onbeş
+// gün farkı, bildirim yapılmamasının sonucundaki çift karine/tek karine
+// farkı ve ortak inceleme istisnasının özdeşliği ekseninde- sistematik bir
+// karşılaştırma sunar. BU BATCH İLE "XIII) İSTEMLERİN DAYANAĞI" VE "XIV)
+// BAGAJIN ZIYAI VEYA HASARA UĞRADIĞININ BİLDİRİMİ" (m.1268-1269) EKSİKSİZ
+// TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra "XV) Zamanaşımı" (m.1270)
+// ve "XVI) Emredici hükümler" (m.1271) ile devam edecek ve bu iki maddeyle
+// Beşinci Bölüm "Deniz Yoluyla Yolcu Taşıma Sözleşmesi" tamamen kapanacak,
+// bunun ardından kitap Beşinci Kısım "Deniz Kazaları"na geçecektir;
+// kitabın devamında henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları -
+// Çatma, Kurtarma, Müşterek Avarya -, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1269 aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2158,6 +2194,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "istemlerin-birlesmesi-ttk-1266": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "sorumlulugu-sinirlandirma-hakkinin-kaybi-ttk-1267":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "istemlerin-dayanagi-ttk-1268": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "bagajin-ziyai-veya-hasarinin-bildirimi-ttk-1269":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
