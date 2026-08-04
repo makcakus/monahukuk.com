@@ -2285,6 +2285,49 @@
 // kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
 // m.931-1292 aralığını kapsar ve ileriki batch'ler, m.1293'ten itibaren
 // yeni slug eşlemeleriyle devam edecektir.
+//
+// Ellikinci ve bu dosya bakımından son batch, "İkinci Bölüm: Çatma"nın kalan
+// beş maddesini -"E) Şekil şartı yokluğu" (m.1293), "F) Karine yokluğu"
+// (m.1294), "G) Kaptanın yardım görevi ve yerine getirilmemesinden donatanın
+// sorumsuzluğu" (m.1295), "H) Saklı tutulan hükümler" (m.1296) ve "İ)
+// Zamanaşımı" (m.1297)- iki yazıyla işleyerek Bölümü İLK MADDESİNDEN SON
+// MADDESİNE KADAR EKSİKSİZ TAMAMLAR. İlk yazı m.1293-1294'ü kapsar: çatma
+// sonucu uğranılan zararın tazmini için açılacak davalar öncesinde bir ihtar
+// düzenlenmesine veya başkaca bir şekil şartının yerine getirilmesine gerek
+// olmaması, m.1293; ve çatmada kusurun saptanmasında herhangi bir karinenin
+// dikkate alınmaması, m.1294 - bu iki maddenin, çatma davalarının HIZLI
+// açılabilmesi ile kusurun TİTİZ biçimde ispatlanması gerekliliği arasındaki
+// dengeyi nasıl kurduğu vurgulanmıştır. İkinci yazı ise m.1295-1297'yi kapsar
+// ve BÜYÜK bir milestone'dur: çatmadan sonra her geminin kaptanının, kendi
+// gemisini ciddi bir tehlikeye atmadan mümkün olması şartıyla diğer gemiye,
+// gemi adamlarına ve yolculara yardımla ve kimlik bildirmekle yükümlü olması
+// ile kaptanın sadece bu yükümlülüğü ihlalinden donatanın sorumsuz olması,
+// m.1295; donatanın sorumluluğunun sınırlandırılmasına ilişkin hükümlerin ve
+// taşıma sözleşmelerinden doğan borçların saklı tutulması, m.1296; ve
+// çatmaya dayanan tazminat isteminin çatmanın meydana geldiği günden
+// başlayarak iki yılda, donatanların birbirine karşı rücu haklarının ise
+// ödemenin yapıldığı tarihten başlayarak bir yılda zamanaşımına uğraması,
+// m.1297 - kapsanmıştır ve bu maddeyle birlikte "İkinci Bölüm: Çatma"
+// (m.1286-1297) İLK MADDESİNDEN SON MADDESİNE KADAR EKSİKSİZ TAMAMLANMIŞTIR.
+// Araştırmada, m.1293, m.1295 ve m.1296 gibi dar/teknik hükümler bakımından
+// pinpoint bir içtihada rastlanmadığı; m.1294 bakımından İstanbul 17. Asliye
+// Ticaret Mahkemesi'nin (kesinleşmiş) bir kararında karine yokluğu ilkesinin
+// savunma stratejisinde doğrudan kullanıldığı; m.1297 bakımından ise -merkezi
+// bir savunma olması beklentisiyle tutarlı biçimde- daha zengin bir içtihat
+// kümesi, özellikle aynı çok taraflı çatma olayından doğan davalardan
+// birinin esastan kabul edilirken diğerinin m.1297/1 uyarınca salt
+// zamanaşımı nedeniyle reddedildiği öğretici bir İstanbul 17. Asliye Ticaret
+// Mahkemesi kararı tespit edilmiştir. BU BATCH İLE "İKİNCİ BÖLÜM: ÇATMA"
+// (m.1286-1297) TAMAMLANMIŞ olur -bu, Müşterek Avarya Bölümü'nün
+// tamamlanmasına benzer BÜYÜK bir milestone'dur. Beşinci Kısım "Deniz
+// Kazaları" bundan sonra "Üçüncü Bölüm: Kurtarma"ya (Salvage, m.1298-1319 -
+// "A) Eşya kurtarma" ile açılacak) geçecek olup, kitabın devamında henüz
+// kapsanmamış çok sayıda Kısım (Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1297 aralığını kapsar ve ileriki batch'ler, "Üçüncü Bölüm:
+// Kurtarma"nın açılışından (m.1298'den) itibaren yeni slug eşlemeleriyle
+// devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -2512,6 +2555,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
   "catmada-bedensel-zarar-ve-kilavuzun-kusuru-ttk-1290-1291":
     "Deniz Kazaları: Çatma",
   "catmada-dava-oncesi-delil-tespiti-ttk-1292": "Deniz Kazaları: Çatma",
+  "catmada-sekil-sartinin-ve-karinenin-yoklugu-ttk-1293-1294":
+    "Deniz Kazaları: Çatma",
+  "catmada-kaptanin-yardim-gorevi-saklanan-hukumler-ve-zamanasimi-ttk-1295-1297":
+    "Deniz Kazaları: Çatma",
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
