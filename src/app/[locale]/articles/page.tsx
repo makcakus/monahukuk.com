@@ -61,17 +61,7 @@ import {
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
-const TTK_HEADING = "Türk Ticaret Kanunu - Ticari İşletme";
-const TTK_BOOK2_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Genel Hükümler)";
-const TTK_BOOK2_KOLLEKTIF_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Kollektif Şirket)";
-const TTK_BOOK2_KOMANDIT_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Komandit Şirket)";
-const TTK_BOOK2_ANONIM_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Anonim Şirket)";
-const TTK_BOOK2_SPB_KOMANDIT_HEADING =
-  "Türk Ticaret Kanunu - Ticaret Şirketleri (Sermayesi Paylara Bölünmüş Komandit Şirket)";
-const TTK_BOOK2_LIMITED_HEADING = "Türk Ticaret Kanunu - Ticaret Şirketleri (Limited Şirket)";
-const TTK_KIYMETLI_EVRAK_HEADING = "Türk Ticaret Kanunu - Kıymetli Evrak";
-const TTK_TASIMA_ISLERI_HEADING = "Türk Ticaret Kanunu - Taşıma İşleri";
-const TTK_DENIZ_TICARETI_HEADING = "Türk Ticaret Kanunu - Deniz Ticareti";
+const TTK_HEADING = "Türk Ticaret Kanunu";
 
 export async function generateMetadata({
   params,
@@ -237,26 +227,6 @@ export default async function ArticlesPage({
         items: nonSeries,
       });
 
-      if (ttkSubgroups.length > 0) {
-        groups.push({
-          category: TTK_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkSubgroups,
-        });
-      }
-
-      if (ttkBook2GenelSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2GenelSubgroups,
-        });
-      }
-
       const ttkBook2KollektifBySlug = new Map<string, typeof items>();
       for (const a of items) {
         if (!isTtkBook2KollektifArticle(a.slug)) continue;
@@ -269,16 +239,6 @@ export default async function ArticlesPage({
         TTK_BOOK2_KOLLEKTIF_GROUP_ORDER.filter((g) =>
           ttkBook2KollektifBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkBook2KollektifBySlug.get(g)! }));
-
-      if (ttkBook2KollektifSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_KOLLEKTIF_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2KollektifSubgroups,
-        });
-      }
 
       const ttkBook2KomanditBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -293,16 +253,6 @@ export default async function ArticlesPage({
           ttkBook2KomanditBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkBook2KomanditBySlug.get(g)! }));
 
-      if (ttkBook2KomanditSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_KOMANDIT_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2KomanditSubgroups,
-        });
-      }
-
       const ttkBook2AnonimBySlug = new Map<string, typeof items>();
       for (const a of items) {
         if (!isTtkBook2AnonimArticle(a.slug)) continue;
@@ -315,16 +265,6 @@ export default async function ArticlesPage({
         TTK_BOOK2_ANONIM_GROUP_ORDER.filter((g) =>
           ttkBook2AnonimBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkBook2AnonimBySlug.get(g)! }));
-
-      if (ttkBook2AnonimSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_ANONIM_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2AnonimSubgroups,
-        });
-      }
 
       const ttkBook2SpbKomanditBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -339,16 +279,6 @@ export default async function ArticlesPage({
           ttkBook2SpbKomanditBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkBook2SpbKomanditBySlug.get(g)! }));
 
-      if (ttkBook2SpbKomanditSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_SPB_KOMANDIT_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2SpbKomanditSubgroups,
-        });
-      }
-
       const ttkBook2LimitedBySlug = new Map<string, typeof items>();
       for (const a of items) {
         if (!isTtkBook2LimitedArticle(a.slug)) continue;
@@ -361,16 +291,6 @@ export default async function ArticlesPage({
         TTK_BOOK2_LIMITED_GROUP_ORDER.filter((g) =>
           ttkBook2LimitedBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkBook2LimitedBySlug.get(g)! }));
-
-      if (ttkBook2LimitedSubgroups.length > 0) {
-        groups.push({
-          category: TTK_BOOK2_LIMITED_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkBook2LimitedSubgroups,
-        });
-      }
 
       const ttkKiymetliEvrakBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -385,16 +305,6 @@ export default async function ArticlesPage({
           ttkKiymetliEvrakBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkKiymetliEvrakBySlug.get(g)! }));
 
-      if (ttkKiymetliEvrakSubgroups.length > 0) {
-        groups.push({
-          category: TTK_KIYMETLI_EVRAK_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkKiymetliEvrakSubgroups,
-        });
-      }
-
       const ttkTasimaIsleriBySlug = new Map<string, typeof items>();
       for (const a of items) {
         if (!isTtkTasimaIsleriArticle(a.slug)) continue;
@@ -407,16 +317,6 @@ export default async function ArticlesPage({
         TTK_TASIMA_ISLERI_GROUP_ORDER.filter((g) =>
           ttkTasimaIsleriBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkTasimaIsleriBySlug.get(g)! }));
-
-      if (ttkTasimaIsleriSubgroups.length > 0) {
-        groups.push({
-          category: TTK_TASIMA_ISLERI_HEADING,
-          iconKey: "BookOpen",
-          practiceSlug: null,
-          items: [],
-          subgroups: ttkTasimaIsleriSubgroups,
-        });
-      }
 
       const ttkDenizTicaretiBySlug = new Map<string, typeof items>();
       for (const a of items) {
@@ -431,13 +331,42 @@ export default async function ArticlesPage({
           ttkDenizTicaretiBySlug.has(g)
         ).map((g) => ({ title: g, items: ttkDenizTicaretiBySlug.get(g)! }));
 
-      if (ttkDenizTicaretiSubgroups.length > 0) {
+      // TTK'nin tüm kitap/kısımlarına ait alt gruplar, ayrı başlıklar
+      // altında değil tek "Türk Ticaret Kanunu" başlığı altında birleştirilir.
+      // Her alt grup başlığı, hangi kitap/şirket türüne ait olduğunu
+      // belirtmek için ilgili bölüm etiketiyle önekleniyor.
+      const withBookLabel = (
+        label: string,
+        subgroups: BrowserSubgroup[]
+      ): BrowserSubgroup[] =>
+        subgroups.map((sg) => ({ ...sg, title: `${label} — ${sg.title}` }));
+
+      const allTtkSubgroups: BrowserSubgroup[] = [
+        ...withBookLabel("Ticari İşletme", ttkSubgroups),
+        ...withBookLabel(
+          "Ticaret Şirketleri (Genel Hükümler)",
+          ttkBook2GenelSubgroups
+        ),
+        ...withBookLabel("Kollektif Şirket", ttkBook2KollektifSubgroups),
+        ...withBookLabel("Komandit Şirket", ttkBook2KomanditSubgroups),
+        ...withBookLabel("Anonim Şirket", ttkBook2AnonimSubgroups),
+        ...withBookLabel(
+          "Sermayesi Paylara Bölünmüş Komandit Şirket",
+          ttkBook2SpbKomanditSubgroups
+        ),
+        ...withBookLabel("Limited Şirket", ttkBook2LimitedSubgroups),
+        ...withBookLabel("Kıymetli Evrak", ttkKiymetliEvrakSubgroups),
+        ...withBookLabel("Taşıma İşleri", ttkTasimaIsleriSubgroups),
+        ...withBookLabel("Deniz Ticareti", ttkDenizTicaretiSubgroups),
+      ];
+
+      if (allTtkSubgroups.length > 0) {
         groups.push({
-          category: TTK_DENIZ_TICARETI_HEADING,
+          category: TTK_HEADING,
           iconKey: "BookOpen",
           practiceSlug: null,
           items: [],
-          subgroups: ttkDenizTicaretiSubgroups,
+          subgroups: allTtkSubgroups,
         });
       }
     } else {
