@@ -1716,6 +1716,53 @@
 // şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan m.931-1255
 // aralığını kapsar ve ileriki batch'ler yeni slug eşlemeleriyle devam
 // edecektir.
+//
+// Otuzyedinci batch, "H) Yolcunun uğradığı zararlardan sorumluluk" başlığı
+// altındaki "I. Taşıyanın sorumluluğu"nu (m.1256) baştan sona ve eksiksiz
+// kapsar. Bu on fıkralık madde, iki ayrı yazıya bölünmüştür. İlk yazı
+// m.1256/1-4'ü kapsar: gemi kazası yüzünden yolcunun ölmesi veya
+// yaralanmasında taşıyanın 250.000 Özel Çekme Hakkı ile sınırlı, savaş/
+// terör/iç savaş/isyan/istisnai nitelikte kaçınılamaz doğa olayı/üçüncü
+// kişinin kastıyla gerçekleştirdiği fiil hâllerinde sorumluluktan kurtulma
+// imkânı tanıyan ve taşıyan kusurluysa bu miktarı aşan zarardan da sınırsız
+// sorumlu tutan, kusursuzluğun ispatını taşıyana yükleyen üç katmanlı
+// rejim, m.1256/1; gemi kazasından kaynaklanmayan ölüm ve yaralanmada
+// taşıyanın yalnızca kusuru varsa sorumlu olması ve kusuru ispat yükünün
+// davacıya ait olması, m.1256/2; kabin bagajının zıya veya hasarında kusur
+// şartı ile gemi kazasından kaynaklanan zararlarda taşıyanın kusurunun
+// karine olarak kabul edilmesi (aksi ispatlanabilir), m.1256/3; ve kabin
+// bagajı dışındaki bagajın zıya veya hasarında taşıyanın, kazanın
+// gerçekleşmesinde kusurunun bulunmadığını ispat etmedikçe sorumlu
+// olması, m.1256/4 - kapsanmıştır. İkinci yazı m.1256/5-10'u kapsar: "gemi
+// kazası", "taşıyanın kusuru" (adamlarının kusurunu da kapsayan geniş
+// tanım), "gemideki arıza" ve "zarar" (cezalandırıcı/caydırıcı tazminatı
+// kapsamaması) kavramlarının tanımları, m.1256/5; bagajın zıyaı veya
+// hasarı kavramının, iş hukuku uyuşmazlıklarından kaynaklanan gecikmeler
+// hariç, bagajın geminin varmasından itibaren uygun süre içinde geri
+// verilmemesinden doğan malvarlığı zararını da içermesi, m.1256/6;
+// taşıyanın sorumluluğunun sadece taşıma sırasında meydana gelen kazaların
+// sebep olduğu zararlara ilişkin olması ve kazanın taşıma sırasında
+// meydana geldiğinin ile zararın kapsamının ispat yükünün davacıya ait
+// olması, m.1256/7; taşıyanın üçüncü kişilere karşı rücu hakkı, ortak
+// kusur def'i ve sorumluluğun sınırlandırılması haklarının saklı
+// tutulması, m.1256/8; kusur karinelerinin varlığının veya ispat yükünün
+// bir tarafa ait olmasının, o tarafın lehine olan delillerin dikkate
+// alınmasını engellememesi, m.1256/9; ve bu maddede öngörülen
+// sorumlulukların üst sınırları hakkında 1262 ve 1263 üncü madde
+// hükümlerinin saklı tutulması, m.1256/10 - kapsanmıştır. BU BATCH İLE
+// "H) YOLCUNUN UĞRADIĞI ZARARLARDAN SORUMLULUK" BAŞLIĞI ALTINDAKİ "I.
+// TAŞIYANIN SORUMLULUĞU" (m.1256) İLK FIKRASINDAN SON FIKRASINA KADAR
+// EKSİKSİZ TAMAMLANMIŞ olur. Beşinci Bölüm bundan sonra "II. Fiilî
+// taşıyanın sorumluluğu" (m.1257'den itibaren - m.1191-1192'deki eşya
+// taşıması bağlamındaki fiilî taşıyan sorumluluğu çerçevesiyle paralel bir
+// yapı kurarak, m.1256'da tanımlanan sorumluluğu m.1248'de tanıtılan fiilî
+// taşıyan kavramına genişletecektir) ile devam edecek olup, kitabın
+// devamında henüz kapsanmamış çok sayıda Kısım (Deniz Kazaları - Çatma,
+// Kurtarma, Müşterek Avarya -, Gemi Alacakları, Sorumluluğun
+// Sınırlandırılması ve Cebrî İcraya İlişkin Özel Hükümler dahil) m.1400'e
+// kadar sürecek şekilde bulunmaktadır; bu dosya yalnızca yukarıda sayılan
+// m.931-1256 aralığını kapsar ve ileriki batch'ler yeni slug
+// eşlemeleriyle devam edecektir.
 
 export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
   "Gemi: Genel Hükümler",
@@ -1890,6 +1937,10 @@ const SLUG_TO_GROUP: Record<string, string> = {
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "yolcunun-yukumlulukleri-ttk-1251": "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
   "tasiyanin-hapis-hakki-ve-olen-yolcunun-bagaji-ttk-1254":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "gemi-kazasi-nedeniyle-olum-yaralanma-ve-bagaj-sorumlulugu-ttk-1256":
+    "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
+  "gemi-kazasi-tanimi-ve-sorumluluk-hukmunun-sinirlari-ttk-1256-tanimlar":
     "Deniz Yoluyla Yolcu Taşıma Sözleşmesi",
 };
 
