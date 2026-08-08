@@ -145,6 +145,15 @@ function trArticleSlugRedirects() {
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 180,
+  // Build logları "Generating static pages using 1 worker" gösteriyordu —
+  // Next.js'in bellek bazlı otomatik worker sınırlaması (memoryBasedWorkersCount),
+  // GH Actions runner'ında gerçek çekirdek sayısına rağmen worker sayısını 1'e
+  // düşürüyor ve 3000+ sayfalık build ~1 saat sürüyor. Bu sınırlamayı kapatıp
+  // çekirdek sayısını sabit veriyoruz; build daha fazla paralel worker kullanır.
+  experimental: {
+    cpus: 4,
+    memoryBasedWorkersCount: false,
+  },
   images: {
     remotePatterns: [
       {

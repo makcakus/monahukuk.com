@@ -44,7 +44,12 @@ jobs:
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
 
       - name: Deploy to Cloudflare Workers
-        run: npx wrangler deploy
+        # cacheChunkSize düşürüldü: varsayılan 25 eşzamanlı R2 yazma isteği,
+        # ~3000+ sayfalık incremental cache'i doldururken Cloudflare R2'de
+        # "internal error (10001)" hatalarına ve deploy'un tamamen düşmesine
+        # yol açıyordu (art arda 2 deploy'da aynı noktada). Daha düşük
+        # eşzamanlılık deploy'u biraz uzatır ama R2'yi zorlamaz.
+        run: npx opennextjs-cloudflare deploy --cacheChunkSize 6
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
