@@ -52,6 +52,96 @@ function legalNewsGhostRedirects() {
   return redirects;
 }
 
+// GSC'de yüzlerce "Bulunamadı (404)" hatasının kaynağı: TTK/TCK/CMK/İş Hukuku
+// madde makaleleri Türkçe slug'larıyla ya locale prefix'siz (/articles/
+// ticaret-sirketlerinde-birlesme-ttk-134) ya da yanlış locale altında
+// (/zh/articles/silahli-orgut-ve-suc-icin-anlasma-tck-314) taranıyor. Bu
+// içerikler "kademeli çeviri" modeliyle (bkz. validate-translations.mjs
+// TR_ONLY_KEY_SUFFIXES) önce yalnızca bazı dillere çevrildiği için, locale'siz
+// veya yanlış-locale istekler var olmayan hedeflere (eski geniş catch-all her
+// zaman /en/'e yönlendiriyordu) düşüp 404 veriyordu. Build anında her TR
+// slug'ın translationKey'i üzerinden gerçek karşılığını buluyoruz: istenen
+// dilde çeviri varsa ona, yoksa EN'e, o da yoksa (garanti var olan) TR'ye
+// yönlendiriyoruz.
+function parseTranslationKey(raw: string, fallbackSlug: string): string {
+  const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  if (!fm) return fallbackSlug;
+  const tk = fm[1].match(/^translationKey:\s*"?([^"\r\n]*)"?\s*$/m);
+  return tk ? tk[1].trim() : fallbackSlug;
+}
+
+const ARTICLE_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+
+// scripts/validate-translations.mjs'deki TR_ONLY_KEY_SUFFIXES ile aynı liste —
+// bu tarama kasıtlı olarak sadece "kademeli çeviri" serilerine (TTK/TCK/CMK/
+// İş Hukuku) odaklanıyor. Site genelindeki ~2900 makalenin çoğu zaten elle
+// yazılmış özel redirect kurallarıyla kapsanıyor; bu seriyi de aynı geniş
+// alias listesine dahil etmek binlerce gereksiz redirect kuralı eklerdi.
+const KADEMELI_CEVIRI_SUFFIXES = [
+  "-turkish-penal-code",
+  "-turkish-criminal-procedure-code",
+  "-turkish-labour-law",
+  "-turkish-commercial-code",
+];
+
+function trArticleSlugRedirects() {
+  const contentDir = path.join(process.cwd(), "content", "articles");
+  const tkMap = new Map<string, Partial<Record<(typeof ARTICLE_LOCALES)[number], string>>>();
+
+  for (const locale of ARTICLE_LOCALES) {
+    const dir = path.join(contentDir, locale);
+    let files: string[] = [];
+    try {
+      files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
+    } catch {
+      continue;
+    }
+    for (const f of files) {
+      const slug = f.replace(/\.mdx$/, "");
+      const raw = fs.readFileSync(path.join(dir, f), "utf8");
+      const tk = parseTranslationKey(raw, slug);
+      if (!tkMap.has(tk)) tkMap.set(tk, {});
+      tkMap.get(tk)![locale] = slug;
+    }
+  }
+
+  const redirects: { source: string; destination: string; permanent: boolean }[] = [];
+  const seenSources = new Set<string>();
+  const push = (source: string, destination: string) => {
+    if (seenSources.has(source)) return;
+    seenSources.add(source);
+    redirects.push({ source, destination, permanent: true });
+  };
+
+  for (const [tk, byLocale] of tkMap.entries()) {
+    if (!KADEMELI_CEVIRI_SUFFIXES.some((suf) => tk.endsWith(suf))) continue;
+    const trSlug = byLocale.tr;
+    if (!trSlug) continue; // bu tarama sadece TR'de var olan slug'ları hedefliyor
+
+    const unprefixedFallback = byLocale.en
+      ? `/en/articles/${byLocale.en}`
+      : `/tr/articles/${trSlug}`;
+    push(`/articles/${trSlug}`, unprefixedFallback);
+
+    for (const locale of ARTICLE_LOCALES) {
+      if (locale === "tr") continue;
+      const ownSlug = byLocale[locale];
+      if (ownSlug) {
+        if (ownSlug !== trSlug) {
+          push(`/${locale}/articles/${trSlug}`, `/${locale}/articles/${ownSlug}`);
+        }
+        continue; // ownSlug === trSlug ise bu zaten var olan geçerli bir sayfa
+      }
+      const fallback = byLocale.en
+        ? `/en/articles/${byLocale.en}`
+        : `/tr/articles/${trSlug}`;
+      push(`/${locale}/articles/${trSlug}`, fallback);
+    }
+  }
+
+  return redirects;
+}
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 180,
@@ -76,6 +166,9 @@ const nextConfig: NextConfig = {
     return [
       // Var olmayan dil/tarih haber varyantları → o dilin haber listesi (build anında hesaplanır)
       ...legalNewsGhostRedirects(),
+      // TTK/TCK/CMK/İş Hukuku madde makaleleri: locale'siz veya yanlış-locale
+      // erişimler → doğru dile veya TR fallback'e (build anında hesaplanır)
+      ...trArticleSlugRedirects(),
       // ── Locale prefix'siz statik sayfalar → TR (defaultLocale) ──────────────
       // Google eski dış linklerden veya eski sitemap'tan bu URL'leri taradı.
       // next-intl localePrefix:"always" kullandığından bunlar 404 döndürüyor.
