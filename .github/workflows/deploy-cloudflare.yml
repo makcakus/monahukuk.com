@@ -1,8 +1,10 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to Cloudflare Workers (manual fallback)
 
+# Otomatik push tetikleyicisi kaldırıldı — deploy artık Cloudflare Workers
+# Builds (Git entegrasyonu) üzerinden, GitHub Actions dakikası harcamadan
+# çalışıyor (bkz. Cloudflare dashboard > mona-site > Settings > Build).
+# Bu workflow sadece manuel gerektiğinde (workflow_dispatch) yedek olarak duruyor.
 on:
-  push:
-    branches: [main]
   workflow_dispatch: {}
 
 concurrency:
