@@ -1,10 +1,13 @@
-name: Deploy to Cloudflare Workers (manual fallback)
+name: Deploy to Cloudflare Workers
 
-# Otomatik push tetikleyicisi kaldırıldı — deploy artık Cloudflare Workers
-# Builds (Git entegrasyonu) üzerinden, GitHub Actions dakikası harcamadan
-# çalışıyor (bkz. Cloudflare dashboard > mona-site > Settings > Build).
-# Bu workflow sadece manuel gerektiğinde (workflow_dispatch) yedek olarak duruyor.
+# Cloudflare Workers Builds denendi ama 30 dk sert build timeout'una
+# çarptı (3071 sayfalık build ~59 dk sürüyor, bkz. build #b3fbf110 log'u).
+# Repo public'e alındı (public repolarda GH Actions dakikası ücretsiz/
+# sınırsız) ve deploy GitHub Actions'a geri döndü — burada sert bir
+# build süresi sınırı yok.
 on:
+  push:
+    branches: [main]
   workflow_dispatch: {}
 
 concurrency:
