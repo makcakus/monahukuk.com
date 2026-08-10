@@ -13,7 +13,7 @@
 	},
 	"r2_buckets": [
 		{
-			"bucket_name": "mona-site-cache",
+			"bucket_name": "mona-site-cache-v2",
 			"binding": "NEXT_INC_CACHE_R2_BUCKET"
 		}
 	],

@@ -48,12 +48,16 @@ jobs:
           NEXT_PUBLIC_BOOKING_URL: ${{ vars.NEXT_PUBLIC_BOOKING_URL }}
           NEXT_PUBLIC_SITE_URL: ${{ vars.NEXT_PUBLIC_SITE_URL }}
 
+      - name: Ensure R2 cache bucket exists
+        # mona-site-cache eski bucket birikmiş veriyle R2 internal error (10001)
+        # veriyordu — yeni boş mona-site-cache-v2 bucket'ına geçildi.
+        run: npx wrangler r2 bucket create mona-site-cache-v2 || true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Deploy to Cloudflare Workers
-        # cacheChunkSize art arda 4 deploy'da aynı "R2 internal error (10001)"
-        # ile düşüyordu (25 -> 6 denendi, hala başarısız). 2'ye düşürüldü —
-        # hala başarısız olursa sorun eşzamanlılık değil, R2 bucket'ının
-        # kendisiyle (kota/bölge) ilgili olabilir, --rclone transportu
-        # denenmeli.
+        # cacheChunkSize 2'ye düşürüldü + yeni boş R2 bucket ile temiz başlangıç.
         run: npx opennextjs-cloudflare deploy --cacheChunkSize 2
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
