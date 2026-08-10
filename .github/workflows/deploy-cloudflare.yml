@@ -73,7 +73,7 @@ jobs:
       - name: Warm R2 incremental cache (best-effort)
         # Site zaten canlı olduğu için bu adımın başarısız olması deploy'u
         # engellemiyor — sadece performans ön-ısıtması.
-        run: npx opennextjs-cloudflare populate-cache remote --cacheChunkSize 2 || echo "Cache warm-up başarısız oldu, site zaten canlı — devam ediliyor."
+        run: npx opennextjs-cloudflare populateCache remote --cacheChunkSize 2 || echo "Cache warm-up başarısız oldu, site zaten canlı — devam ediliyor."
         continue-on-error: true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
