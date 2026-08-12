@@ -78,6 +78,10 @@ export async function generateMetadata({
   });
 }
 
+// İçerik yalnızca git deploy ile değişir (MDX dosyaları), runtime'da asla —
+// bu yüzden sayfa tamamen statik, ISR revalidation'a gerek yok.
+export const revalidate = false;
+
 export default async function ArticlesPage({
   params,
 }: {

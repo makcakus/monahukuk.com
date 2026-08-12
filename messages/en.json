@@ -154,7 +154,7 @@
     "articleMany": "articles",
     "relatedTitle": "Related Articles",
     "viewPracticeArea": "Explore this practice area",
-    "searchPlaceholder": "Search articles — title and full text",
+    "searchPlaceholder": "Search articles — title, summary and category",
     "searchClear": "Clear search",
     "searchEmpty": "No articles match your search.",
     "searchResultsLabel": "results found",

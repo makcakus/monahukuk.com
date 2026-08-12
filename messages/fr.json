@@ -154,7 +154,7 @@
     "articleMany": "articles",
     "relatedTitle": "Articles connexes",
     "viewPracticeArea": "Voir ce domaine de pratique",
-    "searchPlaceholder": "Rechercher un article — titre et contenu",
+    "searchPlaceholder": "Rechercher un article — titre, résumé et catégorie",
     "searchClear": "Effacer la recherche",
     "searchEmpty": "Aucun article ne correspond à votre recherche.",
     "searchResultsLabel": "résultat(s) trouvé(s)",

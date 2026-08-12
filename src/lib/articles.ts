@@ -240,24 +240,6 @@ export function extractFaqPairs(body: string): { question: string; answer: strin
   return pairs;
 }
 
-function stripMarkdown(md: string): string {
-  return md
-    .replace(/```[\s\S]*?```/g, " ")
-    .replace(/`[^`]*`/g, " ")
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
-    .replace(/^#{1,6}\s+/gm, "")
-    .replace(/\*\*([^*]+)\*\*/g, "$1")
-    .replace(/\*([^*]+)\*/g, "$1")
-    .replace(/__([^_]+)__/g, "$1")
-    .replace(/_([^_]+)_/g, "$1")
-    .replace(/^>\s*/gm, "")
-    .replace(/^[-*+]\s+/gm, "")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 export interface ArticleSearchEntry {
   slug: string;
   title: string;
@@ -268,6 +250,16 @@ export interface ArticleSearchEntry {
   searchText: string;
 }
 
+/**
+ * Makale listesi sayfasının arama indeksi.
+ *
+ * DİKKAT: searchText'e makale gövdesi EKLENMEMELİDİR. TR'de 631 makalenin
+ * gövdesi ~7 MB ham metin; RSC payload'ında kaçış karakterleriyle birlikte
+ * sayfa 33 MB'a çıkıyordu. Cloudflare Workers bu boyutta bir prerender
+ * kaydını cache'ten sunamıyor, canlı render'a düşüyor ve worker içinde
+ * content/ klasörü okunamadığı için (cwd=/bundle) sayfa "Henüz makale yok"
+ * olarak render ediliyordu. Diğer sayfalar (~250-330 KB) sorunsuzdu.
+ */
 export async function getArticleSearchIndex(
   locale: string
 ): Promise<ArticleSearchEntry[]> {
@@ -279,6 +271,6 @@ export async function getArticleSearchIndex(
     date: a.date,
     category: a.category,
     readingMinutes: a.readingMinutes,
-    searchText: `${a.title} ${a.description} ${a.category ?? ""} ${stripMarkdown(a.body)}`.toLowerCase().replace(/̇/g, ""),
+    searchText: `${a.title} ${a.description} ${a.category ?? ""}`.toLowerCase().replace(/̇/g, ""),
   }));
 }
