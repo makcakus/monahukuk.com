@@ -33,14 +33,33 @@ function fileSlug(filename: string): string {
   return filename.replace(/\.mdx?$/, "");
 }
 
+// Yüksek paralellikte build sırasında (experimental.cpus) fs.readdir/readFile
+// ara sıra geçici EMFILE/EBUSY hatası verebiliyor; sessizce boş dönmek yerine
+// birkaç kez tekrar deneyip gerçek hatayı ilk denemede yutmuyoruz.
+async function withRetry<T>(fn: () => Promise<T>, attempts = 3): Promise<T> {
+  let lastError: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (e) {
+      lastError = e;
+      if (i < attempts - 1) {
+        await new Promise((r) => setTimeout(r, 50 * (i + 1)));
+      }
+    }
+  }
+  throw lastError;
+}
+
 export async function getArticleSlugs(locale: string): Promise<string[]> {
   const dir = path.join(CONTENT_DIR, locale);
   try {
-    const entries = await fs.readdir(dir);
+    const entries = await withRetry(() => fs.readdir(dir));
     return entries
       .filter((e) => e.endsWith(".mdx") || e.endsWith(".md"))
       .map(fileSlug);
-  } catch {
+  } catch (e) {
+    console.error(`[getArticleSlugs] FAILED for locale="${locale}" dir="${dir}" cwd="${process.cwd()}":`, e);
     return [];
   }
 }
@@ -54,7 +73,7 @@ export async function getArticle(
   for (const filename of candidates) {
     const full = path.join(dir, filename);
     try {
-      const raw = await fs.readFile(full, "utf8");
+      const raw = await withRetry(() => fs.readFile(full, "utf8"));
       const { data, content } = matter(raw);
       const fm = data as Partial<ArticleFrontmatter>;
       const stats = readingTime(content);
