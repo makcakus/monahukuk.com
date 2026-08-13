@@ -4,7 +4,11 @@
  */
 import { Resend } from "resend";
 
-const RESEND_API_KEY = "re_Rq72R2U5_675HLf8E3MqJJYkQwbfjLSH9";
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+if (!RESEND_API_KEY) {
+  console.error("Eksik env: RESEND_API_KEY (.env.local dosyasına ekleyin)");
+  process.exit(1);
+}
 const FROM = "MONA HUKUK <newsletter@monahukuk.com>";
 const TO = "av.mervekizik@gmail.com";
 const UNSUBSCRIBE_TOKEN = "14c05952b374520e4223f113345ce97103bc3b673ea9f6c4fba3290612890725";
