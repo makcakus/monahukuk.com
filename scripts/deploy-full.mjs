@@ -13,6 +13,13 @@
  * yeni build ID'sinin cache kayıtları R2'de bulunmadığı için.
  */
 import { execSync } from "node:child_process";
+import { rmSync } from "node:fs";
+
+// Önceki denemelerden kalan .next/.open-next, bozuk/eksik tip dosyaları
+// nedeniyle build'i düşürebiliyor (görüldü: .next/dev/types/routes.d.ts).
+for (const dir of [".next", ".open-next"]) {
+  rmSync(dir, { recursive: true, force: true });
+}
 
 const steps = [
   {

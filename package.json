@@ -16,10 +16,11 @@
     "fix:yaml": "node scripts/fix-yaml.mjs",
     "prebuild": "npm run fix:yaml && npm run validate",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy": "node scripts/deploy-full.mjs",
+    "deploy:full": "node scripts/deploy-full.mjs",
+    "deploy:unsafe": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "deploy:full": "node scripts/deploy-full.mjs"
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
