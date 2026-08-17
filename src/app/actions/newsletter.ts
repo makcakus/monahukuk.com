@@ -43,7 +43,9 @@ async function isAlreadySubscribed(email: string): Promise<boolean> {
       { headers: { Authorization: `Bearer ${apiKey}` } }
     );
     if (!res.ok) return false;
-    const data = await res.json();
+    const data = (await res.json()) as {
+      data?: Array<{ email: string; unsubscribed: boolean }>;
+    };
     // data.data = kontakt listesi; ilk eşleşme unsubscribed değilse → zaten abone
     const contacts: Array<{ email: string; unsubscribed: boolean }> =
       data?.data ?? [];

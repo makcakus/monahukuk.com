@@ -51,7 +51,7 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
     fetch(`/api/article-locales?locale=${locale}&slug=${articleSlug}`)
       .then((r) => r.json())
       .then((data) => {
-        if (!cancelled) setAvailableLocales(data.locales ?? null);
+        if (!cancelled) setAvailableLocales((data as { locales?: string[] }).locales ?? null);
       })
       .catch(() => {
         if (!cancelled) setAvailableLocales(null);
@@ -70,7 +70,7 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
     fetch(`/api/legal-news-locales?locale=${locale}&slug=${legalNewsSlug}`)
       .then((r) => r.json())
       .then((data) => {
-        if (!cancelled) setLegalNewsSlugs(data.slugs ?? null);
+        if (!cancelled) setLegalNewsSlugs((data as { slugs?: Record<string, string> }).slugs ?? null);
       })
       .catch(() => {
         if (!cancelled) setLegalNewsSlugs(null);

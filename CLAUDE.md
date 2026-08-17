@@ -103,6 +103,25 @@ Makale listelemek için `lib/articles.ts` içindeki `getAllArticles(locale)` / `
 - Arabic için `dir="rtl"` layout'ta otomatik uygulanır.
 - `legal-news` sadece `tr` ve `en`'de var; diğer locale'lerde routing.ts'de kısıtlı.
 
+## Hukuki Bülten Yazım Kuralları (content/hukuki-haberler/)
+
+`tr` ve `en` olmak üzere iki dilde haftalık yayımlanan haber bülteni. Hedef kitle hukuki bilgi düzeyi yüksek okurlar.
+
+**1. AI görünmeme — şablon yapısından kaçın**  
+Her öğeye aynı alt başlık kalıbını tekrarlama. "Eski durum / Kararın dayanağı / Pratikte önemi" üçlüsü tekrarlanınca makine çıktısı gibi durur. Her haber farklı yapılanabilir.
+
+**2. Hukuki bağlam kısa ve başlıksız**  
+Kanun numarası veriliyorsa tek cümlede geçip habere dönülür. "Hukuki çerçeve:", "Hukuki bağlam:" gibi ayrı alt başlık açılmaz — haber metninin içinde aynı paragrafta devam eder.
+
+**3. Haber ver, yorum yapma**  
+"Ne oldu" öne çıkar. "Pratikte önemi" / avukatlara yönelik tavsiye ya hiç olmaz ya da tek cümle. Okura ne yapacağını söyleme, olanı anlat.
+
+**4. Her habere kaynak linki ekle — zorunlu**  
+Her öğenin içinde, dayandığı resmi kaynağa Markdown link verilir: Resmî Gazete, AYM, Yargıtay, Danıştay, Rekabet Kurumu, BDDK, SEDDK vb. Linksiz öğe yarım kalır.
+
+**5. Esas içerikten (articles/) tamamen farklı ol**  
+Aynı konu hakkında sitede makale varsa o makalenin anlatımı, yapısı veya cümleleri bültene taşınmaz. Bülten o haftanın güncel gelişmesini haber diliyle aktarır; makale konuyu derinlemesine açıklar — ikisi birbirinin kopyası olmaz.
+
 ## Styling Notları
 
 Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/globals.css` içinde `@theme` bloğunda tanımlı:

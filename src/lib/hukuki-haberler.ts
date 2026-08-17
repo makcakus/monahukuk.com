@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
+import legalNewsLocaleManifest from "@/generated/legal-news-locales.json";
 
 export interface GazettePostFrontmatter {
   title: string;
@@ -86,6 +87,20 @@ const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
  * LangSwitcher ve sitemap.ts'in var olmayan/yanlış slug'a link vermesini önler.
  */
 export async function getLegalNewsLocaleSlugs(
+  locale: string,
+  slug: string
+): Promise<Record<string, string>> {
+  // See getAvailableLocalesForArticle in lib/articles.ts for why the manifest
+  // takes priority over the fs-based lookup below.
+  const manifestEntry = (legalNewsLocaleManifest as Record<string, Record<string, string>>)[
+    `${locale}/${slug}`
+  ];
+  if (manifestEntry) return manifestEntry;
+
+  return getLegalNewsLocaleSlugsFromFs(locale, slug);
+}
+
+async function getLegalNewsLocaleSlugsFromFs(
   locale: string,
   slug: string
 ): Promise<Record<string, string>> {

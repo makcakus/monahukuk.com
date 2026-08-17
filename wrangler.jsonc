@@ -15,6 +15,14 @@
 		{
 			"bucket_name": "mona-site-cache-v2",
 			"binding": "NEXT_INC_CACHE_R2_BUCKET"
+		},
+		{
+			// Ham makale MDX içeriği — build'de generateStaticParams'a
+			// girmemiş (deploy sonrası eklenmiş) slug'lar için on-demand
+			// render fallback'i. NEXT_INC_CACHE_R2_BUCKET'tan (OpenNext'in
+			// kendi sayfa cache'i) kasıtlı olarak ayrı — farklı amaç/ömür.
+			"bucket_name": "mona-site-articles",
+			"binding": "ARTICLES_BUCKET"
 		}
 	],
 	"services": [
@@ -29,5 +37,14 @@
 		// Enable image optimization
 		// see https://opennext.js.org/cloudflare/howtos/image
 		"binding": "IMAGES"
-	}
+	},
+	"kv_namespaces": [
+		{
+			// revalidatePath/revalidateTag için tag cache — bu olmadan
+			// OpenNext varsayılan "dummy" tag cache'e düşer (her zaman no-op),
+			// yani revalidation hatasız görünür ama hiçbir şeyi geçersiz kılmaz.
+			"binding": "NEXT_TAG_CACHE_KV",
+			"id": "ae7226e9510a4be5a84b84d96782cfc6"
+		}
+	]
 }

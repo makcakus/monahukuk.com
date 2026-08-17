@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import ReactMarkdown from "react-markdown";
 import { Link } from "@/i18n/navigation";
 import { getArticle, getAllArticles, extractFaqPairs, getAdjacentArticles } from "@/lib/articles";
 import { routing } from "@/i18n/routing";
@@ -11,10 +12,12 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
 
-// Content only changes via git deploy (MDX files), never at runtime, so every
-// article page is fully static — no ISR/KV incremental cache needed on Cloudflare.
-export const dynamicParams = false;
-
+// Build anında var olan tüm makaleler generateStaticParams ile tam statik
+// üretilir (davranış değişmedi). dynamicParams=true (varsayılan) olduğu için,
+// build sonrası eklenip yalnızca R2'ye senkronize edilmiş (scripts/sync-
+// articles-to-r2.mjs) yeni bir makalenin URL'i istendiğinde, getArticle()
+// içindeki R2 fallback'iyle on-demand render edilir — tam site rebuild'i
+// gerekmeden. Var olmayan bir slug için notFound() hâlâ temiz 404 üretir.
 export async function generateStaticParams() {
   const all = await Promise.all(
     routing.locales.map(async (locale) => {
@@ -201,7 +204,17 @@ export default async function ArticlePage({
       <span className="gold-divider mt-8 mb-8" />
 
       <div className="prose-legal">
-        <MDXRemote source={article.body} />
+        {article.source === "r2" ? (
+          // R2'den (build sonrası senkronize edilmiş, henüz statik üretilmemiş
+          // içerik) gelen sayfalar gerçek request-time'da Worker içinde render
+          // ediliyor. MDXRemote'un çalışma zamanı derlemesi `new Function`
+          // kullanıyor; Cloudflare Workers bunu izin vermiyor. react-markdown
+          // AST tabanlı olduğu için eval gerektirmiyor — build anında üretilen
+          // (MDXRemote ile, fs'ten okunan) sayfalarda davranış değişmiyor.
+          <ReactMarkdown>{article.body}</ReactMarkdown>
+        ) : (
+          <MDXRemote source={article.body} />
+        )}
       </div>
 
       <div className="mt-12">

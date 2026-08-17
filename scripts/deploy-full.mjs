@@ -23,6 +23,14 @@ for (const dir of [".next", ".open-next"]) {
 
 const steps = [
   {
+    // opennextjs-cloudflare build, "npm run build" değil next build'i doğrudan
+    // çağırıyor — yani package.json'daki "prebuild" hook'u (locale manifest
+    // dahil) burada tetiklenmiyor. Bu yüzden ayrı adım olarak çalıştırıyoruz.
+    name: "0/3 Locale manifest üretimi",
+    cmd: "npm run generate:locale-manifest",
+    env: {},
+  },
+  {
     name: "1/3 Build (OpenNext + Next.js)",
     cmd: "npx opennextjs-cloudflare build",
     env: {},

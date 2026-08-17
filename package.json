@@ -14,10 +14,12 @@
     "validate": "npm run validate:content && npm run validate:translations && npm run validate:links",
     "suggest:links": "node scripts/suggest-internal-links.mjs",
     "fix:yaml": "node scripts/fix-yaml.mjs",
-    "prebuild": "npm run fix:yaml && npm run validate",
+    "generate:locale-manifest": "node scripts/generate-locale-manifest.mjs",
+    "prebuild": "npm run fix:yaml && npm run validate && npm run generate:locale-manifest",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "node scripts/deploy-full.mjs",
     "deploy:full": "node scripts/deploy-full.mjs",
+    "deploy:content": "npm run validate:content && node scripts/sync-articles-to-r2.mjs",
     "deploy:unsafe": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
@@ -33,6 +35,7 @@
     "next-mdx-remote": "^6.0.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
     "reading-time": "^1.5.0",
     "resend": "^6.12.2"
   },
