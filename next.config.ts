@@ -40,10 +40,19 @@ function legalNewsGhostRedirects() {
   const redirects: { source: string; destination: string; permanent: boolean }[] = [];
   for (const date of allDates) {
     for (const locale of LEGAL_NEWS_LOCALES) {
-      if (datesByLocale.get(locale)!.has(date)) continue; // geçerli sayfa — dokunma
-      const suffix = locale === "tr" ? "hukuki-haberler" : "legal-news";
+      const ownSuffix = locale === "tr" ? "hukuki-haberler" : "legal-news";
+      // Yanlış sonek (örn. zh için "-hukuki-haberler") gerçek bir dosya
+      // adı kalıbı değil — hangi locale/tarih olursa olsun her zaman hayalet.
+      // Eski sitemap/hreflang sürümleri bunu üretmişti (bkz. GSC 404 raporu).
+      const wrongSuffix = locale === "tr" ? "legal-news" : "hukuki-haberler";
       redirects.push({
-        source: `/${locale}/legal-news/${date}-${suffix}`,
+        source: `/${locale}/legal-news/${date}-${wrongSuffix}`,
+        destination: `/${locale}/legal-news`,
+        permanent: true,
+      });
+      if (datesByLocale.get(locale)!.has(date)) continue; // geçerli sayfa — dokunma
+      redirects.push({
+        source: `/${locale}/legal-news/${date}-${ownSuffix}`,
         destination: `/${locale}/legal-news`,
         permanent: true,
       });
