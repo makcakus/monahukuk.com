@@ -19,6 +19,9 @@ npm run dev        # Geliştirme sunucusu
 npm run build      # Production build (validate scriptleri önce çalışır)
 npm start          # Production sunucusu
 npx eslint src/    # Lint
+
+npm run preview    # OpenNext build + yerel Cloudflare Workers önizleme
+npm run deploy     # Güvenli tam deploy pipeline'ı (scripts/deploy-full.mjs)
 ```
 
 ### Validation Scriptleri
@@ -40,7 +43,10 @@ node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
 - **i18n**: next-intl 4 — 7 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`)
 - **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
 - **E-posta / Newsletter**: Resend API + Supabase
-- **Deployment**: Vercel
+- **Deployment**: Cloudflare Workers (OpenNext) — Vercel kullanılmıyor
+  - `wrangler.jsonc` → worker adı `mona-site`, R2 cache bucket, IMAGES binding
+  - `open-next.config.ts` → incremental cache R2 üzerinde
+  - `.github/workflows/deploy-cloudflare.yml` → `main`'e push'ta otomatik deploy (GitHub Actions; Cloudflare Workers Builds'in 30dk build limiti yetmediği için buraya geri dönüldü)
 
 ## Proje Yapısı
 
