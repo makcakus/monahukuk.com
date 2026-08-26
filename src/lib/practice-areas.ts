@@ -3,23 +3,8 @@ export type LangMap7 = { tr: string; en: string; de: string; ru: string; ar: str
 // Backward-compatible alias used by schema.ts and other consumers
 export type LangMap5 = LangMap7;
 
-export type PracticeIconKey =
-  | "Globe"
-  | "Home"
-  | "ShieldAlert"
-  | "Users"
-  | "Cpu"
-  | "Briefcase"
-  | "FileText"
-  | "Building2"
-  | "Key"
-  | "Scale"
-  | "HardHat"
-  | "Copyright";
-
 export type PracticeArea = {
   slug: string;
-  icon: PracticeIconKey;
   title: LangMap7;
   description: LangMap7;
 };
@@ -32,7 +17,6 @@ export function pickPA(map: LangMap7, locale: string): string {
 export const PRACTICE_AREAS: PracticeArea[] = [
   {
     slug: "yabancilar-gocmenlik",
-    icon: "Globe",
     title: {
       tr: "Yabancılar & Göçmenlik Hukuku",
       en: "Foreigners & Immigration Law",
@@ -54,7 +38,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "gayrimenkul",
-    icon: "Home",
     title: {
       tr: "Gayrimenkul Hukuku",
       en: "Real Estate Law",
@@ -76,7 +59,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "turk-vatandasligi",
-    icon: "ShieldAlert",
     title: {
       tr: "Türk Vatandaşlığı",
       en: "Turkish Citizenship",
@@ -98,7 +80,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "aile-hukuku",
-    icon: "Users",
     title: {
       tr: "Aile Hukuku",
       en: "Family Law",
@@ -120,7 +101,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "bilisim-yapay-zeka-hukuku",
-    icon: "Cpu",
     title: {
       tr: "Bilişim & Yapay Zekâ Hukuku",
       en: "IT & Artificial Intelligence Law",
@@ -142,7 +122,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "ticaret-sirketler-hukuku",
-    icon: "Briefcase",
     title: {
       tr: "Ticaret & Şirketler Hukuku",
       en: "Commercial & Corporate Law",
@@ -164,7 +143,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "miras-hukuku",
-    icon: "FileText",
     title: {
       tr: "Miras Hukuku",
       en: "Inheritance Law",
@@ -186,7 +164,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "kira-hukuku",
-    icon: "Key",
     title: {
       tr: "Kira Hukuku",
       en: "Rental Law",
@@ -208,7 +185,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "idare-hukuku",
-    icon: "Building2",
     title: {
       tr: "İdare Hukuku",
       en: "Administrative Law",
@@ -230,7 +206,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "ceza-hukuku",
-    icon: "Scale",
     title: {
       tr: "Ceza Hukuku",
       en: "Criminal Law",
@@ -252,7 +227,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "is-hukuku",
-    icon: "HardHat",
     title: {
       tr: "İş Hukuku",
       en: "Labour Law",
@@ -274,7 +248,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     slug: "fikri-mulkiyet-hukuku",
-    icon: "Copyright",
     title: {
       tr: "Fikri Mülkiyet Hukuku",
       en: "Intellectual Property Law",

@@ -2,46 +2,9 @@
 
 import { useMemo, useState } from "react";
 import { Link } from "@/i18n/navigation";
-import {
-  ArrowRight,
-  ChevronDown,
-  Search,
-  X,
-  Globe,
-  Home,
-  ShieldAlert,
-  Users,
-  Cpu,
-  Briefcase,
-  FileText,
-  Building2,
-  Key,
-  BookOpen,
-  Scale,
-  HardHat,
-  Copyright,
-} from "lucide-react";
+import { ArrowRight, ChevronDown, Search, X } from "lucide-react";
 import type { ReactNode } from "react";
 import type { ArticleSearchEntry } from "@/lib/articles";
-import type { PracticeIconKey } from "@/lib/practice-areas";
-
-type IconKey = PracticeIconKey | "BookOpen";
-
-const ICONS: Record<IconKey, ReactNode> = {
-  Globe: <Globe size={20} />,
-  Home: <Home size={20} />,
-  ShieldAlert: <ShieldAlert size={20} />,
-  Users: <Users size={20} />,
-  Cpu: <Cpu size={20} />,
-  Briefcase: <Briefcase size={20} />,
-  FileText: <FileText size={20} />,
-  Building2: <Building2 size={20} />,
-  Key: <Key size={20} />,
-  BookOpen: <BookOpen size={20} />,
-  Scale: <Scale size={20} />,
-  HardHat: <HardHat size={20} />,
-  Copyright: <Copyright size={20} />,
-};
 
 export interface BrowserSubgroup {
   title: string;
@@ -50,7 +13,6 @@ export interface BrowserSubgroup {
 
 export interface BrowserGroup {
   category: string;
-  iconKey: IconKey;
   practiceSlug: string | null;
   items: ArticleSearchEntry[];
   // Opsiyonel iç içe blok: örn. "Ceza Hukuku" grubunun altında
@@ -283,9 +245,6 @@ function GroupedView({
             className="group rounded-xl border border-cream-200 dark:border-navy-800 bg-white dark:bg-navy-900/40 overflow-hidden hover:border-gold-400 hover:shadow-md hover:shadow-navy-950/5 transition-all duration-200"
           >
             <summary className="cursor-pointer list-none flex items-center gap-4 px-6 select-none h-[96px] overflow-hidden">
-              <span className="inline-flex w-10 h-10 shrink-0 items-center justify-center rounded-full bg-navy-900 dark:bg-gold-500 text-cream-50 dark:text-navy-950 group-open:bg-gold-500 group-open:text-navy-950 transition-colors">
-                {ICONS[g.iconKey]}
-              </span>
               <span className="flex-1 min-w-0 overflow-hidden">
                 <span className="block font-display text-lg md:text-xl text-navy-900 dark:text-cream-50 leading-snug line-clamp-2 overflow-hidden">
                   {g.category}

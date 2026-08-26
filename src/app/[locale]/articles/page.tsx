@@ -134,7 +134,6 @@ export default async function ArticlesPage({
 
       groups.push({
         category: title,
-        iconKey: area.icon,
         practiceSlug: area.slug,
         items: nonSeries,
       });
@@ -142,7 +141,6 @@ export default async function ArticlesPage({
       if (subgroups.length > 0) {
         groups.push({
           category: TCK_HEADING,
-          iconKey: "BookOpen",
           practiceSlug: null,
           items: [],
           subgroups,
@@ -152,7 +150,6 @@ export default async function ArticlesPage({
       if (cmkSubgroups.length > 0) {
         groups.push({
           category: CMK_HEADING,
-          iconKey: "BookOpen",
           practiceSlug: null,
           items: [],
           subgroups: cmkSubgroups,
@@ -173,7 +170,6 @@ export default async function ArticlesPage({
 
       groups.push({
         category: title,
-        iconKey: area.icon,
         practiceSlug: area.slug,
         items: nonSeries,
       });
@@ -181,7 +177,6 @@ export default async function ArticlesPage({
       if (isHukukuSubgroups.length > 0) {
         groups.push({
           category: IS_HUKUKU_HEADING,
-          iconKey: "BookOpen",
           practiceSlug: null,
           items: [],
           subgroups: isHukukuSubgroups,
@@ -226,7 +221,6 @@ export default async function ArticlesPage({
 
       groups.push({
         category: title,
-        iconKey: area.icon,
         practiceSlug: area.slug,
         items: nonSeries,
       });
@@ -367,7 +361,6 @@ export default async function ArticlesPage({
       if (allTtkSubgroups.length > 0) {
         groups.push({
           category: TTK_HEADING,
-          iconKey: "BookOpen",
           practiceSlug: null,
           items: [],
           subgroups: allTtkSubgroups,
@@ -376,7 +369,6 @@ export default async function ArticlesPage({
     } else {
       groups.push({
         category: title,
-        iconKey: area.icon,
         practiceSlug: area.slug,
         items,
       });
@@ -387,7 +379,6 @@ export default async function ArticlesPage({
     if (!seen.has(cat)) {
       groups.push({
         category: cat,
-        iconKey: "BookOpen",
         practiceSlug: null,
         items: byCategory.get(cat)!,
       });

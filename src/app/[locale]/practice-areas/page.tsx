@@ -1,24 +1,9 @@
-import { Globe, Home, ShieldAlert, Users, Scale, Cpu, Briefcase, FileText, HardHat, Building2, Key, Copyright, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { PageHero } from "@/components/PageHero";
 import { pageMetadata } from "@/lib/seo";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
-
-const ICONS: Record<string, React.ReactNode> = {
-  Globe: <Globe size={22} />,
-  Home: <Home size={22} />,
-  ShieldAlert: <ShieldAlert size={22} />,
-  Users: <Users size={22} />,
-  Scale: <Scale size={22} />,
-  Cpu: <Cpu size={22} />,
-  Briefcase: <Briefcase size={22} />,
-  FileText: <FileText size={22} />,
-  HardHat: <HardHat size={22} />,
-  Building2: <Building2 size={22} />,
-  Key: <Key size={22} />,
-  Copyright: <Copyright size={22} />,
-};
 
 export async function generateMetadata({
   params,
@@ -49,14 +34,23 @@ export default async function PracticeAreasPage({
       <PageHero title={t("title")} />
       <section className="mx-auto max-w-6xl px-6 pt-10 pb-20">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {PRACTICE_AREAS.map((area) => (
+          {PRACTICE_AREAS.map((area, i) => (
             <Link
               key={area.slug}
               href={`/practice-areas/${area.slug}`}
               className="group flex flex-col overflow-hidden rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all h-[280px]"
             >
-              <div className="mb-4 inline-flex w-10 h-10 shrink-0 items-center justify-center rounded-full bg-navy-900 text-cream-50 group-hover:bg-gold-500 group-hover:text-navy-950 transition-colors">
-                {ICONS[area.icon]}
+              {/* Editoryal indeks numarası — ikonun yerini alır. Yalnızca görsel
+                  bir işaret olduğu için ekran okuyucudan gizlenir; kartın anlamı
+                  başlıkta. Altındaki altın kural çizgisi hover'da uzar (width
+                  değil scaleX ile — layout hesaplaması tetiklenmesin). */}
+              <div className="mb-3.5 shrink-0" aria-hidden="true">
+                <div className="font-display text-[44px] font-light leading-[0.9] tracking-[0.02em] tabular-nums text-gold-500">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                {/* origin RTL'de sağa alınır — Arapça'da çizgi sağ kenardan
+                    başladığı için sola doğru uzaması gerekir. */}
+                <span className="mt-3 block h-px w-[30px] origin-left rtl:origin-right bg-gold-400 transition-transform duration-200 group-hover:scale-x-[1.8] motion-reduce:transition-none" />
               </div>
               <h2 className="mb-3 text-base font-semibold text-navy-900 leading-snug group-hover:text-navy-700 line-clamp-2 h-[2.75rem] overflow-hidden">
                 {pickPA(area.title, locale)}
