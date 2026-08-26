@@ -1,5 +1,5 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import ReactMarkdown from "react-markdown";
 import { Link } from "@/i18n/navigation";
@@ -7,6 +7,7 @@ import { getArticle, getAllArticles, extractFaqPairs, getAdjacentArticles } from
 import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
+import { resolveArticleFallback } from "@/lib/article-fallback";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
@@ -90,7 +91,14 @@ export default async function ArticlePage({
   const { locale, slug } = await params;
   setRequestLocale(locale);
   const article = await getArticle(locale, slug);
-  if (!article) notFound();
+  if (!article) {
+    // Makale bu locale'de yok: slug başka bir dilin slug'ı olabilir ya da makale
+    // bu dile hiç çevrilmemiş olabilir. Her iki durumda da 404 yerine var olan
+    // sürüme 308 veriyoruz (GSC "Bulunamadı (404)" raporunun ana kaynağıydı).
+    const fallback = resolveArticleFallback(locale, slug);
+    if (fallback) permanentRedirect(fallback);
+    notFound();
+  }
 
   const faqPairs = extractFaqPairs(article.body);
   const { prev: prevArticle, next: nextArticle } = await getAdjacentArticles(locale, {

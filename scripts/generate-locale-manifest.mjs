@@ -115,6 +115,43 @@ async function generateLegalNewsManifest() {
   return manifest;
 }
 
+/**
+ * Bulunamayan makale URL'lerini (yanlış locale, yanlış dildeki slug) 404 yerine
+ * doğru sayfaya 308'leyebilmek için gereken indeks. GSC "Bulunamadı (404)"
+ * raporundaki makale URL'lerinin tamamı bu iki sınıftan geliyordu:
+ *   /tr/articles/<ingilizce-slug>            → TR makalesi Türkçe slug'ta duruyor
+ *   /<locale>/articles/<slug>                → makale o dile hiç çevrilmemiş
+ * next.config.ts'teki elle yazılmış ~490 kural bunların yalnızca bir kısmını
+ * kapsıyordu; bu manifest kalan ~5300 kombinasyonu tek kuralla çözer.
+ */
+async function generateFallbackManifest() {
+  const contentDir = path.join(ROOT, "content", "articles");
+
+  // translationKey -> { l: "tr,en,...", tr: "<türkçe-slug>" }
+  const keys = {};
+  // Türkçe slug -> translationKey (TR dışındaki dillerde slug === translationKey)
+  const trSlugs = {};
+
+  for (const locale of LOCALES) {
+    const dir = path.join(contentDir, locale);
+    for (const slug of await listSlugs(dir)) {
+      const fm = await readFrontmatter(dir, `${slug}.mdx`);
+      if (!fm || fm.draft) continue;
+      const tk = fm.translationKey ?? slug;
+      const entry = (keys[tk] ??= { l: [], tr: "" });
+      if (!entry.l.includes(locale)) entry.l.push(locale);
+      if (locale === "tr") {
+        entry.tr = slug;
+        trSlugs[slug] = tk;
+      }
+    }
+  }
+
+  for (const entry of Object.values(keys)) entry.l = entry.l.join(",");
+
+  return { keys, trSlugs };
+}
+
 async function main() {
   const outDir = path.join(ROOT, "src", "generated");
   await fs.mkdir(outDir, { recursive: true });
@@ -132,6 +169,15 @@ async function main() {
     JSON.stringify(legalNewsManifest)
   );
   console.log(`[generate-locale-manifest] legal-news-locales.json: ${Object.keys(legalNewsManifest).length} entries`);
+
+  const fallbackManifest = await generateFallbackManifest();
+  await fs.writeFile(
+    path.join(outDir, "article-fallbacks.json"),
+    JSON.stringify(fallbackManifest)
+  );
+  console.log(
+    `[generate-locale-manifest] article-fallbacks.json: ${Object.keys(fallbackManifest.keys).length} keys, ${Object.keys(fallbackManifest.trSlugs).length} tr slugs`
+  );
 }
 
 main();
