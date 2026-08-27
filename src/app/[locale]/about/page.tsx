@@ -97,21 +97,6 @@ export default async function AboutPage({
                 </dt>
                 <dd className="mt-0.5 text-ink-soft">{founder.bar}</dd>
               </div>
-              <div className="sm:col-span-2">
-                <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
-                  {tTeam("labelAreas")}
-                </dt>
-                <dd className="mt-1 flex flex-wrap gap-1.5">
-                  {founder.areas.map((area) => (
-                    <span
-                      key={area.en}
-                      className="rounded-full bg-navy-50 px-2.5 py-0.5 text-xs text-navy-700"
-                    >
-                      {pick(area, locale)}
-                    </span>
-                  ))}
-                </dd>
-              </div>
             </dl>
 
             <Link

@@ -106,21 +106,6 @@ export default async function TeamPage({
                     </dt>
                     <dd className="mt-0.5 text-ink-soft">{member.bar}</dd>
                   </div>
-                  <div>
-                    <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
-                      {t("labelAreas")}
-                    </dt>
-                    <dd className="mt-1 flex flex-wrap gap-1.5">
-                      {member.areas.map((area) => (
-                        <span
-                          key={area.en}
-                          className="rounded-full bg-navy-50 px-2.5 py-0.5 text-xs text-navy-700"
-                        >
-                          {pick(area, lang)}
-                        </span>
-                      ))}
-                    </dd>
-                  </div>
                 </dl>
               </div>
             </article>
