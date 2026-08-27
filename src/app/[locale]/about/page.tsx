@@ -4,7 +4,6 @@ import { PageHero } from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
-import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 import { TEAM, pick } from "@/lib/team";
 import { authorSlug } from "@/lib/author";
 import { JsonLd } from "@/components/JsonLd";
@@ -34,7 +33,6 @@ export default async function AboutPage({
   setRequestLocale(locale);
   const t = await getTranslations("about");
   const tCta = await getTranslations("cta");
-  const tNav = await getTranslations("nav");
   const tTeam = await getTranslations("team");
 
   const founder = TEAM[0]; // Av. Mustafa AKÇAKUŞ
@@ -128,30 +126,6 @@ export default async function AboutPage({
 
         {/* Person JSON-LD for E-E-A-T */}
         <JsonLd data={personSchema(founder, locale)} />
-      </section>
-
-      {/* Practice areas overview with internal links */}
-      <section className="border-t border-cream-200 bg-cream-100/60">
-        <div className="mx-auto max-w-6xl px-6 py-20">
-          <h2 className="font-display text-3xl text-navy-900 mb-4">
-            {tNav("practiceAreas")}
-          </h2>
-          <span className="gold-divider mt-4" />
-          <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {PRACTICE_AREAS.map((area) => (
-              <li key={area.slug}>
-                <Link
-                  href={`/practice-areas/${area.slug}`}
-                  className="flex h-[3.5rem] items-center overflow-hidden rounded-md border border-navy-100 bg-white px-4 text-sm font-medium text-navy-900 hover:border-gold-400 hover:text-navy-700 transition-colors"
-                >
-                  <span className="block w-full line-clamp-2 overflow-hidden">
-                    {pickPA(area.title, locale)}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
       </section>
 
       {/* CTA */}
