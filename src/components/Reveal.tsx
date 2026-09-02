@@ -1,50 +1,45 @@
-"use client";
+import type { CSSProperties, ReactNode } from "react";
 
-import { useEffect, useRef, useState } from "react";
-import type { ReactNode } from "react";
+type RevealVariant = "rise" | "soft" | "settle" | "inline";
+
+const VARIANT_CLASS: Record<RevealVariant, string> = {
+  rise: "sd",
+  soft: "sd sd-soft",
+  settle: "sd sd-settle",
+  inline: "sd sd-inline",
+};
 
 /**
- * Bir bölüm görünüm alanına girdiğinde hafifçe yukarı doğru belirir.
- * IntersectionObserver tek seferlik tetiklenir; prefers-reduced-motion
- * için CSS tarafında (.reveal) animasyon iptal edilir.
+ * Bölüm görünüm alanına girerken hafifçe belirir.
+ *
+ * Hareket tamamen CSS scroll-driven animation ile üretilir (`animation-timeline:
+ * view()`), JavaScript çalışmaz. Desteklemeyen tarayıcıda içerik statik ve tam
+ * görünür kalır — hiçbir zaman opacity:0 ile sunulmaz.
+ *
+ * `variant` ardışık blokların aynı hareketi tekrarlamaması içindir; iki komşu
+ * bölüm aynı varyantı kullanmamalı. `step` ise liste öğelerini sıralar: her
+ * adım animasyonu scroll ekseninde biraz ileri kaydırır.
  */
 export function Reveal({
   children,
-  delay = 0,
+  variant = "rise",
+  step = 0,
   className = "",
   as: Tag = "div",
 }: {
   children: ReactNode;
-  delay?: number;
+  variant?: RevealVariant;
+  step?: number;
   className?: string;
   as?: "div" | "li" | "section";
 }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
   const Comp = Tag as "div";
+  const style = step
+    ? ({ "--sd-step": `${step * 5}%` } as CSSProperties)
+    : undefined;
+
   return (
-    <Comp
-      ref={ref}
-      className={`reveal ${visible ? "is-visible" : ""} ${className}`}
-      style={visible && delay ? { animationDelay: `${delay}ms` } : undefined}
-    >
+    <Comp className={`${VARIANT_CLASS[variant]} ${className}`} style={style}>
       {children}
     </Comp>
   );

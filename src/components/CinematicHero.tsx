@@ -14,20 +14,31 @@ export function CinematicHero() {
   const tCta = useTranslations("cta");
 
   return (
-    <section className="relative isolate -mt-px h-[88vh] min-h-[640px] w-full overflow-hidden">
+    // sd-hero: bu bölüm kendi görüntü zaman çizelgesini yayınlar (--sd-hero);
+    // içindeki katmanlar scroll konumuna göre bu çizelgeden sürülür.
+    // 88svh (88vh değil): iOS'ta adres çubuğu açılıp kapanırken hero zıplamasın.
+    <section className="sd-hero relative isolate -mt-px h-[88svh] min-h-[640px] w-full overflow-hidden">
+      {/* İki katmanlı transform: dıştaki scroll'a bağlı derinlik zoom'u,
+          içteki zamana bağlı Ken Burns. Aynı elemanda iki animasyon transform
+          yazamayacağı için ayrıldılar. */}
       <div
-        className="absolute inset-0 animate-ken-burns"
+        className="sd-hero-zoom absolute inset-0"
         style={{ transformOrigin: HERO_FOCAL_POINT }}
       >
-        <Image
-          src={HERO_IMAGE_URL}
-          alt={t("hero.imageAlt")}
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
-          style={{ objectPosition: HERO_FOCAL_POINT }}
-        />
+        <div
+          className="absolute inset-0 animate-ken-burns"
+          style={{ transformOrigin: HERO_FOCAL_POINT }}
+        >
+          <Image
+            src={HERO_IMAGE_URL}
+            alt={t("hero.imageAlt")}
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
+            style={{ objectPosition: HERO_FOCAL_POINT }}
+          />
+        </div>
       </div>
 
       <div
@@ -38,8 +49,13 @@ export function CinematicHero() {
         aria-hidden
         className="absolute inset-0 bg-gradient-to-r from-navy-950/55 via-transparent to-transparent rtl:bg-gradient-to-l"
       />
+      {/* Aşağı inildikçe sahne çekilir. Başlangıçta tamamen şeffaf. */}
+      <div
+        aria-hidden
+        className="sd-hero-veil absolute inset-0 bg-navy-950/70 opacity-0"
+      />
 
-      <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-end px-6 pb-24 pt-32 md:pb-32">
+      <div className="sd-hero-copy relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-end px-6 pb-24 pt-32 md:pb-32">
         <div className="max-w-3xl">
           <div className="mb-20 md:mb-24">
             <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-6xl lg:text-7xl text-cream-50 leading-[1.05] tracking-tight drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)]">
@@ -68,7 +84,7 @@ export function CinematicHero() {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-cream-100/80">
+      <div className="sd-hero-cue absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-cream-100/80">
         <ChevronDown size={28} className="animate-scroll-bob" strokeWidth={1.5} />
       </div>
     </section>

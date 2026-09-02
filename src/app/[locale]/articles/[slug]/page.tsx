@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/Art
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 // Build anında var olan tüm makaleler generateStaticParams ile tam statik
 // üretilir (davranış değişmedi). dynamicParams=true (varsayılan) olduğu için,
@@ -154,7 +155,9 @@ export default async function ArticlePage({
   const authorLabel = authorName ? `${titlePrefix} ${authorName}` : null;
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-16">
+    <>
+      <ReadingProgress />
+      <article className="mx-auto max-w-3xl px-6 py-16">
       <ArticleSchema
         locale={locale}
         slug={slug}
@@ -237,6 +240,7 @@ export default async function ArticlePage({
         prevArticle={prevArticle}
         nextArticle={nextArticle}
       />
-    </article>
+      </article>
+    </>
   );
 }

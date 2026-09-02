@@ -17,7 +17,7 @@ export function Footer() {
         <div className="md:col-span-2">
           <p className="font-display text-2xl text-cream-50">{tSite("name")}</p>
           <p className="mt-2 text-sm text-cream-200/80 sm:whitespace-nowrap">
-            {tSite("tagline")}
+            {tSite("footerTagline")}
           </p>
         </div>
 

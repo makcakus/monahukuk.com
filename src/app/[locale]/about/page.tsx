@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
@@ -44,7 +45,7 @@ export default async function AboutPage({
 
       {/* Body / Intro */}
       <section className="mx-auto max-w-3xl px-6 py-16">
-        <div className="prose-legal">
+        <div className="sd prose-legal">
           {t("body").split("\n\n").map((para, i) => (
             <p key={i}>{para}</p>
           ))}
@@ -57,7 +58,7 @@ export default async function AboutPage({
         className="border-t border-cream-200 scroll-mt-24"
       >
         <div className="mx-auto max-w-5xl px-6 py-20 grid gap-10 md:grid-cols-3 items-start">
-          <div className="md:col-span-1">
+          <div className="sd sd-settle md:col-span-1">
             <div className="relative aspect-square overflow-hidden rounded-sm bg-cream-100">
               <Image
                 src="/team/mustafa.jpeg"
@@ -69,14 +70,14 @@ export default async function AboutPage({
               />
             </div>
           </div>
-          <div className="md:col-span-2">
+          <div className="sd sd-soft md:col-span-2">
             <p className="text-xs uppercase tracking-[0.18em] text-gold-700 mb-3">
               {t("founderTitle")}
             </p>
             <h2 className="font-display text-2xl md:text-3xl text-navy-900 leading-tight">
               {founder.name}
             </h2>
-            <span className="gold-divider mt-5" />
+            <span className="gold-divider sd-draw mt-5" />
             <p className="mt-5 text-sm text-ink-mute italic max-w-xl">
               {t("founderLead")}
             </p>
@@ -116,7 +117,7 @@ export default async function AboutPage({
       {/* CTA */}
       <section className="border-t border-cream-200">
         <div className="mx-auto max-w-6xl px-6 py-20 grid gap-8 md:grid-cols-12 items-center">
-          <div className="md:col-span-8">
+          <div className="sd md:col-span-8">
             <h2 className="font-display text-3xl md:text-4xl text-navy-900">
               {t("ctaTitle")}
             </h2>
@@ -124,7 +125,7 @@ export default async function AboutPage({
               {t("ctaBody")}
             </p>
           </div>
-          <div className="md:col-span-4 md:text-end">
+          <div className="sd sd-soft md:col-span-4 md:text-end" style={{ "--sd-step": "6%" } as CSSProperties}>
             <Link
               href="/contact"
               className="inline-flex items-center justify-center gap-2 rounded-sm bg-gold-400 px-6 text-sm font-medium text-navy-950 hover:bg-gold-500 transition-colors whitespace-nowrap w-full sm:w-auto h-[48px] flex-shrink-0"

@@ -192,19 +192,6 @@ h1, h2, h3, h4, .font-display {
   animation: scroll-bob 2.2s ease-in-out infinite;
 }
 
-/* Scroll-triggered reveal (used by <Reveal>) */
-@keyframes reveal-rise {
-  from { opacity: 0; transform: translateY(20px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-.reveal {
-  opacity: 0;
-  transform: translateY(20px);
-}
-.reveal.is-visible {
-  animation: reveal-rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
 /* Nav link underline draw-on-hover */
 .nav-underline {
   position: relative;
@@ -235,13 +222,6 @@ h1, h2, h3, h4, .font-display {
   .animate-scroll-bob,
   .animate-ken-burns {
     animation: none !important;
-  }
-  .reveal {
-    opacity: 1;
-    transform: none;
-  }
-  .reveal.is-visible {
-    animation: none;
   }
   .nav-underline::after {
     transition: none;
@@ -308,4 +288,210 @@ h1, h2, h3, h4, .font-display {
 .dark .bg-navy-900:not(footer):not(header):hover,
 .dark .hover\:bg-navy-800:hover:not(footer):not(header) {
   background-color: var(--color-gold-600) !important;
+}
+
+/* ==========================================================================
+   Scroll-driven hareket katmanı
+   --------------------------------------------------------------------------
+   Kurallar:
+   1. Yalnız transform / opacity animasyonlanır — her şey compositor'da kalır,
+      scroll sırasında layout tetiklenmez.
+   2. İçerik hiçbir zaman opacity:0 ile sunucudan gelmez. Tarayıcı
+      scroll-driven timeline desteklemiyorsa sayfa statik ve tam okunur kalır
+      (SEO, JS'siz istemciler ve erişilebilirlik için).
+   3. Yatay yön mantıksaldır: --sd-dir Arapçada -1 olur.
+   4. prefers-reduced-motion altında konum değişimleri düşer; anlamı taşıyan
+      opaklık ve okuma ilerleme çubuğu kalır.
+   ========================================================================== */
+
+:root { --sd-dir: 1; }
+[dir="rtl"] { --sd-dir: -1; }
+
+@keyframes sd-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(calc(var(--sd-x, 0px) * var(--sd-dir)), var(--sd-y, 22px), 0)
+               scale(var(--sd-scale, 1));
+  }
+  to { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes sd-fade-in   { from { opacity: 0; } to { opacity: 1; } }
+@keyframes sd-fade-out  { from { opacity: 1; } to { opacity: 0; } }
+@keyframes sd-draw      { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes sd-progress  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes sd-curtain   { from { transform: translate3d(0, 46px, 0); } to { transform: translate3d(0, 0, 0); } }
+@keyframes sd-hero-copy { from { opacity: 1; transform: translate3d(0, 0, 0); }
+                          to   { opacity: 0; transform: translate3d(0, -52px, 0); } }
+@keyframes sd-hero-zoom { from { transform: scale(1); } to { transform: scale(1.07); } }
+
+/* Okuma ilerleme çubuğu — scroll konumu bilgi taşır, reduced-motion'da da kalır. */
+.sd-progress {
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+}
+[dir="rtl"] .sd-progress { transform-origin: 100% 50%; }
+
+@supports (animation-timeline: scroll()) {
+  .sd-progress {
+    animation: sd-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* --- Bölüm girişi. Varyantlar aynı hareketin arka arkaya tekrarlanmaması
+           için var; ardışık iki blok asla aynı varyantı kullanmamalı. --- */
+    .sd {
+      animation: sd-rise linear both;
+      animation-timeline: view();
+      animation-range: entry calc(6% + var(--sd-step, 0%)) entry calc(52% + var(--sd-step, 0%));
+    }
+    .sd-soft   { --sd-y: 12px; }                        /* liste öğeleri */
+    .sd-settle { --sd-y: 0px; --sd-scale: 0.965; }      /* yerine oturma */
+    .sd-inline { --sd-y: 6px; --sd-x: 26px; }           /* yandan giriş (RTL uyumlu) */
+
+    /* --- Altın ayraç kendini çizer --- */
+    .sd-draw {
+      transform-origin: left center;
+      animation: sd-draw linear both;
+      animation-timeline: view();
+      animation-range: entry 20% entry 64%;
+    }
+    [dir="rtl"] .sd-draw { transform-origin: right center; }
+
+    /* --- Hero çıkışı: bölümün kendi görüntü zaman çizelgesi --- */
+    .sd-hero { view-timeline-name: --sd-hero; view-timeline-axis: block; }
+
+    .sd-hero-zoom {
+      animation: sd-hero-zoom linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 100%;
+    }
+    .sd-hero-veil {
+      animation: sd-fade-in linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 88%;
+    }
+    .sd-hero-copy {
+      animation: sd-hero-copy linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 62%;
+    }
+    .sd-hero-cue {
+      animation: sd-fade-out linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 10%;
+    }
+
+    /* --- Perde: hero'nun üstüne kayan opak panel --- */
+    .sd-curtain {
+      animation: sd-curtain linear both;
+      animation-timeline: view();
+      animation-range: entry 24% entry 88%;
+    }
+  }
+
+  /* Azaltılmış hareket: konum değişimi yok, yalnız yumuşak opaklık. */
+  @media (prefers-reduced-motion: reduce) {
+    .sd {
+      animation: sd-fade-in linear both;
+      animation-timeline: view();
+      animation-range: entry 8% entry 46%;
+    }
+  }
+}
+
+/* Perde paneli — sayfanın gövdesi hero'nun üstüne kayan opak bir panel gibi
+   davranır. Arka plan burada tanımlanır: sayfa zemini ile aynı renk olduğu için
+   panel görünmez, yalnız yuvarlatılmış üst kenarı ve gölgesi okunur. */
+.sd-curtain-panel {
+  position: relative;
+  z-index: 10;
+  background: var(--color-cream-50);
+  border-start-start-radius: 1.5rem;
+  border-start-end-radius: 1.5rem;
+  box-shadow: 0 -28px 60px -34px rgba(5, 13, 36, 0.5);
+}
+.dark .sd-curtain-panel {
+  background: var(--color-navy-950);
+  box-shadow: 0 -28px 60px -34px rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 768px) {
+  .sd-curtain-panel {
+    border-start-start-radius: 2.25rem;
+    border-start-end-radius: 2.25rem;
+  }
+}
+
+/* Koyu editoryal bant — açık ve koyu temada da koyu kalır, metin daima açık. */
+.sd-band {
+  position: relative;
+  background: var(--color-navy-950);
+}
+.dark .sd-band { background: var(--color-navy-800); }
+/* Bandın üstündeki 72px'i banda doğru karartır: krem -> lacivert devri
+   sert bir kenar yerine yumuşak bir geçiş olarak okunur. Bandın üstünde
+   duran bölüm burada yalnız dolgu (padding) barındırır, metin değil. */
+.sd-band::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: -72px;
+  height: 72px;
+  background: linear-gradient(to bottom, rgba(5, 13, 36, 0), var(--color-navy-950));
+  pointer-events: none;
+}
+.dark .sd-band::before {
+  background: linear-gradient(to bottom, rgba(20, 36, 80, 0), var(--color-navy-800));
+}
+
+/* --------------------------------------------------------------------------
+   Sticky başlık yoğunlaşması
+   Eşik geçildiğinde tek seferlik bir sınıf değişir; geçiş CSS transition ile
+   yapılır. Scroll dinleyicisi ve kare başına layout yok.
+   -------------------------------------------------------------------------- */
+.site-header {
+  transition: box-shadow 0.3s ease-out;
+}
+.site-header__inner {
+  transition: padding-block 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.site-header__mark {
+  transition: font-size 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.site-header__place {
+  overflow: hidden;
+  max-height: 3rem;
+  transition:
+    opacity 0.18s ease-out,
+    max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+    margin-top 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-header[data-condensed="true"] {
+  box-shadow: 0 10px 28px -20px rgba(5, 13, 36, 0.55);
+}
+.dark .site-header[data-condensed="true"] {
+  box-shadow: 0 10px 28px -18px rgba(0, 0, 0, 0.7);
+}
+.site-header[data-condensed="true"] .site-header__inner {
+  padding-block: 0.85rem;
+}
+.site-header[data-condensed="true"] .site-header__mark {
+  font-size: 1.5rem;
+}
+.site-header[data-condensed="true"] .site-header__place {
+  opacity: 0;
+  max-height: 0;
+  margin-top: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header,
+  .site-header__inner,
+  .site-header__mark,
+  .site-header__place {
+    transition: none;
+  }
 }

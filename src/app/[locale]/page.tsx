@@ -41,25 +41,24 @@ function HomeContent() {
         <CinematicHero />
       </div>
 
-      {/* Practice intro */}
-      <section className="bg-cream-100/60">
-        <div className="mx-auto max-w-3xl px-6 py-16">
-          <Reveal>
-            <p className="text-ink-soft leading-relaxed text-lg">
-              {t("practiceIntro")}
-            </p>
-          </Reveal>
+      {/* Practice intro — perde: sayfa gövdesi hero'nun üstüne kayar.
+          Blok içinde ayrıca hareket yok; perdenin kendisi bu bölümün hareketi. */}
+      <section className="sd-curtain sd-curtain-panel -mt-14">
+        <div className="mx-auto max-w-3xl px-6 pt-20 pb-16">
+          <p className="text-ink-soft leading-relaxed text-lg">
+            {t("practiceIntro")}
+          </p>
         </div>
       </section>
 
-      {/* Foreign clients */}
-      <section className="border-t border-cream-200">
-        <div className="mx-auto max-w-6xl px-6 py-20 grid gap-10 md:grid-cols-2 items-start">
+      {/* Foreign clients — başlık yükselir, ayraç kendini çizer, liste sırayla düşer */}
+      <section>
+        <div className="mx-auto max-w-6xl px-6 pb-20 grid gap-10 md:grid-cols-2 items-start">
           <Reveal>
             <h2 className="font-display text-3xl md:text-4xl text-navy-900">
               {t("foreignClients.title")}
             </h2>
-            <span className="gold-divider mt-6" />
+            <span className="gold-divider sd-draw mt-6" />
             <p className="mt-6 text-ink-soft leading-relaxed">
               {t("foreignClients.lead")}
             </p>
@@ -79,7 +78,7 @@ function HomeContent() {
               t("foreignClients.item4"),
               t("foreignClients.item5"),
             ].map((item, i) => (
-              <Reveal key={item} as="li" delay={i * 80} className="flex gap-3 items-start">
+              <Reveal key={item} as="li" variant="soft" step={i} className="flex gap-3 items-start">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold-500" />
                 <span className="text-ink-soft leading-relaxed">{item}</span>
               </Reveal>
@@ -88,24 +87,28 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Approach */}
-      <section className="border-t border-cream-200 bg-cream-100/60">
-        <div className="mx-auto max-w-3xl px-6 py-16">
-          <Reveal>
-            <h2 className="font-display text-2xl text-navy-900 mb-6">
+      {/* Approach — koyu editoryal bant. Krem -> lacivert ton devri; metin
+          her iki temada da açık renk kalır, scroll sırasında kontrast değişmez. */}
+      <section className="sd-band">
+        <div className="mx-auto max-w-3xl px-6 py-24 md:py-28">
+          <Reveal variant="settle">
+            <h2 className="font-display text-3xl md:text-4xl text-cream-50">
               {t("approach.title")}
             </h2>
-            <p className="text-ink-soft leading-relaxed">{t("approach.body")}</p>
-            <p className="mt-4 text-ink-soft leading-relaxed font-medium">
+            <span className="gold-divider sd-draw mt-6" />
+            <p className="mt-8 text-cream-100/85 leading-relaxed text-lg">
+              {t("approach.body")}
+            </p>
+            <p className="mt-5 text-cream-50 leading-relaxed font-medium text-lg">
               {t("approach.closing")}
             </p>
           </Reveal>
         </div>
       </section>
 
-      {/* Newsletter */}
-      <section className="border-t border-cream-200 bg-cream-100/40">
-        <div className="mx-auto max-w-3xl px-6 py-16">
+      {/* Newsletter — kapanış: durağan, net, hareket burada biter */}
+      <section>
+        <div className="mx-auto max-w-3xl px-6 py-20">
           <Reveal>
             <NewsletterInlineCTA id="newsletter" />
           </Reveal>

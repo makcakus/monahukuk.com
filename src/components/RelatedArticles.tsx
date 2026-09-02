@@ -65,7 +65,7 @@ export async function RelatedArticles({
         )}
       </div>
 
-      <span className="gold-divider mt-4" />
+      <span className="gold-divider sd-draw mt-4" />
 
       {items.length > 0 && (
         <ul className="mt-8 grid gap-5 md:grid-cols-3">

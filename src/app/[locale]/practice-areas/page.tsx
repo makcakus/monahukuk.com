@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { ArrowRight } from "lucide-react";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -38,7 +39,10 @@ export default async function PracticeAreasPage({
             <Link
               key={area.slug}
               href={`/practice-areas/${area.slug}`}
-              className="group flex flex-col overflow-hidden rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all h-[280px]"
+              // Kademe satır içinde ilerler, liste boyunca değil: 10 kartlık
+              // düz bir kademelenme son kartı çok geç getirirdi.
+              style={{ "--sd-step": `${(i % 3) * 4}%` } as CSSProperties}
+              className="sd sd-settle group flex flex-col overflow-hidden rounded-xl border border-navy-100 bg-white p-6 shadow-sm hover:shadow-lg hover:border-gold-400 transition-all h-[280px]"
             >
               {/* Editoryal indeks numarası — ikonun yerini alır. Yalnızca görsel
                   bir işaret olduğu için ekran okuyucudan gizlenir; kartın anlamı

@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { BreadcrumbSchema } from "@/components/ArticleSchema";
+import { ReadingProgress } from "@/components/ReadingProgress";
 
 // Tüm gazette postları git ile deploy edilir, runtime'da değişmez; hepsi statik.
 // dynamicParams=false: ön-derlenmeyen (var olmayan) slug'lar temiz 404 döner
@@ -74,7 +75,9 @@ export default async function GazettePostPage({
   });
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-16">
+    <>
+      <ReadingProgress />
+      <article className="mx-auto max-w-3xl px-6 py-16">
       <BreadcrumbSchema
         locale={locale}
         items={[
@@ -112,6 +115,7 @@ export default async function GazettePostPage({
       <div className="prose-legal">
         <MDXRemote source={post.body} />
       </div>
-    </article>
+      </article>
+    </>
   );
 }

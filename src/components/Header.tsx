@@ -38,6 +38,22 @@ export function Header() {
   const pathname = usePathname();
   const locale = useLocale();
   const [open, setOpen] = useState(false);
+  // Scroll dinleyicisi yok: sayfa tepesine sabitlenmiş 1px'lik bir işaretçiyi
+  // IntersectionObserver izler. Eşik geçilince tek bir sınıf değişir ve
+  // yoğunlaşma CSS transition'ı ile bir kez yapılır — her karede layout yok.
+  const [condensed, setCondensed] = useState(false);
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      ([entry]) => setCondensed(!entry.isIntersecting),
+      { threshold: 0 }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const groupRef = useRef<HTMLDivElement | null>(null);
 
@@ -67,8 +83,17 @@ export function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
-      <div className="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between gap-6">
+    <>
+      <div
+        ref={sentinelRef}
+        aria-hidden
+        className="pointer-events-none absolute top-20 h-px w-px"
+      />
+      <header
+        data-condensed={condensed}
+        className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75"
+      >
+      <div className="site-header__inner mx-auto max-w-6xl px-6 py-6 flex items-center justify-between gap-6">
         <Link
           href="/"
           className="flex flex-col leading-tight"
@@ -77,12 +102,12 @@ export function Header() {
           {tSite("name").split(" ").map((word, i) => (
             <span
               key={i}
-              className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+              className="site-header__mark font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
             >
               {word}
             </span>
           ))}
-          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
+          <span className="site-header__place mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
             <span>Antalya</span>
             <span>Türkiye</span>
           </span>
@@ -230,6 +255,7 @@ export function Header() {
           </nav>
         </div>
       )}
-    </header>
+      </header>
+    </>
   );
 }
