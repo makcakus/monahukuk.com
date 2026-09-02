@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Alegreya, Alegreya_Sans } from "next/font/google";
+import { Alegreya_Sans, Cormorant_Garamond } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -23,12 +23,12 @@ const sans = Alegreya_Sans({
   display: "swap",
 });
 
-// Alegreya ve Alegreya Sans aynı üst ailenin iki üyesi; başlık ile gövde
-// aynı iskeleti paylaşır. Alegreya'da 300 ağırlığı yok (400-900).
+// Başlık kimliği Cormorant Garamond; marka yüzü olarak korunuyor.
 // cyrillic alt kümesi olmadan Rusça başlıklar Georgia'ya düşüyordu.
-const display = Alegreya({
+// 300, practice-areas kartlarındaki büyük indeks rakamı için gerekli.
+const display = Cormorant_Garamond({
   subsets: ["latin", "latin-ext", "cyrillic"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });
