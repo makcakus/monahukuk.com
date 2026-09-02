@@ -49,7 +49,7 @@ export default async function PracticeAreasPage({
                   başlıkta. Altındaki altın kural çizgisi hover'da uzar (width
                   değil scaleX ile — layout hesaplaması tetiklenmesin). */}
               <div className="mb-3.5 shrink-0" aria-hidden="true">
-                <div className="font-display text-[44px] font-light leading-[0.9] tracking-[0.02em] tabular-nums text-gold-500">
+                <div className="font-display text-[44px] font-normal leading-[0.9] tracking-[0.02em] tabular-nums text-gold-500">
                   {String(i + 1).padStart(2, "0")}
                 </div>
                 {/* origin RTL'de sağa alınır — Arapça'da çizgi sağ kenardan

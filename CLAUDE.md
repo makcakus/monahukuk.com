@@ -132,7 +132,14 @@ Aynı konu hakkında sitede makale varsa o makalenin anlatımı, yapısı veya c
 
 Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/globals.css` içinde `@theme` bloğunda tanımlı:
 - Renkler: `cream`, `navy`, `gold`, `ink` (light/dark varyantları)
-- Fontlar: `Inter` (sans), `Cormorant Garamond` (display)
+- Fontlar: **Alegreya üst ailesi** — `Alegreya` (display, 400/500/600/700) ve
+  `Alegreya Sans` (sans, 400/500/700). İkisi de `latin, latin-ext, cyrillic`
+  alt kümeleriyle yükleniyor; Arapça ve Çince bilinçli olarak sistem fontunda.
+- Ağırlık tuzakları: **`Alegreya Sans`'ta 600 yok**, **`Alegreya`'da 300 yok**.
+  `globals.css` tüm `h1`–`h4`'ü display fontuna bağlar, yani başlıklarda
+  `font-semibold` (600) sorunsuz; ama `p`, `span`, `li` gibi gövde
+  öğelerinde `font-semibold` kullanma — 700'e yuvarlanır, `font-medium` (500)
+  veya `font-bold` (700) yaz. Display'de `font-light` (300) de kullanma.
 - Özel utility'ler: `.prose-legal`, `.gold-divider`
 
 ## SEO & Schema

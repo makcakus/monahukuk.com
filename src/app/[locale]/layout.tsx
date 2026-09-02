@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import { Alegreya, Alegreya_Sans } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -14,15 +14,21 @@ import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { routing } from "@/i18n/routing";
 import { SITE } from "@/lib/site";
 
-const sans = Inter({
+// Alegreya Sans'ta 600 ağırlığı yok (100/300/400/500/700/800/900).
+// Gövdede kullanılan ağırlıklar 400 ve 500; vurgu için 700 yükleniyor.
+const sans = Alegreya_Sans({
   subsets: ["latin", "latin-ext", "cyrillic"],
+  weight: ["400", "500", "700"],
   variable: "--font-sans",
   display: "swap",
 });
 
-const display = Cormorant_Garamond({
-  subsets: ["latin", "latin-ext"],
-  weight: ["500", "600", "700"],
+// Alegreya ve Alegreya Sans aynı üst ailenin iki üyesi; başlık ile gövde
+// aynı iskeleti paylaşır. Alegreya'da 300 ağırlığı yok (400-900).
+// cyrillic alt kümesi olmadan Rusça başlıklar Georgia'ya düşüyordu.
+const display = Alegreya({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-display",
   display: "swap",
 });

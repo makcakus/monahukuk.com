@@ -41,7 +41,7 @@ export function NewsletterBanner() {
   return (
     <div className="my-10 rounded-2xl px-8 py-8 bg-gold-400">
       <div className="mx-auto max-w-lg">
-        <p className="text-sm font-semibold uppercase tracking-[0.14em] text-navy-950 mb-1">
+        <p className="text-sm font-bold uppercase tracking-[0.14em] text-navy-950 mb-1">
           {t("kicker")}
         </p>
         <h2 className="font-display text-2xl text-navy-950 leading-snug mb-3">
