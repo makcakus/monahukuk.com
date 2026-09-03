@@ -12,9 +12,7 @@ import { personSchema } from "@/lib/schema";
 
 const PHOTO_BY_NAME: Record<string, string> = {
   "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
-  "Av. Aykut ACAR": "/team/aykut.jpeg",
   "Av. Murat BOSTAN": "/team/murat.jpeg",
-  "Av. Mehmet SİMAV": "/team/mehmet.jpeg",
   "Stj. Av. Tuğba Yazar": "/team/tugba.jpeg",
 };
 
