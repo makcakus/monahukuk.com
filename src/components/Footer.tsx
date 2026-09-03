@@ -1,6 +1,7 @@
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
+import { Wordmark } from "./Wordmark";
 
 export function Footer() {
   const t = useTranslations("nav");
@@ -15,7 +16,9 @@ export function Footer() {
     <footer className="mt-24 border-t border-cream-200 bg-navy-950 text-cream-100">
       <div className="mx-auto max-w-6xl px-6 py-14 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
-          <p className="font-display text-2xl text-cream-50">{tSite("name")}</p>
+          <p className="font-display text-2xl text-cream-50">
+            <Wordmark name={tSite("name")} />
+          </p>
           <p className="mt-2 text-sm text-cream-200/80 sm:whitespace-nowrap">
             {tSite("footerTagline")}
           </p>

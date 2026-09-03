@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
+import { acronymize } from "./Wordmark";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
@@ -19,7 +20,7 @@ type NavGroup = {
 type NavItem = NavLeaf | NavGroup;
 
 const NAV_ITEMS: readonly NavItem[] = [
-  { type: "link", href: "/", key: "home" },
+  // "Ana Sayfa" bilinçli olarak yok: logoya basınca anasayfaya gidiliyor.
   // Görev 9: "Hakkımızda" ve "Ekibimiz" iki ayrı top-level link;
   // dropdown yok → "Ekibimiz" başlık olarak her zaman görünür.
   { type: "link", href: "/about", key: "about" },
@@ -38,22 +39,6 @@ export function Header() {
   const pathname = usePathname();
   const locale = useLocale();
   const [open, setOpen] = useState(false);
-  // Scroll dinleyicisi yok: sayfa tepesine sabitlenmiş 1px'lik bir işaretçiyi
-  // IntersectionObserver izler. Eşik geçilince tek bir sınıf değişir ve
-  // yoğunlaşma CSS transition'ı ile bir kez yapılır — her karede layout yok.
-  const [condensed, setCondensed] = useState(false);
-  const sentinelRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const el = sentinelRef.current;
-    if (!el) return;
-    const io = new IntersectionObserver(
-      ([entry]) => setCondensed(!entry.isIntersecting),
-      { threshold: 0 }
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, []);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const groupRef = useRef<HTMLDivElement | null>(null);
 
@@ -83,37 +68,37 @@ export function Header() {
   }
 
   return (
-    <>
-      <div
-        ref={sentinelRef}
-        aria-hidden
-        className="pointer-events-none absolute top-20 h-px w-px"
-      />
-      <header
-        data-condensed={condensed}
-        className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75"
-      >
-      <div className="site-header__inner mx-auto max-w-6xl px-6 py-6 flex items-center justify-between gap-6">
+    // Yükseklik scroll'la DEĞİŞMEZ. Sticky bir başlığın yüksekliğini
+    // değiştirmek altındaki tüm içeriği kaydırır; bu da scroll sırasında
+    // titreme olarak görünür. Scroll tepkisi yalnızca gölgedir ve
+    // globals.css'te saf CSS scroll timeline ile sürülür.
+    <header className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
+      {/* Tam genişlik: logo sola, menü ve kontroller sağa dayanır.
+          Kenarlarda yalnız px kadar nefes payı bırakılır. */}
+      <div className="w-full px-6 lg:px-10 py-6 flex items-center gap-6">
+        {/* aria-label gerçek adı taşır; içerideki görsel ayrım gizlenir. */}
         <Link
           href="/"
+          aria-label={tSite("name")}
           className="flex flex-col leading-tight"
           onClick={() => setOpen(false)}
         >
           {tSite("name").split(" ").map((word, i) => (
             <span
               key={i}
-              className="site-header__mark font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+              aria-hidden="true"
+              className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
             >
-              {word}
+              {i === 0 ? acronymize(word) : word}
             </span>
           ))}
-          <span className="site-header__place mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
+          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
             <span>Antalya</span>
             <span>Türkiye</span>
           </span>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
+        <nav className="ms-auto hidden lg:flex items-center gap-5 xl:gap-6">
           {NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale)).map((item) => {
             if (item.type === "link") {
               const active = isActive(item.href);
@@ -207,7 +192,7 @@ export function Header() {
         <button
           type="button"
           aria-label="Menu"
-          className="lg:hidden inline-flex items-center justify-center w-10 h-10 text-navy-900 dark:text-cream-100"
+          className="ms-auto lg:hidden inline-flex items-center justify-center w-10 h-10 text-navy-900 dark:text-cream-100"
           onClick={() => setOpen((v) => !v)}
         >
           {open ? <X size={22} /> : <Menu size={22} />}
@@ -216,7 +201,7 @@ export function Header() {
 
       {open && (
         <div className="lg:hidden border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950">
-          <nav className="mx-auto max-w-6xl px-6 py-4 flex flex-col gap-3">
+          <nav className="w-full px-6 lg:px-10 py-4 flex flex-col gap-3">
             {NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale)).map((item) => {
               if (item.type === "link") {
                 return (
@@ -255,7 +240,6 @@ export function Header() {
           </nav>
         </div>
       )}
-      </header>
-    </>
+    </header>
   );
 }

@@ -43,7 +43,7 @@ function HomeContent() {
 
       {/* Practice intro — perde: sayfa gövdesi hero'nun üstüne kayar.
           Blok içinde ayrıca hareket yok; perdenin kendisi bu bölümün hareketi. */}
-      <section className="sd-curtain sd-curtain-panel -mt-14">
+      <section className="sd-curtain sd-panel sd-panel--page -mt-14">
         <div className="mx-auto max-w-3xl px-6 pt-20 pb-16">
           <p className="text-ink-soft leading-relaxed text-lg">
             {t("practiceIntro")}
@@ -87,9 +87,10 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Approach — koyu editoryal bant. Krem -> lacivert ton devri; metin
-          her iki temada da açık renk kalır, scroll sırasında kontrast değişmez. */}
-      <section className="sd-band">
+      {/* Approach — koyu editoryal bant. Krem -> lacivert devri net bir panel
+          kenarıyla kurulur, renk fade'i ile değil. Metin her iki temada da açık
+          renk kalır, scroll sırasında kontrast değişmez. */}
+      <section className="sd-curtain sd-panel sd-panel--dark -mt-14">
         <div className="mx-auto max-w-3xl px-6 py-24 md:py-28">
           <Reveal variant="settle">
             <h2 className="font-display text-3xl md:text-4xl text-cream-50">
@@ -106,8 +107,8 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Newsletter — kapanış: durağan, net, hareket burada biter */}
-      <section>
+      {/* Newsletter — kapanış. Bandın üstüne aynı panel kenarıyla kayar. */}
+      <section className="sd-curtain sd-panel sd-panel--page -mt-14">
         <div className="mx-auto max-w-3xl px-6 py-20">
           <Reveal>
             <NewsletterInlineCTA id="newsletter" />

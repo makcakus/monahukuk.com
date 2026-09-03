@@ -402,96 +402,69 @@ h1, h2, h3, h4, .font-display {
   }
 }
 
-/* Perde paneli — sayfanın gövdesi hero'nun üstüne kayan opak bir panel gibi
-   davranır. Arka plan burada tanımlanır: sayfa zemini ile aynı renk olduğu için
-   panel görünmez, yalnız yuvarlatılmış üst kenarı ve gölgesi okunur. */
-.sd-curtain-panel {
+/* --------------------------------------------------------------------------
+   Panel geçişleri
+
+   Her bölüm bir önceki bölümün üstüne, yuvarlatılmış üst kenarıyla kayan opak
+   bir panel gibi davranır. Renkten renge fade YOK: geçiş net bir kenar ve
+   onun üstündeki yumuşak gölgeyle kurulur. Panel bir öncekinin üstünü örttüğü
+   için yuvarlak köşelerden alttaki bölümün rengi görünür; birleşimi okutan şey
+   budur.
+
+   Sıra belge sırasıdır: hepsi aynı z-index'te olduğu için sonraki panel
+   öncekinin üstüne boyanır.
+   -------------------------------------------------------------------------- */
+.sd-panel {
   position: relative;
   z-index: 10;
-  background: var(--color-cream-50);
   border-start-start-radius: 1.5rem;
   border-start-end-radius: 1.5rem;
   box-shadow: 0 -28px 60px -34px rgba(5, 13, 36, 0.5);
 }
-.dark .sd-curtain-panel {
-  background: var(--color-navy-950);
-  box-shadow: 0 -28px 60px -34px rgba(0, 0, 0, 0.8);
-}
 @media (min-width: 768px) {
-  .sd-curtain-panel {
+  .sd-panel {
     border-start-start-radius: 2.25rem;
     border-start-end-radius: 2.25rem;
   }
 }
 
+/* Sayfa zeminiyle aynı renk: panel görünmez, yalnız üst kenarı ve gölgesi okunur. */
+.sd-panel--page { background: var(--color-cream-50); }
+.dark .sd-panel--page { background: var(--color-navy-950); }
+
 /* Koyu editoryal bant — açık ve koyu temada da koyu kalır, metin daima açık. */
-.sd-band {
-  position: relative;
-  background: var(--color-navy-950);
-}
-.dark .sd-band { background: var(--color-navy-800); }
-/* Bandın üstündeki 72px'i banda doğru karartır: krem -> lacivert devri
-   sert bir kenar yerine yumuşak bir geçiş olarak okunur. Bandın üstünde
-   duran bölüm burada yalnız dolgu (padding) barındırır, metin değil. */
-.sd-band::before {
+.sd-panel--dark { background: var(--color-navy-950); }
+.dark .sd-panel--dark { background: var(--color-navy-800); }
+
+.dark .sd-panel { box-shadow: 0 -28px 60px -34px rgba(0, 0, 0, 0.8); }
+
+/* --------------------------------------------------------------------------
+   Sticky başlığın scroll tepkisi
+
+   Başlığın YÜKSEKLİĞİ scroll'la değişmez. Daha önce yükseklik daraltılıyordu;
+   sticky bir başlığın yüksekliğini değiştirmek altındaki tüm belge akışını
+   kaydırdığı için (burada 87px) scroll sırasında titreme oluşuyordu.
+   Tepki artık yalnızca alt kenarda beliren bir gölge: transform/opacity
+   dışına çıkmayan, layout tetiklemeyen, JavaScript'siz bir etki.
+   -------------------------------------------------------------------------- */
+.site-header::after {
   content: "";
   position: absolute;
   inset-inline: 0;
-  top: -72px;
-  height: 72px;
-  background: linear-gradient(to bottom, rgba(5, 13, 36, 0), var(--color-navy-950));
-  pointer-events: none;
-}
-.dark .sd-band::before {
-  background: linear-gradient(to bottom, rgba(20, 36, 80, 0), var(--color-navy-800));
-}
-
-/* --------------------------------------------------------------------------
-   Sticky başlık yoğunlaşması
-   Eşik geçildiğinde tek seferlik bir sınıf değişir; geçiş CSS transition ile
-   yapılır. Scroll dinleyicisi ve kare başına layout yok.
-   -------------------------------------------------------------------------- */
-.site-header {
-  transition: box-shadow 0.3s ease-out;
-}
-.site-header__inner {
-  transition: padding-block 0.28s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.site-header__mark {
-  transition: font-size 0.28s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.site-header__place {
-  overflow: hidden;
-  max-height: 3rem;
-  transition:
-    opacity 0.18s ease-out,
-    max-height 0.28s cubic-bezier(0.16, 1, 0.3, 1),
-    margin-top 0.28s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.site-header[data-condensed="true"] {
-  box-shadow: 0 10px 28px -20px rgba(5, 13, 36, 0.55);
-}
-.dark .site-header[data-condensed="true"] {
-  box-shadow: 0 10px 28px -18px rgba(0, 0, 0, 0.7);
-}
-.site-header[data-condensed="true"] .site-header__inner {
-  padding-block: 0.85rem;
-}
-.site-header[data-condensed="true"] .site-header__mark {
-  font-size: 1.5rem;
-}
-.site-header[data-condensed="true"] .site-header__place {
+  top: 100%;
+  height: 14px;
   opacity: 0;
-  max-height: 0;
-  margin-top: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(5, 13, 36, 0.13), rgba(5, 13, 36, 0));
+}
+.dark .site-header::after {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0));
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .site-header,
-  .site-header__inner,
-  .site-header__mark,
-  .site-header__place {
-    transition: none;
+@supports (animation-timeline: scroll()) {
+  .site-header::after {
+    animation: sd-fade-in linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 90px;
   }
 }
