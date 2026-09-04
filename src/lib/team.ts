@@ -19,7 +19,7 @@ export const TEAM: Member[] = [
   {
     name: "Av. Mustafa AKÇAKUŞ",
     role: {
-      tr: "Ortak Avukat",
+      tr: "Kurucu Avukat",
       en: "Partner Attorney",
       de: "Kanzleipartner",
       ru: "Партнёр-адвокат",
