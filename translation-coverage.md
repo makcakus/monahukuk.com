@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 417 · RU: 417 · AR: 417 · ES: 417 · FR: 417 · ZH: 417
+Makale sayıları → TR: 651 · EN: 650 · DE: 421 · RU: 421 · AR: 421 · ES: 421 · FR: 421 · ZH: 421
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **417** içerik
-⚠️  Eksik çeviri: **234** içerik
+✅ Tüm dillerde mevcut: **421** içerik
+⚠️  Eksik çeviri: **230** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 234 eksik içerik
+## DE — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
@@ -486,16 +478,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 234 eksik içerik
+## RU — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
@@ -957,16 +941,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 234 eksik içerik
+## AR — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
@@ -1428,16 +1404,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 234 eksik içerik
+## ES — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
@@ -1899,16 +1867,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 234 eksik içerik
+## FR — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
@@ -2370,16 +2330,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 234 eksik içerik
+## ZH — 230 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
