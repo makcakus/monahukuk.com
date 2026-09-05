@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 341 · RU: 341 · AR: 341 · ES: 341 · FR: 341 · ZH: 341
+Makale sayıları → TR: 651 · EN: 650 · DE: 349 · RU: 349 · AR: 349 · ES: 349 · FR: 349 · ZH: 349
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **341** içerik
-⚠️  Eksik çeviri: **310** içerik
+✅ Tüm dillerde mevcut: **349** içerik
+⚠️  Eksik çeviri: **302** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,24 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 310 eksik içerik
+## DE — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
@@ -638,24 +622,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 310 eksik içerik
+## RU — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
@@ -1261,24 +1229,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 310 eksik içerik
+## AR — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
@@ -1884,24 +1836,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 310 eksik içerik
+## ES — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
@@ -2507,24 +2443,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 310 eksik içerik
+## FR — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
@@ -3130,24 +3050,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 310 eksik içerik
+## ZH — 302 eksik içerik
 
-- `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `environmental-crimes-turkish-penal-code` — Çevrenin Kirletilmesi ve Gürültü Suçu (TCK m. 181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-criminal-procedure-code` — Ceza Muhakemesi Hukukuna Giriş (CMK m. 1-2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-assault-turkish-penal-code` — Cinsel Saldırı Suçu (TCK m. 102) ve Sarkıntılıkla Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `sexual-harassment-turkish-penal-code` — Cinsel Taciz Suçu (TCK m. 105) ve Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crossed-cheque-account-payee-cheque-turkish-commercial-code` — Çizgili Çek ve Hesaba Geçirilecek Çek (TTK m. 803-807)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `abortion-sterilization-offences-turkish-penal-code` — Çocuk Düşürtme Suçu (TCK m. 99): Rıza ve On Haftalık Süre  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
