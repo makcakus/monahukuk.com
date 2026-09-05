@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 417 · RU: 417 · AR: 417 · ES: 417 · FR: 417 · ZH: 417
+Makale sayıları → TR: 651 · EN: 650 · DE: 441 · RU: 441 · AR: 441 · ES: 441 · FR: 441 · ZH: 441
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **417** içerik
-⚠️  Eksik çeviri: **234** içerik
+✅ Tüm dillerde mevcut: **441** içerik
+⚠️  Eksik çeviri: **210** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,56 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 234 eksik içerik
+## DE — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -486,56 +438,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 234 eksik içerik
+## RU — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -957,56 +861,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 234 eksik içerik
+## AR — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -1428,56 +1284,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 234 eksik içerik
+## ES — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -1899,56 +1707,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 234 eksik içerik
+## FR — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -2370,56 +2130,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 234 eksik içerik
+## ZH — 210 eksik içerik
 
-- `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annulment-nullity-effects-general-meeting-resolutions-turkish-commercial-code` — Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları (TTK m. 445-451)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-meeting-attendance-quorum-chairmanship-postponement-turkish-commercial-code` — Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme (TTK m. 417-420)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
