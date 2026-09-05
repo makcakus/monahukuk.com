@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 429 · RU: 429 · AR: 429 · ES: 429 · FR: 429 · ZH: 429
+Makale sayıları → TR: 651 · EN: 650 · DE: 433 · RU: 433 · AR: 433 · ES: 433 · FR: 433 · ZH: 433
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **429** içerik
-⚠️  Eksik çeviri: **222** içerik
+✅ Tüm dillerde mevcut: **433** içerik
+⚠️  Eksik çeviri: **218** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 222 eksik içerik
+## DE — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
@@ -462,16 +454,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 222 eksik içerik
+## RU — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
@@ -909,16 +893,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 222 eksik içerik
+## AR — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
@@ -1356,16 +1332,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 222 eksik içerik
+## ES — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
@@ -1803,16 +1771,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 222 eksik içerik
+## FR — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
@@ -2250,16 +2210,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 222 eksik içerik
+## ZH — 218 eksik içerik
 
-- `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
