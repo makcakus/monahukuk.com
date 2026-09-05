@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 421 · RU: 421 · AR: 421 · ES: 421 · FR: 421 · ZH: 421
+Makale sayıları → TR: 651 · EN: 650 · DE: 425 · RU: 425 · AR: 425 · ES: 425 · FR: 425 · ZH: 425
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **421** içerik
-⚠️  Eksik çeviri: **230** içerik
+✅ Tüm dillerde mevcut: **425** içerik
+⚠️  Eksik çeviri: **226** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 230 eksik içerik
+## DE — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
@@ -478,16 +470,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 230 eksik içerik
+## RU — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
@@ -941,16 +925,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 230 eksik içerik
+## AR — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
@@ -1404,16 +1380,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 230 eksik içerik
+## ES — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
@@ -1867,16 +1835,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 230 eksik içerik
+## FR — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
@@ -2330,16 +2290,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 230 eksik içerik
+## ZH — 226 eksik içerik
 
-- `voting-rights-information-inspection-rights-general-meeting-turkish-commercial-code` — Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı (TTK m. 434-437)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-assembly-powers-meeting-types-and-call-turkish-commercial-code` — Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı (TTK m. 407-416)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `special-forms-general-danger-crimes-turkish-penal-code` — Radyasyon Yayma Suçu ve Genel Tehlike Halleri (TCK m. 172)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-expert-testimony-money-laundering-turkish-penal-code` — Gerçeğe Aykırı Bilirkişilik ve Aklama (TCK m. 276, 282)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
