@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 377 · RU: 377 · AR: 377 · ES: 377 · FR: 377 · ZH: 377
+Makale sayıları → TR: 651 · EN: 650 · DE: 381 · RU: 381 · AR: 381 · ES: 381 · FR: 381 · ZH: 381
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **377** içerik
-⚠️  Eksik çeviri: **274** içerik
+✅ Tüm dillerde mevcut: **381** içerik
+⚠️  Eksik çeviri: **270** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 274 eksik içerik
+## DE — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
@@ -566,16 +558,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 274 eksik içerik
+## RU — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
@@ -1117,16 +1101,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 274 eksik içerik
+## AR — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
@@ -1668,16 +1644,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 274 eksik içerik
+## ES — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
@@ -2219,16 +2187,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 274 eksik içerik
+## FR — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
@@ -2770,16 +2730,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 274 eksik içerik
+## ZH — 270 eksik içerik
 
-- `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-document-and-waybill-in-goods-carriage-turkish-commercial-code` — Eşya Taşımada Taşıma Sözleşmesinin Uygulanması: Taşıma Senedi ve Yük Senedi (TTK m. 856-861)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carrier-liability-and-exemption-grounds-turkish-commercial-code` — Eşyanın Zıya, Hasar ve Gecikmesinde Taşıyıcının Sorumluluğu ve Kurtulma Sebepleri (TTK m. 875-879)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `damages-calculation-and-liability-limits-turkish-commercial-code` — Eşya Taşımada Tazminat Hesabı ve Sorumluluk Sınırları (TTK m. 880-887)  
