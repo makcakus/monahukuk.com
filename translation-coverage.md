@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 425 · RU: 425 · AR: 425 · ES: 425 · FR: 425 · ZH: 425
+Makale sayıları → TR: 651 · EN: 650 · DE: 429 · RU: 429 · AR: 429 · ES: 429 · FR: 429 · ZH: 429
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **425** içerik
-⚠️  Eksik çeviri: **226** içerik
+✅ Tüm dillerde mevcut: **429** içerik
+⚠️  Eksik çeviri: **222** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 226 eksik içerik
+## DE — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
@@ -470,16 +462,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 226 eksik içerik
+## RU — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
@@ -925,16 +909,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 226 eksik içerik
+## AR — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
@@ -1380,16 +1356,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 226 eksik içerik
+## ES — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
@@ -1835,16 +1803,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 226 eksik içerik
+## FR — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
@@ -2290,16 +2250,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 226 eksik içerik
+## ZH — 222 eksik içerik
 
-- `prohibition-on-repayment-partner-liability-additional-payment-and-ancillary-performance-obligations-turkish-commercial-code` — Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri (TTK m. 601-607)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `migrant-smuggling-turkish-penal-code` — Göçmen Kaçakçılığı (TCK m. 79): İnsan Ticaretinden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `jurisdiction-and-competence-turkish-criminal-procedure-code` — Görev ve Yetki (CMK m. 3-18): Doğal Hâkim İlkesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
