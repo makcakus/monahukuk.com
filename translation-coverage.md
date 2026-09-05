@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 409 · RU: 409 · AR: 409 · ES: 409 · FR: 409 · ZH: 409
+Makale sayıları → TR: 651 · EN: 650 · DE: 413 · RU: 413 · AR: 413 · ES: 413 · FR: 413 · ZH: 413
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **409** içerik
-⚠️  Eksik çeviri: **242** içerik
+✅ Tüm dillerde mevcut: **413** içerik
+⚠️  Eksik çeviri: **238** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 242 eksik içerik
+## DE — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
@@ -502,16 +494,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 242 eksik içerik
+## RU — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
@@ -989,16 +973,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 242 eksik içerik
+## AR — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
@@ -1476,16 +1452,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 242 eksik içerik
+## ES — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
@@ -1963,16 +1931,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 242 eksik içerik
+## FR — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
@@ -2450,16 +2410,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 242 eksik içerik
+## ZH — 238 eksik içerik
 
-- `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-definitions-and-general-provisions-turkish-commercial-code` — Gemi Tanımları ve Genel Hükümler (TTK m. 931-937)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-usufruct-turkish-commercial-code` — Gemi Üzerinde İntifa Hakkı (TTK m. 1059-1060)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
