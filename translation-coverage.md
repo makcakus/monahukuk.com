@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 433 · RU: 433 · AR: 433 · ES: 433 · FR: 433 · ZH: 433
+Makale sayıları → TR: 651 · EN: 650 · DE: 437 · RU: 437 · AR: 437 · ES: 437 · FR: 437 · ZH: 437
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **433** içerik
-⚠️  Eksik çeviri: **218** içerik
+✅ Tüm dillerde mevcut: **437** içerik
+⚠️  Eksik çeviri: **214** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 218 eksik içerik
+## DE — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
@@ -454,16 +446,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 218 eksik içerik
+## RU — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
@@ -893,16 +877,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 218 eksik içerik
+## AR — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
@@ -1332,16 +1308,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 218 eksik içerik
+## ES — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
@@ -1771,16 +1739,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 218 eksik içerik
+## FR — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
@@ -2210,16 +2170,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 218 eksik içerik
+## ZH — 214 eksik içerik
 
-- `insult-defamation-turkish-penal-code` — Hakaret Suçu (TCK m. 125): Sövme mi, İsnat mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-search-petition-right-turkish-penal-code` — Haksız Arama Suçu (TCK m. 120): Hangi Hallerde Oluşur?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unfair-competition-turkish-commercial-code` — Haksız Rekabet (TTK m. 54-63)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bearer-instruments-turkish-commercial-code` — Hamile Yazılı Senetler (TTK m. 658-669)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
