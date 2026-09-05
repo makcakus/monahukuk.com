@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 385 · RU: 385 · AR: 385 · ES: 385 · FR: 385 · ZH: 385
+Makale sayıları → TR: 651 · EN: 650 · DE: 389 · RU: 389 · AR: 389 · ES: 389 · FR: 389 · ZH: 389
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **385** içerik
-⚠️  Eksik çeviri: **266** içerik
+✅ Tüm dillerde mevcut: **389** içerik
+⚠️  Eksik çeviri: **262** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 266 eksik içerik
+## DE — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
@@ -550,16 +542,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 266 eksik içerik
+## RU — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
@@ -1085,16 +1069,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 266 eksik içerik
+## AR — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
@@ -1620,16 +1596,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 266 eksik içerik
+## ES — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
@@ -2155,16 +2123,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 266 eksik içerik
+## FR — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
@@ -2690,16 +2650,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 266 eksik içerik
+## ZH — 262 eksik içerik
 
-- `bill-of-lading-cargo-description-proof-and-reservation-turkish-commercial-code` — Konişmentonun Eşyanın Durumunu İspatı ve Çekince Koyma Zorunluluğu (TTK m. 1239)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-delivery-inspection-of-goods-turkish-commercial-code` — Eşyanın Teslim Öncesi İncelenmesi (TTK m. 1184)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
