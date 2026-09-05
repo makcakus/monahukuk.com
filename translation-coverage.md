@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 329 · RU: 329 · AR: 329 · ES: 329 · FR: 329 · ZH: 329
+Makale sayıları → TR: 651 · EN: 650 · DE: 333 · RU: 333 · AR: 333 · ES: 333 · FR: 333 · ZH: 333
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **329** içerik
-⚠️  Eksik çeviri: **322** içerik
+✅ Tüm dillerde mevcut: **333** içerik
+⚠️  Eksik çeviri: **318** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 322 eksik içerik
+## DE — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
@@ -662,16 +654,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 322 eksik içerik
+## RU — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
@@ -1309,16 +1293,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 322 eksik içerik
+## AR — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
@@ -1956,16 +1932,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 322 eksik içerik
+## ES — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
@@ -2603,16 +2571,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 322 eksik içerik
+## FR — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
@@ -3250,16 +3210,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 322 eksik içerik
+## ZH — 318 eksik içerik
 
-- `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-bodily-injury-and-pilot-fault-turkish-commercial-code` — Çatmada Bedensel Zarar ve Kılavuzun Kusuru (TTK m. 1290-1291)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pre-action-evidence-preservation-in-collision-turkish-commercial-code` — Çatmada Dava Öncesi Delil Tespiti (TTK m. 1292)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
