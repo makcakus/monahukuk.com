@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 641 · EN: 640 · DE: 262 · RU: 262 · AR: 262 · ES: 262 · FR: 262 · ZH: 262
-Benzersiz çeviri key'i: **641**
+Makale sayıları → TR: 651 · EN: 650 · DE: 303 · RU: 303 · AR: 303 · ES: 303 · FR: 303 · ZH: 303
+Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **262** içerik
-⚠️  Eksik çeviri: **379** içerik
+✅ Tüm dillerde mevcut: **303** içerik
+⚠️  Eksik çeviri: **348** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,7 +15,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 379 eksik içerik
+## DE — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -55,8 +55,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -72,10 +70,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -119,19 +113,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -179,8 +167,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -201,8 +187,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -210,10 +194,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -289,15 +269,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -343,21 +319,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -370,10 +332,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -400,8 +358,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -567,15 +523,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -615,8 +567,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -651,8 +601,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -677,19 +625,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -724,8 +664,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -776,7 +714,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 379 eksik içerik
+## RU — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -816,8 +754,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -833,10 +769,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -880,19 +812,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -940,8 +866,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -962,8 +886,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -971,10 +893,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1050,15 +968,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1104,21 +1018,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1131,10 +1031,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1161,8 +1057,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1328,15 +1222,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1376,8 +1266,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -1412,8 +1300,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -1438,19 +1324,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1485,8 +1363,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1537,7 +1413,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 379 eksik içerik
+## AR — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1577,8 +1453,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -1594,10 +1468,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1641,19 +1511,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1701,8 +1565,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -1723,8 +1585,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -1732,10 +1592,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1811,15 +1667,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1865,21 +1717,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1892,10 +1730,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -1922,8 +1756,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2089,15 +1921,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2137,8 +1965,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -2173,8 +1999,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -2199,19 +2023,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2246,8 +2062,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2298,7 +2112,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 379 eksik içerik
+## ES — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2338,8 +2152,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -2355,10 +2167,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2402,19 +2210,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2462,8 +2264,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -2484,8 +2284,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -2493,10 +2291,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2572,15 +2366,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2626,21 +2416,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2653,10 +2429,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2683,8 +2455,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2850,15 +2620,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -2898,8 +2664,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -2934,8 +2698,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -2960,19 +2722,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3007,8 +2761,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3059,7 +2811,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 379 eksik içerik
+## FR — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3099,8 +2851,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -3116,10 +2866,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3163,19 +2909,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3223,8 +2963,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -3245,8 +2983,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -3254,10 +2990,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3333,15 +3065,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3387,21 +3115,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3414,10 +3128,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3444,8 +3154,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3611,15 +3319,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3659,8 +3363,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -3695,8 +3397,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -3721,19 +3421,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3768,8 +3460,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3820,7 +3510,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 379 eksik içerik
+## ZH — 348 eksik içerik
 
 - `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3860,8 +3550,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `press-journalists-turkish-labour-law` — Basın İş Kanununa Tabi Gazeteciler (5953 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
@@ -3877,10 +3565,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `change-of-working-conditions-turkish-labour-law` — Çalışma Koşullarında Değişiklik ve İş Sözleşmesinin Feshi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `working-hours-and-rest-breaks-turkish-labour-law` — Çalışma Süresi ve Ara Dinlenmesi (İş K. m.63)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3924,19 +3608,13 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `mandatory-mediation-labour-courts-turkish-labour-law` — Dava Şartı Arabuluculuk ve İş Mahkemeleri (7036 s.K.)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `probation-period-team-contract-turkish-labour-law` — Deneme Süreli İş Sözleşmesi ve Takım Sözleşmesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `maritime-seafarers-turkish-labour-law` — Deniz İş Kanununa Tabi Gemi Adamları (854 s.K.)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -3984,8 +3662,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `equal-treatment-principle-turkish-labour-law` — Eşit Davranma İlkesi ve Ayrımcılık Tazminatı (İK m.5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-notice-and-lien-rights-turkish-commercial-code` — Eşya Taşımada Fiilî Taşıyıcı, Bildirim ve Hapis Hakkı (TTK m. 888-893)  
@@ -4006,8 +3682,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torment-turkish-penal-code` — Eziyet Suçu (TCK m. 96) ve İşkenceden Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `overtime-pay-turkish-labour-law` — Fazla Çalışma Ücreti: İş Kanunu m. 41  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `exercise-of-termination-right-and-consequences-turkish-commercial-code` — Fesih Hakkının Kullanılması, Sonuçları ve Birden Çok Yolculuğun Özellikleri (TTK m. 1224-1227)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
@@ -4015,10 +3689,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `night-work-and-special-employment-prohibitions-turkish-labour-law` — Gece Çalışması ve Özel Çalıştırma Yasakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `temporary-employment-relationship-turkish-labour-law` — Geçici İş İlişkisi (Ödünç İşçi): İş Kanunu m.7  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4094,15 +3764,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `misconduct-in-office-turkish-penal-code` — Görevi Kötüye Kullanma Suçu (TCK m. 257): Tamamlayıcılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `strike-and-lockout-turkish-labour-law` — Grev ve Lokavt: STİSK m.58-70 Kapsamında Hukuki Rejim  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `breach-of-trust-turkish-penal-code` — Güveni Kötüye Kullanma Suçu (TCK m. 155) ve Zilyetlik Devri  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-communication-turkish-penal-code` — Haberleşmenin Engellenmesi (TCK m. 124): İletişimi Kesmek  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `communication-privacy-turkish-penal-code` — Haberleşmenin Gizliliğini İhlal ve Gizli Kayıt (TCK m. 132)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `weekly-and-public-holiday-pay-turkish-labour-law` — Hafta Tatili ve Genel Tatil Ücreti (m. 46-47)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-preclusive-period-defense-turkish-commercial-code` — Hak Düşürücü Süreden Yararlanma Hakkının Kaybı (TTK m. 1189)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4148,21 +3814,7 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `job-security-reinstatement-turkish-labour-law` — İş Güvencesi: Geçerli Sebeple Fesih ve İşe İade Davası  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `introduction-to-turkish-labour-law` — İş Hukukuna Giriş: Amaç, Kapsam ve İstisnalar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-accident-liability-turkish-labour-law` — İş Kazası ve Meslek Hastalığından Doğan Sorumluluk  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-health-safety-turkish-labour-law` — İşverenin İş Sağlığı ve Güvenliği Yükümlülükleri  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-and-types-of-employment-contract-turkish-labour-law` — İş Sözleşmesinin Tanımı, Şekli ve Türleri (İş K. m.8)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-employer-workplace-concepts-turkish-labour-law` — İşçi, İşveren ve İşyeri Kavramları (İş Kanunu m.2)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employee-just-cause-termination-turkish-labour-law` — İşçinin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.24)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4175,10 +3827,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `employer-just-cause-termination-turkish-labour-law` — İşverenin Haklı Nedenle Derhal Fesih Hakkı (İş K. m.25)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `workplace-transfer-turkish-labour-law` — İşyerinin Devri: İş Kanunu m.6 ve Kıdem Tazminatı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4205,8 +3853,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `severance-pay-turkish-labour-law` — Kıdem Tazminatı: 1475 Sayılı Kanun m.14 Şartları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4372,15 +4018,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-compete-agreement-turkish-labour-law` — Rekabet Yasağı Sözleşmesi (TBK m. 444): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-union-freedom-membership-turkish-labour-law` — Sendika Özgürlüğü ve Üyelik (STİSK m. 17): Güvenceler  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4420,8 +4062,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-period-termination-turkish-labour-law` — Süreli Fesih ve İhbar Öneli  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -4456,8 +4096,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `tbk-service-contract-turkish-labour-law` — TBK'ya Tabi Hizmet Sözleşmesi ve İş Kanunu İstisnaları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
@@ -4482,19 +4120,11 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-bargaining-authority-turkish-labour-law` — Toplu İş Sözleşmesi ve Yetki (STİSK m. 41): Şartlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-labour-dispute-resolution-turkish-labour-law` — Toplu İş Uyuşmazlıklarının Çözümü: Arabuluculuk ve Hakem  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collective-redundancy-turkish-labour-law` — Toplu İşçi Çıkarma (İş Kanunu m.29)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `wage-payment-turkish-labour-law` — Ücret ve Ödenmesi: İş Kanunu m. 32  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
@@ -4529,8 +4159,6 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `annual-paid-leave-turkish-labour-law` — Yıllık Ücretli İzin Hakkı ve Süreleri (İş K. m. 53)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
