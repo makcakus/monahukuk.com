@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 413 · RU: 413 · AR: 413 · ES: 413 · FR: 413 · ZH: 413
+Makale sayıları → TR: 651 · EN: 650 · DE: 417 · RU: 417 · AR: 417 · ES: 417 · FR: 417 · ZH: 417
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **413** içerik
-⚠️  Eksik çeviri: **238** içerik
+✅ Tüm dillerde mevcut: **417** içerik
+⚠️  Eksik çeviri: **234** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 238 eksik içerik
+## DE — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
@@ -494,16 +486,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 238 eksik içerik
+## RU — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
@@ -973,16 +957,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 238 eksik içerik
+## AR — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
@@ -1452,16 +1428,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 238 eksik içerik
+## ES — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
@@ -1931,16 +1899,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 238 eksik içerik
+## FR — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
@@ -2410,16 +2370,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 238 eksik içerik
+## ZH — 234 eksik içerik
 
-- `criminal-provisions-for-ships-and-regulations-turkish-commercial-code` — Gemilerde Ceza Hükümleri ve Yönetmelik (TTK m. 947-953)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-name-flag-and-port-of-registry-turkish-commercial-code` — Geminin Adı, Bayrağı ve Bağlama Limanı (TTK m. 938-946)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-repair-and-effect-of-other-causes-turkish-commercial-code` — Geminin Tamiri, Diğer Sebeplerin Etkisi ve Tasarruf Yetkisi Olanın Fesih Hakkı (TTK m. 1221-1223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registration-procedure-turkish-commercial-code` — Geminin Tescili Usulü (TTK m. 959-964)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-loss-after-voyage-commencement-and-distance-freight-turkish-commercial-code` — Geminin Yolculuk Başladıktan Sonra Zayi Olması, Mesafe Navlunu ve Kaptanın Yükümlülükleri (TTK m. 1210-1213)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-public-safety-turkish-penal-code` — Genel Güvenliği Tehlikeye Sokma: Somut Tehlike (TCK m. 170)  
