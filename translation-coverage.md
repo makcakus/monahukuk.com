@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 365 · RU: 365 · AR: 365 · ES: 365 · FR: 365 · ZH: 365
+Makale sayıları → TR: 651 · EN: 650 · DE: 369 · RU: 369 · AR: 369 · ES: 369 · FR: 369 · ZH: 369
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **365** içerik
-⚠️  Eksik çeviri: **286** içerik
+✅ Tüm dillerde mevcut: **369** içerik
+⚠️  Eksik çeviri: **282** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 286 eksik içerik
+## DE — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
@@ -590,16 +582,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 286 eksik içerik
+## RU — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
@@ -1165,16 +1149,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 286 eksik içerik
+## AR — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
@@ -1740,16 +1716,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 286 eksik içerik
+## ES — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
@@ -2315,16 +2283,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 286 eksik içerik
+## FR — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
@@ -2890,16 +2850,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 286 eksik içerik
+## ZH — 282 eksik içerik
 
-- `profit-loss-and-expense-sharing-in-shipping-partnership-turkish-commercial-code` — Donatma İştirakinde Kazanca, Zarara ve Giderlere Katılma (TTK m. 1076-1079)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liability-of-shipping-partnership-co-owners-turkish-commercial-code` — Donatma İştirakinde Paydaş Donatanların Sorumluluğu (TTK m. 1080-1081)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dissolution-and-liquidation-of-shipping-partnership-turkish-commercial-code` — Donatma İştirakinin Sona Ermesi ve Tasfiyesi (TTK m. 1082-1087)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-shipping-ownership-definition-registration-and-co-owner-relations-turkish-commercial-code` — Donatma İştirakinin Tanımı, Tescili ve Paydaşlar Arası İlişkiler (TTK m. 1064-1067)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
