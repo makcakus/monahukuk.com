@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 437 · RU: 437 · AR: 437 · ES: 437 · FR: 437 · ZH: 437
+Makale sayıları → TR: 651 · EN: 650 · DE: 441 · RU: 441 · AR: 441 · ES: 441 · FR: 441 · ZH: 441
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **437** içerik
-⚠️  Eksik çeviri: **214** içerik
+✅ Tüm dillerde mevcut: **441** içerik
+⚠️  Eksik çeviri: **210** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 214 eksik içerik
+## DE — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -446,16 +438,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 214 eksik içerik
+## RU — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -877,16 +861,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 214 eksik içerik
+## AR — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -1308,16 +1284,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 214 eksik içerik
+## ES — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -1739,16 +1707,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 214 eksik içerik
+## FR — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
@@ -2170,16 +2130,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 214 eksik içerik
+## ZH — 210 eksik içerik
 
-- `public-indecency-obscenity-turkish-penal-code` — Hayasızca Hareketler Suçu (TCK m. 225): Teşhircilikten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-readiness-loading-time-and-demurrage-turkish-commercial-code` — Hazırlık Bildirimi, Yükleme Süresi ve Sürastarya (TTK m. 1152-1157)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `theft-turkish-penal-code` — Hırsızlık Suçu (TCK m. 141): Zilyetlik ve Nitelikli Haller  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-legal-relationship-and-carrier-proof-turkish-commercial-code` — Konişmentonun Hukuki İlişkiyi ve Taşıyanı İspatı (TTK m. 1237-1238)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
