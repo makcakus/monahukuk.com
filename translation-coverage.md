@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 389 · RU: 389 · AR: 389 · ES: 389 · FR: 389 · ZH: 389
+Makale sayıları → TR: 651 · EN: 650 · DE: 393 · RU: 393 · AR: 393 · ES: 393 · FR: 393 · ZH: 393
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **389** içerik
-⚠️  Eksik çeviri: **262** içerik
+✅ Tüm dillerde mevcut: **393** içerik
+⚠️  Eksik çeviri: **258** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 262 eksik içerik
+## DE — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
@@ -542,16 +534,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 262 eksik içerik
+## RU — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
@@ -1069,16 +1053,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 262 eksik içerik
+## AR — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
@@ -1596,16 +1572,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 262 eksik içerik
+## ES — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
@@ -2123,16 +2091,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 262 eksik içerik
+## FR — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
@@ -2650,16 +2610,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 262 eksik içerik
+## ZH — 258 eksik içerik
 
-- `actual-carrier-liability-turkish-commercial-code` — Fiilî Taşıyanın Sorumluluğu (TTK m. 1191-1192)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `actual-carrier-liability-in-passenger-carriage-turkish-commercial-code` — Fiilî Taşıyanın Yolcu Taşımasındaki Sorumluluğu (TTK m. 1257)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `prostitution-gambling-begging-turkish-penal-code` — Fuhuş, Kumara Yer Sağlama ve Dilencilik (TCK m. 227)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-assignment-and-modification-turkish-commercial-code` — Gemi İpoteğinin Devri ve Değiştirilmesi (TTK m. 1038-1043)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
