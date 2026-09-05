@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 393 · RU: 393 · AR: 393 · ES: 393 · FR: 393 · ZH: 393
+Makale sayıları → TR: 651 · EN: 650 · DE: 397 · RU: 397 · AR: 397 · ES: 397 · FR: 397 · ZH: 397
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **393** içerik
-⚠️  Eksik çeviri: **258** içerik
+✅ Tüm dillerde mevcut: **397** içerik
+⚠️  Eksik çeviri: **254** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 258 eksik içerik
+## DE — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
@@ -534,16 +526,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 258 eksik içerik
+## RU — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
@@ -1053,16 +1037,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 258 eksik içerik
+## AR — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
@@ -1572,16 +1548,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 258 eksik içerik
+## ES — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
@@ -2091,16 +2059,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 258 eksik içerik
+## FR — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
@@ -2610,16 +2570,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 258 eksik içerik
+## ZH — 254 eksik içerik
 
-- `ship-mortgage-effects-before-and-after-claim-maturity-turkish-commercial-code` — Gemi İpoteğinin Hükümleri: Alacağın Muacceliyetinden Önce ve Sonra (TTK m. 1030-1037)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-scope-and-insurance-indemnity-relationship-turkish-commercial-code` — Gemi İpoteğinin Kapsamı ve Sigorta Tazminatı İlişkisi (TTK m. 1020-1029)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-nature-creation-and-registration-turkish-commercial-code` — Gemi İpoteğinin Niteliği, Kurulması ve Sicile Tescili (TTK m. 1014-1019)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-termination-turkish-commercial-code` — Gemi İpoteğinin Sona Ermesi (TTK m. 1044-1053)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
