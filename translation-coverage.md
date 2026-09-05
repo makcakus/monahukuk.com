@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 303 · RU: 303 · AR: 303 · ES: 303 · FR: 303 · ZH: 303
+Makale sayıları → TR: 651 · EN: 650 · DE: 309 · RU: 309 · AR: 309 · ES: 309 · FR: 309 · ZH: 309
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **303** içerik
-⚠️  Eksik çeviri: **348** içerik
+✅ Tüm dillerde mevcut: **309** içerik
+⚠️  Eksik çeviri: **342** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,20 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 348 eksik içerik
+## DE — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
@@ -714,20 +702,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 348 eksik içerik
+## RU — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
@@ -1413,20 +1389,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 348 eksik içerik
+## AR — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
@@ -2112,20 +2076,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 348 eksik içerik
+## ES — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
@@ -2811,20 +2763,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 348 eksik içerik
+## FR — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
@@ -3510,20 +3450,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 348 eksik içerik
+## ZH — 342 eksik içerik
 
-- `agency-turkish-commercial-code` — Acentelik (TTK m. 102-123)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `investigation-confidentiality-fair-trial-turkish-penal-code` — TCK m.285-288: Soruşturma Gizliliği ve Adil Yargılama  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `judicial-control-turkish-criminal-procedure-code` — Adli Kontrol (CMK m. 109): Tutuklamaya Alternatif Tedbir  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bigamy-child-status-alteration-turkish-penal-code` — Çok Eşlilik, Hileli Evlenme, Dinsel Tören (TCK m. 230)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `constitutional-order-crimes-turkish-penal-code` — Anayasayı İhlal ve Suikast (TCK m.309-313)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `financial-statements-and-annual-report-turkish-commercial-code` — Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu (TTK m. 514-518)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
