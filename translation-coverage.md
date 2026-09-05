@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 309 · RU: 309 · AR: 309 · ES: 309 · FR: 309 · ZH: 309
+Makale sayıları → TR: 651 · EN: 650 · DE: 325 · RU: 325 · AR: 325 · ES: 325 · FR: 325 · ZH: 325
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **309** içerik
-⚠️  Eksik çeviri: **342** içerik
+✅ Tüm dillerde mevcut: **325** içerik
+⚠️  Eksik çeviri: **326** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,40 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 342 eksik içerik
+## DE — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
@@ -702,40 +670,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 342 eksik içerik
+## RU — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
@@ -1389,40 +1325,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 342 eksik içerik
+## AR — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
@@ -2076,40 +1980,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 342 eksik içerik
+## ES — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
@@ -2763,40 +2635,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 342 eksik içerik
+## FR — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
@@ -3450,40 +3290,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 342 eksik içerik
+## ZH — 326 eksik içerik
 
-- `joint-stock-company-incorporation-turkish-commercial-code` — Anonim Şirketin Kuruluşu (TTK m. 335-352)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-dissolution-causes-and-effects-turkish-commercial-code` — Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları (TTK m. 529-535)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-definition-turkish-commercial-code` — Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi (TTK m. 329-334)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `criminal-liability-turkish-commercial-code` — Anonim Şirkette Cezai Sorumluluk (TTK m. 562-563)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-scope-auditor-selection-qualifications-turkish-commercial-code` — Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri (TTK m. 397-401)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-liability-cases-turkish-commercial-code` — Anonim Şirkette Hukuki Sorumluluk Hâlleri (TTK m. 549-554)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-and-liquidation-share-turkish-commercial-code` — Anonim Şirkette Kâr ve Tasfiye Payı Hakkı (TTK m. 507-513)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `liquidators-and-liquidation-process-turkish-commercial-code` — Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri (TTK m. 536-544)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `search-and-seizure-turkish-criminal-procedure-code` — Arama ve Elkoyma (CMK m. 116): Koşullar ve Sınırlar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-exit-payment-liquidation-and-applicable-provisions-turkish-commercial-code` — Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler (TTK m. 641-644)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `baggage-vehicle-loss-damage-liability-cap-turkish-commercial-code` — Bagaj ve Araçların Zıyaı veya Hasarından Doğan Sorumluluğun Sınırı (TTK m. 1263)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `notice-of-baggage-loss-or-damage-turkish-commercial-code` — Bagajın Zıyaı veya Hasara Uğradığının Bildirimi (TTK m. 1269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bank-credit-card-abuse-turkish-penal-code` — Başkasının Banka/Kredi Kartını Kullanma (TCK m. 245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `expedited-trial-turkish-criminal-procedure-code` — Seri Muhakeme ve Basit Yargılama Usulleri (CMK m. 250-251)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-bodily-harm-liability-cap-turkish-commercial-code` — Yolcunun Bedensel Zararından Doğan Sorumluluğun Sınırı (TTK m. 1262)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unauthorized-computer-access-turkish-penal-code` — Bilişim Sistemine Yetkisiz Girme, Sistemi Bozma (TCK m. 243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
