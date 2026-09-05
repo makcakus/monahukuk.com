@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 397 · RU: 397 · AR: 397 · ES: 397 · FR: 397 · ZH: 397
+Makale sayıları → TR: 651 · EN: 650 · DE: 401 · RU: 401 · AR: 401 · ES: 401 · FR: 401 · ZH: 401
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **397** içerik
-⚠️  Eksik çeviri: **254** içerik
+✅ Tüm dillerde mevcut: **401** içerik
+⚠️  Eksik çeviri: **250** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 254 eksik içerik
+## DE — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
@@ -526,16 +518,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 254 eksik içerik
+## RU — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
@@ -1037,16 +1021,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 254 eksik içerik
+## AR — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
@@ -1548,16 +1524,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 254 eksik içerik
+## ES — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
@@ -2059,16 +2027,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 254 eksik içerik
+## FR — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
@@ -2570,16 +2530,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 254 eksik içerik
+## ZH — 250 eksik içerik
 
-- `ships-log-and-sea-protest-turkish-commercial-code` — Gemi Jurnali ve Deniz Raporu (TTK m. 1096-1102)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-death-injury-and-baggage-liability-turkish-commercial-code` — Gemi Kazası Nedeniyle Ölüm, Yaralanma ve Bagaj Sorumluluğu (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shipwreck-definition-and-liability-scope-limits-turkish-commercial-code` — Gemi Kazası Tanımı ve Sorumluluk Hükmünün Sınırları (TTK m. 1256)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-legal-effects-part-one-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları I (TTK m. 1122-1126)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
