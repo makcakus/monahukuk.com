@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 333 · RU: 333 · AR: 333 · ES: 333 · FR: 333 · ZH: 333
+Makale sayıları → TR: 651 · EN: 650 · DE: 337 · RU: 337 · AR: 337 · ES: 337 · FR: 337 · ZH: 337
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **333** içerik
-⚠️  Eksik çeviri: **318** içerik
+✅ Tüm dillerde mevcut: **337** içerik
+⚠️  Eksik çeviri: **314** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 318 eksik içerik
+## DE — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
@@ -654,16 +646,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 318 eksik içerik
+## RU — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
@@ -1293,16 +1277,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 318 eksik içerik
+## AR — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
@@ -1932,16 +1908,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 318 eksik içerik
+## ES — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
@@ -2571,16 +2539,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 318 eksik içerik
+## FR — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
@@ -3210,16 +3170,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 318 eksik içerik
+## ZH — 314 eksik içerik
 
-- `collision-duty-to-assist-reserved-provisions-and-prescription-turkish-commercial-code` — Çatmada Kaptanın Yardım Görevi, Saklı Tutulan Hükümler ve Zamanaşımı (TTK m. 1295-1297)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-no-formality-and-no-presumption-turkish-commercial-code` — Çatmada Şekil Şartının ve Karinenin Yokluğu (TTK m. 1293-1294)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `collision-scope-and-no-fault-collision-turkish-commercial-code` — Çatmanın Uygulama Alanı ve Kusursuz Çatma (TTK m. 1286-1287)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `coercion-turkish-penal-code` — Cebir Suçu (TCK m. 108): Zorlama ve Tamamlayıcı Norm  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
