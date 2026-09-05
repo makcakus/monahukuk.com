@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 325 · RU: 325 · AR: 325 · ES: 325 · FR: 325 · ZH: 325
+Makale sayıları → TR: 651 · EN: 650 · DE: 329 · RU: 329 · AR: 329 · ES: 329 · FR: 329 · ZH: 329
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **325** içerik
-⚠️  Eksik çeviri: **326** içerik
+✅ Tüm dillerde mevcut: **329** içerik
+⚠️  Eksik çeviri: **322** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 326 eksik içerik
+## DE — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
@@ -670,16 +662,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 326 eksik içerik
+## RU — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
@@ -1325,16 +1309,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 326 eksik içerik
+## AR — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
@@ -1980,16 +1956,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 326 eksik içerik
+## ES — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
@@ -2635,16 +2603,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 326 eksik içerik
+## FR — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
@@ -3290,16 +3250,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 326 eksik içerik
+## ZH — 322 eksik içerik
 
-- `multiple-shippers-and-charterers-turkish-commercial-code` — Birden Çok Yükleten veya Taşıtanın Bulunması (TTK m. 1161-1162)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `promissory-note-turkish-commercial-code` — Bono veya Emre Yazılı Senet (TTK m. 776-779)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `discharge-berth-costs-time-and-demurrage-turkish-commercial-code` — Boşaltmada Demirleme Yeri, Giderler, Süreler ve Sürastarya (TTK m. 1166-1173)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `non-performance-of-discharge-partial-charter-and-general-cargo-turkish-commercial-code` — Boşaltmanın Yapılmaması, Kısmi Çarter ve Kırkambar Sözleşmesinde Boşaltma (TTK m. 1174-1177)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `infectious-disease-unlawful-burial-turkish-penal-code` — Bulaşıcı Hastalık Tedbirlerine Aykırılık (TCK m. 195)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `current-account-turkish-commercial-code` — Cari Hesap (TTK m. 89-101)  
