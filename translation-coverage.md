@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 369 · RU: 369 · AR: 369 · ES: 369 · FR: 369 · ZH: 369
+Makale sayıları → TR: 651 · EN: 650 · DE: 373 · RU: 373 · AR: 373 · ES: 373 · FR: 373 · ZH: 373
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **369** içerik
-⚠️  Eksik çeviri: **282** içerik
+✅ Tüm dillerde mevcut: **373** içerik
+⚠️  Eksik çeviri: **278** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 282 eksik içerik
+## DE — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
@@ -582,16 +574,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 282 eksik içerik
+## RU — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
@@ -1149,16 +1133,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 282 eksik içerik
+## AR — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
@@ -1716,16 +1692,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 282 eksik içerik
+## ES — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
@@ -2283,16 +2251,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 282 eksik içerik
+## FR — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
@@ -2850,16 +2810,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 282 eksik içerik
+## ZH — 278 eksik içerik
 
-- `trial-preparation-and-hearing-turkish-criminal-procedure-code` — Duruşma Hazırlığı ve Duruşma (CMK m. 175, 191)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `economic-commercial-offences-turkish-penal-code` — Tefecilik ve Ticari Sırrın İfşası Suçları (TCK m. 238-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-payment-promises-transferable-instruments-turkish-commercial-code` — Emre Yazılı Ödeme Vaatleri ve Cirosu Kabil Diğer Senetler (TTK m. 830-831)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-quasi-bills-of-exchange-turkish-commercial-code` — Emre Yazılı Senet ve Kambiyo Senetlerine Benzeyen Senetler (TTK m. 824-829)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
