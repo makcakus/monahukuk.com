@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 353 · RU: 353 · AR: 353 · ES: 353 · FR: 353 · ZH: 353
+Makale sayıları → TR: 651 · EN: 650 · DE: 357 · RU: 357 · AR: 357 · ES: 357 · FR: 357 · ZH: 357
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **353** içerik
-⚠️  Eksik çeviri: **298** içerik
+✅ Tüm dillerde mevcut: **357** içerik
+⚠️  Eksik çeviri: **294** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 298 eksik içerik
+## DE — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
@@ -614,16 +606,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 298 eksik içerik
+## RU — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
@@ -1213,16 +1197,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 298 eksik içerik
+## AR — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
@@ -1812,16 +1788,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 298 eksik içerik
+## ES — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
@@ -2411,16 +2379,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 298 eksik içerik
+## FR — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
@@ -3010,16 +2970,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 298 eksik içerik
+## ZH — 294 eksik içerik
 
-- `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-i-turkish-penal-code` — Casusluk Suçları (TCK m. 326-327-328-329-330-331-332)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `state-secrets-espionage-ii-turkish-penal-code` — Devlet Sırları ve Yasak Bilgi Suçları (TCK m. 333-339)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
