@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 337 · RU: 337 · AR: 337 · ES: 337 · FR: 337 · ZH: 337
+Makale sayıları → TR: 651 · EN: 650 · DE: 341 · RU: 341 · AR: 341 · ES: 341 · FR: 341 · ZH: 341
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **337** içerik
-⚠️  Eksik çeviri: **314** içerik
+✅ Tüm dillerde mevcut: **341** içerik
+⚠️  Eksik çeviri: **310** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 314 eksik içerik
+## DE — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
@@ -646,16 +638,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 314 eksik içerik
+## RU — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
@@ -1277,16 +1261,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 314 eksik içerik
+## AR — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
@@ -1908,16 +1884,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 314 eksik içerik
+## ES — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
@@ -2539,16 +2507,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 314 eksik içerik
+## FR — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
@@ -3170,16 +3130,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 314 eksik içerik
+## ZH — 310 eksik içerik
 
-- `transfer-of-cheque-by-endorsement-turkish-commercial-code` — Çekin Devri: Ciro Yoluyla (TTK m. 788-793)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-drawing-and-form-requirements-turkish-commercial-code` — Çekin Düzenlenmesi ve Şekil Şartları (TTK m. 780-787)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-conflict-of-laws-turkish-commercial-code` — Çekte Kanunlar İhtilafı (TTK m. 819-823)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cheque-payment-presentment-revocation-turkish-commercial-code` — Çekte Ödeme: Aval, İbraz Süreleri ve Cayma (TTK m. 794-802)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-dishonor-recourse-rights-turkish-commercial-code` — Çekte Ödememe: Hamilin Başvurma Hakları ve Protesto (TTK m. 808-811)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cheque-forgery-counterparts-limitation-applicable-provisions-turkish-commercial-code` — Çekte Sahtecilik, Nüsha, Zamanaşımı ve Uygulanacak Hükümler (TTK m. 812-818)  
