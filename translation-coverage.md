@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 357 · RU: 357 · AR: 357 · ES: 357 · FR: 357 · ZH: 357
+Makale sayıları → TR: 651 · EN: 650 · DE: 361 · RU: 361 · AR: 361 · ES: 361 · FR: 361 · ZH: 361
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **357** içerik
-⚠️  Eksik çeviri: **294** içerik
+✅ Tüm dillerde mevcut: **361** içerik
+⚠️  Eksik çeviri: **290** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 294 eksik içerik
+## DE — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
@@ -606,16 +598,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 294 eksik içerik
+## RU — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
@@ -1197,16 +1181,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 294 eksik içerik
+## AR — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
@@ -1788,16 +1764,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 294 eksik içerik
+## ES — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
@@ -2379,16 +2347,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 294 eksik içerik
+## FR — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
@@ -2970,16 +2930,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 294 eksik içerik
+## ZH — 290 eksik içerik
 
-- `crimes-against-state-security-turkish-penal-code` — Devletin Güvenliğine Karşı Suçlar (TCK m. 302-308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `other-shipping-documents-and-mandatory-provisions-scope-turkish-commercial-code` — Konişmento Dışı Taşıma Senetleri ve Emredici Hükümlerin Kapsamı (TTK m. 1242-1243)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-objection-and-hearing-procedure-turkish-commercial-code` — Dispeçe İtiraz ve Duruşma Usulü (TTK m. 1281)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-adjustment-approval-and-writ-of-execution-turkish-commercial-code` — Dispeçin Onaylanması ve Onay Kararının İlam Niteliği (TTK m. 1282-1284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-place-and-adjuster-turkish-commercial-code` — Dispeçin Yapılacağı Yer ve Dispeççi (TTK m. 1279-1280)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-adjustment-preparation-obligation-turkish-commercial-code` — Dispeçin Yaptırılması Yükümlülüğü (TTK m. 1278)  
