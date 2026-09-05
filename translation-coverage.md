@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 349 · RU: 349 · AR: 349 · ES: 349 · FR: 349 · ZH: 349
+Makale sayıları → TR: 651 · EN: 650 · DE: 353 · RU: 353 · AR: 353 · ES: 353 · FR: 353 · ZH: 353
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **349** içerik
-⚠️  Eksik çeviri: **302** içerik
+✅ Tüm dillerde mevcut: **353** içerik
+⚠️  Eksik çeviri: **298** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 302 eksik içerik
+## DE — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
@@ -622,16 +614,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 302 eksik içerik
+## RU — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
@@ -1229,16 +1213,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 302 eksik içerik
+## AR — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
@@ -1836,16 +1812,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 302 eksik içerik
+## ES — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
@@ -2443,16 +2411,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 302 eksik içerik
+## FR — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
@@ -3050,16 +3010,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 302 eksik içerik
+## ZH — 298 eksik içerik
 
-- `child-sexual-abuse-turkish-penal-code` — Çocukların Cinsel İstismarı (TCK m. 103): Yaş Grupları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `insulting-the-president-turkish-penal-code` — Cumhurbaşkanına Hakaret Suçu (TCK m. 299-300-301)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `multimodal-transport-turkish-commercial-code` — Değişik Tür Araçlar ile Taşıma (TTK m. 902-905)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `evidence-tampering-harboring-offender-turkish-penal-code` — Suçluyu Kayırma ve Delil Karartma (TCK m. 281-283-284)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `evaluation-of-evidence-and-unlawful-evidence-turkish-criminal-procedure-code` — Hukuka Aykırı Deliller ve Delillerin Reddi (CMK m. 206)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `audit-report-opinions-auditor-liability-group-special-audit-turkish-commercial-code` — Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk İlişkileri İçin Özel Denetim (TTK m. 402-406)  
