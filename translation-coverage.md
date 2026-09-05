@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 373 · RU: 373 · AR: 373 · ES: 373 · FR: 373 · ZH: 373
+Makale sayıları → TR: 651 · EN: 650 · DE: 377 · RU: 377 · AR: 377 · ES: 377 · FR: 377 · ZH: 377
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **373** içerik
-⚠️  Eksik çeviri: **278** içerik
+✅ Tüm dillerde mevcut: **377** içerik
+⚠️  Eksik çeviri: **274** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 278 eksik içerik
+## DE — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
@@ -574,16 +566,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 278 eksik içerik
+## RU — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
@@ -1133,16 +1117,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 278 eksik içerik
+## AR — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
@@ -1692,16 +1668,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 278 eksik içerik
+## ES — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
@@ -2251,16 +2219,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 278 eksik içerik
+## FR — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
@@ -2810,16 +2770,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 278 eksik içerik
+## ZH — 274 eksik içerik
 
-- `mandatory-provisions-exceptions-and-voyage-charter-turkish-commercial-code` — Emredici Hükümlerin İstisnaları ve Yolculuk Çarteri Sözleşmesi (TTK m. 1244-1245)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `transfer-of-capital-shares-and-transactions-involving-the-share-turkish-commercial-code` — Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler (TTK m. 593-600)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-reduction-turkish-commercial-code` — Esas Sermayenin Azaltılması (TTK m. 473-475)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `articles-of-association-amendment-quorums-minutes-effect-of-resolutions-turkish-commercial-code` — Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi (TTK m. 421-424)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `amendment-articles-association-general-principle-procedure-turkish-commercial-code` — Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul (TTK m. 452-455)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `packaging-loading-and-senders-liability-turkish-commercial-code` — Eşya Taşımada Ambalaj, Yükleme, Boşaltma ve Gönderenin Sorumluluğu (TTK m. 862-865)  
