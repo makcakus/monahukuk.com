@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 405 · RU: 405 · AR: 405 · ES: 405 · FR: 405 · ZH: 405
+Makale sayıları → TR: 651 · EN: 650 · DE: 409 · RU: 409 · AR: 409 · ES: 409 · FR: 409 · ZH: 409
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **405** içerik
-⚠️  Eksik çeviri: **246** içerik
+✅ Tüm dillerde mevcut: **409** içerik
+⚠️  Eksik çeviri: **242** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 246 eksik içerik
+## DE — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
@@ -510,16 +502,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 246 eksik içerik
+## RU — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
@@ -1005,16 +989,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 246 eksik içerik
+## AR — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
@@ -1500,16 +1476,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 246 eksik içerik
+## ES — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
@@ -1995,16 +1963,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 246 eksik içerik
+## FR — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
@@ -2490,16 +2450,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 246 eksik içerik
+## ZH — 242 eksik içerik
 
-- `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-mortgage-types-and-shipyard-lien-turkish-commercial-code` — Gemi Rehninin Türleri ve Tersane Sahibinin İpotek Hakkı (TTK m. 1012-1013)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-registry-establishment-and-registrable-mandatory-vessels-turkish-commercial-code` — Gemi Sicilinin Kuruluşu ve Tescili Caiz/Zorunlu Gemiler (TTK m. 954-958)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-deregistration-and-certificate-turkish-commercial-code` — Gemi Sicilinden Silinme ve Gemi Tasdiknamesi (TTK m. 965-972)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-registry-effects-and-reliance-principle-turkish-commercial-code` — Gemi Sicilinin Hükümleri ve Sicile Güven İlkesi (TTK m. 973-985)  
