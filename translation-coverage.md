@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 401 · RU: 401 · AR: 401 · ES: 401 · FR: 401 · ZH: 401
+Makale sayıları → TR: 651 · EN: 650 · DE: 405 · RU: 405 · AR: 405 · ES: 405 · FR: 405 · ZH: 405
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **401** içerik
-⚠️  Eksik çeviri: **250** içerik
+✅ Tüm dillerde mevcut: **405** içerik
+⚠️  Eksik çeviri: **246** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 250 eksik içerik
+## DE — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
@@ -518,16 +510,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 250 eksik içerik
+## RU — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
@@ -1021,16 +1005,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 250 eksik içerik
+## AR — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
@@ -1524,16 +1500,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 250 eksik içerik
+## ES — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
@@ -2027,16 +1995,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 250 eksik içerik
+## FR — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
@@ -2530,16 +2490,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 250 eksik içerik
+## ZH — 246 eksik içerik
 
-- `ship-charter-agreement-legal-effects-part-two-turkish-commercial-code` — Gemi Kira Sözleşmesinin Hüküm ve Sonuçları II (TTK m. 1127-1130)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-charter-agreement-definition-and-form-turkish-commercial-code` — Gemi Kira Sözleşmesinin Tanımı ve Şekli (TTK m. 1119-1121)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-manager-appointment-management-and-representation-authority-turkish-commercial-code` — Gemi Müdürünün Atanması, Yönetim ve Temsil Yetkisi (TTK m. 1068-1075)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-ownership-applicable-provisions-and-original-acquisition-turkish-commercial-code` — Gemi Mülkiyetinde Uygulanacak Hükümler ve Aslen İktisabı (TTK m. 996-1000)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-ownership-derivative-acquisition-and-loss-turkish-commercial-code` — Gemi Mülkiyetinin Devren İktisabı ve Zıyaı (TTK m. 1001-1005)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-shares-and-vessels-under-construction-ownership-turkish-commercial-code` — Gemi Payı ve Yapı Hâlindeki Gemiler Üzerinde Mülkiyet (TTK m. 1006-1011)  
