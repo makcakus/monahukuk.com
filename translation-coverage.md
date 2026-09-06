@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 545 · RU: 545 · AR: 545 · ES: 545 · FR: 545 · ZH: 545
+Makale sayıları → TR: 651 · EN: 650 · DE: 549 · RU: 549 · AR: 549 · ES: 549 · FR: 549 · ZH: 549
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **545** içerik
-⚠️  Eksik çeviri: **106** içerik
+✅ Tüm dillerde mevcut: **549** içerik
+⚠️  Eksik çeviri: **102** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 106 eksik içerik
+## DE — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
@@ -230,18 +222,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 106 eksik içerik
+## RU — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
@@ -445,18 +429,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 106 eksik içerik
+## AR — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
@@ -660,18 +636,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 106 eksik içerik
+## ES — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
@@ -875,18 +843,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 106 eksik içerik
+## FR — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
@@ -1090,18 +1050,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 106 eksik içerik
+## ZH — 102 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-limitation-period-and-miscellaneous-provisions-turkish-commercial-code` — Poliçede Zamanaşımı ve Çeşitli Hükümler (TTK m. 748-765)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-aval-guarantee-turkish-commercial-code` — Poliçede Aval (TTK m. 700-702)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
