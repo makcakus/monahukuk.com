@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 601 · RU: 601 · AR: 601 · ES: 601 · FR: 601 · ZH: 601
+Makale sayıları → TR: 651 · EN: 650 · DE: 605 · RU: 605 · AR: 605 · ES: 605 · FR: 605 · ZH: 605
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **601** içerik
-⚠️  Eksik çeviri: **50** içerik
+✅ Tüm dillerde mevcut: **605** içerik
+⚠️  Eksik çeviri: **46** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 50 eksik içerik
+## DE — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
@@ -118,18 +110,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 50 eksik içerik
+## RU — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
@@ -221,18 +205,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 50 eksik içerik
+## AR — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
@@ -324,18 +300,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 50 eksik içerik
+## ES — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
@@ -427,18 +395,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 50 eksik içerik
+## FR — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
@@ -530,18 +490,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 50 eksik içerik
+## ZH — 46 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-books-turkish-commercial-code` — Ticari Defterler (TTK m. 64-88)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-provisions-and-commercial-transactions-turkish-commercial-code` — Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler (TTK m. 1-5)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
