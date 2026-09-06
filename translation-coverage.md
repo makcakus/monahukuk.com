@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 617 · RU: 617 · AR: 617 · ES: 617 · FR: 617 · ZH: 617
+Makale sayıları → TR: 651 · EN: 650 · DE: 621 · RU: 621 · AR: 621 · ES: 621 · FR: 621 · ZH: 621
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **617** içerik
-⚠️  Eksik çeviri: **34** içerik
+✅ Tüm dillerde mevcut: **621** içerik
+⚠️  Eksik çeviri: **30** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 34 eksik içerik
+## DE — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
@@ -86,18 +78,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 34 eksik içerik
+## RU — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
@@ -157,18 +141,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 34 eksik içerik
+## AR — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
@@ -228,18 +204,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 34 eksik içerik
+## ES — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
@@ -299,18 +267,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 34 eksik içerik
+## FR — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
@@ -370,18 +330,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 34 eksik içerik
+## ZH — 30 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `robbery-turkish-penal-code` — Yağma Suçu (TCK m. 148): Cebir ve Tehditle Mal Alma  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `arrest-and-custody-turkish-criminal-procedure-code` — Yakalama ve Gözaltı (CMK m. 90-91): Koşullar ve Süreler  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
