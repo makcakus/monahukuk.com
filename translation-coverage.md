@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 629 · RU: 629 · AR: 629 · ES: 629 · FR: 629 · ZH: 629
+Makale sayıları → TR: 651 · EN: 650 · DE: 633 · RU: 633 · AR: 633 · ES: 633 · FR: 633 · ZH: 633
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **629** içerik
-⚠️  Eksik çeviri: **22** içerik
+✅ Tüm dillerde mevcut: **633** içerik
+⚠️  Eksik çeviri: **18** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 22 eksik içerik
+## DE — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
@@ -62,18 +54,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 22 eksik içerik
+## RU — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
@@ -109,18 +93,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 22 eksik içerik
+## AR — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
@@ -156,18 +132,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 22 eksik içerik
+## ES — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
@@ -203,18 +171,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 22 eksik içerik
+## FR — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
@@ -250,18 +210,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 22 eksik içerik
+## ZH — 18 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-prescription-periods-turkish-commercial-code` — Yolcu Taşımasında Zamanaşımı (TTK m. 1270)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-after-voyage-commencement-turkish-commercial-code` — Yolculuk Başladıktan Sonra Eşyanın Zayi Olması ve Tam Navlun Kuralı (TTK m. 1216-1217)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
