@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 485 · RU: 485 · AR: 485 · ES: 485 · FR: 485 · ZH: 485
+Makale sayıları → TR: 651 · EN: 650 · DE: 489 · RU: 489 · AR: 489 · ES: 489 · FR: 489 · ZH: 489
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **485** içerik
-⚠️  Eksik çeviri: **166** içerik
+✅ Tüm dillerde mevcut: **489** içerik
+⚠️  Eksik çeviri: **162** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 166 eksik içerik
+## DE — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
@@ -350,16 +342,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 166 eksik içerik
+## RU — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
@@ -685,16 +669,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 166 eksik içerik
+## AR — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
@@ -1020,16 +996,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 166 eksik içerik
+## ES — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
@@ -1355,16 +1323,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 166 eksik içerik
+## FR — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
@@ -1690,16 +1650,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 166 eksik içerik
+## ZH — 162 eksik içerik
 
-- `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `delivery-to-legitimate-bill-of-lading-holder-general-principles-turkish-commercial-code` — Konişmentonun Yetkili Hamiline Teslimi: Genel Esaslar (TTK m. 1230-1231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-multiple-holders-and-surrender-turkish-commercial-code` — Konişmentonun Birden Çok Hamili ve Geri Verilmesi (TTK m. 1235-1236)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
