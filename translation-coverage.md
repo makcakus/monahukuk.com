@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 633 · RU: 633 · AR: 633 · ES: 633 · FR: 633 · ZH: 633
+Makale sayıları → TR: 651 · EN: 650 · DE: 637 · RU: 637 · AR: 637 · ES: 637 · FR: 637 · ZH: 637
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **633** içerik
-⚠️  Eksik çeviri: **18** içerik
+✅ Tüm dillerde mevcut: **637** içerik
+⚠️  Eksik çeviri: **14** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 18 eksik içerik
+## DE — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
@@ -54,18 +46,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 18 eksik içerik
+## RU — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
@@ -93,18 +77,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 18 eksik içerik
+## AR — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
@@ -132,18 +108,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 18 eksik içerik
+## ES — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
@@ -171,18 +139,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 18 eksik içerik
+## FR — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
@@ -210,18 +170,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 18 eksik içerik
+## ZH — 14 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `termination-before-voyage-and-short-loading-turkish-commercial-code` — Yolculuk Başlamadan Fesih, Yüklemenin Hiç Yapılmaması ve Eksik Yükleme (TTK m. 1158-1160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cargo-loss-before-voyage-commencement-turkish-commercial-code` — Yolculuk Başlamadan Önce Eşyanın Zayi Olması: Ferden Belirlenmiş ve Tür/Cinsiyle Belirlenmiş Eşya Ayrımı (TTK m. 1214-1215)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-contributory-fault-liability-reduction-turkish-commercial-code` — Yolcunun Birlikte Kusuru ve Sorumluluğun Azaltılması (TTK m. 1261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-valuables-carrier-liability-turkish-commercial-code` — Yolcunun Değerli Eşyasından Taşıyanın Sorumluluğu (TTK m. 1260)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-obligations-captain-instructions-baggage-declaration-turkish-commercial-code` — Yolcunun Yükümlülükleri: Kaptanın Talimatı, Bagaj Beyanı ve Zamanında Gelme (TTK m. 1251-1253)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `board-meetings-financial-rights-prohibitions-turkish-commercial-code` — Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar (TTK m. 390-396)  
