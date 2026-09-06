@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 529 · RU: 529 · AR: 529 · ES: 529 · FR: 529 · ZH: 529
+Makale sayıları → TR: 651 · EN: 650 · DE: 533 · RU: 533 · AR: 533 · ES: 533 · FR: 533 · ZH: 533
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **529** içerik
-⚠️  Eksik çeviri: **122** içerik
+✅ Tüm dillerde mevcut: **533** içerik
+⚠️  Eksik çeviri: **118** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 122 eksik içerik
+## DE — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
@@ -262,18 +254,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 122 eksik içerik
+## RU — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
@@ -509,18 +493,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 122 eksik içerik
+## AR — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
@@ -756,18 +732,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 122 eksik içerik
+## ES — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
@@ -1003,18 +971,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 122 eksik içerik
+## FR — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
@@ -1250,18 +1210,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 122 eksik içerik
+## ZH — 118 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `contract-of-carriage-types-and-seaworthiness-obligation-turkish-commercial-code` — Navlun Sözleşmesinin Türleri ve Elverişlilik Yükümlülüğü (TTK m. 1138-1141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-lading-freight-proof-turkish-commercial-code` — Navlunu İspat: Gönderilenin Ödeme Yükümlülüğü Karinesi (TTK m. 1240)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
