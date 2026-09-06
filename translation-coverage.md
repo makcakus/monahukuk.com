@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 581 · RU: 581 · AR: 581 · ES: 581 · FR: 581 · ZH: 581
+Makale sayıları → TR: 651 · EN: 650 · DE: 585 · RU: 585 · AR: 585 · ES: 585 · FR: 585 · ZH: 585
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **581** içerik
-⚠️  Eksik çeviri: **70** içerik
+✅ Tüm dillerde mevcut: **585** içerik
+⚠️  Eksik çeviri: **66** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 70 eksik içerik
+## DE — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
@@ -158,18 +150,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 70 eksik içerik
+## RU — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
@@ -301,18 +285,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 70 eksik içerik
+## AR — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
@@ -444,18 +420,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 70 eksik içerik
+## ES — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
@@ -587,18 +555,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 70 eksik içerik
+## FR — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
@@ -730,18 +690,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 70 eksik içerik
+## ZH — 66 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-provisions-of-carriage-turkish-commercial-code` — Taşıma İşlerinde Genel Hükümler: Taşıyıcı, Uygulama Alanı ve Zamanaşımı (TTK m. 850-855)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `freight-forwarding-commission-contract-and-provisions-turkish-commercial-code` — Taşıma İşleri Komisyonculuğu Sözleşmesi ve Hükümleri (TTK m. 917-922)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-forwarder-liability-and-limitation-period-turkish-commercial-code` — Taşıma İşleri Komisyoncusunun Sorumluluğu ve Zamanaşımı (TTK m. 923-930)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `household-goods-transport-turkish-commercial-code` — Taşınma Eşyası Taşıması (TTK m. 894-901)  
