@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 561 · RU: 561 · AR: 561 · ES: 561 · FR: 561 · ZH: 561
+Makale sayıları → TR: 651 · EN: 650 · DE: 565 · RU: 565 · AR: 565 · ES: 565 · FR: 565 · ZH: 565
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **561** içerik
-⚠️  Eksik çeviri: **90** içerik
+✅ Tüm dillerde mevcut: **565** içerik
+⚠️  Eksik çeviri: **86** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 90 eksik içerik
+## DE — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
@@ -198,18 +190,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 90 eksik içerik
+## RU — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
@@ -381,18 +365,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 90 eksik içerik
+## AR — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
@@ -564,18 +540,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 90 eksik içerik
+## ES — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
@@ -747,18 +715,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 90 eksik içerik
+## FR — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
@@ -930,18 +890,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 90 eksik içerik
+## ZH — 86 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `corporate-damage-release-limitation-jurisdiction-turkish-commercial-code` — Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme (TTK m. 555-561)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `group-of-companies-turkish-commercial-code` — Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri (TTK m. 195-210)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
