@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 477 · RU: 477 · AR: 477 · ES: 477 · FR: 477 · ZH: 477
+Makale sayıları → TR: 651 · EN: 650 · DE: 481 · RU: 481 · AR: 481 · ES: 481 · FR: 481 · ZH: 481
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **477** içerik
-⚠️  Eksik çeviri: **174** içerik
+✅ Tüm dillerde mevcut: **481** içerik
+⚠️  Eksik çeviri: **170** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 174 eksik içerik
+## DE — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
@@ -366,16 +358,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 174 eksik içerik
+## RU — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
@@ -717,16 +701,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 174 eksik içerik
+## AR — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
@@ -1068,16 +1044,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 174 eksik içerik
+## ES — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
@@ -1419,16 +1387,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 174 eksik içerik
+## FR — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
@@ -1770,16 +1730,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 174 eksik içerik
+## ZH — 170 eksik içerik
 
-- `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-formation-turkish-commercial-code` — Kollektif Şirketin Niteliği, Kuruluşu ve Tescili (TTK m. 211-216)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-dissolution-turkish-commercial-code` — Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması (TTK m. 243-266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
