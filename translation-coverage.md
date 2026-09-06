@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 469 · RU: 469 · AR: 469 · ES: 469 · FR: 469 · ZH: 469
+Makale sayıları → TR: 651 · EN: 650 · DE: 473 · RU: 473 · AR: 473 · ES: 473 · FR: 473 · ZH: 473
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **469** içerik
-⚠️  Eksik çeviri: **182** içerik
+✅ Tüm dillerde mevcut: **473** içerik
+⚠️  Eksik çeviri: **178** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 182 eksik içerik
+## DE — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
@@ -382,16 +374,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 182 eksik içerik
+## RU — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
@@ -749,16 +733,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 182 eksik içerik
+## AR — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
@@ -1116,16 +1092,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 182 eksik içerik
+## ES — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
@@ -1483,16 +1451,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 182 eksik içerik
+## FR — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
@@ -1850,16 +1810,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 182 eksik içerik
+## ZH — 178 eksik içerik
 
-- `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-homicide-turkish-penal-code` — Kasten Öldürme Suçu (TCK m. 81): Ağırlaştırılmış Müebbet  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `intentional-injury-turkish-penal-code` — Kasten Yaralama Suçu (TCK m. 86): Şikâyete Bağlılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
