@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 501 · RU: 501 · AR: 501 · ES: 501 · FR: 501 · ZH: 501
+Makale sayıları → TR: 651 · EN: 650 · DE: 505 · RU: 505 · AR: 505 · ES: 505 · FR: 505 · ZH: 505
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **501** içerik
-⚠️  Eksik çeviri: **150** içerik
+✅ Tüm dillerde mevcut: **505** içerik
+⚠️  Eksik çeviri: **146** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 150 eksik içerik
+## DE — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
@@ -318,18 +310,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 150 eksik içerik
+## RU — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
@@ -621,18 +605,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 150 eksik içerik
+## AR — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
@@ -924,18 +900,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 150 eksik içerik
+## ES — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
@@ -1227,18 +1195,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 150 eksik içerik
+## FR — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
@@ -1530,18 +1490,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 150 eksik içerik
+## ZH — 146 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-debtors-turkish-commercial-code` — Kurtarma Ücretinin Borçluları (TTK m. 1306)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-apportionment-among-salvors-turkish-commercial-code` — Kurtarma Ücretinin Kurtaranlar Arasında Paylaşımı (TTK m. 1309)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
