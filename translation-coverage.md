@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 505 · RU: 505 · AR: 505 · ES: 505 · FR: 505 · ZH: 505
+Makale sayıları → TR: 651 · EN: 650 · DE: 509 · RU: 509 · AR: 509 · ES: 509 · FR: 509 · ZH: 509
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **505** içerik
-⚠️  Eksik çeviri: **146** içerik
+✅ Tüm dillerde mevcut: **509** içerik
+⚠️  Eksik çeviri: **142** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 146 eksik içerik
+## DE — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
@@ -310,18 +302,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 146 eksik içerik
+## RU — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
@@ -605,18 +589,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 146 eksik içerik
+## AR — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
@@ -900,18 +876,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 146 eksik içerik
+## ES — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
@@ -1195,18 +1163,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 146 eksik içerik
+## FR — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
@@ -1490,18 +1450,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 146 eksik içerik
+## ZH — 142 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-other-circumstances-and-authority-to-contract-turkish-commercial-code` — Kurtarmada Diğer Hâller ve Sözleşme Yapma Yetkisi (TTK m. 1299-1300)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-parties-obligations-and-salvage-award-principles-turkish-commercial-code` — Kurtarmada Tarafların Yükümlülükleri ve Kurtarma Ücreti İlkeleri (TTK m. 1303-1304)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `joint-stock-company-fraud-registration-principles-turkish-commercial-code` — Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri (TTK m. 353-358)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `single-fault-and-joint-fault-collision-turkish-commercial-code` — Kusurlu Çatma: Tek Tarafın Kusuru ve Ortak Kusur (TTK m. 1288-1289)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
