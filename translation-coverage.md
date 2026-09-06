@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 513 · RU: 513 · AR: 513 · ES: 513 · FR: 513 · ZH: 513
+Makale sayıları → TR: 651 · EN: 650 · DE: 517 · RU: 517 · AR: 517 · ES: 517 · FR: 517 · ZH: 517
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **513** içerik
-⚠️  Eksik çeviri: **138** içerik
+✅ Tüm dillerde mevcut: **517** içerik
+⚠️  Eksik çeviri: **134** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 138 eksik içerik
+## DE — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
@@ -294,18 +286,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 138 eksik içerik
+## RU — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
@@ -573,18 +557,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 138 eksik içerik
+## AR — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
@@ -852,18 +828,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 138 eksik içerik
+## ES — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
@@ -1131,18 +1099,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 138 eksik içerik
+## FR — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
@@ -1410,18 +1370,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 138 eksik içerik
+## ZH — 134 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-minimum-amount-and-capital-shares-turkish-commercial-code` — Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri (TTK m. 580-584)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-capital-loss-over-indebtedness-and-auditor-turkish-commercial-code` — Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi (TTK m. 633-635)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
