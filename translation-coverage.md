@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 565 · RU: 565 · AR: 565 · ES: 565 · FR: 565 · ZH: 565
+Makale sayıları → TR: 651 · EN: 650 · DE: 569 · RU: 569 · AR: 569 · ES: 569 · FR: 569 · ZH: 569
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **565** içerik
-⚠️  Eksik çeviri: **86** içerik
+✅ Tüm dillerde mevcut: **569** içerik
+⚠️  Eksik çeviri: **82** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 86 eksik içerik
+## DE — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
@@ -190,18 +182,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 86 eksik içerik
+## RU — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
@@ -365,18 +349,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 86 eksik içerik
+## AR — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
@@ -540,18 +516,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 86 eksik içerik
+## ES — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
@@ -715,18 +683,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 86 eksik içerik
+## FR — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
@@ -890,18 +850,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 86 eksik içerik
+## ZH — 82 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `disclosure-of-official-secrets-turkish-penal-code` — Göreve İlişkin Sırrın Açıklanması Suçu (TCK m. 258)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `loss-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1187)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forfeiture-of-right-to-limit-liability-turkish-commercial-code` — Sorumluluğu Sınırlandırma Hakkının Kaybı (TTK m. 1267)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-on-liability-limits-turkish-commercial-code` — Sorumluluk Sınırlarına İlişkin Ortak Hükümler (TTK m. 1264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
