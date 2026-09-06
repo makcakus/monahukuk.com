@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 557 · RU: 557 · AR: 557 · ES: 557 · FR: 557 · ZH: 557
+Makale sayıları → TR: 651 · EN: 650 · DE: 561 · RU: 561 · AR: 561 · ES: 561 · FR: 561 · ZH: 561
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **557** içerik
-⚠️  Eksik çeviri: **94** içerik
+✅ Tüm dillerde mevcut: **561** içerik
+⚠️  Eksik çeviri: **90** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 94 eksik içerik
+## DE — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
@@ -206,18 +198,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 94 eksik içerik
+## RU — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
@@ -397,18 +381,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 94 eksik içerik
+## AR — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
@@ -588,18 +564,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 94 eksik içerik
+## ES — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
@@ -779,18 +747,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 94 eksik içerik
+## FR — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
@@ -970,18 +930,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 94 eksik içerik
+## ZH — 90 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `capital-divided-partnership-turkish-commercial-code` — Sermayesi Paylara Bölünmüş Komandit Şirket (TTK m. 564-572)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registry-decisions-objection-and-turkish-international-ship-registry-turkish-commercial-code` — Sicil Müdürlüğü Kararlarına İtiraz ve Türk Uluslararası Gemi Sicili (TTK m. 993-995)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `armed-organization-turkish-penal-code` — Silahlı Örgüt Suçu (TCK m. 314-315-316) ve m.220 Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `company-acquisition-of-own-shares-turkish-commercial-code` — Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi (TTK m. 379-389)  
