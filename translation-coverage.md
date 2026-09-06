@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 537 · RU: 537 · AR: 537 · ES: 537 · FR: 537 · ZH: 537
+Makale sayıları → TR: 651 · EN: 650 · DE: 541 · RU: 541 · AR: 541 · ES: 541 · FR: 541 · ZH: 541
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **537** içerik
-⚠️  Eksik çeviri: **114** içerik
+✅ Tüm dillerde mevcut: **541** içerik
+⚠️  Eksik çeviri: **110** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 114 eksik içerik
+## DE — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
@@ -246,18 +238,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 114 eksik içerik
+## RU — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
@@ -477,18 +461,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 114 eksik içerik
+## AR — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
@@ -708,18 +684,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 114 eksik içerik
+## ES — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
@@ -939,18 +907,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 114 eksik içerik
+## FR — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
@@ -1170,18 +1130,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 114 eksik içerik
+## ZH — 110 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `right-to-request-special-audit-turkish-commercial-code` — Özel Denetim İsteme Hakkı (TTK m. 438-444)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `privacy-violation-turkish-penal-code` — Özel Hayatın Gizliliğini İhlal (TCK m. 134): Rıza ve İfşa  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
