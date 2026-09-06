@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 609 · RU: 609 · AR: 609 · ES: 609 · FR: 609 · ZH: 609
+Makale sayıları → TR: 651 · EN: 650 · DE: 613 · RU: 613 · AR: 613 · ES: 613 · FR: 613 · ZH: 613
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **609** içerik
-⚠️  Eksik çeviri: **42** içerik
+✅ Tüm dillerde mevcut: **613** içerik
+⚠️  Eksik çeviri: **38** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 42 eksik içerik
+## DE — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
@@ -102,18 +94,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 42 eksik içerik
+## RU — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
@@ -189,18 +173,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 42 eksik içerik
+## AR — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
@@ -276,18 +252,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 42 eksik içerik
+## ES — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
@@ -363,18 +331,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 42 eksik içerik
+## FR — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
@@ -450,18 +410,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 42 eksik içerik
+## ZH — 38 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `organization-international-crimes-turkish-penal-code` — Soykırım Amacıyla Örgüt Kurma Suçu (TCK m. 78)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `dispositions-in-general-warehouses-forced-sale-and-limitation-turkish-commercial-code` — Umumi Mağazada Tasarruflar, Sattırma Hakkı ve Zamanaşımı (TTK m. 841-849)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
