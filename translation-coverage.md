@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 541 · RU: 541 · AR: 541 · ES: 541 · FR: 541 · ZH: 541
+Makale sayıları → TR: 651 · EN: 650 · DE: 545 · RU: 545 · AR: 545 · ES: 545 · FR: 545 · ZH: 545
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **541** içerik
-⚠️  Eksik çeviri: **110** içerik
+✅ Tüm dillerde mevcut: **545** içerik
+⚠️  Eksik çeviri: **106** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 110 eksik içerik
+## DE — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
@@ -238,18 +230,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 110 eksik içerik
+## RU — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
@@ -461,18 +445,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 110 eksik içerik
+## AR — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
@@ -684,18 +660,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 110 eksik içerik
+## ES — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
@@ -907,18 +875,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 110 eksik içerik
+## FR — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
@@ -1130,18 +1090,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 110 eksik içerik
+## ZH — 106 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `currency-forgery-turkish-penal-code` — Parada Sahtecilik ve Tedavüle Sürme (TCK m. 197)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shares-privileged-shares-and-payment-obligation-turkish-commercial-code` — Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu (TTK m. 476-483)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `shareholder-participation-representation-rights-general-meeting-turkish-commercial-code` — Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı (TTK m. 425-433)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `share-certificates-types-issuance-and-bearer-transfer-turkish-commercial-code` — Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri (TTK m. 484-490)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-conflict-of-laws-turkish-commercial-code` — Poliçede Kanunlar İhtilafı (TTK m. 766-775)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-counterparts-and-copies-turkish-commercial-code` — Poliçe Nüshaları ve Suretleri (TTK m. 743-747)  
