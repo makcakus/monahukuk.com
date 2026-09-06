@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 605 · RU: 605 · AR: 605 · ES: 605 · FR: 605 · ZH: 605
+Makale sayıları → TR: 651 · EN: 650 · DE: 609 · RU: 609 · AR: 609 · ES: 609 · FR: 609 · ZH: 609
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **605** içerik
-⚠️  Eksik çeviri: **46** içerik
+✅ Tüm dillerde mevcut: **609** içerik
+⚠️  Eksik çeviri: **42** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 46 eksik içerik
+## DE — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
@@ -110,18 +102,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 46 eksik içerik
+## RU — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
@@ -205,18 +189,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 46 eksik içerik
+## AR — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
@@ -300,18 +276,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 46 eksik içerik
+## ES — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
@@ -395,18 +363,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 46 eksik içerik
+## FR — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
@@ -490,18 +450,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 46 eksik içerik
+## ZH — 42 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `commercial-limitation-period-and-interest-turkish-commercial-code` — Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz (TTK m. 6-10)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `endangering-traffic-safety-turkish-penal-code` — Trafik Güvenliğini Tehlikeye Sokma: Alkollü (TCK m. 179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `conversion-of-legal-form-turkish-commercial-code` — Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler (TTK m. 180-194)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `pretrial-detention-turkish-criminal-procedure-code` — Tutuklama Şartları (CMK m. 100): Şüphe ve Ölçülülük  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `third-party-consignee-freight-liability-turkish-commercial-code` — Üçüncü Kişi Gönderilenin Navlun Yükümlülüğü ve Rücu Hakkı (TTK m. 1203-1207)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `offences-against-transport-vehicles-turkish-penal-code` — Ulaşım Aracının Kaçırılması ve Alıkonulması (TCK m. 223)  
