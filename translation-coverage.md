@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 597 · RU: 597 · AR: 597 · ES: 597 · FR: 597 · ZH: 597
+Makale sayıları → TR: 651 · EN: 650 · DE: 601 · RU: 601 · AR: 601 · ES: 601 · FR: 601 · ZH: 601
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **597** içerik
-⚠️  Eksik çeviri: **54** içerik
+✅ Tüm dillerde mevcut: **601** içerik
+⚠️  Eksik çeviri: **50** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 54 eksik içerik
+## DE — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
@@ -126,18 +118,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 54 eksik içerik
+## RU — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
@@ -237,18 +221,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 54 eksik içerik
+## AR — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
@@ -348,18 +324,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 54 eksik içerik
+## ES — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
@@ -459,18 +427,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 54 eksik içerik
+## FR — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
@@ -570,18 +530,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 54 eksik içerik
+## ZH — 50 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `merger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Birleşme (TTK m. 134-158)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `demerger-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinde Bölünme (TTK m. 159-179)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `types-of-commercial-companies-turkish-commercial-code` — Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu (TTK m. 124-133)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `trade-name-and-business-name-turkish-commercial-code` — Ticaret Unvanı ve İşletme Adı (TTK m. 39-53)  
