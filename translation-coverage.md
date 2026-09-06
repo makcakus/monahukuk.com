@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 497 · RU: 497 · AR: 497 · ES: 497 · FR: 497 · ZH: 497
+Makale sayıları → TR: 651 · EN: 650 · DE: 501 · RU: 501 · AR: 501 · ES: 501 · FR: 501 · ZH: 501
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **497** içerik
-⚠️  Eksik çeviri: **154** içerik
+✅ Tüm dillerde mevcut: **501** içerik
+⚠️  Eksik çeviri: **150** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 154 eksik içerik
+## DE — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
@@ -326,18 +318,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 154 eksik içerik
+## RU — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
@@ -637,18 +621,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 154 eksik içerik
+## AR — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
@@ -948,18 +924,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 154 eksik içerik
+## ES — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
@@ -1259,18 +1227,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 154 eksik içerik
+## FR — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
@@ -1570,18 +1530,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 154 eksik içerik
+## ZH — 150 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-special-compensation-turkish-commercial-code` — Kurtarma Ücretinde Özel Tazminat (TTK m. 1312)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-award-single-award-principle-turkish-commercial-code` — Kurtarma Ücretinde Tek Ücret İlkesi ve Dava Birleştirilmesi (TTK m. 1308)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-forfeiture-turkish-commercial-code` — Kurtarma Ücretinden Mahrumiyet (TTK m. 1311)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-assessment-criteria-turkish-commercial-code` — Kurtarma Ücretinin Belirlenmesinde Kıstaslar (TTK m. 1305)  
