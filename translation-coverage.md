@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 445 · RU: 445 · AR: 445 · ES: 445 · FR: 445 · ZH: 445
+Makale sayıları → TR: 651 · EN: 650 · DE: 449 · RU: 449 · AR: 449 · ES: 449 · FR: 449 · ZH: 449
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **445** içerik
-⚠️  Eksik çeviri: **206** içerik
+✅ Tüm dillerde mevcut: **449** içerik
+⚠️  Eksik çeviri: **202** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 206 eksik içerik
+## DE — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
@@ -430,16 +422,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 206 eksik içerik
+## RU — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
@@ -845,16 +829,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 206 eksik içerik
+## AR — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
@@ -1260,16 +1236,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 206 eksik içerik
+## ES — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
@@ -1675,16 +1643,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 206 eksik içerik
+## FR — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
@@ -2090,16 +2050,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 206 eksik içerik
+## ZH — 202 eksik içerik
 
-- `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `communication-surveillance-turkish-criminal-procedure-code` — İletişimin Denetlenmesi ve Gizli Soruşturmacı (CMK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `human-trafficking-turkish-penal-code` — İnsan Ticareti Suçu (TCK m. 80): Rızanın Geçersizliği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
