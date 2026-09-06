@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 509 · RU: 509 · AR: 509 · ES: 509 · FR: 509 · ZH: 509
+Makale sayıları → TR: 651 · EN: 650 · DE: 513 · RU: 513 · AR: 513 · ES: 513 · FR: 513 · ZH: 513
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **509** içerik
-⚠️  Eksik çeviri: **142** içerik
+✅ Tüm dillerde mevcut: **513** içerik
+⚠️  Eksik çeviri: **138** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 142 eksik içerik
+## DE — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
@@ -302,18 +294,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 142 eksik içerik
+## RU — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
@@ -589,18 +573,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 142 eksik içerik
+## AR — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
@@ -876,18 +852,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 142 eksik içerik
+## ES — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
@@ -1163,18 +1131,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 142 eksik içerik
+## FR — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
@@ -1450,18 +1410,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 142 eksik içerik
+## ZH — 138 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `limited-company-articles-of-association-amendment-capital-increase-and-reduction-turkish-commercial-code` — Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması (TTK m. 589-592)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-incorporation-formation-moment-and-registration-turkish-commercial-code` — Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil (TTK m. 585-588)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-dissolution-withdrawal-and-expulsion-turkish-commercial-code` — Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma (TTK m. 636-640)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `limited-company-definition-partner-count-and-articles-of-association-turkish-commercial-code` — Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi (TTK m. 573-579)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-general-assembly-powers-meetings-voting-and-resolutions-turkish-commercial-code` — Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar (TTK m. 616-622)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-company-managers-management-representation-and-duties-turkish-commercial-code` — Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler (TTK m. 623-632)  
