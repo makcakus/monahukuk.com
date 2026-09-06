@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 577 · RU: 577 · AR: 577 · ES: 577 · FR: 577 · ZH: 577
+Makale sayıları → TR: 651 · EN: 650 · DE: 581 · RU: 581 · AR: 581 · ES: 581 · FR: 581 · ZH: 581
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **577** içerik
-⚠️  Eksik çeviri: **74** içerik
+✅ Tüm dillerde mevcut: **581** içerik
+⚠️  Eksik çeviri: **70** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 74 eksik içerik
+## DE — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
@@ -166,18 +158,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 74 eksik içerik
+## RU — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
@@ -317,18 +301,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 74 eksik içerik
+## AR — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
@@ -468,18 +444,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 74 eksik içerik
+## ES — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
@@ -619,18 +587,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 74 eksik içerik
+## FR — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
@@ -770,18 +730,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 74 eksik içerik
+## ZH — 70 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `negligent-injury-turkish-penal-code` — Taksirle Yaralama Suçu (TCK m. 89) ve Şikâyet Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `grounds-giving-parties-termination-right-turkish-commercial-code` — Taraflara Fesih Hakkı Veren Hâl: Kamu Tasarrufu ve Savaş Sebebiyle Fesih (TTK m. 1218)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cases-without-termination-right-turkish-commercial-code` — Tarafların Fesih Hakkına Sahip Olmadığı Hâller: Kısmi Engeller ve Kaptanın Rotadan Sapması (TTK m. 1219-1220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `end-of-liquidation-and-reversal-turkish-commercial-code` — Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi (TTK m. 545-548)  
