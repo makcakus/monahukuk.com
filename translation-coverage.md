@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 521 · RU: 521 · AR: 521 · ES: 521 · FR: 521 · ZH: 521
+Makale sayıları → TR: 651 · EN: 650 · DE: 525 · RU: 525 · AR: 525 · ES: 525 · FR: 525 · ZH: 525
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **521** içerik
-⚠️  Eksik çeviri: **130** içerik
+✅ Tüm dillerde mevcut: **525** içerik
+⚠️  Eksik çeviri: **126** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 130 eksik içerik
+## DE — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
@@ -278,18 +270,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 130 eksik içerik
+## RU — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
@@ -541,18 +525,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 130 eksik içerik
+## AR — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
@@ -804,18 +780,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 130 eksik içerik
+## ES — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
@@ -1067,18 +1035,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 130 eksik içerik
+## FR — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
@@ -1330,18 +1290,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 130 eksik içerik
+## ZH — 126 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-security-and-exercise-of-lien-turkish-commercial-code` — Müşterek Avaryada Teminat ve Hapis Hakkının Kullanılması (TTK m. 1276-1277)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-applicable-rules-turkish-commercial-code` — Müşterek Avaryada Uygulanacak Kurallar (TTK m. 1273)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
