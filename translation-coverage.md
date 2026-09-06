@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 553 · RU: 553 · AR: 553 · ES: 553 · FR: 553 · ZH: 553
+Makale sayıları → TR: 651 · EN: 650 · DE: 557 · RU: 557 · AR: 557 · ES: 557 · FR: 557 · ZH: 557
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **553** içerik
-⚠️  Eksik çeviri: **98** içerik
+✅ Tüm dillerde mevcut: **557** içerik
+⚠️  Eksik çeviri: **94** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 98 eksik içerik
+## DE — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
@@ -214,18 +206,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 98 eksik içerik
+## RU — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
@@ -413,18 +397,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 98 eksik içerik
+## AR — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
@@ -612,18 +588,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 98 eksik içerik
+## ES — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
@@ -811,18 +779,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 98 eksik içerik
+## FR — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
@@ -1010,18 +970,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 98 eksik içerik
+## ZH — 94 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `forgery-official-document-turkish-penal-code` — Resmi Belgede Sahtecilik Suçu (TCK m. 204): Aldatma Yeteneği  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bribery-turkish-penal-code` — Rüşvet Suçu (TCK m. 252): Rüşvet Anlaşması Nedir?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `blackmail-turkish-penal-code` — Şantaj Suçu (TCK m. 107) ve Tehditten Farkı  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `common-provisions-capital-increase-subscription-preemptive-rights-turkish-commercial-code` — Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı (TTK m. 456-461)  
