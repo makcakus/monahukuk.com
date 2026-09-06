@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 493 · RU: 493 · AR: 493 · ES: 493 · FR: 493 · ZH: 493
+Makale sayıları → TR: 651 · EN: 650 · DE: 497 · RU: 497 · AR: 497 · ES: 497 · FR: 497 · ZH: 497
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **493** içerik
-⚠️  Eksik çeviri: **158** içerik
+✅ Tüm dillerde mevcut: **497** içerik
+⚠️  Eksik çeviri: **154** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 158 eksik içerik
+## DE — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
@@ -334,18 +326,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 158 eksik içerik
+## RU — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
@@ -653,18 +637,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 158 eksik içerik
+## AR — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
@@ -972,18 +948,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 158 eksik içerik
+## ES — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
@@ -1291,18 +1259,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 158 eksik içerik
+## FR — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
@@ -1610,18 +1570,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 158 eksik içerik
+## ZH — 154 eksik içerik
 
-- `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `salvage-activity-definition-and-scope-turkish-commercial-code` — Kurtarma Faaliyetinin Tanımı ve Kapsamı (TTK m. 1298)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `salvage-contract-adaptation-annulment-and-mandatory-rules-turkish-commercial-code` — Kurtarma Sözleşmesinin Uyarlanması, İptali ve Emredici Hükümler (TTK m. 1301-1302)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-share-for-ships-crew-turkish-commercial-code` — Kurtarma Ücretinde Gemi Adamlarına Verilecek Pay (TTK m. 1310)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `salvage-award-consignee-liability-turkish-commercial-code` — Kurtarma Ücretinde Gönderilenin Sorumluluğu (TTK m. 1307)  
