@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 573 · RU: 573 · AR: 573 · ES: 573 · FR: 573 · ZH: 573
+Makale sayıları → TR: 651 · EN: 650 · DE: 577 · RU: 577 · AR: 577 · ES: 577 · FR: 577 · ZH: 577
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **573** içerik
-⚠️  Eksik çeviri: **78** içerik
+✅ Tüm dillerde mevcut: **577** içerik
+⚠️  Eksik çeviri: **74** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 78 eksik içerik
+## DE — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -174,18 +166,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 78 eksik içerik
+## RU — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -333,18 +317,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 78 eksik içerik
+## AR — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -492,18 +468,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 78 eksik içerik
+## ES — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -651,18 +619,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 78 eksik içerik
+## FR — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
@@ -810,18 +770,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 78 eksik içerik
+## ZH — 74 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `failure-to-report-crime-turkish-penal-code` — Suçu Bildirmeme Suçları (TCK m. 278-279-280)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `suspect-defendant-and-defense-counsel-turkish-criminal-procedure-code` — Şüpheli, Sanık ve Müdafi (CMK m. 149): Savunma Hakkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `merchant-status-and-its-legal-effects-turkish-commercial-code` — Tacir Sıfatı ve Tacir Olmanın Hükümleri (TTK m. 11-23)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negligent-homicide-turkish-penal-code` — Taksirle Öldürme Suçu (TCK m. 85) ve Bilinçli Taksir Ayrımı  
