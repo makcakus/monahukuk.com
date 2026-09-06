@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 549 · RU: 549 · AR: 549 · ES: 549 · FR: 549 · ZH: 549
+Makale sayıları → TR: 651 · EN: 650 · DE: 553 · RU: 553 · AR: 553 · ES: 553 · FR: 553 · ZH: 553
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **549** içerik
-⚠️  Eksik çeviri: **102** içerik
+✅ Tüm dillerde mevcut: **553** içerik
+⚠️  Eksik çeviri: **98** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 102 eksik içerik
+## DE — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
@@ -222,18 +214,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 102 eksik içerik
+## RU — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
@@ -429,18 +413,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 102 eksik içerik
+## AR — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
@@ -636,18 +612,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 102 eksik içerik
+## ES — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
@@ -843,18 +811,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 102 eksik içerik
+## FR — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
@@ -1050,18 +1010,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 102 eksik içerik
+## ZH — 98 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `bill-of-exchange-recourse-scope-redraft-turkish-commercial-code` — Poliçede Başvurma Hakkının Kapsamı, Retret ve Düşmesi (TTK m. 724-732)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-endorsement-turkish-commercial-code` — Poliçede Ciro (TTK m. 681-690)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-signatory-liability-turkish-commercial-code` — Poliçede İmza Edenlerin Sorumluluğu (TTK m. 677-680)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bill-of-exchange-protest-recourse-origin-turkish-commercial-code` — Poliçede Ödememe Protestosu ve Başvurma Hakkının Doğumu (TTK m. 713-723)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-maturity-payment-turkish-commercial-code` — Poliçede Vade ve Ödeme (TTK m. 703-712)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bill-of-exchange-acceptance-turkish-commercial-code` — Poliçenin Kabule Arzı ve Kabulü (TTK m. 691-699)  
