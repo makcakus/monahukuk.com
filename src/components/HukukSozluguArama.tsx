@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
 import { Search, Loader2 } from "lucide-react";
 
 type Terim = {
@@ -12,11 +13,25 @@ type Terim = {
   s: string; // CEFR seviyesi
 };
 
+// Veri dosyasindaki soz turu etiketleri Turkce yazilmis durumda; sayfa 8 dilde
+// yayinlandigi icin bunlari mesaj dosyalarindaki hukukSozlugu.pos anahtarlarina
+// eslestiriyoruz. Listede olmayan bir deger gelirse ham hali gosterilir.
+const SOZ_TURU_ANAHTARI: Record<string, string> = {
+  hukuk: "hukuk",
+  isim: "isim",
+  fiil: "fiil",
+  "sıfat": "sifat",
+  zarf: "zarf",
+  "kalıp": "kalip",
+  edat: "edat",
+};
+
 const VERI_URL = "/data/hukuk-sozlugu.json";
 const MIN_HARF = 2;
 const MAKS_SONUC = 40;
 
 export function HukukSozluguArama() {
+  const t = useTranslations("hukukSozlugu");
   const [terimler, setTerimler] = useState<Terim[] | null>(null);
   const [sorgu, setSorgu] = useState("");
   const [yukleniyor, setYukleniyor] = useState(true);
@@ -76,7 +91,7 @@ export function HukukSozluguArama() {
           type="text"
           value={sorgu}
           onChange={(e) => setSorgu(e.target.value)}
-          placeholder="İngilizce hukuk terimi ya da Türkçe karşılığını yazın…"
+          placeholder={t("searchPlaceholder")}
           autoComplete="off"
           spellCheck={false}
           className="w-full rounded-sm border border-cream-300 bg-white/80 py-4 ps-11 pe-4 text-base text-navy-950 placeholder:text-ink-soft/70 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-300/50 dark:border-navy-700 dark:bg-navy-900/60 dark:text-cream-50"
@@ -91,21 +106,23 @@ export function HukukSozluguArama() {
 
       {hata && (
         <p className="mt-4 text-sm text-red-600 dark:text-red-400">
-          Sözlük verisi şu anda yüklenemedi. Lütfen sayfayı yenileyin.
+          {t("loadError")}
         </p>
       )}
 
       {!hata && q.length > 0 && q.length < MIN_HARF && (
         <p className="mt-4 text-sm text-ink-soft">
-          Önizleme için en az {MIN_HARF} harf yazın.
+          {t("minChars", { min: MIN_HARF })}
         </p>
       )}
 
       {!hata && q.length >= MIN_HARF && !yukleniyor && (
         <p className="mt-4 text-sm text-ink-soft">
           {sonuclar.length > 0
-            ? `${sonuclar.length}${sonuclar.length === MAKS_SONUC ? "+" : ""} sonuç`
-            : "Eşleşen terim bulunamadı."}
+            ? t("results", {
+                count: `${sonuclar.length}${sonuclar.length === MAKS_SONUC ? "+" : ""}`,
+              })
+            : t("noResults")}
         </p>
       )}
 
@@ -119,7 +136,9 @@ export function HukukSozluguArama() {
                 </span>
                 {terim.u && (
                   <span className="text-xs uppercase tracking-[0.14em] text-gold-700 dark:text-gold-400">
-                    {terim.u}
+                    {SOZ_TURU_ANAHTARI[terim.u]
+                      ? t(`pos.${SOZ_TURU_ANAHTARI[terim.u]}`)
+                      : terim.u}
                   </span>
                 )}
                 {terim.s && (

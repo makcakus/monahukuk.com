@@ -296,5 +296,24 @@
   "theme": {
     "switchToLight": "Passer au mode clair",
     "switchToDark": "Passer au mode sombre"
+  },
+  "hukukSozlugu": {
+    "lead": "Recherchez parmi plus de 13 000 termes juridiques anglais avec leur équivalent turc et une brève définition. Les termes les plus fréquents en droit des contrats, en procédure, en droit pénal, en droit des sociétés et en droit des biens.",
+    "searchPlaceholder": "Saisissez un terme juridique anglais ou son équivalent turc…",
+    "loadError": "Les données du dictionnaire n'ont pas pu être chargées pour le moment. Veuillez actualiser la page.",
+    "minChars": "Saisissez au moins {min} lettres.",
+    "results": "{count} résultats",
+    "noResults": "Aucun terme correspondant.",
+    "intro": "Ce dictionnaire est issu du module « Anglais juridique » de <b>Remindionary</b>, l'application de dictionnaire et d'apprentissage du vocabulaire anglais-turc développée par l'équipe MONA HUKUK. L'application réunit un dictionnaire général, des parcours d'apprentissage par niveau CECR, des quiz à répétition espacée et ce module de termes juridiques.",
+    "disclaimer": "Les termes présentés ici ont une finalité d'information générale et d'apprentissage linguistique ; ils ne constituent pas un conseil juridique. Pour une question juridique précise, consultez un avocat qualifié.",
+    "pos": {
+      "hukuk": "droit",
+      "isim": "nom",
+      "fiil": "verbe",
+      "sifat": "adjectif",
+      "zarf": "adverbe",
+      "kalip": "locution",
+      "edat": "préposition"
+    }
   }
 }

@@ -296,5 +296,24 @@
   "theme": {
     "switchToLight": "Switch to light mode",
     "switchToDark": "Switch to dark mode"
+  },
+  "hukukSozlugu": {
+    "lead": "Search more than 13,000 English legal terms with their Turkish equivalents and a short definition. The terms that come up most often in contract, procedure, criminal, corporate and property law.",
+    "searchPlaceholder": "Type an English legal term or its Turkish equivalent…",
+    "loadError": "The dictionary data could not be loaded right now. Please refresh the page.",
+    "minChars": "Type at least {min} letters to see results.",
+    "results": "{count} results",
+    "noResults": "No matching term found.",
+    "intro": "This dictionary comes from the Legal English pack of <b>Remindionary</b>, the English–Turkish dictionary and vocabulary app built by the MONA HUKUK team. The app combines a general dictionary, learning paths by CEFR level, quizzes powered by spaced repetition and this pack of legal terms.",
+    "disclaimer": "The entries here are provided for general information and language learning; they are not legal advice. For a specific legal matter, please consult a qualified lawyer.",
+    "pos": {
+      "hukuk": "legal",
+      "isim": "noun",
+      "fiil": "verb",
+      "sifat": "adjective",
+      "zarf": "adverb",
+      "kalip": "phrase",
+      "edat": "preposition"
+    }
   }
 }
