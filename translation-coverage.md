@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 613 · RU: 613 · AR: 613 · ES: 613 · FR: 613 · ZH: 613
+Makale sayıları → TR: 651 · EN: 650 · DE: 617 · RU: 617 · AR: 617 · ES: 617 · FR: 617 · ZH: 617
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **613** içerik
-⚠️  Eksik çeviri: **38** içerik
+✅ Tüm dillerde mevcut: **617** içerik
+⚠️  Eksik çeviri: **34** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 38 eksik içerik
+## DE — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
@@ -94,18 +86,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 38 eksik içerik
+## RU — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
@@ -173,18 +157,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 38 eksik içerik
+## AR — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
@@ -252,18 +228,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 38 eksik içerik
+## ES — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
@@ -331,18 +299,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 38 eksik içerik
+## FR — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
@@ -410,18 +370,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 38 eksik içerik
+## ZH — 34 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-warehouses-warehouse-receipt-and-warrant-turkish-commercial-code` — Umumi Mağazalar, Makbuz Senedi ve Varant (TTK m. 832-840)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-uniform-use-resisting-official-duty-turkish-penal-code` — Özel İşaret ve Kıyafeti Usulsüz Kullanma (TCK m. 264)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `unlawful-disposition-usurpation-of-office-turkish-penal-code` — Kişilerin Malları Üzerinde Usulsüz Tasarruf (TCK m. 261)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `narcotics-offences-turkish-penal-code` — Uyuşturucu Madde Ticareti Suçu (TCK m. 188): Kullanma Ayrımı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `reconciliation-turkish-criminal-procedure-code` — Uzlaştırma (CMK m. 253): Kapsam, Süreç ve Sonuçları  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `crimes-against-foreign-states-turkish-penal-code` — Yabancı Devletlere Karşı Suçlar (TCK m. 340-341-342-343)  
