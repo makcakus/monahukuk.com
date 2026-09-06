@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 473 · RU: 473 · AR: 473 · ES: 473 · FR: 473 · ZH: 473
+Makale sayıları → TR: 651 · EN: 650 · DE: 477 · RU: 477 · AR: 477 · ES: 477 · FR: 477 · ZH: 477
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **473** içerik
-⚠️  Eksik çeviri: **178** içerik
+✅ Tüm dillerde mevcut: **477** içerik
+⚠️  Eksik çeviri: **174** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 178 eksik içerik
+## DE — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
@@ -374,16 +366,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 178 eksik içerik
+## RU — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
@@ -733,16 +717,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 178 eksik içerik
+## AR — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
@@ -1092,16 +1068,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 178 eksik içerik
+## ES — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
@@ -1451,16 +1419,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 178 eksik içerik
+## FR — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
@@ -1810,16 +1770,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 178 eksik içerik
+## ZH — 174 eksik içerik
 
-- `lost-property-unpaid-utility-use-turkish-penal-code` — Bulunan Eşya Üzerinde Tasarruf Suçu (TCK m. 160)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `berth-contract-loading-and-document-handover-turkish-commercial-code` — Kırkambar Sözleşmesinde Yükleme ve Belge Verme Yükümlülüğü (TTK m. 1163-1165)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `disturbing-peace-of-persons-turkish-penal-code` — Huzur ve Sükununu Bozma Suçu (TCK m. 123): Israr Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `personal-data-offences-turkish-penal-code` — Kişisel Verileri Kaydetme ve Ele Geçirme Suçu (TCK m. 135)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `unlawful-detention-turkish-penal-code` — Kişiyi Hürriyetinden Yoksun Kılma (TCK m. 109): Süren Suç  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `negotiable-instruments-general-provisions-turkish-commercial-code` — Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir (TTK m. 645-653)  
