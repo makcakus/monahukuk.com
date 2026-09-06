@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 453 · RU: 453 · AR: 453 · ES: 453 · FR: 453 · ZH: 453
+Makale sayıları → TR: 651 · EN: 650 · DE: 457 · RU: 457 · AR: 457 · ES: 457 · FR: 457 · ZH: 457
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **453** içerik
-⚠️  Eksik çeviri: **198** içerik
+✅ Tüm dillerde mevcut: **457** içerik
+⚠️  Eksik çeviri: **194** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 198 eksik içerik
+## DE — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
@@ -414,16 +406,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 198 eksik içerik
+## RU — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
@@ -813,16 +797,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 198 eksik içerik
+## AR — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
@@ -1212,16 +1188,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 198 eksik içerik
+## ES — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
@@ -1611,16 +1579,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 198 eksik içerik
+## FR — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
@@ -2010,16 +1970,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 198 eksik içerik
+## ZH — 194 eksik içerik
 
-- `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `torture-turkish-penal-code` — İşkence Suçu (TCK m. 94): Zamanaşımı İşlemez mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `witness-expert-evidence-turkish-criminal-procedure-code` — İspat Araçları: Tanık, Bilirkişi, Keşif ve Otopsi (CMK m.43)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
