@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 569 · RU: 569 · AR: 569 · ES: 569 · FR: 569 · ZH: 569
+Makale sayıları → TR: 651 · EN: 650 · DE: 573 · RU: 573 · AR: 573 · ES: 573 · FR: 573 · ZH: 573
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **569** içerik
-⚠️  Eksik çeviri: **82** içerik
+✅ Tüm dillerde mevcut: **573** içerik
+⚠️  Eksik çeviri: **78** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 82 eksik içerik
+## DE — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
@@ -182,18 +174,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 82 eksik içerik
+## RU — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
@@ -349,18 +333,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 82 eksik içerik
+## AR — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
@@ -516,18 +492,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 82 eksik içerik
+## ES — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
@@ -683,18 +651,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 82 eksik içerik
+## FR — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
@@ -850,18 +810,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 82 eksik içerik
+## ZH — 78 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `investigation-phase-turkish-criminal-procedure-code` — Soruşturma Evresi (CMK m. 160): Gizlilik ve İhbar  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `genocide-crime-turkish-penal-code` — Soykırım Suçu (TCK m. 76): Zamanaşımına Tabi mi?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `extra-contractual-claims-against-carrier-turkish-commercial-code` — Taşıyan Aleyhine Sözleşme Dışı İstemler (TTK m. 1190)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `handling-stolen-goods-common-provisions-turkish-penal-code` — Suç Eşyasını Satın Alma (TCK m. 165) ve Etkin Pişmanlık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `criminal-organization-turkish-penal-code` — Örgüt Kurma Suçu: Hiyerarşi ve Süreklilik (TCK m. 220)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-confession-fabrication-of-crime-turkish-penal-code` — Suç Üstlenme ve Suç Uydurma (TCK m. 270-271)  
