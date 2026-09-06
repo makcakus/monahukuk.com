@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 461 · RU: 461 · AR: 461 · ES: 461 · FR: 461 · ZH: 461
+Makale sayıları → TR: 651 · EN: 650 · DE: 465 · RU: 465 · AR: 465 · ES: 465 · FR: 465 · ZH: 465
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **461** içerik
-⚠️  Eksik çeviri: **190** içerik
+✅ Tüm dillerde mevcut: **465** içerik
+⚠️  Eksik çeviri: **186** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 190 eksik içerik
+## DE — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
@@ -398,16 +390,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 190 eksik içerik
+## RU — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
@@ -781,16 +765,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 190 eksik içerik
+## AR — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
@@ -1164,16 +1140,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 190 eksik içerik
+## ES — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
@@ -1547,16 +1515,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 190 eksik içerik
+## FR — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
@@ -1930,16 +1890,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 190 eksik içerik
+## ZH — 186 eksik içerik
 
-- `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-fear-incitement-praise-crime-turkish-penal-code` — Halkta Korku Yaratmak Amacıyla Tehdit (TCK m. 213)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `public-prosecution-indictment-turkish-criminal-procedure-code` — Kamu Davasının Açılması ve İddianame (CMK m. 170)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
