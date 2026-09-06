@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 489 · RU: 489 · AR: 489 · ES: 489 · FR: 489 · ZH: 489
+Makale sayıları → TR: 651 · EN: 650 · DE: 493 · RU: 493 · AR: 493 · ES: 493 · FR: 493 · ZH: 493
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **489** içerik
-⚠️  Eksik çeviri: **162** içerik
+✅ Tüm dillerde mevcut: **493** içerik
+⚠️  Eksik çeviri: **158** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 162 eksik içerik
+## DE — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
@@ -342,16 +334,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 162 eksik içerik
+## RU — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
@@ -669,16 +653,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 162 eksik içerik
+## AR — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
@@ -996,16 +972,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 162 eksik içerik
+## ES — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
@@ -1323,16 +1291,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 162 eksik içerik
+## FR — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
@@ -1650,16 +1610,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 162 eksik içerik
+## ZH — 158 eksik içerik
 
-- `bill-of-lading-representation-of-goods-general-turkish-commercial-code` — Konişmentonun Eşyayı Temsili: Genel Olarak (TTK m. 1234)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `content-of-bill-of-lading-turkish-commercial-code` — Konişmentonun İçeriği (TTK m. 1229)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `definition-types-and-issuance-of-bill-of-lading-turkish-commercial-code` — Konişmentonun Tanımı, Türleri ve Düzenlenmesi (TTK m. 1228)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `violation-of-domicile-turkish-penal-code` — Eve Girip Çıkmamak: Konut Dokunulmazlığı (TCK m. 116)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `compensation-for-protective-measures-turkish-criminal-procedure-code` — Koruma Tedbirleri Nedeniyle Tazminat (CMK m. 141)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `domestic-mistreatment-child-abduction-turkish-penal-code` — Kötü Muamele ve Çocuğun Kaçırılması (TCK m. 232)  
