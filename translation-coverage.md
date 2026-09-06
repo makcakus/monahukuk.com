@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 441 · RU: 441 · AR: 441 · ES: 441 · FR: 441 · ZH: 441
+Makale sayıları → TR: 651 · EN: 650 · DE: 445 · RU: 445 · AR: 445 · ES: 445 · FR: 445 · ZH: 445
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **441** içerik
-⚠️  Eksik çeviri: **210** içerik
+✅ Tüm dillerde mevcut: **445** içerik
+⚠️  Eksik çeviri: **206** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 210 eksik içerik
+## DE — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
@@ -438,16 +430,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 210 eksik içerik
+## RU — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
@@ -861,16 +845,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 210 eksik içerik
+## AR — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
@@ -1284,16 +1260,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 210 eksik içerik
+## ES — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
@@ -1707,16 +1675,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 210 eksik içerik
+## FR — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
@@ -2130,16 +2090,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 210 eksik içerik
+## ZH — 206 eksik içerik
 
-- `judgment-and-its-types-turkish-criminal-procedure-code` — Hüküm ve Çeşitleri: Beraat, Mahkûmiyet, HAGB (CMK m. 223)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `obstruction-of-freedoms-turkish-penal-code` — Eğitimin ve Öğretimin Engellenmesi Suçu (TCK m. 112)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `internal-resources-conditional-capital-increase-turkish-commercial-code` — İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı (TTK m. 462-472)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `fraudulent-negligent-bankruptcy-turkish-penal-code` — Hileli ve Taksirli İflas Suçu (TCK m. 161): Alacaklı Hakları  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `false-accusation-turkish-penal-code` — İftira ve Kimlik Bilgisi Kullanımı (TCK m. 267-268-269)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bid-rigging-turkish-penal-code` — İhaleye Fesat Karıştırma Suçu (TCK m. 235): Seçimlik Hareket  
