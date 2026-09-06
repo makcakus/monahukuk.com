@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 621 · RU: 621 · AR: 621 · ES: 621 · FR: 621 · ZH: 621
+Makale sayıları → TR: 651 · EN: 650 · DE: 625 · RU: 625 · AR: 625 · ES: 625 · FR: 625 · ZH: 625
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **621** içerik
-⚠️  Eksik çeviri: **30** içerik
+✅ Tüm dillerde mevcut: **625** içerik
+⚠️  Eksik çeviri: **26** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 30 eksik içerik
+## DE — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
@@ -78,18 +70,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 30 eksik içerik
+## RU — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
@@ -141,18 +125,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 30 eksik içerik
+## AR — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
@@ -204,18 +180,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 30 eksik içerik
+## ES — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
@@ -267,18 +235,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 30 eksik içerik
+## FR — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
@@ -330,18 +290,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 30 eksik içerik
+## ZH — 26 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `perjury-false-oath-turkish-penal-code` — Yalan Tanıklık ve Yalan Yere Yemin Suçu (TCK m. 272-275)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-mortgage-turkish-commercial-code` — Yapı Hâlindeki Gemiler Üzerinde İpotek (TTK m. 1054-1058)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `ship-under-construction-registry-turkish-commercial-code` — Yapı Hâlindeki Gemilere Özgü Sicil (TTK m. 986-992)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `retrial-extraordinary-legal-remedy-turkish-criminal-procedure-code` — Yargılamanın Yenilenmesi (CMK m. 311): Olağanüstü Kanun Yolu  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
