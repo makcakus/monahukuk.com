@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 625 · RU: 625 · AR: 625 · ES: 625 · FR: 625 · ZH: 625
+Makale sayıları → TR: 651 · EN: 650 · DE: 629 · RU: 629 · AR: 629 · ES: 629 · FR: 629 · ZH: 629
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **625** içerik
-⚠️  Eksik çeviri: **26** içerik
+✅ Tüm dillerde mevcut: **629** içerik
+⚠️  Eksik çeviri: **22** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 26 eksik içerik
+## DE — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
@@ -70,18 +62,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 26 eksik içerik
+## RU — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
@@ -125,18 +109,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 26 eksik içerik
+## AR — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
@@ -180,18 +156,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 26 eksik içerik
+## ES — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
@@ -235,18 +203,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 26 eksik içerik
+## FR — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
@@ -290,18 +250,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 26 eksik içerik
+## ZH — 22 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `legal-reserves-and-special-provisions-turkish-commercial-code` — Yedek Akçeler ve Çeşitli/Özel Hükümler (TTK m. 519-528)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-carriage-contract-parties-and-baggage-turkish-commercial-code` — Yolcu Taşıma Sözleşmesinde Taraflar ve Bagaj Kavramı (TTK m. 1248-1250)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-baggage-carrier-liability-and-death-of-passenger-turkish-commercial-code` — Yolcu Taşımada Bagaj, Taşıyıcının Sorumluluğu ve Yolcunun Ölümü (TTK m. 912-916)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `passenger-transport-missed-and-delayed-departures-turkish-commercial-code` — Yolcu Taşımada Seferin Yapılamaması ve Gecikmesi (TTK m. 906-911)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `passenger-carriage-mandatory-provisions-turkish-commercial-code` — Yolcu Taşımasında Emredici Hükümler (TTK m. 1271)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `carriage-period-and-mandatory-insurance-turkish-commercial-code` — Yolcu Taşımasında Taşıma Süresi ve Zorunlu Sigorta (TTK m. 1258-1259)  
