@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 481 · RU: 481 · AR: 481 · ES: 481 · FR: 481 · ZH: 481
+Makale sayıları → TR: 651 · EN: 650 · DE: 485 · RU: 485 · AR: 485 · ES: 485 · FR: 485 · ZH: 485
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **481** içerik
-⚠️  Eksik çeviri: **170** içerik
+✅ Tüm dillerde mevcut: **485** içerik
+⚠️  Eksik çeviri: **166** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 170 eksik içerik
+## DE — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
@@ -358,16 +350,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 170 eksik içerik
+## RU — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
@@ -701,16 +685,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 170 eksik içerik
+## AR — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
@@ -1044,16 +1020,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 170 eksik içerik
+## ES — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
@@ -1387,16 +1355,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 170 eksik içerik
+## FR — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
@@ -1730,16 +1690,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 170 eksik içerik
+## ZH — 166 eksik içerik
 
-- `general-partnership-third-party-relations-turkish-commercial-code` — Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri (TTK m. 232-242)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-internal-relations-turkish-commercial-code` — Kollektif Şirkette Ortaklar Arasındaki İlişkiler (TTK m. 217-231)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-general-turkish-commercial-code` — Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları (TTK m. 267-285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-partnership-liquidation-proceedings-turkish-commercial-code` — Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu (TTK m. 286-303)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-nature-formation-internal-relations-turkish-commercial-code` — Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler (TTK m. 304-316)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `limited-partnership-third-party-relations-dissolution-turkish-commercial-code` — Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi (TTK m. 317-328)  
