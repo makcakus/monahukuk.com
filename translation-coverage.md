@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 525 · RU: 525 · AR: 525 · ES: 525 · FR: 525 · ZH: 525
+Makale sayıları → TR: 651 · EN: 650 · DE: 529 · RU: 529 · AR: 529 · ES: 529 · FR: 529 · ZH: 529
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **525** içerik
-⚠️  Eksik çeviri: **126** içerik
+✅ Tüm dillerde mevcut: **529** içerik
+⚠️  Eksik çeviri: **122** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 126 eksik içerik
+## DE — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
@@ -270,18 +262,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 126 eksik içerik
+## RU — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
@@ -525,18 +509,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 126 eksik içerik
+## AR — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
@@ -780,18 +756,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 126 eksik içerik
+## ES — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
@@ -1035,18 +1003,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 126 eksik içerik
+## FR — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
@@ -1290,18 +1250,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 126 eksik içerik
+## ZH — 122 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `general-average-prescription-period-turkish-commercial-code` — Müşterek Avaryada Zamanaşımı ve Birinci Bölümün Tamamlanması (TTK m. 1285)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `general-average-definition-turkish-commercial-code` — Müşterek Avaryanın Tanımı (TTK m. 1272)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-shares-transfer-and-restriction-turkish-commercial-code` — Nama Yazılı Payların Devri ve Devrin Sınırlandırılması (TTK m. 491-501)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `registered-instruments-turkish-commercial-code` — Nama Yazılı Senetler (TTK m. 654-657)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-expenses-maturity-and-cargo-in-lieu-of-freight-turkish-commercial-code` — Navlun Dışında Kalan Giderler, Muacceliyet ve Eşyanın Navlun Yerine Bırakılması (TTK m. 1196-1198)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `freight-amount-determination-turkish-commercial-code` — Navlun Miktarının Belirlenmesi (TTK m. 1193-1195)  
