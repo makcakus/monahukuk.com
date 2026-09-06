@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 465 · RU: 465 · AR: 465 · ES: 465 · FR: 465 · ZH: 465
+Makale sayıları → TR: 651 · EN: 650 · DE: 469 · RU: 469 · AR: 469 · ES: 469 · FR: 469 · ZH: 469
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **465** içerik
-⚠️  Eksik çeviri: **186** içerik
+✅ Tüm dillerde mevcut: **469** içerik
+⚠️  Eksik çeviri: **182** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 186 eksik içerik
+## DE — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
@@ -390,16 +382,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 186 eksik içerik
+## RU — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
@@ -765,16 +749,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 186 eksik içerik
+## AR — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
@@ -1140,16 +1116,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 186 eksik içerik
+## ES — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
@@ -1515,16 +1483,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 186 eksik içerik
+## FR — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
@@ -1890,16 +1850,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 186 eksik içerik
+## ZH — 182 eksik içerik
 
-- `captains-statutory-agency-authority-and-credit-transactions-turkish-commercial-code` — Kaptanın Donatanı Temsil Yetkisi ve Kredi İşlemleri (TTK m. 1103-1110)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-cargo-disposal-binding-the-shipowner-turkish-commercial-code` — Kaptanın Eşya Üzerinde Tasarrufunun Donatanı Bağlaması (TTK m. 1117-1118)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duties-regarding-seaworthiness-and-departure-turkish-commercial-code` — Kaptanın Geminin Elverişliliğine İlişkin Görevleri ve Yola Çıkması (TTK m. 1090-1095)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `captains-duty-of-care-and-liability-turkish-commercial-code` — Kaptanın Özen Yükümlülüğü ve Sorumluluğu (TTK m. 1088-1089)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `captains-cargo-duties-and-disposal-power-turkish-commercial-code` — Kaptanın Yüke İlişkin Yükümlülükleri ve Tasarruf Yetkisi (TTK m. 1111-1116)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `profit-shares-acquisition-of-own-shares-duty-of-loyalty-and-right-to-information-turkish-commercial-code` — Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı (TTK m. 608-615)  
