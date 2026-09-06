@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 533 · RU: 533 · AR: 533 · ES: 533 · FR: 533 · ZH: 533
+Makale sayıları → TR: 651 · EN: 650 · DE: 537 · RU: 537 · AR: 537 · ES: 537 · FR: 537 · ZH: 537
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **533** içerik
-⚠️  Eksik çeviri: **118** içerik
+✅ Tüm dillerde mevcut: **537** içerik
+⚠️  Eksik çeviri: **114** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 118 eksik içerik
+## DE — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
@@ -254,18 +246,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 118 eksik içerik
+## RU — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
@@ -493,18 +477,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 118 eksik içerik
+## AR — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
@@ -732,18 +708,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 118 eksik içerik
+## ES — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
@@ -971,18 +939,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 118 eksik içerik
+## FR — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
@@ -1210,18 +1170,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 118 eksik içerik
+## ZH — 114 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `incitement-hatred-hostility-turkish-penal-code` — Halkı Kin ve Düşmanlığa Tahrik (TCK m. 216): Somut Tehlike  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `hate-discrimination-turkish-penal-code` — Nefret ve Ayırımcılık Suçu (TCK m. 122): Saik İspatı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `aggravated-injury-by-result-turkish-penal-code` — Kasten Yaralamanın Ağır Neticeleri (TCK m. 87)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `influence-peddling-excessive-use-of-force-turkish-penal-code` — Nüfuz Ticareti Suçu (TCK m. 255): Sınırın Aşılması  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `organ-tissue-trafficking-turkish-penal-code` — Organ ve Doku Ticareti Suçu (TCK m. 91) ve Etkin Pişmanlık  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `forgery-private-document-turkish-penal-code` — Özel Belgede Sahtecilik Suçu (TCK m. 207) ve Açığa İmza  
