@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 593 · RU: 593 · AR: 593 · ES: 593 · FR: 593 · ZH: 593
+Makale sayıları → TR: 651 · EN: 650 · DE: 597 · RU: 597 · AR: 597 · ES: 597 · FR: 597 · ZH: 597
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **593** içerik
-⚠️  Eksik çeviri: **58** içerik
+✅ Tüm dillerde mevcut: **597** içerik
+⚠️  Eksik çeviri: **54** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 58 eksik içerik
+## DE — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
@@ -134,18 +126,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 58 eksik içerik
+## RU — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
@@ -253,18 +237,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 58 eksik içerik
+## AR — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
@@ -372,18 +348,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 58 eksik içerik
+## ES — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
@@ -491,18 +459,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 58 eksik içerik
+## FR — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
@@ -610,18 +570,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 58 eksik içerik
+## ZH — 54 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `poisoning-hazardous-food-drug-offences-turkish-penal-code` — Su, Gıda ve İlaca Zehirli Madde Katma Suçu (TCK m. 185)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-to-court-of-cassation-turkish-criminal-procedure-code` — Temyiz Kanun Yolu (CMK m. 286): Sınırı ve Hukuka Aykırılık  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `abandonment-failure-to-assist-turkish-penal-code` — Terk Suçu (TCK m. 97): Koruma Yükümlüsünün Sorumluluğu  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `commercial-registry-turkish-commercial-code` — Ticaret Sicili (TTK m. 24-38)  
