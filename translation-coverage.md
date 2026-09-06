@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 517 · RU: 517 · AR: 517 · ES: 517 · FR: 517 · ZH: 517
+Makale sayıları → TR: 651 · EN: 650 · DE: 521 · RU: 521 · AR: 521 · ES: 521 · FR: 521 · ZH: 521
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **517** içerik
-⚠️  Eksik çeviri: **134** içerik
+✅ Tüm dillerde mevcut: **521** içerik
+⚠️  Eksik çeviri: **130** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 134 eksik içerik
+## DE — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
@@ -286,18 +278,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 134 eksik içerik
+## RU — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
@@ -557,18 +541,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 134 eksik içerik
+## AR — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
@@ -828,18 +804,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 134 eksik içerik
+## ES — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
@@ -1099,18 +1067,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 134 eksik içerik
+## FR — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
@@ -1370,18 +1330,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 134 eksik içerik
+## ZH — 130 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `victim-and-intervening-party-turkish-criminal-procedure-code` — Mağdur, Şikâyetçi, Katılan ve Vekili (CMK m. 233)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `property-damage-turkish-penal-code` — Mala Zarar Verme Suçu (TCK m. 151): Şikâyete Bağlı mı?  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `national-defense-crimes-turkish-penal-code` — Milli Savunmaya Karşı Suçlar (TCK m. 317-325)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `custody-prison-offences-turkish-penal-code` — İnfazda Suçlar: TCK m.289-298 (Kaçma, Ayaklanma, Yasak Eşya)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `seal-forgery-breaking-turkish-penal-code` — Mühürde Sahtecilik ve Mühür Bozma Suçu (TCK m. 202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `general-average-garame-share-debtors-turkish-commercial-code` — Müşterek Avarya Garame Paylarının Borçluları (TTK m. 1274-1275)  
