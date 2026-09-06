@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 449 · RU: 449 · AR: 449 · ES: 449 · FR: 449 · ZH: 449
+Makale sayıları → TR: 651 · EN: 650 · DE: 453 · RU: 453 · AR: 453 · ES: 453 · FR: 453 · ZH: 453
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **449** içerik
-⚠️  Eksik çeviri: **202** içerik
+✅ Tüm dillerde mevcut: **453** içerik
+⚠️  Eksik çeviri: **198** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 202 eksik içerik
+## DE — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
@@ -422,16 +414,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 202 eksik içerik
+## RU — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
@@ -829,16 +813,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 202 eksik içerik
+## AR — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
@@ -1236,16 +1212,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 202 eksik içerik
+## ES — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
@@ -1643,16 +1611,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 202 eksik içerik
+## FR — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
@@ -2050,16 +2010,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 202 eksik içerik
+## ZH — 198 eksik içerik
 
-- `human-experimentation-turkish-penal-code` — İnsan Üzerinde Deney Suçu (TCK m. 90) ve Rıza Şartı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `crimes-against-humanity-turkish-penal-code` — İnsanlığa Karşı Suçlar (TCK m. 77): Soykırımdan Farkı  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `profit-sharing-certificates-and-debt-instruments-turkish-commercial-code` — İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler (TTK m. 502-506)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `incitement-to-suicide-turkish-penal-code` — İntihara Yönlendirme Suçu (TCK m. 84) ve Dolaylı Faillik  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `extortion-by-public-official-turkish-penal-code` — İrtikap Suçu (TCK m. 250): Denetim Görevi İhmali  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `labour-union-freedom-offences-turkish-penal-code` — Zorla Çalıştırma ve İş Hürriyetinin İhlali (TCK m. 117)  
