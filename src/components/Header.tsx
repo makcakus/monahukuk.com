@@ -28,6 +28,7 @@ const NAV_ITEMS: readonly NavItem[] = [
   { type: "link", href: "/practice-areas", key: "practiceAreas" },
   { type: "link", href: "/articles", key: "articles" },
   { type: "link", href: "/legal-news", key: "legalNews" },
+  { type: "link", href: "/remindionary-hukuk-sozlugu", key: "hukukSozlugu" },
   { type: "link", href: "/contact", key: "contact" },
   // Gizlilik Politikası üst menüden kaldırıldı; footer'da tutuluyor.
 ] as const;
