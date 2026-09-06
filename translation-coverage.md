@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 589 · RU: 589 · AR: 589 · ES: 589 · FR: 589 · ZH: 589
+Makale sayıları → TR: 651 · EN: 650 · DE: 593 · RU: 593 · AR: 593 · ES: 593 · FR: 593 · ZH: 593
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **589** içerik
-⚠️  Eksik çeviri: **62** içerik
+✅ Tüm dillerde mevcut: **593** içerik
+⚠️  Eksik çeviri: **58** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,18 +15,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 62 eksik içerik
+## DE — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
@@ -142,18 +134,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 62 eksik içerik
+## RU — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
@@ -269,18 +253,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 62 eksik içerik
+## AR — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
@@ -396,18 +372,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 62 eksik içerik
+## ES — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
@@ -523,18 +491,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 62 eksik içerik
+## FR — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
@@ -650,18 +610,10 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 62 eksik içerik
+## ZH — 58 eksik içerik
 
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
-- `carriers-lien-and-deceased-passengers-baggage-turkish-commercial-code` — Taşıyanın Hapis Hakkı ve Ölen Yolcunun Bagajı (TTK m. 1254-1255)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-fault-presumptions-and-concurrent-causes-turkish-commercial-code` — Taşıyanın Kusursuzluk Karineleri ve Sebeplerin Birleşmesi (TTK m. 1182-1183)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-limitation-of-liability-rights-turkish-commercial-code` — Taşıyanın Sorumluluğunu Sınırlandırma Hakları (TTK m. 1186)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `carrier-liability-general-principles-and-exoneration-grounds-turkish-commercial-code` — Taşıyanın Sorumluluğunun Genel Esasları ve Kurtulma Hâlleri (TTK m. 1178-1181)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `preclusive-period-for-cargo-compensation-claims-turkish-commercial-code` — Tazminat İsteminde Hak Düşürücü Süre (TTK m. 1188)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `threat-turkish-penal-code` — Tehdit Suçu (TCK m. 106): Ciddiyet ve Elverişlilik Ölçütü  
