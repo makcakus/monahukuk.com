@@ -1,12 +1,12 @@
 # Çeviri Kapsam Raporu
 
-Makale sayıları → TR: 651 · EN: 650 · DE: 457 · RU: 457 · AR: 457 · ES: 457 · FR: 457 · ZH: 457
+Makale sayıları → TR: 651 · EN: 650 · DE: 461 · RU: 461 · AR: 461 · ES: 461 · FR: 461 · ZH: 461
 Benzersiz çeviri key'i: **651**
 
 Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 
-✅ Tüm dillerde mevcut: **457** içerik
-⚠️  Eksik çeviri: **194** içerik
+✅ Tüm dillerde mevcut: **461** içerik
+⚠️  Eksik çeviri: **190** içerik
 
 ## TR — eksik yok ✅
 
@@ -15,16 +15,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `salvage-claim-interest-and-payment-time-turkish-commercial-code` — Kurtarma Alacağında Faiz ve Ödeme Zamanı (TTK m. 1313-1314)  
   _kaynak:_ tr · _mevcut diller:_ tr
 
-## DE — 194 eksik içerik
+## DE — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
@@ -406,16 +398,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## RU — 194 eksik içerik
+## RU — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
@@ -797,16 +781,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## AR — 194 eksik içerik
+## AR — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
@@ -1188,16 +1164,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ES — 194 eksik içerik
+## ES — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
@@ -1579,16 +1547,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## FR — 194 eksik içerik
+## FR — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
@@ -1970,16 +1930,8 @@ Eşleştirme yöntemi: frontmatter.translationKey > frontmatter.slug.
 - `loss-of-cargo-freight-status-and-carrier-lien-turkish-commercial-code` — Zıyaa Uğrayan Eşyanın Navlun Durumu ve Taşıyanın Hapis Hakkı (TTK m. 1199-1202)  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 
-## ZH — 194 eksik içerik
+## ZH — 190 eksik içerik
 
-- `stalking-turkish-penal-code` — Israrlı Takip Suçu (TCK m. 123a) Nedir? Şikâyet Süresi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `cumulative-application-of-liability-limits-turkish-commercial-code` — İstemlerin Birleşmesi (TTK m. 1266)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `exclusive-basis-of-claims-turkish-commercial-code` — İstemlerin Dayanağı (TTK m. 1268)  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
-- `appeal-turkish-criminal-procedure-code` — İstinaf (CMK m. 272): Bölge Adliye Mahkemesi İncelemesi  
-  _kaynak:_ tr · _mevcut diller:_ tr, en
 - `objection-turkish-criminal-procedure-code` — İtiraz Kanun Yolu (CMK m. 267): Hâkim Kararlarının Denetimi  
   _kaynak:_ tr · _mevcut diller:_ tr, en
 - `bills-of-exchange-capacity-and-form-turkish-commercial-code` — Kambiyo Senetlerine Borçlanma Ehliyeti ve Poliçenin Şekil Unsurları (TTK m. 670-676)  
