@@ -11,6 +11,11 @@ import {
   getIsHukukuGroup,
   isIsHukukuMevzuatArticle,
 } from "@/lib/is-hukuku-groups";
+import {
+  ARABULUCULUK_GROUP_ORDER,
+  getArabuluculukGroup,
+  isArabuluculukMevzuatArticle,
+} from "@/lib/arabuluculuk-groups";
 import { TTK_GROUP_ORDER, getTtkGroup, isTtkArticle } from "@/lib/ttk-groups";
 import {
   TTK_BOOK2_GENEL_GROUP_ORDER,
@@ -62,6 +67,7 @@ const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
 const TTK_HEADING = "Türk Ticaret Kanunu";
+const ARABULUCULUK_HEADING = "Arabuluculuk Mevzuatı";
 
 export async function generateMetadata({
   params,
@@ -180,6 +186,36 @@ export default async function ArticlesPage({
           practiceSlug: null,
           items: [],
           subgroups: isHukukuSubgroups,
+        });
+      }
+    } else if (locale === "tr" && area.slug === "arabuluculuk") {
+      const nonSeries = items.filter(
+        (a) => !isArabuluculukMevzuatArticle(a.slug)
+      );
+      const arabuluculukBySlug = new Map<string, typeof items>();
+      for (const a of items) {
+        if (!isArabuluculukMevzuatArticle(a.slug)) continue;
+        const group = getArabuluculukGroup(a.slug)!;
+        if (!arabuluculukBySlug.has(group)) arabuluculukBySlug.set(group, []);
+        arabuluculukBySlug.get(group)!.push(a);
+      }
+      const arabuluculukSubgroups: BrowserSubgroup[] =
+        ARABULUCULUK_GROUP_ORDER.filter((g) => arabuluculukBySlug.has(g)).map(
+          (g) => ({ title: g, items: arabuluculukBySlug.get(g)! })
+        );
+
+      groups.push({
+        category: title,
+        practiceSlug: area.slug,
+        items: nonSeries,
+      });
+
+      if (arabuluculukSubgroups.length > 0) {
+        groups.push({
+          category: ARABULUCULUK_HEADING,
+          practiceSlug: null,
+          items: [],
+          subgroups: arabuluculukSubgroups,
         });
       }
     } else if (locale === "tr" && area.slug === "ticaret-sirketler-hukuku") {

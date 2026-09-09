@@ -2601,6 +2601,273 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
       ],
     },
   },
+  {
+    slug: "arabuluculuk",
+    metaTitle: {
+      tr: "Antalya Arabuluculuk Avukatı | Dava Şartı ve İhtiyari Arabuluculuk",
+      en: "Mediation Lawyer in Antalya | Mandatory & Voluntary Mediation in Turkey",
+      de: "Mediationsanwalt Antalya | Obligatorische & Freiwillige Mediation",
+      ru: "Адвокат по медиации в Анталье | Обязательная и добровольная медиация",
+      ar: "محامي الوساطة في أنطاليا | الوساطة الإلزامية والاختيارية في تركيا",
+      es: "Abogado de Mediación en Antalya | Mediación Obligatoria y Voluntaria",
+      fr: "Avocat en Médiation à Antalya | Médiation Obligatoire et Volontaire",
+    },
+    metaDescription: {
+      tr: "Antalya'da arabuluculuk avukatı olarak işçi alacakları, ticari uyuşmazlıklar, kira, ortaklığın giderilmesi, kat mülkiyeti ve komşuluk uyuşmazlıklarında dava şartı arabuluculuk sürecini yürütüyor, anlaşma belgesini hazırlayıp icra edilebilirlik şerhini alıyoruz.",
+      en: "As mediation lawyers in Antalya we run the mandatory mediation process in employment, commercial, lease, joint-ownership, condominium and neighbour disputes, draft the settlement document and obtain its enforceability annotation.",
+      de: "Als Mediationsanwälte in Antalya führen wir das obligatorische Mediationsverfahren in Arbeits-, Handels-, Miet-, Miteigentums-, Wohnungseigentums- und Nachbarschaftsstreitigkeiten, erstellen die Vereinbarungsurkunde und erwirken den Vollstreckbarkeitsvermerk.",
+      ru: "Как адвокаты по медиации в Анталье мы ведём процедуру обязательной медиации по трудовым, коммерческим, арендным спорам, разделу общей собственности, этажной собственности и соседскому праву, готовим соглашение и получаем отметку об исполнимости.",
+      ar: "بوصفنا محامي وساطة في أنطاليا ندير إجراءات الوساطة الإلزامية في منازعات العمل والمنازعات التجارية والإيجار وإزالة الشيوع والملكية الطابقية وحق الجوار، ونعد وثيقة الاتفاق ونحصل على شرح قابلية التنفيذ.",
+      es: "Como abogados de mediación en Antalya tramitamos la mediación obligatoria en litigios laborales, mercantiles, arrendaticios, de condominio, propiedad horizontal y vecindad, redactamos el acuerdo y obtenemos su anotación de ejecutabilidad.",
+      fr: "En qualité d'avocats en médiation à Antalya, nous conduisons la médiation obligatoire en matière de créances salariales, de litiges commerciaux, de baux, d'indivision, de copropriété et de voisinage, rédigeons l'accord et obtenons sa mention d'exécutabilité.",
+    },
+    intro: {
+      tr: "Türk hukukunda arabuluculuk artık yalnızca bir alternatif değil, birçok uyuşmazlıkta mahkeme kapısını açan zorunlu bir ilk adımdır. 6325 sayılı Hukuk Uyuşmazlıklarında Arabuluculuk Kanunu, tarafların üzerinde serbestçe tasarruf edebilecekleri özel hukuk uyuşmazlıklarının tamamını arabuluculuğa elverişli sayar; 2018'den bu yana işçi–işveren alacakları, ticari alacaklar, tüketici uyuşmazlıkları ve 1 Eylül 2023'ten itibaren kira, ortaklığın giderilmesi, kat mülkiyeti ve komşu hakkı uyuşmazlıkları bakımından arabulucuya başvurulmuş olması dava şartıdır. Bu şart yerine getirilmeden açılan dava, esasına hiç girilmeden usulden reddedilir.\n\nArabuluculuk görüşmesi, tarafların uzlaşmaya davet edildiği bir formalite değildir; sonuçları geri alınamayan bir müzakere aşamasıdır. Üzerinde anlaşılan hususlar hakkında artık dava açılamaz, anlaşma belgesi ilam niteliğinde belge sayılır ve doğrudan icraya konulabilir. Antalya'da arabuluculuk avukatı olarak görev yapan ekibimiz, hem hak kaybı doğuran aceleci anlaşmaları hem de sırf sürecin yanlış yürütülmesi yüzünden kaybedilen davaları önlemek için müvekkillerinin yanında yer alır.",
+      en: "In Turkish law, mediation is no longer merely an alternative — for a growing list of disputes it is the mandatory first step that unlocks the courthouse door. Law No. 6325 on Mediation in Civil Disputes treats every private-law dispute over which the parties may freely dispose as suitable for mediation. Since 2018, applying to a mediator has been a procedural precondition for employment claims, commercial receivables and consumer disputes, and since 1 September 2023 also for lease relationships, dissolution of joint ownership, condominium and neighbour-law disputes. A case filed without satisfying this precondition is dismissed on procedural grounds without any examination of the merits.\n\nA mediation session is not a formality in which the parties are politely invited to settle; it is a negotiation stage with irreversible consequences. No lawsuit may be brought on the matters agreed upon, and the settlement document counts as an instrument equivalent to a court judgment that can be enforced directly. As mediation lawyers in Antalya, our team stands beside clients to prevent both hasty settlements that forfeit rights and cases lost purely because the process was handled incorrectly.",
+      de: "Im türkischen Recht ist die Mediation längst nicht mehr nur eine Alternative — bei zahlreichen Streitigkeiten ist sie der obligatorische erste Schritt, der überhaupt erst den Weg zum Gericht öffnet. Das Gesetz Nr. 6325 über die Mediation in Zivilrechtsstreitigkeiten erklärt sämtliche privatrechtlichen Streitigkeiten für mediationsfähig, über die die Parteien frei verfügen können. Seit 2018 ist die Anrufung eines Mediators Prozessvoraussetzung für Arbeitnehmeransprüche, Handelsforderungen und Verbraucherstreitigkeiten, seit dem 1. September 2023 zusätzlich für Mietverhältnisse, die Aufhebung der Miteigentumsgemeinschaft sowie Wohnungseigentums- und Nachbarrechtsstreitigkeiten. Eine ohne Erfüllung dieser Voraussetzung erhobene Klage wird ohne jede Sachprüfung als unzulässig abgewiesen.\n\nEine Mediationssitzung ist keine Formalität, bei der die Parteien höflich zum Vergleich eingeladen werden, sondern eine Verhandlungsphase mit unumkehrbaren Folgen. Über die vereinbarten Punkte kann nicht mehr geklagt werden, und die Vereinbarungsurkunde gilt als einem Urteil gleichstehende Urkunde, die unmittelbar vollstreckt werden kann. Als Mediationsanwälte in Antalya begleiten wir unsere Mandanten, um sowohl übereilte, rechtsverlustträchtige Vergleiche als auch Prozessverluste allein wegen fehlerhafter Verfahrensführung zu verhindern.",
+      ru: "В турецком праве медиация уже не просто альтернатива: по целому ряду споров это обязательный первый шаг, открывающий двери суда. Закон № 6325 о медиации в гражданских спорах признаёт пригодными для медиации все частноправовые споры, которыми стороны вправе свободно распоряжаться. С 2018 года обращение к медиатору является условием предъявления иска по трудовым требованиям, коммерческим долгам и потребительским спорам, а с 1 сентября 2023 года — также по арендным отношениям, разделу общей собственности, этажной собственности и соседскому праву. Иск, поданный без соблюдения этого условия, отклоняется по процессуальным основаниям без рассмотрения по существу.\n\nСессия медиации — не формальность, на которой сторонам вежливо предлагают помириться, а стадия переговоров с необратимыми последствиями. По согласованным вопросам иск больше предъявить нельзя, а соглашение приравнивается к судебному решению и может быть исполнено напрямую. Как адвокаты по медиации в Анталье мы сопровождаем доверителей, чтобы не допустить ни поспешных соглашений с потерей прав, ни проигрыша дела только из-за неверно проведённой процедуры.",
+      ar: "لم تعد الوساطة في القانون التركي مجرد بديل، بل صارت في كثير من المنازعات الخطوة الإلزامية الأولى التي تفتح باب المحكمة. يعتبر القانون رقم 6325 بشأن الوساطة في المنازعات المدنية جميع منازعات القانون الخاص التي يملك الأطراف التصرف فيها بحرية قابلةً للوساطة. ومنذ عام 2018 صار اللجوء إلى الوسيط شرطاً لقبول الدعوى في مطالبات العمال والديون التجارية ومنازعات المستهلك، ومنذ 1 أيلول/سبتمبر 2023 أيضاً في علاقات الإيجار وإزالة الشيوع والملكية الطابقية وحق الجوار. والدعوى المرفوعة دون استيفاء هذا الشرط تُرد شكلاً دون بحث الموضوع.\n\nجلسة الوساطة ليست إجراءً شكلياً يُدعى فيه الأطراف بلطف إلى الصلح، بل مرحلة تفاوض ذات نتائج لا رجعة فيها. فلا يجوز رفع دعوى بشأن ما تم الاتفاق عليه، وتُعد وثيقة الاتفاق سنداً بمنزلة الحكم قابلاً للتنفيذ مباشرة. وبوصفنا محامي وساطة في أنطاليا نقف إلى جانب موكلينا لمنع الاتفاقات المتسرعة التي تهدر الحقوق، وكذلك خسارة الدعوى لمجرد سوء إدارة الإجراءات.",
+      es: "En el derecho turco la mediación ya no es una simple alternativa: en un número creciente de litigios constituye el paso obligatorio que abre la puerta del tribunal. La Ley n.º 6325 de Mediación en Conflictos Civiles considera aptos para mediación todos los litigios de derecho privado sobre los que las partes pueden disponer libremente. Desde 2018, acudir a un mediador es requisito de procedibilidad en reclamaciones laborales, créditos mercantiles y conflictos de consumo, y desde el 1 de septiembre de 2023 también en relaciones arrendaticias, extinción del condominio, propiedad horizontal y derecho de vecindad. La demanda presentada sin cumplir este requisito se desestima por motivos procesales sin entrar en el fondo.\n\nUna sesión de mediación no es una formalidad en la que se invita cortésmente a las partes a transigir, sino una fase de negociación de consecuencias irreversibles. Sobre lo acordado ya no cabe demanda, y el documento de acuerdo se considera título equivalente a una sentencia, ejecutable de forma directa. Como abogados de mediación en Antalya acompañamos a nuestros clientes para evitar tanto acuerdos precipitados que sacrifican derechos como pleitos perdidos únicamente por una tramitación defectuosa.",
+      fr: "En droit turc, la médiation n'est plus une simple alternative : pour un nombre croissant de litiges, elle constitue le passage obligé qui ouvre la porte du tribunal. La loi n° 6325 sur la médiation en matière civile déclare médiables tous les litiges de droit privé dont les parties peuvent librement disposer. Depuis 2018, la saisine d'un médiateur est une condition de recevabilité pour les créances salariales, les créances commerciales et les litiges de consommation, et depuis le 1er septembre 2023 également pour les rapports locatifs, le partage de l'indivision, la copropriété et le droit de voisinage. L'action introduite sans satisfaire à cette condition est rejetée pour un motif de procédure, sans examen du fond.\n\nUne séance de médiation n'est pas une formalité au cours de laquelle les parties sont poliment invitées à transiger : c'est une phase de négociation aux conséquences irréversibles. Aucune action ne peut plus être engagée sur les points convenus, et le document d'accord vaut titre équivalent à un jugement, directement exécutoire. En qualité d'avocats en médiation à Antalya, nous accompagnons nos clients afin d'éviter aussi bien les accords hâtifs qui sacrifient des droits que les procès perdus du seul fait d'une conduite fautive de la procédure.",
+    },
+    services: {
+      tr: [
+        "Dava şartı arabuluculuk başvurusunun hazırlanması ve yetkili arabuluculuk bürosuna sunulması",
+        "İşçi ve işveren alacakları ile işe iade taleplerinde arabuluculuk görüşmelerinde vekil olarak temsil",
+        "Ticari alacak ve tazminat uyuşmazlıklarında (TTK m. 5/A) arabuluculuk süreç yönetimi",
+        "Kira ilişkisi, ortaklığın giderilmesi, kat mülkiyeti ve komşu hakkı uyuşmazlıklarında arabuluculuk (HUAK m. 18/B)",
+        "Arabuluculuk anlaşma belgesinin kaleme alınması ve icraya elverişli biçimde yapılandırılması",
+        "Sulh hukuk mahkemesinden icra edilebilirlik şerhi alınması ve anlaşmanın icra takibine konulması",
+        "Arabuluculuk bürosunun yetkisine itiraz ve son tutanağın hukuka aykırılığına dayalı savunmalar",
+        "Yabancı uyruklu müvekkiller için arabuluculuk görüşmelerinde çift dilli temsil ve belge hazırlığı",
+      ],
+      en: [
+        "Preparing the mandatory mediation application and filing it with the competent mediation office",
+        "Representation as counsel in mediation sessions on employee and employer claims and reinstatement requests",
+        "Managing mediation in commercial receivable and damages disputes (Art. 5/A of the Turkish Commercial Code)",
+        "Mediation in lease, dissolution of joint ownership, condominium and neighbour-law disputes (Art. 18/B of Law No. 6325)",
+        "Drafting the mediation settlement document and structuring it so that it is capable of enforcement",
+        "Obtaining the enforceability annotation from the civil court of peace and initiating enforcement proceedings",
+        "Objecting to the jurisdiction of the mediation office and defences based on a defective final minutes",
+        "Bilingual representation and document preparation for foreign clients in mediation sessions",
+      ],
+      de: [
+        "Erstellung des obligatorischen Mediationsantrags und Einreichung beim zuständigen Mediationsbüro",
+        "Vertretung als Rechtsanwalt in Mediationssitzungen zu Arbeitnehmer- und Arbeitgeberansprüchen sowie Wiedereinstellungsbegehren",
+        "Verfahrensführung in der Mediation über Handelsforderungen und Schadensersatz (Art. 5/A türkisches Handelsgesetzbuch)",
+        "Mediation in Miet-, Miteigentumsaufhebungs-, Wohnungseigentums- und Nachbarrechtsstreitigkeiten (Art. 18/B Gesetz Nr. 6325)",
+        "Abfassung der Mediationsvereinbarung und vollstreckungsfähige Ausgestaltung",
+        "Erwirkung des Vollstreckbarkeitsvermerks beim Friedensgericht und Einleitung der Zwangsvollstreckung",
+        "Zuständigkeitsrüge gegen das Mediationsbüro und Verteidigung wegen fehlerhafter Schlussniederschrift",
+        "Zweisprachige Vertretung und Dokumentenvorbereitung für ausländische Mandanten in Mediationssitzungen",
+      ],
+      ru: [
+        "Подготовка заявления об обязательной медиации и подача его в компетентное бюро медиации",
+        "Представительство в сессиях медиации по требованиям работников и работодателей и по восстановлению на работе",
+        "Ведение медиации по коммерческим долгам и требованиям о возмещении вреда (ст. 5/A Торгового кодекса Турции)",
+        "Медиация по арендным спорам, разделу общей собственности, этажной собственности и соседскому праву (ст. 18/B Закона № 6325)",
+        "Составление соглашения по итогам медиации и придание ему исполнимой формы",
+        "Получение отметки об исполнимости в мировом гражданском суде и возбуждение исполнительного производства",
+        "Возражение против компетенции бюро медиации и защита со ссылкой на пороки итогового протокола",
+        "Двуязычное представительство и подготовка документов для иностранных доверителей",
+      ],
+      ar: [
+        "إعداد طلب الوساطة الإلزامية وتقديمه إلى مكتب الوساطة المختص",
+        "التمثيل بصفة وكيل في جلسات الوساطة المتعلقة بمطالبات العمال وأصحاب العمل وطلبات الإعادة إلى العمل",
+        "إدارة الوساطة في منازعات الديون والتعويضات التجارية (المادة 5/أ من قانون التجارة التركي)",
+        "الوساطة في منازعات الإيجار وإزالة الشيوع والملكية الطابقية وحق الجوار (المادة 18/ب من القانون رقم 6325)",
+        "صياغة وثيقة اتفاق الوساطة وتنظيمها على نحو قابل للتنفيذ",
+        "استصدار شرح قابلية التنفيذ من محكمة الصلح المدنية ومباشرة التنفيذ الجبري",
+        "الاعتراض على اختصاص مكتب الوساطة والدفوع المستندة إلى عيوب المحضر النهائي",
+        "التمثيل ثنائي اللغة وإعداد المستندات للموكلين الأجانب في جلسات الوساطة",
+      ],
+      es: [
+        "Preparación de la solicitud de mediación obligatoria y presentación ante la oficina de mediación competente",
+        "Representación letrada en las sesiones de mediación sobre créditos laborales y solicitudes de readmisión",
+        "Gestión de la mediación en litigios sobre créditos mercantiles e indemnizaciones (art. 5/A del Código de Comercio turco)",
+        "Mediación en conflictos de arrendamiento, extinción del condominio, propiedad horizontal y vecindad (art. 18/B de la Ley n.º 6325)",
+        "Redacción del documento de acuerdo y configuración de su contenido para que sea ejecutable",
+        "Obtención de la anotación de ejecutabilidad ante el juzgado de paz civil e inicio de la ejecución",
+        "Impugnación de la competencia de la oficina de mediación y defensas basadas en un acta final defectuosa",
+        "Representación bilingüe y preparación documental para clientes extranjeros en las sesiones",
+      ],
+      fr: [
+        "Préparation de la demande de médiation obligatoire et dépôt auprès du bureau de médiation compétent",
+        "Représentation en qualité d'avocat aux séances de médiation portant sur les créances salariales et les demandes de réintégration",
+        "Conduite de la médiation en matière de créances commerciales et d'indemnités (art. 5/A du Code de commerce turc)",
+        "Médiation en matière de baux, de partage de l'indivision, de copropriété et de voisinage (art. 18/B de la loi n° 6325)",
+        "Rédaction du document d'accord et structuration de son contenu afin qu'il soit exécutoire",
+        "Obtention de la mention d'exécutabilité auprès du tribunal de paix civil et engagement de l'exécution forcée",
+        "Contestation de la compétence du bureau de médiation et moyens de défense tirés d'un procès-verbal final vicié",
+        "Représentation bilingue et préparation documentaire pour les clients étrangers lors des séances",
+      ],
+    },
+    process: {
+      tr: "Her dosyada önce uyuşmazlığın gerçekten dava şartı arabuluculuk kapsamında olup olmadığını ve hangi arabuluculuk bürosunun yetkili sayılacağını tespit ederiz; yanlış büroya yapılan başvuru zaman kaybettirir, erken yapılan başvuru ise şartı hiç karşılamayabilir. Başvuru sonrası müvekkilin talep kalemlerini belgeye dayalı biçimde hesaplar, müzakere sınırını görüşme öncesinde birlikte belirleriz. Görüşmelerde asıl riskin anlaşmamak değil, kapsamı belirsiz bir anlaşma belgesi imzalamak olduğunu gözetir; üzerinde anlaşılan hususlar hakkında bir daha dava açılamayacağı için her kalemi belgede tek tek adlandırırız. Anlaşma hâlinde belgenin ilam niteliğini kazanması için gerekli imza ve şerh işlemlerini tamamlar, anlaşma sağlanamazsa son tutanağı dava dilekçesinin gerektirdiği biçimde hazırlayıp yargılama aşamasına geçeriz.",
+      en: "In every file we first determine whether the dispute genuinely falls within mandatory mediation and which mediation office has jurisdiction — an application to the wrong office costs time, while a premature application may fail to satisfy the precondition at all. After filing we quantify the client's claims on documentary evidence and set the negotiation limit together before the session. During the sessions we keep in view that the real risk is not failing to settle but signing a settlement document of uncertain scope: because no action may later be brought on the matters agreed, we name every item individually in the document. If a settlement is reached we complete the signature and annotation steps that give the document the force of a judgment; if not, we prepare the final minutes in the form required for the statement of claim and move to litigation.",
+      de: "In jedem Fall prüfen wir zunächst, ob der Streit tatsächlich der obligatorischen Mediation unterfällt und welches Mediationsbüro zuständig ist — ein Antrag beim falschen Büro kostet Zeit, ein verfrühter Antrag erfüllt die Voraussetzung mitunter überhaupt nicht. Nach der Antragstellung beziffern wir die Ansprüche des Mandanten belegbasiert und legen die Verhandlungsgrenze vor der Sitzung gemeinsam fest. In den Sitzungen behalten wir im Blick, dass das eigentliche Risiko nicht das Scheitern der Einigung ist, sondern die Unterzeichnung einer Vereinbarung mit unklarem Umfang: Da über die vereinbarten Punkte später nicht mehr geklagt werden kann, benennen wir jede Position einzeln. Kommt eine Einigung zustande, führen wir die Unterschrifts- und Vermerkschritte durch, die der Urkunde Urteilswirkung verleihen; andernfalls bereiten wir die Schlussniederschrift in der für die Klageschrift erforderlichen Form vor und gehen in das Verfahren über.",
+      ru: "По каждому делу мы сначала выясняем, действительно ли спор охватывается обязательной медиацией и какое бюро медиации компетентно: обращение не в то бюро отнимает время, а преждевременное обращение может вовсе не выполнить условие. После подачи заявления мы рассчитываем требования доверителя на основе документов и заранее совместно определяем предел уступок. На сессиях мы помним, что подлинный риск — не отсутствие соглашения, а подписание соглашения с неясным объёмом: поскольку по согласованным вопросам иск более невозможен, каждый пункт называется в документе отдельно. При достижении соглашения мы выполняем действия по подписанию и получению отметки, придающие документу силу судебного решения; в противном случае готовим итоговый протокол в форме, требуемой для искового заявления, и переходим к судебной стадии.",
+      ar: "في كل ملف نحدد أولاً ما إذا كان النزاع يقع فعلاً ضمن الوساطة الإلزامية وأي مكتب وساطة هو المختص؛ فالطلب المقدَّم إلى مكتب غير مختص يضيّع الوقت، والطلب السابق لأوانه قد لا يستوفي الشرط أصلاً. وبعد التقديم نحسب مطالب الموكل استناداً إلى المستندات ونحدد معاً حدود التفاوض قبل الجلسة. وفي الجلسات نضع نصب أعيننا أن الخطر الحقيقي ليس عدم الاتفاق، بل توقيع وثيقة اتفاق غامضة النطاق: فلما كان رفع الدعوى ممتنعاً بشأن ما تم الاتفاق عليه، فإننا نسمّي كل بند في الوثيقة على حدة. وعند الاتفاق نستكمل إجراءات التوقيع والشرح التي تمنح الوثيقة قوة الحكم؛ وإلا أعددنا المحضر النهائي بالشكل الذي تتطلبه لائحة الدعوى وانتقلنا إلى مرحلة التقاضي.",
+      es: "En cada expediente determinamos primero si el conflicto está realmente sujeto a mediación obligatoria y qué oficina de mediación es competente: presentar la solicitud ante la oficina equivocada hace perder tiempo, y una solicitud prematura puede no cumplir el requisito en absoluto. Tras la presentación cuantificamos las pretensiones del cliente sobre prueba documental y fijamos con él el límite de negociación antes de la sesión. En las sesiones tenemos presente que el riesgo real no es no llegar a un acuerdo, sino firmar un documento de alcance incierto: como sobre lo acordado ya no cabrá demanda, identificamos cada partida por separado. Si hay acuerdo, completamos las firmas y la anotación que otorgan al documento fuerza de sentencia; si no, preparamos el acta final en la forma exigida para la demanda y pasamos a la vía judicial.",
+      fr: "Dans chaque dossier, nous déterminons d'abord si le litige relève réellement de la médiation obligatoire et quel bureau de médiation est compétent : une demande adressée au mauvais bureau fait perdre du temps, et une demande prématurée peut ne pas remplir la condition du tout. Après le dépôt, nous chiffrons les prétentions du client sur pièces et fixons ensemble la limite de négociation avant la séance. Lors des séances, nous gardons à l'esprit que le véritable risque n'est pas l'absence d'accord, mais la signature d'un document au périmètre incertain : comme aucune action ne pourra plus être engagée sur les points convenus, chaque poste est nommé séparément dans le document. En cas d'accord, nous accomplissons les formalités de signature et de mention qui confèrent au document la force d'un jugement ; à défaut, nous préparons le procès-verbal final dans la forme exigée pour l'assignation et passons au contentieux.",
+    },
+    faqs: {
+      tr: [
+        {
+          q: "Arabuluculuk görüşmesine katılmazsam ne olur?",
+          a: "Geçerli bir mazeret göstermeksizin ilk toplantıya katılmayan taraf son tutanakta ismen belirtilir ve açılacak davada kısmen veya tamamen haklı çıksa bile karşı tarafın yargılama giderlerinin yarısından sorumlu tutulur; ayrıca karşı taraf lehine Avukatlık Asgari Ücret Tarifesine göre belirlenen vekâlet ücretinin yarısına hükmedilir. Her iki taraf da katılmazsa yargılama giderleri kendi üzerlerinde bırakılır.",
+        },
+        {
+          q: "Arabuluculuk ücretini kim öder?",
+          a: "Taraflar anlaşırsa arabuluculuk ücreti, aksi kararlaştırılmadıkça taraflarca eşit şekilde karşılanır ve iki saatlik ücret tutarından az olamaz. Anlaşma sağlanamaz, taraflara ulaşılamaz veya görüşme iki saatten kısa sürerse iki saatlik ücret Adalet Bakanlığı bütçesinden ödenir; iki saati aşan kısım ise taraflarca eşit olarak karşılanır. Ödenen tutar yargılama giderlerinden sayılır.",
+        },
+        {
+          q: "Arabuluculukta varılan anlaşma bağlayıcı mıdır?",
+          a: "Evet. 6325 sayılı Kanun m. 18/5 uyarınca üzerinde anlaşılan hususlar hakkında taraflarca dava açılamaz. Taraflar, avukatları ve arabulucunun birlikte imzaladığı anlaşma belgesi kural olarak icra edilebilirlik şerhi aranmaksızın ilam niteliğinde belge sayılır; kanunun şerhi zorunlu kıldığı hâllerde ise şerh sulh hukuk mahkemesinden alınır.",
+        },
+        {
+          q: "Arabuluculuk süreci ne kadar sürer?",
+          a: "Dava şartı arabuluculukta arabulucu, görevlendirildiği tarihten itibaren üç hafta içinde süreci sonuçlandırmak zorundadır; bu süre zorunlu hâllerde en fazla bir hafta uzatılabilir. İhtiyari arabuluculukta ise kanuni bir üst süre yoktur, süreci taraflar belirler. Başvurudan son tutanağın düzenlendiği tarihe kadar zamanaşımı durur ve hak düşürücü süre işlemez.",
+        },
+        {
+          q: "Yabancı uyruklu taraflar Türkiye'de arabuluculuğa başvurabilir mi?",
+          a: "Evet. 6325 sayılı Kanun m. 1/2 açıkça yabancılık unsuru taşıyan uyuşmazlıkları da kapsam içine alır. Görüşmeler Türkçe yürütülür ve devlet tarafından sağlanan bir tercüman hakkı bulunmaz; bu nedenle sürece çift dilli bir vekille katılmak, imzalanan belgenin içeriğinin tam olarak anlaşılması bakımından belirleyicidir.",
+        },
+      ],
+      en: [
+        {
+          q: "What happens if I do not attend the mediation session?",
+          a: "A party who fails to attend the first meeting without a valid excuse is named in the final minutes and, even if it later wins the case wholly or in part, is held liable for half of the other side's litigation costs; in addition, half of the attorney's fee determined under the Minimum Attorney Fee Tariff is awarded against it. If neither party attends, each bears its own costs.",
+        },
+        {
+          q: "Who pays the mediation fee?",
+          a: "If the parties settle, the fee is shared equally unless agreed otherwise and cannot be less than the two-hour rate. If no settlement is reached, the parties cannot be contacted, or the session lasts under two hours, the two-hour fee is paid from the Ministry of Justice budget; any portion beyond two hours is shared equally by the parties. Amounts paid count as litigation costs.",
+        },
+        {
+          q: "Is a mediation settlement binding?",
+          a: "Yes. Under Article 18/5 of Law No. 6325, no action may be brought on the matters agreed upon. A settlement document signed jointly by the parties, their lawyers and the mediator is, as a rule, an instrument equivalent to a judgment without any enforceability annotation; where the law requires an annotation, it is obtained from the civil court of peace.",
+        },
+        {
+          q: "How long does mediation take?",
+          a: "In mandatory mediation the mediator must conclude the process within three weeks of appointment, extendable by at most one further week in compulsory circumstances. Voluntary mediation has no statutory time limit; the parties set the pace. From the application until the final minutes are drawn up, limitation periods are suspended and forfeiture periods do not run.",
+        },
+        {
+          q: "Can foreign nationals use mediation in Turkey?",
+          a: "Yes. Article 1/2 of Law No. 6325 expressly covers disputes containing a foreign element. Sessions are conducted in Turkish and there is no state-provided interpreter; attending with bilingual counsel is therefore decisive for understanding exactly what the signed document says.",
+        },
+      ],
+      de: [
+        {
+          q: "Was geschieht, wenn ich nicht zur Mediationssitzung erscheine?",
+          a: "Wer ohne triftigen Grund der ersten Sitzung fernbleibt, wird in der Schlussniederschrift namentlich festgehalten und haftet, selbst wenn er den späteren Prozess ganz oder teilweise gewinnt, für die Hälfte der Verfahrenskosten der Gegenseite; zudem wird ihm die Hälfte der nach der Mindestanwaltsgebührenordnung bemessenen Anwaltsgebühr auferlegt. Erscheinen beide Parteien nicht, trägt jede ihre eigenen Kosten.",
+        },
+        {
+          q: "Wer trägt die Mediationskosten?",
+          a: "Einigen sich die Parteien, wird das Honorar mangels abweichender Vereinbarung hälftig geteilt und darf den Zwei-Stunden-Satz nicht unterschreiten. Kommt keine Einigung zustande, sind die Parteien nicht erreichbar oder dauert die Sitzung weniger als zwei Stunden, trägt das Justizministerium den Zwei-Stunden-Satz; der darüber hinausgehende Teil wird hälftig von den Parteien getragen. Die gezahlten Beträge gelten als Verfahrenskosten.",
+        },
+        {
+          q: "Ist eine in der Mediation erzielte Einigung bindend?",
+          a: "Ja. Nach Art. 18 Abs. 5 des Gesetzes Nr. 6325 kann über die vereinbarten Punkte nicht mehr geklagt werden. Eine von den Parteien, ihren Anwälten und dem Mediator gemeinsam unterzeichnete Vereinbarung gilt in der Regel ohne Vollstreckbarkeitsvermerk als einem Urteil gleichstehende Urkunde; verlangt das Gesetz einen Vermerk, wird dieser beim Friedensgericht erwirkt.",
+        },
+        {
+          q: "Wie lange dauert eine Mediation?",
+          a: "In der obligatorischen Mediation muss der Mediator das Verfahren binnen drei Wochen ab Bestellung abschließen; in zwingenden Fällen ist eine Verlängerung um höchstens eine Woche möglich. Für die freiwillige Mediation gibt es keine gesetzliche Höchstdauer. Von der Antragstellung bis zur Schlussniederschrift ist die Verjährung gehemmt und Ausschlussfristen laufen nicht.",
+        },
+        {
+          q: "Können ausländische Staatsangehörige in der Türkei die Mediation nutzen?",
+          a: "Ja. Art. 1 Abs. 2 des Gesetzes Nr. 6325 erfasst ausdrücklich auch Streitigkeiten mit Auslandsbezug. Die Sitzungen werden auf Türkisch geführt, und es besteht kein staatlich gestellter Dolmetscher; die Teilnahme mit zweisprachigem Rechtsbeistand ist daher entscheidend dafür, den Inhalt der unterzeichneten Urkunde genau zu erfassen.",
+        },
+      ],
+      ru: [
+        {
+          q: "Что будет, если я не явлюсь на сессию медиации?",
+          a: "Сторона, не явившаяся на первую встречу без уважительной причины, указывается в итоговом протоколе поимённо и, даже выиграв впоследствии дело полностью или частично, несёт половину судебных расходов противной стороны; кроме того, с неё взыскивается половина гонорара представителя по Тарифу минимальных адвокатских гонораров. Если не явились обе стороны, расходы остаются на каждой из них.",
+        },
+        {
+          q: "Кто оплачивает вознаграждение медиатора?",
+          a: "При достижении соглашения вознаграждение, если не согласовано иное, делится поровну и не может быть меньше двухчасовой ставки. Если соглашение не достигнуто, стороны недоступны или встреча длилась менее двух часов, двухчасовая ставка выплачивается из бюджета Министерства юстиции; часть сверх двух часов стороны несут поровну. Уплаченные суммы относятся к судебным расходам.",
+        },
+        {
+          q: "Обязательно ли соглашение, достигнутое в медиации?",
+          a: "Да. Согласно ст. 18/5 Закона № 6325 по согласованным вопросам иск предъявить нельзя. Соглашение, подписанное совместно сторонами, их адвокатами и медиатором, по общему правилу считается документом, равносильным судебному решению, без отметки об исполнимости; там, где закон требует отметки, её получают в мировом гражданском суде.",
+        },
+        {
+          q: "Сколько длится медиация?",
+          a: "В обязательной медиации медиатор обязан завершить процедуру в течение трёх недель со дня назначения; в вынужденных случаях срок продлевается не более чем на одну неделю. Для добровольной медиации законного предельного срока нет. С момента подачи заявления и до составления итогового протокола течение исковой давности приостанавливается, а пресекательные сроки не текут.",
+        },
+        {
+          q: "Могут ли иностранные граждане обратиться к медиации в Турции?",
+          a: "Да. Статья 1/2 Закона № 6325 прямо охватывает споры с иностранным элементом. Сессии ведутся на турецком языке, государственный переводчик не предоставляется; поэтому участие с двуязычным представителем решающе важно для точного понимания подписываемого документа.",
+        },
+      ],
+      ar: [
+        {
+          q: "ماذا يحدث إن لم أحضر جلسة الوساطة؟",
+          a: "الطرف الذي يتخلف عن الجلسة الأولى دون عذر مقبول يُذكر اسمه في المحضر النهائي، ويتحمل نصف مصاريف التقاضي للطرف الآخر حتى لو كسب الدعوى كلياً أو جزئياً؛ كما يُحكم عليه بنصف أتعاب المحاماة المحددة وفق تعرفة الحد الأدنى لأتعاب المحاماة. وإذا تخلف الطرفان معاً، تحمّل كل منهما مصاريفه.",
+        },
+        {
+          q: "من يدفع أتعاب الوسيط؟",
+          a: "عند الاتفاق تُقسم الأتعاب بالتساوي ما لم يُتفق على خلاف ذلك، ولا يجوز أن تقل عن أجر ساعتين. وإذا لم يتم الاتفاق أو تعذر الوصول إلى الأطراف أو استغرقت الجلسة أقل من ساعتين، تُدفع أتعاب الساعتين من موازنة وزارة العدل؛ أما ما زاد على الساعتين فيتحمله الطرفان بالتساوي. وتُعد المبالغ المدفوعة من مصاريف التقاضي.",
+        },
+        {
+          q: "هل الاتفاق المبرم في الوساطة ملزم؟",
+          a: "نعم. وفق المادة 18/5 من القانون رقم 6325 لا يجوز رفع دعوى بشأن ما تم الاتفاق عليه. ووثيقة الاتفاق الموقعة من الأطراف ومحاميهم والوسيط تُعد كقاعدة سنداً بمنزلة الحكم دون حاجة إلى شرح قابلية التنفيذ؛ وحيث يوجب القانون الشرح يُستصدر من محكمة الصلح المدنية.",
+        },
+        {
+          q: "كم تستغرق الوساطة؟",
+          a: "في الوساطة الإلزامية يجب على الوسيط إنهاء الإجراءات خلال ثلاثة أسابيع من تاريخ تعيينه، وتُمدد في الحالات الاضطرارية أسبوعاً واحداً على الأكثر. أما الوساطة الاختيارية فلا حد زمني قانوني لها. ومن تاريخ الطلب حتى تحرير المحضر النهائي يقف التقادم ولا تسري مدد السقوط.",
+        },
+        {
+          q: "هل يمكن للأجانب اللجوء إلى الوساطة في تركيا؟",
+          a: "نعم. تشمل المادة 1/2 من القانون رقم 6325 صراحةً المنازعات ذات العنصر الأجنبي. وتُدار الجلسات باللغة التركية ولا يوجد مترجم توفره الدولة؛ لذا فإن الحضور برفقة وكيل ثنائي اللغة أمر حاسم لفهم مضمون الوثيقة الموقعة بدقة.",
+        },
+      ],
+      es: [
+        {
+          q: "¿Qué ocurre si no asisto a la sesión de mediación?",
+          a: "La parte que no comparece a la primera reunión sin causa justificada queda identificada en el acta final y, aunque después gane el pleito total o parcialmente, responde de la mitad de las costas de la contraria; además se le impone la mitad de los honorarios de abogado fijados según la Tarifa de Honorarios Mínimos. Si no comparece ninguna de las partes, cada una soporta sus propias costas.",
+        },
+        {
+          q: "¿Quién paga los honorarios del mediador?",
+          a: "Si las partes llegan a un acuerdo, los honorarios se reparten por mitades salvo pacto en contrario y no pueden ser inferiores a la tarifa de dos horas. Si no hay acuerdo, no se localiza a las partes o la sesión dura menos de dos horas, las dos horas las abona el presupuesto del Ministerio de Justicia; el exceso lo asumen las partes por mitades. Lo pagado se considera costa procesal.",
+        },
+        {
+          q: "¿Es vinculante el acuerdo alcanzado en mediación?",
+          a: "Sí. Conforme al artículo 18/5 de la Ley n.º 6325, sobre lo acordado no cabe demanda. El documento firmado conjuntamente por las partes, sus abogados y el mediador se considera, por regla general, título equivalente a una sentencia sin necesidad de anotación de ejecutabilidad; cuando la ley exige la anotación, esta se obtiene del juzgado de paz civil.",
+        },
+        {
+          q: "¿Cuánto dura la mediación?",
+          a: "En la mediación obligatoria el mediador debe concluir el procedimiento en tres semanas desde su designación, prorrogables como máximo una semana en supuestos forzosos. La mediación voluntaria carece de plazo legal máximo. Desde la solicitud hasta el acta final se suspende la prescripción y no corren los plazos de caducidad.",
+        },
+        {
+          q: "¿Pueden los extranjeros acudir a la mediación en Turquía?",
+          a: "Sí. El artículo 1/2 de la Ley n.º 6325 comprende expresamente los litigios con elemento extranjero. Las sesiones se desarrollan en turco y no existe intérprete facilitado por el Estado; por ello, asistir con un letrado bilingüe resulta decisivo para comprender con exactitud el documento que se firma.",
+        },
+      ],
+      fr: [
+        {
+          q: "Que se passe-t-il si je n'assiste pas à la séance de médiation ?",
+          a: "La partie qui ne se présente pas à la première réunion sans motif valable est nommément mentionnée au procès-verbal final et supporte, même si elle obtient ensuite gain de cause en tout ou partie, la moitié des dépens de la partie adverse ; elle se voit en outre condamner à la moitié des honoraires d'avocat déterminés selon le Tarif des honoraires minimaux. Si aucune des parties ne comparaît, chacune conserve ses propres frais.",
+        },
+        {
+          q: "Qui paie les honoraires du médiateur ?",
+          a: "En cas d'accord, les honoraires sont partagés par moitié sauf convention contraire et ne peuvent être inférieurs au tarif de deux heures. À défaut d'accord, si les parties sont injoignables ou si la séance dure moins de deux heures, les deux heures sont prises en charge par le budget du ministère de la Justice ; la part excédant deux heures est partagée par moitié. Les sommes versées sont des dépens.",
+        },
+        {
+          q: "L'accord issu de la médiation est-il contraignant ?",
+          a: "Oui. Selon l'article 18/5 de la loi n° 6325, aucune action ne peut être engagée sur les points convenus. Le document signé conjointement par les parties, leurs avocats et le médiateur vaut en principe titre équivalent à un jugement sans mention d'exécutabilité ; lorsque la loi impose cette mention, elle est obtenue auprès du tribunal de paix civil.",
+        },
+        {
+          q: "Combien de temps dure une médiation ?",
+          a: "En médiation obligatoire, le médiateur doit clore la procédure dans les trois semaines de sa désignation, délai prorogeable d'une semaine au plus en cas de nécessité. La médiation volontaire ne connaît pas de durée légale maximale. De la demande jusqu'au procès-verbal final, la prescription est suspendue et les délais de forclusion ne courent pas.",
+        },
+        {
+          q: "Les ressortissants étrangers peuvent-ils recourir à la médiation en Turquie ?",
+          a: "Oui. L'article 1/2 de la loi n° 6325 vise expressément les litiges comportant un élément d'extranéité. Les séances se déroulent en turc et aucun interprète n'est fourni par l'État ; se faire assister d'un avocat bilingue est donc déterminant pour comprendre exactement la portée du document signé.",
+        },
+      ],
+    },
+  },
 ];
 
 export function getPracticeAreaContent(slug: string): PracticeAreaContent | undefined {

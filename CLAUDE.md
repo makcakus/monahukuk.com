@@ -147,8 +147,15 @@ Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/gl
 
 Her sayfada `pageMetadata()` ile meta tag üretilir (`lib/seo.ts`). Makale sayfaları ek olarak:
 - `ArticleSchema` — Schema.org Article yapılandırılmış verisi
-- `FAQPage` — `##` başlıklarından otomatik üretilir
+- `FAQPage` — **yalnızca gerçek sorulardan** üretilir: soru işareti taşıyan ya
+  da dile özgü önekle (`S:` `Q:` `F:` `P:` `В:` `س:` `问：`) başlayan `##`/`###`
+  başlıkları. Google'ın yapılandırılmış veri politikası bölüm başlıklarının
+  `Question` olarak işaretlenmesini yasakladığı için soru olmayan başlıklar
+  şemaya girmez; üç gerçek soru yoksa sayfaya FAQPage hiç basılmaz.
 - Dinamik OG görseli (`[slug]/opengraph-image.tsx`)
+
+SEO denetimi: `node scripts/seo-audit.mjs` (title/description uzunlukları,
+tekrarlar, gövdede ikinci H1, iç bağlantı, FAQ şeması kapsamı).
 
 ## Ortam Değişkenleri
 

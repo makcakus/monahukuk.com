@@ -295,33 +295,64 @@ export async function getRelatedArticles(
   return [...sameCategory, ...fillers].slice(0, limit);
 }
 
-const FAQ_SKIP = /mona hukuk|как .* может помочь|how .* can help|kontaktieren|お問い合わせ|iletişim|تواصل|связаться/i;
+/**
+ * SSS başlıklarındaki dile özgü soru öneki: "S:", "Q:", "F:", "P:", "В:", "س:",
+ * "问：". Şemaya yazılan soru metninden temizlenir.
+ */
+const FAQ_PREFIX = /^(?:S|Q|F|P|В|س|问|問)\s*[:：]\s*/;
 
+/** Soru işareti — Latin, tam genişlikli CJK ve Arapça. */
+const QUESTION_MARK = /[?？؟]/;
+
+/** Başlık gerçekten bir soru mu? Ya soru işareti taşır ya da dile özgü öneki. */
+function isQuestionHeading(heading: string): boolean {
+  return QUESTION_MARK.test(heading) || FAQ_PREFIX.test(heading);
+}
+
+function cleanAnswer(lines: string[]): string {
+  return lines
+    .join(" ")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/^[-*+]\s+/gm, "")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 280);
+}
+
+/**
+ * Makale gövdesinden FAQPage şeması için soru–cevap çiftlerini çıkarır.
+ *
+ * Google'ın yapılandırılmış veri politikası FAQPage'in gerçek soru–cevap
+ * içermesini şart koşar; bölüm başlıkları "Question" olarak işaretlenemez.
+ * Bu nedenle yalnızca **soru olan** başlıklar alınır: SSS bölümündeki `###`
+ * başlıkları (site genelindeki kalıp) ve soru biçimindeki `##` başlıkları.
+ * Gerçek soru yoksa boş dizi döner ve sayfaya FAQPage şeması hiç basılmaz
+ * (`faqPageSchema` üç çiftin altında null üretir).
+ */
 export function extractFaqPairs(body: string): { question: string; answer: string }[] {
   const pairs: { question: string; answer: string }[] = [];
   let heading: string | null = null;
   let bodyLines: string[] = [];
 
   function flush() {
-    if (!heading || FAQ_SKIP.test(heading)) return;
-    const text = bodyLines
-      .join(" ")
-      .replace(/\*\*([^*]+)\*\*/g, "$1")
-      .replace(/\*([^*]+)\*/g, "$1")
-      .replace(/^[-*+]\s+/gm, "")
-      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-      .slice(0, 280);
-    if (text.length > 30) pairs.push({ question: heading!, answer: text });
+    if (!heading) return;
+    const answer = cleanAnswer(bodyLines);
+    if (answer.length > 30) {
+      pairs.push({ question: heading.replace(FAQ_PREFIX, "").trim(), answer });
+    }
   }
 
   for (const line of body.split("\n")) {
-    const m = line.match(/^## (.+)/);
+    const m = line.match(/^(#{2,3}) (.+)/);
     if (m) {
       flush();
-      heading = m[1].trim().replace(/\*\*/g, "");
+      const text = m[2].trim().replace(/\*\*/g, "");
+      // Soru olmayan başlıklar (bölüm başlıkları, kapanış bölümü) şemaya girmez;
+      // ardından gelen paragraflar da bir öncekinin cevabına eklenmez.
+      heading = isQuestionHeading(text) ? text : null;
       bodyLines = [];
     } else if (heading && line.trim() && !line.startsWith("#")) {
       bodyLines.push(line.trim());

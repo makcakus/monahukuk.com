@@ -267,4 +267,25 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       fr: "Nous proposons l'ensemble des services en droit de la propriété intellectuelle, de l'enregistrement de marques et des procédures d'opposition aux litiges relatifs à la contrefaçon de droits d'auteur, en passant par les contrats de licence et de cession de logiciels et les litiges de noms de domaine. À Antalya, nous vous accompagnons dans les démarches de marques, brevets et dessins et modèles devant le TÜRKPATENT, dans la protection des œuvres selon la loi FSEK et dans la due diligence de propriété intellectuelle pour les entreprises technologiques étrangères.",
     },
   },
+  {
+    slug: "arabuluculuk",
+    title: {
+      tr: "Arabuluculuk",
+      en: "Mediation",
+      de: "Mediation",
+      ru: "Медиация",
+      ar: "الوساطة",
+      es: "Mediación",
+      fr: "Médiation",
+    },
+    description: {
+      tr: "6325 sayılı Hukuk Uyuşmazlıklarında Arabuluculuk Kanunu kapsamındaki ihtiyari ve dava şartı arabuluculuk süreçlerinin tümünde vekil olarak yanınızdayız. İşçi alacakları, ticari uyuşmazlıklar, kira ilişkisi, ortaklığın giderilmesi, kat mülkiyeti ve komşu hakkından doğan uyuşmazlıklarda Antalya’da arabuluculuk görüşmelerine katılıyor, anlaşma belgesini hazırlıyor ve icra edilebilirlik şerhini alıyoruz.",
+      en: "We act as counsel throughout every voluntary and mandatory mediation process under Law No. 6325 on Mediation in Civil Disputes. In Antalya we attend mediation sessions in employment claims, commercial disputes, lease relationships, dissolution of joint ownership, condominium and neighbour-law matters, draft the settlement document, and obtain the enforceability annotation.",
+      de: "Wir vertreten Sie in sämtlichen freiwilligen und obligatorischen Mediationsverfahren nach dem Gesetz Nr. 6325 über die Mediation in Zivilrechtsstreitigkeiten. In Antalya nehmen wir an Mediationssitzungen zu Arbeitnehmeransprüchen, Handelsstreitigkeiten, Mietverhältnissen, Aufhebung der Miteigentumsgemeinschaft, Wohnungseigentum und Nachbarrecht teil, erstellen die Vereinbarungsurkunde und erwirken den Vollstreckbarkeitsvermerk.",
+      ru: "Мы выступаем представителями во всех добровольных и обязательных процедурах медиации согласно Закону № 6325 о медиации в гражданских спорах. В Анталье мы участвуем в сессиях медиации по трудовым требованиям, коммерческим спорам, арендным отношениям, разделу общей собственности, вопросам этажной собственности и соседского права, готовим соглашение и получаем отметку об исполнимости.",
+      ar: "نمثلكم في جميع إجراءات الوساطة الاختيارية والإلزامية بموجب القانون رقم 6325 بشأن الوساطة في المنازعات المدنية. في أنطاليا نحضر جلسات الوساطة في مطالبات العمال والمنازعات التجارية وعلاقات الإيجار وإزالة الشيوع والملكية الطابقية وحق الجوار، ونعد وثيقة الاتفاق ونحصل على شرح قابلية التنفيذ.",
+      es: "Actuamos como abogados en todos los procedimientos de mediación voluntaria y obligatoria previstos en la Ley n.º 6325 de Mediación en Conflictos Civiles. En Antalya asistimos a las sesiones de mediación en reclamaciones laborales, litigios mercantiles, relaciones arrendaticias, extinción del condominio, propiedad horizontal y derecho de vecindad, redactamos el documento de acuerdo y obtenemos la anotación de ejecutabilidad.",
+      fr: "Nous intervenons comme conseils dans toutes les procédures de médiation volontaire et obligatoire prévues par la loi n° 6325 sur la médiation en matière civile. À Antalya, nous participons aux séances de médiation portant sur les créances salariales, les litiges commerciaux, les rapports locatifs, le partage de l’indivision, la copropriété et le droit de voisinage, rédigeons le document d’accord et obtenons la mention d’exécutabilité.",
+    },
+  },
 ];
