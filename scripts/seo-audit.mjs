@@ -1,88 +1,120 @@
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
+/**
+ * Tüm makale korpusunun SEO denetimi.
+ *
+ * Kontroller: title/description eksikliği ve uzunlukları (dile duyarlı), aynı
+ * dil içinde tekrar eden title/description, gövdede ikinci H1, gövdede iç
+ * bağlantı yokluğu, FAQPage şeması üretecek kadar gerçek soru bulunup bulunmadığı.
+ *
+ * Kullanım:  node scripts/seo-audit.mjs [--json]
+ */
+import fs from "node:fs";
+import path from "node:path";
+import matter from "gray-matter";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ARTICLES_DIR = path.join(__dirname, "../content/articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const ROOT = path.join(process.cwd(), "content", "articles");
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
 
-let stats = {
-  total: 0,
-  missingTitle: 0,
-  missingDesc: 0,
-  shortTitle: [], // <30
-  longTitle: [],  // >70
-  shortDesc: [],  // <50
-  longDesc: [],   // >160
+/**
+ * SERP genişliği piksel bazlıdır; CJK glifleri Latin harflerin ~2 katı yer
+ * kaplar, bu yüzden zh için sınırlar yarıya iner. Arapça ve Kiril Latin'e yakın.
+ */
+const LIMITS = {
+  zh: { title: [12, 34], desc: [24, 80] },
+  default: { title: [30, 62], desc: [50, 160] },
 };
+const limitFor = (loc) => LIMITS[loc] ?? LIMITS.default;
 
-for (const loc of LOCALES) {
-  const dir = path.join(ARTICLES_DIR, loc);
-  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
+/**
+ * src/lib/articles.ts içindeki extractFaqPairs ile aynı kurallar. Orası
+ * değişirse burası da güncellenmeli — denetim, üretilen şemayı ölçer.
+ */
+const QUESTION_MARK = /[?？؟]/;
+const FAQ_PREFIX = /^(?:S|Q|F|P|В|س|问|問)\s*[:：]\s*/;
+const isQuestionHeading = (h) => QUESTION_MARK.test(h) || FAQ_PREFIX.test(h);
 
-  for (const f of files) {
-    stats.total++;
-    const raw = fs.readFileSync(path.join(dir, f), "utf8");
-    const fmMatch = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
-    if (!fmMatch) continue;
-    const block = fmMatch[1];
+export function auditAll() {
+  const findings = [];
+  const seen = {};
+  LOCALES.forEach((l) => (seen[l] = { title: new Map(), desc: new Map() }));
 
-    // Extract title
-    const titleM = block.match(/^title:\s*["']?(.*?)["']?\s*$/m);
-    const title = titleM ? titleM[1].trim().replace(/^["']|["']$/g, "") : null;
-    if (!title) { stats.missingTitle++; continue; }
+  for (const locale of LOCALES) {
+    const dir = path.join(ROOT, locale);
+    if (!fs.existsSync(dir)) continue;
+    const lim = limitFor(locale);
 
-    // Extract description
-    const descM = block.match(/^description:\s*["']?(.*?)["']?\s*$/m);
-    const desc = descM ? descM[1].trim().replace(/^["']|["']$/g, "") : null;
-    if (!desc) { stats.missingDesc++; continue; }
+    for (const file of fs.readdirSync(dir)) {
+      if (!file.endsWith(".mdx")) continue;
+      const fp = path.join(dir, file);
+      const { data, content } = matter(fs.readFileSync(fp, "utf8"));
+      const id = `${locale}/${file.replace(/\.mdx$/, "")}`;
+      const add = (kind, detail) => findings.push({ locale, id, file: fp, kind, detail });
 
-    const tl = title.length;
-    const dl = desc.length;
-    const ref = `${loc}/${f}`;
+      const title = data.title ?? "";
+      const desc = data.description ?? "";
 
-    if (tl < 30) stats.shortTitle.push({ ref, len: tl, val: title });
-    if (tl > 70) stats.longTitle.push({ ref, len: tl, val: title });
-    if (dl < 50) stats.shortDesc.push({ ref, len: dl, val: desc });
-    if (dl > 160) stats.longDesc.push({ ref, len: dl, val: desc });
+      if (!title) add("title-eksik", "frontmatter'da title yok");
+      if (!desc) add("desc-eksik", "frontmatter'da description yok");
+
+      if (title && title.length > lim.title[1]) add("title-uzun", `${title.length} > ${lim.title[1]}`);
+      if (title && title.length < lim.title[0]) add("title-kisa", `${title.length} < ${lim.title[0]}`);
+      if (desc && desc.length > lim.desc[1]) add("desc-uzun", `${desc.length} > ${lim.desc[1]}`);
+      if (desc && desc.length < lim.desc[0]) add("desc-kisa", `${desc.length} < ${lim.desc[0]}`);
+
+      const prevT = seen[locale].title.get(title);
+      if (prevT) add("title-tekrar", `= ${prevT}`);
+      else seen[locale].title.set(title, id);
+
+      const prevD = seen[locale].desc.get(desc);
+      if (prevD) add("desc-tekrar", `= ${prevD}`);
+      else seen[locale].desc.set(desc, id);
+
+      if (/^# /m.test(content)) add("govdede-h1", "sayfa basligi zaten H1");
+
+      if (![...content.matchAll(/\]\(\/(?:[a-z]{2}\/)?articles\//g)].length)
+        add("ic-baglanti-yok", "govdede /articles/ bagi yok");
+
+      // FAQPage şeması: yalnızca gerçek sorular girer, üç çiftin altında şema basılmaz.
+      const headings = [...content.matchAll(/^#{2,3} (.+)$/gm)].map((m) =>
+        m[1].trim().replace(/\*\*/g, "")
+      );
+      const questions = headings.filter(isQuestionHeading);
+      if (questions.length < 3) add("faq-semasi-yok", `${questions.length} soru — SSS bolumu ekleyin`);
+    }
   }
+  return findings;
 }
 
-console.log("=== SEO Denetim Raporu ===");
-console.log(`Toplam dosya     : ${stats.total}`);
-console.log(`Eksik title      : ${stats.missingTitle}`);
-console.log(`Eksik description: ${stats.missingDesc}`);
-console.log(`Title < 30 char  : ${stats.shortTitle.length}`);
-console.log(`Title > 70 char  : ${stats.longTitle.length}`);
-console.log(`Desc  < 50 char  : ${stats.shortDesc.length}`);
-console.log(`Desc  > 160 char : ${stats.longDesc.length}`);
+if (import.meta.url.endsWith("seo-audit.mjs")) {
+  const findings = auditAll();
 
-if (stats.longDesc.length > 0) {
-  console.log(`\n--- Description >160 karakter (${stats.longDesc.length} dosya) ---`);
-  stats.longDesc.slice(0, 25).forEach((x) =>
-    console.log(`  [${x.len}] ${x.ref}`)
-  );
-  if (stats.longDesc.length > 25)
-    console.log(`  ... ve ${stats.longDesc.length - 25} tane daha`);
-}
+  if (process.argv.includes("--json")) {
+    console.log(JSON.stringify(findings, null, 2));
+    process.exit(0);
+  }
 
-if (stats.longTitle.length > 0) {
-  console.log(`\n--- Title >70 karakter (${stats.longTitle.length} dosya) ---`);
-  stats.longTitle.slice(0, 15).forEach((x) =>
-    console.log(`  [${x.len}] ${x.ref}: ${x.val.slice(0, 60)}...`)
-  );
-}
+  const byKind = {};
+  for (const f of findings) (byKind[f.kind] ??= []).push(f);
 
-if (stats.shortTitle.length > 0) {
-  console.log(`\n--- Title <30 karakter (${stats.shortTitle.length} dosya) ---`);
-  stats.shortTitle.forEach((x) =>
-    console.log(`  [${x.len}] ${x.ref}: "${x.val}"`)
+  const total = LOCALES.reduce(
+    (n, l) => n + (fs.existsSync(path.join(ROOT, l)) ? fs.readdirSync(path.join(ROOT, l)).filter((f) => f.endsWith(".mdx")).length : 0),
+    0
   );
-}
 
-if (stats.shortDesc.length > 0) {
-  console.log(`\n--- Description <50 karakter (${stats.shortDesc.length} dosya) ---`);
-  stats.shortDesc.forEach((x) =>
-    console.log(`  [${x.len}] ${x.ref}: "${x.val}"`)
-  );
+  console.log(`\nSEO denetimi — ${total} makale dosyasi\n${"─".repeat(60)}`);
+  const order = ["title-eksik", "desc-eksik", "desc-uzun", "desc-kisa", "title-uzun", "title-kisa", "title-tekrar", "desc-tekrar", "govdede-h1", "ic-baglanti-yok", "faq-semasi-yok"];
+  for (const kind of order) {
+    const list = byKind[kind] ?? [];
+    const pct = ((list.length / total) * 100).toFixed(0);
+    console.log(`${list.length ? "✗" : "✓"} ${kind.padEnd(22)} ${String(list.length).padStart(5)}  (%${pct})`);
+  }
+  console.log("─".repeat(60));
+
+  // Uzunluk aşımlarının dağılımı — düzeltme stratejisi için
+  const over = (byKind["desc-uzun"] ?? []).map((f) => Number(f.detail.split(" ")[0]));
+  if (over.length) {
+    over.sort((a, b) => a - b);
+    const q = (p) => over[Math.floor((over.length - 1) * p)];
+    console.log(`desc-uzun dagilimi: min ${over[0]}  medyan ${q(0.5)}  p90 ${q(0.9)}  max ${over.at(-1)}`);
+  }
+  console.log();
 }
