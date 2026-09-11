@@ -298,8 +298,14 @@
     "switchToDark": "Switch to dark mode"
   },
   "hukukSozlugu": {
-    "lead": "Search more than 13,000 English legal terms with their Turkish equivalents and a short definition. The terms that come up most often in contract, procedure, criminal, corporate and property law.",
+    "lead": "Search more than 6,500 English legal terms with their Turkish equivalents, and more than 10,600 Turkish terms with their English equivalents. The terms that come up most often in contract, procedure, criminal, corporate and property law.",
     "searchPlaceholder": "Type an English legal term or its Turkish equivalent…",
+    "searchPlaceholderTr": "Type a Turkish legal term or its English equivalent…",
+    "dir": {
+      "label": "Dictionary direction",
+      "enTr": "English → Turkish",
+      "trEn": "Turkish → English"
+    },
     "loadError": "The dictionary data could not be loaded right now. Please refresh the page.",
     "minChars": "Type at least {min} letters to see results.",
     "results": "{count} results",

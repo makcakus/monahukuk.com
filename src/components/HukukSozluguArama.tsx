@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Search, Loader2 } from "lucide-react";
 
+type Yon = "en" | "tr";
+
 type Terim = {
   i: number;
   k: string; // İngilizce kelime
@@ -25,26 +27,37 @@ const SOZ_TURU_ANAHTARI: Record<string, string> = {
   edat: "edat",
 };
 
-const VERI_URL = "/data/hukuk-sozlugu.json";
+// Sozluk iki yonlu: EN->TR ve TR->EN ayri veri dosyalarindan okunur. Kullanici
+// yon degistirene kadar ikinci dosya indirilmez.
+const VERI_URL: Record<Yon, string> = {
+  en: "/data/hukuk-sozlugu.json",
+  tr: "/data/hukuk-sozlugu-tr-en.json",
+};
 const MIN_HARF = 2;
 const MAKS_SONUC = 40;
 
 export function HukukSozluguArama() {
   const t = useTranslations("hukukSozlugu");
-  const [terimler, setTerimler] = useState<Terim[] | null>(null);
+  const [yon, setYon] = useState<Yon>("en");
+  const [veriler, setVeriler] = useState<Partial<Record<Yon, Terim[]>>>({});
   const [sorgu, setSorgu] = useState("");
   const [yukleniyor, setYukleniyor] = useState(true);
   const [hata, setHata] = useState(false);
 
+  const terimler = veriler[yon] ?? null;
+
   useEffect(() => {
+    if (veriler[yon]) return;
     let iptal = false;
-    fetch(VERI_URL)
+    setYukleniyor(true);
+    setHata(false);
+    fetch(VERI_URL[yon])
       .then((r) => {
         if (!r.ok) throw new Error("veri alınamadı");
         return r.json() as Promise<Terim[]>;
       })
       .then((veri) => {
-        if (!iptal) setTerimler(veri);
+        if (!iptal) setVeriler((o) => ({ ...o, [yon]: veri }));
       })
       .catch(() => {
         if (!iptal) setHata(true);
@@ -55,7 +68,7 @@ export function HukukSozluguArama() {
     return () => {
       iptal = true;
     };
-  }, []);
+  }, [yon, veriler]);
 
   const sonuclar = useMemo(() => {
     if (!terimler) return [];
@@ -81,6 +94,29 @@ export function HukukSozluguArama() {
 
   return (
     <div>
+      <div
+        role="group"
+        aria-label={t("dir.label")}
+        className="mb-4 inline-flex rounded-sm border border-cream-300 p-0.5 dark:border-navy-700"
+      >
+        {(["en", "tr"] as const).map((y) => (
+          <button
+            key={y}
+            type="button"
+            onClick={() => setYon(y)}
+            aria-pressed={yon === y}
+            className={
+              "rounded-sm px-4 py-2 text-sm transition-colors " +
+              (yon === y
+                ? "bg-navy-950 text-cream-50 dark:bg-cream-50 dark:text-navy-950"
+                : "text-ink-soft hover:text-navy-950 dark:hover:text-cream-50")
+            }
+          >
+            {t(y === "en" ? "dir.enTr" : "dir.trEn")}
+          </button>
+        ))}
+      </div>
+
       <div className="relative">
         <Search
           size={18}
@@ -90,7 +126,9 @@ export function HukukSozluguArama() {
           type="text"
           value={sorgu}
           onChange={(e) => setSorgu(e.target.value)}
-          placeholder={t("searchPlaceholder")}
+          placeholder={t(
+            yon === "en" ? "searchPlaceholder" : "searchPlaceholderTr",
+          )}
           autoComplete="off"
           spellCheck={false}
           className="w-full rounded-sm border border-cream-300 bg-white/80 py-4 ps-11 pe-4 text-base text-navy-950 placeholder:text-ink-soft/70 focus:border-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-300/50 dark:border-navy-700 dark:bg-navy-900/60 dark:text-cream-50"

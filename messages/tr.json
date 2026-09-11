@@ -298,8 +298,14 @@
     "switchToDark": "Koyu temaya geç"
   },
   "hukukSozlugu": {
-    "lead": "13.000'den fazla İngilizce hukuk teriminin Türkçe karşılığını ve kısa tanımını arayın. Sözleşme, dava usulü, ceza, şirketler ve mülkiyet hukukunda en çok geçen terimler.",
+    "lead": "6.500'ü aşkın İngilizce hukuk terimini Türkçe karşılığıyla, 10.600'ü aşkın Türkçe terimi de İngilizce karşılığıyla arayın. Sözleşme, dava usulü, ceza, şirketler ve mülkiyet hukukunda en çok geçen terimler.",
     "searchPlaceholder": "İngilizce hukuk terimi ya da Türkçe karşılığını yazın…",
+    "searchPlaceholderTr": "Türkçe hukuk terimi ya da İngilizce karşılığını yazın…",
+    "dir": {
+      "label": "Sözlük yönü",
+      "enTr": "İngilizce → Türkçe",
+      "trEn": "Türkçe → İngilizce"
+    },
     "loadError": "Sözlük verisi şu anda yüklenemedi. Lütfen sayfayı yenileyin.",
     "minChars": "Önizleme için en az {min} harf yazın.",
     "results": "{count} sonuç",

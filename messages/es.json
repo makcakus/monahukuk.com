@@ -298,8 +298,14 @@
     "switchToDark": "Cambiar a modo oscuro"
   },
   "hukukSozlugu": {
-    "lead": "Busque entre más de 13.000 términos jurídicos en inglés con su equivalente en turco y una breve definición. Los términos más frecuentes en derecho contractual, procesal, penal, societario y de la propiedad.",
+    "lead": "Busque entre más de 6.500 términos jurídicos en inglés con su equivalente en turco y entre más de 10.600 términos en turco con su equivalente en inglés. Los términos más frecuentes en derecho contractual, procesal, penal, societario y de la propiedad.",
     "searchPlaceholder": "Escriba un término jurídico en inglés o su equivalente en turco…",
+    "searchPlaceholderTr": "Escriba un término jurídico en turco o su equivalente en inglés…",
+    "dir": {
+      "label": "Dirección del diccionario",
+      "enTr": "Inglés → turco",
+      "trEn": "Turco → inglés"
+    },
     "loadError": "No se han podido cargar los datos del diccionario en este momento. Actualice la página.",
     "minChars": "Escriba al menos {min} letras.",
     "results": "{count} resultados",

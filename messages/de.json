@@ -298,8 +298,14 @@
     "switchToDark": "Zum dunklen Modus wechseln"
   },
   "hukukSozlugu": {
-    "lead": "Durchsuchen Sie über 13.000 englische Rechtsbegriffe mit türkischer Entsprechung und Kurzdefinition. Die häufigsten Begriffe aus Vertrags-, Prozess-, Straf-, Gesellschafts- und Sachenrecht.",
+    "lead": "Durchsuchen Sie über 6.500 englische Rechtsbegriffe mit türkischer Entsprechung und über 10.600 türkische Begriffe mit englischer Entsprechung. Die häufigsten Begriffe aus Vertrags-, Prozess-, Straf-, Gesellschafts- und Sachenrecht.",
     "searchPlaceholder": "Englischen Rechtsbegriff oder türkische Entsprechung eingeben…",
+    "searchPlaceholderTr": "Türkischen Rechtsbegriff oder englische Entsprechung eingeben…",
+    "dir": {
+      "label": "Wörterbuchrichtung",
+      "enTr": "Englisch → Türkisch",
+      "trEn": "Türkisch → Englisch"
+    },
     "loadError": "Die Wörterbuchdaten konnten derzeit nicht geladen werden. Bitte laden Sie die Seite neu.",
     "minChars": "Geben Sie mindestens {min} Buchstaben ein.",
     "results": "{count} Treffer",
