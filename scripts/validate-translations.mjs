@@ -49,23 +49,20 @@ const CONTENT_DIR = join(process.cwd(), "content", "articles");
 const TARGET_LOCALES = ["en", "de", "ru", "ar", "es", "fr", "zh"];
 // Bu locale'lerde eksikler build'i engellemez (sadece uyarı verir)
 const WARN_ONLY_LOCALES = new Set(["fr"]);
-// Bu istisna listesi "kademeli çeviri" serileri için kullanılıyor: önce
-// sadece İngilizceye çevrilip DE/RU/AR/ES/ZH'nin sonradan tamamlanması
-// planlanan içerikler, build'i kilitlememek için translationKey soneklerine
-// göre çeviri kontrolünden tamamen muaf tutuluyor (warn-only değil, hiç
-// sayılmaz). TTK serisi (-turkish-commercial-code) bu modelin ilk örneğiydi;
-// 2026-08-04 kararıyla İş Hukuku mevzuatı (-turkish-labour-law), TCK suç
-// makaleleri serisi (-turkish-penal-code, 91 makale) ve CMK konu makaleleri
-// serisi (-turkish-criminal-procedure-code, 22 makale) de aynı şekilde
-// İngilizceye çevrildi; DE/RU/AR/ES/ZH henüz eksik, aynı modelle istisnada
-// tutuluyor.
-const TR_ONLY_KEY_SUFFIXES = [
-  "-turkish-penal-code",
-  "-turkish-criminal-procedure-code",
-  "-turkish-labour-law",
-  // 2026-08-01 kararı — TTK serisi (kademeli çeviri, önce EN)
-  "-turkish-commercial-code",
-];
+// "Kademeli çeviri" istisnası: önce sadece İngilizceye çevrilip DE/RU/AR/ES/ZH'si
+// sonraya bırakılan seriler, build'i kilitlememek için translationKey soneklerine
+// göre çeviri kontrolünden tamamen muaf tutulur (warn-only değil, hiç sayılmaz).
+//
+// 2026-09-09: liste boşaltıldı. Muafiyetteki dört seri — TCK (-turkish-penal-code),
+// CMK (-turkish-criminal-procedure-code), İş Hukuku (-turkish-labour-law) ve TTK
+// (-turkish-commercial-code), toplam 379 makale — bu tarihte yedi dilin tamamında
+// tamamlandı. Muafiyet sürseydi bu serilerdeki yeni bir eksik CI'da görünmezdi;
+// nitekim tek eksik kalan makale (salvage-claim-interest-and-payment-time-…) tam
+// da bu yüzden fark edilmemişti.
+//
+// Yeni bir kademeli seri başlatılırsa sonek buraya eklenir ve seri tamamlanınca
+// yine çıkarılır.
+const TR_ONLY_KEY_SUFFIXES = [];
 function isTrOnly(translationKey) {
   return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
 }
