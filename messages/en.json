@@ -307,7 +307,6 @@
     "intro": "This dictionary comes from the Legal English pack of <b>Remindionary</b>, the English–Turkish dictionary and vocabulary app built by the MONA HUKUK team. The app combines a general dictionary, learning paths by CEFR level, quizzes powered by spaced repetition and this pack of legal terms.",
     "disclaimer": "The entries here are provided for general information and language learning; they are not legal advice. For a specific legal matter, please consult a qualified lawyer.",
     "pos": {
-      "hukuk": "legal",
       "isim": "noun",
       "fiil": "verb",
       "sifat": "adjective",

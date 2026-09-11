@@ -17,7 +17,6 @@ type Terim = {
 // yayinlandigi icin bunlari mesaj dosyalarindaki hukukSozlugu.pos anahtarlarina
 // eslestiriyoruz. Listede olmayan bir deger gelirse ham hali gosterilir.
 const SOZ_TURU_ANAHTARI: Record<string, string> = {
-  hukuk: "hukuk",
   isim: "isim",
   fiil: "fiil",
   "sıfat": "sifat",
@@ -134,7 +133,7 @@ export function HukukSozluguArama() {
                 <span className="font-display text-lg text-navy-950 dark:text-cream-50">
                   {terim.k}
                 </span>
-                {terim.u && (
+                {terim.u && terim.u !== "hukuk" && (
                   <span className="text-xs uppercase tracking-[0.14em] text-gold-700 dark:text-gold-400">
                     {SOZ_TURU_ANAHTARI[terim.u]
                       ? t(`pos.${SOZ_TURU_ANAHTARI[terim.u]}`)

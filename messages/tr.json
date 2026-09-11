@@ -307,7 +307,6 @@
     "intro": "Bu sözlük, MONA HUKUK ekibinin geliştirdiği <b>Remindionary</b> İngilizce-Türkçe sözlük ve kelime öğrenme uygulamasının Hukuk İngilizcesi paketinden alınmıştır. Uygulama; genel sözlük, CEFR seviyelerine göre öğrenme yolları, aralıklı tekrar sistemiyle çalışan quizler ve bu hukuk terimleri paketini bir arada sunar.",
     "disclaimer": "Buradaki terimler genel bilgi ve dil öğrenimi amaçlıdır; hukuki tavsiye niteliği taşımaz. Somut bir hukuki meselede yetkili bir avukata danışınız.",
     "pos": {
-      "hukuk": "hukuk",
       "isim": "isim",
       "fiil": "fiil",
       "sifat": "sıfat",
