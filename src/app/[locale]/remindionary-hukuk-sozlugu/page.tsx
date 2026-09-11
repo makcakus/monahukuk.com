@@ -3,10 +3,12 @@ import { PageHero } from "@/components/PageHero";
 import { HukukSozluguArama } from "@/components/HukukSozluguArama";
 import { pageMetadata } from "@/lib/seo";
 
-// Remindionary (App Store'daki İngilizce-Türkçe sözlük ve kelime öğrenme
-// uygulamamız) icin niş olan Hukuk İngilizcesi paketini web'de aranabilir
-// hale getiren sayfa. Sözlük verisi EN-TR karşılıklı; sayfanın çevresindeki
-// tüm anlatım metinleri ise hukukSozlugu namespace'inden 8 dile çevriliyor.
+// Remindionary'nin (App Store'daki İngilizce-Türkçe sözlük ve kelime öğrenme
+// uygulamamız) Hukuk İngilizcesi paketini web'de aranabilir hale getiren sayfa.
+// Sayfa başlığı her dilde sadece "Hukuk Sözlüğü" olarak görünür; Remindionary
+// adı yalnızca aşağıdaki tanıtım paragrafında geçer. Sözlük iki yönlü (EN-TR ve
+// TR-EN); çevresindeki tüm anlatım metinleri hukukSozlugu namespace'inden
+// 8 dile çevriliyor.
 
 export async function generateMetadata({
   params,
@@ -36,11 +38,7 @@ export default async function HukukSozluguPage({
 
   return (
     <>
-      <PageHero
-        kicker="Remindionary"
-        title={tNav("hukukSozlugu")}
-        lead={t("lead")}
-      />
+      <PageHero title={tNav("hukukSozlugu")} lead={t("lead")} />
       <section className="mx-auto max-w-3xl px-6 py-16">
         <HukukSozluguArama />
 
