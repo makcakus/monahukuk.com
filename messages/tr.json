@@ -310,7 +310,7 @@
     "minChars": "Önizleme için en az {min} harf yazın.",
     "results": "{count} sonuç",
     "noResults": "Eşleşen terim bulunamadı.",
-    "intro": "Bu sözlük, MONA HUKUK ekibinin geliştirdiği <b>Remindionary</b> İngilizce-Türkçe sözlük ve kelime öğrenme uygulamasının Hukuk İngilizcesi paketinden alınmıştır. Uygulama; genel sözlük, CEFR seviyelerine göre öğrenme yolları, aralıklı tekrar sistemiyle çalışan quizler ve bu hukuk terimleri paketini bir arada sunar.",
+    "intro": "Bu sözlük, MONA HUKUK ekibinin geliştirdiği <b>Remindionary</b> İngilizce-Türkçe sözlük ve kelime öğrenme uygulamasının Hukuk İngilizcesi paketinden alınmıştır. Paket, yalnızca bugün fiilen kullanılan hukuk terimleri kalacak şekilde elden geçirildi: eskimiş maddeler ile hukukla ilgisi bulunmayan sıradan kelimeler ayıklandı, kalan terimlerin Türkçe karşılıkları ayrıştırılarak sözlüğün Türkçe-İngilizce yönü oluşturuldu. Uygulama ise genel sözlük, CEFR seviyelerine göre öğrenme yolları ve aralıklı tekrar sistemiyle çalışan quizleri bir arada sunar.",
     "disclaimer": "Buradaki terimler genel bilgi ve dil öğrenimi amaçlıdır; hukuki tavsiye niteliği taşımaz. Somut bir hukuki meselede yetkili bir avukata danışınız.",
     "pos": {
       "isim": "isim",
