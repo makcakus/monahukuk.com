@@ -68,6 +68,7 @@ const CMK_HEADING = "Ceza Muhakemesi Kanunu";
 const IS_HUKUKU_HEADING = "İş Hukuku Mevzuatı";
 const TTK_HEADING = "Türk Ticaret Kanunu";
 const ARABULUCULUK_HEADING = "Arabuluculuk Mevzuatı";
+const YARGI_PAKETLERI_HEADING = "Yargı Paketleri";
 
 export async function generateMetadata({
   params,
@@ -413,10 +414,17 @@ export default async function ArticlesPage({
   }
   for (const cat of byCategory.keys()) {
     if (!seen.has(cat)) {
+      const items = byCategory.get(cat)!;
+      // Yargı paketleri bir seri: 1. paketten sonuncuya doğru okunur. Genel
+      // makale sıralaması en yeniden eskiye olduğundan bu kategoriyi tarihe
+      // göre artan yönde çeviriyoruz ki paketler numara sırasıyla listelensin.
       groups.push({
         category: cat,
         practiceSlug: null,
-        items: byCategory.get(cat)!,
+        items:
+          cat === YARGI_PAKETLERI_HEADING
+            ? [...items].sort((a, b) => (a.date < b.date ? -1 : 1))
+            : items,
       });
     }
   }

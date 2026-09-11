@@ -62,7 +62,11 @@ const WARN_ONLY_LOCALES = new Set(["fr"]);
 //
 // Yeni bir kademeli seri başlatılırsa sonek buraya eklenir ve seri tamamlanınca
 // yine çıkarılır.
-const TR_ONLY_KEY_SUFFIXES = [];
+// 2026-09-11: "Yargı Paketleri" serisi kalıcı olarak yalnızca Türkçe yayımlanır.
+// Kademeli çeviri değil, bilinçli bir editoryal tercih: paketler Türk yargı
+// mevzuatındaki değişiklikleri madde madde izliyor ve hedef kitlesi Türkiye'de
+// uygulama yapan hukukçular. Bu sonek listeden ÇIKARILMAMALIDIR.
+const TR_ONLY_KEY_SUFFIXES = ["-yargi-paketi"];
 function isTrOnly(translationKey) {
   return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
 }
