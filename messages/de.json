@@ -310,7 +310,7 @@
     "minChars": "Geben Sie mindestens {min} Buchstaben ein.",
     "results": "{count} Treffer",
     "noResults": "Kein passender Begriff gefunden.",
-    "intro": "Dieses Wörterbuch stammt aus dem Paket „Legal English“ von <b>Remindionary</b>, der vom MONA HUKUK-Team entwickelten Englisch-Türkisch-Wörterbuch- und Vokabel-App. Das Paket wurde überarbeitet, sodass nur noch heute tatsächlich gebräuchliche Rechtsbegriffe enthalten sind: veraltete Einträge und Alltagswörter ohne juristische Bedeutung wurden entfernt, und aus den türkischen Entsprechungen der verbliebenen Begriffe entstand die Richtung Türkisch-Englisch. Die App selbst vereint ein allgemeines Wörterbuch, Lernpfade nach GER-Niveaus und Quiz mit verteilter Wiederholung.",
+    "intro": "Dieses Wörterbuch stammt aus dem Paket „Legal English“ von <b>Remindionary</b>, der vom MONA HUKUK-Team entwickelten Englisch-Türkisch-Wörterbuch- und Vokabel-App.",
     "disclaimer": "Die Einträge dienen der allgemeinen Information und dem Sprachenlernen; sie stellen keine Rechtsberatung dar. Wenden Sie sich in einer konkreten Rechtsangelegenheit an einen zugelassenen Rechtsanwalt.",
     "pos": {
       "isim": "Substantiv",

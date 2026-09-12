@@ -310,7 +310,7 @@
     "minChars": "Saisissez au moins {min} lettres.",
     "results": "{count} résultats",
     "noResults": "Aucun terme correspondant.",
-    "intro": "Ce dictionnaire provient du module « Anglais juridique » de <b>Remindionary</b>, le dictionnaire anglais-turc et l'application d'apprentissage du vocabulaire développés par l'équipe MONA HUKUK. Le module a été révisé pour ne conserver que les termes juridiques réellement employés aujourd'hui : les entrées obsolètes et les mots courants sans portée juridique ont été retirés, et les équivalents turcs des termes restants ont été extraits pour construire le sens turc-anglais. L'application réunit quant à elle un dictionnaire général, des parcours d'apprentissage par niveaux du CECR et des quiz à répétition espacée.",
+    "intro": "Ce dictionnaire provient du module « Anglais juridique » de <b>Remindionary</b>, le dictionnaire anglais-turc et l'application d'apprentissage du vocabulaire développés par l'équipe MONA HUKUK.",
     "disclaimer": "Les termes présentés ici ont une finalité d'information générale et d'apprentissage linguistique ; ils ne constituent pas un conseil juridique. Pour une question juridique précise, consultez un avocat qualifié.",
     "pos": {
       "isim": "nom",
