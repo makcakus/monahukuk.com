@@ -310,7 +310,7 @@
     "minChars": "Type at least {min} letters to see results.",
     "results": "{count} results",
     "noResults": "No matching term found.",
-    "intro": "This dictionary comes from the Legal English pack of <b>Remindionary</b>, the English-Turkish dictionary and vocabulary-learning app built by the MONA HUKUK team.",
+    "intro": "This dictionary comes from the Legal English pack of <b>Remindionary</b>, the English-Turkish / Turkish-English dictionary and vocabulary-learning app built by the MONA HUKUK team.",
     "disclaimer": "The entries here are provided for general information and language learning; they are not legal advice. For a specific legal matter, please consult a qualified lawyer.",
     "pos": {
       "isim": "noun",

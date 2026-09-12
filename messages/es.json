@@ -310,7 +310,7 @@
     "minChars": "Escriba al menos {min} letras.",
     "results": "{count} resultados",
     "noResults": "No se ha encontrado ningún término.",
-    "intro": "Este diccionario procede del paquete «Inglés Jurídico» de <b>Remindionary</b>, el diccionario inglés-turco y aplicación de aprendizaje de vocabulario desarrollados por el equipo de MONA HUKUK.",
+    "intro": "Este diccionario procede del paquete «Inglés Jurídico» de <b>Remindionary</b>, el diccionario inglés-turco / turco-inglés y aplicación de aprendizaje de vocabulario desarrollados por el equipo de MONA HUKUK.",
     "disclaimer": "Los términos aquí recogidos tienen fines de información general y de aprendizaje de idiomas; no constituyen asesoramiento jurídico. Para un asunto jurídico concreto, consulte a un abogado cualificado.",
     "pos": {
       "isim": "sustantivo",

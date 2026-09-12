@@ -310,7 +310,7 @@
     "minChars": "请至少输入 {min} 个字母。",
     "results": "{count} 条结果",
     "noResults": "未找到匹配的术语。",
-    "intro": "本词典取自 MONA HUKUK 团队开发的英语-土耳其语词典与词汇学习应用 <b>Remindionary</b> 的「法律英语」词包。",
+    "intro": "本词典取自 MONA HUKUK 团队开发的英语-土耳其语／土耳其语-英语词典与词汇学习应用 <b>Remindionary</b> 的「法律英语」词包。",
     "disclaimer": "此处术语仅供一般信息参考与语言学习之用，不构成法律意见。具体法律事务请咨询有资质的律师。",
     "pos": {
       "isim": "名词",
