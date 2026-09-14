@@ -5,8 +5,7 @@
       "name": "mona-site",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "port": 3000,
-      "cwd": "C:\\Users\\avmus\\mona-site"
+      "port": 3000
     }
   ]
 }
