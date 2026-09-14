@@ -13,7 +13,6 @@ import { personSchema } from "@/lib/schema";
 const PHOTO_BY_NAME: Record<string, string> = {
   "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
   "Av. Murat BOSTAN": "/team/murat.jpeg",
-  "Stj. Av. Tuğba Yazar": "/team/tugba.jpeg",
 };
 
 export async function generateMetadata({
