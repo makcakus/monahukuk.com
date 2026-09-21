@@ -127,10 +127,8 @@ function trArticleSlugRedirects() {
     const trSlug = byLocale.tr;
     if (!trSlug) continue; // bu tarama sadece TR'de var olan slug'ları hedefliyor
 
-    const unprefixedFallback = byLocale.en
-      ? `/en/articles/${byLocale.en}`
-      : `/tr/articles/${trSlug}`;
-    push(`/articles/${trSlug}`, unprefixedFallback);
+    // Locale'siz /articles/<türkçe-slug> kuralları burada değil,
+    // unprefixedTrSlugRedirects()'te üretiliyor (tüm TR slug'larını kapsar).
 
     for (const locale of ARTICLE_LOCALES) {
       if (locale === "tr") continue;
@@ -149,6 +147,32 @@ function trArticleSlugRedirects() {
   }
 
   return redirects;
+}
+
+// Locale prefix'siz /articles/<slug> URL'leri, site tek dilli (Türkçe) olduğu
+// dönemden kalma eski linklerdir — slug'ları da bu yüzden Türkçedir. Aşağıdaki
+// catch-all bunları koşulsuz /en/'e gönderiyordu: Türkçe slug'la gelen okuyucu
+// İngilizce makaleye düşüyor, İngilizce karşılığı farklı slug'ta olan
+// makalelerde ise /en/articles/<türkçe-slug> 404'e çarpıyordu (GSC
+// "Bulunamadı (404)" raporunun kaynağı). Her gerçek TR slug'ı için açık kural
+// üretip catch-all'ın önüne koyuyoruz; catch-all yalnızca İngilizce/bilinmeyen
+// slug'lara kalıyor.
+function unprefixedTrSlugRedirects() {
+  const dir = path.join(process.cwd(), "content", "articles", "tr");
+  let files: string[] = [];
+  try {
+    files = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx"));
+  } catch {
+    return [];
+  }
+  return files.map((f) => {
+    const slug = f.replace(/\.mdx$/, "");
+    return {
+      source: `/articles/${slug}`,
+      destination: `/tr/articles/${slug}`,
+      permanent: true,
+    };
+  });
 }
 
 const nextConfig: NextConfig = {
@@ -208,7 +232,14 @@ const nextConfig: NextConfig = {
       { source: "/articles/family-residence-permit-spouse-turkish-citizen", destination: "/en/articles/family-residence-permit-spouse-turkish-citizen", permanent: true },
       { source: "/articles/cybercrime-charges-foreigners-turkey", destination: "/en/articles/cybercrime-charges-foreigners-turkey", permanent: true },
       { source: "/articles/ogrenci-ikamet-izninden-calisma-izni-gecis", destination: "/tr/articles/ogrenci-ikamet-izninden-calisma-izni-gecis", permanent: true },
-      // Catch-all: locale'siz İngilizce slug → EN
+      // "ttk-350" typo (doğrusu "tbk-350" — ihtiyaç nedeniyle tahliye TBK m.350,
+      // TTK değil). Hiçbir dilde bu slug'la makale yok; catch-all'a düşerse 404.
+      { source: "/articles/ihtiyac-nedeniyle-tahliye-ttk-350", destination: "/tr/articles/ihtiyac-nedeniyle-tahliye-tbk-350", permanent: true },
+      { source: "/:locale(tr|en|de|ru|ar|es|fr|zh)/articles/ihtiyac-nedeniyle-tahliye-ttk-350", destination: "/:locale/articles/ihtiyac-nedeniyle-tahliye-tbk-350", permanent: true },
+      // Locale'siz TÜRKÇE slug → TR (build anında içerikten üretilir).
+      // Catch-all'dan önce gelmeli.
+      ...unprefixedTrSlugRedirects(),
+      // Catch-all: locale'siz İngilizce/bilinmeyen slug → EN
       { source: "/articles/:slug+", destination: "/en/articles/:slug+", permanent: true },
 
       // ── TR locale'de İngilizce slug → doğru Türkçe slug ───────────────────────
