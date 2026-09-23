@@ -1,20 +1,20 @@
 import type { ReactNode } from "react";
 
-/** U+00B7 MIDDLE DOT — taban noktası değil, x-yüksekliğinin ortasına oturur. */
-const MIDDLE_DOT = "·";
+/** U+002E FULL STOP — taban çizgisine oturur (orta nokta "·" değil). */
+const DOT = ".";
 
-/** "MONA" -> "M·O·N·A" */
+/** "MONA" -> "M.O.N.A." — son harften sonra da nokta var. */
 export function acronymize(word: string): string {
-  return word.split("").join(MIDDLE_DOT);
+  return word.split("").join(DOT) + DOT;
 }
 
 /**
- * Marka yazısı. İlk kelime (MONA) orta noktalarla ayrılır çünkü bir
+ * Marka yazısı. İlk kelime (MONA) noktalarla ayrılır çünkü bir
  * kısaltmadır: Memnuniyet Odaklı Nitelikli Avukatlık.
  *
  * Ayrım YALNIZCA görseldir. Ekran okuyucuya ve belge planına gerçek ad
  * verilir; metadata, OpenGraph ve Schema.org'a hiç dokunulmaz — oralarda
- * "M·O·N·A HUKUK" arama sonuçlarını ve yapılandırılmış veriyi bozardı.
+ * "M.O.N.A. HUKUK" arama sonuçlarını ve yapılandırılmış veriyi bozardı.
  */
 export function Wordmark({ name }: { name: string }): ReactNode {
   const [first, ...rest] = name.split(" ");
