@@ -21,7 +21,7 @@ export function Wordmark({ name }: { name: string }): ReactNode {
   const tail = rest.length ? ` ${rest.join(" ")}` : "";
   return (
     <>
-      <span aria-hidden="true">
+      <span aria-hidden="true" dir="ltr">
         {acronymize(first)}
         {tail}
       </span>

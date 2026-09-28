@@ -88,6 +88,7 @@ export function Header() {
             <span
               key={i}
               aria-hidden="true"
+              dir="ltr"
               className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
             >
               {i === 0 ? acronymize(word) : word}
