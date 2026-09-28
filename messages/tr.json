@@ -311,6 +311,11 @@
     "results": "{count} sonuç",
     "noResults": "Eşleşen terim bulunamadı.",
     "intro": "Bu sözlük, MONA HUKUK ekibinin geliştirdiği <b>Remindionary</b> İngilizce-Türkçe / Türkçe-İngilizce sözlük ve kelime öğrenme uygulamasının Hukuk İngilizcesi paketinden alınmıştır.",
+    "app": {
+      "heading": "Sözlüğün tamamı cebinizde",
+      "body": "Bu sayfadaki Hukuk İngilizcesi terimlerinin tamamı, aradığınız her kelimeyi otomatik kaydeden listesi ve aralıklı tekrar quizleriyle birlikte Remindionary uygulamasında. Ücretsiz; internet bağlantısı gerektirmez.",
+      "badgeAlt": "App Store'dan indirin"
+    },
     "disclaimer": "Buradaki terimler genel bilgi ve dil öğrenimi amaçlıdır; hukuki tavsiye niteliği taşımaz. Somut bir hukuki meselede yetkili bir avukata danışınız.",
     "pos": {
       "isim": "isim",

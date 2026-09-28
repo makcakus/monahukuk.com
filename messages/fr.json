@@ -311,6 +311,11 @@
     "results": "{count} résultats",
     "noResults": "Aucun terme correspondant.",
     "intro": "Ce dictionnaire provient du module « Anglais juridique » de <b>Remindionary</b>, le dictionnaire anglais-turc / turc-anglais et l'application d'apprentissage du vocabulaire développés par l'équipe MONA HUKUK.",
+    "app": {
+      "heading": "Tout le dictionnaire dans votre poche",
+      "body": "Tous les termes d'anglais juridique de cette page figurent dans l'application Remindionary, avec une liste qui enregistre chaque mot consulté et des quiz à répétition espacée. Gratuite et utilisable sans connexion internet.",
+      "badgeAlt": "Télécharger dans l'App Store"
+    },
     "disclaimer": "Les termes présentés ici ont une finalité d'information générale et d'apprentissage linguistique ; ils ne constituent pas un conseil juridique. Pour une question juridique précise, consultez un avocat qualifié.",
     "pos": {
       "isim": "nom",

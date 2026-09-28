@@ -311,6 +311,11 @@
     "results": "{count} results",
     "noResults": "No matching term found.",
     "intro": "This dictionary comes from the Legal English pack of <b>Remindionary</b>, the English-Turkish / Turkish-English dictionary and vocabulary-learning app built by the MONA HUKUK team.",
+    "app": {
+      "heading": "The whole dictionary in your pocket",
+      "body": "Every Legal English term on this page is in the Remindionary app, along with a list that saves each word you look up and spaced-repetition quizzes. Free, and it works without an internet connection.",
+      "badgeAlt": "Download on the App Store"
+    },
     "disclaimer": "The entries here are provided for general information and language learning; they are not legal advice. For a specific legal matter, please consult a qualified lawyer.",
     "pos": {
       "isim": "noun",
