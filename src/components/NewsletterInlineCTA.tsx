@@ -1,8 +1,10 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { useLocale } from "next-intl";
 import { CheckCircle, MailCheck, Mail } from "lucide-react";
+import { GoogleSignupButton } from "./GoogleSignupButton";
+import { useRouter } from "@/i18n/navigation";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
 type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
@@ -215,10 +217,17 @@ export function NewsletterInlineCTA({
   const localeRaw = useLocale();
   const locale: Locale = isLocale(localeRaw) ? localeRaw : "tr";
   const c = COPY[locale];
-  const [state, formAction, isPending] = useActionState<NewsletterState, FormData>(
+  const router = useRouter();
+  const [formState, formAction, isPending] = useActionState<NewsletterState, FormData>(
     subscribeToNewsletter,
     null
   );
+  const [googleState, setGoogleState] = useState<NewsletterState>(null);
+  const state = googleState ?? formState;
+  const handleGoogle = (s: NewsletterState) => {
+    if (s?.status === "subscribed") router.push("/newsletter/confirmed");
+    else setGoogleState(s);
+  };
 
   const wrapperBase =
     "rounded-xl border border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-900";
@@ -290,7 +299,7 @@ export function NewsletterInlineCTA({
         </div>
       </div>
 
-      <form action={formAction} className="space-y-3">
+      <form action={(fd) => { setGoogleState(null); formAction(fd); }} className="space-y-3">
         <input type="hidden" name="locale" value={locale} />
         <div className="flex flex-col sm:flex-row gap-2">
           <input
@@ -328,6 +337,7 @@ export function NewsletterInlineCTA({
           </p>
         )}
 
+        <GoogleSignupButton onResult={handleGoogle} />
       </form>
     </div>
   );

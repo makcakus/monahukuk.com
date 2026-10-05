@@ -2,13 +2,14 @@
 
 import { headers } from "next/headers";
 import { createConfirmToken, createUnsubToken } from "@/lib/newsletter-jwt";
-import { sendVerifyEmail } from "@/lib/mail";
+import { addToResendAudience, sendVerifyEmail } from "@/lib/mail";
 
 export type NewsletterStatus =
   | "idle"
   | "pending"
   | "alreadyConfirmed"
   | "resent"
+  | "subscribed"
   | "error";
 
 export type NewsletterState = {
@@ -103,4 +104,62 @@ export async function subscribeToNewsletter(
   }
 
   return { status: "pending", errorKey: "" };
+}
+
+/**
+ * Google ile kayıt: GIS'ten gelen ID token Google'ın tokeninfo uç noktasında
+ * doğrulanır. E-posta Google tarafından doğrulanmış olduğundan çift onay
+ * (doğrulama maili) atlanır ve kişi doğrudan listeye eklenir.
+ */
+export async function subscribeWithGoogle(
+  credential: string,
+  localeRaw: string,
+  consent: boolean
+): Promise<NewsletterState> {
+  const locale = normalizeLocale(localeRaw);
+  if (!consent) return { status: "error", errorKey: "consentRequired" };
+
+  const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
+  if (!clientId || !credential) {
+    return { status: "error", errorKey: "serverError" };
+  }
+
+  let email = "";
+  try {
+    const res = await fetch(
+      `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`
+    );
+    if (!res.ok) return { status: "error", errorKey: "serverError" };
+    const info = (await res.json()) as {
+      aud?: string;
+      email?: string;
+      email_verified?: string | boolean;
+      iss?: string;
+    };
+    const verified = info.email_verified === true || info.email_verified === "true";
+    const issuerOk =
+      info.iss === "accounts.google.com" ||
+      info.iss === "https://accounts.google.com";
+    if (info.aud !== clientId || !issuerOk || !verified || !info.email) {
+      return { status: "error", errorKey: "serverError" };
+    }
+    email = info.email.trim().toLowerCase();
+  } catch {
+    return { status: "error", errorKey: "serverError" };
+  }
+
+  const ip = await getClientIp();
+  console.log(
+    `[Newsletter] consent(google) email=${email} locale=${locale} ip=${ip ?? "-"} ts=${new Date().toISOString()}`
+  );
+
+  if (await isAlreadySubscribed(email)) {
+    return { status: "alreadyConfirmed", errorKey: "" };
+  }
+
+  await addToResendAudience(email, locale);
+  console.log(
+    `[Newsletter] confirmed(google) email=${email} locale=${locale} ts=${new Date().toISOString()}`
+  );
+  return { status: "subscribed", errorKey: "" };
 }

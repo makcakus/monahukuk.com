@@ -1,18 +1,27 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { CheckCircle, MailCheck } from "lucide-react";
+import { GoogleSignupButton } from "./GoogleSignupButton";
+import { useRouter } from "@/i18n/navigation";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
 export function NewsletterBanner() {
   const t = useTranslations("newsletter");
   const locale = useLocale();
   if (locale !== "tr") return null;
-  const [state, formAction, isPending] = useActionState<NewsletterState, FormData>(
+  const router = useRouter();
+  const [formState, formAction, isPending] = useActionState<NewsletterState, FormData>(
     subscribeToNewsletter,
     null
   );
+  const [googleState, setGoogleState] = useState<NewsletterState>(null);
+  const state = googleState ?? formState;
+  const handleGoogle = (s: NewsletterState) => {
+    if (s?.status === "subscribed") router.push("/newsletter/confirmed");
+    else setGoogleState(s);
+  };
 
   if (state?.status === "alreadyConfirmed") {
     return (
@@ -50,7 +59,7 @@ export function NewsletterBanner() {
 
         <p className="text-sm text-navy-900 mb-6 leading-relaxed">{t("body")}</p>
 
-        <form action={formAction} className="space-y-3">
+        <form action={(fd) => { setGoogleState(null); formAction(fd); }} className="space-y-3">
           <input type="hidden" name="locale" value={locale} />
           <div className="flex flex-col sm:flex-row gap-2">
             <input
@@ -84,6 +93,7 @@ export function NewsletterBanner() {
             <p className="text-xs text-red-700">{t(state.errorKey)}</p>
           )}
 
+          <GoogleSignupButton onResult={handleGoogle} tone="dark" />
         </form>
       </div>
     </div>
