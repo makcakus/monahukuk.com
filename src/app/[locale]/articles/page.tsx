@@ -4,64 +4,22 @@ import { getArticleSearchIndex } from "@/lib/articles";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 import { pageMetadata } from "@/lib/seo";
 import { ArticlesBrowser, type BrowserGroup, type BrowserSubgroup } from "@/components/ArticlesBrowser";
-import { TCK_GROUP_ORDER, getTckGroup, isTckArticle } from "@/lib/tck-groups";
-import { CMK_GROUP_ORDER, getCmkGroup, isCmkArticle } from "@/lib/cmk-groups";
 import {
-  IS_HUKUKU_GROUP_ORDER,
-  getIsHukukuGroup,
-  isIsHukukuMevzuatArticle,
-} from "@/lib/is-hukuku-groups";
-import {
-  ARABULUCULUK_GROUP_ORDER,
-  getArabuluculukGroup,
-  isArabuluculukMevzuatArticle,
-} from "@/lib/arabuluculuk-groups";
-import { TTK_GROUP_ORDER, getTtkGroup, isTtkArticle } from "@/lib/ttk-groups";
-import {
-  TTK_BOOK2_GENEL_GROUP_ORDER,
-  getTtkBook2GenelGroup,
-  isTtkBook2GenelArticle,
-} from "@/lib/ttk-book2-genel-hukumler-groups";
-import {
-  TTK_BOOK2_KOLLEKTIF_GROUP_ORDER,
-  getTtkBook2KollektifGroup,
-  isTtkBook2KollektifArticle,
-} from "@/lib/ttk-book2-kollektif-sirket-groups";
-import {
-  TTK_BOOK2_KOMANDIT_GROUP_ORDER,
-  getTtkBook2KomanditGroup,
-  isTtkBook2KomanditArticle,
-} from "@/lib/ttk-book2-komandit-sirket-groups";
-import {
-  TTK_BOOK2_ANONIM_GROUP_ORDER,
-  getTtkBook2AnonimGroup,
-  isTtkBook2AnonimArticle,
-} from "@/lib/ttk-book2-anonim-sirket-groups";
-import {
-  TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER,
-  getTtkBook2SpbKomanditGroup,
-  isTtkBook2SpbKomanditArticle,
-} from "@/lib/ttk-book2-spb-komandit-sirket-groups";
-import {
-  TTK_BOOK2_LIMITED_GROUP_ORDER,
-  getTtkBook2LimitedGroup,
-  isTtkBook2LimitedArticle,
-} from "@/lib/ttk-book2-limited-sirket-groups";
-import {
-  TTK_KIYMETLI_EVRAK_GROUP_ORDER,
-  getTtkKiymetliEvrakGroup,
-  isTtkKiymetliEvrakArticle,
-} from "@/lib/ttk-kiymetli-evrak-groups";
-import {
-  TTK_TASIMA_ISLERI_GROUP_ORDER,
-  getTtkTasimaIsleriGroup,
-  isTtkTasimaIsleriArticle,
-} from "@/lib/ttk-tasima-isleri-groups";
-import {
-  TTK_DENIZ_TICARETI_GROUP_ORDER,
-  getTtkDenizTicaretiGroup,
-  isTtkDenizTicaretiArticle,
-} from "@/lib/ttk-deniz-ticareti-groups";
+  TCK_GROUP_ORDER, getTckGroup, isTckArticle,
+  CMK_GROUP_ORDER, getCmkGroup, isCmkArticle,
+  IS_HUKUKU_GROUP_ORDER, getIsHukukuGroup, isIsHukukuMevzuatArticle,
+  ARABULUCULUK_GROUP_ORDER, getArabuluculukGroup, isArabuluculukMevzuatArticle,
+  TTK_GROUP_ORDER, getTtkGroup, isTtkArticle,
+  TTK_BOOK2_GENEL_GROUP_ORDER, getTtkBook2GenelGroup, isTtkBook2GenelArticle,
+  TTK_BOOK2_KOLLEKTIF_GROUP_ORDER, getTtkBook2KollektifGroup, isTtkBook2KollektifArticle,
+  TTK_BOOK2_KOMANDIT_GROUP_ORDER, getTtkBook2KomanditGroup, isTtkBook2KomanditArticle,
+  TTK_BOOK2_ANONIM_GROUP_ORDER, getTtkBook2AnonimGroup, isTtkBook2AnonimArticle,
+  TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER, getTtkBook2SpbKomanditGroup, isTtkBook2SpbKomanditArticle,
+  TTK_BOOK2_LIMITED_GROUP_ORDER, getTtkBook2LimitedGroup, isTtkBook2LimitedArticle,
+  TTK_KIYMETLI_EVRAK_GROUP_ORDER, getTtkKiymetliEvrakGroup, isTtkKiymetliEvrakArticle,
+  TTK_TASIMA_ISLERI_GROUP_ORDER, getTtkTasimaIsleriGroup, isTtkTasimaIsleriArticle,
+  TTK_DENIZ_TICARETI_GROUP_ORDER, getTtkDenizTicaretiGroup, isTtkDenizTicaretiArticle,
+} from "@/lib/legal-code-groups";
 
 const TCK_HEADING = "Türk Ceza Kanunu";
 const CMK_HEADING = "Ceza Muhakemesi Kanunu";

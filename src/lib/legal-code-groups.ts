@@ -1,3 +1,1382 @@
+// ============================================================
+// tck-groups.ts
+// ============================================================
+
+// TCK (Türk Ceza Kanunu) Özel Hükümler'deki suç makalelerini kanunun resmi
+// kısım/bölüm sistematiğine göre gruplamak için kullanılır. Yalnızca
+// "Türk Ceza Kanunu - Tüm Suçlar" makale grubunda (tr locale, articles
+// sayfası) kullanılır; çalışma alanları sayfalarını etkilemez.
+
+export const TCK_GROUP_ORDER: string[] = [
+  "Soykırım ve İnsanlığa Karşı Suçlar",
+  "Göçmen Kaçakçılığı ve İnsan Ticareti Suçları",
+  "Hayata Karşı Suçlar",
+  "Vücut Dokunulmazlığına Karşı Suçlar",
+  "İşkence ve Eziyet",
+  "Koruma, Gözetim, Yardım veya Bildirim Yükümlülüğüne İlişkin Suçlar",
+  "Cinsel Dokunulmazlığa Karşı Suçlar",
+  "Hürriyete Karşı Suçlar",
+  "Şerefe Karşı Suçlar",
+  "Özel Hayata ve Hayatın Gizli Alanına Karşı Suçlar",
+  "Malvarlığına Karşı Suçlar",
+  "Genel Tehlike Yaratan Suçlar",
+  "Çevreye Karşı Suçlar",
+  "Kamunun Sağlığına Karşı Suçlar",
+  "Kamu Güvenine Karşı Suçlar",
+  "Kamu Barışına Karşı Suçlar",
+  "Ulaşım Araçlarına veya Sabit Platformlara Karşı Suçlar",
+  "Genel Ahlaka Karşı Suçlar",
+  "Aile Düzenine Karşı Suçlar",
+  "Ekonomi, Sanayi ve Ticarete İlişkin Suçlar",
+  "Bilişim Alanında Suçlar",
+  "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "Adliyeye Karşı Suçlar",
+  "Devletin Egemenlik Alametlerine ve Organlarının Saygınlığına Karşı Suçlar",
+  "Devletin Güvenliğine Karşı Suçlar",
+  "Anayasal Düzene ve Bu Düzenin İşleyişine Karşı Suçlar",
+  "Milli Savunmaya Karşı Suçlar",
+  "Devlet Sırlarına Karşı Suçlar ve Casusluk",
+  "Yabancı Devletlerle Olan İlişkilere Karşı Suçlar",
+];
+
+// slug -> TCK_GROUP_ORDER içindeki başlık. Madde numarası sırasıyla,
+// TCK'nın resmi kısım/bölüm başlıklarına göre atanmıştır.
+const TCK_SLUG_TO_GROUP: Record<string, string> = {
+  "soykirim-sucu-tck-76": "Soykırım ve İnsanlığa Karşı Suçlar",
+  "insanliga-karsi-suclar-tck-77": "Soykırım ve İnsanlığa Karşı Suçlar",
+  "uluslararasi-suc-orgutu-tck-78": "Soykırım ve İnsanlığa Karşı Suçlar",
+  "gocmen-kacakciligi-sucu-tck-79": "Göçmen Kaçakçılığı ve İnsan Ticareti Suçları",
+  "insan-ticareti-sucu-tck-80": "Göçmen Kaçakçılığı ve İnsan Ticareti Suçları",
+
+  "kasten-oldurme-sucu-tck-81": "Hayata Karşı Suçlar",
+  "intihara-yonlendirme-sucu-tck-84": "Hayata Karşı Suçlar",
+  "taksirle-oldurme-sucu-tck-85": "Hayata Karşı Suçlar",
+
+  "kasten-yaralama-sucu-tck-86": "Vücut Dokunulmazlığına Karşı Suçlar",
+  "neticesi-sebebiyle-agirlasmis-yaralama-tck-87": "Vücut Dokunulmazlığına Karşı Suçlar",
+  "taksirle-yaralama-sucu-tck-89": "Vücut Dokunulmazlığına Karşı Suçlar",
+  "insan-uzerinde-deney-sucu-tck-90": "Vücut Dokunulmazlığına Karşı Suçlar",
+  "organ-veya-doku-ticareti-sucu-tck-91": "Vücut Dokunulmazlığına Karşı Suçlar",
+
+  "iskence-sucu-tck-94": "İşkence ve Eziyet",
+  "eziyet-sucu-tck-96": "İşkence ve Eziyet",
+
+  "terk-ve-yardim-bildirim-yukumlulugu-tck-97": "Koruma, Gözetim, Yardım veya Bildirim Yükümlülüğüne İlişkin Suçlar",
+  "cocuk-dusurtme-dusurme-kisirlastirma-tck-99": "Koruma, Gözetim, Yardım veya Bildirim Yükümlülüğüne İlişkin Suçlar",
+
+  "cinsel-saldiri-sucu-tck-102": "Cinsel Dokunulmazlığa Karşı Suçlar",
+  "cocuklarin-cinsel-istismari-tck-103": "Cinsel Dokunulmazlığa Karşı Suçlar",
+  "cinsel-taciz-sucu-tck-105": "Cinsel Dokunulmazlığa Karşı Suçlar",
+
+  "tehdit-sucu-tck-106": "Hürriyete Karşı Suçlar",
+  "santaj-sucu-tck-107": "Hürriyete Karşı Suçlar",
+  "cebir-sucu-tck-108": "Hürriyete Karşı Suçlar",
+  "kisiyi-hurriyetinden-yoksun-kilma-tck-109": "Hürriyete Karşı Suçlar",
+  "hurriyete-karsi-engelleme-suclari-tck-112": "Hürriyete Karşı Suçlar",
+  "konut-dokunulmazliginin-ihlali-tck-116": "Hürriyete Karşı Suçlar",
+  "is-ve-calisma-hurriyetinin-ihlali-tck-117": "Hürriyete Karşı Suçlar",
+  "haksiz-arama-ve-dilekce-hakki-tck-120": "Hürriyete Karşı Suçlar",
+  "nefret-ve-ayirimcilik-sucu-tck-122": "Hürriyete Karşı Suçlar",
+  "kisilerin-huzur-ve-sukununu-bozma-tck-123": "Hürriyete Karşı Suçlar",
+  "israrli-takip-sucu-tck-123a": "Hürriyete Karşı Suçlar",
+  "haberlesmenin-engellenmesi-tck-124": "Hürriyete Karşı Suçlar",
+
+  "hakaret-sucu-tck-125": "Şerefe Karşı Suçlar",
+
+  "haberlesmenin-gizliligini-ihlal-tck-132": "Özel Hayata ve Hayatın Gizli Alanına Karşı Suçlar",
+  "ozel-hayatin-gizliligini-ihlal-tck-134": "Özel Hayata ve Hayatın Gizli Alanına Karşı Suçlar",
+  "kisisel-verilere-karsi-suclar-tck-135": "Özel Hayata ve Hayatın Gizli Alanına Karşı Suçlar",
+
+  "hirsizlik-sucu-tck-141": "Malvarlığına Karşı Suçlar",
+  "yagma-sucu-tck-148": "Malvarlığına Karşı Suçlar",
+  "mala-zarar-verme-sucu-tck-151": "Malvarlığına Karşı Suçlar",
+  "guveni-kotuye-kullanma-sucu-tck-155": "Malvarlığına Karşı Suçlar",
+  "dolandiricilik-sucu-tck-157": "Malvarlığına Karşı Suçlar",
+  "kaybolmus-esya-ve-karsiliksiz-yararlanma-tck-160": "Malvarlığına Karşı Suçlar",
+  "iflas-suclari-tck-161": "Malvarlığına Karşı Suçlar",
+  "suc-esyasi-ve-ortak-hukumler-tck-165": "Malvarlığına Karşı Suçlar",
+
+  "genel-guvenligin-tehlikeye-sokulmasi-tck-170": "Genel Tehlike Yaratan Suçlar",
+  "genel-tehlike-suclarinin-ozel-gorunumleri-tck-172": "Genel Tehlike Yaratan Suçlar",
+  "trafik-guvenligini-tehlikeye-sokma-tck-179": "Genel Tehlike Yaratan Suçlar",
+
+  "cevreye-karsi-suclar-tck-181": "Çevreye Karşı Suçlar",
+
+  "tehlikeli-gida-ilac-ve-zehirli-madde-suclari-tck-185": "Kamunun Sağlığına Karşı Suçlar",
+  "uyusturucu-madde-sucu-tck-188": "Kamunun Sağlığına Karşı Suçlar",
+  "bulasici-hastalik-ve-usulsuz-olu-gomulmesi-tck-195": "Kamunun Sağlığına Karşı Suçlar",
+
+  "parada-ve-kiymetli-damgada-sahtecilik-tck-197": "Kamu Güvenine Karşı Suçlar",
+  "muhurde-sahtecilik-ve-muhur-bozma-tck-202": "Kamu Güvenine Karşı Suçlar",
+  "resmi-belgede-sahtecilik-tck-204": "Kamu Güvenine Karşı Suçlar",
+  "ozel-belgede-sahtecilik-tck-207": "Kamu Güvenine Karşı Suçlar",
+
+  "kamu-baris-suclari-tahrik-ve-tehdit-tck-213": "Kamu Barışına Karşı Suçlar",
+  "nefret-tahriki-ve-kanunlara-karsi-gelme-tck-216": "Kamu Barışına Karşı Suçlar",
+  "suc-islemek-amaciyla-orgut-kurma-tck-220": "Kamu Barışına Karşı Suçlar",
+
+  "ulasim-araclarina-karsi-suclar-tck-223": "Ulaşım Araçlarına veya Sabit Platformlara Karşı Suçlar",
+
+  "hayasizca-hareketler-ve-mustehcenlik-tck-225": "Genel Ahlaka Karşı Suçlar",
+  "fuhus-kumar-icin-yer-saglama-ve-dilencilik-tck-227": "Genel Ahlaka Karşı Suçlar",
+
+  "aile-duzenine-karsi-suclar-i-tck-230": "Aile Düzenine Karşı Suçlar",
+  "kotu-muamele-ve-cocugun-kacirilmasi-tck-232": "Aile Düzenine Karşı Suçlar",
+
+  "ihaleye-ve-edimin-ifasina-fesat-karistirma-tck-235": "Ekonomi, Sanayi ve Ticarete İlişkin Suçlar",
+  "ekonomiye-ve-ticarete-iliskin-suclar-tck-238": "Ekonomi, Sanayi ve Ticarete İlişkin Suçlar",
+
+  "bilisim-sistemine-girme-ve-sistemi-bozma-tck-243": "Bilişim Alanında Suçlar",
+  "banka-veya-kredi-kartlarinin-kotuye-kullanilmasi-tck-245": "Bilişim Alanında Suçlar",
+
+  "zimmet-sucu-tck-247": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "irtikap-ve-denetim-ihmali-tck-250": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "rusvet-sucu-tck-252": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "nufuz-ticareti-ve-zor-kullanma-siniri-tck-255": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "gorevi-kotuye-kullanma-sucu-tck-257": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "sirrin-aciklanmasi-ticaret-ve-gorev-terki-tck-258": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "usulsuz-tasarruf-usurpasyon-ve-egitim-kurumu-tck-261": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+  "usulsuz-kiyafet-direnme-ve-arac-kullanma-tck-264": "Kamu İdaresinin Güvenilirliğine ve İşleyişine Karşı Suçlar",
+
+  "iftira-ve-kimlik-bilgilerinin-kullanilmasi-tck-267": "Adliyeye Karşı Suçlar",
+  "suc-ustlenme-ve-suc-uydurma-tck-270": "Adliyeye Karşı Suçlar",
+  "yalan-taniklik-ve-yalan-yere-yemin-tck-272": "Adliyeye Karşı Suçlar",
+  "gercege-aykiri-bilirkisilik-ve-tercumanlik-tck-276": "Adliyeye Karşı Suçlar",
+  "sucu-bildirmeme-tck-278": "Adliyeye Karşı Suçlar",
+  "delil-karartma-ve-suchluyu-kayirma-tck-281": "Adliyeye Karşı Suçlar",
+  "adli-gizlilik-kayit-ve-muayene-tck-285": "Adliyeye Karşı Suçlar",
+  "muhafaza-gorevi-ve-infaz-kurumu-suclari-tck-289": "Adliyeye Karşı Suçlar",
+
+  "cumhurbaskanina-hakaret-ve-egemenlik-alametleri-tck-299": "Devletin Egemenlik Alametlerine ve Organlarının Saygınlığına Karşı Suçlar",
+  "devletin-guvenligine-karsi-suclar-tck-302": "Devletin Güvenliğine Karşı Suçlar",
+  "anayasal-duzene-karsi-suclar-tck-309": "Anayasal Düzene ve Bu Düzenin İşleyişine Karşı Suçlar",
+  "silahli-orgut-ve-suc-icin-anlasma-tck-314": "Anayasal Düzene ve Bu Düzenin İşleyişine Karşı Suçlar",
+  "milli-savunmaya-karsi-suclar-tck-317": "Milli Savunmaya Karşı Suçlar",
+  "devlet-sirlari-ve-casusluk-i-tck-326": "Devlet Sırlarına Karşı Suçlar ve Casusluk",
+  "devlet-sirlari-ve-casusluk-ii-tck-333": "Devlet Sırlarına Karşı Suçlar ve Casusluk",
+  "yabanci-devletlerle-iliskilere-karsi-suclar-tck-340": "Yabancı Devletlerle Olan İlişkilere Karşı Suçlar",
+};
+
+export function getTckGroup(slug: string): string | null {
+  return TCK_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTckArticle(slug: string): boolean {
+  return slug in TCK_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// cmk-groups.ts
+// ============================================================
+
+// CMK (Ceza Muhakemesi Kanunu) konu makalelerini kanunun resmi kitap
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Ceza Muhakemesi
+// Kanunu" makale grubunda (tr locale, articles sayfası) kullanılır;
+// çalışma alanları sayfalarını etkilemez.
+
+export const CMK_GROUP_ORDER: string[] = [
+  "Genel Hükümler",
+  "Soruşturma Evresi",
+  "Kovuşturma Evresi",
+  "Mağdur, Şikâyetçi ve Katılan",
+  "Özel Yargılama Usulleri",
+  "Kanun Yolları",
+];
+
+// slug -> CMK_GROUP_ORDER içindeki başlık. Madde numarası sırasıyla,
+// CMK'nın resmi kitap/kısım sistematiğine göre atanmıştır.
+const CMK_SLUG_TO_GROUP: Record<string, string> = {
+  "ceza-muhakemesi-hukukuna-giris-cmk-1": "Genel Hükümler",
+  "gorev-ve-yetki-cmk-3": "Genel Hükümler",
+  "supheli-sanik-ve-mudafi-cmk-149": "Genel Hükümler",
+  "ispat-araclari-taniklik-bilirkisi-kesif-cmk-43": "Genel Hükümler",
+  "yakalama-ve-gozalti-cmk-90": "Genel Hükümler",
+  "tutuklama-cmk-100": "Genel Hükümler",
+  "adli-kontrol-cmk-109": "Genel Hükümler",
+  "arama-ve-elkoyma-cmk-116": "Genel Hükümler",
+  "iletisimin-denetlenmesi-ve-gizli-sorusturmaci-cmk-135": "Genel Hükümler",
+  "koruma-tedbirleri-nedeniyle-tazminat-cmk-141": "Genel Hükümler",
+
+  "sorusturma-evresi-cmk-160": "Soruşturma Evresi",
+  "kamu-davasinin-acilmasi-ve-iddianame-cmk-170": "Soruşturma Evresi",
+
+  "durusma-hazirligi-ve-durusma-cmk-190": "Kovuşturma Evresi",
+  "delillerin-degerlendirilmesi-ve-hukuka-aykiri-deliller-cmk-206": "Kovuşturma Evresi",
+  "hukum-ve-cesitleri-cmk-223": "Kovuşturma Evresi",
+
+  "magdur-katilan-ve-vekili-cmk-233": "Mağdur, Şikâyetçi ve Katılan",
+
+  "uzlastirma-cmk-253": "Özel Yargılama Usulleri",
+  "basit-yargilama-ve-seri-muhakeme-usulu-cmk-250": "Özel Yargılama Usulleri",
+
+  "itiraz-kanun-yolu-cmk-267": "Kanun Yolları",
+  "istinaf-kanun-yolu-cmk-272": "Kanun Yolları",
+  "temyiz-kanun-yolu-cmk-286": "Kanun Yolları",
+  "yargilamanin-yenilenmesi-cmk-311": "Kanun Yolları",
+};
+
+export function getCmkGroup(slug: string): string | null {
+  return CMK_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isCmkArticle(slug: string): boolean {
+  return slug in CMK_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// is-hukuku-groups.ts
+// ============================================================
+
+// İş Hukuku mevzuat makalelerini kanuna göre gruplamak için kullanılır.
+// Yalnızca "İş Hukuku Mevzuatı" makale grubunda (tr locale, articles
+// sayfası) kullanılır; çalışma alanları sayfalarını etkilemez.
+
+export const IS_HUKUKU_GROUP_ORDER: string[] = [
+  "4857 Sayılı İş Kanunu",
+  "Diğer Bireysel İş Hukuku Kurumları",
+  "Toplu İş Hukuku (6356 Sayılı Kanun)",
+  "Diğer Kanunlara Tabi İşçiler",
+  "İş Yargısı",
+];
+
+// slug -> IS_HUKUKU_GROUP_ORDER içindeki başlık. Madde numarası sırasıyla,
+// ilgili kanunun resmi kitap/kısım sistematiğine göre atanmıştır.
+const IS_HUKUKU_SLUG_TO_GROUP: Record<string, string> = {
+  "is-hukukuna-giris-ik-1": "4857 Sayılı İş Kanunu",
+  "isci-isveren-ve-isyeri-kavramlari-ik-2": "4857 Sayılı İş Kanunu",
+  "esit-davranma-ilkesi-ik-5": "4857 Sayılı İş Kanunu",
+  "isyerinin-devri-ik-6": "4857 Sayılı İş Kanunu",
+  "gecici-is-iliskisi-ik-7": "4857 Sayılı İş Kanunu",
+  "is-sozlesmesinin-tanimi-ve-turleri-ik-8": "4857 Sayılı İş Kanunu",
+  "deneme-sureli-is-sozlesmesi-ve-takim-sozlesmesi-ik-15": "4857 Sayılı İş Kanunu",
+  "sureli-fesih-ve-ihbar-oneli-ik-17": "4857 Sayılı İş Kanunu",
+  "is-guvencesi-ise-iade-davasi-ik-18": "4857 Sayılı İş Kanunu",
+  "calisma-kosullarinda-degisiklik-ik-22": "4857 Sayılı İş Kanunu",
+  "iscinin-hakli-nedenle-fesih-hakki-ik-24": "4857 Sayılı İş Kanunu",
+  "isverenin-hakli-nedenle-fesih-hakki-ik-25": "4857 Sayılı İş Kanunu",
+  "toplu-isci-cikarma-ik-29": "4857 Sayılı İş Kanunu",
+  "ucret-ve-odenmesi-ik-32": "4857 Sayılı İş Kanunu",
+  "fazla-calisma-ucreti-ik-41": "4857 Sayılı İş Kanunu",
+  "hafta-tatili-ve-genel-tatil-ucreti-ik-46": "4857 Sayılı İş Kanunu",
+  "yillik-ucretli-izin-ik-53": "4857 Sayılı İş Kanunu",
+  "calisma-suresi-ve-ara-dinlenmesi-ik-63": "4857 Sayılı İş Kanunu",
+  "gece-calismasi-ve-ozel-calistirma-yasaklari-ik-69": "4857 Sayılı İş Kanunu",
+  "is-sagligi-ve-guvenligi-ik-77": "4857 Sayılı İş Kanunu",
+
+  "kidem-tazminati-1475-m14": "Diğer Bireysel İş Hukuku Kurumları",
+  "is-kazasi-ve-meslek-hastaligi-sorumlulugu": "Diğer Bireysel İş Hukuku Kurumları",
+  "rekabet-yasagi-sozlesmesi-tbk-444": "Diğer Bireysel İş Hukuku Kurumları",
+
+  "sendika-ozgurlugu-ve-uyelik-stisk-17": "Toplu İş Hukuku (6356 Sayılı Kanun)",
+  "toplu-is-sozlesmesi-ve-yetki-stisk-33": "Toplu İş Hukuku (6356 Sayılı Kanun)",
+  "toplu-is-uyusmazliklarinin-cozumu-stisk-49": "Toplu İş Hukuku (6356 Sayılı Kanun)",
+  "grev-ve-lokavt-stisk-58": "Toplu İş Hukuku (6356 Sayılı Kanun)",
+
+  "tbk-ye-tabi-hizmet-sozlesmesi-ve-is-kanunu-istisnalari": "Diğer Kanunlara Tabi İşçiler",
+  "deniz-is-kanununa-tabi-gemi-adamlari": "Diğer Kanunlara Tabi İşçiler",
+  "basin-is-kanununa-tabi-gazeteciler": "Diğer Kanunlara Tabi İşçiler",
+
+  "dava-sarti-arabuluculuk-ve-is-mahkemeleri-7036": "İş Yargısı",
+};
+
+export function getIsHukukuGroup(slug: string): string | null {
+  return IS_HUKUKU_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isIsHukukuMevzuatArticle(slug: string): boolean {
+  return slug in IS_HUKUKU_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// arabuluculuk-groups.ts
+// ============================================================
+
+// Arabuluculuk mevzuat makalelerini kanuna ve konu bütünlüğüne göre gruplamak
+// için kullanılır. Yalnızca "Arabuluculuk Mevzuatı" makale grubunda (tr locale,
+// articles sayfası) kullanılır; çalışma alanları sayfalarını etkilemez.
+
+export const ARABULUCULUK_GROUP_ORDER: string[] = [
+  "Temel İlkeler (6325 Sayılı Kanun)",
+  "Arabulucunun Hak ve Yükümlülükleri",
+  "Arabuluculuk Faaliyeti",
+  "Dava Şartı Olarak Arabuluculuk",
+  "Sicil, Eğitim ve Teşkilat",
+];
+
+// slug -> ARABULUCULUK_GROUP_ORDER içindeki başlık. 6325 sayılı Kanunun kendi
+// bölüm sistematiği esas alınmış, dava şartı arabuluculuğu düzenleyen diğer
+// kanun hükümleri (TTK m. 5/A, TKHK m. 73/A, 7036 s.K. m. 3) aynı başlık
+// altında toplanmıştır.
+const ARABULUCULUK_SLUG_TO_GROUP: Record<string, string> = {
+  "arabuluculugun-amaci-kapsami-ve-elverislilik-huak-1": "Temel İlkeler (6325 Sayılı Kanun)",
+  "arabuluculuk-ve-arabulucu-tanimlari-huak-2": "Temel İlkeler (6325 Sayılı Kanun)",
+  "iradi-olma-ve-esitlik-ilkesi-huak-3": "Temel İlkeler (6325 Sayılı Kanun)",
+  "arabuluculukta-gizlilik-ilkesi-huak-4": "Temel İlkeler (6325 Sayılı Kanun)",
+  "beyan-ve-belgelerin-delil-olarak-kullanilamamasi-huak-5": "Temel İlkeler (6325 Sayılı Kanun)",
+
+  "arabulucu-unvani-ve-uzmanlik-alanlari-huak-6": "Arabulucunun Hak ve Yükümlülükleri",
+  "arabuluculuk-ucreti-ve-masraflarin-istenmesi-huak-7": "Arabulucunun Hak ve Yükümlülükleri",
+  "taraflarla-gorusme-ve-iletisim-kurulmasi-huak-8": "Arabulucunun Hak ve Yükümlülükleri",
+  "arabulucunun-ozen-ve-tarafsizlik-yukumlulugu-huak-9": "Arabulucunun Hak ve Yükümlülükleri",
+  "reklam-yasagi-aydinlatma-ve-aidat-huak-10-12": "Arabulucunun Hak ve Yükümlülükleri",
+
+  "arabulucuya-basvuru-ve-adli-yardim-huak-13": "Arabuluculuk Faaliyeti",
+  "arabulucunun-secilmesi-ve-faaliyetin-yurutulmesi-huak-14-15": "Arabuluculuk Faaliyeti",
+  "arabuluculuk-surecinin-baslamasi-ve-surelere-etkisi-huak-16": "Arabuluculuk Faaliyeti",
+  "arabuluculugun-sona-ermesi-ve-son-tutanak-huak-17": "Arabuluculuk Faaliyeti",
+  "milletlerarasi-sulh-anlasma-belgelerinin-icrasi-huak-17a": "Arabuluculuk Faaliyeti",
+  "tasinmazin-devrinde-arabuluculuk-ve-tapu-serhi-huak-17b": "Arabuluculuk Faaliyeti",
+  "taraflarin-anlasmasi-ve-icra-edilebilirlik-serhi-huak-18": "Arabuluculuk Faaliyeti",
+
+  "dava-sarti-olarak-arabuluculuk-huak-18a": "Dava Şartı Olarak Arabuluculuk",
+  "kira-ortaklik-kat-mulkiyeti-ve-komsuluk-uyusmazliklarinda-dava-sarti-huak-18b":
+    "Dava Şartı Olarak Arabuluculuk",
+  "ticari-uyusmazliklarda-dava-sarti-arabuluculuk-ttk-5a": "Dava Şartı Olarak Arabuluculuk",
+  "tuketici-uyusmazliklarinda-dava-sarti-arabuluculuk-tkhk-73a": "Dava Şartı Olarak Arabuluculuk",
+
+  "arabulucular-sicili-kayit-sartlari-ve-sicilden-silinme-huak-19-21": "Sicil, Eğitim ve Teşkilat",
+  "arabuluculuk-egitimi-ve-egitim-kuruluslari-huak-22-27": "Sicil, Eğitim ve Teşkilat",
+  "arabuluculuk-daire-baskanligi-kurul-ve-burolar-huak-28-32": "Sicil, Eğitim ve Teşkilat",
+  "arabuluculukta-gizliligin-ihlali-sucu-huak-33": "Sicil, Eğitim ve Teşkilat",
+};
+
+export function getArabuluculukGroup(slug: string): string | null {
+  return ARABULUCULUK_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isArabuluculukMevzuatArticle(slug: string): boolean {
+  return slug in ARABULUCULUK_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 1 "Ticari İşletme" konu makalelerini
+// kanunun resmi kısım sistematiğine göre gruplamak için kullanılır.
+// Yalnızca "Türk Ticaret Kanunu - Ticari İşletme" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez.
+
+export const TTK_GROUP_ORDER: string[] = [
+  "Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler",
+  "Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz",
+  "Tacir Sıfatı ve Tacir Olmanın Hükümleri",
+  "Ticaret Sicili",
+  "Ticaret Unvanı ve İşletme Adı",
+  "Haksız Rekabet",
+  "Ticari Defterler",
+  "Cari Hesap",
+  "Acentelik",
+];
+
+// slug -> TTK_GROUP_ORDER içindeki başlık. Madde numarası sırasıyla,
+// TTK Kitap 1 "Ticari İşletme"nin resmi kısım sistematiğine göre
+// atanmıştır.
+const TTK_SLUG_TO_GROUP: Record<string, string> = {
+  "ticari-hukumler-ve-ticari-isler-ttk-1":
+    "Ticari Hükümler, Ticari Örf ve Âdet, Ticari İşler",
+  "ticari-zamanasimi-ve-faiz-ttk-6":
+    "Ticari Zamanaşımı, Teselsül Karinesi ve Ticari İşlerde Faiz",
+  "tacir-sifati-ve-hukumleri-ttk-11": "Tacir Sıfatı ve Tacir Olmanın Hükümleri",
+  "ticaret-sicili-ttk-24": "Ticaret Sicili",
+  "ticaret-unvani-ve-isletme-adi-ttk-39": "Ticaret Unvanı ve İşletme Adı",
+  "haksiz-rekabet-ttk-54": "Haksız Rekabet",
+  "ticari-defterler-ttk-64": "Ticari Defterler",
+  "cari-hesap-ttk-89": "Cari Hesap",
+  "acentelik-ttk-102": "Acentelik",
+};
+
+export function getTtkGroup(slug: string): string | null {
+  return TTK_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkArticle(slug: string): boolean {
+  return slug in TTK_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-genel-hukumler-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", Birinci Kısım
+// "Genel Hükümler" (m.124-210) konu makalelerini kanunun resmi kısım
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Türk Ticaret
+// Kanunu - Ticaret Şirketleri (Genel Hükümler)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts.
+
+export const TTK_BOOK2_GENEL_GROUP_ORDER: string[] = [
+  "Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu",
+  "Ticaret Şirketlerinde Birleşme",
+  "Ticaret Şirketlerinde Bölünme",
+  "Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler",
+  "Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri",
+];
+
+// slug -> TTK_BOOK2_GENEL_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" Birinci Kısım "Genel
+// Hükümler"in resmi kısım sistematiğine göre atanmıştır.
+const TTK_BOOK2_GENEL_SLUG_TO_GROUP: Record<string, string> = {
+  "ticaret-sirketlerinin-turleri-ve-sermaye-koyma-borcu-ttk-124":
+    "Ticaret Şirketlerinin Türleri, Tüzel Kişiliği ve Sermaye Koyma Borcu",
+  "ticaret-sirketlerinde-birlesme-ttk-134": "Ticaret Şirketlerinde Birleşme",
+  "ticaret-sirketlerinde-bolunme-ttk-159": "Ticaret Şirketlerinde Bölünme",
+  "tur-degistirme-ve-ortak-hukumler-ttk-180":
+    "Tür Değiştirme ve Yapısal Değişikliklere İlişkin Ortak Hükümler",
+  "sirketler-toplulugu-ttk-195":
+    "Şirketler Topluluğu: Hâkim ve Bağlı Şirket İlişkileri",
+};
+
+export function getTtkBook2GenelGroup(slug: string): string | null {
+  return TTK_BOOK2_GENEL_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2GenelArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_GENEL_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-kollektif-sirket-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", İkinci Kısım
+// "Kollektif Şirket" (m.211-303) konu makalelerini kanunun resmi kısım
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Türk Ticaret
+// Kanunu - Ticaret Şirketleri (Kollektif Şirket)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts,
+// Kitap 2 "Genel Hükümler" (m.124-210) için bkz.
+// ttk-book2-genel-hukumler-groups.ts.
+
+export const TTK_BOOK2_KOLLEKTIF_GROUP_ORDER: string[] = [
+  "Kollektif Şirketin Niteliği, Kuruluşu ve Tescili",
+  "Kollektif Şirkette Ortaklar Arasındaki İlişkiler",
+  "Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri",
+  "Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması",
+  "Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları",
+  "Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu",
+];
+
+// slug -> TTK_BOOK2_KOLLEKTIF_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" İkinci Kısım "Kollektif
+// Şirket"in resmi kısım sistematiğine göre atanmıştır.
+const TTK_BOOK2_KOLLEKTIF_SLUG_TO_GROUP: Record<string, string> = {
+  "kollektif-sirketin-niteligi-kurulusu-ve-tescili-ttk-211":
+    "Kollektif Şirketin Niteliği, Kuruluşu ve Tescili",
+  "kollektif-sirkette-ortaklar-arasindaki-iliskiler-ttk-217":
+    "Kollektif Şirkette Ortaklar Arasındaki İlişkiler",
+  "kollektif-sirketin-ve-ortaklarin-ucuncu-kisilerle-iliskileri-ttk-232":
+    "Kollektif Şirketin ve Ortakların Üçüncü Kişilerle İlişkileri",
+  "kollektif-sirketin-sona-ermesi-ve-ortagin-ayrilmasi-ttk-243":
+    "Kollektif Şirketin Sona Ermesi ve Ortağın Ayrılması",
+  "kollektif-sirkette-tasfiye-genel-hukumler-ve-tasfiye-memurlari-ttk-267":
+    "Kollektif Şirkette Tasfiye: Genel Hükümler ve Tasfiye Memurları",
+  "kollektif-sirkette-tasfiye-islemleri-ve-tasfiyenin-sonu-ttk-286":
+    "Kollektif Şirkette Tasfiye İşlemleri ve Tasfiyenin Sonu",
+};
+
+export function getTtkBook2KollektifGroup(slug: string): string | null {
+  return TTK_BOOK2_KOLLEKTIF_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2KollektifArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_KOLLEKTIF_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-komandit-sirket-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", Üçüncü Kısım
+// "Komandit Şirket" (m.304-328) konu makalelerini kanunun resmi kısım
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Türk Ticaret
+// Kanunu - Ticaret Şirketleri (Komandit Şirket)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts,
+// Kitap 2 "Genel Hükümler" (m.124-210) için bkz.
+// ttk-book2-genel-hukumler-groups.ts, Kitap 2 "Kollektif Şirket"
+// (m.211-303) için bkz. ttk-book2-kollektif-sirket-groups.ts.
+
+export const TTK_BOOK2_KOMANDIT_GROUP_ORDER: string[] = [
+  "Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler",
+  "Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi",
+];
+
+// slug -> TTK_BOOK2_KOMANDIT_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" Üçüncü Kısım "Komandit
+// Şirket"in resmi kısım sistematiğine göre atanmıştır.
+const TTK_BOOK2_KOMANDIT_SLUG_TO_GROUP: Record<string, string> = {
+  "komandit-sirketin-niteligi-kurulusu-ve-ortaklar-arasindaki-iliskiler-ttk-304":
+    "Komandit Şirketin Niteliği, Kuruluşu ve Ortaklar Arasındaki İlişkiler",
+  "komandit-sirketin-ucuncu-kisilerle-iliskileri-ve-sona-ermesi-ttk-317":
+    "Komandit Şirketin Üçüncü Kişilerle İlişkileri ve Sona Ermesi",
+};
+
+export function getTtkBook2KomanditGroup(slug: string): string | null {
+  return TTK_BOOK2_KOMANDIT_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2KomanditArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_KOMANDIT_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-anonim-sirket-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", Dördüncü Kısım
+// "Anonim Şirket" (m.329-563) konu makalelerini kanunun resmi kısım
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Türk Ticaret
+// Kanunu - Ticaret Şirketleri (Anonim Şirket)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts,
+// Kitap 2 "Genel Hükümler" (m.124-210) için bkz.
+// ttk-book2-genel-hukumler-groups.ts, Kitap 2 "Kollektif Şirket"
+// (m.211-303) için bkz. ttk-book2-kollektif-sirket-groups.ts, Kitap 2
+// "Komandit Şirket" (m.304-328) için bkz. ttk-book2-komandit-sirket-groups.ts.
+//
+// Anonim Şirket (m.329-563) TTK'nın en hacimli bölümü olup birden fazla
+// batch halinde yazılacaktır. Bu dosya, m.329-358'i ("Birinci Bölüm -
+// Genel Hükümler, Kuruluş ve Temel İlkeler") kapsayan ilk batch ile
+// başlamış; ikinci batch ile m.359-396'yı ("İkinci Bölüm - Yönetim
+// Kurulu") kapsayacak şekilde genişletilmiş; üçüncü batch ile
+// m.397-406'yı ("Üçüncü Bölüm - Denetleme") kapsayacak şekilde
+// genişletilmiş; dördüncü batch ile m.407-424'ü ("Dördüncü Bölüm - Genel
+// Kurul"un ilk yarısı: genel olarak, görev ve yetkileri, toplantılar,
+// çağrı, toplantının yapılması ve esas sözleşme değişikliklerinde
+// nisaplar) kapsayacak şekilde genişletilmiştir. Beşinci batch ile
+// m.425-451'i ("Dördüncü Bölüm - Genel Kurul"un ikinci yarısı: pay
+// sahibinin genel kurula katılma ve temsil hakkı, oy hakkı ile bilgi
+// alma ve inceleme hakkı, özel denetim isteme hakkı, genel kurul
+// kararlarının iptali, butlanı ve sonuçları) kapsayacak şekilde
+// genişletilmiştir. Beşinci batch ile "Dördüncü Bölüm - Genel Kurul"
+// (m.407-451) tamamlanmıştır. Altıncı batch ile m.452-472'yi ("Beşinci
+// Bölüm - Esas Sözleşmenin Değiştirilmesi"nin genel usul kısmı: genel
+// ilke ve usul, m.452-455; ile "İkinci Ayırım - Özel Değişiklikler"in
+// "A) Sermayenin artırılması" alt başlığının tamamı: ortak hükümler,
+// sermaye taahhüdü yoluyla artırım, rüçhan hakkı, m.456-461; iç
+// kaynaklardan ve şarta bağlı sermaye artırımı, m.462-472) kapsayacak
+// şekilde genişletilmiştir. Yedinci batch ile m.473-483'ü ("Beşinci
+// Bölüm - Esas Sözleşmenin Değiştirilmesi"nin son kısmı: "B) Esas
+// sermayenin azaltılması", m.473-475; ile "Altıncı Bölüm - Pay ve
+// Sermaye Koyma Borcu"nun tamamı: payın asgari itibarî değeri,
+// bölünmezliği, imtiyazlı paylar, oyda imtiyaz, pay bedelini ifa
+// borcu, ödemeye çağrı, temerrüt ve ıskat usulü, m.476-483) kapsayacak
+// şekilde genişletilmiştir. Sekizinci batch ile m.484-506'yı ("Yedinci
+// Bölüm - Menkul Kıymetler"in tamamı: pay senetlerinin türleri,
+// dönüştürülmesi, bastırılması, şekli, yıpranmış pay senetleri ve
+// hamiline yazılı payların devri, m.484-489; nama yazılı payların
+// devrinde ilke ve devrin kanuni/iradi sınırlandırılması ile pay
+// defteri, m.490-501; intifa senetleri ile borçlanma senetleriyle alma
+// ve değiştirme hakkını içeren menkul kıymetler, m.502-506) kapsayacak
+// şekilde genişletilmiştir. Dokuzuncu batch ile m.507-528'i ("Sekizinci
+// Bölüm - Kâr, Kazanç ve Tasfiye Payı"nın tamamı: kâr ve tasfiye payı
+// hakkı, hesaplama biçimi, kâr payı, hazırlık dönemi faizi, kazanç
+// payları, geri alma hakkı, m.507-513; "Dokuzuncu Bölüm - Şirketin
+// Finansal Tabloları, Yedek Akçeler"in tamamı: anonim şirketlerin ve
+// şirketler topluluğunun finansal tabloları ile yönetim kurulunun
+// yıllık faaliyet raporu, m.514-518; yedek akçeler, çeşitli hükümler ve
+// özel hükümler, m.519-528) kapsayacak şekilde genişletilmiştir.
+// Onuncu batch ile m.529-548'i ("Onuncu Bölüm - Sona Erme ve Tasfiye"nin
+// tamamı: sona erme sebepleri, özel sona erme hâlleri ve sona ermenin
+// hükümleri, m.529-535; tasfiye memurları ve tasfiye işleri, m.536-544;
+// tasfiyenin sonu, ek tasfiye ve tasfiyeden dönülmesi, m.545-548)
+// kapsayacak şekilde genişletilmiştir. Onbirinci batch ile m.549-561'i
+// ("Onbirinci Bölüm - Hukuki Sorumluluk"un tamamı: sorumluluk hâlleri -
+// belgelerin ve beyanların kanuna aykırılığı, sermaye hakkında yanlış
+// beyanlar, değer biçilmesinde yolsuzluk, halktan para toplama yasağı,
+// kurucuların/yönetim kurulu üyelerinin/yöneticilerin/tasfiye
+// memurlarının sorumluluğu, denetçinin sorumluluğu, m.549-554; şirketin
+// zararı, teselsül ve başvuru, ibra, zamanaşımı, yetkili mahkeme,
+// m.555-561) kapsayacak şekilde genişletilmiştir. Onikinci (ve son)
+// batch ile m.562-563'ü ("Onikinci Bölüm - Cezai Sorumluluk"un tamamı:
+// idari para cezası, adli para cezası ve hapis cezası gerektiren
+// fiiller, tekerrür hükmü, mülga soruşturma/kovuşturma usulü)
+// kapsayacak şekilde genişletilmiştir. Bununla "Anonim Şirket"
+// (m.329-563) bölümü eksiksiz tamamlanmıştır; m.564 vd. ("Beşinci Kısım
+// - Sermayesi Paylara Bölünmüş Komandit Şirket") için bkz.
+// ttk-book2-spb-komandit-sirket-groups.ts.
+
+export const TTK_BOOK2_ANONIM_GROUP_ORDER: string[] = [
+  "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
+  "Anonim Şirketin Kuruluşu",
+  "Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri",
+  "Yönetim Kurulunun Oluşumu, Görevden Alınması, Yönetim ve Temsil Esasları",
+  "Yönetim Kurulunun Devredilemez Görevleri, Sermaye Kaybı ve Borca Batıklık",
+  "Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi",
+  "Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar",
+  "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
+  "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
+  "Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı",
+  "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
+  "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
+  "Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı",
+  "Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı",
+  "Özel Denetim İsteme Hakkı",
+  "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
+  "Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul",
+  "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
+  "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
+  "Esas Sermayenin Azaltılması",
+  "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
+  "Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri",
+  "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
+  "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
+  "Anonim Şirkette Kâr ve Tasfiye Payı Hakkı",
+  "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
+  "Yedek Akçeler ve Çeşitli/Özel Hükümler",
+  "Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları",
+  "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
+  "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
+  "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
+  "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
+  "Anonim Şirkette Cezai Sorumluluk",
+];
+
+// slug -> TTK_BOOK2_ANONIM_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" Dördüncü Kısım "Anonim
+// Şirket"in resmi kısım sistematiğine göre atanmıştır.
+const TTK_BOOK2_ANONIM_SLUG_TO_GROUP: Record<string, string> = {
+  "anonim-sirketin-tanimi-amaci-ve-devletin-gozetimi-ttk-329":
+    "Anonim Şirketin Tanımı, Amacı ve Devletin Gözetimi",
+  "anonim-sirketin-kurulusu-ttk-335": "Anonim Şirketin Kuruluşu",
+  "kurulusta-kanuna-karsi-hile-fesih-davasi-tescil-ve-anonim-sirketin-temel-ilkeleri-ttk-353":
+    "Kuruluşta Kanuna Karşı Hile, Fesih Davası, Tescil ve Anonim Şirketin Temel İlkeleri",
+  "yonetim-kurulunun-olusumu-gorevden-alinmasi-yonetim-ve-temsil-esaslari-ttk-359":
+    "Yönetim Kurulunun Oluşumu, Görevden Alınması, Yönetim ve Temsil Esasları",
+  "yonetim-kurulunun-devredilemez-gorevleri-sermaye-kaybi-ve-borca-batiklik-ttk-374":
+    "Yönetim Kurulunun Devredilemez Görevleri, Sermaye Kaybı ve Borca Batıklık",
+  "sirketin-kendi-paylarini-iktisap-veya-rehin-olarak-kabul-etmesi-ttk-379":
+    "Şirketin Kendi Paylarını İktisap veya Rehin Olarak Kabul Etmesi",
+  "yonetim-kurulu-toplantilari-mali-haklar-ve-yasaklar-ttk-390":
+    "Yönetim Kurulu Toplantıları, Mali Haklar ve Yasaklar",
+  "anonim-sirkette-denetleme-kapsam-denetci-secimi-ve-nitelikleri-ttk-397":
+    "Anonim Şirkette Denetleme: Kapsam, Denetçi Seçimi ve Nitelikleri",
+  "denetim-raporu-gorus-yazilari-denetcinin-sorumlulugu-ve-topluluk-ozel-denetimi-ttk-402":
+    "Denetim Raporu, Görüş Yazıları, Denetçinin Sorumluluğu ve Topluluk Özel Denetimi",
+  "genel-kurulun-gorev-ve-yetkileri-toplanti-turleri-ve-cagri-ttk-407":
+    "Genel Kurulun Görev ve Yetkileri, Toplantı Türleri ve Çağrı",
+  "genel-kurul-toplantisinin-yapilmasi-hazir-bulunanlar-listesi-nisap-baskanlik-ve-erteleme-ttk-417":
+    "Genel Kurul Toplantısının Yapılması: Hazır Bulunanlar Listesi, Nisap, Başkanlık ve Erteleme",
+  "esas-sozlesme-degisikliklerinde-nisaplar-tutanak-ve-kararlarin-etkisi-ttk-421":
+    "Esas Sözleşme Değişikliklerinde Nisaplar, Tutanak ve Kararların Etkisi",
+  "pay-sahibinin-genel-kurula-katilma-ve-temsil-hakki-ttk-425":
+    "Pay Sahibinin Genel Kurula Katılma ve Temsil Hakkı",
+  "genel-kurulda-oy-hakki-ile-bilgi-alma-ve-inceleme-hakki-ttk-434":
+    "Genel Kurulda Oy Hakkı ile Bilgi Alma ve İnceleme Hakkı",
+  "ozel-denetim-isteme-hakki-ttk-438": "Özel Denetim İsteme Hakkı",
+  "genel-kurul-kararlarinin-iptali-butlani-ve-sonuclari-ttk-445":
+    "Genel Kurul Kararlarının İptali, Butlanı ve Sonuçları",
+  "esas-sozlesmenin-degistirilmesi-genel-ilke-ve-usul-ttk-452":
+    "Esas Sözleşmenin Değiştirilmesi: Genel İlke ve Usul",
+  "sermaye-artiriminin-ortak-hukumleri-sermaye-taahhudu-yoluyla-artirim-ve-ruchan-hakki-ttk-456":
+    "Sermaye Artırımının Ortak Hükümleri, Sermaye Taahhüdü Yoluyla Artırım ve Rüçhan Hakkı",
+  "ic-kaynaklardan-ve-sarta-bagli-sermaye-artirimi-ttk-462":
+    "İç Kaynaklardan ve Şarta Bağlı Sermaye Artırımı",
+  "esas-sermayenin-azaltilmasi-ttk-473": "Esas Sermayenin Azaltılması",
+  "pay-asgari-itibari-deger-imtiyazli-paylar-ve-pay-bedelini-ifa-borcu-ttk-476":
+    "Pay: Asgari İtibarî Değer, İmtiyazlı Paylar ve Pay Bedelini İfa Borcu",
+  "pay-senetleri-turler-bastirilmasi-ve-hamiline-yazili-paylarin-devri-ttk-484":
+    "Pay Senetleri: Türler, Bastırılması ve Hamiline Yazılı Payların Devri",
+  "nama-yazili-paylarin-devri-ve-devrin-sinirlandirilmasi-ttk-491":
+    "Nama Yazılı Payların Devri ve Devrin Sınırlandırılması",
+  "intifa-senetleri-ve-borclanma-senetleriyle-alma-degistirme-hakkini-iceren-menkul-kiymetler-ttk-502":
+    "İntifa Senetleri ve Borçlanma Senetleriyle Alma/Değiştirme Hakkını İçeren Menkul Kıymetler",
+  "anonim-sirkette-kar-ve-tasfiye-payi-hakki-ttk-507":
+    "Anonim Şirkette Kâr ve Tasfiye Payı Hakkı",
+  "anonim-sirketin-finansal-tablolari-ve-yonetim-kurulunun-yillik-faaliyet-raporu-ttk-514":
+    "Anonim Şirketin Finansal Tabloları ve Yönetim Kurulunun Yıllık Faaliyet Raporu",
+  "yedek-akceler-ve-cesitli-ozel-hukumler-ttk-519":
+    "Yedek Akçeler ve Çeşitli/Özel Hükümler",
+  "anonim-sirketin-sona-ermesi-sebepler-ve-sonuclari-ttk-529":
+    "Anonim Şirketin Sona Ermesi: Sebepler ve Sonuçları",
+  "anonim-sirkette-tasfiye-tasfiye-memurlari-ve-tasfiye-isleri-ttk-536":
+    "Anonim Şirkette Tasfiye: Tasfiye Memurları ve Tasfiye İşleri",
+  "tasfiyenin-sonu-ek-tasfiye-ve-tasfiyeden-donulmesi-ttk-545":
+    "Tasfiyenin Sonu, Ek Tasfiye ve Tasfiyeden Dönülmesi",
+  "anonim-sirkette-hukuki-sorumluluk-halleri-ttk-549":
+    "Anonim Şirkette Hukuki Sorumluluk Hâlleri",
+  "sirketin-zarari-ibra-zamanasimi-ve-yetkili-mahkeme-ttk-555":
+    "Şirketin Zararı, İbra, Zamanaşımı ve Yetkili Mahkeme",
+  "anonim-sirkette-cezai-sorumluluk-ttk-562": "Anonim Şirkette Cezai Sorumluluk",
+};
+
+export function getTtkBook2AnonimGroup(slug: string): string | null {
+  return TTK_BOOK2_ANONIM_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2AnonimArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_ANONIM_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-spb-komandit-sirket-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", Beşinci Kısım
+// "Sermayesi Paylara Bölünmüş Komandit Şirket" (m.564-572) konu
+// makalelerini kanunun resmi kısım sistematiğine göre gruplamak için
+// kullanılır. Yalnızca "Türk Ticaret Kanunu - Ticaret Şirketleri
+// (Sermayesi Paylara Bölünmüş Komandit Şirket)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts,
+// Kitap 2 "Genel Hükümler" (m.124-210) için bkz.
+// ttk-book2-genel-hukumler-groups.ts, Kitap 2 "Kollektif Şirket"
+// (m.211-303) için bkz. ttk-book2-kollektif-sirket-groups.ts, Kitap 2
+// "Komandit Şirket" (m.304-328) için bkz.
+// ttk-book2-komandit-sirket-groups.ts, Kitap 2 "Anonim Şirket"
+// (m.329-563) için bkz. ttk-book2-anonim-sirket-groups.ts.
+//
+// Sermayesi Paylara Bölünmüş Komandit Şirket (m.564-572), Beşinci
+// Kısım'ın tamamını oluşturan kısa ve kendi içinde bütünlüklü bir bölüm
+// olduğundan tek bir batch ve tek bir makale ile kapsanmıştır: tanımı,
+// komandit ve anonim şirket hükümlerinin karşılıklı uygulama alanı,
+// kuruluş (esas sözleşme şekli ve içeriği, kurucular, uygulanacak
+// hükümler) ve yönetim (uygulanacak hükümler, görevden alınma, rekabet
+// yasağı) m.564-572.
+
+export const TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER: string[] = [
+  "Sermayesi Paylara Bölünmüş Komandit Şirket",
+];
+
+// slug -> TTK_BOOK2_SPB_KOMANDIT_GROUP_ORDER içindeki başlık. Madde
+// numarası sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" Beşinci Kısım
+// "Sermayesi Paylara Bölünmüş Komandit Şirket"in resmi kısım
+// sistematiğine göre atanmıştır.
+const TTK_BOOK2_SPB_KOMANDIT_SLUG_TO_GROUP: Record<string, string> = {
+  "sermayesi-paylara-bolunmus-komandit-sirket-ttk-564":
+    "Sermayesi Paylara Bölünmüş Komandit Şirket",
+};
+
+export function getTtkBook2SpbKomanditGroup(slug: string): string | null {
+  return TTK_BOOK2_SPB_KOMANDIT_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2SpbKomanditArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_SPB_KOMANDIT_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-book2-limited-sirket-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Kitap 2 "Ticaret Şirketleri", Altıncı Kısım
+// "Limited Şirket" (m.573 vd.) konu makalelerini kanunun resmi kısım
+// sistematiğine göre gruplamak için kullanılır. Yalnızca "Türk Ticaret
+// Kanunu - Ticaret Şirketleri (Limited Şirket)" makale grubunda (tr
+// locale, articles sayfası) kullanılır; çalışma alanları sayfalarını
+// etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz. ttk-groups.ts,
+// Kitap 2 "Genel Hükümler" (m.124-210) için bkz.
+// ttk-book2-genel-hukumler-groups.ts, Kitap 2 "Kollektif Şirket"
+// (m.211-303) için bkz. ttk-book2-kollektif-sirket-groups.ts, Kitap 2
+// "Komandit Şirket" (m.304-328) için bkz. ttk-book2-komandit-sirket-groups.ts,
+// Kitap 2 "Anonim Şirket" (m.329-563) için bkz.
+// ttk-book2-anonim-sirket-groups.ts, Kitap 2 "Sermayesi Paylara Bölünmüş
+// Komandit Şirket" (m.564-572) için bkz.
+// ttk-book2-spb-komandit-sirket-groups.ts.
+//
+// Limited Şirket (m.573 vd.) birden fazla batch halinde yazılacaktır. Bu
+// dosya, m.573-588'i ("Birinci Bölüm - Tanım ve Kuruluş"un tamamı: kavram,
+// ortakların sayısı, şirket sözleşmesi - şekli, zorunlu kayıtları,
+// bağlayıcı hükümleri, ayni sermaye/ayni devralmalar/özel menfaatler
+// atfı, emredici hükümler ilkesi; sermaye - en az tutar, ayni sermaye,
+// mal bedelleri ve kurucu menfaatleri, esas sermaye payları, intifa
+// senetleri; kuruluş - kurulma anı, tescil istemi, tescil ve ilan, tüzel
+// kişilik) kapsayan ilk batch ile başlamıştır; ikinci batch ile m.589-615'i
+// ("İkinci Bölüm - Şirket Sözleşmesinin Değiştirilmesi": genel ilke,
+// sermaye artırımı/rüçhan hakkı, sermaye azaltımı; "Üçüncü Bölüm -
+// Ortakların Hak ve Borçları": esas sermaye payının devri ve payın konu
+// olduğu işlemler, pay defteri, miras/eşler arası mal rejimi/icra yoluyla
+// geçiş, gerçek değerin belirlenmesi, tescil, paylı mülkiyet/intifa/rehin;
+// geri verme yasağı, ortakların sorumluluğu, ek ödeme ve yan edim
+// yükümlülükleri; kâr payı, kendi pay iktisabı, bağlılık yükümlülüğü ve
+// rekabet yasağı, bilgi alma ve inceleme hakkı) kapsayacak şekilde
+// genişletilmiştir; üçüncü batch ile m.616-635'i ("Dördüncü Bölüm -
+// Şirketin Organları"nın tamamı: genel kurul - devredilemez yetkiler,
+// toplantıya çağrı, oy hakkı ve hesaplanması, oydan yoksunluk, olağan ve
+// önemli karar nisapları, kararların butlanı ve iptali; müdürler -
+// atanma ve birden fazla müdürde karar alma, devredilemez görevler, özen
+// ve bağlılık yükümü/rekabet yasağı, eşit işlem, temsil yetkisinin
+// kapsamı ve sınırlandırılması, görevden alma, ticari mümessil/vekiller,
+// haksız fiil sorumluluğu; sermaye kaybı ve borca batıklık, iflasın
+// bildirilmesi/konkordato talebi, denetçi) kapsayacak şekilde
+// genişletilmiştir; dördüncü ve SON batch ile m.636-644'ü ("Beşinci
+// Bölüm - Sona Erme ve Ayrılma"nın tamamı: sona erme sebepleri ve
+// sonuçları, tescil ve ilan, çıkma ve çıkmaya katılma, çıkarma, ayrılma
+// akçesi - istem/tutar ve ödeme, tasfiye, uygulanacak hükümler)
+// kapsayacak şekilde genişletilmiştir. m.644 ile Limited Şirket (Altıncı
+// Kısım, m.573-644) ve dolayısıyla TTK Kitap 2 "Ticaret Şirketleri"nin
+// tamamı (m.124-644) tamamlanmıştır; bu dosya bu haliyle nihaidir.
+
+export const TTK_BOOK2_LIMITED_GROUP_ORDER: string[] = [
+  "Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi",
+  "Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri",
+  "Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil",
+  "Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması",
+  "Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler",
+  "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
+  "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
+  "Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar",
+  "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
+  "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
+  "Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma",
+  "Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler",
+];
+
+// slug -> TTK_BOOK2_LIMITED_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Kitap 2 "Ticaret Şirketleri" Altıncı Kısım "Limited
+// Şirket"in resmi kısım sistematiğine göre atanmıştır.
+const TTK_BOOK2_LIMITED_SLUG_TO_GROUP: Record<string, string> = {
+  "limited-sirketin-tanimi-ortak-sayisi-ve-sirket-sozlesmesi-ttk-573":
+    "Limited Şirketin Tanımı, Ortak Sayısı ve Şirket Sözleşmesi",
+  "limited-sirkette-sermaye-en-az-tutar-esas-sermaye-paylari-ve-intifa-senetleri-ttk-580":
+    "Limited Şirkette Sermaye: En Az Tutar, Esas Sermaye Payları ve İntifa Senetleri",
+  "limited-sirketin-kurulusu-kurulma-ani-ve-tescil-ttk-585":
+    "Limited Şirketin Kuruluşu: Kurulma Anı ve Tescil",
+  "limited-sirket-sozlesmesinin-degistirilmesi-sermaye-artirimi-ve-azaltilmasi-ttk-589":
+    "Limited Şirket Sözleşmesinin Değiştirilmesi: Genel İlke, Sermaye Artırımı ve Azaltılması",
+  "esas-sermaye-payinin-devri-ve-payin-konu-oldugu-islemler-ttk-593":
+    "Esas Sermaye Payının Devri ve Payın Konu Olduğu İşlemler",
+  "geri-verme-yasagi-ortaklarin-sorumlulugu-ek-odeme-ve-yan-edim-yukumlulukleri-ttk-601":
+    "Geri Verme Yasağı, Ortakların Sorumluluğu, Ek Ödeme ve Yan Edim Yükümlülükleri",
+  "kar-payi-sirketin-kendi-paylarini-iktisabi-baglilik-yukumlulugu-ve-bilgi-alma-hakki-ttk-608":
+    "Kâr Payı, Şirketin Kendi Paylarını İktisabı, Bağlılık Yükümlülüğü ve Bilgi Alma Hakkı",
+  "limited-sirkette-genel-kurul-yetkiler-toplantilar-oy-hakki-ve-kararlar-ttk-616":
+    "Limited Şirkette Genel Kurul: Yetkiler, Toplantılar, Oy Hakkı ve Kararlar",
+  "limited-sirkette-mudurler-yonetim-temsil-ve-yukumlulukler-ttk-623":
+    "Limited Şirkette Müdürler: Yönetim, Temsil ve Yükümlülükler",
+  "limited-sirkette-sermaye-kaybi-borca-batikligi-ve-denetci-ttk-633":
+    "Limited Şirkette Sermaye Kaybı, Borca Batıklık ve Denetçi",
+  "limited-sirketin-sona-ermesi-cikma-ve-cikarilma-ttk-636":
+    "Limited Şirketin Sona Ermesi, Çıkma ve Çıkarılma",
+  "ayrilma-akcesi-tasfiye-ve-limited-sirkete-uygulanacak-diger-hukumler-ttk-641":
+    "Ayrılma Akçesi, Tasfiye ve Limited Şirkete Uygulanacak Diğer Hükümler",
+};
+
+export function getTtkBook2LimitedGroup(slug: string): string | null {
+  return TTK_BOOK2_LIMITED_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkBook2LimitedArticle(slug: string): boolean {
+  return slug in TTK_BOOK2_LIMITED_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-kiymetli-evrak-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Üçüncü Kitap "Kıymetli Evrak" (m.645-849)
+// konu makalelerini kanunun resmi kısım sistematiğine göre gruplamak
+// için kullanılır. Yalnızca "Türk Ticaret Kanunu - Kıymetli Evrak"
+// makale grubunda (tr locale, articles sayfası) kullanılır; çalışma
+// alanları sayfalarını etkilemez. Kitap 1 "Ticari İşletme" (m.1-123)
+// için bkz. ttk-groups.ts; Kitap 2 "Ticaret Şirketleri" (m.124-644)
+// için bkz. ttk-book2-*-groups.ts dosyaları.
+//
+// Kıymetli Evrak (m.645-849) birden fazla batch halinde yazılacaktır. Bu
+// dosya, m.645-669'u ("Birinci Kısım - Genel Hükümler": kıymetli evrakın
+// tanımı, senetten doğan borç, devir - genel şekil ve ciro, senedin
+// türünün değiştirilmesi, iptal kararı - şartları ve hükümleri, özel
+// hükümlerin saklılığı; "İkinci Kısım - Nama Yazılı Senetler": tanımı,
+// alacaklının hakkını ispatı, eksik nama yazılı senetler, iptal kararı;
+// "Üçüncü Kısım - Hamile Yazılı Senetler": tanımı, borçlunun def'ileri,
+// hamile yazılı faiz kuponları, iptal kararı - yetki/ödeme yasağı/ilan/
+// hükümleri, kuponlarda ve banknotlarda usul, ipotekli borç senedi ve
+// irat senedine ilişkin saklılık) kapsayan ilk batch ile başlamıştır.
+//
+// İkinci batch, m.670'ten itibaren başlayan "Dördüncü Kısım - Kambiyo
+// Senetleri"nin açılışını ve "Birinci Bölüm - Poliçe"nin ilk iki
+// ayırımını kapsar: borçlanma ehliyeti, poliçenin şekil unsurları
+// (Birinci Ayırım - Poliçenin Düzenlenmesi ve Şekli, m.670-680: zorunlu
+// unsurlar, unsurların bulunmaması, münferit unsurlar, imza edenlerin
+// sorumluluğu, açık poliçe) ve ciro (İkinci Ayırım, m.681-690). Poliçenin
+// kalan ayırımları (Kabul ve Aval, Ödeme, Kabul Etmeme ve Ödememe
+// Hâllerinde Başvurma Hakları) ile bono ve çeke ilişkin bölümler sonraki
+// batch'lerde ele alınacaktır.
+//
+// Üçüncü batch, "Birinci Bölüm - Poliçe"nin "Üçüncü Ayırım - Kabul ve
+// Aval" (m.691-702: kabule arz, kabule arz şartı ve yasağı, görüldükten
+// belirli süre sonra ödenecek poliçelerde arz süresi, bir daha kabule
+// arz, kabulün şekli ve sınırlandırılması, adresli/yerleşim yerli
+// poliçede kabul, kabulün hükümleri, kabul şerhinin çizilmesi, aval
+// verenler, aval şekli, aval hükümleri) ve "Dördüncü Ayırım - Ödeme"
+// (m.703-712: vadenin belirlenmesi, görüldüğünde ve görüldükten belirli
+// süre sonra ödenecek poliçe, sürelerin hesabı, takvimlerin çatışması,
+// ödeme için ibraz, makbuz isteme hakkı, vadeden önce ve vadesinde
+// ödeme, yabancı ülke parasıyla ödeme, tevdi) kapsar. Poliçenin son
+// ayırımı (Kabul Etmeme ve Ödememe Hâllerinde Başvurma Hakları) ile bono
+// ve çeke ilişkin bölümler sonraki batch'lerde ele alınacaktır.
+//
+// Dördüncü batch, "Birinci Bölüm - Poliçe"nin "Beşinci Ayırım - Kabul
+// Etmeme ve Ödememe Hâllerinde Başvurma Hakları"nın tamamını (m.713-732)
+// iki yazı hâlinde kapsar: ilk yazı başvurma hakkının doğumunu, kabul
+// etmeme ve ödememe protestosunun süresini, şeklini (noterlikçe
+// düzenlenme, içerik, protesto belgesi, kısmi kabul hâlinde protesto,
+// birden fazla kişiye karşı protesto), saklama yükümünü, sakat
+// protestoyu, protesto düzenlenmesi gerekmeyen hâlleri ve ihbar
+// zorunluluğunu (m.713-723) ele alır; ikinci yazı ise teselsülü,
+// başvurma hakkının kapsamını (hamilin ve ödeyenin istemleri), makbuz
+// isteme hakkını, retreti, başvurma hakkının düşmesini, mücbir
+// sebepleri ve sebepsiz zenginleşmeyi (m.724-732) kapsar. Bu batch ile
+// Beşinci Ayırım ve dolayısıyla Birinci Bölüm "Poliçe" tamamen işlenmiş
+// olur. Poliçe bölümü bir sonraki batch'te "Altıncı Ayırım - Poliçe
+// Nüshaları ve Suretleri" (m.743 vd.) ile devam edecek, ardından bono ve
+// çeke ilişkin bölümler ele alınacaktır.
+//
+// Beşinci batch, üç yazı hâlinde "Birinci Bölüm - Poliçe"nin kalan üç
+// ayırımını, dolayısıyla Poliçe bölümünün tamamını (m.670-775) tamamlar.
+// İlk yazı "Altıncı Ayırım - Poliçe Nüshaları ve Suretleri"ni (m.743-747:
+// nüshaların isteme hakkı, nüshalar arasındaki ilişki, kabul için
+// gönderilen nüshanın akıbeti, suretlerin şekli ve hükümleri, senet
+// aslının suret hamiline teslimi) kapsar. İkinci yazı "Yedinci Ayırım -
+// Çeşitli Hükümler"i (m.748-765: senet metnindeki değişiklikler,
+// zamanaşımı süreleri ve kesilmesi, tatil günleri, sürelerin hesabı,
+// atıfet süreleri yasağı, işlemlerin yapılacağı yer, imzalar, iptal -
+// önleyici önlemler, poliçeyi eline geçirenin bilinip bilinmemesi, ihtar,
+// ilan, iade davası, iptal kararı, teminat) kapsar. Üçüncü yazı ise
+// "Sekizinci Ayırım - Kanunlar İhtilafı"nı (m.766-775: ehliyet, şekil ve
+// süreler, borçlanmaların hükümleri, kısmi kabul ve ödeme, sebepsiz
+// zenginleşmeden doğan haklar, karşılığın hamile geçmesi, iptal kararı)
+// kapsar. Bu batch ile Birinci Bölüm "Poliçe" (m.670-775) tamamen
+// işlenmiş olur. Bir sonraki batch, "İkinci Bölüm - Bono veya Emre
+// Yazılı Senet" (m.776-779) ile devam edecek, ardından "Üçüncü Bölüm -
+// Çek" (m.780-849) ele alınacaktır.
+//
+// Altıncı batch, iki yazı hâlinde "İkinci Bölüm - Bono veya Emre Yazılı
+// Senet"i tamamen (m.776-779) ve "Üçüncü Bölüm - Çek"in ilk iki
+// ayırımını (m.780-793) kapsar. İlk yazı bonoyu tek bir makalede ele
+// alır: unsurlar, unsurların bulunmaması, poliçe hükümlerinin bonoya
+// uygulanması (ciro, vade, ödeme, başvurma hakları, zamanaşımı, iptal,
+// aval) ve düzenleyenin poliçeyi kabul eden gibi doğrudan sorumlu
+// olması ilkesi (m.776-779). İkinci ve üçüncü yazılar Çek Bölümü'nün
+// açılışını oluşturur: "Birinci Ayırım - Çeklerin Düzenlenmesi ve
+// Şekli" (m.780-787: unsurlar, unsurların bulunmaması, muhatap olma
+// ehliyeti, karşılık, kabul yasağı, kimin lehine çekilebileceği, faiz
+// şartı, adresli ve yerleşim yerli çek) ve "İkinci Ayırım - Devir"
+// (m.788-793: devredilebilirlik, ciro, hak sahipliğini ispat görevi,
+// hamiline yazılı çek üzerine yapılan ciro, elden çıkan çek, protestodan
+// ve ibraz süresinin geçmesinden sonraki ciro). Çek Bölümü'nün kalan
+// ayırımları ("Ödeme ve Ödememe Hâlleri", m.794-811, ve "Çeşitli
+// Hükümler", m.812 vd.) sonraki batch'lerde ele alınacaktır.
+//
+// Yedinci batch, üç yazı hâlinde "Üçüncü Ayırım - Ödeme ve Ödememe"yi
+// (m.794-811) tamamen kapsar. İlk yazı "A) Ödeme" başlığının ilk
+// yarısını (m.794-802: aval, muacceliyet, ödeme için ibraz - genel
+// olarak/takvim farklılığı/takas odası, çekten cayma - genel olarak/
+// özel hâller, ciroların incelenmesi, yabancı ülke parasıyla ödenecek
+// çek) kapsar. İkinci yazı "A) Ödeme" başlığının ikinci yarısını
+// (m.803-807: çizgili çek - şekil ve şartları/hükümleri, hesaba
+// geçirilmek üzere düzenlenen çek - genel olarak, hamilin haklarının
+// iflas hâlinde ve hesaba geçirilmeme hâlinde kullanılması) kapsar.
+// Üçüncü yazı ise "B) Ödememe" başlığının tamamını (m.808-811: hamilin
+// başvurma hakları, protesto, başvurma hakkının kapsamı, mücbir
+// sebepler) kapsar. Bu batch ile Üçüncü Ayırım ve dolayısıyla Çek
+// Bölümü'nün ödeme/ödememe rejimi tamamen işlenmiş olur. Kambiyo
+// Senetleri Kısmı'nı tamamlamak için yalnızca "Dördüncü Ayırım -
+// Çeşitli Hükümler" (sahte veya tahrif edilmiş çek, m.812'den başlar;
+// kapsamın tam sınırı sonraki bir chunk fetch'i ile belirlenecektir)
+// kalmıştır.
+//
+// Sekizinci batch, iki yazı hâlinde "Dördüncü Ayırım - Çeşitli
+// Hükümler" (m.812-818) ve "Beşinci Ayırım - Kanunlar İhtilafı"
+// (m.819-823) başlıklarını tamamen kapsar. İlk yazı Dördüncü Ayırım'ı
+// tek bir makalede ele alır: sahte veya tahrif edilmiş çekte muhatap
+// bankanın kusursuz sorumluluğu ve düzenleyenin kusuru istisnası
+// (m.812), çekin istisnai denizaşırı hâllerde nüsha olarak
+// düzenlenmesi (m.813), üç yıllık zamanaşımı (m.814), banka kavramının
+// tanımı (m.815), tatil günleri ve sürelerin hesabı (m.816-817) ve
+// poliçeye ait hangi hükümlerin çeke uygulanacağını gösteren seçici
+// atıf listesi ile buna bağlı protesto ikamesi (m.818). İkinci yazı ise
+// Beşinci ve son Ayırım'ı tek bir makalede ele alır: muhatap olma
+// ehliyeti (m.819), şekil ve süreler (m.820), borçlanmaların hükümleri
+// - düzenlenme yeri kanunu, ödeme yeri hukuku ve yerleşim yeri hukuku
+// (m.821-823). Bu batch ile Üçüncü Bölüm "Çek" (m.780-823) ve
+// dolayısıyla Dördüncü Kısım "Kambiyo Senetleri" (m.670-823) tamamen
+// işlenmiş olur. Bir sonraki batch, Üçüncü Kitap "Kıymetli Evrak"ın
+// "Beşinci Kısım - Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre
+// Yazılı Senetler" (m.824-831) ile devam edecek, ardından "Altıncı
+// Kısım - Makbuz Senedi ve Varant" (m.832-849) ele alınarak Üçüncü
+// Kitap tamamen tamamlanacak ve seri Dördüncü Kitap "Taşıma İşleri"ne
+// geçecektir.
+//
+// Dokuzuncu batch, iki yazı hâlinde "Beşinci Kısım - Kambiyo
+// Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler"i
+// (m.824-831) tamamen kapsar. İlk yazı "A) Emre Yazılı Senet" (emre
+// yazılı senedin tanımı - kanunen ve iradi emre yazılı senet ayrımı,
+// m.824; borçlunun def'ileri - poliçedeki def'i rejimiyle örtüşen
+// mutlak/nispi def'i ayrımı, m.825) ile "B) Kambiyo Senetlerine
+// Benzeyen Senetler" başlığının "I) Emre Yazılı Havaleler" alt
+// bölümünü (genel olarak - poliçe unsurlarını taşıyan ama "poliçe"
+// kelimesi içermeyen havalenin poliçe hükmünde sayılması, m.826;
+// kabul zorunluluğunun bulunmaması, m.827; kabulün hükümleri, m.828;
+// icrada uygulanmayacak hükümler - kambiyo senetlerine mahsus icra
+// takip yolundan hariç tutulma, m.829) kapsar. İkinci yazı ise "II)
+// Emre Yazılı Ödeme Vaatleri"ni (bono ile örtüşme, araya girme
+// hükümlerinin uygulanmaması ve icra yasağı, m.830) ve "C) Cirosu
+// Kabil Olan Diğer Senetler"i (yer/zaman/tutar bakımından belirli
+// nakdi ödeme veya misli eşya teslimi vaat eden ve açıkça emre yazılı
+// düzenlenen senetlere kıyasen uygulanan poliçe hükümleri - ciro,
+// hak sahipliği, geri verme yükümü, iptal - ve başvurma hükümlerinin
+// kanunda açık hüküm olmadıkça uygulanmaması, m.831) kapsar. Bu batch
+// ile Beşinci Kısım (m.824-831) ve dolayısıyla Dördüncü Kısım
+// "Kambiyo Senetleri" (m.670-831) tamamen işlenmiş olur. Bir sonraki
+// ve son Kıymetli Evrak batch'i, "Altıncı Kısım - Makbuz Senedi ve
+// Varant" (m.832-849) ile Üçüncü Kitap "Kıymetli Evrak"ı tamamen
+// tamamlayacak; ardından seri Dördüncü Kitap "Taşıma İşleri"ne
+// (m.850 vd.) geçecektir.
+//
+// Onuncu ve son Kıymetli Evrak batch'i, iki yazı hâlinde "Altıncı
+// Kısım - Makbuz Senedi ve Varant"ı (m.832-849) tamamen kapsar. İlk
+// yazı "A) Umumi Mağazalar" (genel olarak - umumi mağazanın tanımı ve
+// izin şartı, m.832; istisnalar - saklama sözleşmesine tabi sıradan
+// depolar ve şekle uymayan/izinsiz kurumların senetleri, m.833) ile
+// "B) Makbuz Senedi ve Varant" başlığının "I) Şekil" (makbuz senedi,
+// m.834; varant, m.835; dip koçanlı defter, m.836; kısmi senet,
+// m.837) ve "II) Ciro" (genel olarak - ikili senet sisteminin devir
+// rejimi, m.838; hükümleri - mülkiyet ve rehin hakkının ciro
+// senaryosuna göre ayrılması, m.839; varantın cirosu - borç, faiz ve
+// vade kaydı, m.840) alt bölümlerini kapsar. İkinci yazı ise "C)
+// Mallar Üzerinde Tasarruflar" (yapılamayacak işlemler - haciz, el
+// koyma ve rehin yasağı, m.841; malın geri alınması - genel olarak
+// ve kısmen geri alma, m.842-843; sattırma hakkı - şartlar, satış
+// bedelinin dağıtımı, başvurma hakkı ve sigorta, m.844-847), "D)
+// Zamanaşımı" (poliçe zamanaşımına atıf, m.848) ve "E) Senetlerin
+// Zıyaı"nı (kaybolan senedin mahkeme kararıyla yenilenmesi usulü,
+// m.849) kapsar. Bu batch ile Altıncı Kısım (m.832-849) ve
+// dolayısıyla Üçüncü Kitap "Kıymetli Evrak" (m.645-849) TAMAMEN
+// TAMAMLANMIŞ olur. TTK makale serisi bundan sonra Dördüncü Kitap
+// "Taşıma İşleri"ne (m.850-930) geçecek; bu yeni kitap için ayrı bir
+// lib dosyası (ttk-book4-*-groups.ts) kullanılacaktır.
+
+export const TTK_KIYMETLI_EVRAK_GROUP_ORDER: string[] = [
+  "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
+  "Nama Yazılı Senetler",
+  "Hamile Yazılı Senetler",
+  "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "Kambiyo Senetleri: Poliçede Ciro",
+  "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
+  "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "Kambiyo Senetleri: Bono",
+  "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
+  "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
+  "Makbuz Senedi ve Varant",
+];
+
+// slug -> TTK_KIYMETLI_EVRAK_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Üçüncü Kitap "Kıymetli Evrak"ın resmi kısım
+// sistematiğine göre atanmıştır.
+const TTK_KIYMETLI_EVRAK_SLUG_TO_GROUP: Record<string, string> = {
+  "kiymetli-evrakin-tanimi-senetten-dogan-borc-ve-devir-ttk-645":
+    "Kıymetli Evrakın Genel Hükümleri: Tanım, Senetten Doğan Borç ve Devir",
+  "nama-yazili-senetler-ttk-654": "Nama Yazılı Senetler",
+  "hamile-yazili-senetler-ttk-658": "Hamile Yazılı Senetler",
+  "kambiyo-senetlerine-borclanma-ehliyeti-ve-policenin-sekil-unsurlari-ttk-670":
+    "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "policede-imza-edenlerin-sorumlulugu-ttk-677":
+    "Kambiyo Senetleri: Poliçenin Şekli ve İmza Sorumluluğu",
+  "policede-ciro-ttk-681": "Kambiyo Senetleri: Poliçede Ciro",
+  "policenin-kabule-arzi-ve-kabulu-ttk-691":
+    "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "policede-aval-ttk-700": "Kambiyo Senetleri: Poliçede Kabul ve Aval",
+  "policede-vade-ve-odeme-ttk-703": "Kambiyo Senetleri: Poliçede Vade ve Ödeme",
+  "policede-odememe-protestosu-ve-basvurma-hakkinin-dogumu-ttk-713":
+    "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "policede-basvurma-hakkinin-kapsami-retret-ve-dusmesi-ttk-724":
+    "Kambiyo Senetleri: Poliçede Başvurma Hakkı ve Protesto",
+  "police-nushalari-ve-suretleri-ttk-743":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "police-zamanasimi-ve-cesitli-hukumler-ttk-748":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "police-kanunlar-ihtilafi-ttk-766":
+    "Kambiyo Senetleri: Poliçe Nüshaları, Zamanaşımı ve Kanunlar İhtilafı",
+  "bono-veya-emre-yazili-senet-ttk-776": "Kambiyo Senetleri: Bono",
+  "cekin-duzenlenmesi-ve-sekil-sartlari-ttk-780":
+    "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "cekin-devri-ciro-yoluyla-ttk-788":
+    "Kambiyo Senetleri: Çek — Düzenlenmesi ve Devri",
+  "cekte-odeme-ibraz-ve-cayma-ttk-794":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cizgili-cek-ve-hesaba-gecirilecek-cek-ttk-803":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cekte-odememe-ve-basvurma-haklari-ttk-808":
+    "Kambiyo Senetleri: Çekte Ödeme ve Ödememe",
+  "cekte-sahtecilik-nusha-zamanasimi-ve-uygulanacak-hukumler-ttk-812":
+    "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
+  "cekte-kanunlar-ihtilafi-ttk-819":
+    "Kambiyo Senetleri: Çekte Çeşitli Hükümler ve Kanunlar İhtilafı",
+  "emre-yazili-senet-ve-kambiyo-senetlerine-benzeyen-senetler-ttk-824":
+    "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
+  "emre-yazili-odeme-vaatleri-ve-cirosu-kabil-diger-senetler-ttk-830":
+    "Kambiyo Senetlerine Benzeyen Senetler ve Diğer Emre Yazılı Senetler",
+  "umumi-magazalar-makbuz-senedi-ve-varant-ttk-832": "Makbuz Senedi ve Varant",
+  "umumi-magazada-tasarruflar-sattirma-hakki-ve-zamanasimi-ttk-841":
+    "Makbuz Senedi ve Varant",
+};
+
+export function getTtkKiymetliEvrakGroup(slug: string): string | null {
+  return TTK_KIYMETLI_EVRAK_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkKiymetliEvrakArticle(slug: string): boolean {
+  return slug in TTK_KIYMETLI_EVRAK_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-tasima-isleri-groups.ts
+// ============================================================
+
+// TTK (Türk Ticaret Kanunu) Dördüncü Kitap "Taşıma İşleri" (m.850-930)
+// konu makalelerini kanunun resmi kısım sistematiğine göre gruplamak
+// için kullanılır. Yalnızca "Türk Ticaret Kanunu - Taşıma İşleri" makale
+// grubunda (tr locale, articles sayfası) kullanılır; çalışma alanları
+// sayfalarını etkilemez. Kitap 1 "Ticari İşletme" (m.1-123) için bkz.
+// ttk-groups.ts; Kitap 2 "Ticaret Şirketleri" (m.124-644) için bkz.
+// ttk-book2-*-groups.ts dosyaları; Kitap 3 "Kıymetli Evrak" (m.645-849)
+// için bkz. ttk-kiymetli-evrak-groups.ts.
+//
+// Taşıma İşleri (m.850-930) birden fazla batch halinde yazılacaktır. Bu
+// dosya, ilk batch'i kapsar: "Birinci Kısım - Genel Hükümler"in tamamını
+// (taşıyıcı - tanım ve taşıma sözleşmesinin temel yükümlülükleri, m.850;
+// hükümlerin uygulama alanı - arizi taşıyıcılara da uygulanması, m.851;
+// saklı tutulan hükümler - kural: deniz/demir/hava/posta taşımasına ait
+// özel hükümlerin saklılığı, m.852, ve özel hükümlerin taşıyıcının
+// sorumluluğunu etkilememesi, m.853; sorumluluğun kaldırılmasına veya
+// hafifletilmesine ait hükümlerin geçersizliği - genel işlem şartları,
+// biletler ve tarifeler dahil emredici koruma, m.854; zamanaşımı - on
+// yıl/bir yıl/üç yıl kademeli süreler, rücu hakları ve def'i imkanı,
+// m.855) ve "İkinci Kısım - Eşya Taşıma"nın açılışı olan "A) Taşıma
+// Sözleşmesinin Uygulanması" başlığını (taşıma senedi - ihtiyari
+// düzenleme ve senetsiz sözleşme kurulması, m.856; taşıma senedinin
+// içeriği, m.857; taşıma senedinin ispat gücü - iki tarafça imzalanan
+// senedin karinesi ve taşıyıcının çekince mekanizması, m.858; yük
+// senedi - senet düzenlenmemişse başvurulacak zayıf ispat aracı, m.859;
+// refakat belgeleri - gönderenin resmi belge sağlama yükümü ve
+// taşıyıcının sorumluluğu, m.860; tehlikeli eşya - bildirim yükümü ve
+// taşıyıcının önlem alma hakkı, m.861) kapsar.
+//
+// İkinci batch, "A) Taşıma Sözleşmesinin Uygulanması" başlığının kalan
+// hükümlerini kapsar: ambalaj ve işaret - gönderenin ambalajlama ve
+// işaretleme yükümü, m.862; yükleme ve boşaltma - varsayılan külfet
+// dağılımı ve bekleme ücreti, m.863; özel durumlarda gönderenin
+// kusursuz sorumluluğu - yetersiz ambalajlama/işaretleme, taşıma
+// senedindeki hatalar, tehlikeli mal bildirimsizliği ve belge
+// eksiklikleri ile bunların SDR sınırı ve tüketici istisnası, m.864;
+// gönderen tarafından fesih - her zaman fesih hakkı ve tazminat
+// formülü, m.865; kısmi taşımayı istem hakkı, m.866; yükleme süresine
+// uyulmaması hâlinde taşıyıcının ihtar ve fesih hakları, m.867; emir,
+// talimat ve tasarruflar - gönderenin/gönderilenin tasarruf hakkı ve
+// taşıma senedi ibrazı, m.868; taşıma ve teslim engelleri - taşıyıcının
+// talimat alma yükümü ve kendi inisiyatifiyle önlem alma hakkı, m.869;
+// taşıma ücretinin hesaplanması ve ödenmesi, m.870; gönderilenin
+// hakları ve ödeme borcu, m.871; ödemeli teslim, m.872; taşıma süresi -
+// makul süre standardı, m.873; zıya karinesi - yirmi/otuz günlük süre,
+// bulunma hâlinde geri alma hakkı ve taşıyıcının serbest tasarrufu,
+// m.874. Bu batch ile İkinci Kısım "Eşya Taşıma"nın "A) Taşıma
+// Sözleşmesinin Uygulanması" başlığı (m.856-874) tamamen kapsanmış
+// olur.
+//
+// Üçüncü batch, İkinci Kısmın kalan bölümü olan "B) Taşıyıcının
+// Sorumluluğu" başlığının tamamını (m.875-893) kapsar: zıya, hasar
+// veya gecikmeden doğan zarardan sorumluluğun temel kuralı ve
+// gönderen/gönderilenin katkı kusurunun etkisi, m.875; sorumluluktan
+// kurtulma - en yüksek özen standardına dayanan genel kurtulma sebebi,
+// m.876, araç arızası ve kiralayanın kusurundan kurtulma yasağı,
+// m.877, ispat yükünü tersine çeviren özel hâller (üstü açık araç,
+// yetersiz ambalajlama, eşyanın doğal niteliği, canlı hayvan taşıması
+// vb.) ve bunların istisnaları, m.878; yardımcıların (kendi adamları
+// ve taşımanın icrasında yararlanılan kişiler) kusurundan sorumluluk,
+// m.879; tazminatta esas alınacak değer - tam zıyada teslim yeri ve
+// zamanındaki değer, hasarda değer farkı yöntemi, m.880; zarar saptama
+// giderlerinin tazmini, m.881; sorumluluk sınırları - CMR'den mülhem
+// kilogram başına 8,33 SDR sınırı ve gecikmede taşıma ücretinin üç
+// katı sınırı, m.882; diğer giderlerin (navlun iadesi, vergi, resim)
+// tazmini, m.883; eşya/kişi zararları dışında kalan diğer zararlarda
+// tam zıya tazminatının üç katı üst sınırı, m.884; sorumluluktan
+// kurtulma sebepleri ve sınırlamaların sözleşme dışı istemlere ve
+// üçüncü kişi istemlerine uzanması, m.885; kasıt veya pervasızca
+// davranışın tüm kurtulma sebeplerini ve sınırlamaları ortadan
+// kaldırması, m.886; bu kuralın taşıyıcının yardımcılarına karşı
+// açılan davalarda uygulanması, m.887; taşımayı fiilen yürüten üçüncü
+// kişi olan fiilî taşıyıcının asıl taşıyıcı ile müteselsil
+// sorumluluğu, m.888; açık ve gizli zarar ile gecikme bildirimlerinin
+// süre ve şekil şartları, m.889; taşıma davalarında ek yetkili
+// mahkeme, m.890; taşıyıcının TMK m.950-953 uyarınca eşya üzerindeki
+// hapis hakkı, m.891; birden çok taşıyıcı arasında hapis hakkının
+// zincirleme korunması, m.892; ve aynı eşya üzerindeki birden çok
+// hapis hakkının öncelik sırası, m.893. Bu batch ile İkinci Kısım
+// "Eşya Taşıma"nın "B) Taşıyıcının Sorumluluğu" başlığı (m.875-893)
+// tamamlanmış, dolayısıyla İkinci Kısmın m.856-893 arasındaki tüm
+// hükümleri (hem "A) Taşıma Sözleşmesinin Uygulanması" hem de "B)
+// Taşıyıcının Sorumluluğu") eksiksiz kapsanmış olur.
+//
+// Dördüncü batch, "Üçüncü Kısım - Taşınma Eşyası Taşıması" (m.894-901)
+// hükümlerinin tamamını kapsar: uygulanacak hükümler - taşınma eşyası
+// tanımı ve Birinci/İkinci Kısım hükümlerinin aksi kararlaştırılmadıkça
+// veya milletlerarası sözleşme öngörmedikçe uygulanması, m.894;
+// taşıyıcının yükümlülükleri - mobilya sökme/kurma ve yükleme/boşaltmanın
+// (m.863'teki genel varsayımın aksine) her zaman taşıyıcıya ait olması,
+// gönderen tüketici ise ambalajlama ve işaretlemenin de taşıyıcıya
+// geçmesi, m.895; taşıma senedi düzenleme zorunluluğunun kalkması,
+// tehlikeli mal bildiriminin tüketici gönderen için sadeleştirilmesi ve
+// taşıyıcının gümrük/idari kurallar konusunda bilgilendirme yükümü,
+// m.896; gönderenin özel hâllerde sorumluluğunun (m.864/2'den farklı
+// olarak) yükleme hacminin metreküpü başına 1.500 SDR ile sınırlanması,
+// m.897; taşınma eşyasına özgü, genel rejimden (m.878) farklı
+// sorumluluktan kurtulma sebepleri - kıymetli eşya, yetersiz ambalaj,
+// gönderenin kendi işlemi, canlı hayvan/bitki, kırılgan eşya vb., m.898;
+// taşıyıcının sorumluluk sınırının (m.882'den farklı olarak) metreküp
+// başına 1.500 SDR olması, m.899; açık zarar için üç iş günü, gizli
+// zarar için ondört günlük (m.889'dan kısaltılmış) bildirim süreleri,
+// m.900; ve gönderen tüketici ise taşıyıcının, sözleşme kurulurken
+// sorumluluk hükümleri ve sigorta imkânları hakkında, teslimde ise
+// bildirim kuralları hakkında yazılı olarak bilgilendirme yapmadıkça
+// tüm bu ayrıcalıklardan (m.898, m.899, m.900 ve İkinci Kısımdaki
+// kurtulma hâlleri) yararlanamaması, m.901. Aynı batch, "Dördüncü Kısım
+// - Değişik Tür Araçlar ile Taşıma" (m.902-905) hükümlerinin de
+// tamamını kapsar: multimodal taşıma sözleşmelerine TTK'nın Birinci ve
+// İkinci Kısım hükümlerinin uygulanması için aranan dört kümülatif şart,
+// m.902; zarar yerinin belli olduğu hâllerde o taşıma kısmının kendi
+// rejimine (ayrı bir sözleşme yapılmış olsaydı hangi hükümlere tabi
+// olacak idiyse ona) tabi tutulması - "ağ sistemi" - ve ispat yükü,
+// m.903; bildirimin zarar yerinin bilinip bilinmemesinden bağımsız
+// olarak m.889'a tabi olması ve zamanaşımı başlangıcının teslim tarihi
+// olması, m.904; ve konusu taşınma eşyası olan değişik tür araçlarla
+// taşımalarda Üçüncü Kısım hükümlerinin uygulanması ile m.903'teki ağ
+// sisteminin ancak bağlayıcı bir milletlerarası sözleşme varsa devreye
+// girmesi, m.905. Bu batch ile Üçüncü Kısım "Taşınma Eşyası Taşıması"
+// (m.894-901) ve Dördüncü Kısım "Değişik Tür Araçlar ile Taşıma"
+// (m.902-905) eksiksiz tamamlanmış olur. Sonraki batch'ler, "Beşinci
+// Kısım - Yolcu Taşıma" (m.906-916) ve "Altıncı Kısım - Taşıma İşleri
+// Komisyoncusu" (m.917-930) başlıklarını ele alacak; ikincisiyle
+// birlikte Dördüncü Kitap "Taşıma İşleri" tamamen kapsanmış olacaktır.
+//
+// Beşinci batch, "Beşinci Kısım - Yolcu Taşıma" (m.906-916) hükümlerinin
+// tamamını iki yazıda kapsar. İlk yazı, sözleşmenin kurulmasından
+// hareketin başlamasına kadar olan hükümleri işler: yolcunun taşıyıcının
+// iç hizmet kurallarına uyma yükümü, m.906; seferin sözleşme kurulduktan
+// sonra fakat hareketten önce yapılamaması hâllerinde mücbir sebep,
+// kusursuzluk, taşıyıcı kusuru ve ikame sefer/üç misli tazminat
+// senaryoları, m.907; hareketin gecikmesinde yolcunun cayma hakkı ve
+// zarar ispatı aranmaksızın hükmedilen üç misli bilet tazminatı, m.908;
+// sefer sırasında taşıyıcının kendi fiiliyle yol değiştirmesi veya tarife
+// dışı durması, m.909; Hükümet emri, idari tasarruf, araç onarımı veya
+// ansızın çıkan tehlike gibi zorunlu sebeplerle gecikmede yolcunun
+// bekleme veya oranlı ücretle cayma seçimi, m.910; ve seferin hareketten
+// sonra duraklaması hâlinde kusura göre değişen ücret ve tazminat
+// sonuçları, m.911. İkinci yazı ise bagaj ve kişisel eşyadan taşıyıcının
+// sorumluluğu (m.875-886'ya yollama) ile hapis hakkını, m.912-913;
+// taşıyıcının yolcuları güvenle ulaştırma genel yükümü, kaza sonucu
+// ölüm/yaralanmada en yüksek özen standardına dayanan tazminat
+// sorumluluğu ve dört özel hâlde zarar ispatı aranmaksızın hükmedilen üç
+// misli tazminat ile idari para cezası, m.914; yolcunun seyahat sırasında
+// ölmesi hâlinde bagaj ve eşyanın korunması, m.915; ve bakanlığın
+// yönetmelik çıkarma yetkisi ile bagaj sorumluluğunun SDR sınırı, m.916,
+// hükümlerini kapsar. Bu batch ile Beşinci Kısım "Yolcu Taşıma"
+// (m.906-916) eksiksiz tamamlanmış olur.
+//
+// Altıncı ve SON batch, "Altıncı Kısım - Taşıma İşleri Komisyoncusu"
+// (m.917-930) hükümlerinin tamamını iki yazıda kapsar. İlk yazı,
+// Kısmın tanım ve temel sözleşme hükümlerini işler: taşıma işleri
+// komisyonculuğu sözleşmesinin tanımı, ticari işletme faaliyeti niteliği
+// ve genel taşıma sözleşmesi hükümlerinin kıyasen uygulanması, m.917;
+// komisyoncunun eşyanın taşıtılmasına ilişkin örgütleme borcu (araç/yol
+// belirleme, taşıyıcı seçimi ve gerekli sözleşmelerin kurulması, bilgi ve
+// talimat verme, gönderenin tazminat haklarının teminat altına alınması),
+// sigortalama/ambalajlama/işaretleme/gümrükleme gibi başkaca edimler
+// bakımından sınırlı yüküm, kendi adına veya gönderen adına sözleşme
+// yapma imkânı ve sadakat/talimata uyma borcu, m.918; gönderenin
+// ambalajlama, işaretleme, belge sağlama ve tehlikeli mal bildirimi
+// yükümleri ile bunların ihlalinde kusursuz sorumluluğu (m.864/2-5'e
+// yollama), m.919; ücretin eşyanın taşıyıcıya tesliminde (nihai teslimde
+// değil) muaccel olması, m.920; taşıma giderlerini de içeren kesin ücret
+// kararlaştırılmasının komisyoncuyu taşıyıcının hak ve yükümlülüklerine
+// sahip kılması, m.921; ve gönderenin, komisyoncunun kendi adına yaptığı
+// sözleşmelerden doğan alacaklarını ancak devirden sonra ileri
+// sürebilmesi ile bu alacakların komisyoncunun alacaklılarına karşı
+// gönderene geçmiş sayılması, m.922, hükümlerini kapsar. İkinci yazı ise
+// komisyoncunun TMK m.950-953 uyarınca eşya üzerindeki hapis hakkı,
+// m.923; zincirleme taşımalarda bu hakkın m.892'ye kıyasen korunması,
+// m.924; önceki taşıyıcı/komisyoncunun alacaklarını ödeyen sonraki
+// komisyoncuya istem ve hapis haklarının geçmesi (halefiyet), m.925;
+// komisyoncunun taşıma işini bizzat üstlenmesi hâlinde taşıyıcı/taşıyan
+// sayılması ve hem komisyon hem taşıma ücretini birlikte isteyebilmesi
+// ("kendi işine alma" / Selbsteintritt), m.926; komisyoncunun kendi
+// hesabına yaptığı sözleşmeye dayanarak eşyayı başka gönderenlerin
+// eşyasıyla birlikte taşıtabilmesi (toplama yük) ve bu hâlde taşıyıcı
+// sayılması, m.927; komisyoncunun zilyetliğindeki eşyanın zıya ve
+// hasarından taşıyıcı rejimine kıyasen sorumluluğu ile örgütleme
+// yükümlerinin ihlalinden kusura dayalı ayrı sorumluluğu ve katkı kusuru
+// indirimi, m.928; yardımcılarının (kendi adamları ve taşımada
+// yararlanılan kişiler) kusurundan taşıyıcı rejimine paralel sorumluluk,
+// m.929; ve bu Kısımdaki tüm istem ve hakların bir yıllık zamanaşımına
+// tabi olması ile m.855'e sınırlı yollama, m.930, hükümlerini kapsar. Bu
+// batch ile Altıncı Kısım "Taşıma İşleri Komisyoncusu" (m.917-930)
+// eksiksiz tamamlanmış, dolayısıyla Dördüncü Kitap "Taşıma İşleri"
+// (m.850-930) da BAŞTAN SONA TAMAMEN KAPSANMIŞ olur. Seri bundan sonra
+// Beşinci Kitap "Deniz Ticareti" (m.931-1400) ile devam edecek olup, bu
+// yeni Kitap için ayrı bir lib dosyası (ttk-deniz-ticareti-*-groups.ts
+// veya benzeri) oluşturulması gerekecektir; bu dosya yalnızca Dördüncü
+// Kitap "Taşıma İşleri"ni kapsar ve Beşinci Kitap ile genişletilmez.
+
+export const TTK_TASIMA_ISLERI_GROUP_ORDER: string[] = [
+  "Taşıma İşlerinde Genel Hükümler",
+  "Eşya Taşımada Taşıma Sözleşmesi: Taşıma Senedi ve Yük Senedi",
+  "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "Yolcu Taşıma",
+  "Taşıma İşleri Komisyoncusu",
+];
+
+// slug -> TTK_TASIMA_ISLERI_GROUP_ORDER içindeki başlık. Madde numarası
+// sırasıyla, TTK Dördüncü Kitap "Taşıma İşleri"nin resmi kısım
+// sistematiğine göre atanmıştır.
+const TTK_TASIMA_ISLERI_SLUG_TO_GROUP: Record<string, string> = {
+  "tasima-isleri-genel-hukumler-ttk-850": "Taşıma İşlerinde Genel Hükümler",
+  "esya-tasimada-tasima-senedi-ve-yuk-senedi-ttk-856":
+    "Eşya Taşımada Taşıma Sözleşmesi: Taşıma Senedi ve Yük Senedi",
+  "esya-tasimada-ambalaj-yukleme-boslatma-ve-gonderenin-sorumlulugu-ttk-862":
+    "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "esya-tasimada-yukleme-suresi-talimat-ve-tasima-engelleri-ttk-866":
+    "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "esya-tasimada-ucret-teslim-ve-ziya-karinesi-ttk-870":
+    "Eşya Taşımada Sözleşmenin Uygulanması: Ambalaj, Yükleme, Talimat, Ücret ve Teslim",
+  "esya-tasimada-tasiyicinin-sorumlulugu-ve-kurtulma-sebepleri-ttk-875":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "esya-tasimada-tazminat-hesabi-ve-sorumluluk-sinirlari-ttk-880":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "esya-tasimada-fiili-tasiyici-bildirim-ve-hapis-hakki-ttk-888":
+    "Eşya Taşımada Taşıyıcının Sorumluluğu",
+  "tasinma-esyasi-tasimasi-ttk-894":
+    "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "degisik-tur-araclar-ile-tasima-ttk-902":
+    "Taşınma Eşyası ve Değişik Tür Araçlar ile Taşıma",
+  "yolcu-tasimada-seferin-yapilamamasi-ve-gecikmesi-ttk-906": "Yolcu Taşıma",
+  "yolcu-tasimada-bagaj-tasiyicinin-sorumlulugu-ve-yolcunun-olumu-ttk-912":
+    "Yolcu Taşıma",
+  "tasima-isleri-komisyonculugu-sozlesmesi-ve-hukumleri-ttk-917":
+    "Taşıma İşleri Komisyoncusu",
+  "tasima-isleri-komisyoncusunun-sorumlulugu-ve-zamanasimi-ttk-923":
+    "Taşıma İşleri Komisyoncusu",
+};
+
+export function getTtkTasimaIsleriGroup(slug: string): string | null {
+  return TTK_TASIMA_ISLERI_SLUG_TO_GROUP[slug] ?? null;
+}
+
+export function isTtkTasimaIsleriArticle(slug: string): boolean {
+  return slug in TTK_TASIMA_ISLERI_SLUG_TO_GROUP;
+}
+
+// ============================================================
+// ttk-deniz-ticareti-groups.ts
+// ============================================================
+
 // TTK (Türk Ticaret Kanunu) Beşinci Kitap "Deniz Ticareti" (m.931-1400)
 // konu makalelerini kanunun resmi kısım sistematiğine göre gruplamak için
 // kullanılır. Yalnızca "Türk Ticaret Kanunu - Deniz Ticareti" makale
@@ -2679,7 +4058,7 @@ export const TTK_DENIZ_TICARETI_GROUP_ORDER: string[] = [
 // slug -> TTK_DENIZ_TICARETI_GROUP_ORDER içindeki başlık. Madde numarası
 // sırasıyla, TTK Beşinci Kitap "Deniz Ticareti"nin resmi kısım/bölüm
 // sistematiğine göre atanmıştır.
-const SLUG_TO_GROUP: Record<string, string> = {
+const TTK_DENIZ_TICARETI_SLUG_TO_GROUP: Record<string, string> = {
   "gemi-tanimlari-ve-genel-hukumler-ttk-931": "Gemi: Genel Hükümler",
   "geminin-adi-bayragi-ve-baglama-limani-ttk-938": "Gemi: Geminin Kimliği",
   "gemilerde-ceza-hukumleri-ve-yonetmelik-ttk-947": "Gemi: Geminin Kimliği",
@@ -2905,9 +4284,9 @@ const SLUG_TO_GROUP: Record<string, string> = {
 };
 
 export function getTtkDenizTicaretiGroup(slug: string): string | null {
-  return SLUG_TO_GROUP[slug] ?? null;
+  return TTK_DENIZ_TICARETI_SLUG_TO_GROUP[slug] ?? null;
 }
 
 export function isTtkDenizTicaretiArticle(slug: string): boolean {
-  return slug in SLUG_TO_GROUP;
+  return slug in TTK_DENIZ_TICARETI_SLUG_TO_GROUP;
 }
