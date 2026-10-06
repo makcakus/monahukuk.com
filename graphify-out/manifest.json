@@ -1,0 +1,536 @@
+{
+  "src/app/[locale]/about/page.tsx": {
+    "mtime": 1791317471.3398955,
+    "seen": 1791318247.8936877,
+    "ast_hash": "53634d35ed2a1e4127e26725ad09a40c",
+    "semantic_hash": "53634d35ed2a1e4127e26725ad09a40c"
+  },
+  "src/app/[locale]/articles/[slug]/opengraph-image.tsx": {
+    "mtime": 1791317471.3424158,
+    "seen": 1791318247.8936937,
+    "ast_hash": "aad77d3afde11e33640d9634df8eb1fe",
+    "semantic_hash": "aad77d3afde11e33640d9634df8eb1fe"
+  },
+  "src/app/[locale]/articles/[slug]/page.tsx": {
+    "mtime": 1791317471.3424158,
+    "seen": 1791318247.8936956,
+    "ast_hash": "aab6d20c869206edbbff32de5c7aa1d5",
+    "semantic_hash": "aab6d20c869206edbbff32de5c7aa1d5"
+  },
+  "src/app/[locale]/articles/page.tsx": {
+    "mtime": 1791317471.356964,
+    "seen": 1791318247.8936965,
+    "ast_hash": "9961a0e5a45d81d75754cde3df8ed25e",
+    "semantic_hash": "9961a0e5a45d81d75754cde3df8ed25e"
+  },
+  "src/app/[locale]/contact/page.tsx": {
+    "mtime": 1791317471.358966,
+    "seen": 1791318247.8936977,
+    "ast_hash": "fb9c5bf706567a7a754fab0775dbbd71",
+    "semantic_hash": "fb9c5bf706567a7a754fab0775dbbd71"
+  },
+  "src/app/[locale]/layout.tsx": {
+    "mtime": 1791317471.359965,
+    "seen": 1791318247.8936982,
+    "ast_hash": "99f8654313398e51ccf4a66f2140fb59",
+    "semantic_hash": "99f8654313398e51ccf4a66f2140fb59"
+  },
+  "src/app/[locale]/legal-news/[slug]/page.tsx": {
+    "mtime": 1791317471.3614752,
+    "seen": 1791318247.8936996,
+    "ast_hash": "4d392222c701297759e97fbda1b7c752",
+    "semantic_hash": "4d392222c701297759e97fbda1b7c752"
+  },
+  "src/app/[locale]/legal-news/page.tsx": {
+    "mtime": 1791317471.362485,
+    "seen": 1791318247.8937001,
+    "ast_hash": "bb737397318b422c113f40c5e5a52cec",
+    "semantic_hash": "bb737397318b422c113f40c5e5a52cec"
+  },
+  "src/app/[locale]/newsletter/[slug]/page.tsx": {
+    "mtime": 1791317471.363494,
+    "seen": 1791318247.893701,
+    "ast_hash": "361b9c9077e6c031c0fe20fbe93335ed",
+    "semantic_hash": "361b9c9077e6c031c0fe20fbe93335ed"
+  },
+  "src/app/[locale]/page.tsx": {
+    "mtime": 1791317471.3644972,
+    "seen": 1791318247.8937018,
+    "ast_hash": "3bde805ba298a6ad9ddba6559649b715",
+    "semantic_hash": "3bde805ba298a6ad9ddba6559649b715"
+  },
+  "src/app/[locale]/practice-areas/[slug]/page.tsx": {
+    "mtime": 1791317471.3665037,
+    "seen": 1791318247.8937027,
+    "ast_hash": "acdf64116ac479c3ed945a561b8a5124",
+    "semantic_hash": "acdf64116ac479c3ed945a561b8a5124"
+  },
+  "src/app/[locale]/practice-areas/page.tsx": {
+    "mtime": 1791317471.367497,
+    "seen": 1791318247.893704,
+    "ast_hash": "5c16b07868a5bfb96e7c0cd8239678f2",
+    "semantic_hash": "5c16b07868a5bfb96e7c0cd8239678f2"
+  },
+  "src/app/[locale]/privacy-policy/page.tsx": {
+    "mtime": 1791317471.368497,
+    "seen": 1791318247.8937047,
+    "ast_hash": "fc35be4378c7eba344fc2bc595157706",
+    "semantic_hash": "fc35be4378c7eba344fc2bc595157706"
+  },
+  "src/app/[locale]/remindionary-gizlilik/page.tsx": {
+    "mtime": 1791317471.369496,
+    "seen": 1791318247.8937058,
+    "ast_hash": "ce98c594a49b2cf9b0f8676180e74916",
+    "semantic_hash": "ce98c594a49b2cf9b0f8676180e74916"
+  },
+  "src/app/[locale]/remindionary-hukuk-sozlugu/page.tsx": {
+    "mtime": 1791317471.371005,
+    "seen": 1791318247.8937063,
+    "ast_hash": "458ad2df5f132e93e3daca9ccd374ab5",
+    "semantic_hash": "458ad2df5f132e93e3daca9ccd374ab5"
+  },
+  "src/app/[locale]/remote-representation/page.tsx": {
+    "mtime": 1791317471.3730187,
+    "seen": 1791318247.893707,
+    "ast_hash": "c6aa09ba89280d188a6ceb339f12a133",
+    "semantic_hash": "c6aa09ba89280d188a6ceb339f12a133"
+  },
+  "src/app/[locale]/team/page.tsx": {
+    "mtime": 1791317471.3740296,
+    "seen": 1791318247.8937078,
+    "ast_hash": "4676011e63857d44d2b6d60311072b8d",
+    "semantic_hash": "4676011e63857d44d2b6d60311072b8d"
+  },
+  "src/app/actions/contact.ts": {
+    "mtime": 1791317471.3760338,
+    "seen": 1791318247.8937085,
+    "ast_hash": "2a58a2cf0d64ed4f39fa0f22fd450bce",
+    "semantic_hash": "2a58a2cf0d64ed4f39fa0f22fd450bce"
+  },
+  "src/app/actions/newsletter.ts": {
+    "mtime": 1791317471.3760338,
+    "seen": 1791318247.8937094,
+    "ast_hash": "72303e27f21df02037e0d22488beaf3e",
+    "semantic_hash": "72303e27f21df02037e0d22488beaf3e"
+  },
+  "src/app/api/article-locales/route.ts": {
+    "mtime": 1791317471.3780336,
+    "seen": 1791318247.8937101,
+    "ast_hash": "89c23ba0b42062afae614d93b7ee9b06",
+    "semantic_hash": "89c23ba0b42062afae614d93b7ee9b06"
+  },
+  "src/app/api/legal-news-locales/route.ts": {
+    "mtime": 1791317471.379032,
+    "seen": 1791318247.893711,
+    "ast_hash": "56ceb5448360461d1812a4f6ae9c78f4",
+    "semantic_hash": "56ceb5448360461d1812a4f6ae9c78f4"
+  },
+  "src/app/api/newsletter/confirm/route.ts": {
+    "mtime": 1791317471.3800313,
+    "seen": 1791318247.8937116,
+    "ast_hash": "963642cd018a8c5fb2b4916d38b4a8ae",
+    "semantic_hash": "963642cd018a8c5fb2b4916d38b4a8ae"
+  },
+  "src/app/api/newsletter/unsubscribe/route.ts": {
+    "mtime": 1791317471.381543,
+    "seen": 1791318247.893713,
+    "ast_hash": "cd19c42b0c9ecfd78efc51494d00966a",
+    "semantic_hash": "cd19c42b0c9ecfd78efc51494d00966a"
+  },
+  "src/app/api/revalidate-article/route.ts": {
+    "mtime": 1791317471.3825557,
+    "seen": 1791318247.893714,
+    "ast_hash": "1fca5fecb054fa8760838efd80912c85",
+    "semantic_hash": "1fca5fecb054fa8760838efd80912c85"
+  },
+  "src/app/icon.tsx": {
+    "mtime": 1791317471.3860886,
+    "seen": 1791318247.8937147,
+    "ast_hash": "0adf5b0ed13fff0bd45304f2c980944c",
+    "semantic_hash": "0adf5b0ed13fff0bd45304f2c980944c"
+  },
+  "src/app/layout.tsx": {
+    "mtime": 1791317471.3860886,
+    "seen": 1791318247.8937151,
+    "ast_hash": "1b6897a1c5fb73b07284c867285a74c3",
+    "semantic_hash": "1b6897a1c5fb73b07284c867285a74c3"
+  },
+  "src/app/llms.txt/route.ts": {
+    "mtime": 1791317471.3880887,
+    "seen": 1791318247.8937163,
+    "ast_hash": "452bb03be83a5ec9570078b5780ddce7",
+    "semantic_hash": "452bb03be83a5ec9570078b5780ddce7"
+  },
+  "src/app/opengraph-image.tsx": {
+    "mtime": 1791317471.3890922,
+    "seen": 1791318247.893717,
+    "ast_hash": "ec759fbc03022f1342ccefd7a96eda18",
+    "semantic_hash": "ec759fbc03022f1342ccefd7a96eda18"
+  },
+  "src/app/robots.ts": {
+    "mtime": 1791317471.3915951,
+    "seen": 1791318247.893718,
+    "ast_hash": "73fe3acfb8897467520793468ea77774",
+    "semantic_hash": "73fe3acfb8897467520793468ea77774"
+  },
+  "src/app/sitemap.ts": {
+    "mtime": 1791317471.393623,
+    "seen": 1791318247.8937185,
+    "ast_hash": "8dcae367a49f540f7642d280478c8f61",
+    "semantic_hash": "8dcae367a49f540f7642d280478c8f61"
+  },
+  "src/components/ArticleNavButtons.tsx": {
+    "mtime": 1791317471.3946235,
+    "seen": 1791318247.8937192,
+    "ast_hash": "c8f77981ba795522ad3fc2225b49ca23",
+    "semantic_hash": "c8f77981ba795522ad3fc2225b49ca23"
+  },
+  "src/components/ArticleSchema.tsx": {
+    "mtime": 1791317471.395628,
+    "seen": 1791318247.8937201,
+    "ast_hash": "480d98afacead875a49a08308d045586",
+    "semantic_hash": "480d98afacead875a49a08308d045586"
+  },
+  "src/components/ArticlesBrowser.tsx": {
+    "mtime": 1791317471.4091563,
+    "seen": 1791318247.8937209,
+    "ast_hash": "f977af4b08777fd7cf5d7e43ae1ae56c",
+    "semantic_hash": "f977af4b08777fd7cf5d7e43ae1ae56c"
+  },
+  "src/components/CinematicHero.tsx": {
+    "mtime": 1791317471.4091563,
+    "seen": 1791318247.8937216,
+    "ast_hash": "f89a6744fd76ecedc85dbad9ae814f4d",
+    "semantic_hash": "f89a6744fd76ecedc85dbad9ae814f4d"
+  },
+  "src/components/ContactForm.tsx": {
+    "mtime": 1791317471.410665,
+    "seen": 1791318247.8937225,
+    "ast_hash": "30d714cff08aadcc88e6c8835e2e949e",
+    "semantic_hash": "30d714cff08aadcc88e6c8835e2e949e"
+  },
+  "src/components/CookieBanner.tsx": {
+    "mtime": 1791317471.4116755,
+    "seen": 1791318247.8937235,
+    "ast_hash": "452c796ef4cf08ba52f7ecb72650e16f",
+    "semantic_hash": "452c796ef4cf08ba52f7ecb72650e16f"
+  },
+  "src/components/Footer.tsx": {
+    "mtime": 1791317471.412679,
+    "seen": 1791318247.8937242,
+    "ast_hash": "61344b2ac07ab41e99449dab3d02eb50",
+    "semantic_hash": "61344b2ac07ab41e99449dab3d02eb50"
+  },
+  "src/components/GoogleAnalytics.tsx": {
+    "mtime": 1791317471.4136891,
+    "seen": 1791318247.893725,
+    "ast_hash": "8e9d0ca8265f1796c8c0e2bf806623c8",
+    "semantic_hash": "8e9d0ca8265f1796c8c0e2bf806623c8"
+  },
+  "src/components/GoogleSignupButton.tsx": {
+    "mtime": 1791317471.4146888,
+    "seen": 1791318247.8937256,
+    "ast_hash": "09ae121b42bf355d49507b33968bcca7",
+    "semantic_hash": "09ae121b42bf355d49507b33968bcca7"
+  },
+  "src/components/Header.tsx": {
+    "mtime": 1791317471.4146888,
+    "seen": 1791318247.8937263,
+    "ast_hash": "75a6a1cda035ffc8dd44bbd8d3e8547e",
+    "semantic_hash": "75a6a1cda035ffc8dd44bbd8d3e8547e"
+  },
+  "src/components/HukukSozluguArama.tsx": {
+    "mtime": 1791317471.415688,
+    "seen": 1791318247.893727,
+    "ast_hash": "7cae4b2d1ee6238a54f43dd608f5e120",
+    "semantic_hash": "7cae4b2d1ee6238a54f43dd608f5e120"
+  },
+  "src/components/JsonLd.tsx": {
+    "mtime": 1791317471.41669,
+    "seen": 1791318247.893728,
+    "ast_hash": "93a840c65b76e19080c0d52578636782",
+    "semantic_hash": "93a840c65b76e19080c0d52578636782"
+  },
+  "src/components/LangSwitcher.tsx": {
+    "mtime": 1791317471.417689,
+    "seen": 1791318247.8937285,
+    "ast_hash": "77693ac0500169a843689e2cfb63b7ae",
+    "semantic_hash": "77693ac0500169a843689e2cfb63b7ae"
+  },
+  "src/components/LegalServiceSchema.tsx": {
+    "mtime": 1791317471.417689,
+    "seen": 1791318247.8937302,
+    "ast_hash": "c7fdc3a2a1e9992e57122e1abe41f9b9",
+    "semantic_hash": "c7fdc3a2a1e9992e57122e1abe41f9b9"
+  },
+  "src/components/NewsletterBanner.tsx": {
+    "mtime": 1791317471.41869,
+    "seen": 1791318247.8937309,
+    "ast_hash": "aceae30b7973eab0bbef52b37dd14f10",
+    "semantic_hash": "aceae30b7973eab0bbef52b37dd14f10"
+  },
+  "src/components/NewsletterInlineCTA.tsx": {
+    "mtime": 1791317471.4196882,
+    "seen": 1791318247.8937316,
+    "ast_hash": "07c2b652e2cacbe695cd1fdd974627b5",
+    "semantic_hash": "07c2b652e2cacbe695cd1fdd974627b5"
+  },
+  "src/components/PageHero.tsx": {
+    "mtime": 1791317471.4196882,
+    "seen": 1791318247.8937323,
+    "ast_hash": "d7b450db863bb4191c95b0bb70690f00",
+    "semantic_hash": "d7b450db863bb4191c95b0bb70690f00"
+  },
+  "src/components/ReadingProgress.tsx": {
+    "mtime": 1791317471.4206917,
+    "seen": 1791318247.893733,
+    "ast_hash": "7cc6e87207b92ac8ba0332fd009d5e52",
+    "semantic_hash": "7cc6e87207b92ac8ba0332fd009d5e52"
+  },
+  "src/components/RelatedArticles.tsx": {
+    "mtime": 1791317471.4212039,
+    "seen": 1791318247.893734,
+    "ast_hash": "e3ce4c4f2fd80958c1973cfec3ca9029",
+    "semantic_hash": "e3ce4c4f2fd80958c1973cfec3ca9029"
+  },
+  "src/components/Reveal.tsx": {
+    "mtime": 1791317471.4272308,
+    "seen": 1791318247.8937347,
+    "ast_hash": "d7dee099be31217fecd9f72170e0fb68",
+    "semantic_hash": "d7dee099be31217fecd9f72170e0fb68"
+  },
+  "src/components/ThemeToggle.tsx": {
+    "mtime": 1791317471.42823,
+    "seen": 1791318247.8937354,
+    "ast_hash": "871e2dcba50894ed1b38013bb3480d80",
+    "semantic_hash": "871e2dcba50894ed1b38013bb3480d80"
+  },
+  "src/components/WhatsAppFloat.tsx": {
+    "mtime": 1791317471.4292316,
+    "seen": 1791318247.8937361,
+    "ast_hash": "93d3897a8bde0339b3b7c156cecfc94d",
+    "semantic_hash": "93d3897a8bde0339b3b7c156cecfc94d"
+  },
+  "src/components/Wordmark.tsx": {
+    "mtime": 1791317471.4292316,
+    "seen": 1791318247.893737,
+    "ast_hash": "fde4baa67a804ba09b7fa91b7c181ad0",
+    "semantic_hash": "fde4baa67a804ba09b7fa91b7c181ad0"
+  },
+  "src/generated/article-fallbacks.json": {
+    "mtime": 1791317471.4317505,
+    "seen": 1791318247.8937378,
+    "ast_hash": "faa97557d4987cbbbf950d9d23f449bf",
+    "semantic_hash": "faa97557d4987cbbbf950d9d23f449bf"
+  },
+  "src/generated/article-locales.json": {
+    "mtime": 1791317471.436773,
+    "seen": 1791318247.8937385,
+    "ast_hash": "05e5ed10b01d62da3325a75865015dd4",
+    "semantic_hash": "05e5ed10b01d62da3325a75865015dd4"
+  },
+  "src/generated/legal-news-locales.json": {
+    "mtime": 1791317471.4377694,
+    "seen": 1791318247.8937392,
+    "ast_hash": "24d734594c8aa5fd439ba78a8aacd30a",
+    "semantic_hash": "24d734594c8aa5fd439ba78a8aacd30a"
+  },
+  "src/i18n/navigation.ts": {
+    "mtime": 1791317471.439766,
+    "seen": 1791318247.8937397,
+    "ast_hash": "3ab9561fc91d92e830d44435876e220f",
+    "semantic_hash": "3ab9561fc91d92e830d44435876e220f"
+  },
+  "src/i18n/request.ts": {
+    "mtime": 1791317471.4558268,
+    "seen": 1791318247.893741,
+    "ast_hash": "ee8839cc3a13a8aebf0c67e5f389718b",
+    "semantic_hash": "ee8839cc3a13a8aebf0c67e5f389718b"
+  },
+  "src/i18n/routing.ts": {
+    "mtime": 1791317471.4568262,
+    "seen": 1791318247.8937414,
+    "ast_hash": "0bdf6c5d005a5d8a6833e571857b51fe",
+    "semantic_hash": "0bdf6c5d005a5d8a6833e571857b51fe"
+  },
+  "src/lib/analytics.ts": {
+    "mtime": 1791317471.457827,
+    "seen": 1791318247.893742,
+    "ast_hash": "c76d7b03bd93a411f64b88236c0e8afb",
+    "semantic_hash": "c76d7b03bd93a411f64b88236c0e8afb"
+  },
+  "src/lib/arabuluculuk-groups.ts": {
+    "mtime": 1791317471.458832,
+    "seen": 1791318247.8937428,
+    "ast_hash": "1438fcf72fb0f7b923ad3371d44a2117",
+    "semantic_hash": "1438fcf72fb0f7b923ad3371d44a2117"
+  },
+  "src/lib/article-fallback.ts": {
+    "mtime": 1791317471.4598298,
+    "seen": 1791318247.8937435,
+    "ast_hash": "a03b9221676a95002eda8349e8fed187",
+    "semantic_hash": "a03b9221676a95002eda8349e8fed187"
+  },
+  "src/lib/articles.ts": {
+    "mtime": 1791317471.4608278,
+    "seen": 1791318247.8937445,
+    "ast_hash": "a2b41d098a2cb959dd068d53d953d809",
+    "semantic_hash": "a2b41d098a2cb959dd068d53d953d809"
+  },
+  "src/lib/author.ts": {
+    "mtime": 1791317471.4613447,
+    "seen": 1791318247.8937483,
+    "ast_hash": "6c0b79fd413f1aac005210aa1086bbe5",
+    "semantic_hash": "6c0b79fd413f1aac005210aa1086bbe5"
+  },
+  "src/lib/cmk-groups.ts": {
+    "mtime": 1791317471.4623601,
+    "seen": 1791318247.893749,
+    "ast_hash": "1ce3dc28480b7ee6b92a1ab2e6b1183e",
+    "semantic_hash": "1ce3dc28480b7ee6b92a1ab2e6b1183e"
+  },
+  "src/lib/editorial-team.ts": {
+    "mtime": 1791317471.463375,
+    "seen": 1791318247.8937497,
+    "ast_hash": "db70de42c18d00c9a008ceefcbf7346d",
+    "semantic_hash": "db70de42c18d00c9a008ceefcbf7346d"
+  },
+  "src/lib/hukuki-haberler.ts": {
+    "mtime": 1791317471.4643846,
+    "seen": 1791318247.8937507,
+    "ast_hash": "836a100fbb6dce41c1134d9cff025024",
+    "semantic_hash": "836a100fbb6dce41c1134d9cff025024"
+  },
+  "src/lib/is-hukuku-groups.ts": {
+    "mtime": 1791317471.4653842,
+    "seen": 1791318247.8937516,
+    "ast_hash": "9882722b6f2b62bea8d86fc87f3cf4f3",
+    "semantic_hash": "9882722b6f2b62bea8d86fc87f3cf4f3"
+  },
+  "src/lib/mail.ts": {
+    "mtime": 1791317471.466385,
+    "seen": 1791318247.8937523,
+    "ast_hash": "a01fe82c36437f825fdbd8810eabdd09",
+    "semantic_hash": "a01fe82c36437f825fdbd8810eabdd09"
+  },
+  "src/lib/newsletter-jwt.ts": {
+    "mtime": 1791317471.466385,
+    "seen": 1791318247.893753,
+    "ast_hash": "c4d835d7f4a309866775aa8652471a9f",
+    "semantic_hash": "c4d835d7f4a309866775aa8652471a9f"
+  },
+  "src/lib/practice-areas-content.ts": {
+    "mtime": 1791317471.4708955,
+    "seen": 1791318247.8937535,
+    "ast_hash": "c7d2ec86b28b46d1452685bca23502ac",
+    "semantic_hash": "c7d2ec86b28b46d1452685bca23502ac"
+  },
+  "src/lib/practice-areas.ts": {
+    "mtime": 1791317471.4729068,
+    "seen": 1791318247.8937547,
+    "ast_hash": "8763a6513e8ac9105488c7d1bd051831",
+    "semantic_hash": "8763a6513e8ac9105488c7d1bd051831"
+  },
+  "src/lib/schema.ts": {
+    "mtime": 1791317471.473916,
+    "seen": 1791318247.8937552,
+    "ast_hash": "93cce1846b13e66d77cfc471d7a58df4",
+    "semantic_hash": "93cce1846b13e66d77cfc471d7a58df4"
+  },
+  "src/lib/seo.ts": {
+    "mtime": 1791317471.474916,
+    "seen": 1791318247.893756,
+    "ast_hash": "591dc2fcfd8cd3d909560b22979f1949",
+    "semantic_hash": "591dc2fcfd8cd3d909560b22979f1949"
+  },
+  "src/lib/site.ts": {
+    "mtime": 1791317471.4759161,
+    "seen": 1791318247.8937566,
+    "ast_hash": "37787ce427233fe2315dff9066d32f6f",
+    "semantic_hash": "37787ce427233fe2315dff9066d32f6f"
+  },
+  "src/lib/tck-groups.ts": {
+    "mtime": 1791317471.4769168,
+    "seen": 1791318247.8937573,
+    "ast_hash": "c5c8db31d0024bcab42633aaba5c7b74",
+    "semantic_hash": "c5c8db31d0024bcab42633aaba5c7b74"
+  },
+  "src/lib/team.ts": {
+    "mtime": 1791317471.4779162,
+    "seen": 1791318247.8937583,
+    "ast_hash": "deea0b57157af47f67f0974c4ebe3d4e",
+    "semantic_hash": "deea0b57157af47f67f0974c4ebe3d4e"
+  },
+  "src/lib/ttk-book2-anonim-sirket-groups.ts": {
+    "mtime": 1791317471.4779162,
+    "seen": 1791318247.8937588,
+    "ast_hash": "a2f32e661cc05339e6f0d9535e3d1f5e",
+    "semantic_hash": "a2f32e661cc05339e6f0d9535e3d1f5e"
+  },
+  "src/lib/ttk-book2-genel-hukumler-groups.ts": {
+    "mtime": 1791317471.4789174,
+    "seen": 1791318247.8937597,
+    "ast_hash": "8ff1def420cc4a33eabfa40affeb4467",
+    "semantic_hash": "8ff1def420cc4a33eabfa40affeb4467"
+  },
+  "src/lib/ttk-book2-kollektif-sirket-groups.ts": {
+    "mtime": 1791317471.4799197,
+    "seen": 1791318247.8937604,
+    "ast_hash": "2b7215500b20884f53a460682e1ff932",
+    "semantic_hash": "2b7215500b20884f53a460682e1ff932"
+  },
+  "src/lib/ttk-book2-komandit-sirket-groups.ts": {
+    "mtime": 1791317471.4809172,
+    "seen": 1791318247.8937614,
+    "ast_hash": "ff234b1ef7ba9cf125faa501e967ee64",
+    "semantic_hash": "ff234b1ef7ba9cf125faa501e967ee64"
+  },
+  "src/lib/ttk-book2-limited-sirket-groups.ts": {
+    "mtime": 1791317471.4814265,
+    "seen": 1791318247.893762,
+    "ast_hash": "339bf36022e5ff3f93be992a5fac8c21",
+    "semantic_hash": "339bf36022e5ff3f93be992a5fac8c21"
+  },
+  "src/lib/ttk-book2-spb-komandit-sirket-groups.ts": {
+    "mtime": 1791317471.4824374,
+    "seen": 1791318247.8937628,
+    "ast_hash": "342150901f7554c2919201a8f9f7bc68",
+    "semantic_hash": "342150901f7554c2919201a8f9f7bc68"
+  },
+  "src/lib/ttk-deniz-ticareti-groups.ts": {
+    "mtime": 1791317471.4849703,
+    "seen": 1791318247.8937635,
+    "ast_hash": "dcd10962ac4b1f500d8c9d7c3c6fe176",
+    "semantic_hash": "dcd10962ac4b1f500d8c9d7c3c6fe176"
+  },
+  "src/lib/ttk-groups.ts": {
+    "mtime": 1791317471.485981,
+    "seen": 1791318247.8937643,
+    "ast_hash": "074c1e752b99e8ccf06ca2dd8bfeac4f",
+    "semantic_hash": "074c1e752b99e8ccf06ca2dd8bfeac4f"
+  },
+  "src/lib/ttk-kiymetli-evrak-groups.ts": {
+    "mtime": 1791317471.4869697,
+    "seen": 1791318247.8937652,
+    "ast_hash": "0cc34eeeb7c88df5b5c7737be871c988",
+    "semantic_hash": "0cc34eeeb7c88df5b5c7737be871c988"
+  },
+  "src/lib/ttk-tasima-isleri-groups.ts": {
+    "mtime": 1791317471.488971,
+    "seen": 1791318247.8937678,
+    "ast_hash": "b88c65153809148b9e8bc8cb4b5c0b12",
+    "semantic_hash": "b88c65153809148b9e8bc8cb4b5c0b12"
+  },
+  "src/middleware.ts": {
+    "mtime": 1791317471.4899693,
+    "seen": 1791318247.8937688,
+    "ast_hash": "ad89da119f9ada774b582af51e9caee9",
+    "semantic_hash": "ad89da119f9ada774b582af51e9caee9"
+  },
+  "src/app/apple-icon.jpg": {
+    "mtime": 1791317471.3840723,
+    "seen": 1791318247.8937697,
+    "ast_hash": "8752442fc3c576c7605551ba05ed9ab6",
+    "semantic_hash": "8752442fc3c576c7605551ba05ed9ab6"
+  }
+}
