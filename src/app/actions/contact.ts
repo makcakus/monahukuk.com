@@ -24,7 +24,6 @@ export async function submitContactForm(
   const name = formData.get("name")?.toString().trim() ?? "";
   const email = formData.get("email")?.toString().trim().toLowerCase() ?? "";
   const phone = formData.get("phone")?.toString().trim() ?? "";
-  const subject = formData.get("subject")?.toString().trim() ?? "";
   const message = formData.get("message")?.toString().trim() ?? "";
   const consent = formData.get("consent");
   const locale = formData.get("locale")?.toString() ?? "tr";
@@ -53,7 +52,6 @@ export async function submitContactForm(
     name,
     email,
     phone: phone || undefined,
-    subject: subject || "-",
     message,
     locale,
   });

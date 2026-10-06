@@ -15,9 +15,6 @@ type Copy = {
   email: string;
   phone: string;
   phoneOptional: string;
-  subject: string;
-  subjectPlaceholder: string;
-  subjectOther: string;
   message: string;
   messagePlaceholder: string;
   consent: string;
@@ -40,9 +37,6 @@ const COPY: Record<Locale, Copy> = {
     email: "E-posta",
     phone: "Telefon",
     phoneOptional: "isteğe bağlı",
-    subject: "Konu",
-    subjectPlaceholder: "Bir konu seçin",
-    subjectOther: "Diğer",
     message: "Mesajınız",
     messagePlaceholder: "Talebinizi kısaca özetleyin.",
     consent:
@@ -65,9 +59,6 @@ const COPY: Record<Locale, Copy> = {
     email: "Email",
     phone: "Phone",
     phoneOptional: "optional",
-    subject: "Subject",
-    subjectPlaceholder: "Select a subject",
-    subjectOther: "Other",
     message: "Your message",
     messagePlaceholder: "Briefly describe your inquiry.",
     consent:
@@ -90,9 +81,6 @@ const COPY: Record<Locale, Copy> = {
     email: "E-Mail",
     phone: "Telefon",
     phoneOptional: "optional",
-    subject: "Betreff",
-    subjectPlaceholder: "Bitte Thema wählen",
-    subjectOther: "Sonstiges",
     message: "Ihre Nachricht",
     messagePlaceholder: "Beschreiben Sie Ihr Anliegen kurz.",
     consent:
@@ -116,9 +104,6 @@ const COPY: Record<Locale, Copy> = {
     email: "E-mail",
     phone: "Телефон",
     phoneOptional: "необязательно",
-    subject: "Тема",
-    subjectPlaceholder: "Выберите тему",
-    subjectOther: "Другое",
     message: "Ваше сообщение",
     messagePlaceholder: "Кратко опишите ваш вопрос.",
     consent:
@@ -141,9 +126,6 @@ const COPY: Record<Locale, Copy> = {
     email: "البريد الإلكتروني",
     phone: "الهاتف",
     phoneOptional: "اختياري",
-    subject: "الموضوع",
-    subjectPlaceholder: "اختر موضوعاً",
-    subjectOther: "أخرى",
     message: "رسالتك",
     messagePlaceholder: "اشرح طلبك باختصار.",
     consent:
@@ -165,9 +147,6 @@ const COPY: Record<Locale, Copy> = {
     email: "Correo electrónico",
     phone: "Teléfono",
     phoneOptional: "opcional",
-    subject: "Asunto",
-    subjectPlaceholder: "Seleccione un asunto",
-    subjectOther: "Otro",
     message: "Su mensaje",
     messagePlaceholder: "Describa brevemente su consulta.",
     consent:
@@ -190,9 +169,6 @@ const COPY: Record<Locale, Copy> = {
     email: "E-mail",
     phone: "Téléphone",
     phoneOptional: "facultatif",
-    subject: "Objet",
-    subjectPlaceholder: "Sélectionnez un objet",
-    subjectOther: "Autre",
     message: "Votre message",
     messagePlaceholder: "Décrivez brièvement votre demande.",
     consent:
@@ -215,9 +191,6 @@ const COPY: Record<Locale, Copy> = {
     email: "电子邮箱",
     phone: "电话",
     phoneOptional: "选填",
-    subject: "主题",
-    subjectPlaceholder: "请选择主题",
-    subjectOther: "其他",
     message: "您的留言",
     messagePlaceholder: "请简要说明您的问题。",
     consent:
@@ -241,7 +214,7 @@ function isLocale(v: string): v is Locale {
 const inputCls =
   "w-full rounded-md border border-cream-300 bg-white dark:border-navy-700 dark:bg-navy-950 px-4 py-2.5 text-sm text-navy-900 dark:text-cream-50 placeholder:text-ink-mute focus:outline-none focus:ring-2 focus:ring-gold-400 transition";
 
-export function ContactForm({ subjects }: { subjects: string[] }) {
+export function ContactForm() {
   const localeRaw = useLocale();
   const locale: Locale = isLocale(localeRaw) ? localeRaw : "tr";
   const c = COPY[locale];
@@ -333,7 +306,7 @@ export function ContactForm({ subjects }: { subjects: string[] }) {
               className={inputCls}
             />
           </div>
-          <div>
+          <div className="sm:col-span-2">
             <label
               htmlFor="contact-phone"
               className="mb-1 block text-xs uppercase tracking-[0.14em] text-gold-700 dark:text-gold-400"
@@ -351,31 +324,6 @@ export function ContactForm({ subjects }: { subjects: string[] }) {
               autoComplete="tel"
               className={inputCls}
             />
-          </div>
-          <div>
-            <label
-              htmlFor="contact-subject"
-              className="mb-1 block text-xs uppercase tracking-[0.14em] text-gold-700 dark:text-gold-400"
-            >
-              {c.subject}
-            </label>
-            <select
-              id="contact-subject"
-              name="subject"
-              required
-              defaultValue=""
-              className={inputCls}
-            >
-              <option value="" disabled>
-                {c.subjectPlaceholder}
-              </option>
-              {subjects.map((s) => (
-                <option key={s} value={s}>
-                  {s}
-                </option>
-              ))}
-              <option value={c.subjectOther}>{c.subjectOther}</option>
-            </select>
           </div>
         </div>
 

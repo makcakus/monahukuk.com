@@ -280,7 +280,6 @@ export async function sendContactEmail(opts: {
   name: string;
   email: string;
   phone?: string;
-  subject: string;
   message: string;
   locale: string;
 }): Promise<{ ok: boolean; error?: string }> {
@@ -294,7 +293,6 @@ export async function sendContactEmail(opts: {
     `Ad Soyad: ${opts.name}`,
     `E-posta: ${opts.email}`,
     ...(opts.phone ? [`Telefon: ${opts.phone}`] : []),
-    `Konu: ${opts.subject}`,
     `Site dili: ${opts.locale}`,
     "",
     opts.message,
@@ -312,7 +310,7 @@ export async function sendContactEmail(opts: {
       from: fromAddress(),
       to: REPLY_TO,
       replyTo: opts.email,
-      subject: `İletişim formu: ${opts.subject} — ${opts.name}`,
+      subject: `İletişim formu: ${opts.name}`,
       html,
       text,
     });

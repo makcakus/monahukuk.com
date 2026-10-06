@@ -3,7 +3,6 @@ import { PageHero } from "@/components/PageHero";
 import { ContactForm } from "@/components/ContactForm";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
-import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
 
 export async function generateMetadata({
   params,
@@ -28,10 +27,6 @@ export default async function ContactPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contact");
-
-  // Form konu seçenekleri — çalışma alanı başlıkları (client bundle'a
-  // practice-areas verisini taşımamak için server'da hesaplanıp prop geçilir)
-  const subjects = PRACTICE_AREAS.map((a) => pickPA(a.title, locale));
 
   const items = [
     {
@@ -85,7 +80,7 @@ export default async function ContactPage({
         </ul>
 
         <div className="mt-12">
-          <ContactForm subjects={subjects} />
+          <ContactForm />
         </div>
 
         <div className="mt-12 overflow-hidden rounded-xl border border-cream-200 shadow-sm">
