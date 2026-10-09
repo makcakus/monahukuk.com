@@ -2,12 +2,15 @@ import { NextResponse, type NextRequest } from "next/server";
 import { verifyUnsubToken } from "@/lib/newsletter-jwt";
 import { removeFromResendAudience } from "@/lib/mail";
 
-const SUPPORTED = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const SUPPORTED = ["tr", "en", "de", "ru", "es", "fr"];
+// Arapça/Çince siteden kaldırıldı; eski e-postalardaki ?lang=ar|zh linkleri EN'e düşer.
+const REMOVED_LOCALES = ["ar", "zh"];
 
 function langFrom(req: NextRequest, fallback: string | null): string {
   const q = req.nextUrl.searchParams.get("lang");
   if (q && SUPPORTED.includes(q)) return q;
   if (fallback && SUPPORTED.includes(fallback)) return fallback;
+  if ((q && REMOVED_LOCALES.includes(q)) || (fallback && REMOVED_LOCALES.includes(fallback))) return "en";
   return "tr";
 }
 

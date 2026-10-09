@@ -9,7 +9,7 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const ROOT = path.join(import.meta.dirname, "..");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"];
 
 async function readFrontmatter(dir, filename) {
   try {

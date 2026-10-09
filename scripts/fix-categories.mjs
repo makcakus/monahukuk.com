@@ -19,7 +19,7 @@ const require = createRequire(import.meta.url);
 const matter = require("gray-matter");
 
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"];
 
 // practice-areas.ts'den alınan kanonik kategori isimleri
 // slug → { tr, en, de, ru, ar, es, fr }

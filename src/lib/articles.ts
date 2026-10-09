@@ -230,7 +230,7 @@ export async function getAvailableLocalesForArticle(
 
   const locales = new Set<string>([locale]);
 
-  for (const loc of ["en", "de", "ru", "ar", "es", "fr", "zh"]) {
+  for (const loc of ["en", "de", "ru", "es", "fr"]) {
     if (loc === locale) continue;
     const exists = await getArticle(loc, tk);
     if (exists) locales.add(loc);

@@ -13,7 +13,6 @@ const ATTORNEY_TITLE: Record<string, string> = {
   en: "Att.",
   de: "RA",
   ru: "Адв.",
-  ar: "المحامي",
   es: "Abog.",
   fr: "Me",
 };
@@ -23,7 +22,6 @@ const TRAINEE_TITLE: Record<string, string> = {
   en: "Trainee Att.",
   de: "Ref.",
   ru: "Стажёр-адв.",
-  ar: "متدرب",
   es: "Abog. en prácticas",
   fr: "Élève avocat",
 };

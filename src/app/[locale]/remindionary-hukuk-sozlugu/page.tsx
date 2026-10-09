@@ -21,8 +21,6 @@ const BADGE: Record<string, { file: string; width: number }> = {
   ru: { file: "ru", width: 119.66 },
   es: { file: "es", width: 119.66 },
   fr: { file: "fr", width: 126.51 },
-  zh: { file: "zh", width: 108.85 },
-  ar: { file: "en", width: 119.66 },
 };
 
 // Remindionary'nin (App Store'daki İngilizce-Türkçe sözlük ve kelime öğrenme

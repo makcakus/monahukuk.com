@@ -30,7 +30,7 @@ function processFile(path) {
 }
 
 // 1. Articles MDX'leri
-const LOCALES = ["tr", "en", "de", "ru", "ar"];
+const LOCALES = ["tr", "en", "de", "ru"];
 for (const l of LOCALES) {
   const dir = join("content", "articles", l);
   let files;

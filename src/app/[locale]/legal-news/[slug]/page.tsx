@@ -15,8 +15,7 @@ import { ReadingProgress } from "@/components/ReadingProgress";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // routing.locales (zh dahil 8 dil) — önceki hardcoded 7'lik liste zh haberlerini
-  // ön-derlemeyi atlıyordu, bu da Çince haber sayfalarının 404 dönmesine yol açıyordu.
+  // routing.locales kullanılır (hardcoded liste bir dili ön-derlemeden düşürüp 404 verdirmişti).
   const all = await Promise.all(
     routing.locales.map(async (locale) => {
       const posts = await getAllGazettePosts(locale);
@@ -67,7 +66,7 @@ export default async function GazettePostPage({
   if (!post) notFound();
 
   const t = await getTranslations("legalNews");
-  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", ar: "ar-SA", es: "es-ES", fr: "fr-FR" };
+  const IETF: Record<string, string> = { tr: "tr-TR", en: "en-GB", de: "de-DE", ru: "ru-RU", es: "es-ES", fr: "fr-FR" };
   const dateFmt = new Intl.DateTimeFormat(IETF[locale] ?? "en-GB", {
     year: "numeric",
     month: "long",

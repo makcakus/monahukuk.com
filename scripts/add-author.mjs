@@ -8,7 +8,7 @@ import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const DEFAULT_AUTHOR = "Av. Mustafa Akçakuş";
-const LOCALES = ["tr", "en", "de", "ru", "ar"];
+const LOCALES = ["tr", "en", "de", "ru"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 
 let touched = 0;

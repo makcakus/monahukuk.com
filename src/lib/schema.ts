@@ -14,7 +14,6 @@ const LANG_TAGS: Record<string, string> = {
   en: "en-GB",
   de: "de-DE",
   ru: "ru-RU",
-  ar: "ar-SA",
   es: "es-ES",
   fr: "fr-FR",
 };
@@ -23,7 +22,6 @@ const LANG_NAMES: Record<string, string> = {
   en: "English",
   de: "German",
   ru: "Russian",
-  ar: "Arabic",
   es: "Spanish",
   fr: "French",
 };
@@ -32,7 +30,6 @@ const ATTORNEY_JOB_TITLE: Record<string, string> = {
   en: "Attorney at Law",
   de: "Rechtsanwalt",
   ru: "Адвокат",
-  ar: "محامٍ",
   es: "Abogado",
   fr: "Avocat",
 };
@@ -41,7 +38,6 @@ const BAR_NAME: Record<string, string> = {
   en: "Antalya Bar Association",
   de: "Rechtsanwaltskammer Antalya",
   ru: "Коллегия адвокатов Антальи",
-  ar: "نقابة محامي أنطاليا",
   es: "Colegio de Abogados de Antalya",
   fr: "Barreau d'Antalya",
 };

@@ -10,7 +10,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ## What This Project Is
 
-**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 7 dilli (TR/EN/DE/RU/AR/ES/FR) web sitesi. Eski WordPress'in yerine geçti.
+**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 6 dilli (TR/EN/DE/RU/ES/FR) web sitesi. Arapça ve Çince, dizine girmedikleri için Ekim 2026'da kaldırıldı; `/ar/*` ve `/zh/*` URL'leri `next.config.ts`'te 301/308 ile `/en/*`'e yönlenir. Eski WordPress'in yerine geçti.
 
 ## Commands
 
@@ -40,7 +40,7 @@ node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
 
 - **Framework**: Next.js 16 (App Router) + TypeScript 5 + React 19
 - **Styling**: Tailwind CSS v4 (PostCSS tabanlı — `tailwind.config.js` yok, `globals.css` içinde `@theme`)
-- **i18n**: next-intl 4 — 7 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`)
+- **i18n**: next-intl 4 — 6 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/es/`, `/fr/`)
 - **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
 - **E-posta / Newsletter**: Resend API + Supabase
 - **Deployment**: Cloudflare Workers (OpenNext) — Vercel kullanılmıyor
@@ -72,9 +72,9 @@ src/
 │   └── site.ts                    # SITE metadata objesi
 content/
 └── articles/
-    ├── tr/    en/    de/    ru/    ar/    es/    fr/   # Locale başına ayrı MDX dosyaları
+    ├── tr/    en/    de/    ru/    es/    fr/   # Locale başına ayrı MDX dosyaları
 messages/
-└── tr.json  en.json  de.json  ru.json  ar.json  es.json  fr.json  # i18n çeviri anahtarları
+└── tr.json  en.json  de.json  ru.json  es.json  fr.json  # i18n çeviri anahtarları
 ```
 
 ## İçerik Yönetimi (Makaleler)
@@ -106,7 +106,7 @@ Makale listelemek için `lib/articles.ts` içindeki `getAllArticles(locale)` / `
 
 - Yeni sayfa ekliyorsan `app/[locale]/` altına ekle, `generateStaticParams()` ile tüm locale'leri döndür.
 - UI metinleri doğrudan yazma — `messages/{locale}.json`'a ekle, `useTranslations()` / `getTranslations()` ile çek.
-- Arabic için `dir="rtl"` layout'ta otomatik uygulanır.
+- Sitemap dile göre bölünür: `/sitemap/<locale>.xml`; `/sitemap.xml` bunların dizinidir (`src/app/sitemap-index.xml/route.ts` + `next.config.ts` rewrite). Search Console'da her dilin dizine alınma durumu ayrı izlenir.
 - `legal-news` sadece `tr` ve `en`'de var; diğer locale'lerde routing.ts'de kısıtlı.
 
 ## Hukuki Bülten Yazım Kuralları (content/hukuki-haberler/)

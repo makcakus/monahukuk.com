@@ -24,7 +24,6 @@ const OR_LABEL: Record<string, string> = {
   en: "or",
   de: "oder",
   ru: "или",
-  ar: "أو",
   es: "o",
   fr: "ou",
 };

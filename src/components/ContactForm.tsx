@@ -6,7 +6,7 @@ import { CheckCircle, Send } from "lucide-react";
 import { submitContactForm, type ContactState } from "@/app/actions/contact";
 import { track } from "@/lib/analytics";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr" | "zh";
+type Locale = "tr" | "en" | "de" | "ru" | "es" | "fr";
 
 type Copy = {
   heading: string;
@@ -134,30 +134,6 @@ const COPY: Record<Locale, Copy> = {
     consentRequired: "Пожалуйста, отметьте согласие, чтобы продолжить.",
     serverError: "Произошла ошибка. Попробуйте позже или позвоните нам.",
   },
-  ar: {
-    heading: "راسلنا",
-    body: "يمكنك إرسال طلبك عبر النموذج أدناه، وسنعاود التواصل معك عبر البريد الإلكتروني أو الهاتف.",
-    name: "الاسم الكامل",
-    email: "البريد الإلكتروني",
-    phone: "الهاتف",
-    phoneOptional: "اختياري",
-    subject: "الموضوع",
-    subjectPlaceholder: "اختر موضوعاً",
-    subjectOther: "أخرى",
-    message: "رسالتك",
-    messagePlaceholder: "اشرح طلبك باختصار.",
-    consent:
-      "أوافق على معالجة البيانات الشخصية الواردة في هذا النموذج لغرض الرد على طلبي وفقاً لقانون حماية البيانات التركي (KVKK).",
-    button: "إرسال",
-    submitting: "جارٍ الإرسال…",
-    successTitle: "تم إرسال رسالتك",
-    successBody: "وصل طلبك إلى مكتبنا، وسنعاود التواصل معك عبر البريد الإلكتروني أو الهاتف.",
-    invalidName: "يرجى إدخال الاسم الكامل.",
-    invalidEmail: "يرجى إدخال بريد إلكتروني صالح.",
-    invalidMessage: "يرجى كتابة رسالتك (10 أحرف على الأقل).",
-    consentRequired: "يرجى تأكيد الموافقة للمتابعة.",
-    serverError: "حدث خطأ. يرجى المحاولة لاحقاً أو الاتصال بنا.",
-  },
   es: {
     heading: "Escríbanos",
     body: "Puede enviarnos su consulta mediante el siguiente formulario. Le responderemos por correo electrónico o teléfono.",
@@ -208,34 +184,10 @@ const COPY: Record<Locale, Copy> = {
     consentRequired: "Veuillez cocher la case de consentement pour continuer.",
     serverError: "Une erreur s'est produite. Réessayez plus tard ou appelez-nous.",
   },
-  zh: {
-    heading: "给我们留言",
-    body: "您可以通过下方表格提交您的问题，我们将通过电子邮件或电话与您联系。",
-    name: "姓名",
-    email: "电子邮箱",
-    phone: "电话",
-    phoneOptional: "选填",
-    subject: "主题",
-    subjectPlaceholder: "请选择主题",
-    subjectOther: "其他",
-    message: "您的留言",
-    messagePlaceholder: "请简要说明您的问题。",
-    consent:
-      "我同意根据土耳其个人数据保护法（KVKK），为答复我的咨询而处理我在本表格中提供的个人数据。",
-    button: "发送",
-    submitting: "发送中…",
-    successTitle: "您的留言已发送",
-    successBody: "您的咨询已送达我们的事务所，我们将通过电子邮件或电话与您联系。",
-    invalidName: "请输入您的姓名。",
-    invalidEmail: "请输入有效的电子邮箱地址。",
-    invalidMessage: "请填写留言内容（至少 10 个字符）。",
-    consentRequired: "请勾选同意选项以继续。",
-    serverError: "发生错误，请稍后重试或致电我们。",
-  },
 };
 
 function isLocale(v: string): v is Locale {
-  return ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"].includes(v);
+  return ["tr", "en", "de", "ru", "es", "fr"].includes(v);
 }
 
 const inputCls =

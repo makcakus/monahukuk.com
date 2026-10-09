@@ -13,7 +13,7 @@ export const SITE = {
   geo: { latitude: 36.8841, longitude: 30.7056 },
   hours: { opens: "09:00", closes: "18:00", days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"] },
   founded: 2018,
-  languages: ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"],
+  languages: ["tr", "en", "de", "ru", "es", "fr"],
   // Google Business Profile ve sosyal medya URL'leri → sameAs schema sinyali
   social: [
     "https://maps.app.goo.gl/txbVdEZPkMGj6wGt7",

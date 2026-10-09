@@ -21,10 +21,8 @@ const MESSAGES: Record<string, string> = {
   en: "Hello, I would like to get legal consultation.",
   de: "Hallo, ich möchte eine rechtliche Beratung in Anspruch nehmen.",
   ru: "Здравствуйте, мне нужна юридическая консультация.",
-  ar: "مرحباً، أرغب في الحصول على استشارة قانونية.",
   es: "Hola, me gustaría obtener una consulta legal.",
   fr: "Bonjour, je souhaite obtenir une consultation juridique.",
-  zh: "您好，我想咨询法律问题。",
 };
 
 const ARIA: Record<string, string> = {
@@ -32,10 +30,8 @@ const ARIA: Record<string, string> = {
   en: "Contact us on WhatsApp",
   de: "Kontakt per WhatsApp",
   ru: "Связаться через WhatsApp",
-  ar: "تواصل عبر واتساب",
   es: "Contáctenos por WhatsApp",
   fr: "Contactez-nous sur WhatsApp",
-  zh: "通过 WhatsApp 联系我们",
 };
 
 export function WhatsAppFloat({ locale }: { locale: string }) {

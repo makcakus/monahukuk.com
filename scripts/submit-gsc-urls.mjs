@@ -38,15 +38,11 @@ const PENDING_URLS = [
   "https://monahukuk.com/ru/articles/health-insurance-requirement-residence-permit-turkey",
   "https://monahukuk.com/ru/articles/turkey-climate-law-emission-permits-sanctions",
   // AR
-  "https://monahukuk.com/ar/articles/condominium-management-kat-mulkiyeti-foreign-owners",
-  "https://monahukuk.com/ar/articles/health-insurance-requirement-residence-permit-turkey",
-  "https://monahukuk.com/ar/articles/turkey-climate-law-emission-permits-sanctions",
   // Exceptional citizenship — tüm locale'ler
   "https://monahukuk.com/en/articles/exceptional-turkish-citizenship-outstanding-service",
   "https://monahukuk.com/tr/articles/exceptional-turkish-citizenship-outstanding-service",
   "https://monahukuk.com/de/articles/exceptional-turkish-citizenship-outstanding-service",
   "https://monahukuk.com/ru/articles/exceptional-turkish-citizenship-outstanding-service",
-  "https://monahukuk.com/ar/articles/exceptional-turkish-citizenship-outstanding-service",
 ];
 
 // ─── Yardımcı fonksiyonlar ─────────────────────────────────────────────────

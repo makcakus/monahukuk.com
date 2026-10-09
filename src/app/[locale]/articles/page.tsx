@@ -392,7 +392,6 @@ export default async function ArticlesPage({
     en: "en-GB",
     de: "de-DE",
     ru: "ru-RU",
-    ar: "ar-SA",
     es: "es-ES",
     fr: "fr-FR",
   };

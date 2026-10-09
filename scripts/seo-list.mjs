@@ -10,7 +10,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.join(__dirname, "../content/articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"];
 
 const issues = [];
 

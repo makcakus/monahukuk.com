@@ -73,7 +73,7 @@ export async function getAllGazettePosts(locale: string): Promise<GazettePost[]>
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"] as const;
 
 /**
  * Bir hukuki haber postunun diğer locale'lerdeki gerçek slug'larını döndürür.

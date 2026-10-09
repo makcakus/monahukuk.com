@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 
-const LOCALES = ['tr', 'en', 'de', 'ru', 'ar', 'es', 'fr'];
+const LOCALES = ['tr', 'en', 'de', 'ru', 'es', 'fr'];
 
 for (const locale of LOCALES) {
   const filePath = `messages/${locale}.json`;

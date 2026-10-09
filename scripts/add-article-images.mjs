@@ -92,7 +92,7 @@ const IMAGE_MAP = {
 };
 
 // ── CONFIG ────────────────────────────────────────────────────────────────────
-const LOCALES = ["tr", "en", "de", "ru", "ar"];
+const LOCALES = ["tr", "en", "de", "ru"];
 const CONTENT_DIR = join(process.cwd(), "content", "articles");
 
 // ── HELPERS ──────────────────────────────────────────────────────────────────

@@ -22,7 +22,7 @@ export const config = {
   //    locale'e yönlendirilip 404 oluyorlar.
   matcher: [
     "/",
-    "/(tr|en|de|ru|ar|es|fr|zh)/:path*",
+    "/(tr|en|de|ru|es|fr)/:path*",
     "/((?!_next|_vercel|api|icon|apple-icon|opengraph-image|twitter-image|manifest|.*\\..*).*)",
   ],
 };

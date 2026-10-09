@@ -15,7 +15,7 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const ROOT = path.join(process.cwd(), "content", "articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"];
 const WRITE = process.argv.includes("--write");
 
 /**
@@ -26,7 +26,7 @@ const WRITE = process.argv.includes("--write");
  * çok bilgi kaybettirir. Kısaltma ancak geriye dolu bir açıklama kalıyorsa
  * kazançlıdır, aksi hâlde dosyaya dokunmuyoruz.
  */
-const BOUNDS = { zh: [60, 80], default: [120, 160] };
+const BOUNDS = { default: [120, 160] };
 const boundsFor = (loc) => BOUNDS[loc] ?? BOUNDS.default;
 
 /**

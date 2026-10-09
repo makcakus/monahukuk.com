@@ -12,14 +12,13 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const ROOT = path.join(process.cwd(), "content", "articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
+const LOCALES = ["tr", "en", "de", "ru", "es", "fr"];
 
 /**
  * SERP genişliği piksel bazlıdır; CJK glifleri Latin harflerin ~2 katı yer
  * kaplar, bu yüzden zh için sınırlar yarıya iner. Arapça ve Kiril Latin'e yakın.
  */
 const LIMITS = {
-  zh: { title: [12, 34], desc: [24, 80] },
   default: { title: [30, 62], desc: [50, 160] },
 };
 const limitFor = (loc) => LIMITS[loc] ?? LIMITS.default;

@@ -7,7 +7,7 @@ import { GoogleSignupButton } from "./GoogleSignupButton";
 import { useRouter } from "@/i18n/navigation";
 import { subscribeToNewsletter, type NewsletterState } from "@/app/actions/newsletter";
 
-type Locale = "tr" | "en" | "de" | "ru" | "ar" | "es" | "fr";
+type Locale = "tr" | "en" | "de" | "ru" | "es" | "fr";
 
 type Copy = {
   heading: string;
@@ -129,30 +129,6 @@ const COPY: Record<Locale, Copy> = {
     interestRegisteredBody:
       "Мы уведомим вас, когда рассылка станет активной. По вопросам пишите на contact@monahukuk.com.",
   },
-  ar: {
-    heading: "هل تودّ موجزاً أسبوعياً لتطورات القانون التركي؟",
-    body: "إشعارات الجريدة الرسمية، قرارات المحاكم وتعديلات التشريعات — أسبوعياً عبر البريد. مجاني ويمكنك إلغاء الاشتراك متى شئت.",
-    placeholder: "بريدك الإلكتروني",
-    button: "اشترك",
-    submitting: "جارٍ الإرسال…",
-    consent:
-      "أوافق على معالجة بريدي الإلكتروني لغرض تلقي النشرة البريدية.",
-    consentRequired: "يرجى تأكيد الموافقة للمتابعة.",
-    invalidEmail: "يرجى إدخال بريد إلكتروني صالح.",
-    serverError: "حدث خطأ. يرجى المحاولة لاحقاً.",
-    pendingTitle: "تم إرسال رسالة التأكيد",
-    pendingBody:
-      "افحص بريدك وانقر على الرابط لإتمام الاشتراك. الرابط صالح لمدة 48 ساعة.",
-    resentTitle: "تم إعادة إرسال رسالة التأكيد",
-    alreadyTitle: "أنت مشترك بالفعل",
-    alreadyBody:
-      "هذا البريد مسجل لدينا. يمكنك إلغاء الاشتراك من الرابط الموجود في أسفل كل رسالة.",
-    comingSoonNotice:
-      "ستنطلق نشرتنا الإخبارية قريبًا. يمكنك تسجيل اهتمامك الآن وسنخبرك عند تفعيلها.",
-    interestRegisteredTitle: "تم تسجيل اهتمامك",
-    interestRegisteredBody:
-      "سنخبرك عند تفعيل النشرة الإخبارية. للاستفسار يمكنك مراسلتنا على contact@monahukuk.com.",
-  },
   es: {
     heading: "¿Quiere recibir un resumen semanal de las novedades del derecho turco?",
     body: "Publicaciones del Diario Oficial, resoluciones judiciales y cambios legislativos — cada semana en su correo. Gratuito y con baja en cualquier momento.",
@@ -204,7 +180,7 @@ const COPY: Record<Locale, Copy> = {
 };
 
 function isLocale(v: string): v is Locale {
-  return ["tr", "en", "de", "ru", "ar", "es", "fr"].includes(v);
+  return ["tr", "en", "de", "ru", "es", "fr"].includes(v);
 }
 
 export function NewsletterInlineCTA({

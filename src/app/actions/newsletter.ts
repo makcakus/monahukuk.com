@@ -17,7 +17,7 @@ export type NewsletterState = {
   errorKey: string;
 } | null;
 
-const SUPPORTED_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
+const SUPPORTED_LOCALES = ["tr", "en", "de", "ru", "es", "fr"] as const;
 type Locale = (typeof SUPPORTED_LOCALES)[number];
 
 function normalizeLocale(value: string | undefined): Locale {
