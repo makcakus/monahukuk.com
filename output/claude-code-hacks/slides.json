@@ -1,0 +1,13 @@
+{
+  "topic": "10 Claude Code hacks",
+  "slug": "claude-code-hacks",
+  "slides": [
+    { "role": "cover", "headline": "Claude Code is only as good as the *setup* around it." },
+    { "role": "body", "heading": "Write the *CLAUDE.md* once", "body": ["Commands, conventions, gotchas. Loaded every session.", "You stop repeating yourself by day two."] },
+    { "role": "body", "heading": "Plan before it *types*", "body": ["Shift+Tab into plan mode for any real change.", "Read the plan, then let it build."] },
+    { "role": "body", "heading": "*Clear* the context between tasks", "body": ["Run /clear when the work changes.", "Stale context costs tokens and bends answers."] },
+    { "role": "body", "heading": "Let hooks do the chores", "body": ["Run the formatter or tests after every edit.", "The harness runs them, so they never get skipped."] },
+    { "role": "body", "heading": "Turn repeat work into a *skill*", "body": ["A folder with a SKILL.md, loaded only when it fits.", "Your process, written once, run every time."] },
+    { "role": "closing", "headline": "Five habits, one calmer workflow", "cta": "Building this for a team? Happy to compare notes." }
+  ]
+}
