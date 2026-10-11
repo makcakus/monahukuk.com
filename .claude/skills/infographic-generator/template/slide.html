@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ slug }} · {{ folio }}</title>
+<style>
+:root {
+  --paper: #0B0B0B;
+  --paper-lift: #121212;
+  --ink: #F2F0EC;
+  --ink-muted: rgba(242, 240, 236, .58);
+  --ink-faint: rgba(242, 240, 236, .16);
+  --accent: #E8622C;
+
+  --ml: 84px; --mr: 84px; --mt: 96px; --mb: 120px;
+  --rule-y: 1294px;                    /* 1350 - 56 */
+  --col: 132px; --gutter: 24px;        /* 6 sütun, içerik 912px */
+}
+
+@font-face { font-family: "Instrument Serif"; src: url("{{ fonts.serif }}") format("truetype"); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Instrument Serif"; src: url("{{ fonts.serif_italic }}") format("truetype"); font-style: italic; font-weight: 400; }
+@font-face { font-family: "Manrope"; src: url("{{ fonts.sans }}") format("truetype"); font-weight: 200 800; }
+@font-face { font-family: "JetBrains Mono"; src: url("{{ fonts.mono }}") format("truetype"); font-weight: 100 800; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; background: var(--paper); }
+
+#slide { position: relative; width: 1080px; height: 1350px; overflow: hidden;
+  background: linear-gradient(180deg, var(--paper-lift) 0%, var(--paper) 60%, var(--paper) 100%); }
+
+.grain { position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 300px 300px; }
+
+/* Sabit öğeler: mutlak piksel, hareket etmez */
+.logo { position: absolute; left: var(--ml); top: var(--mt); height: 28px; width: calc(28px * {{ logo_aspect }});
+  background: var(--ink); -webkit-mask: url("{{ logo }}") no-repeat left center / contain; mask: url("{{ logo }}") no-repeat left center / contain; }
+.mono { font-family: "JetBrains Mono", monospace; font-size: 12px; font-weight: 500; text-transform: uppercase;
+  letter-spacing: .22em; line-height: 16px; }
+.folio { position: absolute; right: var(--mr); top: calc(var(--mt) + 6px); width: 200px; text-align: right; color: var(--ink-faint); }
+.hl { position: absolute; left: var(--ml); right: var(--mr); top: var(--rule-y); height: 1px; background: var(--ink-faint); }
+.foot { position: absolute; left: var(--ml); top: calc(var(--rule-y) + 20px); width: 300px; color: var(--ink-muted); }
+
+/* İçerik alanı */
+.stage { position: absolute; left: var(--ml); right: var(--mr); top: 200px; bottom: var(--mb);
+  display: flex; flex-direction: column; }
+
+.h { font-family: "Instrument Serif", serif; font-weight: 400; color: var(--ink);
+  line-height: .92; letter-spacing: -.02em; text-wrap: balance; }
+.h-cover   { font-size: 136px; max-width: 912px; }                                         /* 6 sütun */
+.h-heading { font-size: 88px;  max-width: calc(var(--col) * 5 + var(--gutter) * 4); }      /* 5 sütun */
+.h-closing { font-size: 96px;  max-width: calc(var(--col) * 5 + var(--gutter) * 4); }
+.h em.accent { font-style: italic; color: var(--accent); }
+.w { display: inline; }
+
+.body p { font-family: "Manrope", sans-serif; font-size: 22px; font-weight: 400; line-height: 1.45;
+  color: var(--ink-muted); max-width: 620px; white-space: nowrap; }
+
+.cover .stage { justify-content: flex-end; }
+.layout-A .stage { justify-content: space-between; }
+.layout-B .stage, .closing .stage { justify-content: center; padding-bottom: 120px; }
+.blk .body { margin-top: 40px; }
+.rule { display: block; width: 96px; height: 1px; background: var(--ink-faint); margin-bottom: 40px; }
+.rule.accent { background: var(--accent); }
+.endmark { display: inline-block; width: 14px; height: 14px; background: var(--accent); margin-left: .05em; vertical-align: baseline; }
+</style>
+</head>
+<body>
+<div id="slide" class="{{ role }}{% if layout %} layout-{{ layout }}{% endif %}">
+  <div class="logo" data-furn="logo"></div>
+  <div class="folio mono" data-furn="folio">{{ folio }}</div>
+  <div class="hl" data-furn="hairline"></div>
+  <div class="foot mono" data-furn="footer">{{ footer }}</div>
+
+  <div class="stage">
+  {% if role == "cover" %}
+    <h1 class="h h-cover" data-fit data-block="headline" data-max="136" data-min="116" data-lines="4">{{ text }}</h1>
+  {% elif role == "body" and layout == "A" %}
+    <h2 class="h h-heading" data-fit data-block="heading" data-max="88" data-min="76" data-lines="3">{{ text }}</h2>
+    <div class="body">{% for line in body %}<p data-oneline data-block="body{{ loop.index }}">{{ line }}</p>{% endfor %}</div>
+  {% elif role == "body" %}
+    <div class="blk">
+      <i class="rule{% if rule_accent %} accent{% endif %}"></i>
+      <h2 class="h h-heading" data-fit data-block="heading" data-max="88" data-min="76" data-lines="3">{{ text }}</h2>
+      <div class="body">{% for line in body %}<p data-oneline data-block="body{{ loop.index }}">{{ line }}</p>{% endfor %}</div>
+    </div>
+  {% else %}
+    <div class="blk">
+      <h2 class="h h-closing" data-fit data-block="closing" data-max="96" data-min="84" data-lines="3">{{ text }}</h2>
+      <div class="body"><p data-oneline data-block="cta">{{ cta }}</p></div>
+    </div>
+  {% endif %}
+  </div>
+
+  <div class="grain"></div>
+</div>
+<script>
+function lines(el) {
+  const tops = new Set();
+  el.querySelectorAll(".w").forEach(w => { for (const r of w.getClientRects()) tops.add(Math.round(r.top)); });
+  return tops.size;
+}
+// Başlıklar 2px adımlarla dar bir aralıkta küçülebilir; gövde asla.
+window.fit = function () {
+  const out = [];
+  document.querySelectorAll("[data-fit]").forEach(el => {
+    const max = +el.dataset.max, min = +el.dataset.min, lim = +el.dataset.lines;
+    let s = max; el.style.fontSize = s + "px";
+    while (lines(el) > lim && s - 2 >= min) { s -= 2; el.style.fontSize = s + "px"; }
+    const n = lines(el);
+    out.push({ block: el.dataset.block, size: s, lines: n, limit: lim, ok: n <= lim });
+  });
+  document.querySelectorAll("[data-oneline]").forEach(el => {
+    const lh = parseFloat(getComputedStyle(el).lineHeight);
+    const over = el.scrollWidth > el.clientWidth + 1 || el.getBoundingClientRect().height > lh * 1.5;
+    out.push({ block: el.dataset.block, size: 22, lines: over ? 2 : 1, limit: 1, ok: !over });
+  });
+  const st = document.querySelector(".stage").getBoundingClientRect();
+  const ok = [...document.querySelector(".stage").children].every(c => {
+    const r = c.getBoundingClientRect(); return r.top >= st.top - 1 && r.bottom <= st.bottom + 1;
+  });
+  out.push({ block: "stage", size: 0, lines: 0, limit: 0, ok });
+  return out;
+};
+window.accents = () =>
+  (document.querySelector("em.accent") ? 1 : 0) + (document.querySelector(".endmark") ? 1 : 0) +
+  (document.querySelector(".rule.accent") ? 1 : 0);
+window.furniture = () => Object.fromEntries([...document.querySelectorAll("[data-furn]")].map(el => {
+  const r = el.getBoundingClientRect();
+  return [el.dataset.furn, [r.left, r.top, r.width, r.height].map(v => Math.round(v * 2) / 2)];
+}));
+</script>
+</body>
+</html>

@@ -63,3 +63,4 @@ src/graphify-out/
 output/reels/*/html/
 output/reels/*/frames/
 output/reels/*/stills/
+output/*/html/
