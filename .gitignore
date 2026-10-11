@@ -58,3 +58,8 @@ next-env.d.ts
 graphify-out/.graphify_python
 graphify-out/.graphify_root
 src/graphify-out/
+
+# reels-generator: ağır ara çıktılar
+output/reels/*/html/
+output/reels/*/frames/
+output/reels/*/stills/

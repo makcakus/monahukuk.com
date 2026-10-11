@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>{{ slug }} · {{ folio }}</title>
+<style>
+/* ---- Tokenlar: markayı tek yerden değiştir ---- */
+:root {
+  --paper: #050D24;                     /* navy-950, zemin */
+  --paper-lift: #0C1A3E;                /* üstteki parlaklık; renk değil ışık farkı */
+  --ink: #F5F1E6;                       /* cream-100, başlıklar */
+  --ink-muted: rgba(245, 241, 230, .72);/* gövde ve alt bilgi */
+  --ink-faint: rgba(245, 241, 230, .16);/* ince çizgiler */
+  --ink-folio: rgba(245, 241, 230, .40);/* sayfa numarası; videoda .16 kayboluyor */
+  --accent: #D3A14A;                    /* gold-400 */
+
+  --ml: 84px;  --mr: 150px;             /* sağda Instagram düğmeleri */
+  --mt: 232px; --rule-y: 1500px;        /* üst ve alt Instagram arayüz payı */
+  --logo-h: 92px;
+}
+
+@font-face { font-family: "Cormorant Garamond"; src: url("{{ fonts.display }}") format("truetype"); font-weight: 300 700; font-style: normal; }
+@font-face { font-family: "Cormorant Garamond"; src: url("{{ fonts.display_italic }}") format("truetype"); font-weight: 300 700; font-style: italic; }
+@font-face { font-family: "Alegreya Sans"; src: url("{{ fonts.sans_400 }}") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Alegreya Sans"; src: url("{{ fonts.sans_500 }}") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Alegreya Sans"; src: url("{{ fonts.sans_700 }}") format("truetype"); font-weight: 700; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: hidden; }
+
+#slide {
+  position: relative; width: 1080px; height: 1920px; overflow: hidden;
+  background: linear-gradient(180deg, var(--paper-lift) 0%, var(--paper) 60%, var(--paper) 100%);
+  --dur: {{ dur }}s;
+}
+
+/* ---- İsteğe bağlı AI arka plan görseli ---- */
+.bg { position: absolute; inset: -4%; background-size: cover; background-position: center;
+  filter: saturate(.75) brightness(.62) contrast(1.05);
+  animation: kb var(--dur) linear both; }
+.scrim { position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(5,13,36,.70) 0%, rgba(5,13,36,.30) 32%, rgba(5,13,36,.55) 60%, rgba(5,13,36,.94) 100%); }
+@keyframes kb { from { transform: scale(1.02) translateY(0); } to { transform: scale(1.10) translateY(-1.5%); } }
+
+/* ---- Gren: tek doku ---- */
+.grain { position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 320px 320px; }
+
+/* ---- Sabit öğeler: piksel konumlu, sahneden sahneye oynamaz ---- */
+.logo { position: absolute; left: var(--ml); top: var(--mt); height: var(--logo-h);
+  width: calc(var(--logo-h) * {{ logo_aspect }}); background: var(--ink);
+  -webkit-mask: url("{{ logo }}") no-repeat left top / contain; mask: url("{{ logo }}") no-repeat left top / contain; }
+.folio, .foot { font-family: "Alegreya Sans", sans-serif; font-size: 20px; font-weight: 500;
+  text-transform: uppercase; letter-spacing: .22em; line-height: 24px; font-variant-numeric: tabular-nums; }
+.folio { position: absolute; top: calc(var(--mt) + var(--logo-h) - 24px); right: var(--mr);
+  width: 240px; text-align: right; color: var(--ink-folio); }
+.hl { position: absolute; left: var(--ml); right: var(--mr); top: var(--rule-y); height: 2px; background: var(--ink-faint); }
+.foot { position: absolute; left: var(--ml); top: calc(var(--rule-y) + 26px); width: 400px; color: var(--ink-muted); text-transform: none; letter-spacing: .14em; }
+
+/* ---- Sahne alanı: 6 sütun, 24px oluk; içerik 846px ---- */
+.stage { position: absolute; left: var(--ml); right: var(--mr); top: 410px; bottom: calc(1920px - var(--rule-y) + 34px);
+  display: flex; flex-direction: column; animation: out .3s ease-in calc(var(--dur) - .3s) both; }
+.no-out .stage { animation: none; }
+
+.h { font-family: "Cormorant Garamond", serif; font-weight: 500; color: var(--ink);
+  line-height: .92; letter-spacing: -.02em; text-wrap: balance; }
+.h-cover   { font-size: 128px; max-width: 846px; }
+.h-heading { font-size: 92px;  max-width: 701px; }   /* 5 sütun */
+.h-closing { font-size: 100px; max-width: 701px; }
+.h em.accent { font-style: italic; color: var(--accent); }
+
+.body { display: flex; flex-direction: column; }
+.l { font-family: "Alegreya Sans", sans-serif; font-size: 36px; font-weight: 400; line-height: 1.45;
+  color: var(--ink-muted); max-width: 760px; white-space: nowrap; }
+.l.src { font-size: 22px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-top: 28px; }
+
+/* Kapak: başlık tek başına, sol altta, çizginin üstüne oturur */
+.cover .stage { justify-content: flex-end; }
+/* A: başlık üstte, gövde altta, ortası boş */
+.layout-A .stage { justify-content: space-between; }
+/* B ve kapanış: optik merkezde tek blok */
+.layout-B .stage, .closing .stage { justify-content: center; padding-bottom: 90px; }
+.blk .body { margin-top: 48px; }
+.rule { display: block; width: 96px; height: 2px; background: var(--ink-faint); margin-bottom: 44px;
+  transform-origin: left center; animation: draw .7s cubic-bezier(.2,.7,.2,1) .15s both; }
+.rule.accent { background: var(--accent); }
+.endmark { display: inline-block; width: 22px; height: 22px; background: var(--accent); margin-left: .12em;
+  vertical-align: baseline; }
+
+/* ---- Hareket: yalnız belirme, yükselme, çizgi çekme. Zıplama yok. ---- */
+.w { display: inline-block; animation: rise .8s cubic-bezier(.2,.7,.2,1) calc(.2s + var(--i) * .085s) both; }
+.l { animation: fade .7s ease-out calc(var(--bd) + var(--n) * .12s) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(.3em); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes draw { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes out  { from { opacity: 1; } to { opacity: 0; } }
+</style>
+</head>
+<body>
+<div id="slide" class="{{ role }}{% if layout %} layout-{{ layout }}{% endif %}{% if last %} no-out{% endif %}" style="--bd: {{ body_delay }}s">
+  {% if image %}<div class="bg" style="background-image: url('{{ image }}')"></div><div class="scrim"></div>{% endif %}
+
+  <div class="logo" data-furn="logo"></div>
+  <div class="folio" data-furn="folio">{{ folio }}</div>
+  <div class="hl" data-furn="hairline"></div>
+  <div class="foot" data-furn="footer">{{ handle }}</div>
+
+  <div class="stage">
+  {% if role == "cover" %}
+    <h1 class="h h-cover" data-fit data-block="headline" data-max="128" data-min="104" data-lines="5">{{ headline }}</h1>
+  {% elif role == "body" and layout == "A" %}
+    <h2 class="h h-heading" data-fit data-block="heading" data-max="92" data-min="76" data-lines="4">{{ heading }}</h2>
+    <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}</div>
+  {% elif role == "body" %}
+    <div class="blk">
+      <i class="rule{% if rule_accent %} accent{% endif %}"></i>
+      <h2 class="h h-heading" data-fit data-block="heading" data-max="92" data-min="76" data-lines="4">{{ heading }}</h2>
+      <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}</div>
+    </div>
+  {% else %}
+    <div class="blk">
+      <h2 class="h h-closing" data-fit data-block="closing" data-max="100" data-min="84" data-lines="4">{{ headline }}</h2>
+      <div class="body">
+        <p class="l" data-oneline data-block="cta" style="--n: 0">{{ cta }}</p>
+        {% if source %}<p class="l src" data-oneline data-block="source" style="--n: 1">{{ source }}</p>{% endif %}
+      </div>
+    </div>
+  {% endif %}
+  </div>
+
+  <div class="grain"></div>
+</div>
+
+<script>
+// Satır sayısı: kelime kutularının farklı üst koordinatları.
+function lines(el) {
+  const tops = new Set();
+  el.querySelectorAll(".w").forEach(w => tops.add(Math.round(w.offsetTop)));
+  return tops.size;
+}
+
+// Sığdırma: başlıklar 2px adımlarla tabana kadar küçülebilir, gövde asla.
+window.fit = function () {
+  const out = [];
+  document.querySelectorAll("[data-fit]").forEach(el => {
+    const max = +el.dataset.max, min = +el.dataset.min, lim = +el.dataset.lines;
+    let s = max; el.style.fontSize = s + "px";
+    while (lines(el) > lim && s - 2 >= min) { s -= 2; el.style.fontSize = s + "px"; }
+    const n = lines(el);
+    out.push({ block: el.dataset.block, size: s, lines: n, limit: lim, ok: n <= lim });
+  });
+  document.querySelectorAll("[data-oneline]").forEach(el => {
+    const lh = parseFloat(getComputedStyle(el).lineHeight);
+    const over = el.scrollWidth > el.clientWidth + 1 || el.getBoundingClientRect().height > lh * 1.5;
+    out.push({ block: el.dataset.block, size: parseFloat(getComputedStyle(el).fontSize),
+               lines: over ? 2 : 1, limit: 1, ok: !over });
+  });
+  const st = document.querySelector(".stage");
+  const sr = st.getBoundingClientRect();
+  const kids = [...st.children].map(c => c.getBoundingClientRect());
+  const fits = kids.every(k => k.top >= sr.top - 1 && k.bottom <= sr.bottom + 1);
+  out.push({ block: "stage", size: 0, lines: 0, limit: 0, ok: fits });
+  if (document.querySelector(".layout-A")) {
+    const h = st.querySelector(".h").getBoundingClientRect(), b = st.querySelector(".body").getBoundingClientRect();
+    out.push({ block: "A-orta-bosluk", size: Math.round(b.top - h.bottom), lines: 0, limit: 0, ok: b.top - h.bottom >= 200 });
+  }
+  return out;
+};
+
+// Vurgu sayısı: italik kelime, kapanış karesi ya da altın çizgi; tam bir tane.
+window.accents = () =>
+  (document.querySelector("em.accent") ? 1 : 0) +
+  (document.querySelector(".endmark") ? 1 : 0) +
+  (document.querySelector(".rule.accent") ? 1 : 0);
+
+window.furniture = () => Object.fromEntries([...document.querySelectorAll("[data-furn]")].map(el => {
+  const r = el.getBoundingClientRect();
+  return [el.dataset.furn, [r.left, r.top, r.width, r.height].map(v => Math.round(v * 2) / 2)];
+}));
+
+// Giriş animasyonlarının bittiği an (ms). Çıkış ve arka plan hareketi hariç.
+window.settle = () => {
+  let m = 0;
+  document.getAnimations().forEach(a => {
+    if (a.animationName === "out" || a.animationName === "kb") return;
+    m = Math.max(m, a.effect.getComputedTiming().endTime);
+  });
+  return m;
+};
+
+// Zamanı elle sür: her kare deterministik.
+window.seek = ms => document.getAnimations().forEach(a => { a.pause(); a.currentTime = ms; });
+</script>
+</body>
+</html>
