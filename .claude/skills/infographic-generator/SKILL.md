@@ -81,9 +81,35 @@ as the truncated preview before "more". Then roughly 60–120 words, a blank lin
 8–15 hashtags of mixed reach. No hashtag walls, no emoji. The renderer checks the
 counts.
 
-## 4. Deliver
+## 4. Notion: Instagram Content Calendar
 
-Send the JPEGs, contact sheet and caption with `SendUserFile`, with the copy alongside.
+After the slides render and `caption.md` exists, file the carousel for review:
+
+```bash
+python3 scripts/notion_publish.py publish output/<slug>
+```
+
+This creates a page in the **Instagram Content Calendar** database: Name is the cover
+headline, plus Topic, Caption, Slide count, and the rendered JPEGs uploaded to **Slides**
+in slide order. Status is set to **Ready for review**. Running it again after a
+re-render updates the same page (`output/<slug>/notion.json`) and resets Status to
+Ready for review. A page that is already **Posted** is never changed.
+
+It needs `NOTION_TOKEN` (an integration that the root page is shared with) and network
+access to `api.notion.com`. Run `notion_publish.py setup` once with `NOTION_ROOT_PAGE_ID`
+to create the database; its id is saved to `resources/notion.json`. If Notion is not
+reachable, say so and continue; never pretend the page was created.
+
+**Approved is the only status anything that posts may act on.** A poster lists work with
+`notion_publish.py approved` and calls `assert_postable()` right before posting, which
+re-reads the page from Notion and stops unless Status is Approved. Draft, Ready for
+review, Rejected, Posted and Failed are never posted, retried or touched by a poster.
+Claude never sets a page to Approved; only a person does.
+
+## 5. Deliver
+
+Send the JPEGs, contact sheet and caption with `SendUserFile`, with the copy alongside
+and the Notion page link if one was created.
 
 ## Design — do not drift
 
