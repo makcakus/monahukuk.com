@@ -1,18 +1,12 @@
 "use client";
 
 
-import { useEffect, useRef, useState, type PointerEvent } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
 import { acronymize } from "./Wordmark";
 import { ThemeToggle } from "./ThemeToggle";
-import {
-  ThemisColumnFx,
-  THEMIS_FX_HEIGHT,
-  THEMIS_FX_LIFETIME_MS,
-  THEMIS_FX_WIDTH,
-} from "./ThemisColumnFx";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
@@ -49,28 +43,6 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const groupRef = useRef<HTMLDivElement | null>(null);
-  const headerRef = useRef<HTMLElement | null>(null);
-  // Fare header üzerinde hareket edince imlecin altında kısa bir sahne oynar.
-  // Aynı anda tek sahne; bitince bir sonraki harekette yeniden başlar.
-  const [fx, setFx] = useState<{ id: number; x: number; y: number } | null>(null);
-  const fxTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  function onHeaderPointerMove(e: PointerEvent<HTMLElement>) {
-    if (fx || e.pointerType !== "mouse") return;
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const rect = headerRef.current?.getBoundingClientRect();
-    if (!rect) return;
-    const half = THEMIS_FX_WIDTH / 2;
-    const x = Math.min(Math.max(e.clientX, half + 8), window.innerWidth - half - 8) - rect.left;
-    const y = e.clientY - rect.top + 18;
-    setFx({ id: Date.now(), x, y });
-    fxTimer.current = setTimeout(() => setFx(null), THEMIS_FX_LIFETIME_MS);
-  }
-
-  useEffect(() => () => {
-    if (fxTimer.current) clearTimeout(fxTimer.current);
-  }, []);
-
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
       if (
@@ -101,7 +73,7 @@ export function Header() {
     // değiştirmek altındaki tüm içeriği kaydırır; bu da scroll sırasında
     // titreme olarak görünür. Scroll tepkisi yalnızca gölgedir ve
     // globals.css'te saf CSS scroll timeline ile sürülür.
-    <header ref={headerRef} onPointerMove={onHeaderPointerMove} className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
+    <header className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
       {/* Tam genişlik: logo sola, menü ve kontroller sağa dayanır.
           Kenarlarda yalnız px kadar nefes payı bırakılır. */}
       <div className="w-full px-6 lg:px-10 py-6 flex items-center gap-6">
@@ -268,20 +240,6 @@ export function Header() {
               <ThemeToggle />
             </div>
           </nav>
-        </div>
-      )}
-      {fx && (
-        <div
-          aria-hidden="true"
-          className="themis-fx-wrap pointer-events-none absolute z-50 hidden lg:block"
-          style={{
-            left: fx.x - THEMIS_FX_WIDTH / 2,
-            top: fx.y,
-            width: THEMIS_FX_WIDTH,
-            height: THEMIS_FX_HEIGHT,
-          }}
-        >
-          <ThemisColumnFx key={fx.id} />
         </div>
       )}
     </header>

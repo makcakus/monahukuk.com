@@ -235,13 +235,6 @@ h1, h2, h3, h4, .font-display {
   transform: rotate(45deg) scale(1);
 }
 
-/* Header'daki Themis sahnesi: poz tutulur, sonra söner */
-@keyframes themis-out { to { opacity: 0; } }
-.themis-fx-wrap {
-  filter: drop-shadow(0 8px 12px rgba(5, 13, 36, 0.35));
-  animation: themis-out 0.8s ease-in 5.5s forwards;
-}
-
 /* Birincil buton: tek seferlik giriş parıltısı + hover'da süpürme */
 @keyframes btn-shimmer {
   from { transform: translateX(-120%) skewX(-18deg); }
