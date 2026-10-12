@@ -235,15 +235,23 @@ h1, h2, h3, h4, .font-display {
   transform: rotate(45deg) scale(1);
 }
 
-/* Hero mimari katmanı: çizgiler kendini çizer */
-@keyframes arch-draw {
-  from { stroke-dashoffset: 1; }
-  to   { stroke-dashoffset: 0; }
+/* Hukuk simgeleri: sırayla belirir, bir süre nefes alır, dağılıp kaybolur.
+   Üç simge aynı kutuda üst üste; animation-delay ile sıraya girerler.
+   Başlangıç ve bitiş opacity 0 — hareket kapalıysa hiçbiri görünmez. */
+@keyframes sym-cycle {
+  0%   { opacity: 0; transform: translateY(14px) scale(0.92); filter: blur(var(--sym-blur, 6px)); }
+  7%   { opacity: var(--sym-peak, 1); transform: translateY(0) scale(1); filter: blur(0); }
+  26%  { opacity: var(--sym-peak, 1); transform: translateY(-3px) scale(1.015); filter: blur(0); }
+  33%  { opacity: 0; transform: translateY(-18px) scale(1.06); filter: blur(var(--sym-blur, 6px)); }
+  100% { opacity: 0; transform: translateY(-18px) scale(1.06); filter: blur(var(--sym-blur, 6px)); }
 }
-.arch-line {
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  animation: arch-draw 1.6s cubic-bezier(0.45, 0, 0.2, 1) var(--arch-delay, 0s) forwards;
+.sym-cycle {
+  opacity: 0;
+  animation: sym-cycle var(--sym-dur, 15s) cubic-bezier(0.22, 0.61, 0.36, 1) var(--sym-delay, 0s) infinite;
+  will-change: transform, opacity, filter;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sym-cycle { animation: none; display: none; }
 }
 
 /* Birincil buton: tek seferlik giriş parıltısı + hover'da süpürme */
@@ -277,12 +285,8 @@ h1, h2, h3, h4, .font-display {
   .animate-hero-rise,
   .animate-scroll-bob,
   .animate-ken-burns,
-  .arch-line,
   .btn-shimmer::after {
     animation: none !important;
-  }
-  .arch-line {
-    stroke-dashoffset: 0;
   }
   .nav-underline::after,
   .nav-underline::before {
@@ -387,8 +391,6 @@ h1, h2, h3, h4, .font-display {
 @keyframes sd-hero-zoom { from { transform: scale(1); } to { transform: scale(1.07); } }
 @keyframes sd-hero-columns { from { opacity: 1; transform: translate3d(0, 0, 0); }
                              to   { opacity: 0; transform: translate3d(0, -80px, 0); } }
-@keyframes sd-hero-arch    { from { opacity: 1; transform: translate3d(0, 0, 0); }
-                             to   { opacity: 0; transform: translate3d(0, 70px, 0); } }
 
 /* Okuma ilerleme çubuğu — scroll konumu bilgi taşır, reduced-motion'da da kalır. */
 .sd-progress {
@@ -448,11 +450,6 @@ h1, h2, h3, h4, .font-display {
       animation: sd-hero-columns linear both;
       animation-timeline: --sd-hero;
       animation-range: exit 0% exit 70%;
-    }
-    .sd-hero-arch {
-      animation: sd-hero-arch linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 80%;
     }
     .sd-hero-cue {
       animation: sd-fade-out linear both;

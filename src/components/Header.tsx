@@ -1,11 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
 import { acronymize } from "./Wordmark";
 import { ThemeToggle } from "./ThemeToggle";
+import { LEGAL_SYMBOLS } from "./LegalSymbols";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
@@ -84,23 +86,27 @@ export function Header() {
           className="group flex items-center gap-4 leading-tight"
           onClick={() => setOpen(false)}
         >
-          {/* Monogram: tek İyonik sütun. Hover'da gövde çizgileri yükselir. */}
-          <svg
+          {/* Sabit bir amblem yok: sütun, terazi ve § sırayla belirip dağılır. */}
+          <span
             aria-hidden="true"
-            viewBox="0 0 40 72"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.6"
-            strokeLinejoin="round"
-            className="hidden sm:block h-[60px] w-auto text-gold-700 transition-transform duration-500 group-hover:-translate-y-0.5"
+            className="relative hidden sm:block h-[60px] w-10 shrink-0 text-gold-700"
           >
-            <path d="M6 6h28v5H6z" />
-            <path d="M12 17a4.5 4.5 0 1 0 0 .01M28 17a4.5 4.5 0 1 0 0 .01" />
-            <path d="M8 11v6M32 11v6M12 23h16" />
-            <path d="M12 23v38M28 23v38" />
-            <path d="M17 26v33M20 26v33M23 26v33" opacity="0.5" />
-            <path d="M10 61h20v4H10zM7 65h26v4H7z" />
-          </svg>
+            {LEGAL_SYMBOLS.map((Symbol, i) => (
+              <span
+                key={i}
+                className="sym-cycle absolute inset-0"
+                style={
+                  {
+                    "--sym-dur": "15s",
+                    "--sym-delay": `${i * 5}s`,
+                    "--sym-blur": "4px",
+                  } as CSSProperties
+                }
+              >
+                <Symbol className="h-full w-full" />
+              </span>
+            ))}
+          </span>
           <span className="flex flex-col">
             {tSite("name").split(" ").map((word, i) => (
               <span
