@@ -124,7 +124,16 @@ kısa çizgi vardır. `layout` alanı bu sırayı ezer.
 5. Türkçe telaffuzu dinleyip kontrol et (özellikle ı/i, ş, kurum adları). Bozuksa
    metni düzelt ve yalnızca o sahneyi yeniden üret.
 
-## 3. AI arka plan görseli (isteğe bağlı, krediyle çalışır)
+## 3. Arka plan görseli
+
+**Varsayılan, kredisiz:** Görseli olmayan her sahnede şablon, ince altın çizgilerle çizilmiş
+bir mahkeme sütunu dizisi ve hafif bir ışık basar. Kadraj sahne sırasına göre değişir,
+bu yüzden set tek düze durmaz. Ek iş gerekmez.
+
+**İsteğe bağlı AI görseli (krediyle çalışır):** İki şartı vardır. Higgsfield hesabı en az
+"basic" plan olmalı (ücretsiz planda görsel modelleri çalışmaz, 2026-10-12'de doğrulandı).
+Üretilen dosyaların indiği `cloudfront.net` alan adı ortamın ağ politikasında açık olmalı;
+kapalıyken dosyalar `curl` ile inmez. İkisi de yoksa varsayılanla devam et.
 
 Reels başına en fazla 2 sahneye görsel koy. Genellikle kapak ya da bir B sahnesi
 olur; her sahneye görsel koymak setin dergi dilini bozar. `generate_image` ile

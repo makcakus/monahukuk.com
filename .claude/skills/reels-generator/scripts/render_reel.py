@@ -215,7 +215,12 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
         image = (out / s["image"]).resolve()
         if not image.exists():
             raise Stop(f"Sahne {i:02d}: görsel yok: {image}")
-    ctx = dict(
+    # Görsel yoksa sütun çizgisi: her sahnede farklı kadraj, set aynı dergiden gibi görünür.
+    arts = [dict(x=-120, y=-60, s=1.0, bx=250, by=420), dict(x=-560, y=40, s=1.15, bx=-60, by=250),
+            dict(x=-40, y=-140, s=0.9, bx=420, by=520), dict(x=-380, y=-20, s=1.05, bx=120, by=330),
+            dict(x=-250, y=-90, s=1.2, bx=300, by=450)]
+    art = arts[(i - 1) % len(arts)]
+    ctx = dict(art=art,
         slug=reel["slug"], role=role, layout=layout, last=(i == n), dur=f"{dur:.3f}",
         folio=f"{i:02d} / {n:02d}", handle=HANDLE, logo=logo_uri, logo_aspect=f"{logo_aspect:.4f}",
         fonts={k: (FONTS / v).as_uri() for k, v in FONT_FILES.items()},

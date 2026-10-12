@@ -42,6 +42,17 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
   background: linear-gradient(180deg, rgba(5,13,36,.70) 0%, rgba(5,13,36,.30) 32%, rgba(5,13,36,.55) 60%, rgba(5,13,36,.94) 100%); }
 @keyframes kb { from { transform: scale(1.02) translateY(0); } to { transform: scale(1.10) translateY(-1.5%); } }
 
+
+/* ---- Kredisiz arka plan: ince altın çizgilerle sütun dizisi, sahne başına farklı kadraj ---- */
+.art { position: absolute; left: 0; top: 330px; width: 1080px; height: 1200px; overflow: hidden;
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 70%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 22%, #000 70%, transparent 100%);
+  animation: fade 1.2s ease-out .1s both; }
+.art svg { position: absolute; left: var(--ax); top: var(--ay); width: calc(1500px * var(--as)); height: auto;
+  fill: none; stroke: var(--accent); stroke-width: 2.4; opacity: .30; }
+.art .bloom { position: absolute; left: var(--bx); top: var(--by); width: 760px; height: 760px; border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(211,161,74,.10), rgba(211,161,74,0)); }
+
 /* ---- Gren: tek doku ---- */
 .grain { position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -99,6 +110,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 </head>
 <body>
 <div id="slide" class="{{ role }}{% if layout %} layout-{{ layout }}{% endif %}{% if last %} no-out{% endif %}" style="--bd: {{ body_delay }}s">
+  {% if not image %}<div class="art" style="--ax: {{ art.x }}px; --ay: {{ art.y }}px; --as: {{ art.s }}; --bx: {{ art.bx }}px; --by: {{ art.by }}px"><div class="bloom"></div><svg viewBox="0 0 1500 1080" aria-hidden="true"><g transform="translate(150 0)"><rect x="-70" y="0" width="140" height="26"/><rect x="-58" y="26" width="116" height="14"/><line x1="-44" y1="40" x2="-44" y2="1040"/><line x1="-22" y1="40" x2="-22" y2="1040"/><line x1="0" y1="40" x2="0" y2="1040"/><line x1="22" y1="40" x2="22" y2="1040"/><line x1="44" y1="40" x2="44" y2="1040"/><rect x="-58" y="1040" width="116" height="14"/><rect x="-70" y="1054" width="140" height="26"/></g><g transform="translate(450 0)"><rect x="-70" y="0" width="140" height="26"/><rect x="-58" y="26" width="116" height="14"/><line x1="-44" y1="40" x2="-44" y2="1040"/><line x1="-22" y1="40" x2="-22" y2="1040"/><line x1="0" y1="40" x2="0" y2="1040"/><line x1="22" y1="40" x2="22" y2="1040"/><line x1="44" y1="40" x2="44" y2="1040"/><rect x="-58" y="1040" width="116" height="14"/><rect x="-70" y="1054" width="140" height="26"/></g><g transform="translate(750 0)"><rect x="-70" y="0" width="140" height="26"/><rect x="-58" y="26" width="116" height="14"/><line x1="-44" y1="40" x2="-44" y2="1040"/><line x1="-22" y1="40" x2="-22" y2="1040"/><line x1="0" y1="40" x2="0" y2="1040"/><line x1="22" y1="40" x2="22" y2="1040"/><line x1="44" y1="40" x2="44" y2="1040"/><rect x="-58" y="1040" width="116" height="14"/><rect x="-70" y="1054" width="140" height="26"/></g><g transform="translate(1050 0)"><rect x="-70" y="0" width="140" height="26"/><rect x="-58" y="26" width="116" height="14"/><line x1="-44" y1="40" x2="-44" y2="1040"/><line x1="-22" y1="40" x2="-22" y2="1040"/><line x1="0" y1="40" x2="0" y2="1040"/><line x1="22" y1="40" x2="22" y2="1040"/><line x1="44" y1="40" x2="44" y2="1040"/><rect x="-58" y="1040" width="116" height="14"/><rect x="-70" y="1054" width="140" height="26"/></g><g transform="translate(1350 0)"><rect x="-70" y="0" width="140" height="26"/><rect x="-58" y="26" width="116" height="14"/><line x1="-44" y1="40" x2="-44" y2="1040"/><line x1="-22" y1="40" x2="-22" y2="1040"/><line x1="0" y1="40" x2="0" y2="1040"/><line x1="22" y1="40" x2="22" y2="1040"/><line x1="44" y1="40" x2="44" y2="1040"/><rect x="-58" y="1040" width="116" height="14"/><rect x="-70" y="1054" width="140" height="26"/></g></svg></div>{% endif %}
   {% if image %}<div class="bg" style="background-image: url('{{ image }}')"></div><div class="scrim"></div>{% endif %}
 
   <div class="logo" data-furn="logo"></div>

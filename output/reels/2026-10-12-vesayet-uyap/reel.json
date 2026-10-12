@@ -1,0 +1,14 @@
+{
+  "topic": "7589 sayılı Kanun (12. Yargı Paketi): 31 Ekim 2026'da yürürlüğe giren maddeler. TASLAK: resmî metinle teyit edilmedi",
+  "slug": "2026-10-12-vesayet-uyap",
+  "sources": [
+    { "label": "Resmî Gazete, 31.07.2026, S. 33326, 7589 sayılı Kanun (resmî metin ortamdan açılamadı, teyit bekliyor)", "url": "https://www.resmigazete.gov.tr/" }
+  ],
+  "scenes": [
+    { "role": "cover", "headline": "Vesayet altındakilerin malları 31 Ekim'den itibaren *elektronik portalda* satılacak.", "vo": "Vesayet altındaki kişilerin malları, otuz bir Ekim'den itibaren elektronik portalda satılacak." },
+    { "role": "body", "heading": "On ikinci Yargı Paketi *iki tarihte* yürürlüğe giriyor", "body": ["Kanun 31 Temmuz 2026'da yayımlandı.", "Üç madde 31 Ekim'de yürürlüğe giriyor."], "vo": "Yedi bin beş yüz seksen dokuz sayılı Kanun otuz bir Temmuz'da yayımlandı. Üç maddesi ise otuz bir Ekim'de yürürlüğe giriyor." },
+    { "role": "body", "heading": "Vesayet malları artık *UYAP'a bağlı* satış portalında", "body": ["Medeni Kanun m. 440 ve 444 değişiyor.", "Satış, açık artırmayla yapılacak."], "vo": "Medeni Kanun'un dört yüz kırkıncı ve dört yüz kırk dördüncü maddeleri değişiyor. Satışlar elektronik satış portalında, açık artırmayla yapılacak." },
+    { "role": "body", "heading": "Görüntülü katılımda *tutanak imzası* düzenleniyor", "body": ["Hukuk Muhakemeleri Kanunu m. 149 değişiyor."], "vo": "Ses ve görüntü aktarımıyla duruşmaya katılanların tutanak imzasına ilişkin Hukuk Muhakemeleri Kanunu'nun yüz kırk dokuzuncu maddesi de aynı gün yürürlüğe giriyor." },
+    { "role": "closing", "headline": "Üç madde, tek tarih: 31 Ekim", "cta": "Ayrıntılar için kanun metnine bakın.", "source": "Kaynak: Resmî Gazete, 31.07.2026, S. 33326", "vo": "Üç madde, tek tarih: otuz bir Ekim. Ayrıntılar için kanun metnine bakın." }
+  ]
+}
