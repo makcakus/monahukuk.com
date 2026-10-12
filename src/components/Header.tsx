@@ -1,13 +1,18 @@
 "use client";
 
 
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type PointerEvent } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
 import { acronymize } from "./Wordmark";
 import { ThemeToggle } from "./ThemeToggle";
-import { LEGAL_SYMBOLS } from "./LegalSymbols";
+import {
+  ThemisColumnFx,
+  THEMIS_FX_HEIGHT,
+  THEMIS_FX_LIFETIME_MS,
+  THEMIS_FX_WIDTH,
+} from "./ThemisColumnFx";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
@@ -44,6 +49,27 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const groupRef = useRef<HTMLDivElement | null>(null);
+  const headerRef = useRef<HTMLElement | null>(null);
+  // Fare header üzerinde hareket edince imlecin altında kısa bir sahne oynar.
+  // Aynı anda tek sahne; bitince bir sonraki harekette yeniden başlar.
+  const [fx, setFx] = useState<{ id: number; x: number; y: number } | null>(null);
+  const fxTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function onHeaderPointerMove(e: PointerEvent<HTMLElement>) {
+    if (fx || e.pointerType !== "mouse") return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const rect = headerRef.current?.getBoundingClientRect();
+    if (!rect) return;
+    const half = THEMIS_FX_WIDTH / 2;
+    const x = Math.min(Math.max(e.clientX, half + 8), window.innerWidth - half - 8) - rect.left;
+    const y = e.clientY - rect.top + 18;
+    setFx({ id: Date.now(), x, y });
+    fxTimer.current = setTimeout(() => setFx(null), THEMIS_FX_LIFETIME_MS);
+  }
+
+  useEffect(() => () => {
+    if (fxTimer.current) clearTimeout(fxTimer.current);
+  }, []);
 
   useEffect(() => {
     function onClickOutside(e: MouseEvent) {
@@ -75,7 +101,7 @@ export function Header() {
     // değiştirmek altındaki tüm içeriği kaydırır; bu da scroll sırasında
     // titreme olarak görünür. Scroll tepkisi yalnızca gölgedir ve
     // globals.css'te saf CSS scroll timeline ile sürülür.
-    <header className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
+    <header ref={headerRef} onPointerMove={onHeaderPointerMove} className="site-header sticky top-0 z-40 border-b border-cream-200 bg-cream-50/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/75 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75">
       {/* Tam genişlik: logo sola, menü ve kontroller sağa dayanır.
           Kenarlarda yalnız px kadar nefes payı bırakılır. */}
       <div className="w-full px-6 lg:px-10 py-6 flex items-center gap-6">
@@ -83,45 +109,22 @@ export function Header() {
         <Link
           href="/"
           aria-label={tSite("name")}
-          className="group flex items-center gap-4 leading-tight"
+          className="flex flex-col leading-tight"
           onClick={() => setOpen(false)}
         >
-          {/* Sabit bir amblem yok: sütun, terazi ve § sırayla belirip dağılır. */}
-          <span
-            aria-hidden="true"
-            className="relative hidden sm:block h-[60px] w-10 shrink-0 text-gold-700"
-          >
-            {LEGAL_SYMBOLS.map((Symbol, i) => (
-              <span
-                key={i}
-                className="sym-cycle absolute inset-0"
-                style={
-                  {
-                    "--sym-dur": "15s",
-                    "--sym-delay": `${i * 5}s`,
-                    "--sym-blur": "4px",
-                  } as CSSProperties
-                }
-              >
-                <Symbol className="h-full w-full" />
-              </span>
-            ))}
-          </span>
-          <span className="flex flex-col">
-            {tSite("name").split(" ").map((word, i) => (
-              <span
-                key={i}
-                aria-hidden="true"
-                dir="ltr"
-                className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
-              >
-                {i === 0 ? acronymize(word) : word}
-              </span>
-            ))}
-            <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
-              <span>Antalya</span>
-              <span>Türkiye</span>
+          {tSite("name").split(" ").map((word, i) => (
+            <span
+              key={i}
+              aria-hidden="true"
+              dir="ltr"
+              className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+            >
+              {i === 0 ? acronymize(word) : word}
             </span>
+          ))}
+          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
+            <span>Antalya</span>
+            <span>Türkiye</span>
           </span>
         </Link>
 
@@ -265,6 +268,20 @@ export function Header() {
               <ThemeToggle />
             </div>
           </nav>
+        </div>
+      )}
+      {fx && (
+        <div
+          aria-hidden="true"
+          className="themis-fx-wrap pointer-events-none absolute z-50 hidden lg:block"
+          style={{
+            left: fx.x - THEMIS_FX_WIDTH / 2,
+            top: fx.y,
+            width: THEMIS_FX_WIDTH,
+            height: THEMIS_FX_HEIGHT,
+          }}
+        >
+          <ThemisColumnFx key={fx.id} />
         </div>
       )}
     </header>

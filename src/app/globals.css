@@ -235,23 +235,11 @@ h1, h2, h3, h4, .font-display {
   transform: rotate(45deg) scale(1);
 }
 
-/* Hukuk simgeleri: sırayla belirir, bir süre nefes alır, dağılıp kaybolur.
-   Üç simge aynı kutuda üst üste; animation-delay ile sıraya girerler.
-   Başlangıç ve bitiş opacity 0 — hareket kapalıysa hiçbiri görünmez. */
-@keyframes sym-cycle {
-  0%   { opacity: 0; transform: translateY(14px) scale(0.92); filter: blur(var(--sym-blur, 6px)); }
-  7%   { opacity: var(--sym-peak, 1); transform: translateY(0) scale(1); filter: blur(0); }
-  26%  { opacity: var(--sym-peak, 1); transform: translateY(-3px) scale(1.015); filter: blur(0); }
-  33%  { opacity: 0; transform: translateY(-18px) scale(1.06); filter: blur(var(--sym-blur, 6px)); }
-  100% { opacity: 0; transform: translateY(-18px) scale(1.06); filter: blur(var(--sym-blur, 6px)); }
-}
-.sym-cycle {
-  opacity: 0;
-  animation: sym-cycle var(--sym-dur, 15s) cubic-bezier(0.22, 0.61, 0.36, 1) var(--sym-delay, 0s) infinite;
-  will-change: transform, opacity, filter;
-}
-@media (prefers-reduced-motion: reduce) {
-  .sym-cycle { animation: none; display: none; }
+/* Header'daki Themis sahnesi: poz tutulur, sonra söner */
+@keyframes themis-out { to { opacity: 0; } }
+.themis-fx-wrap {
+  filter: drop-shadow(0 8px 12px rgba(5, 13, 36, 0.35));
+  animation: themis-out 0.8s ease-in 5.5s forwards;
 }
 
 /* Birincil buton: tek seferlik giriş parıltısı + hover'da süpürme */
@@ -389,8 +377,6 @@ h1, h2, h3, h4, .font-display {
 @keyframes sd-hero-copy { from { opacity: 1; transform: translate3d(0, 0, 0); }
                           to   { opacity: 0; transform: translate3d(0, -52px, 0); } }
 @keyframes sd-hero-zoom { from { transform: scale(1); } to { transform: scale(1.07); } }
-@keyframes sd-hero-columns { from { opacity: 1; transform: translate3d(0, 0, 0); }
-                             to   { opacity: 0; transform: translate3d(0, -80px, 0); } }
 
 /* Okuma ilerleme çubuğu — scroll konumu bilgi taşır, reduced-motion'da da kalır. */
 .sd-progress {
@@ -445,11 +431,6 @@ h1, h2, h3, h4, .font-display {
       animation: sd-hero-copy linear both;
       animation-timeline: --sd-hero;
       animation-range: exit 0% exit 62%;
-    }
-    .sd-hero-columns {
-      animation: sd-hero-columns linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 70%;
     }
     .sd-hero-cue {
       animation: sd-fade-out linear both;

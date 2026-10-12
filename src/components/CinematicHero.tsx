@@ -1,10 +1,8 @@
-import type { CSSProperties } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Wordmark } from "./Wordmark";
-import { LEGAL_SYMBOLS } from "./LegalSymbols";
 
 const HERO_IMAGE_URL = "/images/hero/antalya-donme-dolap-hero.jpg";
 // Dönme dolabın merkezi (göbeği), kaynak fotoğrafta yaklaşık %70 sağda / %55 yukarıda.
@@ -64,31 +62,6 @@ export function CinematicHero() {
         aria-hidden
         className="sd-hero-veil absolute inset-0 bg-navy-950/70 opacity-0"
       />
-
-      {/* Sağ üst: gün batımı göğünde sırayla belirip dağılan dolgulu hukuk
-          simgeleri (sütun, terazi, §). Düşük opaklık; metinle çakışmasın diye
-          yalnız xl ve üstünde. Scroll'da yukarı kayıp söner. */}
-      <div
-        aria-hidden
-        className="sd-hero-columns pointer-events-none absolute end-12 top-36 hidden aspect-[2/3] w-[min(19vw,270px)] text-gold-300 xl:block 2xl:end-20"
-      >
-        {LEGAL_SYMBOLS.map((Symbol, i) => (
-          <div
-            key={i}
-            className="sym-cycle absolute inset-0"
-            style={
-              {
-                "--sym-dur": "21s",
-                "--sym-delay": `${1.4 + i * 7}s`,
-                "--sym-peak": 0.34,
-                "--sym-blur": "16px",
-              } as CSSProperties
-            }
-          >
-            <Symbol className="h-full w-full" />
-          </div>
-        ))}
-      </div>
 
       {/* Header logosuyla aynı sol hizada: aynı px değerleri. */}
       <div className="sd-hero-copy relative z-10 flex h-full w-full flex-col justify-end px-6 lg:px-10 pb-24 pt-32 md:pb-32">
