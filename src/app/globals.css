@@ -217,13 +217,75 @@ h1, h2, h3, h4, .font-display {
   transform: scaleX(1);
 }
 
+/* Nav hover: alt çizgiye ek olarak ortada küçük altın baklava (kaide süsü) */
+.nav-underline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6.5px;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
+  background: var(--color-gold-500);
+  transform: rotate(45deg) scale(0);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1) 0.08s;
+}
+.nav-underline:hover::before,
+.nav-underline[data-active="true"]::before {
+  transform: rotate(45deg) scale(1);
+}
+
+/* Hero mimari katmanı: çizgiler kendini çizer */
+@keyframes arch-draw {
+  from { stroke-dashoffset: 1; }
+  to   { stroke-dashoffset: 0; }
+}
+.arch-line {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: arch-draw 1.6s cubic-bezier(0.45, 0, 0.2, 1) var(--arch-delay, 0s) forwards;
+}
+
+/* Birincil buton: tek seferlik giriş parıltısı + hover'da süpürme */
+@keyframes btn-shimmer {
+  from { transform: translateX(-120%) skewX(-18deg); }
+  to   { transform: translateX(260%) skewX(-18deg); }
+}
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.btn-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 38%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+  transform: translateX(-120%) skewX(-18deg);
+  pointer-events: none;
+  animation: btn-shimmer 1.4s ease-out 1.9s 1 both;
+}
+.btn-shimmer:hover::after {
+  animation: btn-shimmer 0.9s ease-out 1 both;
+}
+[dir="rtl"] .btn-shimmer::after {
+  inset: 0 0 0 auto;
+  animation-name: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-hero-rise,
   .animate-scroll-bob,
-  .animate-ken-burns {
+  .animate-ken-burns,
+  .arch-line,
+  .btn-shimmer::after {
     animation: none !important;
   }
-  .nav-underline::after {
+  .arch-line {
+    stroke-dashoffset: 0;
+  }
+  .nav-underline::after,
+  .nav-underline::before {
     transition: none;
   }
 }
@@ -323,6 +385,10 @@ h1, h2, h3, h4, .font-display {
 @keyframes sd-hero-copy { from { opacity: 1; transform: translate3d(0, 0, 0); }
                           to   { opacity: 0; transform: translate3d(0, -52px, 0); } }
 @keyframes sd-hero-zoom { from { transform: scale(1); } to { transform: scale(1.07); } }
+@keyframes sd-hero-columns { from { opacity: 1; transform: translate3d(0, 0, 0); }
+                             to   { opacity: 0; transform: translate3d(0, -80px, 0); } }
+@keyframes sd-hero-arch    { from { opacity: 1; transform: translate3d(0, 0, 0); }
+                             to   { opacity: 0; transform: translate3d(0, 70px, 0); } }
 
 /* Okuma ilerleme çubuğu — scroll konumu bilgi taşır, reduced-motion'da da kalır. */
 .sd-progress {
@@ -377,6 +443,16 @@ h1, h2, h3, h4, .font-display {
       animation: sd-hero-copy linear both;
       animation-timeline: --sd-hero;
       animation-range: exit 0% exit 62%;
+    }
+    .sd-hero-columns {
+      animation: sd-hero-columns linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 70%;
+    }
+    .sd-hero-arch {
+      animation: sd-hero-arch linear both;
+      animation-timeline: --sd-hero;
+      animation-range: exit 0% exit 80%;
     }
     .sd-hero-cue {
       animation: sd-fade-out linear both;

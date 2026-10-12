@@ -81,22 +81,41 @@ export function Header() {
         <Link
           href="/"
           aria-label={tSite("name")}
-          className="flex flex-col leading-tight"
+          className="group flex items-center gap-4 leading-tight"
           onClick={() => setOpen(false)}
         >
-          {tSite("name").split(" ").map((word, i) => (
-            <span
-              key={i}
-              aria-hidden="true"
-              dir="ltr"
-              className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
-            >
-              {i === 0 ? acronymize(word) : word}
+          {/* Monogram: tek İyonik sütun. Hover'da gövde çizgileri yükselir. */}
+          <svg
+            aria-hidden="true"
+            viewBox="0 0 40 72"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinejoin="round"
+            className="hidden sm:block h-[60px] w-auto text-gold-700 transition-transform duration-500 group-hover:-translate-y-0.5"
+          >
+            <path d="M6 6h28v5H6z" />
+            <path d="M12 17a4.5 4.5 0 1 0 0 .01M28 17a4.5 4.5 0 1 0 0 .01" />
+            <path d="M8 11v6M32 11v6M12 23h16" />
+            <path d="M12 23v38M28 23v38" />
+            <path d="M17 26v33M20 26v33M23 26v33" opacity="0.5" />
+            <path d="M10 61h20v4H10zM7 65h26v4H7z" />
+          </svg>
+          <span className="flex flex-col">
+            {tSite("name").split(" ").map((word, i) => (
+              <span
+                key={i}
+                aria-hidden="true"
+                dir="ltr"
+                className="font-display text-4xl text-navy-900 dark:text-cream-50 tracking-tight leading-[1.05]"
+              >
+                {i === 0 ? acronymize(word) : word}
+              </span>
+            ))}
+            <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
+              <span>Antalya</span>
+              <span>Türkiye</span>
             </span>
-          ))}
-          <span className="mt-2 flex flex-col text-xs uppercase tracking-[0.18em] leading-snug text-gold-700">
-            <span>Antalya</span>
-            <span>Türkiye</span>
           </span>
         </Link>
 
@@ -185,7 +204,7 @@ export function Header() {
           <LangSwitcher />
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 text-sm font-medium text-navy-950 hover:bg-gold-400 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
+            className="inline-flex items-center justify-center rounded-sm border border-gold-400 bg-navy-900 px-4 text-sm font-medium text-cream-50 hover:bg-navy-800 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
           >
             <span className="block text-center">{tCta("consult")}</span>
           </Link>

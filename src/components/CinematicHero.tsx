@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Wordmark } from "./Wordmark";
+import { HeroArchitecture } from "./HeroArchitecture";
 
 const HERO_IMAGE_URL = "/images/hero/antalya-donme-dolap-hero.jpg";
 // Dönme dolabın merkezi (göbeği), kaynak fotoğrafta yaklaşık %70 sağda / %55 yukarıda.
@@ -63,6 +64,8 @@ export function CinematicHero() {
         className="sd-hero-veil absolute inset-0 bg-navy-950/70 opacity-0"
       />
 
+      <HeroArchitecture />
+
       {/* Header logosuyla aynı sol hizada: aynı px değerleri. */}
       <div className="sd-hero-copy relative z-10 flex h-full w-full flex-col justify-end px-6 lg:px-10 pb-24 pt-32 md:pb-32">
         <div className="max-w-3xl">
@@ -78,14 +81,14 @@ export function CinematicHero() {
           <div className="animate-hero-rise animate-hero-rise-delay-4 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="group inline-flex items-center justify-center gap-2 rounded-sm bg-gold-300 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-navy-950/40 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
+              className="btn-shimmer group inline-flex items-center justify-center gap-2 rounded-sm bg-gold-300 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-navy-950/40 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
             >
               <span className="block text-center">{tCta("consult")}</span>
               <ArrowRight size={16} className="shrink-0 rtl:rotate-180 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
             </Link>
             <Link
               href="/practice-areas"
-              className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
+              className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:border-gold-300 hover:text-gold-300 hover:bg-cream-50/10 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
             >
               <span className="block text-center">{tCta("explore")}</span>
             </Link>
