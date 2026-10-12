@@ -7,7 +7,7 @@ export function PageHero({
   children,
 }: {
   kicker?: string;
-  title: string;
+  title: ReactNode;
   lead?: string;
   children?: ReactNode;
 }) {
