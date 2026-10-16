@@ -67,8 +67,17 @@ const WARN_ONLY_LOCALES = new Set(["fr"]);
 // mevzuatındaki değişiklikleri madde madde izliyor ve hedef kitlesi Türkiye'de
 // uygulama yapan hukukçular. Bu sonek listeden ÇIKARILMAMALIDIR.
 const TR_ONLY_KEY_SUFFIXES = ["-yargi-paketi"];
+// 2026-10-16: TCK suç tipleri serisinin 62 makalesi bilinçli olarak yalnızca
+// Türkçe yayımlandı (editoryal karar). Anahtarları scripts/tr-only-keys.json'da
+// tutulur; bir makale başka dillere çevrildiğinde anahtarı o listeden çıkarın.
+const TR_ONLY_KEYS = new Set(
+  JSON.parse(readFileSync(join(process.cwd(), "scripts", "tr-only-keys.json"), "utf8"))
+);
 function isTrOnly(translationKey) {
-  return TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf));
+  return (
+    TR_ONLY_KEYS.has(translationKey) ||
+    TR_ONLY_KEY_SUFFIXES.some((suf) => translationKey.endsWith(suf))
+  );
 }
 
 // TR makalelerini oku
