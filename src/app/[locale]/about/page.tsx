@@ -2,6 +2,7 @@ import type { CSSProperties } from "react";
 import Image from "next/image";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { PageHero } from "@/components/PageHero";
+import { BrandText } from "@/components/Wordmark";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
@@ -41,7 +42,7 @@ export default async function AboutPage({
 
   return (
     <>
-      <PageHero title={t("title")} lead={t("lead")} />
+      <PageHero title={<BrandText text={t("title")} />} lead={t("lead")} />
 
       {/* Body / Intro */}
       <section className="mx-auto max-w-3xl px-6 py-16">
