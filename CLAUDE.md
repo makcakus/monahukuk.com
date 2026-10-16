@@ -10,18 +10,20 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ## What This Project Is
 
-**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 7 dilli (TR/EN/DE/RU/AR/ES/FR) web sitesi. Eski WordPress'in yerine geçti.
+**monahukuk.com** — MONA Hukuk bürosunun (Antalya) kurumsal sitesi. Yabancılara hukuki hizmet sunan firmanın 8 dilli (TR/EN/DE/RU/AR/ES/FR/ZH) web sitesi. Eski WordPress'in yerine geçti.
 
 ## Commands
 
 ```bash
 npm run dev        # Geliştirme sunucusu
-npm run build      # Production build (validate scriptleri önce çalışır)
+npm run build      # next build --webpack; prebuild: fix:yaml → validate → generate:locale-manifest
 npm start          # Production sunucusu
 npx eslint src/    # Lint
 
 npm run preview    # OpenNext build + yerel Cloudflare Workers önizleme
 npm run deploy     # Güvenli tam deploy pipeline'ı (scripts/deploy-full.mjs)
+npm run deploy:content  # Sadece makale MDX'lerini R2'ye yükle + revalidate (build/worker deploy yok; liste/sitemap/legal-news güncellenmez)
+npm run generate:locale-manifest  # src/generated/*.json manifestlerini üret
 ```
 
 ### Validation Scriptleri
@@ -40,12 +42,13 @@ node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
 
 - **Framework**: Next.js 16 (App Router) + TypeScript 5 + React 19
 - **Styling**: Tailwind CSS v4 (PostCSS tabanlı — `tailwind.config.js` yok, `globals.css` içinde `@theme`)
-- **i18n**: next-intl 4 — 7 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`)
+- **i18n**: next-intl 4 — 8 locale, `localePrefix: "always"` (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`, `/zh/`). `routing.alternateLinks = false` bilerek kapalı: hreflang yalnızca içeriğin gerçekten var olduğu dillere `generateMetadata` ile üretilir. Middleware `src/middleware.ts`; matcher'daki locale listesi `routing.ts` ile elle senkron tutulmalı
 - **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
 - **E-posta / Newsletter**: Resend API + Supabase
 - **Deployment**: Cloudflare Workers (OpenNext) — Vercel kullanılmıyor
   - `wrangler.jsonc` → worker adı `mona-site`, R2 cache bucket, IMAGES binding
   - `open-next.config.ts` → incremental cache R2 üzerinde
+  - `deploy-full.mjs` sırası: locale manifest → `opennextjs-cloudflare build` → `wrangler deploy` → `direct-r2-populate.mjs`. Son adım (R2 cache doldurma) atlanırsa makale sayfaları 404 verir; `opennextjs-cloudflare build` `prebuild` hook'unu tetiklemez, o yüzden manifest ayrı adım
   - `.github/workflows/deploy-cloudflare.yml` → `main`'e push'ta otomatik deploy (GitHub Actions; Cloudflare Workers Builds'in 30dk build limiti yetmediği için buraya geri dönüldü)
 
 ## Proje Yapısı
@@ -71,11 +74,18 @@ src/
 │   ├── seo.ts                     # pageMetadata() helper
 │   └── site.ts                    # SITE metadata objesi
 content/
-└── articles/
-    ├── tr/    en/    de/    ru/    ar/    es/    fr/   # Locale başına ayrı MDX dosyaları
-messages/
-└── tr.json  en.json  de.json  ru.json  ar.json  es.json  fr.json  # i18n çeviri anahtarları
+├── articles/{tr,en,de,ru,ar,es,fr,zh}/   # Locale başına ayrı MDX dosyaları
+├── hukuki-haberler/                       # Haftalık bülten
+└── glossary.json                          # Çeviri terminolojisi
+messages/{tr,en,de,ru,ar,es,fr,zh}.json    # i18n çeviri anahtarları
 ```
+
+### Veri akışı (birden fazla dosyayı okumadan anlaşılmaz)
+
+- `lib/articles.ts` önce `fs` ile `content/`'i okur; Worker runtime'da `fs` olmadığı için başarısız olunca R2 (`ARTICLES_BUCKET`) fallback'ine düşer (build'de yüksek paralellik için `withRetry`). Bu yüzden build sonrası eklenen makale yalnızca R2'ye sync edilerek yayınlanabilir (`deploy:content`).
+- `src/generated/*.json` (`generate-locale-manifest.mjs` üretir, repoda duruyor): `article-fallbacks.json` (`lib/article-fallback.ts` — olmayan/yanlış-dil slug'ı için 404 yerine tr/en/mevcut dile yönlendirme), `article-locales.json`, `legal-news-locales.json`. İçerik eklendikten sonra manifest yeniden üretilmeden güncellenmez.
+- `translationKey` diller arası eşleştirme anahtarıdır; slug'lar dile göre farklı olabilir (TR'de Türkçe slug, diğerlerinde key = EN slug). Çeviri süreci: `TRANSLATION_WORKFLOW.md`.
+- Next.js API'si yazmadan önce `AGENTS.md` / `node_modules/next/dist/docs/` oku.
 
 ## İçerik Yönetimi (Makaleler)
 
