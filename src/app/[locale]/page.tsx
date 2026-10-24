@@ -37,7 +37,7 @@ function HomeContent() {
 
   return (
     <>
-      <div className="-mt-12">
+      <div className="-mt-[var(--hero-pull)]">
         <CinematicHero />
       </div>
 
