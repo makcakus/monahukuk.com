@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Wordmark } from "./Wordmark";
 
@@ -91,10 +91,6 @@ export function CinematicHero() {
             </Link>
           </div>
         </div>
-      </div>
-
-      <div className="sd-hero-cue absolute bottom-6 left-1/2 z-10 -translate-x-1/2 text-cream-100/80">
-        <ChevronDown size={28} className="animate-scroll-bob" strokeWidth={1.5} />
       </div>
     </section>
   );

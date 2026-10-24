@@ -51,7 +51,8 @@ export function WhatsAppFloat({ locale }: { locale: string }) {
       aria-label={label}
       title={label}
       onClick={() => track("whatsapp_click", { locale })}
-      className="fixed bottom-6 end-6 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-gold-300 shadow-lg shadow-navy-950/30 hover:scale-105 hover:bg-gold-400 transition-transform print:hidden"
+      style={{ bottom: "calc(1.5rem + var(--cookie-banner-h, 0px))" }}
+      className="fixed end-6 z-40 inline-flex h-14 w-14 items-center justify-center rounded-full bg-gold-300 shadow-lg shadow-navy-950/30 hover:scale-105 hover:bg-gold-400 transition-[transform,bottom] duration-300 print:hidden"
     >
       <svg
         viewBox="0 0 24 24"
