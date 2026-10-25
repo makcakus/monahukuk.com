@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { Cookie, X } from "lucide-react";
+import { X } from "lucide-react";
 
 const STORAGE_KEY = "cookie-consent-v1";
 
@@ -75,10 +75,7 @@ export function CookieBanner() {
         </button>
 
         <div className="flex flex-col gap-3 px-4 py-3 sm:flex-row sm:items-center sm:gap-6 sm:px-6 sm:py-4">
-          <div className="flex min-w-0 flex-1 items-start gap-3">
-            <span className="mt-0.5 hidden h-9 w-9 shrink-0 items-center justify-center rounded-full bg-gold-100 text-gold-700 dark:bg-gold-500/20 dark:text-gold-300 sm:inline-flex">
-              <Cookie size={18} />
-            </span>
+          <div className="flex min-w-0 flex-1 items-start">
             <div className="min-w-0 pe-8 sm:pe-0">
               <h2 className="font-display text-base font-semibold text-navy-900 dark:text-cream-50">
                 {t("title")}
