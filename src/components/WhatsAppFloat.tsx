@@ -10,22 +10,7 @@
  */
 
 import { track } from "@/lib/analytics";
-
-// Mona Hukuk WhatsApp irtibat numarası (kurucunun cep hattı).
-// Ofis sabit hattı (SITE.phoneE164) WhatsApp'ta kayıtlı olmadığı için
-// kullanılmıyor; çağrı ve mail için lib/site.ts'deki numara geçerli.
-const PHONE = "905323900510";
-
-const MESSAGES: Record<string, string> = {
-  tr: "Merhaba, hukuki danışmanlık almak istiyorum.",
-  en: "Hello, I would like to get legal consultation.",
-  de: "Hallo, ich möchte eine rechtliche Beratung in Anspruch nehmen.",
-  ru: "Здравствуйте, мне нужна юридическая консультация.",
-  ar: "مرحباً، أرغب في الحصول على استشارة قانونية.",
-  es: "Hola, me gustaría obtener una consulta legal.",
-  fr: "Bonjour, je souhaite obtenir une consultation juridique.",
-  zh: "您好，我想咨询法律问题。",
-};
+import { whatsappUrl } from "@/lib/whatsapp";
 
 const ARIA: Record<string, string> = {
   tr: "WhatsApp ile iletişim",
@@ -39,9 +24,8 @@ const ARIA: Record<string, string> = {
 };
 
 export function WhatsAppFloat({ locale }: { locale: string }) {
-  const msg = MESSAGES[locale] ?? MESSAGES.en;
   const label = ARIA[locale] ?? ARIA.en;
-  const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
+  const url = whatsappUrl(locale);
 
   return (
     <a

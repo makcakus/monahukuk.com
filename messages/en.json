@@ -49,6 +49,15 @@
     "wheel": {
       "heading": "What do you need help with?",
       "open": "View"
+    },
+    "team": {
+      "title": "Who will handle your case?",
+      "link": "Meet the team"
+    },
+    "invite": {
+      "title": "Let's start with a conversation.",
+      "body": "Tell us about your matter and what you expect, and we will look at it together. You do not need to be in Turkey.",
+      "whatsapp": "Write on WhatsApp"
     }
   },
   "about": {

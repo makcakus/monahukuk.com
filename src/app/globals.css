@@ -711,3 +711,42 @@ h1, h2, h3, h4, .font-display {
     }
   }
 }
+
+/* ==========================================================================
+   Ekip yüzleri ve kapanıştaki dolap işareti
+   ========================================================================== */
+.wm-ring { fill: none; stroke: var(--color-gold-400); stroke-opacity: 0.4; stroke-width: 1.6; }
+.wm-ring--inner { stroke-opacity: 0.25; stroke-width: 1; }
+.wm-spokes { stroke: var(--color-gold-400); stroke-opacity: 0.2; stroke-width: 0.8; }
+.wm-cab {
+  fill: none;
+  stroke: var(--color-gold-400);
+  stroke-opacity: 0.5;
+  stroke-width: 1.4;
+  translate:
+    calc(var(--rx) * cos(var(--th) + var(--a)) * 1px)
+    calc(var(--ry) * sin(var(--th) + var(--a)) * 1px);
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    /* Kabinler bölüm görünüm alanından geçerken elips üzerinde yavaşça döner. */
+    .wm {
+      animation: wm-spin linear both;
+      animation-timeline: view();
+      animation-range: entry 0% exit 100%;
+    }
+    @keyframes wm-spin { from { --th: 24deg; } to { --th: -66deg; } }
+
+    /* Fotoğraf yukarıdan aşağı açılır; yazı perdesi ayrıca yükselir. */
+    .team-face {
+      animation: team-wipe linear both;
+      animation-timeline: view();
+      animation-range: entry 8% entry 62%;
+    }
+    @keyframes team-wipe {
+      from { clip-path: inset(0 0 100% 0); }
+      to   { clip-path: inset(0 0 0 0); }
+    }
+  }
+}

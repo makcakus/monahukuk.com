@@ -49,6 +49,15 @@
     "wheel": {
       "heading": "Hangi konuda desteğe ihtiyacınız var?",
       "open": "İncele"
+    },
+    "team": {
+      "title": "Dosyanızla kimler ilgilenecek?",
+      "link": "Ekibimizi tanıyın"
+    },
+    "invite": {
+      "title": "Önce bir konuşalım.",
+      "body": "Dosyanızı ve ne beklediğinizi anlatın; durumunuzu birlikte değerlendirelim. Türkiye'de olmanız gerekmez.",
+      "whatsapp": "WhatsApp'tan yazın"
     }
   },
   "about": {

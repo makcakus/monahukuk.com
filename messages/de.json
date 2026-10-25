@@ -49,6 +49,15 @@
     "wheel": {
       "heading": "Wobei brauchen Sie Unterstützung?",
       "open": "Ansehen"
+    },
+    "team": {
+      "title": "Wer kümmert sich um Ihre Angelegenheit?",
+      "link": "Das Team kennenlernen"
+    },
+    "invite": {
+      "title": "Sprechen wir zuerst.",
+      "body": "Schildern Sie uns Ihr Anliegen und Ihre Erwartungen, dann prüfen wir es gemeinsam. Sie müssen nicht in der Türkei sein.",
+      "whatsapp": "Per WhatsApp schreiben"
     }
   },
   "about": {

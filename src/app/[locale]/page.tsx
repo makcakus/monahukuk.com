@@ -4,7 +4,8 @@ import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { HeroWheel } from "@/components/HeroWheel";
-import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
+import { TeamFaces } from "@/components/TeamFaces";
+import { InviteCta } from "@/components/InviteCta";
 import { Reveal } from "@/components/Reveal";
 
 export async function generateMetadata({
@@ -87,6 +88,8 @@ function HomeContent() {
         </div>
       </section>
 
+      <TeamFaces />
+
       {/* Approach — koyu editoryal bant. Krem -> lacivert devri net bir panel
           kenarıyla kurulur, renk fade'i ile değil. Metin her iki temada da açık
           renk kalır, scroll sırasında kontrast değişmez. */}
@@ -107,14 +110,8 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Newsletter — kapanış. Bandın üstüne aynı panel kenarıyla kayar. */}
-      <section className="sd-curtain sd-panel sd-panel--page -mt-14">
-        <div className="mx-auto max-w-3xl px-6 py-20">
-          <Reveal>
-            <NewsletterInlineCTA id="newsletter" />
-          </Reveal>
-        </div>
-      </section>
+      {/* Kapanış: davet. Bülten onun altında küçük bir köşede durur. */}
+      <InviteCta />
     </>
   );
 }

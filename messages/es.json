@@ -49,6 +49,15 @@
     "wheel": {
       "heading": "¿En qué necesita ayuda?",
       "open": "Ver"
+    },
+    "team": {
+      "title": "¿Quién se ocupará de su caso?",
+      "link": "Conozca al equipo"
+    },
+    "invite": {
+      "title": "Empecemos por hablar.",
+      "body": "Cuéntenos su asunto y lo que espera, y lo valoraremos juntos. No necesita estar en Turquía.",
+      "whatsapp": "Escribir por WhatsApp"
     }
   },
   "about": {
