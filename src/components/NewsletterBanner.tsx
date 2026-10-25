@@ -30,7 +30,7 @@ export function NewsletterBanner() {
         <p className="font-display text-lg text-navy-900 dark:text-cream-50">
           {t("alreadyTitle")}
         </p>
-        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">{t("alreadyBody")}</p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-200">{t("alreadyBody")}</p>
       </div>
     );
   }
@@ -42,7 +42,7 @@ export function NewsletterBanner() {
         <p className="font-display text-lg text-navy-900 dark:text-cream-50">
           {t(state.status === "resent" ? "resentTitle" : "pendingTitle")}
         </p>
-        <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">{t("pendingBody")}</p>
+        <p className="mt-1 text-sm text-ink-soft dark:text-cream-200">{t("pendingBody")}</p>
       </div>
     );
   }

@@ -246,7 +246,7 @@ export function NewsletterInlineCTA({
             <p className="font-medium text-navy-900 dark:text-cream-50">
               {c.alreadyTitle}
             </p>
-            <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+            <p className="mt-1 text-sm text-ink-soft dark:text-cream-200">
               {c.alreadyBody}
             </p>
           </div>
@@ -267,7 +267,7 @@ export function NewsletterInlineCTA({
             <p className="font-medium text-navy-900 dark:text-cream-50">
               {state.status === "resent" ? c.resentTitle : c.pendingTitle}
             </p>
-            <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+            <p className="mt-1 text-sm text-ink-soft dark:text-cream-200">
               {c.pendingBody}
             </p>
           </div>
@@ -292,7 +292,7 @@ export function NewsletterInlineCTA({
             {c.heading}
           </p>
           {variant !== "compact" && (
-            <p className="mt-2 text-sm text-ink-soft dark:text-cream-300 leading-relaxed">
+            <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
               {c.body}
             </p>
           )}
@@ -326,7 +326,7 @@ export function NewsletterInlineCTA({
             required
             className="mt-0.5 shrink-0 accent-gold-500"
           />
-          <span className="text-xs text-ink-soft dark:text-cream-300/80 leading-relaxed">
+          <span className="text-xs text-ink-soft dark:text-cream-200/80 leading-relaxed">
             {c.consent}
           </span>
         </label>

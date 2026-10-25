@@ -66,7 +66,7 @@ export default async function LegalNewsPage({
                     {post.title}
                   </Link>
                 </h2>
-                <p className="text-ink-soft dark:text-cream-300 leading-relaxed mb-4">
+                <p className="text-ink-soft dark:text-cream-200 leading-relaxed mb-4">
                   {post.description}
                 </p>
                 <Link

@@ -219,65 +219,75 @@ h1, h2, h3, h4, .font-display {
 }
 
 /* ===== Dark mode global overrides =====
-   These rules let cards and sections automatically adapt to dark mode
-   without needing dark: prefix on every component. */
+   Kendi dark: sınıfı olmayan kart ve bölümler karanlık temaya otomatik uyar;
+   her bileşene dark: yazmak gerekmez.
 
-.dark .bg-white {
-  background-color: var(--color-navy-900) !important;
+   Kural: bir öğe aynı özellik için kendi dark: sınıfını taşıyorsa (ör.
+   "bg-white dark:bg-transparent") genel kural geri çekilir ve bileşenin
+   yazdığı değer geçerli olur. Bu yüzden her seçici
+   :not([class*="dark:<özellik>-"]) taşır.
+
+   !important gerekmez: Tailwind v4 utility'leri @layer utilities içinde, bu
+   kurallar ise katmansız; katmansız kural katmanlı her utility'yi zaten yener. */
+
+.dark .bg-white:not([class*="dark:bg-"]) {
+  background-color: var(--color-navy-900);
 }
 
-.dark .bg-cream-100\/60,
-.dark .bg-cream-100\/75,
-.dark .bg-cream-100 {
-  background-color: rgba(20, 36, 80, 0.5) !important;
+.dark .bg-cream-100\/60:not([class*="dark:bg-"]),
+.dark .bg-cream-100\/75:not([class*="dark:bg-"]),
+.dark .bg-cream-100:not([class*="dark:bg-"]) {
+  background-color: rgba(20, 36, 80, 0.5);
 }
 
-.dark .border-cream-200 {
-  border-color: var(--color-navy-800) !important;
+.dark .border-cream-200:not([class*="dark:border-"]) {
+  border-color: var(--color-navy-800);
 }
 
-.dark .border-navy-100 {
-  border-color: var(--color-navy-700) !important;
+.dark .border-navy-100:not([class*="dark:border-"]) {
+  border-color: var(--color-navy-700);
 }
 
-.dark .text-navy-900,
-.dark .text-navy-950 {
+.dark .text-navy-900:not([class*="dark:text-"]),
+.dark .text-navy-950:not([class*="dark:text-"]) {
   color: var(--color-cream-50);
 }
 
-.dark .text-ink-soft {
+.dark .text-ink-soft:not([class*="dark:text-"]) {
   color: var(--color-navy-200);
 }
 
-.dark .text-ink-mute {
+.dark .text-ink-mute:not([class*="dark:text-"]) {
   color: var(--color-navy-300);
 }
 
-.dark .text-gold-700 {
+.dark .text-gold-700:not([class*="dark:text-"]) {
   color: var(--color-gold-400);
 }
 
-.dark .text-gold-600 {
+.dark .text-gold-600:not([class*="dark:text-"]) {
   color: var(--color-gold-300);
 }
 
-.dark .text-navy-700 {
+.dark .text-navy-700:not([class*="dark:text-"]) {
   color: var(--color-cream-200);
 }
 
-.dark .bg-navy-50 {
-  background-color: rgba(31, 53, 104, 0.5) !important;
+.dark .bg-navy-50:not([class*="dark:bg-"]) {
+  background-color: rgba(31, 53, 104, 0.5);
 }
 
 /* Dark navy CTA button — turn it gold for contrast on dark bg */
-.dark .bg-navy-900:not(footer):not(header) {
-  background-color: var(--color-gold-500) !important;
-  color: var(--color-navy-950) !important;
+.dark .bg-navy-900:not(footer):not(header):not([class*="dark:bg-"]) {
+  background-color: var(--color-gold-500);
+}
+.dark .bg-navy-900:not(footer):not(header):not([class*="dark:text-"]) {
+  color: var(--color-navy-950);
 }
 
-.dark .bg-navy-900:not(footer):not(header):hover,
-.dark .hover\:bg-navy-800:hover:not(footer):not(header) {
-  background-color: var(--color-gold-600) !important;
+.dark .bg-navy-900:not(footer):not(header):not([class*="dark:hover:bg-"]):hover,
+.dark .hover\:bg-navy-800:hover:not(footer):not(header):not([class*="dark:hover:bg-"]) {
+  background-color: var(--color-gold-600);
 }
 
 /* ==========================================================================

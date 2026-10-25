@@ -572,7 +572,7 @@ export default async function RemoteRepresentationPage({
                   <h3 className="font-medium text-navy-900 dark:text-cream-50">
                     {i + 1}. {step.title}
                   </h3>
-                  <p className="mt-1.5 text-sm text-ink-soft dark:text-cream-300 leading-relaxed">
+                  <p className="mt-1.5 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
                     {step.body}
                   </p>
                 </div>
@@ -593,7 +593,7 @@ export default async function RemoteRepresentationPage({
             </li>
           ))}
         </ul>
-        <p className="mt-6 rounded-lg border border-cream-200 bg-cream-100/60 dark:border-navy-700 dark:bg-navy-900 px-5 py-4 text-sm text-ink-soft dark:text-cream-300 leading-relaxed">
+        <p className="mt-6 rounded-lg border border-cream-200 bg-cream-100/60 dark:border-navy-700 dark:bg-navy-900 px-5 py-4 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
           {c.caveat}
         </p>
 
@@ -610,7 +610,7 @@ export default async function RemoteRepresentationPage({
                   <ArrowRight size={16} aria-hidden="true" />
                 </span>
               </summary>
-              <p className="mt-3 text-sm text-ink-soft dark:text-cream-300 leading-relaxed">
+              <p className="mt-3 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
                 {f.a}
               </p>
             </details>
@@ -622,7 +622,7 @@ export default async function RemoteRepresentationPage({
           <h2 className="font-display text-2xl text-navy-900 dark:text-cream-50">
             {c.ctaTitle}
           </h2>
-          <p className="mt-2 text-sm text-ink-soft dark:text-cream-300">{c.ctaBody}</p>
+          <p className="mt-2 text-sm text-ink-soft dark:text-cream-200">{c.ctaBody}</p>
           <Link
             href="/contact"
             className="mt-6 inline-flex items-center gap-2 rounded-sm bg-gold-400 px-6 py-3 text-sm font-medium text-navy-950 hover:bg-gold-500 transition-colors"

@@ -36,14 +36,14 @@ export function InviteCta() {
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
-              className="group inline-flex h-[52px] w-full items-center justify-center gap-2 whitespace-nowrap rounded-sm bg-gold-300 px-6 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/10 transition-all duration-200 hover:-translate-y-0.5 hover:bg-gold-400 active:translate-y-0 active:scale-[0.98] sm:w-auto"
+              className="group inline-flex h-[52px] w-[calc(100%-4.5rem)] items-center justify-center gap-2 whitespace-nowrap rounded-sm bg-gold-300 px-6 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/10 transition-all duration-200 hover:-translate-y-0.5 hover:bg-gold-400 active:translate-y-0 active:scale-[0.98] sm:w-auto"
             >
               {tCta("consult")}
               <ArrowRight size={16} className="shrink-0 rtl:rotate-180 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
             </Link>
             <WhatsAppTextLink
               locale={locale}
-              className="inline-flex h-[52px] w-full items-center justify-center whitespace-nowrap rounded-sm border border-navy-900/25 px-6 text-sm font-medium text-navy-900 transition-all duration-200 hover:-translate-y-0.5 hover:bg-navy-900/5 active:translate-y-0 active:scale-[0.98] dark:border-cream-100/40 dark:text-cream-50 dark:hover:bg-cream-50/10 sm:w-auto"
+              className="inline-flex h-[52px] w-[calc(100%-4.5rem)] items-center justify-center whitespace-nowrap rounded-sm border border-navy-900/25 px-6 text-sm font-medium text-navy-900 transition-all duration-200 hover:-translate-y-0.5 hover:bg-navy-900/5 active:translate-y-0 active:scale-[0.98] dark:border-cream-100/40 dark:text-cream-50 dark:hover:bg-cream-50/10 sm:w-auto"
             >
               {t("invite.whatsapp")}
             </WhatsAppTextLink>

@@ -268,7 +268,7 @@ export function ContactForm({ subjects }: { subjects: string[] }) {
             <p className="font-medium text-navy-900 dark:text-cream-50">
               {c.successTitle}
             </p>
-            <p className="mt-1 text-sm text-ink-soft dark:text-cream-300">
+            <p className="mt-1 text-sm text-ink-soft dark:text-cream-200">
               {c.successBody}
             </p>
           </div>
@@ -282,7 +282,7 @@ export function ContactForm({ subjects }: { subjects: string[] }) {
       <h2 className="font-display text-xl md:text-2xl text-navy-900 dark:text-cream-50">
         {c.heading}
       </h2>
-      <p className="mt-2 text-sm text-ink-soft dark:text-cream-300 leading-relaxed">
+      <p className="mt-2 text-sm text-ink-soft dark:text-cream-200 leading-relaxed">
         {c.body}
       </p>
 
@@ -405,7 +405,7 @@ export function ContactForm({ subjects }: { subjects: string[] }) {
             required
             className="mt-0.5 shrink-0 accent-gold-500"
           />
-          <span className="text-xs text-ink-soft dark:text-cream-300/80 leading-relaxed">
+          <span className="text-xs text-ink-soft dark:text-cream-200/80 leading-relaxed">
             {c.consent}
           </span>
         </label>

@@ -18,7 +18,7 @@ const ICON: Record<Slug, typeof CheckCircle> = {
 
 const ICON_TONE: Record<Slug, string> = {
   confirmed: "text-emerald-600 dark:text-emerald-400",
-  unsubscribed: "text-ink-soft dark:text-cream-300",
+  unsubscribed: "text-ink-soft dark:text-cream-200",
   expired: "text-amber-600 dark:text-amber-400",
   invalid: "text-rose-600 dark:text-rose-400",
 };
