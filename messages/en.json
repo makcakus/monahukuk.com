@@ -306,10 +306,6 @@
     "learnMore": "Privacy Policy",
     "closeButton": "Close"
   },
-  "theme": {
-    "switchToLight": "Switch to light mode",
-    "switchToDark": "Switch to dark mode"
-  },
   "hukukSozlugu": {
     "lead": "Search more than 6,500 English legal terms with their Turkish equivalents, and more than 10,600 Turkish terms with their English equivalents. The terms that come up most often in contract, procedure, criminal, corporate and property law.",
     "searchPlaceholder": "Type an English legal term or its Turkish equivalent…",

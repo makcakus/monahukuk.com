@@ -306,10 +306,6 @@
     "learnMore": "隐私政策",
     "closeButton": "关闭"
   },
-  "theme": {
-    "switchToLight": "切换到浅色模式",
-    "switchToDark": "切换到深色模式"
-  },
   "hukukSozlugu": {
     "lead": "在超过 6,500 条英语法律术语中检索土耳其语对应词，在超过 10,600 条土耳其语术语中检索英语对应词，涵盖合同法、诉讼程序、刑法、公司法与物权法中最常见的术语。",
     "searchPlaceholder": "输入英语法律术语或其土耳其语对应词…",

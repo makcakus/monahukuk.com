@@ -5,7 +5,6 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LangSwitcher } from "./LangSwitcher";
 import { acronymize } from "./Wordmark";
-import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 
@@ -94,8 +93,8 @@ export function Header() {
     ? "text-cream-100/90 hover:text-cream-50"
     : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50";
   const linkActiveTone = lightInk ? "text-cream-50" : "text-navy-900 dark:text-cream-50";
-  // ThemeToggle ve LangSwitcher kendi renklerini taşır; saydamken yalnız tetikleyici
-  // düğmelerini açık renge çeviriyoruz (açılır liste krem zeminde kalır).
+  // LangSwitcher kendi renklerini taşır; saydamken yalnız tetikleyici
+  // düğmesini açık renge çeviriyoruz (açılır liste krem zeminde kalır).
   const controlTone = lightInk
     ? "[&>button]:text-cream-100 [&>button:hover]:text-cream-50 [&>div>button:first-child]:text-cream-100 [&>div>button:first-child:hover]:text-cream-50"
     : "";
@@ -189,9 +188,6 @@ export function Header() {
 
   const controls = (
     <>
-      <div className={clsx("flex items-center", controlTone)}>
-        <ThemeToggle />
-      </div>
       <div className={clsx("flex items-center", controlTone)}>
         <LangSwitcher />
       </div>
@@ -293,7 +289,6 @@ export function Header() {
             })}
             <div className="pt-3 border-t border-cream-200 dark:border-navy-800 flex items-center justify-between">
               <LangSwitcher align="start" />
-              <ThemeToggle />
             </div>
           </nav>
         </div>

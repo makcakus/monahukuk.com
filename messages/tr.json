@@ -306,10 +306,6 @@
     "learnMore": "Gizlilik Politikası",
     "closeButton": "Kapat"
   },
-  "theme": {
-    "switchToLight": "Açık temaya geç",
-    "switchToDark": "Koyu temaya geç"
-  },
   "hukukSozlugu": {
     "lead": "6.500'ü aşkın İngilizce hukuk terimini Türkçe karşılığıyla, 10.600'ü aşkın Türkçe terimi de İngilizce karşılığıyla arayın. Sözleşme, dava usulü, ceza, şirketler ve mülkiyet hukukunda en çok geçen terimler.",
     "searchPlaceholder": "İngilizce hukuk terimi ya da Türkçe karşılığını yazın…",

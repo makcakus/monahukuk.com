@@ -306,10 +306,6 @@
     "learnMore": "Datenschutzerklärung",
     "closeButton": "Schließen"
   },
-  "theme": {
-    "switchToLight": "Zum hellen Modus wechseln",
-    "switchToDark": "Zum dunklen Modus wechseln"
-  },
   "hukukSozlugu": {
     "lead": "Durchsuchen Sie über 6.500 englische Rechtsbegriffe mit türkischer Entsprechung und über 10.600 türkische Begriffe mit englischer Entsprechung. Die häufigsten Begriffe aus Vertrags-, Prozess-, Straf-, Gesellschafts- und Sachenrecht.",
     "searchPlaceholder": "Englischen Rechtsbegriff oder türkische Entsprechung eingeben…",

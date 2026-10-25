@@ -306,10 +306,6 @@
     "learnMore": "Politique de confidentialité",
     "closeButton": "Fermer"
   },
-  "theme": {
-    "switchToLight": "Passer au mode clair",
-    "switchToDark": "Passer au mode sombre"
-  },
   "hukukSozlugu": {
     "lead": "Recherchez parmi plus de 6 500 termes juridiques anglais avec leur équivalent turc et parmi plus de 10 600 termes turcs avec leur équivalent anglais. Les termes les plus fréquents en droit des contrats, en procédure, en droit pénal, en droit des sociétés et en droit des biens.",
     "searchPlaceholder": "Saisissez un terme juridique anglais ou son équivalent turc…",
