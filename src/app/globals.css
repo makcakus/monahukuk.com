@@ -630,7 +630,7 @@ h1, h2, h3, h4, .font-display {
     }
 
     /* ---- Çizim: halka, ayaklar, teller, kabinler ---- */
-    .wt-rim, .wt-leg, .wt-notch {
+    .wt-rim, .wt-leg {
       fill: none;
       stroke: var(--color-gold-300);
       stroke-linecap: round;
@@ -642,7 +642,6 @@ h1, h2, h3, h4, .font-display {
     .wt-rim { stroke-width: 7; animation-range: contain 8% contain 19%; }
     .wt-rim--inner { stroke-width: 3.5; stroke-opacity: 0.75; animation-range: contain 10% contain 20%; }
     .wt-leg { stroke-width: 8; animation-range: contain 10% contain 21%; }
-    .wt-notch { stroke-width: 7; animation-range: contain 26% contain 30%; }
 
     .wt-spokes {
       stroke: var(--color-cream-100);

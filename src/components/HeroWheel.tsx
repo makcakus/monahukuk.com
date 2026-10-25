@@ -19,8 +19,8 @@ const IMG_H = 1984;
 const H = [706.449, 164.652, 1542.397, 79.754, 642.373, 1251.322, 0.137872, 0.00496] as const;
 const TH0 = 192.3594;
 const CABIN_COUNT = 42;
-// En soldaki kabin: kartı gösteren çentik bunun yanında durur.
-const NOTCH_CABIN = 0;
+// En soldaki kabin: kartı açılan alanın kabini her adımda bu konuma gelir.
+const ACTIVE_CABIN = 0;
 
 function project(px: number, py: number) {
   const w = H[6] * px + H[7] * py + 1;
@@ -43,11 +43,11 @@ const LEGS = [
 
 const N = PRACTICE_AREAS.length;
 const SPOKES = 72;
-// Alan k'nın kabini çentikten kaç kabin ötede: 13 alan 42 kabine olabildiğince
+// Alan k'nın kabini etkin konumdan kaç kabin ötede: 13 alan 42 kabine olabildiğince
 // eşit dağılır (3 ya da 4 kabin arayla). Dönüş hep tam kabin adımı olduğu için
 // duran her karede çizim fotoğraftaki kabinlerle yine üst üste gelir.
 const AREA_OFFSET = Array.from({ length: N }, (_, k) => Math.round((k * CABIN_COUNT) / N));
-const AREA_OF_CABIN = new Map(AREA_OFFSET.map((d, k) => [(NOTCH_CABIN + d) % CABIN_COUNT, k]));
+const AREA_OF_CABIN = new Map(AREA_OFFSET.map((d, k) => [(ACTIVE_CABIN + d) % CABIN_COUNT, k]));
 
 // Kaydırma payının ilk %30'u hero ve çizimin kurulması, kalan %70'i dolabın
 // alan alan dönmesi. Kartın penceresi ile dolabın dönüşü aynı sınırda buluşur.
@@ -158,13 +158,6 @@ export function HeroWheel() {
               <circle cx={f(HUB.x)} cy={f(HUB.y)} r={20} className="wt-hub" />
             </g>
 
-            {/* Sabit gösterge: kartı gösteren kabin her adımda bu çentiğe gelir. */}
-            {(() => {
-              const notchDeg = TH0 + (360 * NOTCH_CABIN) / CABIN_COUNT;
-              const p = radial(1.07, notchDeg);
-              const q = radial(1.24, notchDeg);
-              return <path className="wt-notch" pathLength={1} d={`M${f(p.x)} ${f(p.y)} L${f(q.x)} ${f(q.y)}`} />;
-            })()}
 
             {Array.from({ length: CABIN_COUNT }, (_, i) => {
               const area = AREA_OF_CABIN.get(i) ?? -1;
