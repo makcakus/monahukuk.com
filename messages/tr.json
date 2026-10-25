@@ -126,37 +126,6 @@
     "backToList": "Hukuki Haberler",
     "eyebrow": "Hukuk Bülteni"
   },
-  "newsletter": {
-    "kicker": "Mona Hukuk - Haftalık Hukuk Bülteni",
-    "title": "Güncel Hukuki Gelişmeleri Kaçırmayın!",
-    "body": "Resmî Gazete duyuruları, yargı kararları ve önemli mevzuat değişikliklerini haftalık özetle doğrudan e-posta kutunuza gönderiyoruz. Hukuki E-Bülten hizmetimiz tamamen ücretsizdir.",
-    "placeholder": "E-posta adresiniz",
-    "button": "Abone ol",
-    "submitting": "Gönderiliyor…",
-    "pendingTitle": "Doğrulama maili gönderildi",
-    "resentTitle": "Doğrulama maili tekrar gönderildi",
-    "pendingBody": "E-posta kutunuzu kontrol edin ve aboneliğinizi tamamlamak için e-postadaki bağlantıya tıklayın. Bağlantı 48 saat geçerlidir.",
-    "alreadyTitle": "Zaten abonesiniz",
-    "alreadyBody": "Bu e-posta adresi bültenimize halihazırda kayıtlı. Her iletinin altındaki bağlantıyla aboneliği iptal edebilirsiniz.",
-    "consent": "E-bülten almak amacıyla e-posta adresimin işlenmesine KVKK kapsamında açık rızamla onay veriyorum. Her iletide yer alan bağlantıyla aboneliğimi kolayca iptal edebilirim.",
-    "consentRequired": "Devam etmek için KVKK rıza onayını işaretleyin.",
-    "invalidEmail": "Lütfen geçerli bir e-posta adresi girin.",
-    "serverError": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
-    "interestRegisteredTitle": "Kaydınız alındı",
-    "interestRegisteredBody": "Bülten aktif olduğunda size bilgi vereceğiz. Bu sırada sorularınız için contact@monahukuk.com adresinden bize ulaşabilirsiniz."
-  },
-  "newsletterPages": {
-    "confirmedTitle": "Aboneliğiniz onaylandı",
-    "confirmedBody": "Mona Hukuk haftalık hukuk bültenine başarıyla abone oldunuz. İlk sayı çıkar çıkmaz size ulaştırılacak.",
-    "unsubscribedTitle": "Aboneliğiniz iptal edildi",
-    "unsubscribedBody": "E-posta adresiniz bülten listesinden çıkarıldı. Resend listemizden de eş zamanlı olarak kaldırıldı.",
-    "expiredTitle": "Bağlantının süresi dolmuş",
-    "expiredBody": "Onay bağlantısı 48 saatlik geçerlilik süresi dolmuş. Lütfen forma yeniden e-posta adresinizi girin; size yeni bir doğrulama e-postası gönderelim.",
-    "invalidTitle": "Bağlantı geçersiz",
-    "invalidBody": "Bu bağlantı tanınmıyor ya da daha önce kullanıldı. Sorun devam ederse contact@monahukuk.com adresine yazabilirsiniz.",
-    "backToNews": "Hukuki Haberlere dön",
-    "backToHome": "Ana sayfaya dön"
-  },
   "articles": {
     "title": "Hukuki Makaleler",
     "lead": "Türk Hukukuna dair pratik rehberler ve analizler — özellikle yabancı uyruklular ve uluslararası şirketleri ilgilendiren konularda, hukukçu olmayanlar için yazılmıştır.",
@@ -294,8 +263,6 @@
   "footer": {
     "rights": "Tüm hakları saklıdır.",
     "disclaimer": "Bu sitedeki hukuki makaleler, yalnızca bilgi amaçlıdır ve hukuki tavsiye niteliği taşımaz.",
-    "newsletterHeading": "Haftalık Hukuk Bülteni",
-    "newsletterCta": "Abone ol",
     "siteMap": "Site Haritası"
   },
   "cookies": {

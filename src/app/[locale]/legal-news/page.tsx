@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { Link } from "@/i18n/navigation";
 import { getAllGazettePosts } from "@/lib/hukuki-haberler";
 import { PageHero } from "@/components/PageHero";
-import { NewsletterBanner } from "@/components/NewsletterBanner";
 import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -48,7 +47,6 @@ export default async function LegalNewsPage({
     <>
       <PageHero title={t("title")} />
       <section className="mx-auto max-w-4xl px-6 pb-20">
-        <NewsletterBanner />
         {posts.length === 0 ? (
           <p className="text-ink-mute italic pt-6">{t("empty")}</p>
         ) : (

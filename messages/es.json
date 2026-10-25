@@ -126,37 +126,6 @@
     "backToList": "Noticias jurídicas",
     "eyebrow": "Boletín jurídico"
   },
-  "newsletter": {
-    "kicker": "Mona Hukuk - Boletín jurídico semanal",
-    "title": "¡No se pierda las últimas novedades jurídicas!",
-    "body": "Avisos del Boletín Oficial, resoluciones judiciales y cambios legislativos clave entregados en su bandeja de entrada en un resumen semanal. Nuestro boletín jurídico es completamente gratuito.",
-    "placeholder": "Su dirección de correo electrónico",
-    "button": "Suscribirse",
-    "submitting": "Enviando…",
-    "pendingTitle": "Correo de verificación enviado",
-    "resentTitle": "Correo de verificación reenviado",
-    "pendingBody": "Revise su bandeja de entrada y haga clic en el enlace del correo para completar su suscripción. El enlace es válido durante 48 horas.",
-    "alreadyTitle": "Ya está suscrito",
-    "alreadyBody": "Esta dirección de correo electrónico ya está en nuestra lista de boletines. Puede darse de baja en cualquier momento a través del enlace al final de cada número.",
-    "consent": "Consiento que mi dirección de correo electrónico sea procesada con el fin de recibir el boletín. Puedo darme de baja en cualquier momento a través del enlace de cada correo.",
-    "consentRequired": "Por favor, marque la casilla de consentimiento para continuar.",
-    "invalidEmail": "Por favor, introduzca una dirección de correo electrónico válida.",
-    "serverError": "Algo salió mal. Por favor, inténtelo de nuevo más tarde.",
-    "interestRegisteredTitle": "Su interés ha sido registrado",
-    "interestRegisteredBody": "Le notificaremos cuando el boletín esté activo. Mientras tanto, puede contactarnos en contact@monahukuk.com."
-  },
-  "newsletterPages": {
-    "confirmedTitle": "Suscripción confirmada",
-    "confirmedBody": "Se ha suscrito correctamente al boletín jurídico semanal de Mona Hukuk. El primer número está en camino en cuanto se publique.",
-    "unsubscribedTitle": "Se ha dado de baja",
-    "unsubscribedBody": "Su dirección de correo electrónico ha sido eliminada de nuestra lista de boletines y de nuestra audiencia de Resend.",
-    "expiredTitle": "Este enlace ha caducado",
-    "expiredBody": "El enlace de confirmación tiene más de 48 horas. Por favor, envíe su dirección de correo electrónico de nuevo y le enviaremos un nuevo correo de confirmación.",
-    "invalidTitle": "Enlace no válido",
-    "invalidBody": "Este enlace no se reconoce o ya ha sido utilizado. Si el problema persiste, escriba a contact@monahukuk.com.",
-    "backToNews": "Volver a Noticias jurídicas",
-    "backToHome": "Volver al inicio"
-  },
   "articles": {
     "title": "Artículos jurídicos",
     "lead": "Guías prácticas y análisis sobre el derecho turco, escritos para no juristas — con especial atención a los asuntos que afectan a extranjeros y empresas internacionales.",
@@ -294,8 +263,6 @@
   "footer": {
     "rights": "Todos los derechos reservados.",
     "disclaimer": "Este sitio web es solo para información general y no constituye asesoramiento jurídico.",
-    "newsletterHeading": "Boletín jurídico semanal",
-    "newsletterCta": "Suscribirse",
     "siteMap": "Mapa del sitio"
   },
   "cookies": {

@@ -126,37 +126,6 @@
     "backToList": "法律资讯",
     "eyebrow": "法律公告"
   },
-  "newsletter": {
-    "kicker": "Mona Hukuk - 每周法律通讯",
-    "title": "不要错过最新法律动态！",
-    "body": "官方公报通知、法院判决和重要立法变化，每周汇总发送至您的邮箱。我们的法律通讯完全免费。",
-    "placeholder": "您的电子邮箱地址",
-    "button": "订阅",
-    "submitting": "发送中……",
-    "pendingTitle": "验证邮件已发送",
-    "resentTitle": "验证邮件已重新发送",
-    "pendingBody": "请检查您的收件箱并点击邮件中的链接以完成订阅。链接有效期为48小时。",
-    "alreadyTitle": "您已订阅",
-    "alreadyBody": "此电子邮件地址已在我们的通讯订阅列表中。您可以随时通过每期邮件底部的链接取消订阅。",
-    "consent": "我同意将我的电子邮箱地址用于接收通讯的目的。我可以随时通过每封邮件中的链接取消订阅。",
-    "consentRequired": "请勾选同意框以继续。",
-    "invalidEmail": "请输入有效的电子邮箱地址。",
-    "serverError": "出现错误，请稍后重试。",
-    "interestRegisteredTitle": "您的意向已登记",
-    "interestRegisteredBody": "通讯上线后我们将通知您。在此期间，欢迎通过contact@monahukuk.com与我们联系。"
-  },
-  "newsletterPages": {
-    "confirmedTitle": "订阅已确认",
-    "confirmedBody": "您已成功订阅Mona Hukuk每周法律通讯。第一期发布后将立即发送至您的邮箱。",
-    "unsubscribedTitle": "您已取消订阅",
-    "unsubscribedBody": "您的电子邮箱地址已从我们的通讯列表及订阅受众库中移除。",
-    "expiredTitle": "此链接已过期",
-    "expiredBody": "确认链接已超过48小时。请重新提交您的电子邮箱地址，我们将发送新的确认邮件。",
-    "invalidTitle": "无效链接",
-    "invalidBody": "此链接无法识别，或已被使用。如问题持续存在，请发邮件至contact@monahukuk.com。",
-    "backToNews": "返回法律资讯",
-    "backToHome": "返回首页"
-  },
   "articles": {
     "title": "法律文章",
     "lead": "关于土耳其法律的实用指南与分析，面向非法律专业人士——尤其关注影响外国人和国际企业的法律问题。",
@@ -294,8 +263,6 @@
   "footer": {
     "rights": "保留所有权利。",
     "disclaimer": "本网站仅供一般信息参考，不构成法律建议。",
-    "newsletterHeading": "每周法律通讯",
-    "newsletterCta": "订阅",
     "siteMap": "网站地图"
   },
   "cookies": {

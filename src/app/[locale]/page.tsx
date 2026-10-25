@@ -110,7 +110,7 @@ function HomeContent() {
         </div>
       </section>
 
-      {/* Kapanış: davet. Bülten onun altında küçük bir köşede durur. */}
+      {/* Kapanış: davet. */}
       <InviteCta />
     </>
   );

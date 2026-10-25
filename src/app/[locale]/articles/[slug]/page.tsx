@@ -10,7 +10,6 @@ import { pageMetadata } from "@/lib/seo";
 import { resolveArticleFallback } from "@/lib/article-fallback";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
-import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
 import { ReadingProgress } from "@/components/ReadingProgress";
 
@@ -226,10 +225,6 @@ export default async function ArticlePage({
         ) : (
           <MDXRemote source={article.body} />
         )}
-      </div>
-
-      <div className="mt-12">
-        <NewsletterInlineCTA />
       </div>
 
       <RelatedArticles

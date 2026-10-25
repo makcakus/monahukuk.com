@@ -126,37 +126,6 @@
     "backToList": "Legal News",
     "eyebrow": "Legal Bulletin"
   },
-  "newsletter": {
-    "kicker": "Mona Hukuk — Weekly Legal Newsletter",
-    "title": "Don't miss the latest legal developments!",
-    "body": "Official Gazette notices, court decisions, and key legislative changes delivered to your inbox in a weekly digest. Our Legal Newsletter is completely free.",
-    "placeholder": "Your email address",
-    "button": "Subscribe",
-    "submitting": "Sending…",
-    "pendingTitle": "Verification email sent",
-    "resentTitle": "Verification email resent",
-    "pendingBody": "Check your inbox and click the link in the email to complete your subscription. The link is valid for 48 hours.",
-    "alreadyTitle": "You're already subscribed",
-    "alreadyBody": "This email address is already on our newsletter list. You can unsubscribe any time via the link at the bottom of each issue.",
-    "consent": "I consent to my email address being processed for the purpose of receiving the newsletter. I can unsubscribe at any time via the link in each email.",
-    "consentRequired": "Please tick the consent checkbox to continue.",
-    "invalidEmail": "Please enter a valid email address.",
-    "serverError": "Something went wrong. Please try again later.",
-    "interestRegisteredTitle": "Your interest has been registered",
-    "interestRegisteredBody": "We'll notify you once the newsletter is active. In the meantime, feel free to reach us at contact@monahukuk.com."
-  },
-  "newsletterPages": {
-    "confirmedTitle": "Subscription confirmed",
-    "confirmedBody": "You have successfully subscribed to the Mona Hukuk weekly legal newsletter. The first issue is on its way as soon as it is published.",
-    "unsubscribedTitle": "You have been unsubscribed",
-    "unsubscribedBody": "Your email address has been removed from our newsletter list and from our Resend audience.",
-    "expiredTitle": "This link has expired",
-    "expiredBody": "The confirmation link is older than 48 hours. Please submit your email address again and we will send you a fresh confirmation email.",
-    "invalidTitle": "Invalid link",
-    "invalidBody": "This link is not recognised, or it has already been used. If the issue persists, write to contact@monahukuk.com.",
-    "backToNews": "Back to Legal News",
-    "backToHome": "Back to home"
-  },
   "articles": {
     "title": "Legal Articles",
     "lead": "Practical guides and analyses on Turkish law, written for non-lawyers — with a particular focus on issues that affect foreign nationals and international businesses.",
@@ -294,8 +263,6 @@
   "footer": {
     "rights": "All rights reserved.",
     "disclaimer": "This website is for general information only and does not constitute legal advice.",
-    "newsletterHeading": "Weekly Legal Newsletter",
-    "newsletterCta": "Subscribe",
     "siteMap": "Site Map"
   },
   "cookies": {

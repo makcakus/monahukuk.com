@@ -1,6 +1,5 @@
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { ArrowRight } from "lucide-react";
 import { Wordmark } from "./Wordmark";
 
 export function Footer() {
@@ -60,17 +59,6 @@ export function Footer() {
               </a>
             </li>
           </ul>
-
-          <p className="mt-6 text-xs uppercase tracking-[0.2em] mb-2 text-gold-300">
-            {tFooter("newsletterHeading")}
-          </p>
-          <Link
-            href="/#newsletter"
-            className="inline-flex items-center gap-1 text-sm text-cream-100 hover:text-gold-300 transition-colors"
-          >
-            {tFooter("newsletterCta")}
-            <ArrowRight size={14} className="rtl:rotate-180" />
-          </Link>
         </div>
       </div>
 

@@ -1,14 +1,12 @@
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { NewsletterInlineCTA } from "./NewsletterInlineCTA";
 import { Reveal } from "./Reveal";
 import { WheelMark } from "./WheelMark";
 import { WhatsAppTextLink } from "./WhatsAppTextLink";
 
 /**
  * Anasayfanın kapanışı: baskı yok, tek davet ve iki yol (form, WhatsApp).
- * Bülten bunun altında küçük bir köşede durur; kapanışın asıl işi randevu.
  */
 export function InviteCta() {
   const t = useTranslations("home");
@@ -26,7 +24,7 @@ export function InviteCta() {
         <WheelMark className="absolute -end-24 -top-6 h-[34rem] w-auto md:-end-10 md:top-4 md:h-[40rem]" />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-16 md:pt-32">
+      <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-28 md:pt-32 md:pb-36">
         <Reveal>
           <h2 className="font-display text-4xl md:text-6xl text-navy-900 text-balance max-w-2xl leading-[1.05]">
             {t("invite.title")}
@@ -49,12 +47,6 @@ export function InviteCta() {
             </WhatsAppTextLink>
           </div>
         </Reveal>
-
-        <div className="mt-24 max-w-3xl">
-          <Reveal variant="soft">
-            <NewsletterInlineCTA id="newsletter" />
-          </Reveal>
-        </div>
       </div>
     </section>
   );

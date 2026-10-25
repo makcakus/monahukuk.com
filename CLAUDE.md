@@ -42,7 +42,7 @@ node scripts/suggest-internal-links.mjs  # SEO için bağlantı önerisi
 - **Styling**: Tailwind CSS v4 (PostCSS tabanlı — `tailwind.config.js` yok, `globals.css` içinde `@theme`)
 - **i18n**: next-intl 4 — 7 locale, prefix-based routing (`/tr/`, `/en/`, `/de/`, `/ru/`, `/ar/`, `/es/`, `/fr/`)
 - **İçerik**: MDX dosyaları + gray-matter frontmatter, next-mdx-remote ile render
-- **E-posta / Newsletter**: Resend API + Supabase
+- **E-posta**: Resend API (yalnız iletişim formu bildirimi; e-posta bülteni sistemi kaldırıldı)
 - **Deployment**: Cloudflare Workers (OpenNext) — Vercel kullanılmıyor
   - `wrangler.jsonc` → worker adı `mona-site`, R2 cache bucket, IMAGES binding
   - `open-next.config.ts` → incremental cache R2 üzerinde
@@ -161,10 +161,7 @@ tekrarlar, gövdede ikinci H1, iç bağlantı, FAQ şeması kapsamı).
 
 `.env.local` dosyası gerekli (`.env.example`'a bak):
 ```
-NEXT_PUBLIC_SUPABASE_URL=
-SUPABASE_SERVICE_ROLE_KEY=
 RESEND_API_KEY=
-RESEND_AUDIENCE_ID=
 RESEND_FROM_EMAIL=
 NEXT_PUBLIC_SITE_URL=https://monahukuk.com
 ```
