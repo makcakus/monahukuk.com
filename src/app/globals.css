@@ -466,6 +466,11 @@ h1, h2, h3, h4, .font-display {
   background: var(--color-navy-950);
 }
 
+/* Yedek hero dar ekranda daha uzun durur: başlık header'a yapışmasın. */
+@media (max-width: 767px) {
+  .wt-stage { height: 100svh; min-height: 700px; }
+}
+
 .wt-box {
   --ar: 1.09375; /* 2170 / 1984 */
   position: absolute;
@@ -581,6 +586,16 @@ h1, h2, h3, h4, .font-display {
     .wt-title { color: var(--color-cream-50); }
     .wt-text { color: var(--color-cream-100); opacity: 0.92; }
 
+    /* Dar ekranda başlık dolabın üst kabinlerine biner: soru olarak gelir,
+       ilk kart açılırken çekilir. */
+    @media (max-width: 767px) {
+      .wt-head {
+        animation-name: wt-head-out;
+        animation-range: contain 22% contain 34%;
+      }
+      .wt-card { bottom: max(8svh, 6.75rem); }
+    }
+
     @media (min-width: 1024px) {
       .wt-head { inset-inline: 2.5rem; }
       .wt-card { inset-inline-start: 2.5rem; bottom: 13svh; }
@@ -670,6 +685,12 @@ h1, h2, h3, h4, .font-display {
     @keyframes wt-rise-vis {
       from { opacity: 0; visibility: hidden; translate: 0 18px; }
       to   { opacity: 1; visibility: visible; translate: 0 0; }
+    }
+    @keyframes wt-head-out {
+      0%   { opacity: 0; visibility: hidden; translate: 0 18px; }
+      35%  { opacity: 1; visibility: visible; translate: 0 0; }
+      70%  { opacity: 1; visibility: visible; translate: 0 0; }
+      100% { opacity: 0; visibility: hidden; translate: 0 0; }
     }
     @keyframes wt-card {
       0%   { opacity: 0; visibility: hidden; translate: 0 16px; }
