@@ -26,8 +26,8 @@
   "home": {
     "hero": {
       "kicker": "Antalya · Türkei",
-      "title": "MONA HUKUK",
-      "lead": "Mit Sitz in Antalya bietet unsere Kanzlei unseren Mandanten umfassende Rechtsberatung und Prozessvertretung – gestützt auf über ein Jahrzehnt Berufserfahrung und ein erfahrenes Team.",
+      "title": "Ihr Lösungspartner für Rechtsfragen in der Türkei.",
+      "lead": "Staatsbürgerschaft, Aufenthalt, Immobilien und Gesellschaftsrecht aus Antalya. Wir arbeiten auf Englisch und handeln auf Wunsch per Vollmacht für Sie.",
       "imageAlt": "Antalya — Riesenrad-Silhouette bei Sonnenuntergang"
     },
     "practiceIntro": "Unsere in Antalya ansässige Kanzlei bietet Privatpersonen und Unternehmen umfassende Rechtsberatung und Prozessvertretung. Mit über zehn Jahren Berufserfahrung bewerten wir jeden Fall in seinem individuellen Kontext und verfolgen einen lösungsorientierten, transparenten und sorgfältigen Ansatz bei der Fallbearbeitung.",
@@ -45,6 +45,10 @@
       "title": "Unser Ansatz",
       "body": "Bei MONA HUKUK sind wir überzeugt, dass Vertrauen, Vertraulichkeit und professionelle Sorgfalt das Fundament jeder Rechtsdienstleistung bilden. Wir betrachten unsere Beziehung zu unseren Mandanten als langfristige Zusammenarbeit und handeln in jeder Phase nach den Grundsätzen der offenen Kommunikation und Rechenschaftspflicht.",
       "closing": "Wenn Sie verlässliche Unterstützung in Ihren rechtlichen Angelegenheiten suchen, freut sich unsere Kanzlei darauf, Sie kennenzulernen."
+    },
+    "wheel": {
+      "heading": "Wobei brauchen Sie Unterstützung?",
+      "open": "Ansehen"
     }
   },
   "about": {

@@ -183,15 +183,6 @@ h1, h2, h3, h4, .font-display {
 .animate-hero-rise-delay-3 { animation-delay: 0.55s; }
 .animate-hero-rise-delay-4 { animation-delay: 0.75s; }
 
-/* Scroll indicator */
-@keyframes scroll-bob {
-  0%, 100% { transform: translateY(0); opacity: 0.6; }
-  50%      { transform: translateY(8px); opacity: 1; }
-}
-.animate-scroll-bob {
-  animation: scroll-bob 2.2s ease-in-out infinite;
-}
-
 /* Nav link underline draw-on-hover */
 .nav-underline {
   position: relative;
@@ -219,7 +210,6 @@ h1, h2, h3, h4, .font-display {
 
 @media (prefers-reduced-motion: reduce) {
   .animate-hero-rise,
-  .animate-scroll-bob,
   .animate-ken-burns {
     animation: none !important;
   }
@@ -323,9 +313,6 @@ h1, h2, h3, h4, .font-display {
 @keyframes sd-draw      { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @keyframes sd-progress  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @keyframes sd-curtain   { from { transform: translate3d(0, 46px, 0); } to { transform: translate3d(0, 0, 0); } }
-@keyframes sd-hero-copy { from { opacity: 1; transform: translate3d(0, 0, 0); }
-                          to   { opacity: 0; transform: translate3d(0, -52px, 0); } }
-@keyframes sd-hero-zoom { from { transform: scale(1); } to { transform: scale(1.07); } }
 
 /* Okuma ilerleme çubuğu — scroll konumu bilgi taşır, reduced-motion'da da kalır. */
 .sd-progress {
@@ -362,30 +349,6 @@ h1, h2, h3, h4, .font-display {
       animation-range: entry 20% entry 64%;
     }
     [dir="rtl"] .sd-draw { transform-origin: right center; }
-
-    /* --- Hero çıkışı: bölümün kendi görüntü zaman çizelgesi --- */
-    .sd-hero { view-timeline-name: --sd-hero; view-timeline-axis: block; }
-
-    .sd-hero-zoom {
-      animation: sd-hero-zoom linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 100%;
-    }
-    .sd-hero-veil {
-      animation: sd-fade-in linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 88%;
-    }
-    .sd-hero-copy {
-      animation: sd-hero-copy linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 62%;
-    }
-    .sd-hero-cue {
-      animation: sd-fade-out linear both;
-      animation-timeline: --sd-hero;
-      animation-range: exit 0% exit 10%;
-    }
 
     /* --- Perde: hero'nun üstüne kayan opak panel --- */
     .sd-curtain {
@@ -469,5 +432,261 @@ h1, h2, h3, h4, .font-display {
     animation: sd-fade-in linear both;
     animation-timeline: scroll(root block);
     animation-range: 0 90px;
+  }
+}
+
+/* ==========================================================================
+   Dönme dolap sahnesi (HeroWheel)
+   --------------------------------------------------------------------------
+   Anasayfanın açılışı tek bir sticky sahnedir: fotoğraf kaydırdıkça solar,
+   aynı dolabın üstüne ince bir çizim kendini çizer, sonra dolap alan alan
+   döner ve her adımda bir çalışma alanı açılır.
+
+   Temel (hareketsiz) hâl: hero + altında çalışma alanları listesi. Hareket
+   yalnız scroll-driven animation destekleniyorsa VE azaltılmış hareket
+   istenmiyorsa devreye girer; ikisi de yoksa içerik statik ve tam okunur.
+
+   Çizim, fotoğrafla aynı oranda bir kutunun içindedir (.wt-box); kutu
+   object-cover gibi yerleşir, bu yüzden her ekran boyunda dolabın üstüne oturur.
+   ========================================================================== */
+@property --th {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
+.wt-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  width: 100%;
+  height: 88svh;
+  min-height: 640px;
+  container-type: size;
+  background: var(--color-navy-950);
+}
+
+.wt-box {
+  --ar: 1.09375; /* 2170 / 1984 */
+  position: absolute;
+  width: max(100cqw, calc(100cqh * var(--ar)));
+  height: max(100cqh, calc(100cqw / var(--ar)));
+  left: calc((100cqw - max(100cqw, calc(100cqh * var(--ar)))) * 0.7);
+  top: calc((100cqh - max(100cqh, calc(100cqw / var(--ar)))) * 0.55);
+  transform-origin: 70% 55%;
+}
+.wt-photo { position: absolute; inset: 0; }
+.wt-wheel { display: none; position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* ---- Temel hâl: alanlar hero'nun altında düz bir liste ---- */
+.wt-areas {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding: 4.5rem 1.5rem 3rem;
+}
+.wt-heading { color: var(--color-navy-900); }
+.wt-all, .wt-open { color: var(--color-gold-700); text-decoration-color: var(--color-gold-400); }
+.wt-all:hover, .wt-open:hover { color: var(--color-gold-800); }
+.wt-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+}
+.wt-card {
+  border: 1px solid var(--color-cream-200);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.25rem 1.5rem;
+  background: #fff;
+}
+.wt-title { color: var(--color-navy-900); }
+.wt-text { color: var(--color-ink-soft); }
+
+/* ---- Hareketli hâl ---- */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .wt {
+      height: 800svh;
+      view-timeline: --wt block;
+    }
+    .wt-stage { position: sticky; top: 0; height: 100svh; min-height: 0; }
+    .wt-wheel { display: block; }
+
+    /* Alanlar katmanı sahnenin üstüne biner; tıklamayı yalnız görünür kart alır. */
+    .wt-areas {
+      position: sticky;
+      top: 0;
+      height: 100svh;
+      max-width: none;
+      margin: -100svh 0 0;
+      padding: 0;
+      z-index: 5;
+      pointer-events: none;
+    }
+    .wt-areas::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(to top, rgba(5, 13, 36, 0.94), rgba(5, 13, 36, 0.7) 38%, rgba(5, 13, 36, 0) 66%);
+      animation: wt-fade-in linear both;
+      animation-timeline: --wt;
+      animation-range: contain 20% contain 29%;
+    }
+    @media (min-width: 768px) {
+      /* Karartma yalnız kartın durduğu sol-alt köşede; dolabın sol kenarına ve
+         çentiğe ulaşmadan söner. */
+      .wt-areas::before {
+        background: radial-gradient(46% 78% at 0% 100%, rgba(5, 13, 36, 0.92) 0%, rgba(5, 13, 36, 0.68) 55%, rgba(5, 13, 36, 0) 100%);
+      }
+      [dir="rtl"] .wt-areas::before {
+        background: radial-gradient(46% 78% at 100% 100%, rgba(5, 13, 36, 0.92) 0%, rgba(5, 13, 36, 0.68) 55%, rgba(5, 13, 36, 0) 100%);
+      }
+    }
+
+    .wt-head {
+      position: absolute;
+      inset-inline: 1.5rem;
+      top: clamp(5.75rem, 18svh, 9.5rem);
+      pointer-events: auto;
+      animation: wt-rise-vis linear both;
+      animation-timeline: --wt;
+      animation-range: contain 22% contain 29%;
+    }
+    .wt-heading { color: var(--color-cream-50); max-width: 22ch; }
+    .wt-all, .wt-open { color: var(--color-gold-300); text-decoration-color: var(--color-gold-500); }
+    .wt-all:hover, .wt-open:hover { color: var(--color-gold-200); }
+
+    .wt-list { display: block; margin: 0; }
+    .wt-card {
+      position: absolute;
+      inset-inline-start: 1.5rem;
+      bottom: 8svh;
+      width: min(34rem, calc(100% - 3rem));
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: none;
+      pointer-events: auto;
+      animation: wt-card linear both;
+      animation-timeline: --wt;
+      animation-range:
+        contain calc(30% + var(--k) * 70% / var(--n) + 0.8%)
+        contain calc(30% + (var(--k) + 1) * 70% / var(--n) + 0.8%);
+    }
+    .wt-card--last {
+      animation-name: wt-card-last;
+      animation-range: contain calc(30% + var(--k) * 70% / var(--n) + 0.8%) contain 100%;
+    }
+    .wt-title { color: var(--color-cream-50); }
+    .wt-text { color: var(--color-cream-100); opacity: 0.92; }
+
+    @media (min-width: 1024px) {
+      .wt-head { inset-inline: 2.5rem; }
+      .wt-card { inset-inline-start: 2.5rem; bottom: 13svh; }
+    }
+
+    /* ---- Fotoğraf, çizime yol verir ---- */
+    .wt-photo {
+      animation: wt-photo-dim linear both;
+      animation-timeline: --wt;
+      animation-range: contain 6% contain 28%;
+    }
+    /* Hero karartması metinle birlikte çekilir; çizim üstünde gölge bırakmaz. */
+    .wt-scrim {
+      animation: wt-fade-out linear both;
+      animation-timeline: --wt;
+      animation-range: contain 3% contain 12%;
+    }
+    .wt-copy {
+      animation: wt-copy-out linear both;
+      animation-timeline: --wt;
+      animation-range: contain 2% contain 11%;
+    }
+
+    /* ---- Çizim: halka, ayaklar, teller, kabinler ---- */
+    .wt-rim, .wt-leg, .wt-notch {
+      fill: none;
+      stroke: var(--color-gold-300);
+      stroke-linecap: round;
+      stroke-dasharray: 1;
+      stroke-dashoffset: 1;
+      animation: wt-draw linear both;
+      animation-timeline: --wt;
+    }
+    .wt-rim { stroke-width: 7; animation-range: contain 8% contain 19%; }
+    .wt-rim--inner { stroke-width: 3.5; stroke-opacity: 0.75; animation-range: contain 10% contain 20%; }
+    .wt-leg { stroke-width: 8; animation-range: contain 10% contain 21%; }
+    .wt-notch { stroke-width: 7; animation-range: contain 26% contain 30%; }
+
+    .wt-spokes {
+      stroke: var(--color-cream-100);
+      stroke-opacity: 0.42;
+      stroke-width: 2.2;
+      transform-box: view-box;
+      animation: wt-spokes-in linear both;
+      animation-timeline: --wt;
+      animation-range: contain 14% contain 25%;
+    }
+    .wt-hub { fill: var(--color-navy-950); stroke: var(--color-gold-300); stroke-width: 4; stroke-opacity: 1; }
+
+    /* Dolap dönüşü: --th açısı kabinleri elips üzerinde taşır; kabinler dik kalır. */
+    .wt-wheel {
+      animation: wt-spin linear both;
+      animation-timeline: --wt;
+      animation-range: contain 0% contain 100%;
+    }
+    .wt-cab {
+      translate:
+        calc(var(--rx) * cos(var(--th) + var(--a)) * 1px)
+        calc(var(--ry) * sin(var(--th) + var(--a)) * 1px);
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: wt-cab-in linear both;
+      animation-timeline: --wt;
+      animation-range:
+        contain calc(18% + var(--i) * 0.17%)
+        contain calc(22% + var(--i) * 0.17%);
+    }
+    .wt-cab-ring { fill: rgba(5, 13, 36, 0.55); stroke: var(--color-cream-100); stroke-opacity: 0.7; stroke-width: 4.5; }
+    .wt-cab--area .wt-cab-ring { stroke: var(--color-gold-300); stroke-opacity: 1; stroke-width: 6; }
+    .wt-cab-fill {
+      fill: var(--color-gold-300);
+      opacity: 0;
+      animation: wt-fill linear both;
+      animation-timeline: --wt;
+      animation-range:
+        contain calc(30% + var(--k) * 70% / var(--n) + 0.8%)
+        contain calc(30% + (var(--k) + 1) * 70% / var(--n) + 0.8%);
+    }
+
+    @keyframes wt-fade-in { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes wt-fade-out { to { opacity: 0; } }
+    @keyframes wt-photo-dim { to { opacity: 0.14; } }
+    @keyframes wt-copy-out { to { opacity: 0; visibility: hidden; translate: 0 -36px; } }
+    @keyframes wt-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+    @keyframes wt-spokes-in { from { opacity: 0; scale: 0.4; } to { opacity: 1; scale: 1; } }
+    @keyframes wt-cab-in { from { opacity: 0; scale: 0.3; } to { opacity: 1; scale: 1; } }
+    @keyframes wt-rise-vis {
+      from { opacity: 0; visibility: hidden; translate: 0 18px; }
+      to   { opacity: 1; visibility: visible; translate: 0 0; }
+    }
+    @keyframes wt-card {
+      0%   { opacity: 0; visibility: hidden; translate: 0 16px; }
+      18%  { opacity: 1; visibility: visible; translate: 0 0; }
+      80%  { opacity: 1; visibility: visible; translate: 0 0; }
+      100% { opacity: 0; visibility: hidden; translate: 0 -12px; }
+    }
+    @keyframes wt-card-last {
+      0%   { opacity: 0; visibility: hidden; translate: 0 16px; }
+      12%  { opacity: 1; visibility: visible; translate: 0 0; }
+      100% { opacity: 1; visibility: visible; translate: 0 0; }
+    }
+    @keyframes wt-fill {
+      0%   { opacity: 0; }
+      22%  { opacity: 1; }
+      78%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
   }
 }

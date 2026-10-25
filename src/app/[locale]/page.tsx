@@ -3,7 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
-import { CinematicHero } from "@/components/CinematicHero";
+import { HeroWheel } from "@/components/HeroWheel";
 import { NewsletterInlineCTA } from "@/components/NewsletterInlineCTA";
 import { Reveal } from "@/components/Reveal";
 
@@ -38,7 +38,7 @@ function HomeContent() {
   return (
     <>
       <div className="-mt-[var(--hero-pull)]">
-        <CinematicHero />
+        <HeroWheel />
       </div>
 
       {/* Practice intro — perde: sayfa gövdesi hero'nun üstüne kayar.

@@ -42,10 +42,16 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
+  const [overStage, setOverStage] = useState(false);
   const groupRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 24);
+      // Anasayfada sabitlenmiş koyu sahne ekrandayken başlık da koyu kalır.
+      const stage = document.querySelector(".wt");
+      setOverStage(!!stage && stage.getBoundingClientRect().bottom > 96);
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -77,16 +83,20 @@ export function Header() {
   }
 
   // Anasayfada hero'nun üstünde saydam başlar, kaydırınca kreme döner.
-  const transparent = pathname === "/" && !scrolled && !open;
+  const onHome = pathname === "/";
+  const transparent = onHome && !scrolled && !open;
+  // Sahne üstündeyken (kaydırılmış olsa da) koyu zemin, yazı açık renk.
+  const darkBar = onHome && scrolled && overStage && !open;
+  const lightInk = transparent || darkBar;
   const items = NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale));
 
-  const linkTone = transparent
+  const linkTone = lightInk
     ? "text-cream-100/90 hover:text-cream-50"
     : "text-ink-soft hover:text-navy-800 dark:text-cream-200 dark:hover:text-cream-50";
-  const linkActiveTone = transparent ? "text-cream-50" : "text-navy-900 dark:text-cream-50";
+  const linkActiveTone = lightInk ? "text-cream-50" : "text-navy-900 dark:text-cream-50";
   // ThemeToggle ve LangSwitcher kendi renklerini taşır; saydamken yalnız tetikleyici
   // düğmelerini açık renge çeviriyoruz (açılır liste krem zeminde kalır).
-  const controlTone = transparent
+  const controlTone = lightInk
     ? "[&>button]:text-cream-100 [&>button:hover]:text-cream-50 [&>div>button:first-child]:text-cream-100 [&>div>button:first-child:hover]:text-cream-50"
     : "";
 
@@ -155,8 +165,8 @@ export function Header() {
   });
 
   const name = tSite("name").split(" ");
-  const nameInk = transparent ? "text-cream-50" : "text-navy-900 dark:text-cream-50";
-  const placeInk = transparent ? "text-gold-200" : "text-gold-700";
+  const nameInk = lightInk ? "text-cream-50" : "text-navy-900 dark:text-cream-50";
+  const placeInk = lightInk ? "text-gold-200" : "text-gold-700";
   const place = (
     <span className={clsx("uppercase leading-none", placeInk)}>Antalya · Türkiye</span>
   );
@@ -194,7 +204,7 @@ export function Header() {
     </>
   );
 
-  const burgerTone = transparent ? "text-cream-50" : "text-navy-900 dark:text-cream-100";
+  const burgerTone = lightInk ? "text-cream-50" : "text-navy-900 dark:text-cream-100";
   const burger = (cls: string) => (
     <button
       type="button"
@@ -218,7 +228,15 @@ export function Header() {
         aria-hidden="true"
         className={clsx(
           "pointer-events-none absolute inset-0 border-b border-cream-200 bg-cream-50/97 backdrop-blur supports-[backdrop-filter]:bg-cream-50/95 dark:border-navy-800 dark:bg-navy-950/90 dark:supports-[backdrop-filter]:bg-navy-950/75 transition-opacity duration-300",
-          transparent ? "opacity-0" : "opacity-100"
+          lightInk ? "opacity-0" : "opacity-100"
+        )}
+      />
+      {/* Koyu sahnenin üstünde: lacivert zemin. */}
+      <span
+        aria-hidden="true"
+        className={clsx(
+          "pointer-events-none absolute inset-0 border-b border-navy-800 bg-navy-950/95 backdrop-blur transition-opacity duration-300",
+          darkBar ? "opacity-100" : "opacity-0"
         )}
       />
       {/* Saydam başlıkta krem yazı açık gökyüzünde okunsun diye yalnız üst bantta bir perde. */}
