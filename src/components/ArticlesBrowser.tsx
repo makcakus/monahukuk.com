@@ -86,7 +86,7 @@ export function ArticlesBrowser({
 
   return (
     <div>
-      <div className="sticky top-[68px] z-20 -mx-6 mb-8 bg-cream-50/95 dark:bg-navy-950/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/80 dark:supports-[backdrop-filter]:bg-navy-950/75 px-6 py-4 border-b border-cream-200 dark:border-navy-800">
+      <div className="sticky top-20 z-20 -mx-6 mb-8 bg-cream-50/95 dark:bg-navy-950/90 backdrop-blur supports-[backdrop-filter]:bg-cream-50/80 dark:supports-[backdrop-filter]:bg-navy-950/75 px-6 py-4 border-b border-cream-200 dark:border-navy-800">
         <label className="relative block">
           <span className="sr-only">{ui.searchPlaceholder}</span>
           <Search
