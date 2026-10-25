@@ -306,11 +306,8 @@ h1, h2, h3, h4, .font-display {
 
 :root { --sd-dir: 1; }
 
-/* Hero'nun header'ın altına çekilme payı = header yüksekliği (GEÇİCİ: header
-   seçeneği netleşince tek değere iner). */
+/* Hero'nun header'ın altına çekilme payı = header yüksekliği (h-20). */
 :root { --hero-pull: 5rem; }
-html[data-header-variant="2"] { --hero-pull: 3rem; }
-html[data-header-variant="3"] { --hero-pull: 3rem; }
 [dir="rtl"] { --sd-dir: -1; }
 
 @keyframes sd-rise {

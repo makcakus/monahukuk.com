@@ -33,40 +33,12 @@ const NAV_ITEMS: readonly NavItem[] = [
   // Gizlilik Politikası üst menüden kaldırıldı; footer'da tutuluyor.
 ] as const;
 
-type Variant = "1" | "2" | "3";
-const PREVIEW_KEY = "header-variant-preview";
-
-/**
- * GEÇİCİ önizleme anahtarı: ?header=1|2|3 ile üç header tasarımı karşılaştırılır.
- * Seçim yapılınca bu hook, anahtar ve globals.css'teki --hero-pull kuralları silinir.
- */
-function usePreviewVariant(): Variant {
-  const [variant, setVariant] = useState<Variant>("1");
-  useEffect(() => {
-    let next: Variant = "1";
-    try {
-      const q = new URLSearchParams(window.location.search).get("header");
-      const stored = sessionStorage.getItem(PREVIEW_KEY);
-      const pick = q ?? stored;
-      if (pick === "1" || pick === "2" || pick === "3") {
-        next = pick;
-        sessionStorage.setItem(PREVIEW_KEY, pick);
-      }
-    } catch {}
-    document.documentElement.dataset.headerVariant = next;
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- geçici önizleme anahtarı
-    setVariant(next);
-  }, []);
-  return variant;
-}
-
 export function Header() {
   const t = useTranslations("nav");
   const tSite = useTranslations("site");
   const tCta = useTranslations("cta");
   const pathname = usePathname();
   const locale = useLocale();
-  const variant = usePreviewVariant();
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -104,8 +76,8 @@ export function Header() {
     return href === "/" ? pathname === "/" : pathname.startsWith(href);
   }
 
-  // Seçenek 1: anasayfada hero'nun üstünde saydam başlar, kaydırınca kreme döner.
-  const transparent = variant === "1" && pathname === "/" && !scrolled && !open;
+  // Anasayfada hero'nun üstünde saydam başlar, kaydırınca kreme döner.
+  const transparent = pathname === "/" && !scrolled && !open;
   const items = NAV_ITEMS.filter((item) => !item.locales || item.locales.includes(locale));
 
   const linkTone = transparent
@@ -198,30 +170,12 @@ export function Header() {
     </span>
   );
 
-  const logo =
-    variant === "3" ? (
-      // 3: mevcut yapı korunur, yalnız küçültülür.
-      <Link href="/" aria-label={tSite("name")} className="flex flex-col leading-tight" onClick={() => setOpen(false)}>
-        {name.map((word, i) => (
-          <span key={i} aria-hidden="true" dir="ltr" className={clsx("font-display text-2xl tracking-tight leading-[1.05]", nameInk)}>
-            {i === 0 ? acronymize(word) : word}
-          </span>
-        ))}
-        <span className="mt-1.5 text-[11px] tracking-[0.18em]">{place}</span>
-      </Link>
-    ) : variant === "2" ? (
-      // 2: ortalı klasik.
-      <Link href="/" aria-label={tSite("name")} className="flex flex-col items-center gap-2" onClick={() => setOpen(false)}>
-        {oneLineName("text-3xl")}
-        <span className="text-[11px] tracking-[0.28em]">{place}</span>
-      </Link>
-    ) : (
-      // 1: tek satır, sola yaslı.
-      <Link href="/" aria-label={tSite("name")} className="flex flex-col gap-1.5" onClick={() => setOpen(false)}>
-        {oneLineName("text-[28px]")}
-        <span className="text-[10px] tracking-[0.26em]">{place}</span>
-      </Link>
-    );
+  const logo = (
+    <Link href="/" aria-label={tSite("name")} className="flex flex-col gap-1.5" onClick={() => setOpen(false)}>
+      {oneLineName("text-[28px]")}
+      <span className="text-[10px] tracking-[0.26em]">{place}</span>
+    </Link>
+  );
 
   const controls = (
     <>
@@ -253,8 +207,6 @@ export function Header() {
     </button>
   );
 
-  const centered = variant === "2";
-
   return (
     // Yükseklik scroll'la DEĞİŞMEZ. Sticky bir başlığın yüksekliğini
     // değiştirmek altındaki tüm içeriği kaydırır; bu da scroll sırasında
@@ -278,37 +230,16 @@ export function Header() {
         )}
       />
 
-      {centered ? (
-        <div className="relative w-full px-6 lg:px-10">
-          <div className="relative flex items-center justify-center py-4">
-            {logo}
-            <div className="absolute end-0 hidden lg:flex items-center gap-3">{controls}</div>
-            {burger("absolute end-0 lg:hidden")}
-          </div>
-          <nav className="hidden lg:flex items-center justify-center gap-8 border-t border-cream-200 py-3 dark:border-navy-800">
-            {navLinks}
-          </nav>
-        </div>
-      ) : (
-        <div
-          className={clsx(
-            "relative w-full px-6 lg:px-10 flex items-center gap-6",
-            variant === "1" ? "h-20" : "py-4"
-          )}
-        >
-          {logo}
-          <nav className="ms-auto hidden xl:flex items-center gap-6 2xl:gap-8">{navLinks}</nav>
-          <div className="hidden xl:flex items-center gap-3">{controls}</div>
-          {burger("ms-auto xl:hidden")}
-        </div>
-      )}
+      <div className="relative w-full px-6 lg:px-10 flex items-center gap-6 h-20">
+        {logo}
+        <nav className="ms-auto hidden xl:flex items-center gap-6 2xl:gap-8">{navLinks}</nav>
+        <div className="hidden xl:flex items-center gap-3">{controls}</div>
+        {burger("ms-auto xl:hidden")}
+      </div>
 
       {open && (
         <div
-          className={clsx(
-            "relative border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950",
-            centered ? "lg:hidden" : "xl:hidden"
-          )}
+          className="relative border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950 xl:hidden"
         >
           <nav className="w-full px-6 lg:px-10 py-4 flex flex-col gap-3">
             {items.map((item) => {
