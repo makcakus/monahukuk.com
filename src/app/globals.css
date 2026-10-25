@@ -655,16 +655,21 @@ h1, h2, h3, h4, .font-display {
     }
     .wt-hub { fill: var(--color-navy-950); stroke: var(--color-gold-300); stroke-width: 4; stroke-opacity: 1; }
 
-    /* Dolap dönüşü: --th açısı kabinleri elips üzerinde taşır; kabinler dik kalır. */
+    /* Dolap dönüşü: --th açısı kabinleri dolabın düzleminde döndürür; kabinler dik kalır. */
     .wt-wheel {
       animation: wt-spin linear both;
       animation-timeline: --wt;
       animation-range: contain 0% contain 100%;
     }
     .wt-cab {
+      /* Perspektif: kabin düzlemde (cos, sin) noktasında; homografiyle fotoğrafa
+         izdüşer. --h** değerleri HeroWheel'deki H modelinden gelir. */
+      --c: cos(var(--th) + var(--a));
+      --s: sin(var(--th) + var(--a));
+      --w: calc(var(--h31) * var(--c) + var(--h32) * var(--s) + 1);
       translate:
-        calc(var(--rx) * cos(var(--th) + var(--a)) * 1px)
-        calc(var(--ry) * sin(var(--th) + var(--a)) * 1px);
+        calc((var(--h11) * var(--c) + var(--h12) * var(--s) + var(--h13)) / var(--w) * 1px)
+        calc((var(--h21) * var(--c) + var(--h22) * var(--s) + var(--h23)) / var(--w) * 1px);
       transform-box: fill-box;
       transform-origin: center;
       animation: wt-cab-in linear both;

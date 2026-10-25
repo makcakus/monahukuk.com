@@ -9,19 +9,45 @@ const HERO_IMAGE_URL = "/images/hero/antalya-donme-dolap-hero.jpg";
 const IMG_W = 2170;
 const IMG_H = 1984;
 
-// Fotoğraftaki dolabın ölçüsü (fotoğraf pikseli). Kabin merkezlerinden geçen
-// elips: kamera dolabı alttan çektiği için halka daire değil, hafif elips.
-// Göbek (spokes'un birleştiği nokta) elips merkezinden biraz farklı yerde.
-const EX = 1467.8;
-const EY = 1259.2;
-const RX = 525.3;
-const RY = 650.5;
-const HUB = { x: 1530, y: 1230 };
+// Fotoğraftaki dolabın perspektif modeli (fotoğraf pikseli). Dolap gerçekte
+// düz bir dairedir; kamera alttan ve yandan baktığı için daire fotoğrafta
+// eğik bir elipse, kabinler arası eşit açı da eşit olmayan aralıklara dönüşür.
+// H, birim çemberi (dolabın düzlemi) fotoğrafa izdüşüren 3x3 homografinin ilk
+// 8 elemanı (h33 = 1). Kabinler fotoğraftan otomatik tespit edilip bu modele
+// uyduruldu: 42 kabin (4'ü alttaki konstrüksiyonun arkasında), ortalama sapma
+// 3.4 px. Kabin i'nin düzlemdeki açısı: TH0 + i * 360 / CABIN_COUNT.
+const H = [706.449, 164.652, 1542.397, 79.754, 642.373, 1251.322, 0.137872, 0.00496] as const;
+const TH0 = 192.3594;
+const CABIN_COUNT = 42;
+// En soldaki kabin: kartı gösteren çentik bunun yanında durur.
+const NOTCH_CABIN = 0;
+
+function project(px: number, py: number) {
+  const w = H[6] * px + H[7] * py + 1;
+  return { x: (H[0] * px + H[1] * py + H[2]) / w, y: (H[3] * px + H[4] * py + H[5]) / w };
+}
+const HUB = project(0, 0);
+
+// A çerçevelerinin ayakları ve kirişleri fotoğraftan ölçüldü.
+const APEX_L = { x: 1478, y: 1272 };
+const APEX_R = { x: 1600, y: 1224 };
+const LEGS = [
+  [APEX_L, { x: 1286, y: 1984 }],
+  [APEX_L, { x: 1665, y: 1984 }],
+  [APEX_R, { x: 1379, y: 1984 }],
+  [APEX_R, { x: 1942, y: 1984 }],
+  [APEX_L, APEX_R],
+  [{ x: 1500, y: 1575 }, { x: 1745, y: 1575 }],
+  [{ x: 1315, y: 1805 }, { x: 1910, y: 1805 }],
+] as const;
 
 const N = PRACTICE_AREAS.length;
-const CABINS_PER_AREA = 3;
-const CABIN_COUNT = N * CABINS_PER_AREA;
 const SPOKES = 72;
+// Alan k'nın kabini çentikten kaç kabin ötede: 13 alan 42 kabine olabildiğince
+// eşit dağılır (3 ya da 4 kabin arayla). Dönüş hep tam kabin adımı olduğu için
+// duran her karede çizim fotoğraftaki kabinlerle yine üst üste gelir.
+const AREA_OFFSET = Array.from({ length: N }, (_, k) => Math.round((k * CABIN_COUNT) / N));
+const AREA_OF_CABIN = new Map(AREA_OFFSET.map((d, k) => [(NOTCH_CABIN + d) % CABIN_COUNT, k]));
 
 // Kaydırma payının ilk %30'u hero ve çizimin kurulması, kalan %70'i dolabın
 // alan alan dönmesi. Kartın penceresi ile dolabın dönüşü aynı sınırda buluşur.
@@ -36,16 +62,16 @@ function pct(n: number) {
 
 /** Dolap dönüşü: her alanda bekler, kart değişirken bir adım döner. */
 function spinKeyframes() {
-  const step = 360 / N;
+  const angle = (k: number) => ((-360 * AREA_OFFSET[k]) / CABIN_COUNT).toFixed(3);
   const frames = [`0% { --th: 0deg; }`];
   for (let k = 0; k < N - 1; k++) {
     const boundary = INTRO + (k + 1) * SLOT + CARD_LAG;
     frames.push(
-      `${pct(boundary - MOVE_HALF)} { --th: ${(-step * k).toFixed(3)}deg; animation-timing-function: ease-in-out; }`,
-      `${pct(boundary + MOVE_HALF)} { --th: ${(-step * (k + 1)).toFixed(3)}deg; }`
+      `${pct(boundary - MOVE_HALF)} { --th: ${angle(k)}deg; animation-timing-function: ease-in-out; }`,
+      `${pct(boundary + MOVE_HALF)} { --th: ${angle(k + 1)}deg; }`
     );
   }
-  frames.push(`100% { --th: ${(-step * (N - 1)).toFixed(3)}deg; }`);
+  frames.push(`100% { --th: ${angle(N - 1)}deg; }`);
   return `@keyframes wt-spin { ${frames.join("\n")} }`;
 }
 
@@ -57,9 +83,19 @@ function firstSentence(text: string) {
 
 const f = (n: number) => n.toFixed(1);
 
-function ringPoint(scale: number, deg: number) {
+/** Dolabın düzleminde rho yarıçaplı çemberin fotoğraftaki izdüşümü (kapalı yol). */
+function ringPath(rho: number) {
+  const pts = Array.from({ length: 180 }, (_, i) => {
+    const t = (i / 180) * 2 * Math.PI;
+    const p = project(rho * Math.cos(t), rho * Math.sin(t));
+    return `${f(p.x)} ${f(p.y)}`;
+  });
+  return `M${pts.join(" L")} Z`;
+}
+
+function radial(rho: number, deg: number) {
   const r = (deg * Math.PI) / 180;
-  return { x: EX + RX * scale * Math.cos(r), y: EY + RY * scale * Math.sin(r) };
+  return project(rho * Math.cos(r), rho * Math.sin(r));
 }
 
 export function HeroWheel() {
@@ -97,46 +133,50 @@ export function HeroWheel() {
             viewBox={`0 0 ${IMG_W} ${IMG_H}`}
             aria-hidden="true"
             focusable="false"
-            style={{ "--rx": RX, "--ry": RY } as CSSProperties}
+            style={
+              {
+                "--h11": H[0], "--h12": H[1], "--h13": H[2],
+                "--h21": H[3], "--h22": H[4], "--h23": H[5],
+                "--h31": H[6], "--h32": H[7],
+              } as CSSProperties
+            }
           >
             <g className="wt-legs">
-              {[
-                [1366, 1966],
-                [1456, 1951],
-                [1681, 1966],
-                [1936, 1966],
-              ].map(([x, y]) => (
-                <path key={x} className="wt-leg" pathLength={1} d={`M${HUB.x} ${HUB.y} L${x} ${y}`} />
+              {LEGS.map(([p, q], i) => (
+                <path key={i} className="wt-leg" pathLength={1} d={`M${p.x} ${p.y} L${q.x} ${q.y}`} />
               ))}
-              <path className="wt-leg" pathLength={1} d="M1447 1600 L1734 1600" />
-              <path className="wt-leg" pathLength={1} d="M1403 1800 L1844 1800" />
             </g>
 
-            <ellipse className="wt-rim" pathLength={1} cx={EX} cy={EY} rx={RX * 0.96} ry={RY * 0.96} />
-            <ellipse className="wt-rim wt-rim--inner" pathLength={1} cx={EX} cy={EY} rx={RX * 0.91} ry={RY * 0.91} />
+            <path className="wt-rim" pathLength={1} d={ringPath(0.95)} />
+            <path className="wt-rim wt-rim--inner" pathLength={1} d={ringPath(0.905)} />
 
-            <g className="wt-spokes" style={{ transformOrigin: `${HUB.x}px ${HUB.y}px` }}>
+            <g className="wt-spokes" style={{ transformOrigin: `${f(HUB.x)}px ${f(HUB.y)}px` }}>
               {Array.from({ length: SPOKES }, (_, i) => {
-                const p = ringPoint(0.91, (360 / SPOKES) * i);
-                return <line key={i} x1={HUB.x} y1={HUB.y} x2={f(p.x)} y2={f(p.y)} />;
+                const p = radial(0.89, (360 / SPOKES) * i);
+                return <line key={i} x1={f(HUB.x)} y1={f(HUB.y)} x2={f(p.x)} y2={f(p.y)} />;
               })}
-              <circle cx={HUB.x} cy={HUB.y} r={20} className="wt-hub" />
+              <circle cx={f(HUB.x)} cy={f(HUB.y)} r={20} className="wt-hub" />
             </g>
 
             {/* Sabit gösterge: kartı gösteren kabin her adımda bu çentiğe gelir. */}
-            <path className="wt-notch" pathLength={1} d={`M${f(EX - RX * 1.06)} ${f(EY)} L${f(EX - RX * 1.22)} ${f(EY)}`} />
+            {(() => {
+              const notchDeg = TH0 + (360 * NOTCH_CABIN) / CABIN_COUNT;
+              const p = radial(1.07, notchDeg);
+              const q = radial(1.24, notchDeg);
+              return <path className="wt-notch" pathLength={1} d={`M${f(p.x)} ${f(p.y)} L${f(q.x)} ${f(q.y)}`} />;
+            })()}
 
             {Array.from({ length: CABIN_COUNT }, (_, i) => {
-              const area = i % CABINS_PER_AREA === 0 ? i / CABINS_PER_AREA : -1;
-              const a = 180 + (360 / CABIN_COUNT) * i;
+              const area = AREA_OF_CABIN.get(i) ?? -1;
+              const a = TH0 + (360 / CABIN_COUNT) * i;
               return (
                 <g
                   key={i}
                   className={area >= 0 ? "wt-cab wt-cab--area" : "wt-cab"}
                   style={{ "--i": i, "--a": `${a.toFixed(3)}deg`, "--k": area } as CSSProperties}
                 >
-                  <circle className="wt-cab-ring" cx={EX} cy={EY} r={area >= 0 ? 30 : 23} />
-                  {area >= 0 && <circle className="wt-cab-fill" cx={EX} cy={EY} r={17} />}
+                  <circle className="wt-cab-ring" cx={0} cy={0} r={area >= 0 ? 28 : 25} />
+                  {area >= 0 && <circle className="wt-cab-fill" cx={0} cy={0} r={15} />}
                 </g>
               );
             })}
