@@ -89,7 +89,7 @@ description: "SEO açıklaması (50–160 karakter)"
 date: "2026-01-15"
 category: "Ticaret & Şirketler Hukuku"
 slug: "url-slug"
-author: "Av. Mustafa Akcakuş"
+author: "Av. Mustafa Akçakuş"
 translationKey: "english-slug"   # EN slug — tüm dil versiyonlarında aynı olmalı
 ---
 ```

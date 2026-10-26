@@ -8,6 +8,8 @@ import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { resolveArticleFallback } from "@/lib/article-fallback";
+import { authorSlug, formatAuthorName } from "@/lib/author";
+import { TEAM } from "@/lib/team";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
@@ -121,15 +123,6 @@ export default async function ArticlePage({
     day: "numeric",
   });
 
-  const TITLE_PREFIX: Record<string, string> = {
-    tr: "Av.",
-    en: "Att.",
-    de: "RA",
-    ru: "Адв.",
-    ar: "المحامي",
-    es: "Abog.",
-    fr: "Me.",
-  };
   const BAR_LABEL: Record<string, string> = {
     tr: "Antalya Barosu",
     en: "Antalya Bar Association",
@@ -139,16 +132,15 @@ export default async function ArticlePage({
     es: "Colegio de Abogados de Antalya",
     fr: "Barreau d'Antalya",
   };
-  const titlePrefix = TITLE_PREFIX[locale] ?? "Av.";
   const barLabel = BAR_LABEL[locale] ?? "Antalya Barosu";
 
-  // article.author genellikle "Av. Mustafa Akcakuş" şeklindedir;
-  // unvanı çıkarıp locale'e göre yeniden ekleyelim.
+  // Frontmatter'da yazar "Av. {Ad} {Soyad}" biçiminde; unvan locale'e göre
+  // yeniden yazılır (Av. / Att. / RA / ...). İmza, ekip sayfasındaki ilgili
+  // avukatın kartına (#mustafa-akcakus gibi) link verir.
   const rawAuthor = article.author ?? "";
-  const authorName = rawAuthor
-    .replace(/^(Av\.|Att\.|RA|Адв\.)\s*/i, "")
-    .trim();
-  const authorLabel = authorName ? `${titlePrefix} ${authorName}` : null;
+  const authorLabel = rawAuthor ? formatAuthorName(rawAuthor, locale) : null;
+  const authorAnchor = rawAuthor ? authorSlug(rawAuthor) : "";
+  const authorMember = TEAM.find((m) => authorSlug(m.name) === authorAnchor);
 
   return (
     <>
@@ -162,6 +154,7 @@ export default async function ArticlePage({
         date={article.date}
         category={article.category}
         author={article.author}
+        authorSameAs={authorMember?.sameAs}
         wordCount={article.wordCount}
       />
       <BreadcrumbSchema
@@ -199,7 +192,7 @@ export default async function ArticlePage({
       <div className="flex items-center justify-between gap-4 mt-1 flex-wrap">
         {authorLabel && (
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            <Link href="/team" className="hover:underline font-medium">
+            <Link href={`/team#${authorAnchor}`} className="hover:underline font-medium">
               {authorLabel}
             </Link>
             {" · "}

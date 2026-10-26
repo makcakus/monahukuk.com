@@ -16,16 +16,13 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ARTICLES_DIR = path.join(__dirname, "../content/articles");
 
-// ─── Canonical author names per locale ────────────────────────────────────────
-const LOCALE_AUTHORS = {
-  tr: "Mona Hukuk Editör Ekibi - Antalya",
-  en: "Mona Hukuk Editorial Team - Antalya",
-  de: "Mona Hukuk Redaktionsteam - Antalya",
-  ru: "Редакция Mona Hukuk - Анталья",
-  ar: "فريق تحرير Mona Hukuk - أنطاليا",
-  es: "Equipo Editorial Mona Hukuk - Antalya",
-  fr: "Équipe Éditoriale Mona Hukuk - Antalya",
-};
+// ─── Canonical author ─────────────────────────────────────────────────────────
+// Makaleler kurucu avukatın imzasıyla yayınlanır; unvan (Av. / Att. / RA ...)
+// görüntülenirken locale'e göre src/lib/author.ts'te yeniden yazılır.
+const CANONICAL_AUTHOR = "Av. Mustafa Akçakuş";
+const LOCALE_AUTHORS = Object.fromEntries(
+  ["tr", "en", "de", "ru", "ar", "es", "fr"].map((l) => [l, CANONICAL_AUTHOR])
+);
 
 // Non-breaking space (U+00A0)
 const NBSP = " ";
