@@ -11,7 +11,6 @@ export const WHATSAPP_MESSAGES: Record<string, string> = {
   ar: "مرحباً، أرغب في الحصول على استشارة قانونية.",
   es: "Hola, me gustaría obtener una consulta legal.",
   fr: "Bonjour, je souhaite obtenir une consultation juridique.",
-  zh: "您好，我想咨询法律问题。",
 };
 
 export function whatsappUrl(locale: string): string {

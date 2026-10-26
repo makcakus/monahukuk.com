@@ -1,3 +1,4 @@
+import { NextRequest, NextResponse } from "next/server";
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 
@@ -9,7 +10,20 @@ import { routing } from "./i18n/routing";
 // "Bulunamadı (404)" ve "Başka bir 4xx" sorununa yol açıyordu. Makale/haber
 // sayfaları zaten kendi content-aware hreflang'ını generateMetadata
 // (bkz. src/lib/seo.ts) üzerinden üretiyor.
-export default createMiddleware(routing);
+const intlMiddleware = createMiddleware(routing);
+
+// Çince (zh) dil versiyonu kaldırıldı. Google'ın eski /zh/ URL'lerini hızla
+// dizinden düşürmesi için 404 yerine 410 (Gone) dönüyoruz.
+export default function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  if (pathname === "/zh" || pathname.startsWith("/zh/")) {
+    return new NextResponse("Gone", {
+      status: 410,
+      headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },
+    });
+  }
+  return intlMiddleware(request);
+}
 
 export const config = {
   // next-intl önerilen matcher:

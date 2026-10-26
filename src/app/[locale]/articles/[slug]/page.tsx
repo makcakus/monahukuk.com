@@ -45,7 +45,7 @@ export async function generateMetadata({
     const langs: Record<string, string> = {};
 
     // EN, DE, RU, AR: translationKey === their slug
-    for (const loc of ["en", "de", "ru", "ar", "es", "fr", "zh"] as const) {
+    for (const loc of ["en", "de", "ru", "ar", "es", "fr"] as const) {
       if (loc === locale) {
         langs[loc] = `/articles/${slug}`;
       } else {
@@ -114,7 +114,6 @@ export default async function ArticlePage({
     ar: "ar-SA",
     es: "es-ES",
     fr: "fr-FR",
-    zh: "zh-CN",
   };
   const dateFmt = new Intl.DateTimeFormat(localeBcp47[locale] ?? "en-GB", {
     year: "numeric",
@@ -130,7 +129,6 @@ export default async function ArticlePage({
     ar: "المحامي",
     es: "Abog.",
     fr: "Me.",
-    zh: "律师",
   };
   const BAR_LABEL: Record<string, string> = {
     tr: "Antalya Barosu",
@@ -140,7 +138,6 @@ export default async function ArticlePage({
     ar: "نقابة محامي أنطاليا",
     es: "Colegio de Abogados de Antalya",
     fr: "Barreau d'Antalya",
-    zh: "安塔利亚律师协会",
   };
   const titlePrefix = TITLE_PREFIX[locale] ?? "Av.";
   const barLabel = BAR_LABEL[locale] ?? "Antalya Barosu";

@@ -20,7 +20,6 @@ const ARIA: Record<string, string> = {
   ar: "تواصل عبر واتساب",
   es: "Contáctenos por WhatsApp",
   fr: "Contactez-nous sur WhatsApp",
-  zh: "通过 WhatsApp 联系我们",
 };
 
 export function WhatsAppFloat({ locale }: { locale: string }) {

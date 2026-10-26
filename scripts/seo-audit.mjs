@@ -12,14 +12,12 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const ROOT = path.join(process.cwd(), "content", "articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 
 /**
- * SERP genişliği piksel bazlıdır; CJK glifleri Latin harflerin ~2 katı yer
- * kaplar, bu yüzden zh için sınırlar yarıya iner. Arapça ve Kiril Latin'e yakın.
+ * SERP genişliği piksel bazlıdır. Arapça ve Kiril Latin'e yakın.
  */
 const LIMITS = {
-  zh: { title: [12, 34], desc: [24, 80] },
   default: { title: [30, 62], desc: [50, 160] },
 };
 const limitFor = (loc) => LIMITS[loc] ?? LIMITS.default;
@@ -29,7 +27,7 @@ const limitFor = (loc) => LIMITS[loc] ?? LIMITS.default;
  * değişirse burası da güncellenmeli — denetim, üretilen şemayı ölçer.
  */
 const QUESTION_MARK = /[?？؟]/;
-const FAQ_PREFIX = /^(?:S|Q|F|P|В|س|问|問)\s*[:：]\s*/;
+const FAQ_PREFIX = /^(?:S|Q|F|P|В|س)\s*[:：]\s*/;
 const isQuestionHeading = (h) => QUESTION_MARK.test(h) || FAQ_PREFIX.test(h);
 
 export function auditAll() {

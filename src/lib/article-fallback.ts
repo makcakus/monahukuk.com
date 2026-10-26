@@ -14,7 +14,7 @@ const MANIFEST = fallbacks as FallbackManifest;
  *
  * İki vaka çözülür:
  *   1. Slug yanlış dilde yazılmış  → /tr/articles/<ingilizce-slug>
- *   2. Makale o dile çevrilmemiş   → /zh/articles/<var-olmayan-makale>
+ *   2. Makale o dile çevrilmemiş   → /es/articles/<var-olmayan-makale>
  *
  * Sıralama: istenen locale → en → tr → kalan diller. Hiçbir dilde yoksa null
  * döner ve çağıran taraf temiz bir 404 üretir.

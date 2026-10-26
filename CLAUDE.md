@@ -134,7 +134,7 @@ Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/gl
 - Renkler: `cream`, `navy`, `gold`, `ink` (light/dark varyantları)
 - Fontlar: `Cormorant Garamond` (display — 300/500/600/700) ve `Alegreya Sans`
   (sans — 400/500/700). Cormorant marka yüzüdür, **değiştirilmez**. İkisi de
-  `latin, latin-ext, cyrillic` alt kümeleriyle yükleniyor; Arapça ve Çince
+  `latin, latin-ext, cyrillic` alt kümeleriyle yükleniyor; Arapça
   bilinçli olarak sistem fontunda.
 - Ağırlık tuzağı: **`Alegreya Sans`'ta 600 yoktur.** `globals.css` tüm
   `h1`–`h4`'ü display fontuna bağladığı için başlıklarda `font-semibold` (600)
@@ -148,7 +148,7 @@ Tailwind CSS v4 kullanıyor — `tailwind.config.js` **yok**. Özel tema `src/gl
 Her sayfada `pageMetadata()` ile meta tag üretilir (`lib/seo.ts`). Makale sayfaları ek olarak:
 - `ArticleSchema` — Schema.org Article yapılandırılmış verisi
 - `FAQPage` — **yalnızca gerçek sorulardan** üretilir: soru işareti taşıyan ya
-  da dile özgü önekle (`S:` `Q:` `F:` `P:` `В:` `س:` `问：`) başlayan `##`/`###`
+  da dile özgü önekle (`S:` `Q:` `F:` `P:` `В:` `س:`) başlayan `##`/`###`
   başlıkları. Google'ın yapılandırılmış veri politikası bölüm başlıklarının
   `Question` olarak işaretlenmesini yasakladığı için soru olmayan başlıklar
   şemaya girmez; üç gerçek soru yoksa sayfaya FAQPage hiç basılmaz.

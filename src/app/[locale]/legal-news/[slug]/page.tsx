@@ -15,8 +15,7 @@ import { ReadingProgress } from "@/components/ReadingProgress";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  // routing.locales (zh dahil 8 dil) — önceki hardcoded 7'lik liste zh haberlerini
-  // ön-derlemeyi atlıyordu, bu da Çince haber sayfalarının 404 dönmesine yol açıyordu.
+  // Hardcoded liste yerine routing.locales tek kaynak.
   const all = await Promise.all(
     routing.locales.map(async (locale) => {
       const posts = await getAllGazettePosts(locale);
