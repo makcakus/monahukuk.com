@@ -1,5 +1,5 @@
 /**
- * Tek komutla tam deploy: build -> worker deploy -> R2 cache doldurma.
+ * Tek komutla tam deploy: build -> R2 cache doldurma -> worker deploy.
  *
  * Neden ayrı bir script: `opennextjs-cloudflare deploy` cache'i worker'dan
  * ÖNCE doldurmaya çalışıyor ve Cloudflare'in geçici dev-tünel altyapısı
@@ -9,8 +9,9 @@
  *
  * Kullanım:  npm run deploy:full
  *
- * DİKKAT: son adım (cache doldurma) atlanırsa makale sayfaları 404 verir —
- * yeni build ID'sinin cache kayıtları R2'de bulunmadığı için.
+ * DİKKAT: cache doldurma atlanırsa makale sayfaları 404 verir — yeni build
+ * ID'sinin cache kayıtları R2'de bulunmadığı için. Bu yüzden worker deploy'u
+ * cache dolduktan SONRA yapılıyor.
  */
 import { execSync } from "node:child_process";
 import { rmSync } from "node:fs";
@@ -36,14 +37,17 @@ const steps = [
     env: {},
   },
   {
-    name: "2/3 Worker deploy (Cloudflare)",
-    cmd: "npx wrangler deploy",
-    env: { OPEN_NEXT_DEPLOY: "true" },
-  },
-  {
-    name: "3/3 R2 incremental cache doldurma",
+    // Cache worker'dan ÖNCE doldurulur: tersi olursa worker canlıya çıktığı
+    // andan cache dolana kadar makale sayfaları 404 verir. Bu adım patlarsa
+    // deploy durur ve eski worker eski build ID'siyle çalışmaya devam eder.
+    name: "2/3 R2 incremental cache doldurma",
     cmd: "node scripts/direct-r2-populate.mjs",
     env: {},
+  },
+  {
+    name: "3/3 Worker deploy (Cloudflare)",
+    cmd: "npx wrangler deploy",
+    env: { OPEN_NEXT_DEPLOY: "true" },
   },
 ];
 

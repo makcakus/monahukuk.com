@@ -175,6 +175,40 @@ function unprefixedTrSlugRedirects() {
   });
 }
 
+// GSC "Bulunamadı (404)" raporunda 69. karakterde kesilmiş Türkçe slug'lar
+// var (örn. /articles/kollektif-sirkette-tasfiye-genel-hukumler-ve-tasfiye-
+// memurlari-ttk-26 → gerçeği ...-ttk-267). Eski bir slug kısaltmasından kalma
+// bu URL'ler hiçbir makaleyle eşleşmediği için catch-all ve sayfa fallback'i
+// onları kurtaramıyor. 69 karakterden uzun her TR slug'ı için kesik hâlini
+// (locale'siz ve /tr/ altında) tam slug'a yönlendiriyoruz. Kesik önek başka
+// bir slug'la çakışıyorsa kural üretilmez (yanlış makaleye gitmesin).
+const TRUNCATED_SLUG_LENGTH = 69;
+
+function truncatedTrSlugRedirects() {
+  const dir = path.join(process.cwd(), "content", "articles", "tr");
+  let slugs: string[] = [];
+  try {
+    slugs = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx")).map((f) => f.replace(/\.mdx$/, ""));
+  } catch {
+    return [];
+  }
+  const existing = new Set(slugs);
+  const byPrefix = new Map<string, string[]>();
+  for (const slug of slugs) {
+    if (slug.length <= TRUNCATED_SLUG_LENGTH) continue;
+    const prefix = slug.slice(0, TRUNCATED_SLUG_LENGTH);
+    byPrefix.set(prefix, [...(byPrefix.get(prefix) ?? []), slug]);
+  }
+  const redirects: { source: string; destination: string; permanent: boolean }[] = [];
+  for (const [prefix, matches] of byPrefix) {
+    if (matches.length !== 1 || existing.has(prefix)) continue;
+    const destination = `/tr/articles/${matches[0]}`;
+    redirects.push({ source: `/articles/${prefix}`, destination, permanent: true });
+    redirects.push({ source: `/tr/articles/${prefix}`, destination, permanent: true });
+  }
+  return redirects;
+}
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 180,
@@ -239,6 +273,8 @@ const nextConfig: NextConfig = {
       // Locale'siz TÜRKÇE slug → TR (build anında içerikten üretilir).
       // Catch-all'dan önce gelmeli.
       ...unprefixedTrSlugRedirects(),
+      // 69. karakterde kesilmiş eski TR slug'ları → tam slug (build anında üretilir)
+      ...truncatedTrSlugRedirects(),
       // Catch-all: locale'siz İngilizce/bilinmeyen slug → EN
       { source: "/articles/:slug+", destination: "/en/articles/:slug+", permanent: true },
 

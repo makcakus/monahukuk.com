@@ -33,6 +33,15 @@ jobs:
           npm run fix:yaml
           npm run validate
 
+      - name: Generate locale manifests
+        # `opennextjs-cloudflare build` next build'i doğrudan çağırdığı için
+        # package.json'daki "prebuild" hook'u (generate:locale-manifest)
+        # çalışmıyor. src/generated/*.json elle güncellenmezse içerikten geri
+        # kalıyor: makale dil fallback'i (article-fallbacks.json) ve dil
+        # değiştirici yeni makaleleri tanımıyor, bu da GSC'de "Bulunamadı
+        # (404)" üretiyordu. Her deploy'da içerikten yeniden üretiyoruz.
+        run: npm run generate:locale-manifest
+
       - name: Restore Next.js build cache
         uses: actions/cache@v4
         with:
@@ -56,25 +65,40 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
+      - name: Populate R2 incremental cache (before deploy)
+        # Yeni build ID'sinin cache kayıtları worker'dan ÖNCE yazılıyor. Eskiden
+        # sıra tersti: worker canlıya çıkıyor, cache 10-25 dk sonra doluyordu;
+        # bu pencerede (ve cache adımı hata verirse kalıcı olarak) makale
+        # sayfaları 404 dönebiliyordu (bkz. scripts/deploy-full.mjs uyarısı).
+        # populateCache kendi geçici worker'ını kullanır, canlı worker'a
+        # bağımlı değildir; eski worker bu sırada eski build ID'siyle sorunsuz
+        # çalışmaya devam eder. R2 hatası (10001) yine de deploy'u
+        # engellemesin diye continue-on-error, ama artık sessizce yutulmuyor.
+        id: populate
+        run: npx opennextjs-cloudflare populateCache remote --cacheChunkSize 2
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Deploy to Cloudflare Workers
-        # `opennextjs-cloudflare deploy` önce R2 cache'i doldurur, SONRA
-        # worker'ı deploy eder — cache adımı patlarsa (R2 internal error 10001,
-        # bucket/eşzamanlılık farketmeden 5 deploy'da tekrarladı) worker HİÇ
-        # deploy edilmiyor. OPEN_NEXT_DEPLOY=true ile wrangler'ın otomatik
-        # opennextjs-cloudflare deploy'a sarma davranışını atlayıp cache'e
-        # bağımlı olmayan düz bir worker deploy'u yapıyoruz. Site cache boşken
-        # de sayfaları anında render eder (ISR mantığı), sadece ilk istek
-        # cache'e yazılana kadar biraz daha yavaş olur.
+        # `opennextjs-cloudflare deploy` cache adımı patlarsa (R2 internal error
+        # 10001) worker'ı HİÇ deploy etmiyordu. OPEN_NEXT_DEPLOY=true ile
+        # wrangler'ın otomatik opennextjs-cloudflare deploy'a sarma davranışını
+        # atlayıp düz bir worker deploy'u yapıyoruz; cache bir önceki adımda
+        # zaten dolduruldu.
         run: OPEN_NEXT_DEPLOY=true npx wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
-      - name: Warm R2 incremental cache (best-effort)
-        # Site zaten canlı olduğu için bu adımın başarısız olması deploy'u
-        # engellemiyor — sadece performans ön-ısıtması.
-        run: npx opennextjs-cloudflare populateCache remote --cacheChunkSize 2 || echo "Cache warm-up başarısız oldu, site zaten canlı — devam ediliyor."
-        continue-on-error: true
+      - name: Retry R2 cache population after failed pre-deploy attempt
+        # Ön doldurma başarısız olduysa site cache'siz canlıda — tekrar dene,
+        # yine olmazsa run özetinde görünür bir uyarı bırak.
+        if: steps.populate.outcome == 'failure'
+        run: |
+          npx opennextjs-cloudflare populateCache remote --cacheChunkSize 2 \
+            || echo "::warning title=R2 cache doldurulamadı::Worker cache'siz canlıda; makale sayfaları 404 dönebilir. 'npx opennextjs-cloudflare populateCache remote' ile elle doldurun."
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
