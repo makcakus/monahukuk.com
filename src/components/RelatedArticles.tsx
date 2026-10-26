@@ -9,7 +9,7 @@ export async function RelatedArticles({
   currentSlug,
   category,
   manualRelated,
-  limit = 3,
+  limit = 6,
   prevArticle,
   nextArticle,
 }: {

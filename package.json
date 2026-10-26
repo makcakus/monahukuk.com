@@ -14,7 +14,7 @@
     "validate": "npm run validate:content && npm run validate:translations && npm run validate:links",
     "suggest:links": "node scripts/suggest-internal-links.mjs",
     "fix:yaml": "node scripts/fix-yaml.mjs",
-    "generate:locale-manifest": "node scripts/generate-locale-manifest.mjs",
+    "generate:locale-manifest": "node scripts/generate-locale-manifest.mjs && node scripts/generate-related-articles.mjs",
     "prebuild": "npm run fix:yaml && npm run validate && npm run generate:locale-manifest",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "node scripts/deploy-full.mjs",

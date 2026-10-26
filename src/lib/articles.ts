@@ -5,6 +5,7 @@ import matter from "gray-matter";
 import readingTime from "reading-time";
 import { getCloudflareContext } from "@opennextjs/cloudflare";
 import articleLocaleManifest from "@/generated/article-locales.json";
+import relatedArticlesManifest from "@/generated/related-articles.json";
 
 export interface ArticleFrontmatter {
   title: string;
@@ -13,7 +14,7 @@ export interface ArticleFrontmatter {
   category?: string;
   slug: string;
   author?: string;
-  /** Manuel iç link override'ı; doluysa kategori-tabanlı öneri yerine kullanılır. */
+  /** Manuel iç link; build-time ilgili makale haritasında ilk sıraya konur. */
   relatedSlugs?: string[];
   draft?: boolean;
   translationKey?: string;
@@ -191,16 +192,6 @@ export async function getAllArticles(locale: string): Promise<Article[]> {
 }
 
 /**
- * İlgili makale önerisi.
- *
- * Öncelik sırası:
- *   1. Frontmatter'daki manuel `relatedSlugs` (geçerli olan slug'lar)
- *   2. Aynı kategorideki diğer makaleler (en son tarihten geriye)
- *   3. Genel havuzdan en son makaleler (kategori boş veya yetersiz tek)
- *
- * Mevcut makale her zaman elenir.
- */
-/**
  * Aynı kategorideki önceki ve sonraki makaleyi döndürür.
  * Makaleler tarih-desc sıralamasındadır; "next" daha eski, "prev" daha yenidir.
  * Kategori yoksa tüm makaleler içinde arama yapar.
@@ -262,15 +253,53 @@ export async function getAdjacentArticles(
   };
 }
 
+type RelatedManifest = Record<string, { s: string[]; r: number[][] }>;
+const RELATED_MANIFEST = relatedArticlesManifest as RelatedManifest;
+const relatedSlugIndex = new Map<string, Map<string, number>>();
+
+function precomputedRelated(locale: string, slug: string): string[] | null {
+  const entry = RELATED_MANIFEST[locale];
+  if (!entry) return null;
+  let index = relatedSlugIndex.get(locale);
+  if (!index) {
+    index = new Map(entry.s.map((s, i) => [s, i]));
+    relatedSlugIndex.set(locale, index);
+  }
+  const i = index.get(slug);
+  return i === undefined ? null : entry.r[i].map((j) => entry.s[j]);
+}
+
+/**
+ * İlgili makale önerisi.
+ *
+ * Öncelik sırası:
+ *   1. Build anında üretilen harita (scripts/generate-related-articles.mjs):
+ *      manuel `relatedSlugs` + konu benzerliği, her makale en az birkaç
+ *      sayfadan link alacak şekilde dengelenmiş
+ *   2. Haritada yoksa (build sonrası R2'ye eklenmiş makale) manuel
+ *      `relatedSlugs`, sonra aynı kategori, sonra en yeniler
+ *
+ * Mevcut makale her zaman elenir.
+ */
 export async function getRelatedArticles(
   locale: string,
   current: { slug: string; category?: string; relatedSlugs?: string[] },
-  limit = 3
+  limit = 6
 ): Promise<Article[]> {
   const all = await getAllArticles(locale);
   const bySlug = new Map(all.map((a) => [a.slug, a]));
 
-  // 1) Manuel override
+  // 1) Build-time harita
+  const precomputed = precomputedRelated(locale, current.slug);
+  if (precomputed) {
+    const picked = precomputed
+      .filter((s) => s !== current.slug)
+      .map((s) => bySlug.get(s))
+      .filter((a): a is Article => Boolean(a));
+    if (picked.length >= 1) return picked.slice(0, limit);
+  }
+
+  // 2) Manuel override
   if (current.relatedSlugs && current.relatedSlugs.length) {
     const picked = current.relatedSlugs
       .filter((s) => s !== current.slug)
@@ -279,7 +308,7 @@ export async function getRelatedArticles(
     if (picked.length >= 1) return picked.slice(0, limit);
   }
 
-  // 2) Aynı kategori
+  // 3) Aynı kategori
   const sameCategory = current.category
     ? all.filter(
         (a) => a.slug !== current.slug && a.category === current.category
@@ -288,7 +317,7 @@ export async function getRelatedArticles(
 
   if (sameCategory.length >= limit) return sameCategory.slice(0, limit);
 
-  // 3) Kategori yetersizse en yenilerle tamamla
+  // 4) Kategori yetersizse en yenilerle tamamla
   const fillers = all.filter(
     (a) => a.slug !== current.slug && !sameCategory.some((s) => s.slug === a.slug)
   );
