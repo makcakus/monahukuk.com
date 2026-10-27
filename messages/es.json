@@ -28,6 +28,11 @@
       "kicker": "Antalya · Turquía",
       "title": "Su socio de soluciones para asuntos legales en Turquía.",
       "lead": "Ciudadanía, residencia, inmuebles y asuntos societarios desde Antalya. Trabajamos en inglés y podemos actuar en su nombre mediante poder notarial.",
+      "extra": [
+        { "title": "Le acompañamos en los trámites de ciudadanía y residencia.", "lead": "De la solicitud al recurso y al proceso judicial, llevamos su expediente de principio a fin." },
+        { "title": "Seguridad jurídica al comprar un inmueble en Turquía.", "lead": "Título de propiedad, contrato y revisión previa a la compra: le representamos en cada paso de la operación." },
+        { "title": "Resuelva sus asuntos sin viajar a Turquía.", "lead": "Con representación a distancia mediante poder notarial y comunicación en inglés, puede gestionar el proceso desde donde esté." }
+      ],
       "imageAlt": "Antalya — silueta de la noria al atardecer"
     },
     "practiceIntro": "Nuestro despacho, con sede en Antalya, ofrece asesoramiento jurídico integral y representación procesal a particulares y empresas. Con más de diez años de experiencia profesional, evaluamos cada caso según sus propias circunstancias y adoptamos un enfoque orientado a la solución, transparente y meticuloso en la gestión de cada asunto.",

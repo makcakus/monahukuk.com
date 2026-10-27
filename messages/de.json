@@ -28,6 +28,11 @@
       "kicker": "Antalya · Türkei",
       "title": "Ihr Lösungspartner für Rechtsfragen in der Türkei.",
       "lead": "Staatsbürgerschaft, Aufenthalt, Immobilien und Gesellschaftsrecht aus Antalya. Wir arbeiten auf Englisch und handeln auf Wunsch per Vollmacht für Sie.",
+      "extra": [
+        { "title": "Wir stehen Ihnen bei Staatsbürgerschaft und Aufenthaltstitel zur Seite.", "lead": "Von der Antragstellung bis zum Widerspruch und Gerichtsverfahren führen wir Ihre Akte von Anfang bis Ende." },
+        { "title": "Rechtssicherheit beim Immobilienkauf in der Türkei.", "lead": "Grundbuch, Vertrag und Prüfung vor dem Kauf: Wir vertreten Sie bei jedem Schritt des Erwerbs." },
+        { "title": "Erledigen Sie alles, ohne in die Türkei zu reisen.", "lead": "Mit Vertretung per Vollmacht und Kommunikation auf Englisch steuern Sie das Verfahren von jedem Ort aus." }
+      ],
       "imageAlt": "Antalya — Riesenrad-Silhouette bei Sonnenuntergang"
     },
     "practiceIntro": "Unsere in Antalya ansässige Kanzlei bietet Privatpersonen und Unternehmen umfassende Rechtsberatung und Prozessvertretung. Mit über zehn Jahren Berufserfahrung bewerten wir jeden Fall in seinem individuellen Kontext und verfolgen einen lösungsorientierten, transparenten und sorgfältigen Ansatz bei der Fallbearbeitung.",

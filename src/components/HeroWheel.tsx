@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { PRACTICE_AREAS, pickPA } from "@/lib/practice-areas";
+import { HeroRotator, type HeroSlide } from "./HeroRotator";
 
 const HERO_IMAGE_URL = "/images/hero/antalya-donme-dolap-hero.jpg";
 const IMG_W = 2170;
@@ -109,6 +110,12 @@ export function HeroWheel() {
     summary: firstSentence(pickPA(a.description, locale)),
   }));
 
+  // Hero metinleri: ilki hero.title/hero.lead, sonrakiler hero.extra dizisinden.
+  const heroSlides: HeroSlide[] = [
+    { title: t("hero.title"), lead: t("hero.lead") },
+    ...(t.raw("hero.extra") as HeroSlide[]),
+  ];
+
   return (
     <section className="wt" style={{ "--n": N } as CSSProperties}>
       <style>{spinKeyframes()}</style>
@@ -190,13 +197,7 @@ export function HeroWheel() {
         <div className="wt-copy relative z-10 flex h-full w-full flex-col justify-end px-6 lg:px-10 pb-24 pt-32 md:pb-32">
           <div className="max-w-3xl">
             <div className="mb-16 md:mb-20">
-              <h1 className="animate-hero-rise animate-hero-rise-delay-1 font-display text-4xl md:text-5xl lg:text-6xl text-cream-50 leading-[1.08] tracking-tight text-balance drop-shadow-[0_2px_18px_rgba(0,0,0,0.45)]">
-                {t("hero.title")}
-              </h1>
-              <span className="animate-hero-rise animate-hero-rise-delay-2 gold-divider mt-8" />
-              <p className="animate-hero-rise animate-hero-rise-delay-3 mt-6 max-w-2xl text-lg md:text-xl text-cream-100/95 leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
-                {t("hero.lead")}
-              </p>
+              <HeroRotator slides={heroSlides} />
             </div>
             <div className="animate-hero-rise animate-hero-rise-delay-4 flex flex-wrap items-center gap-4">
               <Link

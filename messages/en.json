@@ -28,6 +28,11 @@
       "kicker": "Antalya · Turkey",
       "title": "Your solution partner for legal matters in Turkey.",
       "lead": "Citizenship, residence, property and company matters from Antalya. We work in English and can act for you by power of attorney.",
+      "extra": [
+        { "title": "We stand by you in citizenship and residence permit cases.", "lead": "From the application to appeals and court, we handle your file from start to finish." },
+        { "title": "Legal security when you buy property in Turkey.", "lead": "Title deed, contract and pre-purchase review: we act for you at every step of the transaction." },
+        { "title": "Get it done without coming to Turkey.", "lead": "With remote representation by power of attorney and communication in English, you can manage the process from wherever you are." }
+      ],
       "imageAlt": "Antalya — Ferris wheel silhouette against a sunset sky"
     },
     "practiceIntro": "Our Antalya-based firm provides comprehensive legal counsel and litigation representation to individuals and companies. With over a decade of professional experience, we assess each case within its own circumstances and work with a solution-oriented, transparent, and meticulous approach to case management.",
