@@ -44,7 +44,7 @@ export function WhatsAppFloat({ locale }: { locale: string }) {
         <g
           transform="translate(5.6 5.4) scale(.56)"
           fill="none"
-          stroke="#000"
+          className="stroke-navy-950"
           strokeWidth="2.4"
           strokeLinecap="round"
           strokeLinejoin="round"
