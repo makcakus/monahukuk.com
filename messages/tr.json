@@ -27,15 +27,15 @@
     "hero": {
       "kicker": "Antalya · Türkiye",
       "title": "Türkiye'deki hukuki işlerinizde çözüm ortağınız.",
-      "lead": "Vatandaşlık, ikamet, gayrimenkul ve şirket işlemlerinde sizi Türkiye'de temsil ediyoruz; ister burada olun ister yurt dışında.",
+      "lead": "Vatandaşlık, ikamet, gayrimenkul ve şirket işlemlerinde sizi temsil ediyoruz; ister burada olun ister yurt dışında.",
       "imageAlt": "Antalya — gün batımında dönme dolap silüeti ve dağ manzarası",
       "slides": [
         {
-          "title": "Türkiye'ye gelmeden, vekâletle temsil.",
-          "lead": "Vekâletnamenizi bulunduğunuz ülkede düzenleyin; tapu, dava ve resmî başvurularınızı biz yürütelim."
+          "title": "Bulunduğunuz yerden, vekâletle temsil.",
+          "lead": "Vekâletnamenizi yaşadığınız ülkede düzenleyin; tapu, dava ve resmî başvurularınızı biz yürütelim."
         },
         {
-          "title": "Türkiye'de iş kuranlar için sağlam bir hukuki zemin.",
+          "title": "Yatırımınız ve şirketiniz için sağlam bir hukuki zemin.",
           "lead": "Şirket kuruluşundan ticari sözleşmelere, KVKK uyumundan uyuşmazlıklara kadar bireylere ve şirketlere danışmanlık veriyoruz."
         },
         {
