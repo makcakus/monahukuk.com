@@ -28,7 +28,21 @@
       "kicker": "Antalya · Türkei",
       "title": "Ihr Lösungspartner für Rechtsfragen in der Türkei.",
       "lead": "Wir vertreten Sie in der Türkei in Fragen der Staatsbürgerschaft, des Aufenthalts, bei Immobilien und Gesellschaftsangelegenheiten, ob Sie hier sind oder im Ausland.",
-      "imageAlt": "Antalya — Riesenrad-Silhouette bei Sonnenuntergang"
+      "imageAlt": "Antalya — Riesenrad-Silhouette bei Sonnenuntergang",
+      "slides": [
+        {
+          "title": "Vertretung per Vollmacht, ohne in die Türkei zu reisen.",
+          "lead": "Erteilen Sie die Vollmacht in Ihrem Wohnsitzland; Grundbuch-, Gerichts- und Behördenverfahren übernehmen wir."
+        },
+        {
+          "title": "Eine solide rechtliche Grundlage für Ihr Geschäft in der Türkei.",
+          "lead": "Von der Gesellschaftsgründung über Handelsverträge und KVKK-Datenschutz bis zu Streitigkeiten beraten wir Privatpersonen und Unternehmen."
+        },
+        {
+          "title": "Der richtige Schritt zur richtigen Zeit.",
+          "lead": "Sprechen Sie mit uns, bevor Sie einen Vertrag unterschreiben, einen Antrag stellen oder klagen; so erkennen wir die Risiken gemeinsam von Anfang an."
+        }
+      ]
     },
     "practiceIntro": "Unsere in Antalya ansässige Kanzlei bietet Privatpersonen und Unternehmen umfassende Rechtsberatung und Prozessvertretung. Mit über zehn Jahren Berufserfahrung bewerten wir jeden Fall in seinem individuellen Kontext und verfolgen einen lösungsorientierten, transparenten und sorgfältigen Ansatz bei der Fallbearbeitung.",
     "foreignClients": {

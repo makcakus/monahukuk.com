@@ -764,3 +764,64 @@ h1, h2, h3, h4, .font-display {
     }
   }
 }
+
+/* ==========================================================================
+   Hero metin geçişi (HeroRotator)
+   Metinler aynı ızgara hücresinde üst üste durur; etkin olan aşağıdan
+   belirir, çıkan yukarı kayarak solar. Altta her metin için ince bir çizgi
+   (düğme): etkin olan dolarak kalan süreyi gösterir, dolunca sıradakine geçilir.
+   ========================================================================== */
+.hero-slide {
+  opacity: 0;
+  translate: 0 14px;
+  pointer-events: none;
+  transition: opacity 0.55s ease-out, translate 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hero-slide[data-state="active"] {
+  opacity: 1;
+  translate: 0 0;
+  pointer-events: auto;
+  transition-delay: 0.2s;
+}
+.hero-slide[data-state="leaving"] {
+  opacity: 0;
+  translate: 0 -14px;
+}
+
+.hero-dot {
+  position: relative;
+  display: inline-flex;
+  width: 2.25rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.hero-dot::before,
+.hero-dot > span {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 50%;
+  height: 2px;
+  margin-top: -1px;
+}
+.hero-dot::before { background: rgb(251 249 244 / 0.28); transition: background-color 0.2s ease-out; }
+.hero-dot:hover::before { background: rgb(251 249 244 / 0.5); }
+.hero-dot > span {
+  background: var(--color-gold-400);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+[dir="rtl"] .hero-dot > span { transform-origin: right center; }
+.hero-dot[data-active="true"] > span { transform: scaleX(1); }
+.hero-rot[data-running="true"] .hero-dot[data-active="true"] > span {
+  animation: hero-progress var(--hero-interval) linear both;
+}
+/* animation kısaltması play-state'i sıfırladığı için duraklatma aynı (ve daha güçlü) seçicide yazılır. */
+.hero-rot[data-running="true"][data-paused="true"] .hero-dot[data-active="true"] > span { animation-play-state: paused; }
+.hero-dot:focus-visible { outline: 2px solid var(--color-gold-300); outline-offset: 2px; border-radius: 2px; }
+
+@keyframes hero-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide { transition: none; translate: none; }
+}

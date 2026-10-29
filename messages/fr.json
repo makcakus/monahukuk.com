@@ -28,7 +28,21 @@
       "kicker": "Antalya · Turquie",
       "title": "Votre partenaire de solutions juridiques en Turquie.",
       "lead": "Nous vous représentons en Turquie en matière de nationalité, de séjour, d'immobilier et de sociétés, que vous soyez ici ou à l'étranger.",
-      "imageAlt": "Antalya — silhouette de la grande roue au coucher du soleil"
+      "imageAlt": "Antalya — silhouette de la grande roue au coucher du soleil",
+      "slides": [
+        {
+          "title": "Une représentation par procuration, sans venir en Turquie.",
+          "lead": "Établissez la procuration dans votre pays de résidence ; nous prenons en charge vos démarches de titre de propriété, vos procédures et vos demandes officielles."
+        },
+        {
+          "title": "Une base juridique solide pour entreprendre en Turquie.",
+          "lead": "De la création de société aux contrats commerciaux, de la conformité KVKK aux litiges, nous conseillons particuliers et entreprises."
+        },
+        {
+          "title": "La bonne démarche, au bon moment.",
+          "lead": "Consultez-nous avant de signer un contrat, de déposer une demande ou d'engager une action, afin d'identifier ensemble les risques dès le départ."
+        }
+      ]
     },
     "practiceIntro": "Notre cabinet, basé à Antalya, propose un conseil juridique complet et une représentation en justice aux particuliers comme aux entreprises. Fort de plus de dix ans d'expérience professionnelle, nous évaluons chaque dossier selon ses propres circonstances et adoptons une approche orientée vers les solutions, transparente et rigoureuse dans la gestion des affaires.",
     "foreignClients": {

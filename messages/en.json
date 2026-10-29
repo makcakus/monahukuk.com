@@ -28,7 +28,21 @@
       "kicker": "Antalya · Turkey",
       "title": "Your solution partner for legal matters in Turkey.",
       "lead": "We represent you in Turkey in citizenship, residence, property and company matters, whether you are here or abroad.",
-      "imageAlt": "Antalya — Ferris wheel silhouette against a sunset sky"
+      "imageAlt": "Antalya — Ferris wheel silhouette against a sunset sky",
+      "slides": [
+        {
+          "title": "Representation by power of attorney, without travelling to Turkey.",
+          "lead": "Sign a power of attorney in the country where you live; we handle your title deed, court and official applications."
+        },
+        {
+          "title": "A sound legal foundation for doing business in Turkey.",
+          "lead": "From company formation to commercial contracts, from KVKK data protection compliance to disputes, we advise individuals and companies."
+        },
+        {
+          "title": "The right step, at the right time.",
+          "lead": "Consult us before you sign a contract, file an application or start a lawsuit, so we can identify the risks together from the outset."
+        }
+      ]
     },
     "practiceIntro": "Our Antalya-based firm provides comprehensive legal counsel and litigation representation to individuals and companies. With over a decade of professional experience, we assess each case within its own circumstances and work with a solution-oriented, transparent, and meticulous approach to case management.",
     "foreignClients": {

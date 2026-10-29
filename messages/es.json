@@ -28,7 +28,21 @@
       "kicker": "Antalya · Turquía",
       "title": "Su socio de soluciones para asuntos legales en Turquía.",
       "lead": "Le representamos en Turquía en asuntos de ciudadanía, residencia, inmuebles y sociedades, tanto si está aquí como en el extranjero.",
-      "imageAlt": "Antalya — silueta de la noria al atardecer"
+      "imageAlt": "Antalya — silueta de la noria al atardecer",
+      "slides": [
+        {
+          "title": "Representación mediante poder, sin viajar a Turquía.",
+          "lead": "Otorgue el poder en el país donde reside; nosotros gestionamos sus trámites de escritura, procesos judiciales y solicitudes oficiales."
+        },
+        {
+          "title": "Una base jurídica sólida para emprender en Turquía.",
+          "lead": "Desde la constitución de sociedades y los contratos mercantiles hasta el cumplimiento de la KVKK y los litigios, asesoramos a particulares y empresas."
+        },
+        {
+          "title": "El paso correcto, en el momento adecuado.",
+          "lead": "Consúltenos antes de firmar un contrato, presentar una solicitud o iniciar un pleito, para identificar juntos los riesgos desde el principio."
+        }
+      ]
     },
     "practiceIntro": "Nuestro despacho, con sede en Antalya, ofrece asesoramiento jurídico integral y representación procesal a particulares y empresas. Con más de diez años de experiencia profesional, evaluamos cada caso según sus propias circunstancias y adoptamos un enfoque orientado a la solución, transparente y meticuloso en la gestión de cada asunto.",
     "foreignClients": {
