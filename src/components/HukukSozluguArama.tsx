@@ -41,29 +41,29 @@ export function HukukSozluguArama() {
   const [yon, setYon] = useState<Yon>("en");
   const [veriler, setVeriler] = useState<Partial<Record<Yon, Terim[]>>>({});
   const [sorgu, setSorgu] = useState("");
-  const [yukleniyor, setYukleniyor] = useState(true);
-  const [hata, setHata] = useState(false);
+  // Hata hangi yön için olduğuyla tutulur; yön değişince eski hata türetmeyle geçersiz olur.
+  const [hataYon, setHataYon] = useState<Yon | null>(null);
 
   const terimler = veriler[yon] ?? null;
+  const hata = hataYon === yon;
+  const yukleniyor = !terimler && !hata;
 
   useEffect(() => {
     if (veriler[yon]) return;
     let iptal = false;
-    setYukleniyor(true);
-    setHata(false);
     fetch(VERI_URL[yon])
       .then((r) => {
         if (!r.ok) throw new Error("veri alınamadı");
         return r.json() as Promise<Terim[]>;
       })
       .then((veri) => {
-        if (!iptal) setVeriler((o) => ({ ...o, [yon]: veri }));
+        if (!iptal) {
+          setVeriler((o) => ({ ...o, [yon]: veri }));
+          setHataYon(null);
+        }
       })
       .catch(() => {
-        if (!iptal) setHata(true);
-      })
-      .finally(() => {
-        if (!iptal) setYukleniyor(false);
+        if (!iptal) setHataYon(yon);
       });
     return () => {
       iptal = true;

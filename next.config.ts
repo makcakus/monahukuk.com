@@ -12,7 +12,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 // haber liste sayfasına 301 yönlendiriyoruz — 404 yerine anlamlı bir sayfa +
 // temiz GSC sinyali. Geçerli sayfalar (o dilde gerçekten olanlar) hiç
 // eşleşmediği için asla yanlışlıkla yönlendirilmez.
-const LEGAL_NEWS_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+const LEGAL_NEWS_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
 
 function legalNewsGhostRedirects() {
   const gazetteDir = path.join(process.cwd(), "content", "hukuki-haberler");
@@ -41,7 +41,7 @@ function legalNewsGhostRedirects() {
   for (const date of allDates) {
     for (const locale of LEGAL_NEWS_LOCALES) {
       const ownSuffix = locale === "tr" ? "hukuki-haberler" : "legal-news";
-      // Yanlış sonek (örn. zh için "-hukuki-haberler") gerçek bir dosya
+      // Yanlış sonek (örn. "tr" için "-legal-news") gerçek bir dosya
       // adı kalıbı değil — hangi locale/tarih olursa olsun her zaman hayalet.
       // Eski sitemap/hreflang sürümleri bunu üretmişti (bkz. GSC 404 raporu).
       const wrongSuffix = locale === "tr" ? "legal-news" : "hukuki-haberler";
@@ -64,7 +64,7 @@ function legalNewsGhostRedirects() {
 // GSC'de yüzlerce "Bulunamadı (404)" hatasının kaynağı: TTK/TCK/CMK/İş Hukuku
 // madde makaleleri Türkçe slug'larıyla ya locale prefix'siz (/articles/
 // ticaret-sirketlerinde-birlesme-ttk-134) ya da yanlış locale altında
-// (/zh/articles/silahli-orgut-ve-suc-icin-anlasma-tck-314) taranıyor. Bu
+// (/es/articles/silahli-orgut-ve-suc-icin-anlasma-tck-314) taranıyor. Bu
 // içerikler "kademeli çeviri" modeliyle (bkz. validate-translations.mjs
 // TR_ONLY_KEY_SUFFIXES) önce yalnızca bazı dillere çevrildiği için, locale'siz
 // veya yanlış-locale istekler var olmayan hedeflere (eski geniş catch-all her
@@ -79,7 +79,7 @@ function parseTranslationKey(raw: string, fallbackSlug: string): string {
   return tk ? tk[1].trim() : fallbackSlug;
 }
 
-const ARTICLE_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+const ARTICLE_LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
 
 // scripts/validate-translations.mjs'deki TR_ONLY_KEY_SUFFIXES ile aynı liste —
 // bu tarama kasıtlı olarak sadece "kademeli çeviri" serilerine (TTK/TCK/CMK/
@@ -175,6 +175,40 @@ function unprefixedTrSlugRedirects() {
   });
 }
 
+// GSC "Bulunamadı (404)" raporunda 69. karakterde kesilmiş Türkçe slug'lar
+// var (örn. /articles/kollektif-sirkette-tasfiye-genel-hukumler-ve-tasfiye-
+// memurlari-ttk-26 → gerçeği ...-ttk-267). Eski bir slug kısaltmasından kalma
+// bu URL'ler hiçbir makaleyle eşleşmediği için catch-all ve sayfa fallback'i
+// onları kurtaramıyor. 69 karakterden uzun her TR slug'ı için kesik hâlini
+// (locale'siz ve /tr/ altında) tam slug'a yönlendiriyoruz. Kesik önek başka
+// bir slug'la çakışıyorsa kural üretilmez (yanlış makaleye gitmesin).
+const TRUNCATED_SLUG_LENGTH = 69;
+
+function truncatedTrSlugRedirects() {
+  const dir = path.join(process.cwd(), "content", "articles", "tr");
+  let slugs: string[] = [];
+  try {
+    slugs = fs.readdirSync(dir).filter((f) => f.endsWith(".mdx")).map((f) => f.replace(/\.mdx$/, ""));
+  } catch {
+    return [];
+  }
+  const existing = new Set(slugs);
+  const byPrefix = new Map<string, string[]>();
+  for (const slug of slugs) {
+    if (slug.length <= TRUNCATED_SLUG_LENGTH) continue;
+    const prefix = slug.slice(0, TRUNCATED_SLUG_LENGTH);
+    byPrefix.set(prefix, [...(byPrefix.get(prefix) ?? []), slug]);
+  }
+  const redirects: { source: string; destination: string; permanent: boolean }[] = [];
+  for (const [prefix, matches] of byPrefix) {
+    if (matches.length !== 1 || existing.has(prefix)) continue;
+    const destination = `/tr/articles/${matches[0]}`;
+    redirects.push({ source: `/articles/${prefix}`, destination, permanent: true });
+    redirects.push({ source: `/tr/articles/${prefix}`, destination, permanent: true });
+  }
+  return redirects;
+}
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   staticPageGenerationTimeout: 180,
@@ -219,7 +253,7 @@ const nextConfig: NextConfig = {
       { source: "/about", destination: "/tr/about", permanent: true },
       { source: "/practice-areas", destination: "/tr/practice-areas", permanent: true },
       // "kita-hukuku" typo (doğrusu "kira-hukuku") — tüm locale'lerde aynı slug kullanılıyor
-      { source: "/:locale(tr|en|de|ru|ar|es|fr|zh)/practice-areas/kita-hukuku", destination: "/:locale/practice-areas/kira-hukuku", permanent: true },
+      { source: "/:locale(tr|en|de|ru|ar|es|fr)/practice-areas/kita-hukuku", destination: "/:locale/practice-areas/kira-hukuku", permanent: true },
       { source: "/articles", destination: "/tr/articles", permanent: true },
       // EN-slug makaleler prefix'siz erişimlerde → EN locale
       // (catch-all aşağıdaki kural öncesinde bu spesifik slug'ları yakalamalı)
@@ -235,10 +269,12 @@ const nextConfig: NextConfig = {
       // "ttk-350" typo (doğrusu "tbk-350" — ihtiyaç nedeniyle tahliye TBK m.350,
       // TTK değil). Hiçbir dilde bu slug'la makale yok; catch-all'a düşerse 404.
       { source: "/articles/ihtiyac-nedeniyle-tahliye-ttk-350", destination: "/tr/articles/ihtiyac-nedeniyle-tahliye-tbk-350", permanent: true },
-      { source: "/:locale(tr|en|de|ru|ar|es|fr|zh)/articles/ihtiyac-nedeniyle-tahliye-ttk-350", destination: "/:locale/articles/ihtiyac-nedeniyle-tahliye-tbk-350", permanent: true },
+      { source: "/:locale(tr|en|de|ru|ar|es|fr)/articles/ihtiyac-nedeniyle-tahliye-ttk-350", destination: "/:locale/articles/ihtiyac-nedeniyle-tahliye-tbk-350", permanent: true },
       // Locale'siz TÜRKÇE slug → TR (build anında içerikten üretilir).
       // Catch-all'dan önce gelmeli.
       ...unprefixedTrSlugRedirects(),
+      // 69. karakterde kesilmiş eski TR slug'ları → tam slug (build anında üretilir)
+      ...truncatedTrSlugRedirects(),
       // Catch-all: locale'siz İngilizce/bilinmeyen slug → EN
       { source: "/articles/:slug+", destination: "/en/articles/:slug+", permanent: true },
 
@@ -560,60 +596,6 @@ const nextConfig: NextConfig = {
       { source: "/en/articles/yapay-zeka-turk-hukuku-duzenleme-cercevesi", destination: "/en/articles/artificial-intelligence-turkish-law-framework", permanent: true },
       { source: "/en/articles/yatirim-amacli-konut-alimi-vergi-hukuki-yukumluluk", destination: "/en/articles/investment-property-turkey-tax-legal-obligations", permanent: true },
       { source: "/en/articles/yatirim-yoluyla-turk-vatandasligi-tam-rehber", destination: "/en/articles/turkish-citizenship-by-investment-full-guide", permanent: true },
-
-      // ── ZH: Türkçe-slug → İngilizce-slug (diğer locale'lerle aynı, ZH de İngilizce
-      // slug kullanıyor — bu blok eksikti, GSC "Bulunamadı (404)" raporunda /zh/
-      // makale URL'lerinin tamamı bu yüzden 404 veriyordu) ─────────────────────
-      { source: "/zh/articles/aile-ikamet-izni-turk-vatandasi-es", destination: "/zh/articles/family-residence-permit-spouse-turkish-citizen", permanent: true },
-      { source: "/zh/articles/anonim-sirket-vs-limited-sirket-secim", destination: "/zh/articles/jsc-vs-llc-which-to-choose-turkey", permanent: true },
-      { source: "/zh/articles/antalya-kira-sozlesmesi-haklar-yukumlulukler", destination: "/zh/articles/antalya-rental-agreement-rights-obligations", permanent: true },
-      { source: "/zh/articles/calisma-izni-iptali-is-sozlesmesi-sona-ermesi", destination: "/zh/articles/work-permit-cancellation-employment-contract-end", permanent: true },
-      { source: "/zh/articles/calisma-izni-reddi-itiraz-yollari", destination: "/zh/articles/work-permit-denial-appeal-turkey", permanent: true },
-      { source: "/zh/articles/dolandiricilik-magdurlari-icin-hukuki-yollar", destination: "/zh/articles/fraud-victims-foreigners-legal-remedies", permanent: true },
-      { source: "/zh/articles/eticaret-kvkk-cerez-politikasi", destination: "/zh/articles/ecommerce-kvkk-cookie-policy-compliance", permanent: true },
-      { source: "/zh/articles/evlilik-yoluyla-turk-vatandasligi", destination: "/zh/articles/turkish-citizenship-through-marriage", permanent: true },
-      { source: "/zh/articles/ihtiyac-nedeniyle-tahliye-tbk-350", destination: "/zh/articles/eviction-landlord-need-turkey", permanent: true },
-      { source: "/zh/articles/iki-hakli-ihtar-kira-odemeyen-kiraciyi-tahliye", destination: "/zh/articles/tenant-non-payment-eviction-two-notice-turkey", permanent: true },
-      { source: "/zh/articles/isyeri-kira-sozlesmesi", destination: "/zh/articles/commercial-lease-turkey", permanent: true },
-      { source: "/zh/articles/kidem-ihbar-tazminati-yabancilar-hesaplama", destination: "/zh/articles/severance-notice-pay-foreigners-calculation", permanent: true },
-      { source: "/zh/articles/kira-artisi-siniri-tbk-344", destination: "/zh/articles/rent-increase-cap-turkey", permanent: true },
-      { source: "/zh/articles/kira-depozito-guvence-bedeli", destination: "/zh/articles/security-deposit-rental-turkey", permanent: true },
-      { source: "/zh/articles/kira-tespiti-davasi", destination: "/zh/articles/rent-determination-lawsuit-turkey", permanent: true },
-      { source: "/zh/articles/kvkk-uyumu-turkiye-veri-koruma-yukumlulukleri", destination: "/zh/articles/kvkk-compliance-turkey-data-protection", permanent: true },
-      { source: "/zh/articles/miras-reddi-sartlar-sure", destination: "/zh/articles/inheritance-rejection-conditions-period", permanent: true },
-      { source: "/zh/articles/mobbing-hukuki-yaptirim", destination: "/zh/articles/mobbing-workplace-harassment-legal-remedies", permanent: true },
-      { source: "/zh/articles/nafaka-turleri-yabanci-muvekkiller", destination: "/zh/articles/alimony-types-foreign-clients-turkey", permanent: true },
-      { source: "/zh/articles/ogrenci-ikamet-izninden-calisma-izni-gecis", destination: "/zh/articles/student-to-work-permit-transition-turkey", permanent: true },
-      { source: "/zh/articles/oturma-izni-iptali-hukuki-yollar", destination: "/zh/articles/residence-permit-cancellation-legal-routes", permanent: true },
-      { source: "/zh/articles/sahte-tapu-dolandiriciligina-karsi-korunma", destination: "/zh/articles/protecting-against-fraud-property-purchase-turkey", permanent: true },
-      { source: "/zh/articles/sosyal-medya-iftirasi-hukuki-yaptirim", destination: "/zh/articles/social-media-defamation-legal-remedies", permanent: true },
-      { source: "/zh/articles/tapu-devri-sirasinda-dikkat-edilmesi-gerekenler", destination: "/zh/articles/title-deed-transfer-checklist-foreign-buyers", permanent: true },
-      { source: "/zh/articles/ticari-sozlesmelerde-sikca-yapilan-hatalar", destination: "/zh/articles/common-mistakes-commercial-contracts-turkey", permanent: true },
-      { source: "/zh/articles/trafik-kazasinda-ceza-sorumlulugu-yabanci-surucu", destination: "/zh/articles/traffic-accident-criminal-liability-foreign-drivers", permanent: true },
-      { source: "/zh/articles/turk-vatandasligi-basvuru-reddi-itiraz", destination: "/zh/articles/turkish-citizenship-application-rejection-appeal", permanent: true },
-      { source: "/zh/articles/turk-vatandasligi-cifte-vatandaslik-statusu", destination: "/zh/articles/turkish-dual-citizenship-status", permanent: true },
-      { source: "/zh/articles/turkiye-kisa-donem-ikamet-izni-basvurusu-rehberi", destination: "/zh/articles/short-term-residence-permit-turkey-guide", permanent: true },
-      { source: "/zh/articles/turkiyede-mulku-olan-yabancilarin-miras-hukuku", destination: "/zh/articles/foreigners-property-turkey-inheritance-law", permanent: true },
-      { source: "/zh/articles/turkiyede-yabanci-calisanin-isten-cikarilmasi", destination: "/zh/articles/foreign-employee-termination-turkey", permanent: true },
-      { source: "/zh/articles/uluslararasi-bosanma-turkiyede-tanima-tenfiz", destination: "/zh/articles/international-divorce-recognition-enforcement-turkey", permanent: true },
-      { source: "/zh/articles/uluslararasi-cocuk-kacirma-lahey-sozlesmesi", destination: "/zh/articles/international-child-abduction-hague-convention", permanent: true },
-      { source: "/zh/articles/uyusturucu-suclarinda-savunma-stratejileri", destination: "/zh/articles/narcotics-offences-defence-strategies-turkey", permanent: true },
-      { source: "/zh/articles/uzaktan-calisan-yabanci-isci-haklari", destination: "/zh/articles/remote-foreign-workers-rights-turkey", permanent: true },
-      { source: "/zh/articles/vasiyetname-duzenleme-yabancilar-icin", destination: "/zh/articles/will-drafting-foreigners-turkey", permanent: true },
-      { source: "/zh/articles/velayet-davalarinda-yabancilarin-haklari", destination: "/zh/articles/custody-rights-foreign-clients-turkey", permanent: true },
-      { source: "/zh/articles/veraset-ilami-yabanci-mirasci-rehber", destination: "/zh/articles/certificate-of-inheritance-foreign-heirs", permanent: true },
-      { source: "/zh/articles/vize-reddi-iptal-davasi", destination: "/zh/articles/visa-denial-cancellation-lawsuit-turkey", permanent: true },
-      { source: "/zh/articles/yabanci-es-cocuk-icin-turk-vatandasligi", destination: "/zh/articles/turkish-citizenship-for-spouse-and-children", permanent: true },
-      { source: "/zh/articles/yabanci-eslerin-bosanmasinda-mal-paylasimi", destination: "/zh/articles/property-division-foreign-spouses-divorce-turkey", permanent: true },
-      { source: "/zh/articles/yabanci-olarak-turkiye-daire-almak-hukuki-rehber", destination: "/zh/articles/buying-property-in-turkey-foreigner-guide", permanent: true },
-      { source: "/zh/articles/yabanci-vasiyetnamesi-turkiyede-tanima", destination: "/zh/articles/foreign-will-recognition-turkey", permanent: true },
-      { source: "/zh/articles/yabanci-yatirimci-turkiyede-sirket-kurma", destination: "/zh/articles/foreign-investor-company-formation-turkey", permanent: true },
-      { source: "/zh/articles/yabancilar-icin-idare-mahkemesi-surecleri", destination: "/zh/articles/administrative-court-procedure-foreigners", permanent: true },
-      { source: "/zh/articles/yabancilar-icin-turkiye-ceza-davasi-sureci", destination: "/zh/articles/criminal-procedure-foreigners-turkey", permanent: true },
-      { source: "/zh/articles/yabancilar-icin-tutuklama-adli-kontrol", destination: "/zh/articles/detention-judicial-control-foreigners-turkey", permanent: true },
-      { source: "/zh/articles/yapay-zeka-turk-hukuku-duzenleme-cercevesi", destination: "/zh/articles/artificial-intelligence-turkish-law-framework", permanent: true },
-      { source: "/zh/articles/yatirim-amacli-konut-alimi-vergi-hukuki-yukumluluk", destination: "/zh/articles/investment-property-turkey-tax-legal-obligations", permanent: true },
-      { source: "/zh/articles/yatirim-yoluyla-turk-vatandasligi-tam-rehber", destination: "/zh/articles/turkish-citizenship-by-investment-full-guide", permanent: true },
 
       // ── FR: Türkçe-slug → İngilizce-slug (31 Mayıs QA silme işlemi sonrası) ──
       // QA workflow c8b6a6f commit'inde 56 FR Türkçe-slug dosyası "spurious" olarak

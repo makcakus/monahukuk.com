@@ -1,7 +1,7 @@
 /**
  * SERP'te kesilen meta açıklamalarını temiz bir cümle sınırında kısaltır.
  *
- * Google açıklamayı ~160 karakterde (zh gibi CJK dillerinde daha erken) keser.
+ * Google açıklamayı ~160 karakterde keser.
  * Kesme kaçınılmazsa cümlenin ortasında değil, noktalama sınırında olsun diye
  * açıklamayı son uygun sınırdan kırpıyoruz. Sınır bulunamazsa ya da sonuç çok
  * kısalıyorsa dosyaya dokunulmaz; bunlar elle yazılmak üzere raporlanır.
@@ -15,7 +15,7 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const ROOT = path.join(process.cwd(), "content", "articles");
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"];
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 const WRITE = process.argv.includes("--write");
 
 /**
@@ -26,7 +26,7 @@ const WRITE = process.argv.includes("--write");
  * çok bilgi kaybettirir. Kısaltma ancak geriye dolu bir açıklama kalıyorsa
  * kazançlıdır, aksi hâlde dosyaya dokunmuyoruz.
  */
-const BOUNDS = { zh: [60, 80], default: [120, 160] };
+const BOUNDS = { default: [120, 160] };
 const boundsFor = (loc) => BOUNDS[loc] ?? BOUNDS.default;
 
 /**
@@ -38,7 +38,7 @@ const HARD_BOUNDARY = /[。！？؟]/g;
 const SOFT_BOUNDARY = /[.!?]/g;
 
 /** Sonraki cümlenin başlangıcı: büyük harf, CJK veya Arapça harf. */
-const SENTENCE_START = /[A-ZÀ-ÞĞİÖŞÜÇА-Я؀-ۿ一-鿿]/;
+const SENTENCE_START = /[A-ZÀ-ÞĞİÖŞÜÇА-Я؀-ۿ]/;
 
 /**
  * Hukuk metinlerinde nokta çoğu zaman cümle sonu değil kısaltmadır:
@@ -147,7 +147,7 @@ console.log();
 if (process.argv.includes("--verify")) {
   const bad = changed.filter((c) => !/[.!?。！？؟]$/.test(c.after));
   const [dmin] = BOUNDS.default;
-  const short = changed.filter((c) => !c.id.startsWith("zh/") && c.to < dmin);
+  const short = changed.filter((c) => c.to < dmin);
   console.log(`dogrulama: cumle sonu olmayan ${bad.length}, alt sinirin altinda ${short.length}`);
   for (const b of bad.slice(0, 5)) console.log(`  ! ${b.id}: …${b.after.slice(-60)}`);
 }

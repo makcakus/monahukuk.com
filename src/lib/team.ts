@@ -1,4 +1,4 @@
-export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string; es: string; fr: string; zh: string };
+export type LangMap = { tr: string; en: string; de: string; ru: string; ar: string; es: string; fr: string };
 
 export type Member = {
   name: string;
@@ -26,17 +26,16 @@ export const TEAM: Member[] = [
       ar: "محامٍ مؤسس",
       es: "Abogado Fundador",
       fr: "Avocat Fondateur",
-      zh: "创始律师",
     },
     education: "Selçuk University / Selçuk Üniversitesi Hukuk Fakültesi, 2014",
     bar: "Antalya Barosu · Sicil No. 5151",
     areas: [
-      { tr: "Bilişim & Yapay Zekâ Hukuku", en: "IT & AI Law", de: "IT- & KI-Recht", ru: "IT и ИИ-право", ar: "قانون تقنية المعلومات والذكاء الاصطناعي", es: "Derecho TI e IA", fr: "Droit Informatique et IA", zh: "信息技术与人工智能法" },
-      { tr: "Kişisel Veri Koruma (KVKK)", en: "Data Protection (KVKK)", de: "Datenschutz (KVKK)", ru: "Защита данных (KVKK)", ar: "حماية البيانات (KVKK)", es: "Protección de Datos (KVKK)", fr: "Protection des Données (KVKK)", zh: "个人数据保护（KVKK）" },
-      { tr: "Gayrimenkul", en: "Real Estate", de: "Immobilienrecht", ru: "Недвижимость", ar: "العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier", zh: "房地产法" },
-      { tr: "Türk Vatandaşlığı", en: "Turkish Citizenship", de: "Türkische Staatsbürgerschaft", ru: "Гражданство Турции", ar: "الجنسية التركية", es: "Ciudadanía Turca", fr: "Nationalité Turque", zh: "土耳其国籍" },
-      { tr: "Yabancılar Hukuku", en: "Immigration", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الأجانب", es: "Derecho de Inmigración", fr: "Droit de l'Immigration", zh: "移民法" },
-      { tr: "Fikri Mülkiyet Hukuku", en: "Intellectual Property Law", de: "Recht des geistigen Eigentums", ru: "Право интеллектуальной собственности", ar: "قانون الملكية الفكرية", es: "Derecho de Propiedad Intelectual", fr: "Droit de la Propriété Intellectuelle", zh: "知识产权法" },
+      { tr: "Bilişim & Yapay Zekâ Hukuku", en: "IT & AI Law", de: "IT- & KI-Recht", ru: "IT и ИИ-право", ar: "قانون تقنية المعلومات والذكاء الاصطناعي", es: "Derecho TI e IA", fr: "Droit Informatique et IA" },
+      { tr: "Kişisel Veri Koruma (KVKK)", en: "Data Protection (KVKK)", de: "Datenschutz (KVKK)", ru: "Защита данных (KVKK)", ar: "حماية البيانات (KVKK)", es: "Protección de Datos (KVKK)", fr: "Protection des Données (KVKK)" },
+      { tr: "Gayrimenkul", en: "Real Estate", de: "Immobilienrecht", ru: "Недвижимость", ar: "العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier" },
+      { tr: "Türk Vatandaşlığı", en: "Turkish Citizenship", de: "Türkische Staatsbürgerschaft", ru: "Гражданство Турции", ar: "الجنسية التركية", es: "Ciudadanía Turca", fr: "Nationalité Turque" },
+      { tr: "Yabancılar Hukuku", en: "Immigration", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الأجانب", es: "Derecho de Inmigración", fr: "Droit de l'Immigration" },
+      { tr: "Fikri Mülkiyet Hukuku", en: "Intellectual Property Law", de: "Recht des geistigen Eigentums", ru: "Право интеллектуальной собственности", ar: "قانون الملكية الفكرية", es: "Derecho de Propiedad Intelectual", fr: "Droit de la Propriété Intellectuelle" },
     ],
     bio: {
       tr: "MONA HUKUK'un kurucu ortağı Mustafa, kariyerine İstanbul Barosu'nda başlamış, 2017'den bu yana Antalya Barosu'na kayıtlı olarak çalışmaktadır. Bilişim şirketlerine ve uluslararası müvekkillere Türkiye'de BT Hukuku, yapay zekâ düzenlemeleri ve veri koruma (KVKK) uyumu konularında danışmanlık vermektedir. Yazılım geliştirme ve lisans sözleşmeleri, veri ihlali süreçleri ile marka, telif ve alan adı uyuşmazlıkları yürüttüğü işler arasındadır. Ayrıca yabancı müvekkillerin Antalya'da taşınmaz edinimi, oturma izni ve Türk vatandaşlığı başvurularını takip etmektedir. Bu sitedeki hukuki makalelerin başlıca yazarıdır; çalışmalarını Türkçe ve İngilizce yürütmektedir.",
@@ -46,7 +45,6 @@ export const TEAM: Member[] = [
       ar: "مصطفى هو المؤسس والمحامي الشريك في MONA HUKUK؛ بدأ مسيرته المهنية في نقابة محامي إسطنبول، وهو مقيّد لدى نقابة محامي أنطاليا منذ عام 2017. ويقدم المشورة لشركات التكنولوجيا والعملاء الدوليين في مجالات قانون تقنية المعلومات وتنظيم الذكاء الاصطناعي والامتثال لحماية البيانات (KVKK) في تركيا. تشمل أعماله عقود تطوير البرمجيات وترخيصها، وإجراءات انتهاكات البيانات، ونزاعات العلامات التجارية وحقوق المؤلف وأسماء النطاقات. كما يتابع ملفات العملاء الأجانب في تملّك العقارات وتصاريح الإقامة وطلبات الجنسية التركية في أنطاليا. وهو الكاتب الرئيسي للمقالات القانونية في هذا الموقع، ويعمل باللغتين التركية والإنجليزية.",
       es: "Mustafa, socio fundador de MONA HUKUK, inició su carrera en el Colegio de Abogados de Estambul y ejerce como miembro del Colegio de Abogados de Antalya desde 2017. Asesora a empresas tecnológicas y clientes internacionales en derecho TI, regulación de la inteligencia artificial y cumplimiento en protección de datos (KVKK) en Turquía. Su labor abarca contratos de desarrollo y licencia de software, procedimientos por violaciones de datos, y disputas sobre marcas, derechos de autor y nombres de dominio. Asimismo, acompaña a clientes extranjeros en la adquisición de inmuebles, los permisos de residencia y las solicitudes de ciudadanía turca en Antalya. Es el autor principal de los artículos jurídicos de este sitio y trabaja en turco e inglés.",
       fr: "Associé fondateur de MONA HUKUK, Mustafa a débuté sa carrière au barreau d'Istanbul et exerce comme membre du barreau d'Antalya depuis 2017. Il conseille les entreprises technologiques et les clients internationaux sur le droit informatique, la réglementation de l'intelligence artificielle et la conformité en matière de protection des données (KVKK) en Turquie. Sa pratique couvre les contrats de développement et de licence de logiciels, les procédures liées aux violations de données, ainsi que les litiges de marques, de droits d'auteur et de noms de domaine. Il accompagne également les clients étrangers dans l'acquisition immobilière, les permis de séjour et les demandes de nationalité turque à Antalya. Il est l'auteur principal des articles juridiques de ce site et travaille en turc et en anglais.",
-      zh: "穆斯塔法是MONA HUKUK的创始合伙人，其职业生涯始于伊斯坦布尔律师协会，自2017年起注册于安塔利亚律师协会执业。他为科技公司及国际客户提供土耳其信息技术法律、人工智能监管及数据保护（KVKK）合规方面的法律咨询。其业务范围包括软件开发与许可合同、数据泄露应对程序，以及商标、著作权和域名争议。他还协助外国客户办理在安塔利亚的房产购置、居留许可和土耳其国籍申请。他是本网站法律文章的主要作者，工作语言为土耳其语和英语。",
     },
   },
   {
@@ -59,15 +57,14 @@ export const TEAM: Member[] = [
       ar: "محامٍ أول",
       es: "Abogado Principal",
       fr: "Avocat Senior",
-      zh: "高级律师",
     },
     education: "Selçuk University / Selçuk Üniversitesi Hukuk Fakültesi, 2014",
     bar: "Antalya Barosu · Sicil No. 8994",
     areas: [
-      { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي", es: "Derecho Penal", fr: "Droit Pénal", zh: "刑法" },
-      { tr: "İş Hukuku", en: "Labour Law", de: "Arbeitsrecht", ru: "Трудовое право", ar: "قانون العمل", es: "Derecho Laboral", fr: "Droit du Travail", zh: "劳动法" },
-      { tr: "Gayrimenkul Hukuku", en: "Real Estate Law", de: "Immobilienrecht", ru: "Право в сфере недвижимости", ar: "قانون العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier", zh: "房地产法" },
-      { tr: "Kira Hukuku", en: "Rental Law", de: "Mietrecht", ru: "Арендное право", ar: "قانون الإيجار", es: "Derecho Arrendaticio", fr: "Droit de la Location", zh: "租赁法" },
+      { tr: "Ceza Hukuku", en: "Criminal Law", de: "Strafrecht", ru: "Уголовное право", ar: "القانون الجنائي", es: "Derecho Penal", fr: "Droit Pénal" },
+      { tr: "İş Hukuku", en: "Labour Law", de: "Arbeitsrecht", ru: "Трудовое право", ar: "قانون العمل", es: "Derecho Laboral", fr: "Droit du Travail" },
+      { tr: "Gayrimenkul Hukuku", en: "Real Estate Law", de: "Immobilienrecht", ru: "Право в сфере недвижимости", ar: "قانون العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier" },
+      { tr: "Kira Hukuku", en: "Rental Law", de: "Mietrecht", ru: "Арендное право", ar: "قانون الإيجار", es: "Derecho Arrendaticio", fr: "Droit de la Location" },
     ],
     bio: {
       tr: "Kariyerine İstanbul Barosu'nda başlayan Murat, 2023'ten bu yana Antalya mahkemelerinde müvekkilleri temsil etmekte; ceza savunması, iş uyuşmazlıkları ve taşınmaz davalarına odaklanmaktadır. Ceza dosyalarında soruşturma aşamasındaki ilk ifadeden istinaf ve temyiz süreçlerine kadar savunmanın her aşamasını üstlenmektedir. İş Hukuku alanında işe iade, kıdem ve ihbar tazminatı ile fazla mesai alacaklarına ilişkin davaları; Kira Hukuku alanında tahliye, kira tespiti ve uyarlama uyuşmazlıklarını yürütmektedir. İstanbul'da edindiği dava tecrübesini Antalya'daki uygulamayla birleştirmektedir.",
@@ -77,7 +74,6 @@ export const TEAM: Member[] = [
       ar: "بدأ مراد مسيرته في نقابة محامي إسطنبول، ويمثل الموكلين أمام محاكم أنطاليا منذ عام 2023، مركّزاً على الدفاع الجنائي ونزاعات العمل وقضايا العقارات. في الملفات الجنائية يتولى الدفاع في جميع المراحل، من الإفادة الأولى في مرحلة التحقيق إلى الاستئناف والنقض. وفي قانون العمل يتابع دعاوى الإعادة إلى العمل وتعويضات نهاية الخدمة والإشعار ومستحقات العمل الإضافي، بينما يتولى في قانون الإيجار دعاوى الإخلاء وتحديد بدل الإيجار وتعديله. ويجمع بين خبرة التقاضي التي اكتسبها في إسطنبول والممارسة اليومية في أنطاليا.",
       es: "Murat inició su carrera en el Colegio de Abogados de Estambul y desde 2023 representa a clientes ante los tribunales de Antalya, centrándose en defensa penal, litigios laborales y pleitos inmobiliarios. En materia penal asume la defensa en todas las fases del proceso, desde la primera declaración en la instrucción hasta la apelación y la casación. Su práctica laboral comprende demandas de readmisión, indemnizaciones por despido y preaviso, y reclamaciones de horas extraordinarias; en derecho arrendaticio tramita desahucios y procedimientos de determinación y ajuste de la renta. Combina la experiencia procesal adquirida en Estambul con la práctica diaria en Antalya.",
       fr: "Murat a débuté sa carrière au barreau d'Istanbul et représente depuis 2023 des clients devant les tribunaux d'Antalya, en se concentrant sur la défense pénale, les litiges du travail et le contentieux immobilier. Au pénal, il assure la défense à chaque étape de la procédure, de la première audition durant l'enquête jusqu'à l'appel et au pourvoi en cassation. En droit du travail, il traite les actions en réintégration, les indemnités de licenciement et de préavis ainsi que les créances d'heures supplémentaires ; en droit des baux, il conduit les procédures d'expulsion, de fixation et de révision des loyers. Il allie l'expérience contentieuse acquise à Istanbul à la pratique quotidienne d'Antalya.",
-      zh: "穆拉特的职业生涯始于伊斯坦布尔律师协会，自2023年起在安塔利亚法院代理客户，工作重点为刑事辩护、劳动争议和不动产诉讼。在刑事案件中，他承担从侦查阶段首次讯问到各级上诉程序的全部辩护环节。在劳动法领域，他办理复职、遣散费与代通知金及加班费追索案件；在租赁法领域，他处理腾退、租金核定及租金调整纠纷。他将在伊斯坦布尔积累的诉讼经验与安塔利亚的日常执业相结合。",
     },
   },
 ];

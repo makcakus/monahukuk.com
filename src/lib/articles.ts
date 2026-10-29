@@ -230,7 +230,7 @@ export async function getAvailableLocalesForArticle(
 
   const locales = new Set<string>([locale]);
 
-  for (const loc of ["en", "de", "ru", "ar", "es", "fr", "zh"]) {
+  for (const loc of ["en", "de", "ru", "ar", "es", "fr"]) {
     if (loc === locale) continue;
     const exists = await getArticle(loc, tk);
     if (exists) locales.add(loc);
@@ -296,10 +296,10 @@ export async function getRelatedArticles(
 }
 
 /**
- * SSS başlıklarındaki dile özgü soru öneki: "S:", "Q:", "F:", "P:", "В:", "س:",
- * "问：". Şemaya yazılan soru metninden temizlenir.
+ * SSS başlıklarındaki dile özgü soru öneki: "S:", "Q:", "F:", "P:", "В:", "س:".
+ * Şemaya yazılan soru metninden temizlenir.
  */
-const FAQ_PREFIX = /^(?:S|Q|F|P|В|س|问|問)\s*[:：]\s*/;
+const FAQ_PREFIX = /^(?:S|Q|F|P|В|س)\s*[:：]\s*/;
 
 /** Soru işareti — Latin, tam genişlikli CJK ve Arapça. */
 const QUESTION_MARK = /[?？؟]/;

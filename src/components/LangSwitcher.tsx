@@ -14,10 +14,9 @@ const LANG_LABELS: Record<string, string> = {
   ar: "العربية",
   es: "Español",
   fr: "Français",
-  zh: "中文",
 };
 
-const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr", "zh"] as const;
+const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"] as const;
 
 export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}) {
   const router = useRouter();
@@ -25,8 +24,8 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
   const locale = useLocale();
   const [pending, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
-  const [availableLocales, setAvailableLocales] = useState<string[] | null>(null);
-  const [legalNewsSlugs, setLegalNewsSlugs] = useState<Record<string, string> | null>(null);
+  const [articleLocalesRes, setArticleLocalesRes] = useState<{ key: string; value: string[] | null } | null>(null);
+  const [legalNewsRes, setLegalNewsRes] = useState<{ key: string; value: Record<string, string> | null } | null>(null);
   const ref = useRef<HTMLDivElement>(null);
 
   const articleSlug = pathname.match(/^\/articles\/([^/]+)$/)?.[1];
@@ -42,43 +41,45 @@ export function LangSwitcher({ align = "end" }: { align?: "start" | "end" } = {}
     return () => document.removeEventListener("mousedown", onClickOutside);
   }, []);
 
+  // Fetch sonucu, hangi (locale, slug) için geldiğiyle birlikte tutulur; slug
+  // değişince eski sonuç türetme sırasında otomatik olarak geçersiz sayılır
+  // (effect içinde senkron setState gerekmez).
+  const articleKey = articleSlug ? `${locale}/${articleSlug}` : null;
+  const legalNewsKey = legalNewsSlug ? `${locale}/${legalNewsSlug}` : null;
+  const availableLocales = articleLocalesRes && articleLocalesRes.key === articleKey ? articleLocalesRes.value : null;
+  const legalNewsSlugs = legalNewsRes && legalNewsRes.key === legalNewsKey ? legalNewsRes.value : null;
+
   useEffect(() => {
-    if (!articleSlug) {
-      setAvailableLocales(null);
-      return;
-    }
+    if (!articleSlug || !articleKey) return;
     let cancelled = false;
     fetch(`/api/article-locales?locale=${locale}&slug=${articleSlug}`)
       .then((r) => r.json())
       .then((data) => {
-        if (!cancelled) setAvailableLocales((data as { locales?: string[] }).locales ?? null);
+        if (!cancelled) setArticleLocalesRes({ key: articleKey, value: (data as { locales?: string[] }).locales ?? null });
       })
       .catch(() => {
-        if (!cancelled) setAvailableLocales(null);
+        if (!cancelled) setArticleLocalesRes({ key: articleKey, value: null });
       });
     return () => {
       cancelled = true;
     };
-  }, [articleSlug, locale]);
+  }, [articleSlug, articleKey, locale]);
 
   useEffect(() => {
-    if (!legalNewsSlug) {
-      setLegalNewsSlugs(null);
-      return;
-    }
+    if (!legalNewsSlug || !legalNewsKey) return;
     let cancelled = false;
     fetch(`/api/legal-news-locales?locale=${locale}&slug=${legalNewsSlug}`)
       .then((r) => r.json())
       .then((data) => {
-        if (!cancelled) setLegalNewsSlugs((data as { slugs?: Record<string, string> }).slugs ?? null);
+        if (!cancelled) setLegalNewsRes({ key: legalNewsKey, value: (data as { slugs?: Record<string, string> }).slugs ?? null });
       })
       .catch(() => {
-        if (!cancelled) setLegalNewsSlugs(null);
+        if (!cancelled) setLegalNewsRes({ key: legalNewsKey, value: null });
       });
     return () => {
       cancelled = true;
     };
-  }, [legalNewsSlug, locale]);
+  }, [legalNewsSlug, legalNewsKey, locale]);
 
   // Makale/haber sayfasında değilsek veya liste henüz/başarısız yüklendiyse tüm dilleri göster.
   const visibleLocales = articleSlug && availableLocales
