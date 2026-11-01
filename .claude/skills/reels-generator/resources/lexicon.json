@@ -1,1 +1,23 @@
-[]
+[
+ {
+  "say": "kânun",
+  "stem": "kanun",
+  "edit": [
+   "k a > k a ː"
+  ]
+ },
+ {
+  "say": "ferâgat",
+  "stem": "feragat",
+  "edit": [
+   "ɾ a > ɾ a ː"
+  ]
+ },
+ {
+  "say": "tâkip",
+  "stem": "takip",
+  "edit": [
+   "t a k > t a ː c"
+  ]
+ }
+]

@@ -23,6 +23,7 @@ SKILL = Path(__file__).resolve().parent.parent
 VOICES = SKILL / "resources/voices"
 LEXICON = SKILL / "resources/lexicon.json"
 STRESS = {"ˈ", "ˌ"}
+VOWELS = set("aeɛiɪɯoɔuʊøyœəɑ")
 WORD = re.compile(r"[\w'’]+", re.UNICODE)
 SENT_END = re.compile(r"(?<=[.!?;:])\s+")
 PAUSE = {".": 0.35, "!": 0.35, "?": 0.35, ";": 0.25, ":": 0.2}
@@ -46,17 +47,20 @@ def apply_edits(phonemes, edits):
         for s in range(len(flat) - len(left) + 1):
             if flat[s:s + len(left)] == left:
                 first, last = idx[s], idx[s + len(left) - 1]
-                phonemes = phonemes[:first] + right + phonemes[last + 1:]
+                inner = [p for p in phonemes[first:last + 1] if p in STRESS]   # eşleşme içindeki vurgu
+                new = list(right)
+                if inner:   # vurguyu yerine koyduğumuz ilk ünlünün önüne taşı
+                    pos = next((i for i, p in enumerate(new) if p in VOWELS), 0)
+                    new[pos:pos] = inner
+                phonemes = phonemes[:first] + new + phonemes[last + 1:]
                 break
     return phonemes
 
 
-def match_entry(word, lexicon):
+def match_entries(word, lexicon):
+    """Kelimeye uyan tüm kurallar (sırayla uygulanır: ör. kanuni -> kanun kökü + sıfat sonu î)."""
     w = _tr_lower(word)
-    for e in lexicon:
-        if w in e.get("words", []) or ("stem" in e and w.startswith(e["stem"])):
-            return e
-    return None
+    return [e for e in lexicon if w in e.get("words", []) or ("stem" in e and w.startswith(e["stem"]))]
 
 
 class TrVoice:
@@ -71,8 +75,9 @@ class TrVoice:
 
     def _word_phonemes(self, word):
         ph = [p for sent in self.v.phonemize(word) for p in sent]
-        entry = match_entry(word, self.lexicon)
-        return apply_edits(ph, entry["edit"]) if entry else ph
+        for entry in match_entries(word, self.lexicon):
+            ph = apply_edits(ph, entry["edit"])
+        return ph
 
     def sentence_phonemes(self, sentence):
         out, pending_space = [], False
