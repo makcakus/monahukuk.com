@@ -20,7 +20,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | # | kelime | grup | sıklık | Zemberek | şapkalı | motor | öğretilen |
 |---|---|---|---|---|---|---|---|
 | 1 | saat | A | 214 | InverseHarmony, NoVoicing | — | s a ˈ a t | — |
-| 2 | kabul | A | 269 | InverseHarmony | — | k a b ˈ ʊ ɫ | k a b ˈ u ː l ʲ |
+| 2 | kabul | A | 269 | InverseHarmony | — | k a b ˈ ʊ ɫ | k a b ˈ y ː l |
 | 3 | kontrol | A | 296 | InverseHarmony | — | k ɔ n t r ˈ ɔ ɫ | k ɔ n t r ˈ o l |
 | 4 | dikkat | A | 351 | InverseHarmony | — | d i k ː ˈ a t | — |
 | 5 | hayal | A | 497 | InverseHarmony | — | h a j ˈ a ɫ | — |
@@ -786,7 +786,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | 765 | ispat | D | 9984 | NoVoicing | — | ɪ s p ˈ a t | — |
 | 766 | ikrar | D | — | var | — | ɪ k r ˈ a r | — |
 | 767 | yemin | D | 689 | var | — | j e m ˈ ɪ n | — |
-| 768 | sulh | D | 33584 | var | — | s ˈ ʊ ɫ h | — |
+| 768 | sulh | D | 33584 | var | — | s ˈ ʊ ɫ h | s ˈ y ː l h |
 | 769 | vekil | D | 11915 | var | — | v e k ˈ ɪ l | — |
 | 770 | avukat | D | 1402 | NoVoicing | — | a v u k ˈ a t | — |
 | 771 | savcı | D | 4832 | var | — | s a v d ʒ ˈ ɯ | — |
@@ -840,7 +840,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | 819 | sanık | D | 10438 | var | — | s a n ˈ ɯ k | — |
 | 820 | iddianame | D | — | var | — | i d ː i a n ˈ a m ɛ | — |
 | 821 | savunma | D | 1860 | var | — | s a v ˈ ʊ n m a | — |
-| 822 | itiraz | D | 7216 | var | — | i t i ɾ ˈ a z | — |
+| 822 | itiraz | D | 7216 | var | — | i t i ɾ ˈ a z | i ː t i ɾ ˈ a z |
 | 823 | ihbar | D | 4858 | var | — | ɪ h b ˈ a r | — |
 | 824 | soruşturma | D | 3220 | — | — | s o ɾ ˈ ʊ ʃ t ʊ r m a | — |
 | 825 | kovuşturma | D | — | — | — | k o v ˈ ʊ ʃ t ʊ r m a | — |

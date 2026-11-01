@@ -49,12 +49,15 @@ Modelde olmayan bir simge kuralda yazılırsa fonem dizisinden **sessizce düşe
 | medenî | medeni | m e d e n ˈ ɪ | m e d e n ˈ i ː |
 | malî | mali | m a l ˈ ɪ | m a l ˈ i ː |
 | idarî | idari | i d a ɾ ˈ ɪ | i d a ɾ ˈ i ː |
-| kabûl | kabul | k a b ˈ ʊ ɫ | k a b ˈ u ː l ʲ |
 | sosyâl | sosyal | s ɔ s j ˈ a ɫ | s ɔ s j ˈ æ l |
 | -âl (ince a, açık l) | normal | n ɔ r m ˈ a ɫ | n ɔ r m ˈ æ l |
 | -ol (açık l) | kontrol | k ɔ n t r ˈ ɔ ɫ | k ɔ n t r ˈ o l |
 | -ul (açık l) | meşgul | m ɛ ʃ ɡ ˈ ʊ ɫ | m ɛ ʃ ɡ ˈ u l |
 | iptâl (ince a, açık l) | iptal | ɪ p t ˈ a ɫ | ɪ p t ˈ æ l |
+| kabûl (uzun ü + açık l) | kabul | k a b ˈ ʊ ɫ | k a b ˈ y ː l |
+| sulh (uzun ü + açık l) | sulh | s ˈ ʊ ɫ h | s ˈ y ː l h |
+| tavan (vurgusuz) | tavan | t a v ˈ a n | t a v a n |
+| îtiraz (uzun i) | itiraz | i t i ɾ ˈ a z | i ː t i ɾ ˈ a z |
 
 ## Sık A/B kelimeleri, motor fonemleri [V] (ilk 80, sıklığa göre)
 | kelime | sıklık | motor |

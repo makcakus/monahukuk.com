@@ -139,14 +139,6 @@
   ]
  },
  {
-  "say": "kabûl",
-  "stem": "kabul",
-  "edit": [
-   "ʊ ɫ > u ː l ʲ",
-   "u l > u ː l ʲ"
-  ]
- },
- {
   "say": "sosyâl",
   "words": [
    "sosyal"
@@ -204,6 +196,34 @@
   "edit": [
    "a ɫ $ > æ l",
    "a l > æ l"
+  ]
+ },
+ {
+  "say": "kabûl (uzun ü + açık l)",
+  "stem": "kabul",
+  "edit": [
+   "ʊ ɫ > y ː l",
+   "u l > y ː l"
+  ]
+ },
+ {
+  "say": "sulh (uzun ü + açık l)",
+  "stem": "sulh",
+  "edit": [
+   "ʊ ɫ > y ː l"
+  ]
+ },
+ {
+  "say": "tavan (vurgusuz)",
+  "stem": "tavan",
+  "edit": [],
+  "stress": "none"
+ },
+ {
+  "say": "îtiraz (uzun i)",
+  "stem": "itiraz",
+  "edit": [
+   "i t > i ː t"
   ]
  }
 ]

@@ -10,13 +10,14 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 5. Kural **yalnız onaylanan kelimeye** uygulanır. Benzer görünen başka kelimeye (kânun'a uyan kural kâr'a) kullanıcı dinlemeden genelleştirilmez.
 
 ## Kullanıcının dinleyerek verdiği kararlar [V, kullanıcı beyanı]
-- kânun: yalnız uzun a (k sert kalır) · ferâgat: uzun a · tâkip: uzun a + ince k · kabûl: uzun u + ince l (ʲ) · **sosyâl: ince a + açık l** (æ l; "uzun a + açık l" ilk önerisi reddedildi, kural geri alınıp yeniden öğretildi).
+- kânun: yalnız uzun a (k sert kalır) · ferâgat: uzun a · tâkip: uzun a + ince k · kabûl: (ilk karar uzun u + ince l ʲ, sonra değiştirildi, aşağıya bak) · **sosyâl: ince a + açık l** (æ l; "uzun a + açık l" ilk önerisi reddedildi, kural geri alınıp yeniden öğretildi).
 - Dosya 4'teki hâkim, hâlinde, lâzım, dâhil, ikâmet, mâlik ve dosya 5'teki resmî, millî, adlî, hukukî, kânunî, medenî, malî, idarî onaylandı.
 - **Toplu karar (2026-11-01):** -al kelimelerinde (normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal) ince a + açık l (`a ɫ $ > æ l`); -ol kelimelerinde (kontrol, rol, petrol, alkol, bol) ve -ul kelimelerinde (meşgul, makul) açık l (`ɔ ɫ $ > o l`, `ʊ ɫ $ > u l`).
+- **2026-11-01 ikinci tur:** tavan: vurgusuz (model son "an"ı uzatıyordu, `stress: none`); kabûl ve sulh: uzun ü + açık l (`ʊ ɫ > y ː l`; önceki ince-l ʲ kararı kulakta yetersiz bulundu ve değiştirildi); itiraz: uzun i (`i t > i ː t`); iptâl: ince a + açık l, çekimlerde de.
 - **"Diğer" kelimeler düz kalır** (kalp, hayal, saat, seyahat, itaat, dikkat): önerilen kurallar (tek uzun a, ince k) kabul edilmedi, bu kelimelere kural yoktur. Not: "1. öneriyi kullan" ifadesi, dinletilen ilk biçim (düz) olarak yorumlandı.
 - Bilinen hata (düzeltildi): millî için ilk önerilen kural uzun î'yi ilk hecedeki i'ye uyguluyordu; `$` (kelime sonu) çapası eklenerek düzeltildi.
 
-## Şu an öğretilmiş kurallar (23) [V]
+## Şu an öğretilmiş kurallar (26) [V]
 | öğretilen | eşleşme | kural | önce → sonra (temsilci) |
 |---|---|---|---|
 | kânun | kök: kanun* | `k a > k a ː` | kanun: k a n ˈ ʊ n → k a ː n ˈ ʊ n |
@@ -36,12 +37,15 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 | medenî | tam: medeni | `ɪ $ > i ː` | medeni: m e d e n ˈ ɪ → m e d e n ˈ i ː |
 | malî | tam: mali | `ɪ $ > i ː` | mali: m a l ˈ ɪ → m a l ˈ i ː |
 | idarî | tam: idari | `ɪ $ > i ː` | idari: i d a ɾ ˈ ɪ → i d a ɾ ˈ i ː |
-| kabûl | kök: kabul* | `ʊ ɫ > u ː l ʲ ; u l > u ː l ʲ` | kabul: k a b ˈ ʊ ɫ → k a b ˈ u ː l ʲ |
 | sosyâl | tam: sosyal | `a ɫ > æ l` | sosyal: s ɔ s j ˈ a ɫ → s ɔ s j ˈ æ l |
 | -âl (ince a, açık l) | tam: normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal | `a ɫ $ > æ l` | normal: n ɔ r m ˈ a ɫ → n ɔ r m ˈ æ l |
 | -ol (açık l) | tam: kontrol, rol, petrol, alkol, bol | `ɔ ɫ $ > o l` | kontrol: k ɔ n t r ˈ ɔ ɫ → k ɔ n t r ˈ o l |
 | -ul (açık l) | tam: meşgul, makul | `ʊ ɫ $ > u l` | meşgul: m ɛ ʃ ɡ ˈ ʊ ɫ → m ɛ ʃ ɡ ˈ u l |
 | iptâl (ince a, açık l) | kök: iptal* | `a ɫ $ > æ l ; a l > æ l` | iptal: ɪ p t ˈ a ɫ → ɪ p t ˈ æ l |
+| kabûl (uzun ü + açık l) | kök: kabul* | `ʊ ɫ > y ː l ; u l > y ː l` | kabul: k a b ˈ ʊ ɫ → k a b ˈ y ː l |
+| sulh (uzun ü + açık l) | kök: sulh* | `ʊ ɫ > y ː l` | sulh: s ˈ ʊ ɫ h → s ˈ y ː l h |
+| tavan (vurgusuz) | kök: tavan* | `` | tavan: t a v ˈ a n → t a v a n |
+| îtiraz (uzun i) | kök: itiraz* | `i t > i ː t` | itiraz: i t i ɾ ˈ a z → i ː t i ɾ ˈ a z |
 
 ## Öğretme öncelik listesi (sıklığa göre, henüz öğretilmedi) [V]
 Kaynak: Zemberek `InverseHarmony` ∩ OpenSubtitles sıklığı. Sayı = sıklık sırası.

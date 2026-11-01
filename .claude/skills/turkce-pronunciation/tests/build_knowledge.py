@@ -126,9 +126,10 @@ Türkçede ünlü uzunluğu ayırt edici değildir ama alıntılarda ve şapkal�
 5. Kural **yalnız onaylanan kelimeye** uygulanır. Benzer görünen başka kelimeye (kânun'a uyan kural kâr'a) kullanıcı dinlemeden genelleştirilmez.
 
 ## Kullanıcının dinleyerek verdiği kararlar [V, kullanıcı beyanı]
-- kânun: yalnız uzun a (k sert kalır) · ferâgat: uzun a · tâkip: uzun a + ince k · kabûl: uzun u + ince l (ʲ) · **sosyâl: ince a + açık l** (æ l; "uzun a + açık l" ilk önerisi reddedildi, kural geri alınıp yeniden öğretildi).
+- kânun: yalnız uzun a (k sert kalır) · ferâgat: uzun a · tâkip: uzun a + ince k · kabûl: (ilk karar uzun u + ince l ʲ, sonra değiştirildi, aşağıya bak) · **sosyâl: ince a + açık l** (æ l; "uzun a + açık l" ilk önerisi reddedildi, kural geri alınıp yeniden öğretildi).
 - Dosya 4'teki hâkim, hâlinde, lâzım, dâhil, ikâmet, mâlik ve dosya 5'teki resmî, millî, adlî, hukukî, kânunî, medenî, malî, idarî onaylandı.
 - **Toplu karar (2026-11-01):** -al kelimelerinde (normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal) ince a + açık l (`a ɫ $ > æ l`); -ol kelimelerinde (kontrol, rol, petrol, alkol, bol) ve -ul kelimelerinde (meşgul, makul) açık l (`ɔ ɫ $ > o l`, `ʊ ɫ $ > u l`).
+- **2026-11-01 ikinci tur:** tavan: vurgusuz (model son "an"ı uzatıyordu, `stress: none`); kabûl ve sulh: uzun ü + açık l (`ʊ ɫ > y ː l`; önceki ince-l ʲ kararı kulakta yetersiz bulundu ve değiştirildi); itiraz: uzun i (`i t > i ː t`); iptâl: ince a + açık l, çekimlerde de.
 - **"Diğer" kelimeler düz kalır** (kalp, hayal, saat, seyahat, itaat, dikkat): önerilen kurallar (tek uzun a, ince k) kabul edilmedi, bu kelimelere kural yoktur. Not: "1. öneriyi kullan" ifadesi, dinletilen ilk biçim (düz) olarak yorumlandı.
 - Bilinen hata (düzeltildi): millî için ilk önerilen kural uzun î'yi ilk hecedeki i'ye uyguluyordu; `$` (kelime sonu) çapası eklenerek düzeltildi.
 
