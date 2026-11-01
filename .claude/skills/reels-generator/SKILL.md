@@ -136,7 +136,7 @@ okunabilecek ifadelerde yalnızca uyarı verir, durmaz.
 ## 2. Seslendirme (yerel, ücretsiz, ağsız)
 
 Higgsfield ya da başka bir dış servis kullanılmaz. Ses, Piper Türkçe modelleriyle
-(sherpa-onnx) bu makinede üretilir.
+(piper-tts) bu makinede üretilir.
 
 ```bash
 python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.json
@@ -147,10 +147,20 @@ python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.j
 - Ses seçimi `resources/voice.json` içindedir (`fahrettin`, `dfki`, `fettah`). Her
   reels aynı sesle çıkar; değiştirmek için dosyayı düzenle ve `setup.sh`'i çalıştır
   (ya da `VOICES="fahrettin dfki fettah" bash scripts/setup.sh` ile hepsini indir).
-- Telaffuz: rakam, tarih, madde ve sıra sayısı, yüzde, para ve kısaltmalar `scripts/tr_text.py`
-  ile otomatik okunuşa çevrilir. Kötü okunan bir kelime/kısaltma için `resources/pronounce.json`
-  sözlüğüne ekle (sonu `~` ile biten karşılık, iyelik ekli ad demektir: Kanunu, Meclisi; ek
-  uyumu için). Çevrilmiş metin `tts.py` çıktısında satır satır yazılır, oradan kontrol et.
+- Telaffuz iki katmandır:
+  1. Metin: rakam, tarih, madde ve sıra sayısı, yüzde, para ve kısaltmalar `scripts/tr_text.py` ile
+     okunuşa çevrilir. Yeni kısaltma için `resources/pronounce.json` (sonu `~` olan karşılık iyelik
+     ekli ad demektir: Kanunu, Meclisi).
+  2. Ses (fonem): motorun yazıdan sese aşaması â, î gibi işaretleri yok sayar; "kanun" düz okunur
+     (kânun değil). Bunlar `resources/lexicon.json` ile ses düzeyinde öğretilir, kök bazlıdır
+     ve tüm çekimlere uygulanır (kanun, kanunu, kanunun ...). Biçim ve kullanım için `scripts/tr_voice.py`.
+- **Kullanıcı bir kelimenin yanlış okunduğunu söylerse (öğretme akışı):** (a) `scripts/say.py "cümle"
+  --phonemes` ile motorun ürettiği sesleri gör; (b) 3–4 aday kural üret (`--try "kök=eski > yeni"`:
+  uzun ünlü için `a > a ː`, ince k için `k > c`), her adayı numaralı tek ses dosyasında kullanıcıya
+  gönder; (c) kullanıcı numarayı seçince kuralı `lexicon.json`'a ekle (`say` alanına doğru yazımı
+  da yaz) ve commit'le; (d) o gün üretilen reels'in yalnız ilgili sahnesini `tts.py --scene N` ile
+  yeniden üret. Sonraki tüm reels'ler öğrenilen telaffuzla çıkar. Kelime ikircikliyse (hal/hâl,
+  kar/kâr) `stem` yerine `words` listesi kullan.
 - Dinleyip kontrol et: ı/i, ş, kurum adları, sayılar. Kötü okunan cümleyi
   yeniden yaz (noktalama ve kısa cümleler okunuşu düzeltir), yalnızca o sahneyi `--scene`
   ile yeniden üret.

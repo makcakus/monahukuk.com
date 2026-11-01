@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """reel.json içindeki her sahnenin `vo` metnini Türkçe sese çevirir -> audio/NN.wav
 
-Çevrimdışı Piper Türkçe sesleri (sherpa-onnx ile). API, anahtar ve ağ gerekmez; ses
+Çevrimdışı Piper Türkçe sesleri (piper-tts ile, öğretilen telaffuzlarla: resources/lexicon.json). API, anahtar ve ağ gerekmez; ses
 modelleri `scripts/setup.sh` ile resources/voices/ altına iner.
 
     python3 tts.py output/reels/<slug>/reel.json [--voice fahrettin|dfki|fettah] [--speed 1.0]
@@ -37,18 +37,13 @@ def default_voice():
 
 
 def load_model(name):
-    d = VOICES / f"vits-piper-tr_TR-{name}-medium"
-    onnx = d / f"tr_TR-{name}-medium.onnx"
-    if not onnx.exists():
-        raise Stop(f"Ses modeli yok: {d}. Önce: bash scripts/setup.sh")
     try:
-        import sherpa_onnx
+        import tr_voice
+        return tr_voice.TrVoice(name)
+    except FileNotFoundError as e:
+        raise Stop(str(e))
     except ImportError:
-        raise Stop("sherpa-onnx yok. Önce: bash scripts/setup.sh")
-    cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-        vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(onnx), tokens=str(d / "tokens.txt"),
-                                                   data_dir=str(d / "espeak-ng-data")), num_threads=2))
-    return sherpa_onnx.OfflineTts(cfg)
+        raise Stop("piper-tts yok. Önce: bash scripts/setup.sh")
 
 
 def spoken(text):
@@ -57,12 +52,10 @@ def spoken(text):
 
 
 def synth(tts, text, speed):
-    import numpy as np
-    a = tts.generate(text, sid=0, speed=speed)
-    if not a.sample_rate or len(a.samples) == 0:
+    sr, pcm = tts.synth(text, speed)
+    if len(pcm) < sr // 4:
         raise Stop(f"Ses üretilemedi: {text!r}")
-    pcm = (np.clip(np.array(a.samples), -1, 1) * 32767).astype(np.int16)
-    return a.sample_rate, pcm
+    return sr, pcm
 
 
 def main():

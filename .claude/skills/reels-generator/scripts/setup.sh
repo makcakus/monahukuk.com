@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-python3 -m pip install --quiet playwright jinja2 pillow numpy "sherpa-onnx<2"   # 2.x yerleşik fonemleştiriciyi kaldırdı
+python3 -m pip install --quiet playwright jinja2 pillow numpy piper-tts
 # Chromium: önce hazır kurulu olanı dene (sürüm uyuşmazlığına takılmaz), yoksa Playwright indirsin
 if ! python3 - <<'PY' 2>/dev/null
 import glob, os
