@@ -1,23 +1,141 @@
 [
  {
   "say": "kânun",
-  "stem": "kanun",
   "edit": [
    "k a > k a ː"
-  ]
+  ],
+  "stem": "kanun"
  },
  {
   "say": "ferâgat",
-  "stem": "feragat",
   "edit": [
    "ɾ a > ɾ a ː"
-  ]
+  ],
+  "stem": "feragat"
  },
  {
   "say": "tâkip",
-  "stem": "takip",
   "edit": [
    "t a k > t a ː c"
+  ],
+  "stem": "takip"
+ },
+ {
+  "say": "hâkim",
+  "edit": [
+   "h a k > h a ː c"
+  ],
+  "stem": "hakim"
+ },
+ {
+  "say": "hâlinde",
+  "edit": [
+   "h a > h a ː"
+  ],
+  "words": [
+   "halinde",
+   "halde",
+   "halen"
+  ]
+ },
+ {
+  "say": "lâzım",
+  "edit": [
+   "ɫ a > l a ː"
+  ],
+  "stem": "lazım"
+ },
+ {
+  "say": "dâhil",
+  "edit": [
+   "d a h > d a ː h"
+  ],
+  "stem": "dahil"
+ },
+ {
+  "say": "ikâmet",
+  "edit": [
+   "k a > c a ː"
+  ],
+  "stem": "ikamet"
+ },
+ {
+  "say": "mâlik",
+  "edit": [
+   "m a l > m a ː l"
+  ],
+  "stem": "malik"
+ },
+ {
+  "say": "resmî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "resmi"
+  ]
+ },
+ {
+  "say": "millî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "milli"
+  ]
+ },
+ {
+  "say": "adlî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "adli"
+  ]
+ },
+ {
+  "say": "hukukî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "hukuki"
+  ]
+ },
+ {
+  "say": "kânunî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "kanuni"
+  ]
+ },
+ {
+  "say": "medenî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "medeni"
+  ]
+ },
+ {
+  "say": "malî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "mali"
+  ]
+ },
+ {
+  "say": "idarî",
+  "edit": [
+   "ɪ $ > i ː"
+  ],
+  "words": [
+   "idari"
   ]
  }
 ]

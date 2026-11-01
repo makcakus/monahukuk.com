@@ -9,7 +9,7 @@ lexicon.json:
   [{"say": "kânun", "stem": "kanun", "edit": ["k a > c a ː"]},
    {"say": "hâl",   "words": ["hal", "halinde"], "edit": ["h a > h a ː"]}]
 
-`edit`: "<bulunacak sesler> > <yerine>" (ses sembolleri boşlukla ayrılır). İlk eşleşme değişir;
+`edit`: "<bulunacak sesler> > <yerine>" (ses sembolleri boşlukla ayrılır; sona `$` kelime sonuna sabitler). İlk eşleşme değişir;
 vurgu işaretleri (ˈ ˌ) eşleşmede göz ardı edilir. `stem` kelime başı eşleşmesidir,
 `words` tam eşleşme listesidir (kısa/ikircikli kelimeler için).
 """
@@ -42,9 +42,14 @@ def apply_edits(phonemes, edits):
     """phonemes: sembol listesi. Her edit için ilk eşleşmeyi değiştir (vurgu işaretleri göz ardı)."""
     for edit in edits:
         left, right = (part.split() for part in edit.split(">"))
+        anchored = bool(left) and left[-1] == "$"      # "ɪ $ > i ː": yalnız kelime sonunda
+        if anchored:
+            left = left[:-1]
         idx = [i for i, p in enumerate(phonemes) if p not in STRESS]
         flat = [phonemes[i] for i in idx]
         for s in range(len(flat) - len(left) + 1):
+            if anchored and s != len(flat) - len(left):
+                continue
             if flat[s:s + len(left)] == left:
                 first, last = idx[s], idx[s + len(left) - 1]
                 inner = [p for p in phonemes[first:last + 1] if p in STRESS]   # eşleşme içindeki vurgu
