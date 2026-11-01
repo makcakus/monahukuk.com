@@ -1,0 +1,466 @@
+{
+ "_not": "Onay bekleyen öneriler; lexicon.json'a YAZILMADI. Onaylananlar kelime kelime lexicon.json'a taşınır.",
+ "batches": {
+  "15-al-ol-ul": [
+   {
+    "word": "ihtimal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "ihtimal"
+   },
+   {
+    "word": "amiral",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "amiral"
+   },
+   {
+    "word": "kardinal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "kardinal"
+   },
+   {
+    "word": "anormal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "anormal"
+   },
+   {
+    "word": "ideal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "ideal"
+   },
+   {
+    "word": "radikal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "radikal"
+   },
+   {
+    "word": "müzikal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "müzikal"
+   },
+   {
+    "word": "global",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "global"
+   },
+   {
+    "word": "festival",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "festival"
+   },
+   {
+    "word": "santral",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "santral"
+   },
+   {
+    "word": "liberal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "liberal"
+   },
+   {
+    "word": "mareşal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "mareşal"
+   },
+   {
+    "word": "termal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "termal"
+   },
+   {
+    "word": "mahal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "mahal"
+   },
+   {
+    "word": "ithal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "ithal"
+   },
+   {
+    "word": "medikal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "medikal"
+   },
+   {
+    "word": "ihlal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "ihlal"
+   },
+   {
+    "word": "helal",
+    "edit": [
+     "a ɫ $ > æ l"
+    ],
+    "say": "helal"
+   },
+   {
+    "word": "gol",
+    "edit": [
+     "ɔ ɫ $ > o l"
+    ],
+    "say": "gol"
+   },
+   {
+    "word": "sembol",
+    "edit": [
+     "ɔ ɫ $ > o l"
+    ],
+    "say": "sembol"
+   },
+   {
+    "word": "protokol",
+    "edit": [
+     "ɔ ɫ $ > o l"
+    ],
+    "say": "protokol"
+   },
+   {
+    "word": "başrol",
+    "edit": [
+     "ɔ ɫ $ > o l"
+    ],
+    "say": "başrol"
+   },
+   {
+    "word": "golf",
+    "edit": [
+     "ɔ ɫ > o l"
+    ],
+    "say": "golf"
+   },
+   {
+    "word": "ampul",
+    "edit": [
+     "ʊ ɫ $ > u l"
+    ],
+    "say": "ampul"
+   },
+   {
+    "word": "usul",
+    "edit": [
+     "ʊ ɫ $ > u l"
+    ],
+    "say": "usul"
+   },
+   {
+    "word": "meçhul",
+    "edit": [
+     "ʊ ɫ $ > u l"
+    ],
+    "say": "meçhul"
+   },
+   {
+    "word": "faul",
+    "edit": [
+     "ʊ ɫ $ > u l"
+    ],
+    "say": "faul"
+   }
+  ],
+  "16-i-sifat": [
+   {
+    "word": "tabii",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "tabii"
+   },
+   {
+    "word": "askeri",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "askeri"
+   },
+   {
+    "word": "merkezi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "merkezi"
+   },
+   {
+    "word": "vahşi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "vahşi"
+   },
+   {
+    "word": "fikri",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "fikri"
+   },
+   {
+    "word": "tarihi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "tarihi"
+   },
+   {
+    "word": "tıbbi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "tıbbi"
+   },
+   {
+    "word": "samimi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "samimi"
+   },
+   {
+    "word": "şekli",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "şekli"
+   },
+   {
+    "word": "kalbi",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "kalbi"
+   },
+   {
+    "word": "ihtimali",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "ihtimali"
+   },
+   {
+    "word": "hayali",
+    "edit": [
+     "ɪ $ > i ː"
+    ],
+    "say": "hayali"
+   }
+  ],
+  "18-19-a-kelimeleri": [
+   {
+    "word": "hala",
+    "edit": [
+     "h a ɫ a > h a ː l a ː"
+    ],
+    "say": "hâlâ"
+   },
+   {
+    "word": "pekala",
+    "edit": [
+     "k a ɫ a > c a ː l a ː"
+    ],
+    "say": "pekâlâ"
+   },
+   {
+    "word": "mesela",
+    "edit": [
+     "ɫ a $ > l a ː"
+    ],
+    "say": "meselâ"
+   },
+   {
+    "word": "derhal",
+    "edit": [
+     "a ɫ $ > a ː l"
+    ],
+    "say": "derhâl"
+   },
+   {
+    "word": "herhalde",
+    "edit": [
+     "h a ɫ > h a ː l"
+    ],
+    "say": "herhâlde"
+   },
+   {
+    "word": "silah",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "silâh"
+   },
+   {
+    "word": "ilaç",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "ilâç"
+   },
+   {
+    "word": "bela",
+    "edit": [
+     "ɫ a $ > l a ː"
+    ],
+    "say": "belâ"
+   },
+   {
+    "word": "felaket",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "felâket"
+   },
+   {
+    "word": "telafi",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "telâfi"
+   },
+   {
+    "word": "reklam",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "reklâm"
+   },
+   {
+    "word": "klasik",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "klâsik"
+   },
+   {
+    "word": "filan",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "filân"
+   },
+   {
+    "word": "ilan",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "ilân"
+   },
+   {
+    "word": "evlat",
+    "edit": [
+     "ɫ a > l a ː"
+    ],
+    "say": "evlât"
+   },
+   {
+    "word": "aşık",
+    "edit": [
+     "a ʃ > a ː ʃ"
+    ],
+    "say": "âşık"
+   },
+   {
+    "word": "adet",
+    "edit": [
+     "a d > a ː d"
+    ],
+    "say": "âdet"
+   },
+   {
+    "word": "amin",
+    "edit": [
+     "a m > a ː m"
+    ],
+    "say": "âmin"
+   },
+   {
+    "word": "dahi",
+    "edit": [
+     "d a h > d a ː h"
+    ],
+    "say": "dâhi"
+   },
+   {
+    "word": "kar",
+    "edit": [
+     "k a > c a ː"
+    ],
+    "say": "kâr"
+   },
+   {
+    "word": "kağıt",
+    "edit": [
+     "k a ː > c a ː"
+    ],
+    "say": "kâğıt"
+   },
+   {
+    "word": "rüzgar",
+    "edit": [
+     "ɡ a > ɟ a ː"
+    ],
+    "say": "rüzgâr"
+   },
+   {
+    "word": "şikayet",
+    "edit": [
+     "k a > c a ː"
+    ],
+    "say": "şikâyet"
+   },
+   {
+    "word": "hikaye",
+    "edit": [
+     "k a > c a ː"
+    ],
+    "say": "hikâye"
+   },
+   {
+    "word": "inkar",
+    "edit": [
+     "k a > c a ː"
+    ],
+    "say": "inkâr"
+   },
+   {
+    "word": "mahkum",
+    "edit": [
+     "k ʊ > c u ː"
+    ],
+    "say": "mahkûm"
+   }
+  ]
+ }
+}
