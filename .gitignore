@@ -66,3 +66,4 @@ output/reels/*/stills/
 output/*/html/
 .claude/skills/reels-generator/resources/voices/
 __pycache__/
+output/reels/*/audio/
