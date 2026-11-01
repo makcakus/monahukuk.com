@@ -145,5 +145,57 @@
    "ʊ ɫ > u ː l ʲ",
    "u l > u ː l ʲ"
   ]
+ },
+ {
+  "say": "sosyâl",
+  "words": [
+   "sosyal"
+  ],
+  "edit": [
+   "a ɫ > æ l"
+  ]
+ },
+ {
+  "say": "-âl (ince a, açık l)",
+  "words": [
+   "normal",
+   "general",
+   "federal",
+   "sinyal",
+   "metal",
+   "final",
+   "moral",
+   "dijital",
+   "orijinal",
+   "kristal",
+   "ihmal",
+   "işgal"
+  ],
+  "edit": [
+   "a ɫ $ > æ l"
+  ]
+ },
+ {
+  "say": "-ol (açık l)",
+  "words": [
+   "kontrol",
+   "rol",
+   "petrol",
+   "alkol",
+   "bol"
+  ],
+  "edit": [
+   "ɔ ɫ $ > o l"
+  ]
+ },
+ {
+  "say": "-ul (açık l)",
+  "words": [
+   "meşgul",
+   "makul"
+  ],
+  "edit": [
+   "ʊ ɫ $ > u l"
+  ]
  }
 ]

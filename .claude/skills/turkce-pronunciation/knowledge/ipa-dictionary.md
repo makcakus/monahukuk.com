@@ -50,7 +50,10 @@ Modelde olmayan bir simge kuralda yazılırsa fonem dizisinden **sessizce düşe
 | malî | mali | m a l ˈ ɪ | m a l ˈ i ː |
 | idarî | idari | i d a ɾ ˈ ɪ | i d a ɾ ˈ i ː |
 | kabûl | kabul | k a b ˈ ʊ ɫ | k a b ˈ u ː l ʲ |
-| sosyâl | sosyal | s ɔ s j ˈ a ɫ | s ɔ s j ˈ a ː l |
+| sosyâl | sosyal | s ɔ s j ˈ a ɫ | s ɔ s j ˈ æ l |
+| -âl (ince a, açık l) | normal | n ɔ r m ˈ a ɫ | n ɔ r m ˈ æ l |
+| -ol (açık l) | kontrol | k ɔ n t r ˈ ɔ ɫ | k ɔ n t r ˈ o l |
+| -ul (açık l) | meşgul | m ɛ ʃ ɡ ˈ ʊ ɫ | m ɛ ʃ ɡ ˈ u l |
 
 ## Sık A/B kelimeleri, motor fonemleri [V] (ilk 80, sıklığa göre)
 | kelime | sıklık | motor |

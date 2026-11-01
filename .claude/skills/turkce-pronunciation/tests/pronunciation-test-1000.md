@@ -21,44 +21,44 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 |---|---|---|---|---|---|---|---|
 | 1 | saat | A | 214 | InverseHarmony, NoVoicing | — | s a ˈ a t | — |
 | 2 | kabul | A | 269 | InverseHarmony | — | k a b ˈ ʊ ɫ | k a b ˈ u ː l ʲ |
-| 3 | kontrol | A | 296 | InverseHarmony | — | k ɔ n t r ˈ ɔ ɫ | — |
+| 3 | kontrol | A | 296 | InverseHarmony | — | k ɔ n t r ˈ ɔ ɫ | k ɔ n t r ˈ o l |
 | 4 | dikkat | A | 351 | InverseHarmony | — | d i k ː ˈ a t | — |
 | 5 | hayal | A | 497 | InverseHarmony | — | h a j ˈ a ɫ | — |
-| 6 | normal | A | 680 | InverseHarmony | — | n ɔ r m ˈ a ɫ | — |
+| 6 | normal | A | 680 | InverseHarmony | — | n ɔ r m ˈ a ɫ | n ɔ r m ˈ æ l |
 | 7 | hak | A | 757 | Doubling, InverseHarmony | — | h ˈ a k | — |
 | 8 | kalp | A | 1049 | InverseHarmony, NoVoicing, Voicing | — | k ˈ a ɫ p | — |
-| 9 | general | A | 1141 | InverseHarmony | — | ɟ e n e ɾ ˈ a ɫ | — |
+| 9 | general | A | 1141 | InverseHarmony | — | ɟ e n e ɾ ˈ a ɫ | ɟ e n e ɾ ˈ æ l |
 | 10 | kat | A | 1414 | InverseHarmony | — | k ˈ a t | — |
 | 11 | iptal | A | 1480 | InverseHarmony | — | ɪ p t ˈ a ɫ | — |
-| 12 | meşgul | A | 1631 | InverseHarmony | — | m ɛ ʃ ɡ ˈ ʊ ɫ | — |
-| 13 | bol | A | 1758 | InverseHarmony | — | b ˈ ɔ ɫ | — |
-| 14 | sosyal | A | 2015 | InverseHarmony | — | s ɔ s j ˈ a ɫ | s ɔ s j ˈ a ː l |
-| 15 | rol | A | 2249 | InverseHarmony | — | r ˈ ɔ ɫ | — |
+| 12 | meşgul | A | 1631 | InverseHarmony | — | m ɛ ʃ ɡ ˈ ʊ ɫ | m ɛ ʃ ɡ ˈ u l |
+| 13 | bol | A | 1758 | InverseHarmony | — | b ˈ ɔ ɫ | b ˈ o l |
+| 14 | sosyal | A | 2015 | InverseHarmony | — | s ɔ s j ˈ a ɫ | s ɔ s j ˈ æ l |
+| 15 | rol | A | 2249 | InverseHarmony | — | r ˈ ɔ ɫ | r ˈ o l |
 | 16 | seyahat | A | 2454 | InverseHarmony, NoVoicing | — | s e j a h ˈ a t | — |
-| 17 | federal | A | 2513 | InverseHarmony | — | f e d e ɾ ˈ a ɫ | — |
-| 18 | sinyal | A | 2969 | InverseHarmony | — | s ɪ n j ˈ a ɫ | — |
-| 19 | alkol | A | 3235 | InverseHarmony | — | a ɫ k ˈ ɔ ɫ | — |
+| 17 | federal | A | 2513 | InverseHarmony | — | f e d e ɾ ˈ a ɫ | f e d e ɾ ˈ æ l |
+| 18 | sinyal | A | 2969 | InverseHarmony | — | s ɪ n j ˈ a ɫ | s ɪ n j ˈ æ l |
+| 19 | alkol | A | 3235 | InverseHarmony | — | a ɫ k ˈ ɔ ɫ | a ɫ k ˈ o l |
 | 20 | golf | A | 3384 | InverseHarmony | — | ɡ ˈ ɔ ɫ f | — |
-| 21 | metal | A | 3499 | InverseHarmony | — | m e t ˈ a ɫ | — |
+| 21 | metal | A | 3499 | InverseHarmony | — | m e t ˈ a ɫ | m e t ˈ æ l |
 | 22 | ihtimal | A | 3663 | InverseHarmony | — | ɪ h t i m ˈ a ɫ | — |
 | 23 | hal | A | 3848 | Doubling, InverseHarmony | hâl | h ˈ a ɫ | — |
 | 24 | hâl | A | 3848 | Doubling, InverseHarmony | hâl | h ˈ a ɫ | — |
-| 25 | petrol | A | 4352 | InverseHarmony | — | p ɛ t r ˈ ɔ ɫ | — |
-| 26 | makul | A | 4953 | InverseHarmony | — | m a k ˈ ʊ ɫ | — |
-| 27 | orijinal | A | 5149 | InverseHarmony | — | o ɾ i ʒ i n ˈ a ɫ | — |
+| 25 | petrol | A | 4352 | InverseHarmony | — | p ɛ t r ˈ ɔ ɫ | p ɛ t r ˈ o l |
+| 26 | makul | A | 4953 | InverseHarmony | — | m a k ˈ ʊ ɫ | m a k ˈ u l |
+| 27 | orijinal | A | 5149 | InverseHarmony | — | o ɾ i ʒ i n ˈ a ɫ | o ɾ i ʒ i n ˈ æ l |
 | 28 | amiral | A | 6014 | InverseHarmony | — | a m i ɾ ˈ a ɫ | — |
 | 29 | ihlâl | A | 6532 | InverseHarmony | ihlâl | ɪ h ɫ ˈ a ɫ | — |
 | 30 | itaat | A | 6899 | InverseHarmony | — | i t a ˈ a t | — |
 | 31 | gol | A | 6960 | InverseHarmony | — | ɡ ˈ ɔ ɫ | — |
-| 32 | işgal | A | 6991 | InverseHarmony | — | ɪ ʃ ɡ ˈ a ɫ | — |
-| 33 | kristal | A | 8323 | InverseHarmony | — | k r ɪ s t ˈ a ɫ | — |
-| 34 | final | A | 8512 | InverseHarmony | — | f i n ˈ a ɫ | — |
-| 35 | ihmal | A | 8791 | InverseHarmony | — | ɪ h m ˈ a ɫ | — |
-| 36 | dijital | A | 9132 | InverseHarmony | — | d i ʒ i t ˈ a ɫ | — |
+| 32 | işgal | A | 6991 | InverseHarmony | — | ɪ ʃ ɡ ˈ a ɫ | ɪ ʃ ɡ ˈ æ l |
+| 33 | kristal | A | 8323 | InverseHarmony | — | k r ɪ s t ˈ a ɫ | k r ɪ s t ˈ æ l |
+| 34 | final | A | 8512 | InverseHarmony | — | f i n ˈ a ɫ | f i n ˈ æ l |
+| 35 | ihmal | A | 8791 | InverseHarmony | — | ɪ h m ˈ a ɫ | ɪ h m ˈ æ l |
+| 36 | dijital | A | 9132 | InverseHarmony | — | d i ʒ i t ˈ a ɫ | d i ʒ i t ˈ æ l |
 | 37 | vaat | A | 9259 | InverseHarmony, Voicing | — | v a ˈ a t | — |
 | 38 | emlak | A | 9411 | InverseHarmony | — | æ m ɫ ˈ a k | — |
 | 39 | sadakat | A | 9499 | InverseHarmony | — | s a d a k ˈ a t | — |
-| 40 | moral | A | 9605 | InverseHarmony | — | m o ɾ ˈ a ɫ | — |
+| 40 | moral | A | 9605 | InverseHarmony | — | m o ɾ ˈ a ɫ | m o ɾ ˈ æ l |
 | 41 | ad | A | 9844 | Doubling, InverseHarmony | — | ˈ a d | — |
 | 42 | kardinal | A | 10167 | InverseHarmony | — | k a r d i n ˈ a ɫ | — |
 | 43 | anormal | A | 10342 | InverseHarmony | — | a n ɔ r m ˈ a ɫ | — |
