@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""resources/logo.png dosyasını yeniden üretir: şeffaf zemin, MH monogramı,
-ince çizgi ve ATTORNEY AT LAW satırı (public/MH LOGO.jpeg ile aynı kurgu).
-
-Şablon logoyu CSS mask olarak basar; yalnızca alfa kanalı kullanılır, renk
-önemsizdir. Gerçek vektör/PNG logo gelirse bu dosyanın yerine onu koy."""
+"""resources/logo.png dosyasını yeniden üretir: şeffaf zemin, iki renkli "M.O.N.A. HUKUK" yazısı ve
+"ANTALYA · TÜRKİYE" altyazısı (sitenin başlığıyla aynı). Şablon logoyu olduğu gibi (renkleriyle) basar.
+Gerçek logo dosyası gelirse bu dosyanın yerine onu koy (şeffaf PNG, en az 200 px genişlik)."""
 import base64
 from pathlib import Path
 
@@ -12,19 +10,20 @@ from playwright.sync_api import sync_playwright
 
 SKILL = Path(__file__).resolve().parent.parent
 FONT = SKILL / "resources/fonts/CormorantGaramond-Variable.ttf"
+SANS = SKILL / "resources/fonts/AlegreyaSans-Medium.ttf"
 OUT = SKILL / "resources/logo.png"
 
+# Sitenin başlığıyla aynı: "M.O.N.A. HUKUK" (Cormorant, krem) + altında "ANTALYA · TÜRKİYE" (Alegreya Sans, altın).
 HTML = f"""<!doctype html><meta charset="utf-8"><style>
 @font-face {{ font-family: "CG"; src: url("file://{FONT}"); font-weight: 300 700; }}
+@font-face {{ font-family: "AS"; src: url("file://{SANS}"); font-weight: 500; }}
 html, body {{ margin: 0; background: transparent; }}
-.mark {{ width: 1400px; padding: 100px; color: #fff; font-family: "CG", serif;
-  display: flex; flex-direction: column; align-items: stretch; }}
-.mh {{ font-size: 520px; font-weight: 600; line-height: 1.1; letter-spacing: .01em;
-  text-align: center; padding: 0; }}
-.rule {{ height: 6px; background: #fff; margin: -50px 0 56px; }}
-.sub {{ font-size: 112px; font-weight: 500; letter-spacing: .09em; text-align: center; line-height: 1; }}
-</style><div class="mark"><div class="mh">MH</div><div class="rule"></div>
-<div class="sub">ATTORNEY AT LAW</div></div>"""
+.mark {{ display: inline-block; padding: 60px; }}
+.name {{ font-family: "CG", serif; font-weight: 600; font-size: 230px; line-height: 1; letter-spacing: .01em;
+  color: #F5F1E6; white-space: nowrap; }}
+.sub {{ font-family: "AS", sans-serif; font-weight: 500; font-size: 62px; line-height: 1; letter-spacing: .24em;
+  color: #D3A14A; margin-top: 38px; white-space: nowrap; text-transform: uppercase; }}
+</style><div class="mark"><div class="name">M.O.N.A. HUKUK</div><div class="sub">Antalya · Türkiye</div></div>"""
 
 
 def main():
@@ -37,7 +36,7 @@ def main():
         page_file = OUT.with_suffix(".tmp.html")
         page_file.write_text(HTML, encoding="utf-8")
         pg.goto(page_file.as_uri())
-        pg.evaluate("Promise.all([document.fonts.load('600 100px CG'), document.fonts.load('500 100px CG')])")
+        pg.evaluate("Promise.all([document.fonts.load('600 100px CG'), document.fonts.load('500 40px AS')])")
         page_file.unlink()
         pg.screenshot(path=str(tmp), omit_background=True, full_page=True)
         b.close()

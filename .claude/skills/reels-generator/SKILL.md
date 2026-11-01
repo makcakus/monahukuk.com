@@ -244,7 +244,7 @@ Koyu kâğıda basılmış bir dergi sayfası. Canva şablonu değil.
   Gövde 36 px. Bu aradaki fark kapatılmaz.
 - Güvenli alan: sol 84, sağ 150 (Instagram düğmeleri), üst 232, alt çizgi y=1500.
   Altı Instagram caption bandıdır, oraya metin girmez.
-- Sabit öğeler: sol üstte logo (`resources/logo.png`, CSS mask, krem), sağ üstte
+- Sabit öğeler: sol üstte iki renkli yazı logosu (`resources/logo.png`: krem "M.O.N.A. HUKUK" + altın "ANTALYA · TÜRKİYE", sitenin başlığıyla aynı; `scripts/make_logo.py` üretir), sağ üstte
   `02 / 08` folio, çizgi ve `@m.o.n.a.law`.
 - Hareket: yalnız belirme, yükselme ve çizgi çekme. Zıplama, dönme ve parlama yok.
   Kelimeler 85 ms arayla gelir, sahne sonunda içerik 0,3 sn'de kararır. Sabit öğeler

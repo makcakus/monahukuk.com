@@ -16,7 +16,7 @@
 
   --ml: 84px;  --mr: 150px;             /* sağda Instagram düğmeleri */
   --mt: 232px; --rule-y: 1500px;        /* üst ve alt Instagram arayüz payı */
-  --logo-h: 92px;
+  --logo-h: 70px;
 }
 
 @font-face { font-family: "Cormorant Garamond"; src: url("{{ fonts.display }}") format("truetype"); font-weight: 300 700; font-style: normal; }
@@ -75,8 +75,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 
 /* ---- Sabit öğeler: piksel konumlu, sahneden sahneye oynamaz ---- */
 .logo { position: absolute; left: var(--ml); top: var(--mt); height: var(--logo-h);
-  width: calc(var(--logo-h) * {{ logo_aspect }}); background: var(--ink);
-  -webkit-mask: url("{{ logo }}") no-repeat left top / contain; mask: url("{{ logo }}") no-repeat left top / contain; }
+  width: calc(var(--logo-h) * {{ logo_aspect }}); background: url("{{ logo }}") no-repeat left top / contain; }
 .folio, .foot { font-family: "Alegreya Sans", sans-serif; font-size: 20px; font-weight: 500;
   text-transform: uppercase; letter-spacing: .22em; line-height: 24px; font-variant-numeric: tabular-nums; }
 .folio { position: absolute; top: calc(var(--mt) + var(--logo-h) - 24px); right: var(--mr);
