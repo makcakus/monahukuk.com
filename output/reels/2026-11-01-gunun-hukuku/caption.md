@@ -1,6 +1,6 @@
 Bugün yürürlüğe giren yönetmeliğe göre 15 yaşından küçüklere sosyal medya hesabı açılamayacak.
 
-Haftanın hukuku, hepsi resmî kaynaktan:
+Günün hukuku, hepsi resmî kaynaktan:
 1) Sosyal ağlarda yaş doğrulama yönetmeliği 1 Kasım'da yürürlüğe girdi.
 2) 7596 sayılı Kanun, tasfiye edilen yatırım fonlarında ödeme düzeni getirdi.
 3) Anayasa Mahkemesi, Medeni Kanun m. 175'teki "süresiz olarak" ibaresini iptal etti.

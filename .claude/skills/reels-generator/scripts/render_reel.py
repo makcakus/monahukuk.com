@@ -84,8 +84,11 @@ def validate(reel, allow_ad):
     scenes = reel.get("scenes") or []
     if not reel.get("slug") or not re.fullmatch(r"[a-z0-9-]+", reel["slug"]):
         raise Stop("slug eksik ya da geçersiz (küçük harf, rakam, tire).")
-    if not 3 <= len(scenes) <= 10:
-        raise Stop(f"Sahne sayısı 3–10 olmalı, {len(scenes)} var.")
+    if not 3 <= len(scenes) <= 12:
+        raise Stop(f"Sahne sayısı 3–12 olmalı, {len(scenes)} var.")
+    n_news = sum(1 for x in scenes if x.get("role") == "body")
+    if not 5 <= n_news <= 10:
+        raise Stop(f"Günün hukuku bülteninde 5–10 haber sahnesi (body) olmalı, {n_news} var.")
     srcs = reel.get("sources") or []
     if not srcs or not all(str(s.get("url", "")).startswith("https://") for s in srcs):
         raise Stop("sources boş ya da https bağlantısı yok. Kaynağı doğrulanmamış haber reels olmaz.")

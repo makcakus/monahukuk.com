@@ -5,7 +5,7 @@ description: >-
   üretir: doğrulanmış kaynaktan senaryo, kelime kelime beliren metin animasyonu,
   çizgili sütun arka planı, yerel Türkçe seslendirme, 1080x1920 MP4, kapak ve
   caption. Şu isteklerde tetiklenir: "reels yap", "reels üret", "bugünün reelsleri",
-  "günlük 2 reels", "bu haberi reels yap", "şu konuda reels", "Instagram videosu",
+  "günün hukuku", "günlük hukuk reels'i", "bu haberi reels yap", "şu konuda reels", "Instagram videosu",
   "m.o.n.a.law için içerik", "reels it", "make a reel about X", "Instagram reel for X",
   ya da bir haber/konu yapıştırılıp "reels'e çevir" dendiğinde.
 ---
@@ -23,11 +23,22 @@ kökünde `output/reels/<slug>/` altına yazılır. Slug biçimi `YYYY-AA-GG-kon
 İlk kullanımda bir kez `bash scripts/setup.sh` çalıştır. Chromium başlamazsa
 README'deki nota bak.
 
-## 0. Günlük format: "Haftanın / günün hukuku" bülteni
+## 0. Günlük format: "Günün hukuku" bülteni
 
-Her gün 1 reels. İçinde **en az 6** haber olur: vatandaşın genelini ilgilendiren, en çok
-gündem olan hukuki gelişmeler. Yapı: kapak + 6 (ya da daha fazla) haber sahnesi + kapanış
-(en çok 10 sahne). Süre 60–80 sn.
+Her gün 1 reels, **o günün** hukuki gelişmeleri. İçinde **en az 5, en çok 10** haber olur
+(10'dan fazla doğrulanmışsa vatandaşın geneline en çok dokunan 10'u). Yapı: kapak + 5–10 haber
+sahnesi + kapanış (7–12 sahne). Süre 50–110 sn; 8+ haberde sahne başına 15–20 kelimelik vo
+kullan. **"Bu hafta" gibi haftalık çerçeve kullanılmaz**: kapak ve kapanış günlük konuşur
+("Bugün hukukta N gelişme", "Günün hukuku").
+
+**Haber türleri** (hepsi alınabilir):
+1. Resmî düzenlemeler: Resmî Gazete, kanun, yönetmelik, CB kararnamesi, tebliğ.
+2. Yargı kararları: AYM, Yargıtay, Danıştay, AİHM, bölge adliye (içtihat ve norm denetimi).
+3. Kurum kararları ve duyuruları: KVKK, Rekabet, BDDK, SPK, GİB, SGK, HSK, Adalet Bakanlığı, TBMM.
+4. **Güncel olayların hukuki yönü:** gündemdeki bir olayın dayandığı ya da doğurduğu hukuki
+   düzenleme/süreç. Şartı aynıdır: olay ve hukuki sonuç **resmî bir kaynakla** doğrulanır
+   (mahkeme/kurum açıklaması, karar, ilgili mevzuat maddesi). Yalnızca haber sitesinde ya da
+   X'te geçen iddia alınmaz; kişi adı, siyasi parti ve sürmekte olan yargılama konu edilmez.
 
 ### Haber nereden bulunur (aday bulma)
 
@@ -59,14 +70,16 @@ bulunur:
   ve metindeki dayanağı yaz).
 - Yargı kararında sonuç, hüküm bölümünden okunur; ayrıca gerekçe ve karşı oy ayrımına dikkat.
 - Metinde olmayanı çıkarım olarak da yazma ("yeni düzenleme bekleniyor" gibi tahmin yok).
-- Doğrulayamadığın haber reels'e girmez. 6'ya ulaşamıyorsan 5 haberle üretme: ya daha
-  geriye bak (bu hafta, son 10 gün) ya da hiç üretme ve kullanıcıya bildir.
+- Doğrulayamadığın haber reels'e girmez. Önce son 24–48 saate bak; 5 doğrulanmış habere
+  ulaşamıyorsan pencereyi son 4 güne kadar genişlet (eski haberin gününü sahnede belirt: "Cuma
+  günü yayımlanan…"); yine 5'e ulaşamıyorsan ya da Yargı PRO kotası/erişim sorunu varsa **video
+  üretme**, kullanıcıya nedenini bildir.
 - `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
 
 ### Haber seçimi
 
 Seçerken: (1) vatandaşın geneline dokunur mu (aile, kira, iş, tüketici, çocuk, vergi,
-sosyal medya, trafik, miras, tapu), (2) yeni mi (son 7–10 gün; yürürlük günü bugünse öne
+sosyal medya, trafik, miras, tapu), (2) yeni mi (son 24–48 saat; yürürlük ya da son tarih bugün/yarınsa öne
 çıkar), (3) gündemde mi (X ve haber taramasında konuşuluyor mu), (4) resmî kaynakta net mi.
 Siyasi parti, kişi adlı güncel soruşturma ve devam eden yargılamaya dair haber alınmaz. Aynı
 haberi kısa süre önce yaptıysan tekrarlama (`output/reels/` geçmişine bak). Sıralama:
@@ -77,15 +90,15 @@ en çok ilgi çekecek olan kapağa ve ilk habere.
 ## 1. Senaryoyu yaz → `output/reels/<slug>/reel.json`
 
 Tek doğruluk kaynağı bu dosyadır. Renderer başka hiçbir şey okumaz. Render ücretsiz;
-onay için durma, hemen render et. Slug biçimi `YYYY-AA-GG-haftanin-hukuku`.
+onay için durma, hemen render et. Slug biçimi `YYYY-AA-GG-gunun-hukuku`.
 
 ```json
 {
   "topic": "…",
-  "slug": "2026-11-01-haftanin-hukuku",
+  "slug": "2026-11-01-gunun-hukuku",
   "sources": [{ "label": "7596 sayılı Kanun, RG 27.10.2026 S. 33413, m. 1-8", "url": "https://www.mevzuat.gov.tr/…" }],
   "scenes": [
-    { "role": "cover", "headline": "Bu hafta hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye", "vo": "…" },
+    { "role": "cover", "headline": "Bugün hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye", "vo": "…" },
     { "role": "body", "heading": "…*vurgu*…", "art": "telefon",
       "body": ["en çok iki satır", "her biri tek satıra sığar"],
       "cite": "Resmî Gazete 10.10.2026 · Yönetmelik", "vo": "…" },
@@ -223,7 +236,7 @@ Sorun varsa metni ya da şablonu düzelt, yeniden render et, sonra göster.
 
 - `reel.mp4`, `cover.jpg` ve `caption.md` kullanıcıya `SendUserFile` ile gönderilir; ardından
   `PushNotification` ile telefona tek satırlık bildirim gider (ör. "Bugünün reels'i hazır:
-  6 haber, 62 sn. Kaynaklar doğrulandı."). Hata ya da eksik doğrulama olursa bildirim bunu
+  7 haber, 70 sn. Kaynaklar doğrulandı."). Hata ya da eksik doğrulama olursa bildirim bunu
   söyler ve video üretilmez.
 - Kullanıcı yayın saatini 20:00 olarak belirledi; reels bundan önce hazır olmalı. Instagram'a
   yayın aracı yok, yükleme ve zamanlama kullanıcıdadır (uygulama ya da Meta Business Suite).

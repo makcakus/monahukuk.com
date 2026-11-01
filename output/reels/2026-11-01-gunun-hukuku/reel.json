@@ -1,6 +1,6 @@
 {
-  "topic": "Haftanın hukuku: 6 doğrulanmış gelişme (25 Ekim–1 Kasım 2026)",
-  "slug": "2026-11-01-haftanin-hukuku",
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (1 Kasım 2026)",
+  "slug": "2026-11-01-gunun-hukuku",
   "sources": [
     { "label": "Sosyal Ağ Sağlayıcı Yaş Doğrulama Yönetmeliği, RG 10.10.2026, m. 5-8, 13, geçici m. 1 (mevzuat.gov.tr, KKY 46333)", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=46333&MevzuatTur=7&MevzuatTertip=5" },
     { "label": "7596 sayılı Kanun, RG 27.10.2026 S. 33413, m. 1-4, 8", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7596&MevzuatTur=1&MevzuatTertip=5" },
@@ -9,8 +9,8 @@
     { "label": "7589 sayılı Kanun, RG 31.07.2026 S. 33326, m. 11, 12, 22, 26", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7589&MevzuatTur=1&MevzuatTertip=5" }
   ],
   "scenes": [
-    { "role": "cover", "headline": "Bu hafta hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye",
-      "vo": "Bu hafta hukukta altı önemli gelişme var. Birisi bugün, 1 Kasım'da yürürlüğe girdi." },
+    { "role": "cover", "headline": "Bugün hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme var. Birisi bugün, 1 Kasım'da yürürlüğe girdi." },
     { "role": "body", "heading": "15 yaş altına *sosyal medya* hesabı açılamayacak", "art": "telefon",
       "body": ["Hesap açarken e-Devlet ile yaş doğrulanır.", "15–18 yaş: gizli hesap, canlı yayın yok."],
       "cite": "Resmî Gazete 10.10.2026 · Yönetmelik",
@@ -35,7 +35,7 @@
       "body": ["Ses ve görüntüyle katılanlar için.", "İstisna: ikrar, yemin, feragat, kabul, sulh."],
       "cite": "Kanun 7589 m. 22 · RG 31.07.2026",
       "vo": "Yine 31 Ekim'den itibaren, görüntülü duruşmaya katılanlardan, ikrar, yemin, feragat, kabul ve sulh dışında, elle imza aranmayacak." },
-    { "role": "closing", "headline": "Haftanın hukuku, resmî kaynaktan", "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
+    { "role": "closing", "headline": "Günün hukuku, resmî kaynaktan", "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
       "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi", "art": "terazi",
       "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın." }
   ]
