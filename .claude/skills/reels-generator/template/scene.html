@@ -52,10 +52,21 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 .art svg g { animation: none; }
 .art svg g > * { animation: trace 1.5s cubic-bezier(.3,.7,.2,1) calc(.1s + var(--c) * .14s) both; }
 .art svg { position: absolute; left: var(--ax); top: var(--ay); width: calc(1500px * var(--as)); height: auto;
-  fill: none; stroke: var(--accent); stroke-width: 2.4; opacity: .30;
+  fill: none; stroke: var(--accent); stroke-width: 2.4; opacity: .13;
   animation: drift var(--dur) linear both; }
 .art .bloom { position: absolute; left: var(--bx); top: var(--by); width: 760px; height: 760px; border-radius: 50%;
   background: radial-gradient(closest-side, rgba(211,161,74,.10), rgba(211,161,74,0)); }
+
+
+/* ---- Konu illüstrasyonu: altın çizgi, sahne başında çizilerek belirir ---- */
+.pic { position: absolute; left: 267px; width: 480px; height: 480px; }
+.pic svg { width: 100%; height: 100%; fill: none; stroke: var(--accent); stroke-width: 3; stroke-linecap: round;
+  stroke-linejoin: round; opacity: .62; animation: float var(--dur) ease-in-out both; }
+.pic svg * { stroke-dasharray: 1; animation: trace 1.7s cubic-bezier(.3,.7,.2,1) calc(.25s + var(--k, 0) * .09s) both; }
+.cover .pic { top: 400px; }
+.layout-A .pic { top: 740px; }
+.layout-B .pic, .closing .pic { top: 400px; }
+@keyframes float { from { transform: translateY(8px) scale(1); } 50% { transform: translateY(-10px) scale(1.025); } to { transform: translateY(6px) scale(1); } }
 
 /* ---- Gren: tek doku ---- */
 .grain { position: absolute; inset: 0; pointer-events: none; opacity: .06; mix-blend-mode: overlay;
@@ -88,6 +99,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 .body { display: flex; flex-direction: column; }
 .l { font-family: "Alegreya Sans", sans-serif; font-size: 36px; font-weight: 400; line-height: 1.45;
   color: var(--ink-muted); max-width: 760px; white-space: nowrap; }
+.l.cite { font-size: 22px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-top: 26px; color: var(--accent); }
 .l.src { font-size: 22px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-top: 28px; }
 
 /* Kapak: başlık tek başına, sol altta, çizginin üstüne oturur */
@@ -95,7 +107,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 /* A: başlık üstte, gövde altta, ortası boş */
 .layout-A .stage { justify-content: space-between; }
 /* B ve kapanış: optik merkezde tek blok */
-.layout-B .stage, .closing .stage { justify-content: center; padding-bottom: 90px; }
+.layout-B .stage, .closing .stage { justify-content: flex-end; }
 .blk .body { margin-top: 48px; }
 .rule { display: block; width: 96px; height: 2px; background: var(--ink-faint); margin-bottom: 44px;
   transform-origin: left center; animation: draw .7s cubic-bezier(.2,.7,.2,1) .15s both; }
@@ -124,17 +136,19 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
   <div class="hl" data-furn="hairline"></div>
   <div class="foot" data-furn="footer">{{ handle }}</div>
 
+  {% if pic %}<div class="pic"><svg viewBox="0 0 400 400" aria-hidden="true">{{ pic }}</svg></div>{% endif %}
+
   <div class="stage">
   {% if role == "cover" %}
     <h1 class="h h-cover" data-fit data-block="headline" data-max="128" data-min="104" data-lines="5">{{ headline }}</h1>
   {% elif role == "body" and layout == "A" %}
     <h2 class="h h-heading" data-fit data-block="heading" data-max="92" data-min="76" data-lines="4">{{ heading }}</h2>
-    <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}</div>
+    <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}{% if cite %}<p class="l cite" data-oneline data-block="cite" style="--n: {{ body|length }}">{{ cite }}</p>{% endif %}</div>
   {% elif role == "body" %}
     <div class="blk">
       <i class="rule{% if rule_accent %} accent{% endif %}"></i>
       <h2 class="h h-heading" data-fit data-block="heading" data-max="92" data-min="76" data-lines="4">{{ heading }}</h2>
-      <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}</div>
+      <div class="body">{% for line in body %}<p class="l" data-oneline data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}{% if cite %}<p class="l cite" data-oneline data-block="cite" style="--n: {{ body|length }}">{{ cite }}</p>{% endif %}</div>
     </div>
   {% else %}
     <div class="blk">

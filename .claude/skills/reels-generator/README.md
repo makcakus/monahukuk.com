@@ -1,10 +1,12 @@
 # reels-generator
 
-Güncel hukuk haberinden m.o.n.a.law için 1080x1920 Instagram Reels üretir (ayrıntı: SKILL.md).
+Günlük hukuk bülteni reels'i (en az 6 doğrulanmış haber) için 1080x1920 MP4 üretir. Ses yerel Türkçe TTS,
+görsel kodla çizilir; dış servis ve anahtar yok. Ayrıntı: SKILL.md.
 
-1. `bash .claude/skills/reels-generator/scripts/setup.sh` — playwright, jinja2, pillow ve fontlar; ffmpeg gerekir.
-2. Claude'a "bugünün reelslerini yap" ya da "şu haberi reels yap" de.
-3. Elle render: `python3 .claude/skills/reels-generator/scripts/render_reel.py output/reels/<slug>/reel.json`
+1. `bash .claude/skills/reels-generator/scripts/setup.sh` (playwright, sherpa-onnx, fontlar, Türkçe ses; ffmpeg gerekir)
+2. Claude'a "bugünün reels'ini yap" de (ya da günlük otomasyon çalışsın).
+3. Elle: `python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.json` ardından `render_reel.py` aynı argümanla.
 4. Çıktı: `output/reels/<slug>/reel.mp4`, `cover.jpg`, `contact-sheet.jpg`, `caption.md`.
-5. Logo: `resources/logo.png` (şeffaf PNG). Gerçek logo gelince değiştir; yoksa `scripts/make_logo.py`.
-6. Chromium açılmazsa: hazır kurulu tarayıcıyla eşleşen playwright sürümünü kur (ör. `pip install playwright==1.56.0`).
+5. Ses: `resources/voice.json` (`fahrettin`, `dfki`, `fettah`). Kötü okunan kısaltma: `resources/pronounce.json`.
+6. Logo: `resources/logo.png` (şeffaf PNG). Gerçek logo gelince değiştir; yoksa `scripts/make_logo.py`.
+7. Chromium: hazır kurulu tarayıcı otomatik bulunur (`CHROMIUM_PATH` ile ezilebilir).

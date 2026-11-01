@@ -23,85 +23,115 @@ kökünde `output/reels/<slug>/` altına yazılır. Slug biçimi `YYYY-AA-GG-kon
 İlk kullanımda bir kez `bash scripts/setup.sh` çalıştır. Chromium başlamazsa
 README'deki nota bak.
 
-## 0. Konu seç ve doğrula — atlanmaz
+## 0. Günlük format: "Haftanın / günün hukuku" bülteni
 
-Hedef: haftanın ya da günün **güncel hukuk haberi**. Hedef kitle geniş: hukuk
-dışından da izlenecek. Yabancılara yönelik konuya zorlama.
+Her gün 1 reels. İçinde **en az 6** haber olur: vatandaşın genelini ilgilendiren, en çok
+gündem olan hukuki gelişmeler. Yapı: kapak + 6 (ya da daha fazla) haber sahnesi + kapanış
+(en çok 10 sahne). Süre 60–80 sn.
 
-1. Aday bul: `WebSearch` (son 7 gün), YargıMCP (`resmi_gazete_fihrist`, `mevzuat_ara`,
-   `ictihat_ara`; kota bittiyse atla), TBMM, AYM, Yargıtay, Danıştay, Rekabet,
-   BDDK ve KVKK duyuruları.
-2. Kullanıcıya 4–5 aday sun. Her biri için tek satır, tarih ve resmi kaynak ver.
-   Günde iki tane seçilir. Kullanıcı "sen seç" derse en geniş kitleyi etkileyen
-   ikisini al.
-3. Seçilen haberi **resmi kaynaktan** doğrula: Resmî Gazete metni, karar metni ya da
-   kurum duyurusu. Haber sitesi tek başına yetmez. Doğrulanamayan bilgi reels'e
-   girmez. Kaynak `reel.json > sources` alanına yazılır. Renderer kaynaksız reel'i
-   reddeder.
-4. `content/articles/tr/` ve `content/hukuki-haberler/` içinde aynı konu varsa o metnin
-   cümlelerini ve yapısını taşıma (CLAUDE.md bülten kuralı 5).
+### Haber nereden bulunur (aday bulma)
+
+Aday bulmak için serbest kaynaklara bakılır, **hiçbiri tek başına doğrulama sayılmaz**:
+- `WebSearch`: son 7 gün, genel gündem ("Anayasa Mahkemesi karar", "yargı paketi", "Resmî
+  Gazete'de bugün", "yürürlüğe girdi" vb.).
+- X (Twitter): `WebSearch` ile `allowed_domains: ["x.com", "twitter.com"]` kısıtlı arama.
+  Avukat, baro ve haber hesaplarında ne konuşulduğuna bakmak için. Yalnızca "bu konu
+  gündemde" sinyalidir; X'te okunan hiçbir bilgi reels'e olduğu gibi girmez.
+- YargıMCP: `resmi_gazete_fihrist` (son 7–10 gün, her gün), `mevzuat_ara` (tarih
+  aralığıyla yeni kanun, yönetmelik, CB kararı), `aym_ictihat_ara` (yeni norm denetimi ve
+  bireysel başvuru kararları, `decision_date_start` ile), `ictihat_ara` (Yargıtay, Danıştay
+  HGK/İBK ve daire kararları), `kurum_karari_ara` (KVKK, Rekabet, BDDK, SPK, GİB).
+- Kurum duyuruları: TBMM, Adalet Bakanlığı, SGK, GİB, Rekabet, KVKK, BDDK, SPK.
+
+Önce `legal_research_guide` ve gerekirse `hukuk_skill` ile araç kullanımına bak. Yargı PRO
+kotası aylıktır ve her `*_getir` çağrısı kotadan düşer: önce `*_ara` ile ve snippet'lerle
+ele, yalnız seçtiğin haberin metnini getir. Kota biterse **reels üretme**, kullanıcıya
+nedenini bildir.
+
+### Doğrulama kuralı (pazarlık yok)
+
+Her haber için **birincil resmî kaynak metni** okunur: Resmî Gazete maddesi, mevzuat.gov.tr
+metni, AYM/Yargıtay/Danıştay karar metni ya da kurum kararı. Haber sitesi, hukuk bürosu
+yazısı ve X paylaşımı doğrulama sayılmaz. Reels'e giren her cümle, okuduğun metinde
+bulunur:
+- Sayı, tarih, tutar, madde numarası metinden birebir alınır.
+- Yürürlük tarihi kanunun yürürlük maddesinden okunur ("yayımdan üç ay sonra" ise hesapla
+  ve metindeki dayanağı yaz).
+- Yargı kararında sonuç, hüküm bölümünden okunur; ayrıca gerekçe ve karşı oy ayrımına dikkat.
+- Metinde olmayanı çıkarım olarak da yazma ("yeni düzenleme bekleniyor" gibi tahmin yok).
+- Doğrulayamadığın haber reels'e girmez. 6'ya ulaşamıyorsan 5 haberle üretme: ya daha
+  geriye bak (bu hafta, son 10 gün) ya da hiç üretme ve kullanıcıya bildir.
+- `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
+
+### Haber seçimi
+
+Seçerken: (1) vatandaşın geneline dokunur mu (aile, kira, iş, tüketici, çocuk, vergi,
+sosyal medya, trafik, miras, tapu), (2) yeni mi (son 7–10 gün; yürürlük günü bugünse öne
+çıkar), (3) gündemde mi (X ve haber taramasında konuşuluyor mu), (4) resmî kaynakta net mi.
+Siyasi parti, kişi adlı güncel soruşturma ve devam eden yargılamaya dair haber alınmaz. Aynı
+haberi kısa süre önce yaptıysan tekrarlama (`output/reels/` geçmişine bak). Sıralama:
+en çok ilgi çekecek olan kapağa ve ilk habere.
+
+`content/articles/` içinde aynı konu varsa o metnin cümlelerini taşıma (CLAUDE.md bülten kuralı 5).
 
 ## 1. Senaryoyu yaz → `output/reels/<slug>/reel.json`
 
 Tek doğruluk kaynağı bu dosyadır. Renderer başka hiçbir şey okumaz. Render ücretsiz;
-onay için durma, hemen render et. Sonra contact sheet'i metinle yan yana göster ve
-düzeltme bekle.
+onay için durma, hemen render et. Slug biçimi `YYYY-AA-GG-haftanin-hukuku`.
 
 ```json
 {
   "topic": "…",
-  "slug": "2026-10-11-konu",
-  "sources": [{ "label": "Resmî Gazete, 11.10.2026, S. 33xxx", "url": "https://www.resmigazete.gov.tr/…" }],
+  "slug": "2026-11-01-haftanin-hukuku",
+  "sources": [{ "label": "7596 sayılı Kanun, RG 27.10.2026 S. 33413, m. 1-8", "url": "https://www.mevzuat.gov.tr/…" }],
   "scenes": [
-    { "role": "cover",   "headline": "Kiracı artık *on gün* içinde…", "vo": "…" },
-    { "role": "body",    "heading": "…", "body": ["tek satır", "tek satır"], "vo": "…" },
-    { "role": "body",    "heading": "…", "body": ["tek satır"], "layout": "B", "vo": "…" },
-    { "role": "closing", "headline": "…", "cta": "…", "source": "Kaynak: Resmî Gazete", "vo": "…" }
+    { "role": "cover", "headline": "Bu hafta hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye", "vo": "…" },
+    { "role": "body", "heading": "…*vurgu*…", "art": "telefon",
+      "body": ["en çok iki satır", "her biri tek satıra sığar"],
+      "cite": "Resmî Gazete 10.10.2026 · Yönetmelik", "vo": "…" },
+    { "role": "closing", "headline": "…", "cta": "…", "source": "Kaynak: Resmî Gazete", "art": "terazi", "vo": "…" }
   ]
 }
 ```
 
-**Kapak (`cover`)**: İlk 1,5 saniyede kaydırmayı durduran tek cümle. Okura ne
-değiştiğini söyler: "Artık…", "…yasaklandı", "…sona erdi". Soru, alt başlık ya da
-gövde olmaz. En fazla 5 satır.
+**Kapak (`cover`)**: Tek cümle, kaydırmayı durdurur; sayı ("6 gelişme") ve en dikkat çekici
+haberin ipucu. Soru, alt başlık ya da gövde yok. En fazla 5 satır.
 
-**Gövde (`body`)**: Her sahne tek fikir taşır. Kısa başlık (en fazla 4 satır) ve
-en fazla iki gövde satırı olur. Her satır tek satıra sığmalı; renderer ölçer. Üçüncü
-satıra ihtiyaç varsa o iki sahnedir ya da kesilir.
+**Haber sahnesi (`body`)**: Bir haber = bir sahne. Başlık haberin kendisidir (en çok 4 satır),
+gövde en çok iki satır (her satır tek satıra sığar, renderer ölçer), `cite` zorunlu: ekranda
+altın renkte küçük kaynak satırı (ör. "AYM E.2025/156 · RG 30.09.2026", en çok ~44 karakter).
+Haberi anlat, yorum yapma, tavsiye verme.
 
-**Kapanış (`closing`)**: Kapanış cümlesi, yumuşak davet (`cta`) ve tercihen kaynak
-satırı (`source`). Davet örnekleri: "Ayrıntılar kaynakta.", "Kaydedin, lazım
-olur." Satış dili kullanılmaz (aşağıdaki reklam kuralı).
+**Kapanış (`closing`)**: Kapanış cümlesi, yumuşak davet (`cta`), kaynak satırı (`source`).
 
-**Sahne sayısı**: 3–8, içerik belirler, doldurma yapılmaz. Hedef toplam süre
-20–40 sn.
+**Vurgu**: Başlıkta `*kelime*` o sahnenin vurgusudur (altın, italik), sahne başına en fazla
+bir tane. Kapanışta vurgu bitiş karesidir, orada `*` yok.
 
-**Vurgu**: Başlıkta `*kelime*` o sahnenin vurgusudur; altın renkte, italik basılır.
-Sahne başına en fazla bir vurgu olur. Kapanışın vurgusu bitiş karesidir, orada
-`*` kullanılmaz. B düzenindeki bir sahnede vurgu kelimesi yoksa üstteki kısa çizgi
-altına döner. Her sahnede tam bir vurgu olur; renderer sayar.
+**Görsel (`art`)**: Konuya uygun çizgi illüstrasyonu: `adliye`, `terazi`, `tokmak`, `belge`,
+`kumsaati`, `ev`, `para`, `kalkan`, `kilit`, `araba`, `telefon`, `kisi`, `canta`
+(`resources/art.json`). Her haber sahnesinde farklı olsun. Yeni konu için `art.json`'a
+yeni çizim eklenebilir (400x400 görünüm kutusu, yalnız çizgi).
 
-**Seslendirme (`vo`)**: Her sahnenin konuşulan metni. Ekrandaki metni kelimesi
-kelimesine okumaz, onu tamamlar. Sahne başına 8–22 kelime, doğal konuşma Türkçesi.
-Rakamları ve madde numaralarını okunacağı gibi yaz: "yedinci madde", "yüzde on",
-"6098 sayılı" yerine "Türk Borçlar Kanunu". Kısaltma kullanma ("TBK" değil).
+**Seslendirme (`vo`)**: Konuşulan metin; ekrandakini kelimesi kelimesine okumaz, tamamlar.
+Sahne başına 15–30 kelime, doğal konuşma Türkçesi, kısa cümleler. Rakam, tarih, madde ve
+sıra sayısı, kısaltma ve para yazıyla değil **olduğu gibi** yazılabilir: `scripts/tr_text.py`
+okunuşa çevirir ("7596 sayılı" → "yedi bin beş yüz doksan altı sayılı", "175. madde" → "yüz
+yetmiş beşinci madde", "%20" → "yüzde yirmi", "1 milyon TL" → "bir milyon lira", UYAP,
+TBMM, AYM gibi kısaltmaları açar ve kısaltmadan sonra gelen eki uyumlu bağlar).
 
-**Düzen**: Gövde sahneleri A ve B arasında dönüşümlüdür (tek sıradaki A). A'da
-başlık üstte, gövde altta, ortası boştur. B'de blok optik merkezdedir ve üstünde
-kısa çizgi vardır. `layout` alanı bu sırayı ezer.
+**Düzen**: Gövde sahneleri A ve B arasında dönüşümlüdür (tek sıradaki A: başlık üstte,
+ortada illüstrasyon, gövde ve kaynak altta; B: üstte illüstrasyon, altta başlık ve gövde).
+`layout` alanı sırayı ezer.
 
 **Haber dili** (CLAUDE.md bülten kuralları):
 - Ne olduğunu anlat; yorum ve tavsiye ya hiç olmaz ya da tek cümle olur.
-- Her reels aynı kalıpla kurulmaz; kapak cümlesinin biçimini değiştir.
-- Kanun numarası gerekiyorsa tek cümlede geçer.
+- Kanun numarası gerekiyorsa tek cümlede geçer; kapak cümlesinin biçimi her gün aynı kalıpta olmasın.
+- Bir haberde ancak resmî metinde yazan sonuç ve tarih yer alır.
 
-**Reklam yasağı** (Avukatlık Kanunu m. 55 ve TBB Reklam Yasağı Yönetmeliği):
-- İçerik bilgilendirme amaçlıdır.
-- Müvekkil çekmeye yönelik çağrı, sonuç vaadi, ücret ya da kampanya, "en iyi"
-  gibi üstünlük iddiası, gerçek dosya ya da müvekkil örneği kullanılmaz.
-- "DM", "bio'daki link", "bizi arayın", "ücretsiz danışma" gibi ifadeler
-  kullanılmaz; renderer bunları reddeder.
-- Şüphede kalırsan kullanıcıya sor. Son değerlendirme avukatındır.
+**Reklam kaygısı**: Hesabın sahibi bu içeriğin reklam yasağı (Avukatlık Kanunu m. 55) kapsamı
+dışında olduğunu değerlendiriyor. Yine de içerik bilgilendirme amaçlı kalır: müvekkil
+çağrısı, sonuç vaadi, ücret ya da kampanya ifadesi yazılmaz. Renderer reklam çağrısı gibi
+okunabilecek ifadelerde yalnızca uyarı verir, durmaz.
 
 ## 2. Seslendirme (yerel, ücretsiz, ağsız)
 
@@ -117,22 +147,22 @@ python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.j
 - Ses seçimi `resources/voice.json` içindedir (`fahrettin`, `dfki`, `fettah`). Her
   reels aynı sesle çıkar; değiştirmek için dosyayı düzenle ve `setup.sh`'i çalıştır
   (ya da `VOICES="fahrettin dfki fettah" bash scripts/setup.sh` ile hepsini indir).
-- Telaffuz: `vo` rakam içeremez (script reddeder). Sayıları, madde numaralarını
-  yazıyla yaz. Kurum ve kanun kısaltmaları `resources/pronounce.json` sözlüğünden
-  okunuşa çevrilir; yeni bir kısaltma kötü okunuyorsa oraya ekle.
+- Telaffuz: rakam, tarih, madde ve sıra sayısı, yüzde, para ve kısaltmalar `scripts/tr_text.py`
+  ile otomatik okunuşa çevrilir. Kötü okunan bir kelime/kısaltma için `resources/pronounce.json`
+  sözlüğüne ekle (sonu `~` ile biten karşılık, iyelik ekli ad demektir: Kanunu, Meclisi; ek
+  uyumu için). Çevrilmiş metin `tts.py` çıktısında satır satır yazılır, oradan kontrol et.
 - Dinleyip kontrol et: ı/i, ş, kurum adları, sayılar. Kötü okunan cümleyi
   yeniden yaz (noktalama ve kısa cümleler okunuşu düzeltir), yalnızca o sahneyi `--scene`
   ile yeniden üret.
 - Ses yoksa render sessiz video üretir; trend müzik Instagram'da eklenir.
 
-## 3. Arka plan ve hareket (hepsi kodla, kredisiz)
+## 3. Görsel ve hareket (hepsi kodla, kredisiz)
 
-Her sahnede şablon ince altın çizgilerle çizilmiş bir mahkeme sütunu dizisi basar:
-sütunlar sahne başında çizilerek belirir, arka plan sahne boyunca yavaşça kayar,
-hafif bir ışık yanar. Kadraj sahne sırasına göre değişir, set tek düze durmaz.
-Yazı kelime kelime belirir, sahne sonunda içerik kararır, sabit öğeler kıpırdamaz.
-AI görseli kullanılmaz; sahneye `images/NN.jpg` konursa şablon onu koyulaştırıp
-arka plan olarak kullanır (ayrıca üretim gerektirir).
+Her haber sahnesinde konuya uygun bir altın çizgi illüstrasyonu (bölüm 1, `art`) sahne
+başında çizilerek belirir ve yavaşça süzülür; arkada ince bir sütun dizisi ve hafif ışık
+vardır. Yazı kelime kelime belirir, sahne sonunda içerik kararır, sabit öğeler kıpırdamaz.
+AI görseli kullanılmaz (Higgsfield dahil). Sahneye `images/NN.jpg` konursa şablon onu
+koyulaştırıp arka plan olarak kullanır; bu elle sağlanan görsel içindir.
 
 ## 4. Render
 
@@ -142,7 +172,8 @@ python3 .claude/skills/reels-generator/scripts/render_reel.py output/reels/<slug
 ```
 
 Renderer şunları yapar ve hata olursa **durur**:
-- Doğrulama: rol sırası, kaynak, vurgu sayısı, emoji ve reklam ifadeleri.
+- Doğrulama: rol sırası, kaynak, her haber sahnesinde `cite`, vurgu sayısı, emoji. Reklam
+  çağrısı gibi okunabilecek ifadelerde yalnız uyarır.
 - Logo kontrolü: şeffaf PNG, en az 200px genişlik.
 - Fontlar: `resources/fonts` içinden yüklenir. Ağ isteği engellenir; biri denenirse
   çalışma durur.
@@ -179,13 +210,16 @@ Sorun varsa metni ya da şablonu düzelt, yeniden render et, sonra göster.
 
 ## 6. Teslim
 
-- Kullanıcıya `SendUserFile` ile `reel.mp4`, `cover.jpg` ve `caption.md` gönder.
-  Yanına contact sheet ile reel.json'daki metinleri koy.
-- Instagram'a yayın aracı yok. Yükleme ve zamanlama kullanıcıdadır (uygulama ya da
-  Meta Business Suite). Trend bir müzik eklenecekse uygulamada, seslendirmenin
-  altında düşük seviyede eklenir.
-- Kullanıcı düzeltme isterse `reel.json`'u düzenle ve `--scene N` ile yalnız o
-  sahneyi yeniden çek. Ses metni değiştiyse önce o sahnenin sesini yeniden üret.
+- `reel.mp4`, `cover.jpg` ve `caption.md` kullanıcıya `SendUserFile` ile gönderilir; ardından
+  `PushNotification` ile telefona tek satırlık bildirim gider (ör. "Bugünün reels'i hazır:
+  6 haber, 62 sn. Kaynaklar doğrulandı."). Hata ya da eksik doğrulama olursa bildirim bunu
+  söyler ve video üretilmez.
+- Kullanıcı yayın saatini 20:00 olarak belirledi; reels bundan önce hazır olmalı. Instagram'a
+  yayın aracı yok, yükleme ve zamanlama kullanıcıdadır (uygulama ya da Meta Business Suite).
+- Çıktı klasörü (`output/reels/<slug>/`) commit'lenip dala push edilir ki bulut oturumu
+  kapansa da kaybolmasın (`frames/`, `html/`, `stills/` git dışında).
+- Kullanıcı düzeltme isterse `reel.json`'u düzenle ve `--scene N` ile yalnız o sahneyi yeniden
+  çek. Ses metni değiştiyse önce o sahnenin sesini yeniden üret.
 
 ## Tasarım dili — değiştirme
 
@@ -200,9 +234,9 @@ Koyu kâğıda basılmış bir dergi sayfası. Canva şablonu değil.
 - Güvenli alan: sol 84, sağ 150 (Instagram düğmeleri), üst 232, alt çizgi y=1500.
   Altı Instagram caption bandıdır, oraya metin girmez.
 - Sabit öğeler: sol üstte logo (`resources/logo.png`, CSS mask, krem), sağ üstte
-  `02 / 05` folio, çizgi ve `@m.o.n.a.law`.
+  `02 / 08` folio, çizgi ve `@m.o.n.a.law`.
 - Hareket: yalnız belirme, yükselme ve çizgi çekme. Zıplama, dönme ve parlama yok.
   Kelimeler 85 ms arayla gelir, sahne sonunda içerik 0,3 sn'de kararır. Sabit öğeler
   hiç kıpırdamaz.
-- Yasak: emoji, gölge, parlama, kutu, kart, yuvarlak köşe, ikon, filigran ve
-  reel.json dışındaki her metin (folio ile alt bilgi hariç).
+- Yasak: emoji, gölge, kutu, kart, yuvarlak köşe, filigran ve reel.json dışındaki her metin
+  (folio ile alt bilgi hariç). Çizgi illüstrasyonu ve ince ışık serbest.

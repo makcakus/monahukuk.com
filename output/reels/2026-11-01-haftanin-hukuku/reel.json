@@ -1,0 +1,42 @@
+{
+  "topic": "Haftanın hukuku: 6 doğrulanmış gelişme (25 Ekim–1 Kasım 2026)",
+  "slug": "2026-11-01-haftanin-hukuku",
+  "sources": [
+    { "label": "Sosyal Ağ Sağlayıcı Yaş Doğrulama Yönetmeliği, RG 10.10.2026, m. 5-8, 13, geçici m. 1 (mevzuat.gov.tr, KKY 46333)", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=46333&MevzuatTur=7&MevzuatTertip=5" },
+    { "label": "7596 sayılı Kanun, RG 27.10.2026 S. 33413, m. 1-4, 8", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7596&MevzuatTur=1&MevzuatTertip=5" },
+    { "label": "AYM E.2025/156 K.2026/131 (TMK m. 175/1 'süresiz olarak'), RG 30.09.2026 S. 33386", "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=65a0dd4e-8336-032f-72ed-050eecae6782" },
+    { "label": "AYM Birinci Bölüm, BB 2024/68293, RG 30.10.2026 S. 33415", "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=e6434cad-ce10-41d1-9fa1-82c29329b5ad" },
+    { "label": "7589 sayılı Kanun, RG 31.07.2026 S. 33326, m. 11, 12, 22, 26", "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7589&MevzuatTur=1&MevzuatTertip=5" }
+  ],
+  "scenes": [
+    { "role": "cover", "headline": "Bu hafta hukukta *6 gelişme*: biri bugün başladı.", "art": "adliye",
+      "vo": "Bu hafta hukukta altı önemli gelişme var. Birisi bugün, 1 Kasım'da yürürlüğe girdi." },
+    { "role": "body", "heading": "15 yaş altına *sosyal medya* hesabı açılamayacak", "art": "telefon",
+      "body": ["Hesap açarken e-Devlet ile yaş doğrulanır.", "15–18 yaş: gizli hesap, canlı yayın yok."],
+      "cite": "Resmî Gazete 10.10.2026 · Yönetmelik",
+      "vo": "Yönetmelik bugün yürürlüğe girdi. 15 yaşını doldurmamış çocuklara sosyal ağ hizmeti verilemeyecek; yaş doğrulaması e-Devlet üzerinden yapılacak." },
+    { "role": "body", "heading": "Tasfiye edilen yatırım fonları için *özel kanun* çıktı", "art": "para",
+      "body": ["Ara ödeme tavanı: 1 milyon lira.", "Net yatırım tutarı enflasyonla güncellenir."],
+      "cite": "Resmî Gazete 27.10.2026 · Kanun 7596",
+      "vo": "7596 sayılı Kanun, tasfiyesine karar verilen yatırım fonları için ödeme düzeni getirdi. Ara ödeme tavanı 1 milyon lira." },
+    { "role": "body", "heading": "Süresiz nafaka ibaresini *Anayasa Mahkemesi* iptal etti", "art": "tokmak",
+      "body": ["Yürürlük: yayımdan 9 ay sonra.", "Karar oyçokluğuyla alındı, üç karşı oy var."],
+      "cite": "AYM E.2025/156 · RG 30.09.2026",
+      "vo": "Anayasa Mahkemesi, Medeni Kanun'un 175. maddesindeki süresiz ibaresini iptal etti. İtiraz, Antalya 12. Aile Mahkemesi'nden gelmişti. İptal, yayımdan 9 ay sonra yürürlüğe girecek." },
+    { "role": "body", "heading": "*Okul değiştirme* cezasına AYM'den ihlal kararı", "art": "kisi",
+      "body": ["Cezanın tek dayanağı yönetmelikti, kanun yok.", "Başvuruculara 50 bin lira tazminat."],
+      "cite": "AYM BB 2024/68293 · RG 30.10.2026",
+      "vo": "Anayasa Mahkemesi, yalnızca yönetmeliğe dayanan okul değiştirme cezasının eğitim hakkını ihlal ettiğine karar verdi." },
+    { "role": "body", "heading": "Vesayet malları *elektronik portalda* satılacak", "art": "ev",
+      "body": ["Satış, UYAP'a bağlı portalda açık artırmayla.", "Onay kararı, ihaleden itibaren 10 gün içinde."],
+      "cite": "Kanun 7589 m. 11-12 · RG 31.07.2026",
+      "vo": "31 Ekim'de yürürlüğe giren düzenlemeyle vesayet altındaki kişilerin malları, elektronik portalda açık artırmayla satılacak." },
+    { "role": "body", "heading": "Görüntülü duruşmada *elle imza* aranmayacak", "art": "belge",
+      "body": ["Ses ve görüntüyle katılanlar için.", "İstisna: ikrar, yemin, feragat, kabul, sulh."],
+      "cite": "Kanun 7589 m. 22 · RG 31.07.2026",
+      "vo": "Yine 31 Ekim'den itibaren, görüntülü duruşmaya katılanlardan, ikrar, yemin, feragat, kabul ve sulh dışında, elle imza aranmayacak." },
+    { "role": "closing", "headline": "Haftanın hukuku, resmî kaynaktan", "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
+      "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi", "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın." }
+  ]
+}

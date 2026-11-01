@@ -25,6 +25,7 @@ from playwright.sync_api import sync_playwright
 SKILL = Path(__file__).resolve().parent.parent
 FONTS = SKILL / "resources/fonts"
 LOGO = SKILL / "resources/logo.png"
+ART = json.loads((SKILL / "resources/art.json").read_text(encoding="utf-8"))
 W, H = 1080, 1920
 HANDLE = "@m.o.n.a.law"
 OUT_FADE = 0.3          # sahne sonu içerik kararması (sn)
@@ -58,6 +59,18 @@ class Stop(Exception):
     pass
 
 
+def chromium_path():
+    """Hazır kurulu Chromium'u bul (CHROMIUM_PATH ya da /opt/pw-browsers). Playwright sürümü
+    tarayıcı sürümüyle uyuşmasa bile açılır; bulunamazsa Playwright kendi tarayıcısını kullanır."""
+    import glob
+    import os
+    if os.environ.get("CHROMIUM_PATH"):
+        return os.environ["CHROMIUM_PATH"]
+    base = os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or "/opt/pw-browsers"
+    found = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome"))
+    return found[-1] if found else None
+
+
 # ---------------------------------------------------------------- doğrulama
 
 def accent_count(text, where):
@@ -71,8 +84,8 @@ def validate(reel, allow_ad):
     scenes = reel.get("scenes") or []
     if not reel.get("slug") or not re.fullmatch(r"[a-z0-9-]+", reel["slug"]):
         raise Stop("slug eksik ya da geçersiz (küçük harf, rakam, tire).")
-    if not 3 <= len(scenes) <= 8:
-        raise Stop(f"Sahne sayısı 3–8 olmalı, {len(scenes)} var.")
+    if not 3 <= len(scenes) <= 10:
+        raise Stop(f"Sahne sayısı 3–10 olmalı, {len(scenes)} var.")
     srcs = reel.get("sources") or []
     if not srcs or not all(str(s.get("url", "")).startswith("https://") for s in srcs):
         raise Stop("sources boş ya da https bağlantısı yok. Kaynağı doğrulanmamış haber reels olmaz.")
@@ -91,10 +104,14 @@ def validate(reel, allow_ad):
             body = s.get("body") or []
             if not isinstance(body, list) or not 1 <= len(body) <= 2:
                 raise Stop(f"{where}: body 1 ya da 2 satırlık liste olmalı.")
+            if not (s.get("cite") or "").strip():
+                raise Stop(f"{where}: cite (bu haberin resmî kaynağı, ör. 'AYM, E.2025/12') zorunlu.")
+            if s.get("art") and s["art"] not in ART:
+                raise Stop(f"{where}: art '{s['art']}' yok. Seçenekler: {', '.join(ART)}")
             if s.get("layout") not in (None, "A", "B"):
                 raise Stop(f"{where}: layout A ya da B olmalı.")
             accent_count(s["heading"], where)
-            texts += [s["heading"], *body]
+            texts += [s["heading"], *body, s["cite"]]
         else:
             if not s.get("headline"):
                 raise Stop(f"{where}: headline eksik.")
@@ -119,7 +136,7 @@ def validate(reel, allow_ad):
         low = f" {joined.lower()} "
         hits = [p for p in AD_PHRASES if re.search(rf"(?<!\w){re.escape(p)}(?!\w)", low)]
         if hits:
-            raise Stop(f"Reklam yasağına takılabilecek ifade: {', '.join(hits)}. Bilinçliyse --allow-ad-words.")
+            print(f"UYARI: reklam çağrısı gibi okunabilecek ifade: {', '.join(hits)} (durdurmuyorum; sen karar ver).")
 
 
 def check_logo():
@@ -173,6 +190,16 @@ def words_html(text, endmark=False):
     return Markup(" ".join(out)), len(raws)
 
 
+def _pic(inner):
+    """Her çizgiye pathLength=1 ve sıra numarası ver: sahne başında sırayla çizilerek belirir."""
+    n = [0]
+
+    def tag(m):
+        n[0] += 1
+        return f'<{m.group(1)} pathLength="1" style="--k:{n[0]}" '
+    return re.sub(r"<(rect|line|path|circle|ellipse) ", tag, inner)
+
+
 def find_asset(folder, i, exts):
     for ext in exts:
         p = folder / f"{i:02d}{ext}"
@@ -220,7 +247,9 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
             dict(x=-40, y=-140, s=0.9, bx=420, by=520), dict(x=-380, y=-20, s=1.05, bx=120, by=330),
             dict(x=-250, y=-90, s=1.2, bx=300, by=450)]
     art = arts[(i - 1) % len(arts)]
-    ctx = dict(art=art,
+    names = list(ART)
+    art_name = s.get("art") or ("adliye" if role == "cover" else "terazi" if role == "closing" else names[(i * 5) % len(names)])
+    ctx = dict(art=art, pic=Markup(_pic(ART[art_name])), cite=s.get("cite"),
         slug=reel["slug"], role=role, layout=layout, last=(i == n), dur=f"{dur:.3f}",
         folio=f"{i:02d} / {n:02d}", handle=HANDLE, logo=logo_uri, logo_aspect=f"{logo_aspect:.4f}",
         fonts={k: (FONTS / v).as_uri() for k, v in FONT_FILES.items()},
@@ -397,7 +426,8 @@ def main():
     env = Environment(loader=FileSystemLoader(SKILL / "template"), autoescape=select_autoescape(["html"]))
     print(f"{reel['slug']}: {n} sahne")
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--force-color-profile=srgb", "--font-render-hinting=none",
+        browser = p.chromium.launch(executable_path=chromium_path(),
+                                    args=["--force-color-profile=srgb", "--font-render-hinting=none",
                                           "--disable-lcd-text", "--allow-file-access-from-files"])
         ctx = browser.new_context(viewport={"width": W, "height": H}, device_scale_factor=1)
         page = ctx.new_page()

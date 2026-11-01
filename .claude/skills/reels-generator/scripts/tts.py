@@ -7,7 +7,8 @@ modelleri `scripts/setup.sh` ile resources/voices/ altına iner.
     python3 tts.py output/reels/<slug>/reel.json [--voice fahrettin|dfki|fettah] [--speed 1.0]
 
 Ses seçimi resources/voice.json içindedir; her reels aynı sesle çıkar.
-Telaffuz düzeltmeleri resources/pronounce.json içindedir (kısaltma -> okunuşu).
+Rakamlar, tarihler, sıra sayıları ve kısaltmalar otomatik okunuşa çevrilir (tr_text.py);
+kötü okunan kelime için resources/pronounce.json'a ekle.
 """
 import argparse
 import json
@@ -15,6 +16,9 @@ import re
 import sys
 import wave
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import tr_text  # noqa: E402
 
 SKILL = Path(__file__).resolve().parent.parent
 VOICES = SKILL / "resources/voices"
@@ -48,14 +52,8 @@ def load_model(name):
 
 
 def spoken(text):
-    """Kısaltmaları ve rakamları okunuşa çevirir. Asıl kural: vo'yu zaten okunacağı gibi yaz."""
-    if PRONOUNCE.exists():
-        for src, dst in json.loads(PRONOUNCE.read_text(encoding="utf-8")).items():
-            text = re.sub(rf"(?<![\w]){re.escape(src)}(?![\w])", dst, text)
-    if re.search(r"\d", text):
-        raise Stop(f"vo'da rakam var: {text!r}. Sayıları yazıyla yaz (ör. 'otuz bir Ekim'); "
-                   "TTS rakamları doğru okumaz.")
-    return re.sub(r"\s+", " ", text).strip()
+    """Rakam, tarih, sıra sayısı, kısaltma -> okunuş (scripts/tr_text.py + resources/pronounce.json)."""
+    return tr_text.spoken(text)
 
 
 def synth(tts, text, speed):

@@ -4,8 +4,16 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 python3 -m pip install --quiet playwright jinja2 pillow numpy "sherpa-onnx<2"   # 2.x yerleşik fonemleştiriciyi kaldırdı
-if ! python3 -c "from playwright.sync_api import sync_playwright as s
-with s() as p: p.chromium.launch().close()" 2>/dev/null; then
+# Chromium: önce hazır kurulu olanı dene (sürüm uyuşmazlığına takılmaz), yoksa Playwright indirsin
+if ! python3 - <<'PY' 2>/dev/null
+import glob, os
+from playwright.sync_api import sync_playwright
+base = os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or "/opt/pw-browsers"
+exe = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome"))
+with sync_playwright() as p:
+    p.chromium.launch(executable_path=exe[-1] if exe else None).close()
+PY
+then
   python3 -m playwright install chromium
 fi
 command -v ffmpeg >/dev/null || { echo "ffmpeg bulunamadı: kur (apt install ffmpeg / brew install ffmpeg)"; exit 1; }

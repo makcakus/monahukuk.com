@@ -30,7 +30,9 @@ html, body {{ margin: 0; background: transparent; }}
 def main():
     tmp = OUT.with_suffix(".tmp.png")
     with sync_playwright() as p:
-        b = p.chromium.launch(args=["--allow-file-access-from-files"])
+        import glob
+        exe = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"))
+        b = p.chromium.launch(executable_path=exe[-1] if exe else None, args=["--allow-file-access-from-files"])
         pg = b.new_page(viewport={"width": 1600, "height": 1100})
         page_file = OUT.with_suffix(".tmp.html")
         page_file.write_text(HTML, encoding="utf-8")
