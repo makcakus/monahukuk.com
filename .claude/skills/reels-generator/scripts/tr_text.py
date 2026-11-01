@@ -68,6 +68,11 @@ KINDS = {"de": "loc", "da": "loc", "te": "loc", "ta": "loc", "den": "abl", "dan"
          "si": "poss3", "sı": "poss3", "su": "poss3", "sü": "poss3", "nde": "loc", "nda": "loc", "nden": "abl", "ndan": "abl", "ne": "dat", "na": "dat"}
 
 
+LETTER_NAMES = {"a": "a", "b": "be", "c": "ce", "ç": "çe", "d": "de", "e": "e", "f": "fe", "g": "ge", "ğ": "yumuşak ge", "h": "he",
+                "ı": "ı", "i": "i", "j": "je", "k": "ke", "l": "le", "m": "me", "n": "ne", "o": "o", "ö": "ö", "p": "pe",
+                "r": "re", "s": "se", "ş": "şe", "t": "te", "u": "u", "ü": "ü", "v": "ve", "y": "ye", "z": "ze"}
+
+
 def attach(word, suffix, poss):
     """word + yazılı ek -> ünlü uyumuna göre doğru ek. poss: ad iyelik ekli (Kanunu, Meclisi ...),
     bu durumda hâl ekinden önce 'n' kaynaştırması gelir (Kanunu'nda)."""
@@ -128,6 +133,17 @@ def spoken(text):
             return m.group(0)
         return f"{number_words(d)} {MONTHS[mo]} {_year(y)}{_suffix(m.group(4))}"
     text = re.sub(r"\b(\d{1,2})[./](\d{1,2})[./](\d{4})('?[A-Za-zÇĞİÖŞÜçğıöşü]*)?", date, text)
+
+    # 2b) saat: 20.00'de -> yirmide, 20:30 -> yirmi otuz, saat 9.05 -> dokuz sıfır beş
+    def clock(m):
+        h, mi = int(m.group(1)), int(m.group(2))
+        spoken_min = "" if mi == 0 else (" " + number_words(mi) if mi >= 10 else " sıfır " + number_words(mi))
+        return number_words(h) + spoken_min + _suffix(m.group(3))
+    text = re.sub(r"(?<![\d.,:])([01]?\d|2[0-3]):([0-5]\d)(?!\d)('?[A-Za-zÇĞİÖŞÜçğıöşü]*)", clock, text)
+    text = re.sub(r"(?<=saat )([01]?\d|2[0-3])\.([0-5]\d)(?![\d.])('?[A-Za-zÇĞİÖŞÜçğıöşü]*)", clock, text, flags=re.IGNORECASE)
+
+    # 2c) parantez içi tek harf (fıkra bendi): (b) -> be  (TDK harf adları)
+    text = re.sub(r"\(([a-zçğıöşü])\)", lambda m: LETTER_NAMES[m.group(1)], text)
 
     # 3) yüzde: %20, % 20, yüzde 20
     text = re.sub(r"%\s?(\d+)(?:[,.](\d+))?", lambda m: "yüzde " + number_words(int(m.group(1)))

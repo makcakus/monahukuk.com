@@ -38,6 +38,12 @@ def _tr_lower(s):
     return s.replace("İ", "i").replace("I", "ı").lower()
 
 
+def plain_word(s):
+    """Küçük harf + şapkalı harfleri düzleştir (resmî -> resmi). Kural eşleşmesi ve fonemleştirme bununla yapılır:
+    motor â/î/û'yu zaten yok sayar; böylece metne "resmî" de "resmi" de yazılsa öğretilen kural uygulanır."""
+    return _tr_lower(s).replace("â", "a").replace("î", "i").replace("û", "u")
+
+
 def apply_edits(phonemes, edits):
     """phonemes: sembol listesi. Her edit için ilk eşleşmeyi değiştir (vurgu işaretleri göz ardı)."""
     for edit in edits:
@@ -64,7 +70,7 @@ def apply_edits(phonemes, edits):
 
 def match_entries(word, lexicon):
     """Kelimeye uyan tüm kurallar (sırayla uygulanır: ör. kanuni -> kanun kökü + sıfat sonu î)."""
-    w = _tr_lower(word)
+    w = plain_word(word)
     return [e for e in lexicon if w in e.get("words", []) or ("stem" in e and w.startswith(e["stem"]))]
 
 
@@ -79,6 +85,7 @@ class TrVoice:
         self.lexicon = load_lexicon(extra_lexicon)
 
     def _word_phonemes(self, word):
+        word = plain_word(word)
         ph = [p for sent in self.v.phonemize(word) for p in sent]
         for entry in match_entries(word, self.lexicon):
             ph = apply_edits(ph, entry["edit"])

@@ -147,6 +147,7 @@ python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.j
 - Ses seçimi `resources/voice.json` içindedir (`fahrettin`, `dfki`, `fettah`). Her
   reels aynı sesle çıkar; değiştirmek için dosyayı düzenle ve `setup.sh`'i çalıştır
   (ya da `VOICES="fahrettin dfki fettah" bash scripts/setup.sh` ile hepsini indir).
+- Telaffuz bilgisi, öğretme akışı ve 1000 kelimelik test havuzu için `.claude/skills/turkce-pronunciation/` skill'ine bak (kural değişikliğinden sonra `python3 .claude/skills/turkce-pronunciation/tests/run_pool.py`).
 - Telaffuz iki katmandır:
   1. Metin: rakam, tarih, madde ve sıra sayısı, yüzde, para ve kısaltmalar `scripts/tr_text.py` ile
      okunuşa çevrilir. Yeni kısaltma için `resources/pronounce.json` (sonu `~` olan karşılık iyelik
