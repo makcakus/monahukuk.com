@@ -130,6 +130,7 @@ Türkçede ünlü uzunluğu ayırt edici değildir ama alıntılarda ve şapkal�
 - Dosya 4'teki hâkim, hâlinde, lâzım, dâhil, ikâmet, mâlik ve dosya 5'teki resmî, millî, adlî, hukukî, kânunî, medenî, malî, idarî onaylandı.
 - **Toplu karar (2026-11-01):** -al kelimelerinde (normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal) ince a + açık l (`a ɫ $ > æ l`); -ol kelimelerinde (kontrol, rol, petrol, alkol, bol) ve -ul kelimelerinde (meşgul, makul) açık l (`ɔ ɫ $ > o l`, `ʊ ɫ $ > u l`).
 - **2026-11-01 ikinci tur:** tavan: vurgusuz (model son "an"ı uzatıyordu, `stress: none`); kabûl ve sulh: uzun ü + açık l (`ʊ ɫ > y ː l`; önceki ince-l ʲ kararı kulakta yetersiz bulundu ve değiştirildi); itiraz: uzun i (`i t > i ː t`); iptâl: ince a + açık l, çekimlerde de.
+- **2026-11-01 üçüncü tur:** ceza (cezâ): uzun a, vesayet (vesâyet): uzun a; çekimlerde de uygulanır (`z a > z a ː`, `s a > s a ː`).
 - **"Diğer" kelimeler düz kalır** (kalp, hayal, saat, seyahat, itaat, dikkat): önerilen kurallar (tek uzun a, ince k) kabul edilmedi, bu kelimelere kural yoktur. Not: "1. öneriyi kullan" ifadesi, dinletilen ilk biçim (düz) olarak yorumlandı.
 - Bilinen hata (düzeltildi): millî için ilk önerilen kural uzun î'yi ilk hecedeki i'ye uyguluyordu; `$` (kelime sonu) çapası eklenerek düzeltildi.
 

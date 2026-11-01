@@ -804,7 +804,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | 783 | infaz | D | 10125 | var | — | ɪ n f ˈ a z | — |
 | 784 | tutuklama | D | 6906 | — | — | t u t ˈ ʊ k ɫ a m a | — |
 | 785 | gözaltı | D | 25980 | var | — | ɟ œ z a ɫ t ˈ ɯ | — |
-| 786 | ceza | D | 2206 | var | — | d ʒ e z ˈ a | — |
+| 786 | ceza | D | 2206 | var | — | d ʒ e z ˈ a | d ʒ e z ˈ a ː |
 | 787 | hapis | D | 4217 | LastVowelDrop | — | h a p ˈ ɪ s | — |
 | 788 | tazminat | D | 11968 | NoVoicing | — | t a z m i n ˈ a t | — |
 | 789 | nafaka | D | 22066 | var | — | n a f a k ˈ a | — |
@@ -899,7 +899,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | 878 | zilyet | D | — | var | — | z ɪ l j ˈ ɛ t | — |
 | 879 | irtifak | D | — | NoVoicing | — | ɪ r t i f ˈ a k | — |
 | 880 | rehin | D | 6606 | var | — | r e h ˈ ɪ n | — |
-| 881 | vesayet | D | — | NoVoicing | — | v e s a j ˈ ɛ t | — |
+| 881 | vesayet | D | — | NoVoicing | — | v e s a j ˈ ɛ t | v e s a ː j ˈ ɛ t |
 | 882 | kayyum | D | — | var | — | k ˈ a j j ʊ m | — |
 | 883 | ehliyet | D | 11483 | NoVoicing | — | ɛ h l i j ˈ ɛ t | — |
 | 884 | temsil | D | 2762 | var | — | t æ m s ˈ ɪ l | — |

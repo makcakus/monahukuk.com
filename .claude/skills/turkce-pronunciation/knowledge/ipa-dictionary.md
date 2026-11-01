@@ -58,6 +58,8 @@ Modelde olmayan bir simge kuralda yazılırsa fonem dizisinden **sessizce düşe
 | sulh (uzun ü + açık l) | sulh | s ˈ ʊ ɫ h | s ˈ y ː l h |
 | tavan (vurgusuz) | tavan | t a v ˈ a n | t a v a n |
 | îtiraz (uzun i) | itiraz | i t i ɾ ˈ a z | i ː t i ɾ ˈ a z |
+| cezâ (uzun a) | ceza | d ʒ e z ˈ a | d ʒ e z ˈ a ː |
+| vesâyet (uzun a) | vesayet | v e s a j ˈ ɛ t | v e s a ː j ˈ ɛ t |
 
 ## Sık A/B kelimeleri, motor fonemleri [V] (ilk 80, sıklığa göre)
 | kelime | sıklık | motor |

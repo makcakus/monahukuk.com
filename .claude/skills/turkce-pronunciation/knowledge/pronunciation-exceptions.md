@@ -14,10 +14,11 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 - Dosya 4'teki hâkim, hâlinde, lâzım, dâhil, ikâmet, mâlik ve dosya 5'teki resmî, millî, adlî, hukukî, kânunî, medenî, malî, idarî onaylandı.
 - **Toplu karar (2026-11-01):** -al kelimelerinde (normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal) ince a + açık l (`a ɫ $ > æ l`); -ol kelimelerinde (kontrol, rol, petrol, alkol, bol) ve -ul kelimelerinde (meşgul, makul) açık l (`ɔ ɫ $ > o l`, `ʊ ɫ $ > u l`).
 - **2026-11-01 ikinci tur:** tavan: vurgusuz (model son "an"ı uzatıyordu, `stress: none`); kabûl ve sulh: uzun ü + açık l (`ʊ ɫ > y ː l`; önceki ince-l ʲ kararı kulakta yetersiz bulundu ve değiştirildi); itiraz: uzun i (`i t > i ː t`); iptâl: ince a + açık l, çekimlerde de.
+- **2026-11-01 üçüncü tur:** ceza (cezâ): uzun a, vesayet (vesâyet): uzun a; çekimlerde de uygulanır (`z a > z a ː`, `s a > s a ː`).
 - **"Diğer" kelimeler düz kalır** (kalp, hayal, saat, seyahat, itaat, dikkat): önerilen kurallar (tek uzun a, ince k) kabul edilmedi, bu kelimelere kural yoktur. Not: "1. öneriyi kullan" ifadesi, dinletilen ilk biçim (düz) olarak yorumlandı.
 - Bilinen hata (düzeltildi): millî için ilk önerilen kural uzun î'yi ilk hecedeki i'ye uyguluyordu; `$` (kelime sonu) çapası eklenerek düzeltildi.
 
-## Şu an öğretilmiş kurallar (26) [V]
+## Şu an öğretilmiş kurallar (28) [V]
 | öğretilen | eşleşme | kural | önce → sonra (temsilci) |
 |---|---|---|---|
 | kânun | kök: kanun* | `k a > k a ː` | kanun: k a n ˈ ʊ n → k a ː n ˈ ʊ n |
@@ -46,6 +47,8 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 | sulh (uzun ü + açık l) | kök: sulh* | `ʊ ɫ > y ː l` | sulh: s ˈ ʊ ɫ h → s ˈ y ː l h |
 | tavan (vurgusuz) | kök: tavan* | `` | tavan: t a v ˈ a n → t a v a n |
 | îtiraz (uzun i) | kök: itiraz* | `i t > i ː t` | itiraz: i t i ɾ ˈ a z → i ː t i ɾ ˈ a z |
+| cezâ (uzun a) | kök: ceza* | `z a > z a ː` | ceza: d ʒ e z ˈ a → d ʒ e z ˈ a ː |
+| vesâyet (uzun a) | kök: vesayet* | `s a > s a ː` | vesayet: v e s a j ˈ ɛ t → v e s a ː j ˈ ɛ t |
 
 ## Öğretme öncelik listesi (sıklığa göre, henüz öğretilmedi) [V]
 Kaynak: Zemberek `InverseHarmony` ∩ OpenSubtitles sıklığı. Sayı = sıklık sırası.
