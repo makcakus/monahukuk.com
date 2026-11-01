@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """reel.json içindeki her sahnenin `vo` metnini Türkçe sese çevirir -> audio/NN.wav
 
-Çevrimdışı Piper Türkçe sesleri (piper-tts ile, öğretilen telaffuzlarla: resources/lexicon.json). API, anahtar ve ağ gerekmez; ses
+Varsayılan: çevrimdışı Piper Türkçe sesleri (piper-tts ile, öğretilen telaffuzlarla: resources/lexicon.json). API, anahtar ve ağ gerekmez; ses
 modelleri `scripts/setup.sh` ile resources/voices/ altına iner.
 
     python3 tts.py output/reels/<slug>/reel.json [--voice fahrettin|dfki|fettah] [--speed 1.0]
 
+`--voice google:tr-TR-...` ile Google Cloud TTS (anahtar gerekir, GoogleVoice sınıfına bak).
 Ses seçimi resources/voice.json içindedir; her reels aynı sesle çıkar.
 Rakamlar, tarihler, sıra sayıları ve kısaltmalar otomatik okunuşa çevrilir (tr_text.py);
 kötü okunan kelime için resources/pronounce.json'a ekle.
@@ -36,7 +37,55 @@ def default_voice():
     return "fahrettin"
 
 
+class GoogleVoice:
+    """Google Cloud Text-to-Speech (yerli Türkçe sinir ağı sesleri). Anahtar: ortam değişkeni GOOGLE_TTS_API_KEY.
+    Ses adı: `google:tr-TR-Chirp3-HD-Charon` gibi (voice.json ya da --voice). Liste: `tts.py --list-google`.
+    Çıktı Piper'dan çok daha doğal tonlama verir; ama kelime bazlı öğretilen telaffuz (lexicon.json) burada
+    uygulanmaz, düzeltme için metindeki yazımı değiştir (pronounce.json okunuş yazımı hâlâ geçerli)."""
+
+    URL = "https://texttospeech.googleapis.com/v1/text:synthesize"
+
+    def __init__(self, name):
+        import os
+        self.key = os.environ.get("GOOGLE_TTS_API_KEY")
+        if not self.key:
+            raise Stop("GOOGLE_TTS_API_KEY yok (ortam değişkeni). Anahtarı ortam gizli değişkenlerine ekle.")
+        self.name = name
+
+    def synth(self, text, speed=1.0):
+        import base64
+        import io
+        import urllib.error
+        import urllib.request
+        body = {"input": {"text": text},
+                "voice": {"languageCode": "tr-TR", "name": self.name},
+                "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": speed}}
+        req = urllib.request.Request(f"{self.URL}?key={self.key}", json.dumps(body).encode(),
+                                     {"Content-Type": "application/json"})
+        try:
+            data = json.load(urllib.request.urlopen(req, timeout=60))
+        except urllib.error.HTTPError as e:
+            raise Stop(f"Google TTS hata {e.code}: {e.read().decode()[:300]}")
+        import numpy as np
+        with wave.open(io.BytesIO(base64.b64decode(data["audioContent"]))) as w:
+            return w.getframerate(), np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16)
+
+
+def list_google():
+    import os
+    import urllib.request
+    key = os.environ.get("GOOGLE_TTS_API_KEY")
+    if not key:
+        raise Stop("GOOGLE_TTS_API_KEY yok.")
+    data = json.load(urllib.request.urlopen(
+        f"https://texttospeech.googleapis.com/v1/voices?languageCode=tr-TR&key={key}", timeout=30))
+    for v in data.get("voices", []):
+        print(v["name"], v.get("ssmlGender", ""))
+
+
 def load_model(name):
+    if name.startswith("google:"):
+        return GoogleVoice(name.split(":", 1)[1])
     try:
         import tr_voice
         return tr_voice.TrVoice(name)
@@ -60,11 +109,16 @@ def synth(tts, text, speed):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("reel", type=Path)
+    ap.add_argument("reel", type=Path, nargs="?")
+    ap.add_argument("--list-google", action="store_true", help="tr-TR Google seslerini listele")
     ap.add_argument("--voice", default=None)
     ap.add_argument("--speed", type=float, default=1.0, help="1.0 normal; 0.9 biraz yavaş")
     ap.add_argument("--scene", type=int, help="yalnız bu sahnenin sesini yeniden üret")
     a = ap.parse_args()
+    if a.list_google:
+        return list_google()
+    if not a.reel:
+        ap.error("reel.json yolu gerekli")
 
     out = a.reel.resolve().parent
     reel = json.loads(a.reel.read_text(encoding="utf-8"))
