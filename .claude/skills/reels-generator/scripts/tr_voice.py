@@ -9,7 +9,7 @@ lexicon.json:
   [{"say": "kânun", "stem": "kanun", "edit": ["k a > c a ː"]},
    {"say": "hâl",   "words": ["hal", "halinde"], "edit": ["h a > h a ː"]}]
 
-`edit`: "<bulunacak sesler> > <yerine>" (ses sembolleri boşlukla ayrılır; sona `$` kelime sonuna sabitler). İlk eşleşme değişir;
+`stress`: "none" (vurguyu kaldır) | "first" (ilk heceye taşı). `edit`: "<bulunacak sesler> > <yerine>" (ses sembolleri boşlukla ayrılır; sona `$` kelime sonuna sabitler). İlk eşleşme değişir;
 vurgu işaretleri (ˈ ˌ) eşleşmede göz ardı edilir. `stem` kelime başı eşleşmesidir,
 `words` tam eşleşme listesidir (kısa/ikircikli kelimeler için).
 """
@@ -68,6 +68,15 @@ def apply_edits(phonemes, edits):
     return phonemes
 
 
+def set_stress(phonemes, mode):
+    """Vurgu: "none" = vurgu işaretini kaldır (motor son hece "an/al"ı uzatıyorsa), "first" = ilk heceye taşı."""
+    ph = [p for p in phonemes if p not in STRESS]
+    if mode == "first":
+        pos = next((i for i, p in enumerate(ph) if p in VOWELS), 0)
+        ph[pos:pos] = ["ˈ"]
+    return ph
+
+
 def match_entries(word, lexicon):
     """Kelimeye uyan tüm kurallar (sırayla uygulanır: ör. kanuni -> kanun kökü + sıfat sonu î)."""
     w = plain_word(word)
@@ -88,7 +97,9 @@ class TrVoice:
         word = plain_word(word)
         ph = [p for sent in self.v.phonemize(word) for p in sent]
         for entry in match_entries(word, self.lexicon):
-            ph = apply_edits(ph, entry["edit"])
+            ph = apply_edits(ph, entry.get("edit", []))
+            if entry.get("stress"):
+                ph = set_stress(ph, entry["stress"])
         return ph
 
     def sentence_phonemes(self, sentence):

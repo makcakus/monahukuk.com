@@ -54,6 +54,7 @@ Modelde olmayan bir simge kuralda yazılırsa fonem dizisinden **sessizce düşe
 | -âl (ince a, açık l) | normal | n ɔ r m ˈ a ɫ | n ɔ r m ˈ æ l |
 | -ol (açık l) | kontrol | k ɔ n t r ˈ ɔ ɫ | k ɔ n t r ˈ o l |
 | -ul (açık l) | meşgul | m ɛ ʃ ɡ ˈ ʊ ɫ | m ɛ ʃ ɡ ˈ u l |
+| iptâl (ince a, açık l) | iptal | ɪ p t ˈ a ɫ | ɪ p t ˈ æ l |
 
 ## Sık A/B kelimeleri, motor fonemleri [V] (ilk 80, sıklığa göre)
 | kelime | sıklık | motor |

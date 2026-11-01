@@ -29,7 +29,7 @@ Bu dosya `tests/build_pool.py` ile kaynaklardan üretilir; elle düzenleme. Kayn
 | 8 | kalp | A | 1049 | InverseHarmony, NoVoicing, Voicing | — | k ˈ a ɫ p | — |
 | 9 | general | A | 1141 | InverseHarmony | — | ɟ e n e ɾ ˈ a ɫ | ɟ e n e ɾ ˈ æ l |
 | 10 | kat | A | 1414 | InverseHarmony | — | k ˈ a t | — |
-| 11 | iptal | A | 1480 | InverseHarmony | — | ɪ p t ˈ a ɫ | — |
+| 11 | iptal | A | 1480 | InverseHarmony | — | ɪ p t ˈ a ɫ | ɪ p t ˈ æ l |
 | 12 | meşgul | A | 1631 | InverseHarmony | — | m ɛ ʃ ɡ ˈ ʊ ɫ | m ɛ ʃ ɡ ˈ u l |
 | 13 | bol | A | 1758 | InverseHarmony | — | b ˈ ɔ ɫ | b ˈ o l |
 | 14 | sosyal | A | 2015 | InverseHarmony | — | s ɔ s j ˈ a ɫ | s ɔ s j ˈ æ l |

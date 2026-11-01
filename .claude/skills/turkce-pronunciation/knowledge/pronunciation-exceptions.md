@@ -16,7 +16,7 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 - **"Diğer" kelimeler düz kalır** (kalp, hayal, saat, seyahat, itaat, dikkat): önerilen kurallar (tek uzun a, ince k) kabul edilmedi, bu kelimelere kural yoktur. Not: "1. öneriyi kullan" ifadesi, dinletilen ilk biçim (düz) olarak yorumlandı.
 - Bilinen hata (düzeltildi): millî için ilk önerilen kural uzun î'yi ilk hecedeki i'ye uyguluyordu; `$` (kelime sonu) çapası eklenerek düzeltildi.
 
-## Şu an öğretilmiş kurallar (22) [V]
+## Şu an öğretilmiş kurallar (23) [V]
 | öğretilen | eşleşme | kural | önce → sonra (temsilci) |
 |---|---|---|---|
 | kânun | kök: kanun* | `k a > k a ː` | kanun: k a n ˈ ʊ n → k a ː n ˈ ʊ n |
@@ -41,11 +41,12 @@ Doğrulama etiketleri: **[V]** bu çalışmada veriyle/koşturarak doğrulandı 
 | -âl (ince a, açık l) | tam: normal, general, federal, sinyal, metal, final, moral, dijital, orijinal, kristal, ihmal, işgal | `a ɫ $ > æ l` | normal: n ɔ r m ˈ a ɫ → n ɔ r m ˈ æ l |
 | -ol (açık l) | tam: kontrol, rol, petrol, alkol, bol | `ɔ ɫ $ > o l` | kontrol: k ɔ n t r ˈ ɔ ɫ → k ɔ n t r ˈ o l |
 | -ul (açık l) | tam: meşgul, makul | `ʊ ɫ $ > u l` | meşgul: m ɛ ʃ ɡ ˈ ʊ ɫ → m ɛ ʃ ɡ ˈ u l |
+| iptâl (ince a, açık l) | kök: iptal* | `a ɫ $ > æ l ; a l > æ l` | iptal: ɪ p t ˈ a ɫ → ɪ p t ˈ æ l |
 
 ## Öğretme öncelik listesi (sıklığa göre, henüz öğretilmedi) [V]
 Kaynak: Zemberek `InverseHarmony` ∩ OpenSubtitles sıklığı. Sayı = sıklık sırası.
 
-**A grubu:** saat (214), dikkat (351), hayal (497), hak (757), kalp (1049), kat (1414), iptal (1480), seyahat (2454), golf (3384), ihtimal (3663), hal (3848), hâl (3848), amiral (6014), ihlâl (6532), itaat (6899), gol (6960), vaat (9259), emlak (9411), sadakat (9499), ad (9844), kardinal (10167), anormal (10342), ideal (10407), radikal (11423), harf (13346), müzikal (13586), sembol (13898), global (14221), festival (15220), santral (15226), şefkat (15644), helâl (16011), protokol (16092), faul (16619), meçhul (17301), başrol (17644), ampul (19399), idrak (19627), usul (19943), sürat (20163), liberal (20196), harp (20455), kemal (21830), beraat (21860), had (22060), mareşal (22399), termal (22418), mahal (22689), ithal (22835), nasihat (22946), hakikat (22973), medikal (23656), gayrimenkul (23945), trol (24239), istirahat (24546), tropikal (24976), ishal (25398), imal (25662), suistimal (25968), cemal (26303)
+**A grubu:** saat (214), dikkat (351), hayal (497), hak (757), kalp (1049), kat (1414), seyahat (2454), golf (3384), ihtimal (3663), hal (3848), hâl (3848), amiral (6014), ihlâl (6532), itaat (6899), gol (6960), vaat (9259), emlak (9411), sadakat (9499), ad (9844), kardinal (10167), anormal (10342), ideal (10407), radikal (11423), harf (13346), müzikal (13586), sembol (13898), global (14221), festival (15220), santral (15226), şefkat (15644), helâl (16011), protokol (16092), faul (16619), meçhul (17301), başrol (17644), ampul (19399), idrak (19627), usul (19943), sürat (20163), liberal (20196), harp (20455), kemal (21830), beraat (21860), had (22060), mareşal (22399), termal (22418), mahal (22689), ithal (22835), nasihat (22946), hakikat (22973), medikal (23656), gayrimenkul (23945), trol (24239), istirahat (24546), tropikal (24976), ishal (25398), imal (25662), suistimal (25968), cemal (26303), vals (26320)
 
 **B grubu (şapkalı yazılanlar):** âmâ, tabiî, hâlâ, pekâlâ, tâbi, silâh, evlât, herhâlde, âşık, meselâ, hikâye, derhâl, askerî, ilâç, merkezî, kâr, filân, vahşî, dâhi, fikrî, tarihî, kâğıt, tıbbî, kalbî, ilân, rüzgâr, şikâyet, belâ, mahkûm, klâsik, felâket, ihtimalî, telâfi, âmin, reklâm, şeklî, âdet, inkâr, samimî, hayalî, bekâr, kâbus, şeytanî, dinî, hissî, hayatî, siyasî, şahsî, âdeta, bedenî, dükkân, kâp, mekân, indî, nâkil, imkân, iflâs, havaî, zekâ, siyahî
 
