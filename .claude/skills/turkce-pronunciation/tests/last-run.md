@@ -18,7 +18,7 @@ Sınanamayan: kulakla duyulan doğruluk. Bu, yalnızca kullanıcının dinleyere
 | BİLGİ | T1 D: Zemberek'te lemma olarak bulunmayan hukuk terimi (türemiş/özel ad) | 30: bozma, onama, kesinleşme, tutuklama, mirasçı, borçlu, alacaklı, zamanaşımı, şüpheli, soruşturma, kovuşturma, yargılama, yargıtay, danıştay, tüketici, emeklilik, vatandaşlık, tenfiz, tanıma, yetkisizlik, görevsizlik, birleştirme, arabulucu, uzlaşma, kiracı, savcılık, düzeltme, karşıoy, ödeme, haksız |
 | PASS | T2 tüm fonemler ses modelinin sözlüğünde (yoksa sessizce düşer) | eksik yok |
 | PASS | T2 her kelime fonem üretiyor |  |
-| PASS | T3 19 kuralın hepsi temsilci kelimede gerçekten fonem değiştiriyor (ölü kural yok) | [] |
+| PASS | T3 18 kuralın hepsi temsilci kelimede gerçekten fonem değiştiriyor (ölü kural yok) | [] |
 | PASS | T3b şapkalı yazım (resmî, kânun ...) düz yazımla aynı fonemleri üretiyor | [] |
 | PASS | T3b havuzdaki 13 öğretilmiş şapkalı kelime düz yazımla aynı | [] |
 | PASS | T3 kontrol kelimeleri (grup C): öğretilen kurallar yalnız bilerek öğretilene dokunuyor | değişen 1: lazım; kök/çekim yoluyla (incele): — |
