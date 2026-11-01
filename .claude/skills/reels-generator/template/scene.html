@@ -215,7 +215,7 @@ window.furniture = () => Object.fromEntries([...document.querySelectorAll("[data
 window.settle = () => {
   let m = 0;
   document.getAnimations().forEach(a => {
-    if (["out", "kb", "drift"].includes(a.animationName)) return;
+    if (["out", "kb", "drift", "float"].includes(a.animationName)) return;
     m = Math.max(m, a.effect.getComputedTiming().endTime);
   });
   return m;
