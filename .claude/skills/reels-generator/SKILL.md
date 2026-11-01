@@ -3,7 +3,7 @@ name: reels-generator
 description: >-
   m.o.n.a.law Instagram hesabı için güncel hukuk haberinden yüzsüz Instagram Reels
   üretir: doğrulanmış kaynaktan senaryo, kelime kelime beliren metin animasyonu,
-  isteğe bağlı AI arka plan görseli, Türkçe seslendirme, 1080x1920 MP4, kapak ve
+  çizgili sütun arka planı, yerel Türkçe seslendirme, 1080x1920 MP4, kapak ve
   caption. Şu isteklerde tetiklenir: "reels yap", "reels üret", "bugünün reelsleri",
   "günlük 2 reels", "bu haberi reels yap", "şu konuda reels", "Instagram videosu",
   "m.o.n.a.law için içerik", "reels it", "make a reel about X", "Instagram reel for X",
@@ -15,8 +15,7 @@ description: >-
 Her reels bir web sayfasıdır. Sahneler `template/scene.html`'den render edilir,
 başsız Chromium'da zaman elle sürülerek kare kare çekilir ve ffmpeg ile
 seslendirmeyle birleştirilir. Render tarafında ağ ya da API anahtarı kullanılmaz.
-Ses ve görseli Higgsfield MCP üretir (aşağıda). Render bunlar olmadan da çalışır:
-ses yoksa video sessiz çıkar, görsel yoksa düz zemin kullanılır.
+Ses de yerel üretilir (bölüm 2). Dış servis yoktur.
 
 Yollar bu skill klasörüne göredir: `.claude/skills/reels-generator/`. Çıktılar depo
 kökünde `output/reels/<slug>/` altına yazılır. Slug biçimi `YYYY-AA-GG-konu`.
@@ -104,50 +103,36 @@ kısa çizgi vardır. `layout` alanı bu sırayı ezer.
   kullanılmaz; renderer bunları reddeder.
 - Şüphede kalırsan kullanıcıya sor. Son değerlendirme avukatındır.
 
-## 2. Seslendirme (Higgsfield, krediyle çalışır)
+## 2. Seslendirme (yerel, ücretsiz, ağsız)
 
-1. Araçları `ToolSearch` ile yükle: `mcp__Higgsfield__generate_audio_batch`,
-   `generate_audio`, `list_voices`, `jobs_wait`, `balance`.
-2. Ses tekliği: Hesabın sesi `resources/voice.json` dosyasındadır. Dosya yoksa
-   `list_voices` ile Türkçe konuşabilen 2–3 ses bul, kullanıcıya örnek dinlet,
-   seçimi `{"model": "...", "voice_type": "...", "voice_id": "...", "speech_rate": 0}`
-   olarak kaydet. Her reels aynı sesle seslendirilir.
-3. Maliyet: Önce `get_cost: true` ile ön hesap yap. `seed_audio` sahne başına
-   yaklaşık 0,6 kredi; 5 sahne yaklaşık 3 kredi. `balance` ile bakiyeyi kontrol et.
-   Gün içinde ilk kez harcamadan önce kullanıcıya toplam krediyi bildir. Bakiye
-   yetmezse sessiz render et ve söyle.
-4. Her sahnenin `vo` metnini ayrı üret (`generate_audio_batch`, sahne başına bir
-   satır, `format: "mp3"`, `sample_rate: 44100`). Sonucu `curl` ile
-   `output/reels/<slug>/audio/NN.mp3` olarak indir (`01.mp3` = sahne 1). Sahne
-   süresi ses süresinden hesaplanır; ses metnin animasyonundan kısaysa sahne
-   kendiliğinden uzar.
-5. Türkçe telaffuzu dinleyip kontrol et (özellikle ı/i, ş, kurum adları). Bozuksa
-   metni düzelt ve yalnızca o sahneyi yeniden üret.
+Higgsfield ya da başka bir dış servis kullanılmaz. Ses, Piper Türkçe modelleriyle
+(sherpa-onnx) bu makinede üretilir.
 
-## 3. Arka plan görseli
+```bash
+python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.json
+python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.json --scene 3   # tek sahne
+```
 
-**Varsayılan, kredisiz:** Görseli olmayan her sahnede şablon, ince altın çizgilerle çizilmiş
-bir mahkeme sütunu dizisi ve hafif bir ışık basar. Kadraj sahne sırasına göre değişir,
-bu yüzden set tek düze durmaz. Ek iş gerekmez.
+- Her sahnenin `vo` metni `audio/NN.wav` olur. Render süreleri ses uzunluğundan alır.
+- Ses seçimi `resources/voice.json` içindedir (`fahrettin`, `dfki`, `fettah`). Her
+  reels aynı sesle çıkar; değiştirmek için dosyayı düzenle ve `setup.sh`'i çalıştır
+  (ya da `VOICES="fahrettin dfki fettah" bash scripts/setup.sh` ile hepsini indir).
+- Telaffuz: `vo` rakam içeremez (script reddeder). Sayıları, madde numaralarını
+  yazıyla yaz. Kurum ve kanun kısaltmaları `resources/pronounce.json` sözlüğünden
+  okunuşa çevrilir; yeni bir kısaltma kötü okunuyorsa oraya ekle.
+- Dinleyip kontrol et: ı/i, ş, kurum adları, sayılar. Kötü okunan cümleyi
+  yeniden yaz (noktalama ve kısa cümleler okunuşu düzeltir), yalnızca o sahneyi `--scene`
+  ile yeniden üret.
+- Ses yoksa render sessiz video üretir; trend müzik Instagram'da eklenir.
 
-**İsteğe bağlı AI görseli (krediyle çalışır):** İki şartı vardır. Higgsfield hesabı en az
-"basic" plan olmalı (ücretsiz planda görsel modelleri çalışmaz, 2026-10-12'de doğrulandı).
-Üretilen dosyaların indiği `cloudfront.net` alan adı ortamın ağ politikasında açık olmalı;
-kapalıyken dosyalar `curl` ile inmez. İkisi de yoksa varsayılanla devam et.
+## 3. Arka plan ve hareket (hepsi kodla, kredisiz)
 
-Reels başına en fazla 2 sahneye görsel koy. Genellikle kapak ya da bir B sahnesi
-olur; her sahneye görsel koymak setin dergi dilini bozar. `generate_image` ile
-9:16 dikey üret, `output/reels/<slug>/images/NN.jpg` olarak kaydet (NN = sahne
-no). Şablon görseli koyulaştırır, üzerine lacivert örtü atar ve yavaş zoom
-uygular.
-
-İstem kuralları:
-- Soyut ya da mimari olmalı: mermer sütun, adliye koridoru silueti, terazi, kâğıt
-  dokusu, mühür, kalem, pencereden düşen ışık.
-- Koyu lacivert ve altın tonlar, sinematik, düşük kontrastlı, düz alan bol.
-- Yasak: gerçek kişi, yüz, hâkim ya da avukat portresi, bayrak, kurum logosu,
-  görselde yazı, kan ya da şiddet.
-- İstemin sonuna "no text, no letters, no people, no logos" ekle.
+Her sahnede şablon ince altın çizgilerle çizilmiş bir mahkeme sütunu dizisi basar:
+sütunlar sahne başında çizilerek belirir, arka plan sahne boyunca yavaşça kayar,
+hafif bir ışık yanar. Kadraj sahne sırasına göre değişir, set tek düze durmaz.
+Yazı kelime kelime belirir, sahne sonunda içerik kararır, sabit öğeler kıpırdamaz.
+AI görseli kullanılmaz; sahneye `images/NN.jpg` konursa şablon onu koyulaştırıp
+arka plan olarak kullanır (ayrıca üretim gerektirir).
 
 ## 4. Render
 

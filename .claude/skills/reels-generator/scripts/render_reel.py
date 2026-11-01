@@ -286,27 +286,13 @@ def render_scene(page, env, reel, i, dur, logo_uri, aspect, out, fps, baseline, 
     step = 1 / fps
     total = round(dur * fps)
     manifest = []
-    if has_image:
-        times = [k * step for k in range(total)]
-        for k, t in enumerate(times):
-            page.evaluate(f"seek({t * 1000})")
-            shoot(page, fdir / f"{k:05d}.jpg")
-            manifest.append([f"{k:05d}.jpg", step])
-    else:
-        k_settle = math.ceil(settle * fps)
-        exit_n = 0 if i == len(reel["scenes"]) else round(OUT_FADE * fps)
-        for k in range(k_settle + 1):
-            page.evaluate(f"seek({k * step * 1000})")
-            shoot(page, fdir / f"{k:05d}.jpg")
-            manifest.append([f"{k:05d}.jpg", step])
-        manifest[-1][1] = (total - exit_n - k_settle) * step       # bekleme karesi
-        for j in range(exit_n):
-            k = total - exit_n + j
-            page.evaluate(f"seek({k * step * 1000})")
-            shoot(page, fdir / f"{k:05d}.jpg")
-            manifest.append([f"{k:05d}.jpg", step])
+    # Arka plan sürekli kaydığı için her kare çekilir.
+    for k in range(total):
+        page.evaluate(f"seek({k * step * 1000})")
+        shoot(page, fdir / f"{k:05d}.jpg")
+        manifest.append([f"{k:05d}.jpg", step])
 
-    page.evaluate(f"seek({(dur / 2 if has_image else settle) * 1000})")
+    page.evaluate(f"seek({max(settle + 0.4, 1.8) * 1000})")
     (out / "stills").mkdir(exist_ok=True)
     shoot(page, out / "stills" / f"{i:02d}.jpg")
     (fdir / "manifest.json").write_text(json.dumps({"dur": total * step, "frames": manifest}))

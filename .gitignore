@@ -64,3 +64,4 @@ output/reels/*/html/
 output/reels/*/frames/
 output/reels/*/stills/
 output/*/html/
+.claude/skills/reels-generator/resources/voices/
