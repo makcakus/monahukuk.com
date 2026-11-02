@@ -1,0 +1,97 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (30 Ekim–2 Kasım 2026 Resmî Gazete ve AYM)",
+  "slug": "2026-11-02-gunun-hukuku",
+  "sources": [
+    {
+      "label": "AYM Bireysel Başvuru 2021/22795, karar 18.05.2026, RG 30.10.2026 S. 33415",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=0a5b712f-e283-4c8b-b958-91bc6d40c2d4"
+    },
+    {
+      "label": "AYM Bireysel Başvuru 2021/1112, karar 16.09.2026, RG 30.10.2026 S. 33415",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=fe22e3fc-6c65-42c1-87f8-d58d9350378e"
+    },
+    {
+      "label": "AYM Bireysel Başvuru 2021/22462, karar 18.06.2026, RG 30.10.2026 S. 33415",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=a6d7224c-0da7-4593-8f6d-9058b7fb92d6"
+    },
+    {
+      "label": "Yapı Denetim Kuruluşlarının Elektronik Ortamda Belirlenmesine İlişkin Usul ve Esaslara Dair Tebliğde Değişiklik Tebliği, RG 30.10.2026 S. 33415 (Çevre, Şehircilik ve İklim Değişikliği Bakanlığı)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261030.pdf"
+    },
+    {
+      "label": "TMMOB Bilirkişilik - Eksperlik - Hakemlik ve Teknik Müşavirlik Yönetmeliğinde Değişiklik Yönetmeliği, RG 31.10.2026 S. 33416, m. 1-8",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 önemli gelişme*: biri Antalya'yı ilgilendiriyor.",
+      "art": "adliye",
+      "vo": "Hukukta beş önemli gelişme var. Biri doğrudan Antalya'yı ilgilendiriyor."
+    },
+    {
+      "role": "body",
+      "heading": "Vergi iadesinde *değer kaybı* gözetilmedi: AYM ihlal buldu",
+      "art": "para",
+      "body": [
+        "Kesilen vergi yargı kararıyla iade edilmişti.",
+        "Faiz talebinin reddi orantısız bulundu."
+      ],
+      "cite": "AYM BB 2021/22795 · RG 30.10.2026",
+      "vo": "Anayasa Mahkemesi, yargı kararıyla iade edilen gelir vergisinde değer kaybının gözetilmemesini, mülkiyet hakkına orantısız müdahale saydı. Vergi, bir iş sonu tazminatından kesilmişti."
+    },
+    {
+      "role": "body",
+      "heading": "Antalya'da *yapı denetim* kuruluşları iki bölgeye göre görevlendirilecek",
+      "art": "ev",
+      "body": [
+        "Birinci bölge iki kısımdan oluşuyor.",
+        "İkinci bölgede Serik, Manavgat, Alanya var."
+      ],
+      "cite": "Resmî Gazete 30.10.2026 · Tebliğ",
+      "vo": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığının tebliği, Antalya'yı yapı denetim kuruluşlarının görevlendirilmesi bakımından iki bölgeye ayırdı. Birinci bölge iki kısımdan oluşuyor; ikinci bölgede Serik, Manavgat ve Alanya var. Tebliğ, bir ay sonra yürürlüğe girecek."
+    },
+    {
+      "role": "body",
+      "heading": "Memur maaş alacağında *süre aşımı* kararına AYM'den ihlal",
+      "art": "kisi",
+      "body": [
+        "İlamsız icra takipleri KHK ile düşmüştü.",
+        "Otuz günde açılan davalar reddedilmişti."
+      ],
+      "cite": "AYM BB 2021/1112 · RG 30.10.2026",
+      "vo": "Anayasa Mahkemesi, eksik ödenen memur maaşları için açılan davaların süre aşımından reddedilmesini, mahkemeye erişim hakkının ihlali saydı. İlamsız icra takipleri kanun hükmünde kararnameyle düşmüş; davalar kararnamedeki otuz günlük sürede açılmıştı."
+    },
+    {
+      "role": "body",
+      "heading": "Tapu tahsis belgesi davasında *süre aşımı* kararı: AYM ihlal buldu",
+      "art": "belge",
+      "body": [
+        "İptal işlemi kurumlar arası yazıyla yapılmıştı.",
+        "Süre, tebliğden önceki tarihten sayılmıştı."
+      ],
+      "cite": "AYM BB 2021/22462 · RG 30.10.2026",
+      "vo": "Anayasa Mahkemesi, tapu tahsis belgesinin iptaline karşı açılan davanın süre aşımından reddedilmesini, mahkemeye erişim hakkının ihlali saydı. İptal işlemi başvuruculara 2020 yılında tebliğ edilmişti; mahkeme süreyi daha eski bir tarihten başlatmıştı."
+    },
+    {
+      "role": "body",
+      "heading": "TMMOB hakem başvurusunda *dosya başına 7 bin lira* ücret",
+      "art": "tokmak",
+      "body": [
+        "Başvuru ücreti, dosya kapansa da iade edilmez.",
+        "Hakem ücretinin yarısı Birlik hissesi olur."
+      ],
+      "cite": "Resmî Gazete 31.10.2026 · Yönetmelik",
+      "vo": "Türk Mühendis ve Mimar Odaları Birliğinin bilirkişilik ve hakemlik yönetmeliği değişti. Hakem başvurusunun ücreti dosya başına 7 bin lira ve dosya kapansa bile iade edilmiyor. Hakem ücretinin yarısı Birlik hissesi olarak kalıyor."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
+      "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
