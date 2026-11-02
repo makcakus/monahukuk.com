@@ -3,8 +3,11 @@ export type LangMap = { tr: string; en: string; de: string; ru: string; ar: stri
 export type Member = {
   name: string;
   role: LangMap;
+  /** Barosu ve sicil bilgisi; yalnız baroya kayıtlı avukatlar için. */
+  bar?: string;
   education: string;
-  bar: string;
+  /** public/ altındaki portre (kare, 886 px). */
+  photo: string;
   areas: LangMap[];
   bio: LangMap;
   /** Schema.org Person.sameAs — barosu profili, LinkedIn, vs. */
@@ -18,6 +21,7 @@ export function pick(map: LangMap, locale: string): string {
 export const TEAM: Member[] = [
   {
     name: "Av. Mustafa AKÇAKUŞ",
+    photo: "/team/mustafa.jpeg",
     role: {
       tr: "Kurucu Avukat",
       en: "Founding Attorney",
@@ -49,6 +53,7 @@ export const TEAM: Member[] = [
   },
   {
     name: "Av. Murat BOSTAN",
+    photo: "/team/murat.jpeg",
     role: {
       tr: "Kıdemli Avukat",
       en: "Senior Attorney",
@@ -74,6 +79,37 @@ export const TEAM: Member[] = [
       ar: "بدأ مراد مسيرته في نقابة محامي إسطنبول، ويمثل الموكلين أمام محاكم أنطاليا منذ عام 2023، مركّزاً على الدفاع الجنائي ونزاعات العمل وقضايا العقارات. في الملفات الجنائية يتولى الدفاع في جميع المراحل، من الإفادة الأولى في مرحلة التحقيق إلى الاستئناف والنقض. وفي قانون العمل يتابع دعاوى الإعادة إلى العمل وتعويضات نهاية الخدمة والإشعار ومستحقات العمل الإضافي، بينما يتولى في قانون الإيجار دعاوى الإخلاء وتحديد بدل الإيجار وتعديله. ويجمع بين خبرة التقاضي التي اكتسبها في إسطنبول والممارسة اليومية في أنطاليا.",
       es: "Murat inició su carrera en el Colegio de Abogados de Estambul y desde 2023 representa a clientes ante los tribunales de Antalya, centrándose en defensa penal, litigios laborales y pleitos inmobiliarios. En materia penal asume la defensa en todas las fases del proceso, desde la primera declaración en la instrucción hasta la apelación y la casación. Su práctica laboral comprende demandas de readmisión, indemnizaciones por despido y preaviso, y reclamaciones de horas extraordinarias; en derecho arrendaticio tramita desahucios y procedimientos de determinación y ajuste de la renta. Combina la experiencia procesal adquirida en Estambul con la práctica diaria en Antalya.",
       fr: "Murat a débuté sa carrière au barreau d'Istanbul et représente depuis 2023 des clients devant les tribunaux d'Antalya, en se concentrant sur la défense pénale, les litiges du travail et le contentieux immobilier. Au pénal, il assure la défense à chaque étape de la procédure, de la première audition durant l'enquête jusqu'à l'appel et au pourvoi en cassation. En droit du travail, il traite les actions en réintégration, les indemnités de licenciement et de préavis ainsi que les créances d'heures supplémentaires ; en droit des baux, il conduit les procédures d'expulsion, de fixation et de révision des loyers. Il allie l'expérience contentieuse acquise à Istanbul à la pratique quotidienne d'Antalya.",
+    },
+  },
+  {
+    name: "Sefa Görkem ÇAĞLAR",
+    photo: "/team/sefa.jpeg",
+    role: {
+      tr: "Uluslararası Hukuk Danışmanı",
+      en: "International Legal Advisor",
+      de: "Berater für Internationales Recht",
+      ru: "Консультант по международному праву",
+      ar: "مستشار قانوني دولي",
+      es: "Asesor Jurídico Internacional",
+      fr: "Conseiller juridique international",
+    },
+    education: "Akdeniz University / Akdeniz Üniversitesi Hukuk Fakültesi",
+    areas: [
+      { tr: "Göçmenlik Hukuku", en: "Immigration Law", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الهجرة", es: "Derecho de Inmigración", fr: "Droit de l'Immigration" },
+      { tr: "Uluslararası Hukuk", en: "International Law", de: "Internationales Recht", ru: "Международное право", ar: "القانون الدولي", es: "Derecho Internacional", fr: "Droit International" },
+      { tr: "İkamet İzni", en: "Residence Permits", de: "Aufenthaltserlaubnis", ru: "Вид на жительство", ar: "تصاريح الإقامة", es: "Permisos de residencia", fr: "Permis de séjour" },
+      { tr: "Türk Vatandaşlığı", en: "Turkish Citizenship", de: "Türkische Staatsbürgerschaft", ru: "Гражданство Турции", ar: "الجنسية التركية", es: "Ciudadanía Turca", fr: "Nationalité Turque" },
+      { tr: "Çalışma İzni", en: "Work Permits", de: "Arbeitserlaubnis", ru: "Разрешение на работу", ar: "تصاريح العمل", es: "Permisos de trabajo", fr: "Permis de travail" },
+      { tr: "Vize Danışmanlığı (Avrupa ve Amerika)", en: "Visa Consultancy (Europe & USA)", de: "Visumberatung (Europa und USA)", ru: "Консультации по визам (Европа и США)", ar: "استشارات التأشيرات (أوروبا وأمريكا)", es: "Asesoría de visados (Europa y EE. UU.)", fr: "Conseil en visas (Europe et États-Unis)" },
+    ],
+    bio: {
+      tr: "Eğitim hayatını Akdeniz Üniversitesi Hukuk Fakültesi'nde tamamlayan Sefa Görkem Çağlar, göçmenlik hukuku ve uluslararası hukuk alanlarındaki çalışmalarıyla mesleki kariyerini sürdürmektedir.\n\nİkamet izni, vatandaşlık ve çalışma izni başvurularına yönelik hukuki danışmanlık hizmetlerinin yanı sıra, Avrupa ve Amerika vize başvuru süreçlerinin yönetimi konusunda da kapsamlı bir uzmanlığa sahiptir.\n\nMesleki kariyeri boyunca emekli konsoloslar ve konsolosluk yetkilileriyle iş birlikleri gerçekleştirmiş; süreç yönetimi, operasyonel koordinasyon ve vize başvuru danışmanlığı alanlarında önemli deneyim kazanmıştır. Bugüne kadar binin üzerinde başvuru sahibinin vize, ikamet izni, vatandaşlık ve çalışma izni başvuru süreçlerini yöneterek sonuçlandırmıştır.",
+      en: "Sefa Görkem Çağlar completed his education at the Faculty of Law of Akdeniz University and continues his professional career in the fields of immigration law and international law.\n\nIn addition to legal advisory services for residence permit, citizenship and work permit applications, he has extensive expertise in managing European and American visa application processes.\n\nThroughout his career he has worked with retired consuls and consular officials, gaining significant experience in process management, operational coordination and visa application consultancy. To date he has managed to completion the visa, residence permit, citizenship and work permit application processes of more than one thousand applicants.",
+      de: "Sefa Görkem Çağlar hat sein Studium an der Juristischen Fakultät der Akdeniz-Universität abgeschlossen und setzt seine berufliche Laufbahn im Bereich des Migrationsrechts und des internationalen Rechts fort.\n\nNeben der rechtlichen Beratung bei Anträgen auf Aufenthaltserlaubnis, Staatsbürgerschaft und Arbeitserlaubnis verfügt er über umfassende Expertise in der Steuerung europäischer und amerikanischer Visumverfahren.\n\nIm Laufe seiner Laufbahn hat er mit pensionierten Konsuln und Konsulatsmitarbeitern zusammengearbeitet und dabei bedeutende Erfahrung in Prozessmanagement, operativer Koordination und Visumberatung gesammelt. Bis heute hat er die Visum-, Aufenthaltserlaubnis-, Staatsbürgerschafts- und Arbeitserlaubnisverfahren von mehr als tausend Antragstellern bis zum Abschluss geführt.",
+      ru: "Сефа Гёркем Чаглар окончил юридический факультет Университета Акдениз и продолжает профессиональную карьеру в области иммиграционного и международного права.\n\nПомимо юридического сопровождения заявлений на вид на жительство, гражданство и разрешение на работу, он обладает широким опытом в организации процедур получения европейских и американских виз.\n\nНа протяжении карьеры он сотрудничал с консулами в отставке и сотрудниками консульств, накопив значительный опыт в управлении процессами, операционной координации и консультировании по визам. К настоящему времени он довёл до завершения процедуры получения визы, вида на жительство, гражданства и разрешения на работу более чем для тысячи заявителей.",
+      ar: "أتمّ سيفا غوركم تشاغلار دراسته في كلية الحقوق بجامعة أكدنيز، ويواصل مسيرته المهنية في مجالي قانون الهجرة والقانون الدولي.\n\nإلى جانب تقديم الاستشارات القانونية لطلبات الإقامة والجنسية وتصاريح العمل، يتمتع بخبرة واسعة في إدارة إجراءات طلبات التأشيرات الأوروبية والأمريكية.\n\nتعاون خلال مسيرته المهنية مع قناصل متقاعدين ومسؤولين قنصليين، واكتسب خبرة مهمة في إدارة الإجراءات والتنسيق التشغيلي واستشارات طلبات التأشيرة. وقد أدار حتى اليوم إجراءات طلبات التأشيرة والإقامة والجنسية وتصاريح العمل لأكثر من ألف متقدم حتى استكمالها.",
+      es: "Sefa Görkem Çağlar completó su formación en la Facultad de Derecho de la Universidad de Akdeniz y continúa su carrera profesional en los ámbitos del derecho de extranjería y el derecho internacional.\n\nAdemás de prestar asesoramiento jurídico en solicitudes de permiso de residencia, ciudadanía y permiso de trabajo, cuenta con amplia experiencia en la gestión de los procesos de solicitud de visados europeos y estadounidenses.\n\nA lo largo de su carrera ha colaborado con cónsules jubilados y funcionarios consulares, adquiriendo una experiencia significativa en gestión de procesos, coordinación operativa y asesoría de solicitudes de visado. Hasta la fecha ha gestionado hasta su conclusión los procesos de visado, residencia, ciudadanía y permiso de trabajo de más de mil solicitantes.",
+      fr: "Sefa Görkem Çağlar a achevé ses études à la faculté de droit de l'Université d'Akdeniz et poursuit sa carrière dans les domaines du droit de l'immigration et du droit international.\n\nOutre le conseil juridique pour les demandes de permis de séjour, de nationalité et de permis de travail, il possède une expertise étendue dans la gestion des procédures de demande de visas européens et américains.\n\nAu cours de sa carrière, il a collaboré avec des consuls à la retraite et des responsables consulaires, acquérant une expérience significative en gestion de processus, coordination opérationnelle et conseil en demandes de visa. À ce jour, il a mené à leur terme les procédures de visa, de séjour, de nationalité et de permis de travail de plus de mille demandeurs.",
     },
   },
 ];

@@ -262,10 +262,10 @@ export function personSchema(member: Member, locale: string) {
     givenName: plainAuthorName(member.name).split(" ")[0],
     jobTitle: pick(member.role, locale),
     alumniOf: member.education,
-    memberOf: {
-      "@type": "Organization",
-      name: BAR_NAME[locale] ?? BAR_NAME.en,
-    },
+    // Baro üyeliği yalnız baroya kayıtlı avukatlar için yazılır.
+    ...(member.bar
+      ? { memberOf: { "@type": "Organization", name: BAR_NAME[locale] ?? BAR_NAME.en } }
+      : {}),
     knowsAbout: member.areas.map((a) => pick(a, locale)),
     knowsLanguage: SITE.languages.map((l) => LANG_TAGS[l] ?? l),
     worksFor: { "@id": ORG_ID },

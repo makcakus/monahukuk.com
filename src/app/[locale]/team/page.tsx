@@ -10,11 +10,6 @@ import { authorSlug } from "@/lib/author";
 import { JsonLd } from "@/components/JsonLd";
 import { personSchema } from "@/lib/schema";
 
-const PHOTO_BY_NAME: Record<string, string> = {
-  "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
-  "Av. Murat BOSTAN": "/team/murat.jpeg",
-};
-
 export async function generateMetadata({
   params,
 }: {
@@ -57,7 +52,7 @@ export default async function TeamPage({
 
       <section className="mx-auto max-w-5xl px-6 py-16 space-y-16">
         {TEAM.map((member) => {
-          const photo = PHOTO_BY_NAME[member.name];
+          const photo = member.photo;
           // Article'lardan gelen `/team#mustafa-akcakus` gibi linklere scroll-anchor.
           const slug = authorSlug(member.name);
           return (
@@ -87,9 +82,11 @@ export default async function TeamPage({
                   {pick(member.role, lang)}
                 </p>
 
-                <p className="mt-4 text-ink-soft leading-relaxed text-justify">
-                  {pick(member.bio, lang)}
-                </p>
+                {pick(member.bio, lang).split("\n\n").map((para, i) => (
+                  <p key={i} className="mt-4 text-ink-soft leading-relaxed text-justify">
+                    {para}
+                  </p>
+                ))}
 
                 <dl className="mt-6 space-y-3 text-sm">
                   <div>
@@ -98,12 +95,14 @@ export default async function TeamPage({
                     </dt>
                     <dd className="mt-0.5 text-ink-soft">{member.education}</dd>
                   </div>
-                  <div>
-                    <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
-                      {t("labelBar")}
-                    </dt>
-                    <dd className="mt-0.5 text-ink-soft">{member.bar}</dd>
-                  </div>
+                  {member.bar && (
+                    <div>
+                      <dt className="text-xs font-medium uppercase tracking-wide text-ink-mute">
+                        {t("labelBar")}
+                      </dt>
+                      <dd className="mt-0.5 text-ink-soft">{member.bar}</dd>
+                    </div>
+                  )}
                 </dl>
               </div>
             </article>

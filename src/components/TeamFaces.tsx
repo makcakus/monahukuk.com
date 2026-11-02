@@ -5,17 +5,11 @@ import { Link } from "@/i18n/navigation";
 import { TEAM, pick } from "@/lib/team";
 import { Reveal } from "./Reveal";
 
-// Ekip sayfasıyla (team/page.tsx) aynı eşleme: yalnız yayınlanmış üyeler.
-const PHOTO_BY_NAME: Record<string, string> = {
-  "Av. Mustafa AKÇAKUŞ": "/team/mustafa.jpeg",
-  "Av. Murat BOSTAN": "/team/murat.jpeg",
-};
-
 export function TeamFaces() {
   const t = useTranslations("home");
   const tTeam = useTranslations("team");
   const locale = useLocale();
-  const members = TEAM.filter((m) => PHOTO_BY_NAME[m.name]);
+  const members = TEAM;
 
   return (
     <section>
@@ -28,16 +22,16 @@ export function TeamFaces() {
           <p className="mt-6 max-w-xl text-ink-soft leading-relaxed">{tTeam("lead")}</p>
         </Reveal>
 
-        <ul className="mt-12 grid gap-10 sm:grid-cols-2 sm:gap-8 max-w-3xl">
+        <ul className="mt-12 grid gap-10 sm:grid-cols-3 sm:gap-8 max-w-4xl">
           {members.map((m, i) => (
             <li key={m.name}>
               <figure>
                 <div className="team-face relative aspect-[4/5] overflow-hidden rounded-sm bg-cream-100">
                   <Image
-                    src={PHOTO_BY_NAME[m.name]}
+                    src={m.photo}
                     alt={m.name}
                     fill
-                    sizes="(max-width: 640px) 100vw, 384px"
+                    sizes="(max-width: 640px) 100vw, 272px"
                     className="object-cover"
                   />
                 </div>
@@ -47,7 +41,7 @@ export function TeamFaces() {
                     <p className="mt-1 text-sm uppercase tracking-[0.14em] text-gold-700">
                       {pick(m.role, locale)}
                     </p>
-                    <p className="mt-1 text-sm text-ink-mute">{m.bar}</p>
+                    {m.bar && <p className="mt-1 text-sm text-ink-mute">{m.bar}</p>}
                   </figcaption>
                 </Reveal>
               </figure>
