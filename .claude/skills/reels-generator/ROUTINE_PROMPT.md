@@ -25,3 +25,5 @@ Bu bir günlük otomasyondur: m.o.n.a.law Instagram hesabı için BUGÜNÜN "Gü
 ```
 
 Not: Skill ana dala (`main`) alınırsa prompttaki 1. adımı "ana dalda çalış"a çevir ve push hedefini ona göre değiştir.
+
+**Güncelleme (3 Kasım 2026):** Rutin artık sessiz kipte üretir (`"silent": true`, ses yok, 3 paragraflı açıklayıcı kartlar, caption sonunda 2–3 hashtag). Canlı rutin metni `trig_01Nnm3FtSjUqe4qAzN7AdaPV` üzerinde güncellendi; yukarıdaki metin seslendirmeli eski sürümdür. Seslendirme geri istenirse SKILL.md bölüm 2'ye dön.
