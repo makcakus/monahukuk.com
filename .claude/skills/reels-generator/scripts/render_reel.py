@@ -225,10 +225,10 @@ def probe_duration(path):
 
 def scene_duration(s, audio, silent=False):
     if silent:
-        # Sessiz (açıklayıcı kart) kipi: ekrandaki metni rahat okumaya yetecek süre (~3.2 kelime/sn + giriş payı).
+        # Sessiz (açıklayıcı kart) kipi: ekrandaki metni rahat okumaya yetecek süre (~3.6 kelime/sn + giriş payı).
         text = " ".join([s.get("heading") or s.get("headline") or "", *(s.get("body") or []),
                          s.get("cta") or "", s.get("cite") or ""])
-        return max(4.0, len(text.split()) / 3.2 + 2.0)
+        return max(4.0, len(text.split()) / 3.6 + 1.6)
     if audio:
         return max(MIN_SCENE, probe_duration(audio) + AUDIO_LEAD + AUDIO_TAIL)
     # Ses yoksa: konuşma hızı ~2.6 kelime/sn, ekrandaki metni okumaya yetecek süre.

@@ -240,7 +240,7 @@ Kullanıcı reels'i seslendirmesiz, görüntü ve (Instagram'dan seçeceği) mü
 isterse `reel.json`'a `"silent": true` ekle. Bu kipte: ses (`tts.py`) gerekmez, `vo` yazılmaz,
 `audio/` kullanılmaz ve çıktı videoda ses izi olmaz (müziği kullanıcı Instagram'da ekler).
 Haber sahnesinde `body` 1–3 maddelik kısa paragraflardır (sarılır, her biri en çok 3 satır,
-toplam ~40–50 kelime); sahne süresi ekrandaki metnin okunma hızından (~3,2 kelime/sn) hesaplanır.
+toplam ~40–50 kelime); sahne süresi ekrandaki metnin okunma hızından (~3,6 kelime/sn) hesaplanır.
 Açıklama kaynak metinde olan olgularla sınırlıdır: karar tarihi, madde, miktar, süre, sonuç.
 Yerleşim C otomatik uygulanır (küçük çizim üstte, başlık ve paragraflar altta).
 
