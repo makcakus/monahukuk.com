@@ -226,11 +226,23 @@ Sorun varsa metni ya da şablonu düzelt, yeniden render et, sonra göster.
 
 - İlk satır, "devamı" kesilmeden önce görünen önizlemedir. Tek başına merak
   uyandırmalı ve kapak cümlesinin tekrarı olmamalı.
-- Ardından 60–120 kelime haber özeti gelir. Sonra kaynak satırı (kurum, tarih,
-  sayı; Instagram'da link tıklanmaz ama kaynak adı yazılır) ve şu satır:
-  "Bu paylaşım bilgilendirme amaçlıdır, hukuki danışmanlık değildir."
-- Boş satırdan sonra 8–15 hashtag gelir. Geniş (#hukuk #avukat), orta (#kiracıhakları)
-  ve dar (#antalyaavukat) etiketler karışık olsun. Etiket duvarı ve emoji olmaz.
+- Ardından haber özeti gelir (80–180 kelime): her haberin bir cümlelik açıklaması, dayandığı
+  karar/mevzuat numarasıyla. Sonra kaynak satırı (kurum, tarih, sayı; Instagram'da link
+  tıklanmaz ama kaynak adı yazılır), şu satır: "Bu paylaşım bilgilendirme amaçlıdır, hukuki
+  danışmanlık değildir." ve imza satırı ("MONA Hukuk · Antalya").
+- **En sonda 2–3 hashtag** (açıklamanın son satırı, başka hiçbir şey sonrasında gelmez). Konuya
+  gerçekten uyan etiketler seç (ör. #hukuk #antalyaavukat #anayasamahkemesi). Etiket duvarı ve
+  emoji olmaz; `render_reel.py` sayıyı ve konumu denetler.
+
+## 5b. Sessiz (açıklayıcı kart) kipi
+
+Kullanıcı reels'i seslendirmesiz, görüntü ve (Instagram'dan seçeceği) müzikle paylaşmak
+isterse `reel.json`'a `"silent": true` ekle. Bu kipte: ses (`tts.py`) gerekmez, `vo` yazılmaz,
+`audio/` kullanılmaz ve çıktı videoda ses izi olmaz (müziği kullanıcı Instagram'da ekler).
+Haber sahnesinde `body` 1–3 maddelik kısa paragraflardır (sarılır, her biri en çok 3 satır,
+toplam ~40–50 kelime); sahne süresi ekrandaki metnin okunma hızından (~3,2 kelime/sn) hesaplanır.
+Açıklama kaynak metinde olan olgularla sınırlıdır: karar tarihi, madde, miktar, süre, sonuç.
+Yerleşim C otomatik uygulanır (küçük çizim üstte, başlık ve paragraflar altta).
 
 ## 6. Teslim
 

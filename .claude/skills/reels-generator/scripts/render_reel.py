@@ -99,14 +99,15 @@ def validate(reel, allow_ad):
         role, where = s.get("role"), f"Sahne {i:02d}"
         if role not in ("cover", "body", "closing") or (role != "body" and i not in (1, len(scenes))):
             raise Stop(f"{where}: rol geçersiz ({role}).")
-        if not (s.get("vo") or "").strip():
+        if not reel.get("silent") and not (s.get("vo") or "").strip():
             raise Stop(f"{where}: vo (seslendirme metni) boş.")
         if role == "body":
             if not s.get("heading"):
                 raise Stop(f"{where}: heading eksik.")
             body = s.get("body") or []
-            if not isinstance(body, list) or not 1 <= len(body) <= 2:
-                raise Stop(f"{where}: body 1 ya da 2 satırlık liste olmalı.")
+            max_body = 3 if reel.get("silent") else 2
+            if not isinstance(body, list) or not 1 <= len(body) <= max_body:
+                raise Stop(f"{where}: body 1–{max_body} maddelik liste olmalı.")
             if not (s.get("cite") or "").strip():
                 raise Stop(f"{where}: cite (bu haberin resmî kaynağı, ör. 'AYM, E.2025/12') zorunlu.")
             if s.get("art") and s["art"] not in ART:
@@ -131,7 +132,7 @@ def validate(reel, allow_ad):
         for line in s.get("body") or []:
             if "*" in line:
                 raise Stop(f"{where}: gövdede vurgu olmaz.")
-        texts.append(s["vo"])
+        texts.append(s.get("vo", ""))
     joined = " ".join(texts)
     if EMOJI.search(joined):
         raise Stop("Metinde emoji var.")
@@ -163,10 +164,12 @@ def check_caption(out):
     tags = re.findall(r"#[\wçğıöşüÇĞİÖŞÜ]+", text)
     words = len(re.sub(r"#[\wçğıöşüÇĞİÖŞÜ]+", "", text).split())
     notes = []
-    if not 8 <= len(tags) <= 15:
-        notes.append(f"hashtag sayısı {len(tags)} (8–15)")
-    if not 50 <= words <= 140:
-        notes.append(f"metin {words} kelime (60–120 hedef)")
+    if not 2 <= len(tags) <= 3:
+        notes.append(f"hashtag sayısı {len(tags)} (2–3)")
+    elif not re.search(r"(#[\wçğıöşüÇĞİÖŞÜ]+\s*){%d}$" % len(tags), text):
+        notes.append("hashtagler açıklamanın en sonunda olmalı")
+    if not 50 <= words <= 200:
+        notes.append(f"metin {words} kelime (80–180 hedef)")
     if EMOJI.search(text):
         notes.append("emoji var")
     print("caption: " + ("uygun" if not notes else "UYARI " + "; ".join(notes)))
@@ -220,7 +223,12 @@ def probe_duration(path):
         raise Stop(f"Ses süresi okunamadı: {path}")
 
 
-def scene_duration(s, audio):
+def scene_duration(s, audio, silent=False):
+    if silent:
+        # Sessiz (açıklayıcı kart) kipi: ekrandaki metni rahat okumaya yetecek süre (~3.2 kelime/sn + giriş payı).
+        text = " ".join([s.get("heading") or s.get("headline") or "", *(s.get("body") or []),
+                         s.get("cta") or "", s.get("cite") or ""])
+        return max(4.0, len(text.split()) / 3.2 + 2.0)
     if audio:
         return max(MIN_SCENE, probe_duration(audio) + AUDIO_LEAD + AUDIO_TAIL)
     # Ses yoksa: konuşma hızı ~2.6 kelime/sn, ekrandaki metni okumaya yetecek süre.
@@ -236,7 +244,7 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
     layout = None
     body_idx = sum(1 for x in reel["scenes"][:i] if x["role"] == "body")
     if role == "body":
-        layout = s.get("layout") or ("A" if body_idx % 2 == 1 else "B")
+        layout = "C" if reel.get("silent") else (s.get("layout") or ("A" if body_idx % 2 == 1 else "B"))
     text = s.get("heading") or s.get("headline")
     markup, nwords = words_html(text, endmark=(role == "closing"))
     has_accent_word = "*" in text
@@ -357,7 +365,7 @@ def assemble(reel, out, fps):
     lst.write_text("\n".join(lines) + "\n")
 
     cmd = ["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst)]
-    audio = [find_asset(out / "audio", i, AUDIO_EXT) for i in range(1, n + 1)]
+    audio = [None if reel.get("silent") else find_asset(out / "audio", i, AUDIO_EXT) for i in range(1, n + 1)]
     if any(audio):
         filters, labels, k = [], [], 0
         lead = int(AUDIO_LEAD * 1000)
@@ -423,7 +431,8 @@ def main():
     targets = [a.scene] if a.scene else list(range(1, n + 1))
     if a.scene and not 1 <= a.scene <= n:
         raise Stop(f"--scene 1..{n} arası olmalı.")
-    durs = {i: scene_duration(reel["scenes"][i - 1], find_asset(out / "audio", i, AUDIO_EXT))
+    silent = bool(reel.get("silent"))
+    durs = {i: scene_duration(reel["scenes"][i - 1], None if silent else find_asset(out / "audio", i, AUDIO_EXT), silent)
             for i in range(1, n + 1)}
 
     env = Environment(loader=FileSystemLoader(SKILL / "template"), autoescape=select_autoescape(["html"]))

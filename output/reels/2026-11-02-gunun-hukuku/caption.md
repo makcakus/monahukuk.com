@@ -1,13 +1,16 @@
-Antalya'da yapı denetim kuruluşları artık iki bölgeye göre görevlendirilecek.
+Antalya'da yapı denetim kuruluşları artık iki bölgeye göre görevlendirilecek. Üstelik Anayasa Mahkemesi'nden üç önemli karar daha var.
 
-Günün hukuku, hepsi resmî kaynaktan:
-1) AYM: yargı kararıyla iade edilen gelir vergisinde değer kaybının gözetilmemesi mülkiyet hakkını ihlal etti.
-2) Antalya, yapı denetim kuruluşlarının görevlendirilmesinde iki bölgeye ayrıldı; tebliğ bir ay sonra yürürlüğe girecek.
-3) AYM: eksik ödenen memur maaşı davalarının süre aşımından reddedilmesi mahkemeye erişim hakkını ihlal etti.
-4) AYM: tapu tahsis belgesi iptali davasında süre aşımı kararı mahkemeye erişim hakkını ihlal etti.
-5) TMMOB hakem başvurusunda dosya başına 7 bin lira ücret; ücret iade edilmiyor.
+Resmî Gazete'de 30–31 Ekim 2026'da yayımlanan 5 gelişme:
 
-Kaynak: Resmî Gazete (30.10.2026 S. 33415, 31.10.2026 S. 33416) ve Anayasa Mahkemesi.
-Bu paylaşım bilgilendirme amaçlıdır, hukuki danışmanlık değildir.
+1) Vergi iadesi: AYM, yargı kararıyla iade edilen gelir vergisinde paranın değer kaybının gözetilmemesini mülkiyet hakkına orantısız müdahale saydı (BB 2021/22795).
+2) Yapı denetim: Antalya, kuruluşların görevlendirilmesi bakımından iki bölgeye ayrıldı. Tebliğ, yayımından bir ay sonra yürürlüğe girecek.
+3) Memur maaşı: Eksik ödenen maaşlar için açılan davaların süre aşımından reddedilmesi mahkemeye erişim hakkını ihlal etti (BB 2021/1112).
+4) Tapu tahsis belgesi: İptal işleminin tebliğinden önceki bir tarihe göre süre aşımı kararı verilmesi mahkemeye erişim hakkını ihlal etti (BB 2021/22462).
+5) TMMOB hakem başvurusu: Dosya başına 7.000 TL ücret; eksiklik nedeniyle kapanan dosyalarda da iade edilmiyor.
 
-#hukuk #avukat #antalyaavukat #hukukigündem #anayasamahkemesi #yapıdenetim #tapu #vergi #memur #bilirkişi #mevzuat #antalya
+Kaynak: Resmî Gazete 30.10.2026 (S. 33415) ve 31.10.2026 (S. 33416), Anayasa Mahkemesi.
+Bu paylaşım bilgilendirme amaçlıdır, hukuki danışmanlık değildir. Kendi durumunuz için bir avukata danışın.
+
+MONA Hukuk · Antalya
+
+#hukuk #antalyaavukat #anayasamahkemesi
