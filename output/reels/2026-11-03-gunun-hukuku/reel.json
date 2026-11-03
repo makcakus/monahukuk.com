@@ -1,0 +1,96 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (30 Ekim–3 Kasım 2026 Resmî Gazete ve AYM)",
+  "slug": "2026-11-03-gunun-hukuku",
+  "silent": true,
+  "sources": [
+    {
+      "label": "Avukatlık Asgari Ücret Tarifesi (TBB Tebliği), RG 03.11.2026 S. 33419, m. 1, 3, 11, 16, 22, 24",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103.pdf"
+    },
+    {
+      "label": "Ormancılık Faaliyetlerinde Vahidi Fiyatla Çalışan Orman Köylülerine Yapılacak Ayni veya Nakdi Dağıtımın Uygulamasına Dair Yönetmelik, RG 03.11.2026 S. 33419, m. 2, 5, 7, 8",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103.pdf"
+    },
+    {
+      "label": "AYM Bireysel Başvuru 2021/32883, karar 05.05.2026, RG 30.10.2026 S. 33415",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=5550423a-f075-4ebc-9108-6293eb7357bd"
+    },
+    {
+      "label": "2025-2027 Bitkisel Üretim Destekleri Tebliği (2024/39) Değişiklik Tebliği (2026/30), RG 31.10.2026 S. 33416, m. 1-10",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031.pdf"
+    },
+    {
+      "label": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı İlke Kararları No: 151-159, RG 03.11.2026 S. 33419 (fihrist başlıkları)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 gelişme*: Avukatlık Asgari Ücret Tarifesi yayımlandı.",
+      "art": "adliye"
+    },
+    {
+      "role": "body",
+      "heading": "*Avukatlık Asgari Ücret Tarifesi* Resmî Gazete'de yayımlandı",
+      "art": "belge",
+      "body": [
+        "Türkiye Barolar Birliği'nin tarifesi yayımı tarihinde yürürlüğe girdi.",
+        "Tarifenin altında vekâlet ücreti kararlaştırılamaz. Karşı tarafa yükletilecek ücret, tarifedeki miktardan az, üç katından çok olamaz.",
+        "Seri davalarda ilk 10 dosya tam ücret; 11–50. dosyalar %50, 51–100. dosyalar %40, sonrası %25 oranında hesaplanıyor."
+      ],
+      "cite": "Resmî Gazete 03.11.2026 · TBB Tebliği"
+    },
+    {
+      "role": "body",
+      "heading": "Orman köylülerine *gelir payı* dağıtımının usulü belirlendi",
+      "art": "ev",
+      "body": [
+        "Birim fiyatla çalışan orman köylülerine, köydeki odun satış gelirinden üretim giderleri düşüldükten sonra kalan tutarın %10'una kadarı dağıtılabilecek.",
+        "Hak sahibi olmak için köyde en az 1 yıl (başka köy nüfusuna kayıtlıysa 3 yıl) ikamet etmek, o yıl çalışmış olmak ve orman suçu zaptı bulunmamak gerekiyor.",
+        "Kişi başına yıllık dağıtım, aylık net asgari ücreti geçemez."
+      ],
+      "cite": "Resmî Gazete 03.11.2026 · Yönetmelik"
+    },
+    {
+      "role": "body",
+      "heading": "Sigorta başlangıcı davasında *emsal kararlar* karşılanmadı: AYM ihlal buldu",
+      "art": "kisi",
+      "body": [
+        "Halı dokuma işyerinde 1989'da çalışmaya başlayan başvurucu, SGK aleyhine sigorta başlangıcının tespiti davası açmıştı.",
+        "Mahkeme, el halıcılığı dokuma işinde uzun vadeli sigorta tespiti yapılamayacağı gerekçesiyle davayı reddetti.",
+        "Benzer davaların kabulüne ilişkin onama kararları ileri sürüldüğü hâlde karşılanmadı; AYM gerekçeli karar hakkını ihlal saydı."
+      ],
+      "cite": "AYM BB 2021/32883 · RG 30.10.2026"
+    },
+    {
+      "role": "body",
+      "heading": "Tarımsal destek tebliği değişti: *art arda ekim* hükmü eklendi",
+      "art": "kalkan",
+      "body": [
+        "Bitkisel üretim desteklerine ilişkin tebliğde (No: 2026/30) değişiklik yapıldı.",
+        "Tebliğe “kuru tarım parsellerinde arpa, buğday, çavdar, tritikale ve yulaf ürünleri art arda ekilebilir” hükmü eklendi.",
+        "Uzaktan algılama ve insansız hava aracı kontrollerinde tutanak (Ek-40) düzenlenecek. Çoğu hüküm 1 Ocak 2027'de yürürlüğe girecek."
+      ],
+      "cite": "Resmî Gazete 31.10.2026 · Tebliğ"
+    },
+    {
+      "role": "body",
+      "heading": "Koruma alanlarına dair *9 ilke kararı* Resmî Gazete'de",
+      "art": "canta",
+      "body": [
+        "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı, 151–159 numaralı dokuz ilke kararını yayımladı.",
+        "Konular: teknik altyapı tesislerinin bakımı, mera vasfı taşıyan alanlar, ağaç dikim çukuru, sportif parkur ve havai hatlar.",
+        "Nitelikli doğal koruma alanlarında şehitlik veya mezarlık ile RES ve HES projeleri, kontrollü kullanım alanlarında HES projeleri de ayrı kararlarda yer aldı."
+      ],
+      "cite": "Resmî Gazete 03.11.2026 · İlke Kararları"
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
+      "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi",
+      "art": "terazi"
+    }
+  ]
+}
