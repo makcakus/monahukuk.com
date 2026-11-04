@@ -76,14 +76,34 @@ bulunur:
   üretme**, kullanıcıya nedenini bildir.
 - `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
 
-### Haber seçimi
+### Haber seçimi (kullanıcı kuralı: geniş kitleyi ilgilendiren, çeşitli kaynaklardan)
 
-Seçerken: (1) vatandaşın geneline dokunur mu (aile, kira, iş, tüketici, çocuk, vergi,
-sosyal medya, trafik, miras, tapu), (2) yeni mi (son 24–48 saat; yürürlük ya da son tarih bugün/yarınsa öne
-çıkar), (3) gündemde mi (X ve haber taramasında konuşuluyor mu), (4) resmî kaynakta net mi.
-Siyasi parti, kişi adlı güncel soruşturma ve devam eden yargılamaya dair haber alınmaz. Aynı
-haberi kısa süre önce yaptıysan tekrarlama (`output/reels/` geçmişine bak). Sıralama:
-en çok ilgi çekecek olan kapağa ve ilk habere.
+**Ölçüt:** haber halkın tamamını ya da büyük bir kesimini ilgilendirmeli (aile, evlilik ve boşanma,
+konut, kira, tapu, miras, iş ve işçi hakları, SGK/emeklilik, vergi, tüketici, trafik, eğitim, sağlık,
+engelli ve çocuk hakları, kamulaştırma, geniş etkili harç/ücret/oran değişiklikleri).
+**Tek kişiye ya da tek dosyaya ait karar haber değildir.**
+
+**Kaynak çeşitliliği (zorunlu):** bir reels'te tek kaynaktan en çok 2 haber olur. AYM bireysel
+başvuru kararları en çok 1 haberdir ve yalnızca geniş kitleyi ilgilendiren ilkeyi içerirse
+alınır (pilot karar, içtihat değişikliği, bir meslek/vatandaş grubunu etkileyen sonuç). Öncelik sırası:
+1. **Kanunlar** (TBMM'de kabul edilen ve Resmî Gazete'de yayımlanan; `mevzuat_ara`, KANUN, tarih aralığı).
+   TBMM sitesi bu ortamdan açılmıyor: Genel Kurul'da kabul edilmiş ama Resmî Gazete'de
+   yayımlanmamış kanunlar bulunamaz; yalnızca yayımlanmış kanun alınır, "Meclis'te kabul edildi" yazılmaz.
+2. **Yargıtay Genel Kurulları ve içtihadı birleştirme** (HGK, CGK, BGK/İBK; `ictihat_ara`, `birimAdi`
+   HGK/CGK, `kararTarihiStart`; konu aramalarıyla (kira, boşanma, aile konutu, iş kazası, tüketici,
+   SGK) emsal kararlar), Danıştay Kurulları (İDDK, VDDK, İBK) ve daire kararlarından emsal niteliğinde olanlar.
+3. **Resmî Gazete düzenlemeleri** (CB kararnamesi, yönetmelik, tebliğ) geniş kitleye etkisi olanlar.
+4. AYM **norm denetimi** (iptal) kararları ve pilot kararlar.
+5. Kurum kararları (KVKK, Rekabet, BDDK, SPK...; plan izin veriyorsa).
+
+Yargıtay/Danıştay kararları yayım tarihi bakımından eski olabilir; bu durumda `cite`'ta karar
+tarihi yazılır ("09.09.2026") ve caption bunu belirtir. Bugünün Resmî Gazetesi zayıfsa yeni
+düzenleme uydurulmaz, yukarıdaki sırayla emsal kararlara geçilir.
+
+Ayrıca: yeni mi (son 24–48 saat; yürürlük ya da son tarih bugün/yarınsa öne çıkar; yoksa son
+haftalar), resmî kaynakta net mi. Siyasi parti, kişi adlı güncel soruşturma ve devam eden yargılamaya
+dair haber alınmaz. Aynı haberi kısa süre önce yaptıysan tekrarlama (`output/reels/` geçmişine
+bak). Sıralama: en çok ilgi çekecek olan kapağa ve ilk habere.
 
 `content/articles/` içinde aynı konu varsa o metnin cümlelerini taşıma (CLAUDE.md bülten kuralı 5).
 

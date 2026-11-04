@@ -27,3 +27,5 @@ Bu bir günlük otomasyondur: m.o.n.a.law Instagram hesabı için BUGÜNÜN "Gü
 Not: Skill ana dala (`main`) alınırsa prompttaki 1. adımı "ana dalda çalış"a çevir ve push hedefini ona göre değiştir.
 
 **Güncelleme (3 Kasım 2026):** Rutin artık sessiz kipte üretir (`"silent": true`, ses yok, 3 paragraflı açıklayıcı kartlar, caption sonunda 2–3 hashtag). Canlı rutin metni `trig_01Nnm3FtSjUqe4qAzN7AdaPV` üzerinde güncellendi; yukarıdaki metin seslendirmeli eski sürümdür. Seslendirme geri istenirse SKILL.md bölüm 2'ye dön.
+
+**Güncelleme (4 Kasım 2026, haber seçimi):** Haberler halkın tamamını/büyük kesimini ilgilendirmeli; tek kişilik AYM bireysel başvuruları haber değildir (en çok 1, yalnızca geniş ilke içeriyorsa). Kaynaklar çeşitli olmalı: yayımlanmış kanunlar, Yargıtay Genel Kurulları/İBK ve emsal kararlar, Danıştay Kurulları, geniş etkili Resmî Gazete düzenlemeleri, AYM norm denetimi. Ayrıntı SKILL.md "Haber seçimi" bölümünde.
