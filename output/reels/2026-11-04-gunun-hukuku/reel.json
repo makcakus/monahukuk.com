@@ -1,34 +1,78 @@
 {
-  "topic": "Günün hukuku: 5 doğrulanmış gelişme (31 Ekim–4 Kasım 2026 Resmî Gazete ve AYM)",
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (Yargıtay Hukuk Genel Kurulu Eylül 2026 kararları ve AYM, RG 04.11.2026)",
   "slug": "2026-11-04-gunun-hukuku",
   "silent": true,
   "sources": [
     {
+      "label": "Yargıtay HGK E.2025/678 K.2026/489, 16.09.2026 (aile konutu, TMK m. 194)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233649300"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/463 K.2026/524, 23.09.2026 (boşanma, TMK m. 166, 174)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233972900"
+    },
+    {
+      "label": "Yargıtay HGK E.2026/255 K.2026/465, 09.09.2026 (5510 s. K. m. 93, prim zamanaşımı)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233590200"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/740 K.2026/494, 16.09.2026 (iş kazası, 4857 s. K. m. 2)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233939700"
+    },
+    {
       "label": "AYM Bireysel Başvuru 2021/42538, karar 18.06.2026, RG 04.11.2026 S. 33420",
       "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=9b88db1b-005b-4853-b36c-284bc3d34c75"
-    },
-    {
-      "label": "AYM Bireysel Başvuru 2020/22340, karar 05.05.2026, RG 04.11.2026 S. 33420",
-      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=68e271a1-6d85-418c-b445-b3cb5cdd773f"
-    },
-    {
-      "label": "AYM Bireysel Başvuru 2023/4554, karar 17.06.2026, RG 04.11.2026 S. 33420",
-      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=2d42479f-0365-46ce-b5fd-a517619b051e"
-    },
-    {
-      "label": "AYM Bireysel Başvuru 2021/8412, karar 18.06.2026, RG 04.11.2026 S. 33420",
-      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=f12aaa8d-3948-4096-aadb-ab9d064b7939"
-    },
-    {
-      "label": "Cumhurbaşkanı Kararları 11938 ve 11939 (acele kamulaştırma), kabul 30.10.2026, RG 31.10.2026 S. 33416",
-      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031.pdf"
     }
   ],
   "scenes": [
     {
       "role": "cover",
-      "headline": "Hukukta *5 gelişme*: engelli ÖTV, geçit hakkı ve idari para cezası kararları.",
+      "headline": "Hukukta *5 gelişme*: aile konutu, boşanma, SGK primi, iş kazası.",
       "art": "adliye"
+    },
+    {
+      "role": "body",
+      "heading": "Aile konutu eşin *açık rızası* olmadan satılamaz: Yargıtay Genel Kurulu",
+      "art": "ev",
+      "body": [
+        "Hukuk Genel Kurulu, aile konutunun diğer eşin açık rızası olmadan devredilemeyeceğini; tapuda şerh olmasa da bu kuralın geçerli olduğunu belirtti.",
+        "Rıza yoksa devir geçersiz; rızanın varlığını ispat yükü devri yapan tarafta. Eşin satıştan haberdar olması “zımni rıza” sayılmadı.",
+        "Davada ev kısa sürede ve değerinin altında çocuğa devredilmişti; Genel Kurul alıcıların durumu bildiği sonucuna vardı. Karar oy çokluğuyla alındı."
+      ],
+      "cite": "Yargıtay HGK E.2025/678 K.2026/489 · 16.09.2026"
+    },
+    {
+      "role": "body",
+      "heading": "Boşanmada *kıskançlık* iddiası ancak somut davranışla kusur sayılır",
+      "art": "kisi",
+      "body": [
+        "Hukuk Genel Kurulu, boşanma davasında dilekçede dayanılmayan bir olayın tanık beyanıyla tarafa kusur olarak yüklenemeyeceğine karar verdi.",
+        "Kıskançlığın kusur sayılması için süreklilik ve baskı içeren, eşin sosyal hayatını kısıtlayan ya da sürekli denetleyen somut davranışlar gerekiyor.",
+        "Dosyada erkeğin fiziksel şiddeti, kadının birlik görevlerini ihmali vardı; erkek ağır kusurlu bulundu ve kadının tazminat talebinin reddi bozuldu."
+      ],
+      "cite": "Yargıtay HGK E.2025/463 K.2026/524 · 23.09.2026"
+    },
+    {
+      "role": "body",
+      "heading": "SGK prim alacağında *zamanaşımı* ne zaman başlar? Yargıtay Genel Kurulu",
+      "art": "para",
+      "body": [
+        "SGK'nın prim ve diğer alacakları 10 yıllık zamanaşımına tabi; süre, ödeme süresinin dolduğu tarihi izleyen takvim yılı başında başlıyor.",
+        "Alacak, kanunla kurulmuş kuruluşlardan alınan bilgi ve belgelerden doğmuşsa süre, bu bilgi ve belgenin Kuruma ulaştığı tarihten başlıyor.",
+        "Dava, bir spor kulübünün 2010–2011 dönemi primleriyle ilgiliydi; Federasyon yazısı 2023'te Kuruma ulaştığı için zamanaşımı gerçekleşmemişti."
+      ],
+      "cite": "Yargıtay HGK E.2026/255 K.2026/465 · 09.09.2026"
+    },
+    {
+      "role": "body",
+      "heading": "İş kazası tazminatında *işveren ilişkisi* netleşmeden karar verilemez",
+      "art": "kalkan",
+      "body": [
+        "İnşaatta pvc montajında ustabaşı olarak çalışırken iş kazası geçiren ve %25 malul kalan işçi, iki davalıdan maddi ve manevi tazminat istemişti.",
+        "Hukuk Genel Kurulu, davalılar arasındaki asıl işveren–alt işveren ilişkisi araştırılmadan, sözleşme getirtilmeden karar verilmesini eksik inceleme saydı.",
+        "SGK inceleme raporu ile bilirkişi kusur raporu arasındaki çelişkinin de yeni bir kusur raporuyla giderilmesi gerektiğine karar verdi."
+      ],
+      "cite": "Yargıtay HGK E.2025/740 K.2026/494 · 16.09.2026"
     },
     {
       "role": "body",
@@ -42,54 +86,10 @@
       "cite": "AYM BB 2021/42538 · RG 04.11.2026"
     },
     {
-      "role": "body",
-      "heading": "Geçit hakkı bedelinde *değer artışı* gözetilmedi: AYM ihlal buldu",
-      "art": "ev",
-      "body": [
-        "Çeşme'de komşu parsel üzerinden geçit hakkı için 2010'da dava açıldı; dava 2016'da sonuçlandı.",
-        "Bedel, dava tarihindeki değere göre 4.169,98 TL belirlendi; parsel sahibinin yeniden değerleme itirazı dikkate alınmadı.",
-        "AYM, yaklaşık 6 yıl 10 aylık sürede oluşan değer artışının gözetilmemesini mülkiyet hakkı ihlali saydı; dosya yeniden yargılanacak."
-      ],
-      "cite": "AYM BB 2020/22340 · RG 04.11.2026"
-    },
-    {
-      "role": "body",
-      "heading": "Para cezası *kesin* denerek itiraz yolu kapatıldı: AYM ihlal buldu",
-      "art": "tokmak",
-      "body": [
-        "Aşırı yük nedeniyle 20.072 TL idari para cezası alan araç sahibinin itirazı, ceza 3.000 TL altında sayılarak kesin olarak reddedildi.",
-        "Kabahatler Kanunu'na göre 3.000 TL'yi aşan idari para cezalarında başvuru kararlarına itiraz yolu açıktır.",
-        "AYM, itiraz yolunun kapatılmasının kanuni dayanağı olmadığını belirterek mahkemeye erişim hakkını ihlal saydı."
-      ],
-      "cite": "AYM BB 2023/4554 · RG 04.11.2026"
-    },
-    {
-      "role": "body",
-      "heading": "Silahla yaralamada *etkili soruşturma* yapılmadı: AYM ihlal buldu",
-      "art": "kisi",
-      "body": [
-        "Restoranda müzisyen olarak çalışan başvurucu, 2013'te yaşanan silahlı çatışmada ağzından vuruldu.",
-        "Başvurucuyu vuran kişi hakkında kamu davası olaydan on yıldan fazla sonra, 2024'te açıldı; yargılama yaklaşık 13 yıl sürdü.",
-        "AYM, yaşam hakkının usul boyutunun ihlal edildiğine karar verdi ve 200.000 TL manevi tazminat ödenmesine hükmetti."
-      ],
-      "cite": "AYM BB 2021/8412 · RG 04.11.2026"
-    },
-    {
-      "role": "body",
-      "heading": "İki projede *acele kamulaştırma* kararı yayımlandı",
-      "art": "belge",
-      "body": [
-        "Beşikdüzü–İskenderli–Tonya il yolu projesinde taşınmazlar ve müştemilat, Karayolları Genel Müdürlüğü tarafından acele kamulaştırılacak (Karar No: 11938).",
-        "Konya Halkapınar'a doğal gaz arzı için dağıtım tesislerinde bazı taşınmazlar, tapuda Hazine lehine irtifak hakkı tesis edilerek EPDK tarafından acele kamulaştırılacak (Karar No: 11939).",
-        "Kararlar 30 Ekim 2026'da kabul edildi ve 31 Ekim tarihli Resmî Gazete'de yayımlandı."
-      ],
-      "cite": "Resmî Gazete 31.10.2026 · CB Kararları"
-    },
-    {
       "role": "closing",
       "headline": "Günün hukuku, resmî kaynaktan",
-      "cta": "Ayrıntı için ilgili Resmî Gazete sayılarına bakın.",
-      "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi",
+      "cta": "Ayrıntı için ilgili karar ve Resmî Gazete sayılarına bakın.",
+      "source": "Kaynak: Yargıtay, Anayasa Mahkemesi",
       "art": "terazi"
     }
   ]
