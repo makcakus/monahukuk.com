@@ -27,70 +27,65 @@
   "scenes": [
     {
       "role": "cover",
-      "headline": "Hukukta *5 gelişme*: aile konutu, boşanma, SGK primi, iş kazası.",
+      "headline": "Hukukta *5 önemli gelişme*",
       "art": "adliye"
     },
     {
       "role": "body",
-      "heading": "Aile konutu eşin *açık rızası* olmadan satılamaz: Yargıtay Genel Kurulu",
+      "heading": "Aile konutu eşin *açık rızası* olmadan satılamaz",
       "art": "ev",
       "body": [
-        "Hukuk Genel Kurulu, aile konutunun diğer eşin açık rızası olmadan devredilemeyeceğini; tapuda şerh olmasa da bu kuralın geçerli olduğunu belirtti.",
-        "Rıza yoksa devir geçersiz; rızanın varlığını ispat yükü devri yapan tarafta. Eşin satıştan haberdar olması “zımni rıza” sayılmadı.",
-        "Davada ev kısa sürede ve değerinin altında çocuğa devredilmişti; Genel Kurul alıcıların durumu bildiği sonucuna vardı. Karar oy çokluğuyla alındı."
+        "Tapuda şerh olmasa da geçerli."
       ],
-      "cite": "Yargıtay HGK E.2025/678 K.2026/489 · 16.09.2026"
+      "cite": "Yargıtay HGK · 16.09.2026"
     },
     {
       "role": "body",
-      "heading": "Boşanmada *kıskançlık* iddiası ancak somut davranışla kusur sayılır",
+      "heading": "Boşanmada *kıskançlık* ancak somut davranışla kusur sayılır",
       "art": "kisi",
       "body": [
-        "Hukuk Genel Kurulu, boşanma davasında dilekçede dayanılmayan bir olayın tanık beyanıyla tarafa kusur olarak yüklenemeyeceğine karar verdi.",
-        "Kıskançlığın kusur sayılması için süreklilik ve baskı içeren, eşin sosyal hayatını kısıtlayan ya da sürekli denetleyen somut davranışlar gerekiyor.",
-        "Dosyada erkeğin fiziksel şiddeti, kadının birlik görevlerini ihmali vardı; erkek ağır kusurlu bulundu ve kadının tazminat talebinin reddi bozuldu."
+        "Dilekçede dayanılmayan olay kusur sayılamaz."
       ],
-      "cite": "Yargıtay HGK E.2025/463 K.2026/524 · 23.09.2026"
+      "cite": "Yargıtay HGK · 23.09.2026"
     },
     {
       "role": "body",
-      "heading": "SGK primlerinde *zamanaşımı* ne zaman başlar?",
+      "heading": "SGK prim alacağı *10 yıllık* zamanaşımına tabi",
       "art": "para",
       "body": [
-        "SGK'nın prim ve diğer alacakları 10 yıllık zamanaşımına tabi; süre, ödeme süresinin dolduğu tarihi izleyen takvim yılı başında başlıyor.",
-        "Alacak, kanunla kurulmuş kuruluşlardan alınan bilgiden doğmuşsa süre, bilginin Kuruma ulaştığı tarihten başlıyor.",
-        "Dava, bir spor kulübünün 2010–2011 primleriyle ilgiliydi; Federasyon yazısı 2023'te Kuruma ulaştığı için zamanaşımı gerçekleşmemişti."
+        "Süre, ödeme süresini izleyen takvim yılı başında başlar."
       ],
-      "cite": "Yargıtay HGK E.2026/255 K.2026/465 · 09.09.2026"
+      "cite": "Yargıtay HGK · 09.09.2026"
     },
     {
       "role": "body",
-      "heading": "İş kazası tazminatında *işveren ilişkisi* netleşmeden karar verilemez",
+      "heading": "İş kazasında *işveren ilişkisi* netleşmeden tazminata karar verilemez",
       "art": "kalkan",
       "body": [
-        "İnşaatta pvc montajında ustabaşı olarak çalışırken iş kazası geçiren ve %25 malul kalan işçi, iki davalıdan maddi ve manevi tazminat istemişti.",
-        "Hukuk Genel Kurulu, davalılar arasındaki asıl işveren–alt işveren ilişkisi araştırılmadan, sözleşme getirtilmeden karar verilmesini eksik inceleme saydı.",
-        "SGK inceleme raporu ile bilirkişi kusur raporu arasındaki çelişkinin de yeni bir kusur raporuyla giderilmesi gerektiğine karar verdi."
+        "Çelişkili kusur raporu yeniden alınmalı."
       ],
-      "cite": "Yargıtay HGK E.2025/740 K.2026/494 · 16.09.2026"
+      "cite": "Yargıtay HGK · 16.09.2026"
     },
     {
       "role": "body",
-      "heading": "Engelli raporu arşivde bulunamadı diye *ÖTV cezası*: AYM ihlal buldu",
+      "heading": "Engelli raporu arşivde yok diye *ÖTV cezası*: AYM ihlal buldu",
       "art": "araba",
       "body": [
-        "%90 engelli raporuyla ÖTV istisnasından taşıt alan başvurucuya, rapor hastane arşivinde bulunamadığı için cezalı ÖTV ve KDV tarh edildi.",
-        "Aynı hastane 2019'da %91 oranlı yeni rapor düzenlemişti; vergi mahkemesi bu raporun eskisinin yerine geçmeyeceğine hükmedip davayı reddetti.",
-        "Başka bir vergi mahkemesi aynı rapor için MTV davasını kabul etmişti. AYM, bu yorumu öngörülemez bularak adil yargılanma hakkını ihlal saydı."
+        "Yeni raporun geçmeyeceği yorumu öngörülemez bulundu."
       ],
-      "cite": "AYM BB 2021/42538 · RG 04.11.2026"
+      "cite": "AYM BB 2021/42538 · 04.11.2026"
     },
     {
       "role": "closing",
       "headline": "Günün hukuku, resmî kaynaktan",
-      "cta": "Ayrıntı için ilgili karar ve Resmî Gazete sayılarına bakın.",
+      "cta": "Takipte kalın.",
       "source": "Kaynak: Yargıtay, Anayasa Mahkemesi",
       "art": "terazi"
     }
-  ]
+  ],
+  "timing": {
+    "cover": 2,
+    "body": 3,
+    "closing": 2
+  }
 }

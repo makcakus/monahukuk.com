@@ -124,6 +124,20 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 /* ---- Hareket: yalnız belirme, yükselme, çizgi çekme. Zıplama yok. ---- */
 .w { display: inline-block; animation: rise .8s cubic-bezier(.2,.7,.2,1) calc(.2s + var(--i) * .085s) both; }
 .l { animation: fade .7s ease-out calc(var(--bd) + var(--n) * .12s) both; }
+/* Hızlı kip (sabit 2–3 sn'lik kartlar): girişler kısa, çıkış 0,2 sn */
+.fast .w { animation: rise .35s cubic-bezier(.2,.7,.2,1) calc(.05s + var(--i) * .035s) both; }
+.fast .l { animation: fade .35s ease-out calc(var(--bd) + var(--n) * .06s) both; }
+.fast .pic svg * { animation: trace .45s cubic-bezier(.3,.7,.2,1) calc(.02s + var(--k, 0) * .007s) both; }
+.fast .art { animation: fade .5s ease-out .02s both; }
+.fast .art svg * { animation: trace .5s cubic-bezier(.3,.7,.2,1) calc(.02s + var(--c, 0) * .03s) both; }
+.fast .art svg g { animation: none; }
+.fast .art svg g > * { animation: trace .5s cubic-bezier(.3,.7,.2,1) calc(.02s + var(--c, 0) * .035s) both; }
+.fast .l.wrap { font-size: 46px; line-height: 1.35; }
+.fast .l.cite { font-size: 26px; }
+.fast.layout-C .pic, .fast .layout-C .pic { width: 280px; height: 280px; }
+.fast .rule { animation: draw .3s cubic-bezier(.2,.7,.2,1) .05s both; }
+.fast .stage { animation: out .2s ease-in calc(var(--dur) - .2s) both; }
+.fast.no-out .stage { animation: none; }
 @keyframes trace { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-48px); } }
 @keyframes rise { from { opacity: 0; transform: translateY(.3em); } to { opacity: 1; transform: none; } }
@@ -133,7 +147,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 </style>
 </head>
 <body>
-<div id="slide" class="{{ role }}{% if layout %} layout-{{ layout }}{% endif %}{% if last %} no-out{% endif %}" style="--bd: {{ body_delay }}s">
+<div id="slide" class="{{ role }}{% if layout %} layout-{{ layout }}{% endif %}{% if last %} no-out{% endif %}{% if fast %} fast{% endif %}" style="--bd: {{ body_delay }}s">
   {% if not image %}<div class="art" style="--ax: {{ art.x }}px; --ay: {{ art.y }}px; --as: {{ art.s }}; --bx: {{ art.bx }}px; --by: {{ art.by }}px"><div class="bloom"></div><svg viewBox="0 0 1500 1080" aria-hidden="true"><g style="--c:0" transform="translate(150 0)"><rect pathLength="1" x="-70" y="0" width="140" height="26"/><rect pathLength="1" x="-58" y="26" width="116" height="14"/><line pathLength="1" x1="-44" y1="40" x2="-44" y2="1040"/><line pathLength="1" x1="-22" y1="40" x2="-22" y2="1040"/><line pathLength="1" x1="0" y1="40" x2="0" y2="1040"/><line pathLength="1" x1="22" y1="40" x2="22" y2="1040"/><line pathLength="1" x1="44" y1="40" x2="44" y2="1040"/><rect pathLength="1" x="-58" y="1040" width="116" height="14"/><rect pathLength="1" x="-70" y="1054" width="140" height="26"/></g><g style="--c:1" transform="translate(450 0)"><rect pathLength="1" x="-70" y="0" width="140" height="26"/><rect pathLength="1" x="-58" y="26" width="116" height="14"/><line pathLength="1" x1="-44" y1="40" x2="-44" y2="1040"/><line pathLength="1" x1="-22" y1="40" x2="-22" y2="1040"/><line pathLength="1" x1="0" y1="40" x2="0" y2="1040"/><line pathLength="1" x1="22" y1="40" x2="22" y2="1040"/><line pathLength="1" x1="44" y1="40" x2="44" y2="1040"/><rect pathLength="1" x="-58" y="1040" width="116" height="14"/><rect pathLength="1" x="-70" y="1054" width="140" height="26"/></g><g style="--c:2" transform="translate(750 0)"><rect pathLength="1" x="-70" y="0" width="140" height="26"/><rect pathLength="1" x="-58" y="26" width="116" height="14"/><line pathLength="1" x1="-44" y1="40" x2="-44" y2="1040"/><line pathLength="1" x1="-22" y1="40" x2="-22" y2="1040"/><line pathLength="1" x1="0" y1="40" x2="0" y2="1040"/><line pathLength="1" x1="22" y1="40" x2="22" y2="1040"/><line pathLength="1" x1="44" y1="40" x2="44" y2="1040"/><rect pathLength="1" x="-58" y="1040" width="116" height="14"/><rect pathLength="1" x="-70" y="1054" width="140" height="26"/></g><g style="--c:3" transform="translate(1050 0)"><rect pathLength="1" x="-70" y="0" width="140" height="26"/><rect pathLength="1" x="-58" y="26" width="116" height="14"/><line pathLength="1" x1="-44" y1="40" x2="-44" y2="1040"/><line pathLength="1" x1="-22" y1="40" x2="-22" y2="1040"/><line pathLength="1" x1="0" y1="40" x2="0" y2="1040"/><line pathLength="1" x1="22" y1="40" x2="22" y2="1040"/><line pathLength="1" x1="44" y1="40" x2="44" y2="1040"/><rect pathLength="1" x="-58" y="1040" width="116" height="14"/><rect pathLength="1" x="-70" y="1054" width="140" height="26"/></g><g style="--c:4" transform="translate(1350 0)"><rect pathLength="1" x="-70" y="0" width="140" height="26"/><rect pathLength="1" x="-58" y="26" width="116" height="14"/><line pathLength="1" x1="-44" y1="40" x2="-44" y2="1040"/><line pathLength="1" x1="-22" y1="40" x2="-22" y2="1040"/><line pathLength="1" x1="0" y1="40" x2="0" y2="1040"/><line pathLength="1" x1="22" y1="40" x2="22" y2="1040"/><line pathLength="1" x1="44" y1="40" x2="44" y2="1040"/><rect pathLength="1" x="-58" y="1040" width="116" height="14"/><rect pathLength="1" x="-70" y="1054" width="140" height="26"/></g></svg></div>{% endif %}
   {% if image %}<div class="bg" style="background-image: url('{{ image }}')"></div><div class="scrim"></div>{% endif %}
 
@@ -148,7 +162,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
   {% if role == "cover" %}
     <h1 class="h h-cover" data-fit data-block="headline" data-max="128" data-min="104" data-lines="5">{{ headline }}</h1>
   {% elif role == "body" and layout == "C" %}
-    <h2 class="h h-heading" data-fit data-block="heading" data-max="84" data-min="70" data-lines="4">{{ heading }}</h2>
+    <h2 class="h h-heading" data-fit data-block="heading" data-max="{{ 116 if fast else 84 }}" data-min="{{ 96 if fast else 70 }}" data-lines="4">{{ heading }}</h2>
     <div class="body">{% for line in body %}<p class="l wrap" data-maxlines="3" data-block="body{{ loop.index }}" style="--n: {{ loop.index0 }}">{{ line }}</p>{% endfor %}{% if cite %}<p class="l cite" data-oneline data-block="cite" style="--n: {{ body|length }}">{{ cite }}</p>{% endif %}</div>
   {% elif role == "body" and layout == "A" %}
     <h2 class="h h-heading" data-fit data-block="heading" data-max="92" data-min="76" data-lines="4">{{ heading }}</h2>

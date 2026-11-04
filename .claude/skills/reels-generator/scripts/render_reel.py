@@ -223,7 +223,10 @@ def probe_duration(path):
         raise Stop(f"Ses süresi okunamadı: {path}")
 
 
-def scene_duration(s, audio, silent=False):
+def scene_duration(s, audio, silent=False, timing=None):
+    if timing:
+        # Sabit süreli hızlı kip: {"cover": 2, "body": 3, "closing": 2} (sn)
+        return float(timing[s["role"]])
     if silent:
         # Sessiz (açıklayıcı kart) kipi: ekrandaki metni rahat okumaya yetecek süre (~3.6 kelime/sn + giriş payı).
         text = " ".join([s.get("heading") or s.get("headline") or "", *(s.get("body") or []),
@@ -266,7 +269,8 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
         fonts={k: (FONTS / v).as_uri() for k, v in FONT_FILES.items()},
         headline=markup, heading=markup, body=s.get("body") or [], cta=s.get("cta"), source=s.get("source"),
         rule_accent=(role == "body" and layout == "B" and not has_accent_word),
-        body_delay=f"{0.45 + nwords * 0.085:.3f}",
+        body_delay=(f"{0.15 + nwords * 0.035:.3f}" if reel.get("timing") else f"{0.45 + nwords * 0.085:.3f}"),
+        fast=bool(reel.get("timing")),
         image=image.as_uri() if image else None,
     )
     html_dir = out / "html"
@@ -301,9 +305,12 @@ def render_scene(page, env, reel, i, dur, logo_uri, aspect, out, fps, baseline, 
         open_scene(page, path, violations)
         settle = page.evaluate("settle()") / 1000
         last = i == len(reel["scenes"])
-        need = settle + (0 if last else OUT_FADE) + 0.6
+        fast = bool(reel.get("timing"))
+        need = settle + (0 if last else (0.2 if fast else OUT_FADE)) + (0.6 if fast else 0.6)
         if dur >= need:
             break
+        if fast:
+            print(f"  UYARI sahne {i:02d}: istenen {dur:.1f} sn yetmiyor, giriş animasyonu {settle:.2f} sn; {math.ceil(need * 10) / 10:.1f} sn'ye uzatıldı (metni kısalt)")
         dur = math.ceil(need * 10) / 10      # metin sesin bitmesinden uzun sürüyor; sahneyi uzat
 
     page.evaluate(f"seek({settle * 1000})")     # ölçüm, kelimeler yerine oturmuşken
@@ -432,8 +439,8 @@ def main():
     if a.scene and not 1 <= a.scene <= n:
         raise Stop(f"--scene 1..{n} arası olmalı.")
     silent = bool(reel.get("silent"))
-    durs = {i: scene_duration(reel["scenes"][i - 1], None if silent else find_asset(out / "audio", i, AUDIO_EXT), silent)
-            for i in range(1, n + 1)}
+    durs = {i: scene_duration(reel["scenes"][i - 1], None if silent else find_asset(out / "audio", i, AUDIO_EXT), silent,
+                              reel.get("timing")) for i in range(1, n + 1)}
 
     env = Environment(loader=FileSystemLoader(SKILL / "template"), autoescape=select_autoescape(["html"]))
     print(f"{reel['slug']}: {n} sahne")
