@@ -1,0 +1,87 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (7584 sayılı Kanun ve Yargıtay kararları)",
+  "slug": "2026-11-05-gunun-hukuku",
+  "silent": true,
+  "timing": {
+    "cover": 3,
+    "body": 4,
+    "closing": 3
+  },
+  "sources": [
+    {
+      "label": "7584 sayılı Toprak Koruma ve Arazi Kullanımı Kanunu ile Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun, kabul 11.06.2026, RG 20.06.2026 S. 33286, m. 2, 4, 14, 25, 29",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260620.pdf"
+    },
+    {
+      "label": "Yargıtay 1. Hukuk Dairesi E.2026/1215 K.2026/5969, 15.09.2026 (muris muvazaası)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1231918700"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/720 K.2026/490, 16.09.2026 (istinaf incelemesinin kapsamı)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233867000"
+    },
+    {
+      "label": "Yargıtay HGK E.2026/445 K.2026/459, 09.09.2026 (7584 s. Kanun ile Orman K. Ek 22'nin etkisi)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233588800"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 önemli gelişme*",
+      "art": "adliye"
+    },
+    {
+      "role": "body",
+      "heading": "İzinsiz yapıya elektrik, su ve doğal gaz *bağlanmayacak*",
+      "art": "ev",
+      "body": [
+        "Toprak koruma izni olmayan yapılarda abonelik kurulmayacak; kuran idareye abone başına 100 bin TL ceza."
+      ],
+      "cite": "7584 s. Kanun m. 25 · RG 20.06.2026"
+    },
+    {
+      "role": "body",
+      "heading": "Orman nedeniyle tapusu iptal edilenlere *2 yıllık* iade başvurusu",
+      "art": "belge",
+      "body": [
+        "Süre 20 Haziran 2026'dan başlıyor; bedel güncel rayiçten az olamaz."
+      ],
+      "cite": "7584 s. Kanun m. 14 · RG 20.06.2026"
+    },
+    {
+      "role": "body",
+      "heading": "Alkollü içki markaları etkinlik ve yayınlara *destek veremeyecek*",
+      "art": "kalkan",
+      "body": [
+        "Satış yerlerinde marka ve logo bulundurulamayacak; uyum süresi 1 yıl."
+      ],
+      "cite": "7584 s. Kanun m. 2, 4 · RG 20.06.2026"
+    },
+    {
+      "role": "body",
+      "heading": "Satış görünümlü *bağışla* mirasçılardan mal kaçırılamaz",
+      "art": "kisi",
+      "body": [
+        "Gerçek değer 114.873 TL, gösterilen bedel 18.000 TL; Yargıtay tapu iptalini onadı."
+      ],
+      "cite": "Yargıtay 1. HD · 15.09.2026"
+    },
+    {
+      "role": "body",
+      "heading": "İstinafta dilekçede gösterilmeyen itiraz *incelenmez*",
+      "art": "tokmak",
+      "body": [
+        "Kamu düzeni dışında inceleme, dilekçedeki sebeplerle sınırlı."
+      ],
+      "cite": "Yargıtay HGK · 16.09.2026"
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, Yargıtay",
+      "art": "terazi"
+    }
+  ]
+}
