@@ -266,8 +266,8 @@ Yerleşim C otomatik uygulanır (küçük çizim üstte, başlık ve paragraflar
 
 ### Sabit süreli hızlı kip (`"timing"`)
 
-Kullanıcı kartların kısa olmasını isterse (varsayılan istek: kapak 2 sn, haber kartı 3 sn,
-kapanış 2 sn) `reel.json`'a `"timing": {"cover": 2, "body": 3, "closing": 2}` ekle.
+Kullanıcı kartların kısa olmasını isterse (kullanıcının son isteği: kapak 3 sn, haber kartı 4 sn,
+kapanış 3 sn) `reel.json`'a `"timing": {"cover": 3, "body": 4, "closing": 3}` ekle.
 Bu kipte girişler hızlanır (kelime 0,035 sn arayla, çizim ~0,5 sn, çıkış 0,2 sn), başlık
 116 punto, gövde 46 punto olur. 3 saniyede ~10–12 kelime okunur: haber kartında başlık
 (en çok ~9 kelime) + **tek kısa satır** (en çok ~8 kelime) + `cite` yeter. Giriş animasyonu
