@@ -105,7 +105,7 @@ def validate(reel, allow_ad):
             if not s.get("heading"):
                 raise Stop(f"{where}: heading eksik.")
             body = s.get("body") or []
-            max_body = 3 if reel.get("silent") else 2
+            max_body = 3 if (reel.get("silent") or reel.get("fast")) else 2
             if not isinstance(body, list) or not 1 <= len(body) <= max_body:
                 raise Stop(f"{where}: body 1–{max_body} maddelik liste olmalı.")
             if not (s.get("cite") or "").strip():
@@ -224,7 +224,7 @@ def probe_duration(path):
 
 
 def scene_duration(s, audio, silent=False, timing=None):
-    if timing:
+    if isinstance(timing, dict):
         # Sabit süreli hızlı kip: {"cover": 2, "body": 3, "closing": 2} (sn)
         return float(timing[s["role"]])
     if silent:
@@ -247,7 +247,7 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
     layout = None
     body_idx = sum(1 for x in reel["scenes"][:i] if x["role"] == "body")
     if role == "body":
-        layout = "C" if reel.get("silent") else (s.get("layout") or ("A" if body_idx % 2 == 1 else "B"))
+        layout = "C" if (reel.get("silent") or reel.get("fast") or reel.get("timing")) else (s.get("layout") or ("A" if body_idx % 2 == 1 else "B"))
     text = s.get("heading") or s.get("headline")
     markup, nwords = words_html(text, endmark=(role == "closing"))
     has_accent_word = "*" in text
@@ -269,8 +269,8 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
         fonts={k: (FONTS / v).as_uri() for k, v in FONT_FILES.items()},
         headline=markup, heading=markup, body=s.get("body") or [], cta=s.get("cta"), source=s.get("source"),
         rule_accent=(role == "body" and layout == "B" and not has_accent_word),
-        body_delay=(f"{0.15 + nwords * 0.035:.3f}" if reel.get("timing") else f"{0.45 + nwords * 0.085:.3f}"),
-        fast=bool(reel.get("timing")),
+        body_delay=(f"{0.15 + nwords * 0.035:.3f}" if (reel.get("timing") or reel.get("fast")) else f"{0.45 + nwords * 0.085:.3f}"),
+        fast=bool(reel.get("timing") or reel.get("fast")),
         image=image.as_uri() if image else None,
     )
     html_dir = out / "html"
@@ -305,7 +305,7 @@ def render_scene(page, env, reel, i, dur, logo_uri, aspect, out, fps, baseline, 
         open_scene(page, path, violations)
         settle = page.evaluate("settle()") / 1000
         last = i == len(reel["scenes"])
-        fast = bool(reel.get("timing"))
+        fast = bool(reel.get("timing") or reel.get("fast"))
         need = settle + (0 if last else (0.2 if fast else OUT_FADE)) + (0.6 if fast else 0.6)
         if dur >= need:
             break

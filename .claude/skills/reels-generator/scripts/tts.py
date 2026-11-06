@@ -38,7 +38,8 @@ def default_voice():
 
 
 class GoogleVoice:
-    """Google Cloud Text-to-Speech (yerli Türkçe sinir ağı sesleri). Anahtar: ortam değişkeni GOOGLE_TTS_API_KEY.
+    """Google Cloud Text-to-Speech (yerli Türkçe sinir ağı sesleri). Anahtar kodda yok: Claude ortamındaki ağ gizli anahtarı
+    (texttospeech.googleapis.com, başlık X-Goog-Api-Key) isteklere proxy tarafından eklenir. İsteğe bağlı: GOOGLE_TTS_API_KEY.
     Ses adı: `google:tr-TR-Chirp3-HD-Charon` gibi (voice.json ya da --voice). Liste: `tts.py --list-google`.
     Çıktı Piper'dan çok daha doğal tonlama verir; ama kelime bazlı öğretilen telaffuz (lexicon.json) burada
     uygulanmaz, düzeltme için metindeki yazımı değiştir (pronounce.json okunuş yazımı hâlâ geçerli)."""
@@ -47,9 +48,7 @@ class GoogleVoice:
 
     def __init__(self, name):
         import os
-        self.key = os.environ.get("GOOGLE_TTS_API_KEY")
-        if not self.key:
-            raise Stop("GOOGLE_TTS_API_KEY yok (ortam değişkeni). Anahtarı ortam gizli değişkenlerine ekle.")
+        self.key = os.environ.get("GOOGLE_TTS_API_KEY")      # yoksa proxy ekler
         self.name = name
 
     def synth(self, text, speed=1.0):
@@ -60,7 +59,7 @@ class GoogleVoice:
         body = {"input": {"text": text},
                 "voice": {"languageCode": "tr-TR", "name": self.name},
                 "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": speed}}
-        req = urllib.request.Request(f"{self.URL}?key={self.key}", json.dumps(body).encode(),
+        req = urllib.request.Request(self.URL + (f"?key={self.key}" if self.key else ""), json.dumps(body).encode(),
                                      {"Content-Type": "application/json"})
         try:
             data = json.load(urllib.request.urlopen(req, timeout=60))
@@ -75,10 +74,8 @@ def list_google():
     import os
     import urllib.request
     key = os.environ.get("GOOGLE_TTS_API_KEY")
-    if not key:
-        raise Stop("GOOGLE_TTS_API_KEY yok.")
     data = json.load(urllib.request.urlopen(
-        f"https://texttospeech.googleapis.com/v1/voices?languageCode=tr-TR&key={key}", timeout=30))
+        "https://texttospeech.googleapis.com/v1/voices?languageCode=tr-TR" + (f"&key={key}" if key else ""), timeout=30))
     for v in data.get("voices", []):
         print(v["name"], v.get("ssmlGender", ""))
 

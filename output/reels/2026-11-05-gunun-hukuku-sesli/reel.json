@@ -1,0 +1,90 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (7584 sayılı Kanun ve Yargıtay kararları)",
+  "slug": "2026-11-05-gunun-hukuku-sesli",
+  "silent": false,
+  "sources": [
+    {
+      "label": "7584 sayılı Toprak Koruma ve Arazi Kullanımı Kanunu ile Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun, kabul 11.06.2026, RG 20.06.2026 S. 33286, m. 2, 4, 14, 25, 29",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260620.pdf"
+    },
+    {
+      "label": "Yargıtay 1. Hukuk Dairesi E.2026/1215 K.2026/5969, 15.09.2026 (muris muvazaası)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1231918700"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/720 K.2026/490, 16.09.2026 (istinaf incelemesinin kapsamı)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233867000"
+    },
+    {
+      "label": "Yargıtay HGK E.2026/445 K.2026/459, 09.09.2026 (7584 s. Kanun ile Orman K. Ek 22'nin etkisi)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233588800"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta beş önemli gelişme var."
+    },
+    {
+      "role": "body",
+      "heading": "İzinsiz yapıya elektrik, su ve doğal gaz *bağlanmayacak*",
+      "art": "ev",
+      "body": [
+        "Toprak koruma izni olmayan yapılarda abonelik kurulmayacak; kuran idareye abone başına 100 bin TL ceza."
+      ],
+      "cite": "7584 s. Kanun m. 25 · RG 20.06.2026",
+      "vo": "Toprak koruma izni olmayan yapılara elektrik, su ve doğal gaz bağlanmayacak. Aboneliği kuran idareye, abone başına yüz bin lira idari para cezası verilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Orman nedeniyle tapusu iptal edilenlere *2 yıllık* iade başvurusu",
+      "art": "belge",
+      "body": [
+        "Süre 20 Haziran 2026'dan başlıyor; bedel güncel rayiçten az olamaz."
+      ],
+      "cite": "7584 s. Kanun m. 14 · RG 20.06.2026",
+      "vo": "Orman kadastrosu nedeniyle tapusu iptal edilen taşınmazlar, önceki maliklerin iki yıl içinde yapacağı başvuruyla iade edilebilecek. Geri ödenecek bedel, güncel rayiç bedelden az olamayacak."
+    },
+    {
+      "role": "body",
+      "heading": "Alkollü içki markaları etkinlik ve yayınlara *destek veremeyecek*",
+      "art": "kalkan",
+      "body": [
+        "Satış yerlerinde marka ve logo bulundurulamayacak; uyum süresi 1 yıl."
+      ],
+      "cite": "7584 s. Kanun m. 2, 4 · RG 20.06.2026",
+      "vo": "Alkollü içki üreticileri, ithalatçıları ve pazarlayıcıları, etkinlik ve yayınlara marka, logo ve unvanlarıyla destek veremeyecek. Satış yerleri için uyum süresi bir yıl."
+    },
+    {
+      "role": "body",
+      "heading": "Satış görünümlü *bağışla* mirasçılardan mal kaçırılamaz",
+      "art": "kisi",
+      "body": [
+        "Gerçek değer 114.873 TL, gösterilen bedel 18.000 TL; Yargıtay tapu iptalini onadı."
+      ],
+      "cite": "Yargıtay 1. HD · 15.09.2026",
+      "vo": "Yargıtay Birinci Hukuk Dairesi, satış görünümlü bağışla mirasçılardan mal kaçırılmasında tapu iptalini onadı. Taşınmazların gerçek değeri yüz on dört bin liranın üzerindeyken, gösterilen bedel on sekiz bin liraydı."
+    },
+    {
+      "role": "body",
+      "heading": "İstinafta dilekçede gösterilmeyen itiraz *incelenmez*",
+      "art": "tokmak",
+      "body": [
+        "Kamu düzeni dışında inceleme, dilekçedeki sebeplerle sınırlı."
+      ],
+      "cite": "Yargıtay HGK · 16.09.2026",
+      "vo": "Yargıtay Hukuk Genel Kurulu, istinaf incelemesinin kamu düzeni dışında, dilekçede gösterilen sebeplerle sınırlı olduğunu belirtti."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, Yargıtay",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ],
+  "fast": true
+}
