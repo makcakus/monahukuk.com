@@ -177,7 +177,8 @@ python3 .claude/skills/reels-generator/scripts/tts.py output/reels/<slug>/reel.j
 ```
 
 - Her sahnenin `vo` metni `audio/NN.wav` olur. Render süreleri ses uzunluğundan alır.
-- Ses seçimi `resources/voice.json` içindedir (`fahrettin`, `dfki`, `fettah`). Her
+- Varsayılan ses Google Cloud TTS `google:tr-TR-Chirp3-HD-Gacrux`'tur (`voice.json`). Anahtar `GOOGLE_TTS_API_KEY` ya da bulut oturumunda proxy'nin eklediği anahtardır; ağ gerekir. Google seslerinde `lexicon.json` (fonem düzeltmesi) uygulanmaz, `pronounce.json` yazım düzeltmesi geçerlidir. Çevrimdışı Piper için `voice.json`'a `fahrettin` yaz.
+- Piper ses seçenekleri (`fahrettin`, `dfki`, `fettah`). Her
   reels aynı sesle çıkar; değiştirmek için dosyayı düzenle ve `setup.sh`'i çalıştır
   (ya da `VOICES="fahrettin dfki fettah" bash scripts/setup.sh` ile hepsini indir).
 - Telaffuz bilgisi, öğretme akışı ve 1000 kelimelik test havuzu için `.claude/skills/turkce-pronunciation/` skill'ine bak (kural değişikliğinden sonra `python3 .claude/skills/turkce-pronunciation/tests/run_pool.py`).
