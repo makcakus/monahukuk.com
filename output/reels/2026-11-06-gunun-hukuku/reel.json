@@ -1,0 +1,88 @@
+{
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (AYM, 7584 sayılı Kanun, Yargıtay HGK)",
+  "slug": "2026-11-06-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "AYM E.2026/23 K.2026/162, 16.07.2026, RG 06.11.2026 S. 33422 (TMK m. 734/2 iptali)",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=17e1ae5f-a4b7-48c7-8314-7efac097d1f3"
+    },
+    {
+      "label": "7584 sayılı Kanun, RG 20.06.2026 S. 33286, m. 16, 19, 20, 23",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260620.pdf"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/288 K.2026/495, 16.09.2026 (arsa payı karşılığı inşaat, temliken tescil)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233965300"
+    },
+    {
+      "label": "Yargıtay HGK E.2026/199 K.2026/480, 16.09.2026 (orman vasıflı taşınmazda muhdesat)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233626500"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *6 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme var."
+    },
+    {
+      "role": "body",
+      "heading": "Ön alımda *rayiç bedel* kuralı Anayasa'ya aykırı bulundu",
+      "art": "ev",
+      "body": ["Satış bedeli yerine rayiç bedel öngören hüküm iptal edildi; iptal 9 ay sonra yürürlüğe girecek."],
+      "cite": "AYM E.2026/23 K.2026/162 · RG 06.11.2026",
+      "vo": "Anayasa Mahkemesi, paydaşlı taşınmazda ön alım hakkı kullanılırken ödenecek bedelin mahkemece rayiç değerle belirlenmesini öngören kuralı iptal etti. İptal, kararın Resmî Gazete'de yayımlanmasından dokuz ay sonra yürürlüğe girecek."
+    },
+    {
+      "role": "body",
+      "heading": "Kooperatifler tarım arazisi *edinemeyecek*",
+      "art": "kilit",
+      "body": ["Korunan tarım alanlarında; tarımsal amaçlı kooperatiflerin edinimi Bakanlık iznine bağlı."],
+      "cite": "7584 s. Kanun m. 23 · RG 20.06.2026",
+      "vo": "Kooperatifler, korunan tarım alanlarındaki taşınmazlar üzerinde mülkiyet ve sınırlı ayni hak edinemeyecek. Tarımsal amaçlı faaliyet gösteren kooperatiflerin edinimi ise Bakanlığın iznine bağlı."
+    },
+    {
+      "role": "body",
+      "heading": "Müteahhitten alınan dairenin tapusu için *eksik işler* tamamlanmalı",
+      "art": "belge",
+      "body": ["Tescil için eksik ve ayıplar giderilmeli ya da bedeli depo edilmeli."],
+      "cite": "Yargıtay HGK K.2026/495 · 16.09.2026",
+      "vo": "Yargıtay Hukuk Genel Kurulu, kat karşılığı inşaatta müteahhitten daire alanın tapu davasında, tescil için eksik ve ayıpların giderilmesi ya da bedelinin arsa sahibine ödenmek üzere depo edilmesi gerektiğini belirtti."
+    },
+    {
+      "role": "body",
+      "heading": "Kamulaştırmasız el atmada tapu harçlarını *idare* ödeyecek",
+      "art": "para",
+      "body": ["Tescil kararlarının infazında ve uzlaşma tutanağının uygulanmasında doğan harçlar idarede."],
+      "cite": "7584 s. Kanun m. 16 · RG 20.06.2026",
+      "vo": "Kamulaştırmasız el koyma davalarında, tescil kararlarının infazında ve uzlaşma tutanağının uygulanmasında doğan tapu harçlarını idare ödeyecek."
+    },
+    {
+      "role": "body",
+      "heading": "Orman vasıflı arazideki ağaçlar için *bedel ödenmiyor*",
+      "art": "tokmak",
+      "body": ["Hukuk Genel Kurulu: orman niteliğindeki taşınmazda muhdesat oluşturulamaz."],
+      "cite": "Yargıtay HGK K.2026/480 · 16.09.2026",
+      "vo": "Yargıtay Hukuk Genel Kurulu, orman vasıflı taşınmazda yetiştirilen fıstık ağaçları için muhdesat bedeli ödenemeyeceğine karar verdi. Kurul, ormanlar üzerinde bu şekilde muhdesat oluşturulamayacağını belirtti."
+    },
+    {
+      "role": "body",
+      "heading": "Sözleşmesiz *şeker pancarı* ekilemeyecek",
+      "art": "kumsaati",
+      "body": ["Sözleşmesiz ekene baz alım fiyatı üzerinden ceza; ceza hükmü 1 Ocak 2027'de başlıyor."],
+      "cite": "7584 s. Kanun m. 19, 20 · RG 20.06.2026",
+      "vo": "Şeker pancarı, üretici sözleşmesi yapılmadan ekilemeyecek. Sözleşmesiz ekene, pancarın baz alım fiyatı üzerinden hesaplanan idari para cezası verilecek. Bu ceza hükmü bir Ocak iki bin yirmi yedide başlıyor."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, Anayasa Mahkemesi, Yargıtay",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
