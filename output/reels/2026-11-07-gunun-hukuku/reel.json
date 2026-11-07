@@ -32,49 +32,61 @@
       "role": "body",
       "heading": "Kanuni faiz, reeskont oranının *yüzde sekseni* üzerinden hesaplanacak",
       "art": "para",
-      "body": ["Sözleşmede faiz yoksa bu oran uygulanır; Haziran'da 5 puan fark olursa oran yılın ikinci yarısında güncellenir."],
+      "body": [
+        "Sözleşmede faiz yoksa bu oran uygulanır; Haziran'da 5 puan fark olursa oran yılın ikinci yarısında güncellenir."
+      ],
       "cite": "7589 s. Kanun m. 10 · RG 31.07.2026",
-      "vo": "Sözleşmede faiz belirlenmemişse, Borçlar ve Ticaret Kanunu'na göre ödenecek faiz, Merkez Bankası reeskont oranının yüzde sekseni üzerinden hesaplanacak. Haziran'da oran beş puan veya daha çok değişirse, yılın ikinci yarısında yeni oran esas alınacak."
+      "vo": "Sözleşmede faiz yoksa, ödenecek faiz Merkez Bankası reeskont oranının yüzde sekseni üzerinden hesaplanacak."
     },
     {
       "role": "body",
       "heading": "Tıbbi müdahale rızası *elektronik ortamda* alınabilecek",
       "art": "telefon",
-      "body": ["Hasta, SMS şifresiyle e-Nabız veya sağlık tesisi üzerinden rıza verecek; form e-Nabız'a aktarılacak."],
+      "body": [
+        "Hasta, SMS şifresiyle e-Nabız veya sağlık tesisi üzerinden rıza verecek; form e-Nabız'a aktarılacak."
+      ],
       "cite": "Sağlık Bakanlığı Yönetmeliği · RG 27.10.2026",
-      "vo": "Sağlık Bakanlığı yönetmeliğiyle, tıbbi müdahale öncesi bilgilendirilmiş rıza elektronik ortamda alınabilecek. Hasta, cep telefonuna gelen tek kullanımlık SMS şifresiyle rızasını bildirecek; form e-Nabız üzerinden hastanın erişimine sunulacak."
+      "vo": "Tıbbi müdahale öncesi bilgilendirilmiş rıza, SMS şifresiyle elektronik ortamda alınabilecek. Form e-Nabız'a aktarılacak."
     },
     {
       "role": "body",
       "heading": "Miras kalan taşınmazın satışında ilk artırma *yalnız mirasçılara*",
       "art": "ev",
-      "body": ["Ortaklığın giderilmesinde ilk artırma yalnız mirasçılar arasında ve bir defaya mahsus yapılır."],
+      "body": [
+        "Ortaklığın giderilmesinde ilk artırma yalnız mirasçılar arasında ve bir defaya mahsus yapılır."
+      ],
       "cite": "7589 s. Kanun m. 1 · RG 31.07.2026",
-      "vo": "Tüm maliklerin miras yoluyla edindiği taşınmazlarda ortaklığın satışla giderilmesi hâlinde, ilk açık artırma yalnızca malik mirasçılar arasında yapılacak. Bu usul bir defaya mahsus uygulanacak."
+      "vo": "Miras yoluyla edinilen taşınmazlarda ortaklığın giderilmesi satışında, ilk artırma yalnızca mirasçılar arasında yapılacak."
     },
     {
       "role": "body",
       "heading": "Hacizli hissenin alacaklısı sermaye artırımının *iptalini* isteyemez",
       "art": "tokmak",
-      "body": ["Sermaye artırımına ilişkin genel kurul kararlarında butlana da hükmedilemez."],
+      "body": [
+        "Sermaye artırımına ilişkin genel kurul kararlarında butlana da hükmedilemez."
+      ],
       "cite": "Yargıtay HGK K.2026/513 · 16.09.2026",
-      "vo": "Yargıtay Hukuk Genel Kurulu, ortağın hissesine haciz koydurmuş alacaklının, şirketin sermaye artırımı kararının iptalini isteyemeyeceğini belirtti. Kurul, sermaye artırımına ilişkin genel kurul kararlarında butlana hükmedilemeyeceğini de vurguladı."
+      "vo": "Yargıtay Hukuk Genel Kurulu: ortağın hissesini haczeden alacaklı, şirketin sermaye artırımı kararının iptalini isteyemez."
     },
     {
       "role": "body",
       "heading": "Aile danışma merkezlerinde ücreti il *komisyonu* belirleyecek",
       "art": "kisi",
-      "body": ["Kapasitenin yüzde üçü ücretsiz olacak; çevrim içi görüşmelerde ses ve görüntü kaydı alınamayacak."],
+      "body": [
+        "Kapasitenin yüzde üçü ücretsiz olacak; çevrim içi görüşmelerde ses ve görüntü kaydı alınamayacak."
+      ],
       "cite": "Aile Danışma Merkezleri Yönetmeliği · RG 07.11.2026",
-      "vo": "Aile Danışma Merkezleri Yönetmeliği bugün Resmî Gazete'de yayımlandı. Danışmanlık ücretlerini il ücret tespit komisyonu belirleyecek; merkezler kapasitelerinin yüzde üçünü ücretsiz hizmete ayıracak. Çevrim içi görüşmelerde ses ve görüntü kaydı alınamayacak."
+      "vo": "Aile Danışma Merkezleri Yönetmeliği yayımlandı. Ücretleri il komisyonu belirleyecek; kapasitenin yüzde üçü ücretsiz olacak."
     },
     {
       "role": "body",
       "heading": "İş göremezlik tazminatında faiz *iki ayrı tarihten* başlayacak",
       "art": "araba",
-      "body": ["Kazancı bilinen dönem için olay tarihinden, bilinmeyen dönem için karar tarihinden faiz işleyecek."],
+      "body": [
+        "Kazancı bilinen dönem için olay tarihinden, bilinmeyen dönem için karar tarihinden faiz işleyecek."
+      ],
       "cite": "7589 s. Kanun m. 18 · RG 31.07.2026",
-      "vo": "Çalışma gücü kaybı ve destekten yoksun kalma tazminatlarında, kazancın bilindiği dönem için olay tarihinden, bilinmeyen dönem için karar tarihinden itibaren kanuni faiz işleyecek. Değişiklik, yalnızca yürürlükten sonra meydana gelen olaylara uygulanacak."
+      "vo": "İş göremezlik tazminatında faiz, kazancı bilinen dönem için olay, bilinmeyen dönem için karar tarihinden işleyecek."
     },
     {
       "role": "closing",

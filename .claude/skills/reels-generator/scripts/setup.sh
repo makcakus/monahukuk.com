@@ -9,7 +9,9 @@ if ! python3 - <<'PY' 2>/dev/null
 import glob, os
 from playwright.sync_api import sync_playwright
 base = os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or "/opt/pw-browsers"
-exe = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome"))
+exe = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome") + glob.glob(f"{base}/chromium-*/chrome-linux64/chrome"))
+if not exe and os.path.exists(f"{base}/chromium"):
+    exe = [f"{base}/chromium"]
 with sync_playwright() as p:
     p.chromium.launch(executable_path=exe[-1] if exe else None).close()
 PY

@@ -67,8 +67,12 @@ def chromium_path():
     if os.environ.get("CHROMIUM_PATH"):
         return os.environ["CHROMIUM_PATH"]
     base = os.environ.get("PLAYWRIGHT_BROWSERS_PATH") or "/opt/pw-browsers"
-    found = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome"))
-    return found[-1] if found else None
+    found = sorted(glob.glob(f"{base}/chromium-*/chrome-linux/chrome")
+                   + glob.glob(f"{base}/chromium-*/chrome-linux64/chrome"))
+    if found:
+        return found[-1]
+    link = f"{base}/chromium"
+    return link if os.path.exists(link) else None
 
 
 # ---------------------------------------------------------------- doğrulama
