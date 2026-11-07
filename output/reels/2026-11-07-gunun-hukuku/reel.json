@@ -1,0 +1,88 @@
+{
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (7589 s. Kanun, Resmî Gazete yönetmelikleri, Yargıtay HGK)",
+  "slug": "2026-11-07-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "7589 sayılı Kanun, kabul 16.07.2026, RG 31.07.2026 S. 33326, m. 1, 10, 18, 26",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
+    },
+    {
+      "label": "Bilgilendirilmiş Rızanın Elektronik Ortamda Alınması Hakkında Yönetmelik, RG 27.10.2026 S. 33413",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261027.pdf"
+    },
+    {
+      "label": "Aile Danışma Merkezleri Yönetmeliği, RG 07.11.2026 S. 33423, m. 19, 20, 21",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107.pdf"
+    },
+    {
+      "label": "Yargıtay HGK E.2025/528 K.2026/513, 16.09.2026 (sermaye artırımı, hacizli hisse alacaklısı)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1233970400"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *6 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme var."
+    },
+    {
+      "role": "body",
+      "heading": "Kanuni faiz, reeskont oranının *yüzde sekseni* üzerinden hesaplanacak",
+      "art": "para",
+      "body": ["Sözleşmede faiz yoksa bu oran uygulanır; Haziran'da 5 puan fark olursa oran yılın ikinci yarısında güncellenir."],
+      "cite": "7589 s. Kanun m. 10 · RG 31.07.2026",
+      "vo": "Sözleşmede faiz belirlenmemişse, Borçlar ve Ticaret Kanunu'na göre ödenecek faiz, Merkez Bankası reeskont oranının yüzde sekseni üzerinden hesaplanacak. Haziran'da oran beş puan veya daha çok değişirse, yılın ikinci yarısında yeni oran esas alınacak."
+    },
+    {
+      "role": "body",
+      "heading": "Tıbbi müdahale rızası *elektronik ortamda* alınabilecek",
+      "art": "telefon",
+      "body": ["Hasta, SMS şifresiyle e-Nabız veya sağlık tesisi üzerinden rıza verecek; form e-Nabız'a aktarılacak."],
+      "cite": "Sağlık Bakanlığı Yönetmeliği · RG 27.10.2026",
+      "vo": "Sağlık Bakanlığı yönetmeliğiyle, tıbbi müdahale öncesi bilgilendirilmiş rıza elektronik ortamda alınabilecek. Hasta, cep telefonuna gelen tek kullanımlık SMS şifresiyle rızasını bildirecek; form e-Nabız üzerinden hastanın erişimine sunulacak."
+    },
+    {
+      "role": "body",
+      "heading": "Miras kalan taşınmazın satışında ilk artırma *yalnız mirasçılara*",
+      "art": "ev",
+      "body": ["Ortaklığın giderilmesinde ilk artırma yalnız mirasçılar arasında ve bir defaya mahsus yapılır."],
+      "cite": "7589 s. Kanun m. 1 · RG 31.07.2026",
+      "vo": "Tüm maliklerin miras yoluyla edindiği taşınmazlarda ortaklığın satışla giderilmesi hâlinde, ilk açık artırma yalnızca malik mirasçılar arasında yapılacak. Bu usul bir defaya mahsus uygulanacak."
+    },
+    {
+      "role": "body",
+      "heading": "Hacizli hissenin alacaklısı sermaye artırımının *iptalini* isteyemez",
+      "art": "tokmak",
+      "body": ["Sermaye artırımına ilişkin genel kurul kararlarında butlana da hükmedilemez."],
+      "cite": "Yargıtay HGK K.2026/513 · 16.09.2026",
+      "vo": "Yargıtay Hukuk Genel Kurulu, ortağın hissesine haciz koydurmuş alacaklının, şirketin sermaye artırımı kararının iptalini isteyemeyeceğini belirtti. Kurul, sermaye artırımına ilişkin genel kurul kararlarında butlana hükmedilemeyeceğini de vurguladı."
+    },
+    {
+      "role": "body",
+      "heading": "Aile danışma merkezlerinde ücreti il *komisyonu* belirleyecek",
+      "art": "kisi",
+      "body": ["Kapasitenin yüzde üçü ücretsiz olacak; çevrim içi görüşmelerde ses ve görüntü kaydı alınamayacak."],
+      "cite": "Aile Danışma Merkezleri Yönetmeliği · RG 07.11.2026",
+      "vo": "Aile Danışma Merkezleri Yönetmeliği bugün Resmî Gazete'de yayımlandı. Danışmanlık ücretlerini il ücret tespit komisyonu belirleyecek; merkezler kapasitelerinin yüzde üçünü ücretsiz hizmete ayıracak. Çevrim içi görüşmelerde ses ve görüntü kaydı alınamayacak."
+    },
+    {
+      "role": "body",
+      "heading": "İş göremezlik tazminatında faiz *iki ayrı tarihten* başlayacak",
+      "art": "araba",
+      "body": ["Kazancı bilinen dönem için olay tarihinden, bilinmeyen dönem için karar tarihinden faiz işleyecek."],
+      "cite": "7589 s. Kanun m. 18 · RG 31.07.2026",
+      "vo": "Çalışma gücü kaybı ve destekten yoksun kalma tazminatlarında, kazancın bilindiği dönem için olay tarihinden, bilinmeyen dönem için karar tarihinden itibaren kanuni faiz işleyecek. Değişiklik, yalnızca yürürlükten sonra meydana gelen olaylara uygulanacak."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, Yargıtay",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
