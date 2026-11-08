@@ -1,0 +1,88 @@
+{
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (7590 s. Kanun, Yargıtay, RG yönetmeliği)",
+  "slug": "2026-11-08-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "7590 sayılı Kanun, kabul 24.07.2026, RG 31.07.2026 S. 33326, m. 5, 11, 14, 31",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
+    },
+    {
+      "label": "Yargıtay HGK E.2026/389 K.2026/522, 23.09.2026 (sigortalı hizmet tespiti, hak düşürücü süre)",
+      "url": "https://mevzuat.adalet.gov.tr/ictihat/1232600200"
+    },
+    {
+      "label": "Yargıtay 4. HD E.2025/12146 K.2026/3403, 30.03.2026, RG 23.10.2026 S. 33409 (SİSBİS, tüketici mahkemesi görevi)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261023.pdf"
+    },
+    {
+      "label": "Çevresel Etki Değerlendirmesi Yönetmeliğinde Değişiklik, RG 07.11.2026 S. 33423",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *6 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme var."
+    },
+    {
+      "role": "body",
+      "heading": "Aday sürücü belgesi *dört hâlde* iptal edilecek",
+      "art": "araba",
+      "body": ["İki yıllık aday sürücülükte 75 puanı aşmak veya 0,20 promilin üzerinde alkol belgeyi iptal ettirir."],
+      "cite": "7590 s. Kanun m. 5 · RG 31.07.2026",
+      "vo": "Aday sürücülük süresi iki yıl. Bu sürede ceza puanının yetmiş beşi aşması ya da sıfır virgül yirmi promilin üzerinde alkollü araç kullanmak, belgenin iptaline yol açacak."
+    },
+    {
+      "role": "body",
+      "heading": "Kayıt dışı çalışma tespiti davası *beş yıl* içinde açılmalı",
+      "art": "tokmak",
+      "body": ["Süre, çalışmanın geçtiği yılın sonundan başlar; işveren belge vermişse süre işlemez."],
+      "cite": "Yargıtay HGK K.2026/522 · 23.09.2026",
+      "vo": "Yargıtay Hukuk Genel Kurulu: bildirimsiz çalışmanın tespiti davası, çalışmanın geçtiği yılın sonundan itibaren beş yıl içinde açılmalı. İşveren belge vermişse süre işlemez."
+    },
+    {
+      "role": "body",
+      "heading": "Otomobil ÖTV'sine *asgari tutar* getirildi",
+      "art": "para",
+      "body": ["Hesaplanan vergi 100 bin liradan, (L) sınıfında 30 bin liradan az olamaz; her yıl yeniden değerlenir."],
+      "cite": "7590 s. Kanun m. 14 · RG 31.07.2026",
+      "vo": "Otomobil ve benzeri taşıtlarda ÖTV tutarı en az yüz bin lira olacak; L sınıfı araçlarda bu alt sınır otuz bin lira. Bazı araçlar kapsam dışı."
+    },
+    {
+      "role": "body",
+      "heading": "SİSBİS kaydının silinmesi davasında *tüketici mahkemesi* görevli",
+      "art": "belge",
+      "body": ["Yargıtay 4. HD, sigortalının sigorta suistimali kaydına ilişkin davayı tüketici işlemi saydı."],
+      "cite": "Yargıtay 4. HD K.2026/3403 · RG 23.10.2026",
+      "vo": "Yargıtay Dördüncü Hukuk Dairesi, sigorta suistimali kaydının silinmesi davasında tüketici mahkemesinin görevli olduğuna karar verdi. Karar, kanun yararına bozma olarak yayımlandı."
+    },
+    {
+      "role": "body",
+      "heading": "Turizm tesislerinde 2026 Mayıs–Aralık için *prim desteği*",
+      "art": "kisi",
+      "body": ["Prim gün sayısı çarpı 116,67 lira, SGK'ya ödenecek primden mahsup edilip Fondan karşılanacak."],
+      "cite": "7590 s. Kanun m. 11 · RG 31.07.2026",
+      "vo": "Turizm işletme belgeli konaklama tesislerine, faaliyette oldukları 2026 Mayıs ile Aralık ayları için prim desteği verilecek. Sigortalı prim gün sayısı çarpı yüz on altı lira altmış yedi kuruş, ödenecek primden mahsup edilecek."
+    },
+    {
+      "role": "body",
+      "heading": "ÇED listesine *havzalar arası* su aktarma projeleri eklendi",
+      "art": "kalkan",
+      "body": ["Termik santraller için EK-1'de 300, EK-2'de 20 MWt ve üzeri eşikler yer alıyor."],
+      "cite": "ÇED Yönetmeliği değişikliği · RG 07.11.2026",
+      "vo": "Çevresel Etki Değerlendirmesi Yönetmeliği değişti. Akarsu havzaları arası su aktarma projeleri, zorunlu ÇED listesine eklendi; termik santral eşikleri de düzenlendi."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, Yargıtay",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
