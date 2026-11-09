@@ -1,0 +1,80 @@
+{
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (7578 ve 7579 sayılı Kanunlar)",
+  "slug": "2026-11-09-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "7578 sayılı Sosyal Hizmetler Kanunu ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun, kabul 22.04.2026, RG 01.05.2026 S. 33240, m. 15, 17, 18, 19, 22, 27",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260501.pdf"
+    },
+    {
+      "label": "7579 sayılı Tapu Kanunu ile Bazı Kanunlarda ve 375 sayılı KHK'de Değişiklik Yapılmasına Dair Kanun, kabul 07.05.2026, RG 22.05.2026 S. 33261, m. 3, 4, 6, geçici m. 1",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260522.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *6 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme var."
+    },
+    {
+      "role": "body",
+      "heading": "Doğum sonrası analık izni *16 hafta* oldu",
+      "art": "kisi",
+      "body": ["Toplam izin 24 hafta; İş Kanunu, memur mevzuatı ve SGK ödeneği buna göre uyarlandı."],
+      "cite": "7578 s. Kanun m. 15, 18, 19 · RG 01.05.2026",
+      "vo": "Doğum sonrası analık izni sekiz haftadan on altı haftaya çıktı. Toplam izin yirmi dört hafta; İş Kanunu, memur mevzuatı ve SGK ödeneği buna göre düzenlendi."
+    },
+    {
+      "role": "body",
+      "heading": "Apartmanda *işletme projesi* kat malikleri kurulunda onaylanacak",
+      "art": "ev",
+      "body": ["Onaylı proje yoksa yönetici geçici proje yapar; kurul en geç üç ay içinde karar verir."],
+      "cite": "7579 s. Kanun m. 3, 4 · RG 22.05.2026",
+      "vo": "Apartmanlarda işletme projesi kat malikleri kurulunda onaylanacak. Onaylı proje yoksa yönetici geçici proje yapacak, kurul da en geç üç ay içinde karar verecek."
+    },
+    {
+      "role": "body",
+      "heading": "15 yaş altına *sosyal ağ* hizmeti sunulamayacak",
+      "art": "telefon",
+      "body": ["Yaş doğrulama ve ebeveyn kontrol araçları zorunlu; hüküm yayımdan 6 ay sonra yürürlüğe girdi."],
+      "cite": "7578 s. Kanun m. 22, 27 · RG 01.05.2026",
+      "vo": "Sosyal ağ sağlayıcıları, on beş yaşını doldurmamış çocuklara hizmet sunamayacak ve yaş doğrulama dahil tedbir alacak. Ebeveyn kontrol araçları da zorunlu; hüküm yürürlüğe girdi."
+    },
+    {
+      "role": "body",
+      "heading": "Etaplı yapı kooperatifleri *tüm inşaat bitmeden* tapu devredemeyecek",
+      "art": "belge",
+      "body": ["Tahsis edilmiş olsa bile planlanan tüm inşaatlar tamamlanmadan tapu devri yapılamayacak."],
+      "cite": "7579 s. Kanun m. 6 · RG 22.05.2026",
+      "vo": "Etaplar hâlinde inşaata devam eden yapı kooperatifleri, yaptıkları ve planladıkları tüm inşaatlar bitmeden, ortaklara tahsis ettikleri konutların tapusunu devredemeyecek."
+    },
+    {
+      "role": "body",
+      "heading": "Çocukların yoğun olduğu iş yerlerinde *çalıştırma yasağı* getirildi",
+      "art": "kalkan",
+      "body": ["Cinsel suçlar, uyuşturucu ticareti gibi suçlardan mahkûm olanlar okul, kreş ve yurtta çalışamayacak."],
+      "cite": "7578 s. Kanun m. 17 · RG 01.05.2026",
+      "vo": "Çocuk Koruma Kanunu'na eklenen hükümle, cinsel suçlar ve uyuşturucu ticareti gibi suçlardan kesinleşmiş mahkûmiyeti olanlar okul, kreş, servis ve yurt gibi yerlerde çalışamayacak."
+    },
+    {
+      "role": "body",
+      "heading": "Hazine taşınmazı satış süreleri *31 Aralık 2026'ya* uzatıldı",
+      "art": "kumsaati",
+      "body": ["Başvuru ve ödeme süreleri uzadı; iki B alanları ile yapı kayıt belgeli yapılar da kapsamda."],
+      "cite": "7579 s. Kanun geçici m. 1 · RG 22.05.2026",
+      "vo": "Hazine taşınmazlarının satışında başvuru ve ödeme süreleri otuz bir Aralık iki bin yirmi altıya kadar uzatıldı. İki B alanları ve yapı kayıt belgeli yapılar da kapsamda."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
