@@ -244,6 +244,25 @@ def scene_duration(s, audio, silent=False, timing=None):
 
 # ---------------------------------------------------------------- render
 
+TR_MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
+
+
+def cover_date(reel):
+    """Kapak tarihi: reel.json'daki "date" (YYYY-AA-GG) ya da slug'ın başındaki tarih. Yoksa None.
+    "none" yazılırsa kapakta tarih gösterilmez. Büyük harfe Türkçe kurallarıyla çevrilir (i→İ, ı→I)."""
+    import re
+    raw = str(reel.get("date") or reel.get("slug") or "")
+    if raw.lower() == "none":
+        return None
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not m:
+        return None
+    y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if not 1 <= mo <= 12:
+        return None
+    return f"{d} {TR_MONTHS[mo - 1]} {y}".replace("i", "İ").replace("ı", "I").upper()
+
+
 def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
     s = reel["scenes"][i - 1]
     n = len(reel["scenes"])
@@ -277,6 +296,7 @@ def build_html(env, reel, i, dur, logo_uri, logo_aspect, out):
         fast=bool(reel.get("timing") or reel.get("fast")),
         image=image.as_uri() if image else None,
     )
+    ctx["date_text"] = cover_date(reel) if role == "cover" else None
     html_dir = out / "html"
     html_dir.mkdir(parents=True, exist_ok=True)
     path = html_dir / f"{i:02d}.html"

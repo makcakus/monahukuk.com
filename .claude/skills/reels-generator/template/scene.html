@@ -108,8 +108,9 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 .l.cite { font-size: 22px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-top: 26px; color: var(--accent); }
 .l.src { font-size: 22px; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-top: 28px; }
 
-/* Kapak: başlık tek başına, sol altta, çizginin üstüne oturur */
+/* Kapak: başlık sol altta, çizginin üstüne oturur; üstünde tarih satırı */
 .cover .stage { justify-content: flex-end; }
+.l.cover-date { font-size: 34px; font-weight: 500; letter-spacing: .18em; color: var(--accent); margin: 0 0 34px; }
 /* A: başlık üstte, gövde altta, ortası boş */
 .layout-A .stage { justify-content: space-between; }
 /* B ve kapanış: optik merkezde tek blok */
@@ -160,6 +161,7 @@ html, body { width: 1080px; height: 1920px; background: var(--paper); overflow: 
 
   <div class="stage">
   {% if role == "cover" %}
+    {% if date_text %}<p class="l cover-date" data-oneline data-block="date" style="--n: 0">{{ date_text }}</p>{% endif %}
     <h1 class="h h-cover" data-fit data-block="headline" data-max="128" data-min="104" data-lines="5">{{ headline }}</h1>
   {% elif role == "body" and layout == "C" %}
     <h2 class="h h-heading" data-fit data-block="heading" data-max="{{ 116 if fast else 84 }}" data-min="{{ 96 if fast else 70 }}" data-lines="4">{{ heading }}</h2>
