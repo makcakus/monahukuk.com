@@ -1,0 +1,88 @@
+{
+  "topic": "Günün hukuku: 6 doğrulanmış gelişme (Peynir Tebliği, yurt yönetmeliği, 7589 ve 7579 sayılı Kanunlar)",
+  "slug": "2026-11-10-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "Türk Gıda Kodeksi Peynir Tebliği (Tebliğ No: 2026/24), RG 10.11.2026 S. 33426, m. 5, 17, 18, geçici m. 1",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110.pdf"
+    },
+    {
+      "label": "Gençlik ve Spor Bakanlığı Yurt Hizmetleri Yönetmeliğinde Değişiklik, RG 10.11.2026 S. 33426, m. 2, 3",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110.pdf"
+    },
+    {
+      "label": "7589 sayılı Kanun, RG 31.07.2026 S. 33326, m. 19, 20, 21, 26",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
+    },
+    {
+      "label": "7579 sayılı Kanun, RG 22.05.2026 S. 33261, m. 12, 13",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260522.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *6 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta altı önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Peynir etiketinde *köy peyniri* ve doğal peynir ibareleri yasaklandı",
+      "art": "belge",
+      "body": ["Çiftlik ve geleneksel peynir ibareleri de kullanılamaz; işletmelere 30 Nisan 2027'ye kadar süre var."],
+      "cite": "Peynir Tebliği 2026/24 · RG 10.11.2026",
+      "vo": "Yeni Peynir Tebliği'ne göre etiketlerde köy peyniri, doğal peynir, çiftlik peyniri ve geleneksel peynir ibareleri kullanılamayacak. İşletmelere uyum için otuz Nisan iki bin yirmi yediye kadar süre verildi."
+    },
+    {
+      "role": "body",
+      "heading": "Belirsiz alacak davası maddesi *kaldırıldı*",
+      "art": "tokmak",
+      "body": ["Kısmi davada talep, tahkikat bitene kadar bir defa artırılabilecek; açılmış davalar eski hükme tabi."],
+      "cite": "7589 s. Kanun m. 19, 20 · RG 31.07.2026",
+      "vo": "Hukuk Muhakemeleri Kanunu'ndaki belirsiz alacak davası maddesi kaldırıldı. Kısmi davada talep, tahkikat bitene kadar bir defaya mahsus artırılabilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Yurda girmeyen ve ulaşılamayan öğrencinin bilgisi *veliye iletilecek*",
+      "art": "kisi",
+      "body": ["Reşit olanlarda bildirdiği irtibat kişisine iletilir; kayıt dondurma süresi barınma süresine eklenir."],
+      "cite": "GSB Yurt Yönetmeliği · RG 10.11.2026",
+      "vo": "Gençlik ve Spor Bakanlığı yurtlarında giriş yapmayan ve ulaşılamayan öğrencinin bilgisi, reşit olmayanlarda velisine, reşit olanlarda bildirdiği irtibat kişisine iletilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Peynirde *bitkisel yağ* ve nişasta kullanılamayacak",
+      "art": "kalkan",
+      "body": ["Eritme peyniri dökme satılamaz; peynirler 10 °C'nin altında muhafaza edilmeli."],
+      "cite": "Peynir Tebliği 2026/24 · RG 10.11.2026",
+      "vo": "Peynir üretiminde bitkisel yağ, nişasta, soya ve jelatin gibi bileşenler kullanılamayacak. Eritme peyniri dökme satılamayacak; peynirler on derecenin altında saklanacak."
+    },
+    {
+      "role": "body",
+      "heading": "Kullanım belgeli binalarda *yangın güvenliği* kontrolü yapılacak",
+      "art": "ev",
+      "body": ["Yapı sahibinin başvurusuyla itfaiye veya yetkili uzman rapor düzenler; eksikler en çok 6 ayda giderilir."],
+      "cite": "7579 s. Kanun m. 12, 13 · RG 22.05.2026",
+      "vo": "Kullanım belgeli yapılarda, yapı sahibinin başvurusu üzerine yangın güvenliği periyodik kontrolleri yapılacak. İtfaiye ya da yetkili uzman rapor düzenleyecek; eksiklikler en çok altı ayda giderilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Hukuk davalarında duruşmalar arası süre *üç ayı* geçemeyecek",
+      "art": "kumsaati",
+      "body": ["Bilirkişi incelemesi gibi zorunlu hâllerde hâkim gerekçesini belirterek daha uzun süre verebilir."],
+      "cite": "7589 s. Kanun m. 21 · RG 31.07.2026",
+      "vo": "Hukuk davalarında duruşmalar arasındaki süre üç aydan uzun olamayacak. Bilirkişi incelemesi gibi zorunlu hâllerde hâkim, gerekçesini belirterek daha uzun süre verebilecek."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
