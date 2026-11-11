@@ -32,49 +32,61 @@
       "role": "body",
       "heading": "Hesap veya kart vererek dolandırıcılığa katılanın cezası *yarıya* inecek",
       "art": "canta",
-      "body": ["Fiil hesap, kart veya bilgi vermekle sınırlıysa uygulanır; kanun yolundaki dosyalar geri gönderilecek."],
+      "body": [
+        "Fiil hesap, kart veya bilgi vermekle sınırlıysa uygulanır; kanun yolundaki dosyalar geri gönderilecek."
+      ],
       "cite": "7589 s. Kanun m. 13 · RG 31.07.2026",
-      "vo": "Dolandırıcılığa yalnızca banka hesabı, kartı ya da hesap bilgilerini başkasına vererek katılanın cezası yarı oranında indirilecek. Kanun yolundaki dosyalar ilk derece mahkemesine geri gönderilecek."
+      "vo": "Dolandırıcılığa yalnızca hesap, kart ya da hesap bilgisi vererek katılanın cezası yarı oranında indirilecek."
     },
     {
       "role": "body",
       "heading": "Kadastro ölçü düzeltmesine itiraz için *30 gün* süre var",
       "art": "ev",
-      "body": ["Düzeltme malike tebliğ edilir; 30 günde sulh hukukta dava açılmazsa kesinleşir."],
+      "body": [
+        "Düzeltme malike tebliğ edilir; 30 günde sulh hukukta dava açılmazsa kesinleşir."
+      ],
       "cite": "7579 s. Kanun m. 16 · RG 22.05.2026",
-      "vo": "Kadastroda ölçü, sınır ve hesap hatalarının düzeltmesi taşınmaz maliklerine tebliğ edilecek. Tebliğden itibaren otuz gün içinde sulh hukuk mahkemesinde dava açılmazsa düzeltme kesinleşecek."
+      "vo": "Kadastro ölçü düzeltmeleri maliklere tebliğ edilecek; otuz gün içinde dava açılmazsa kesinleşecek."
     },
     {
       "role": "body",
       "heading": "TCMB iki elektronik para kuruluşunun faaliyet iznini *iptal etti*",
       "art": "para",
-      "body": ["A Ödeme ve Elektronik Para Hizmetleri ile Ozan Elektronik Para; kararlar 10 Kasım 2026 tarihli."],
+      "body": [
+        "A Ödeme ve Elektronik Para Hizmetleri ile Ozan Elektronik Para; kararlar 10 Kasım 2026 tarihli."
+      ],
       "cite": "TCMB Kararları · RG 11.11.2026",
-      "vo": "Merkez Bankası, A Ödeme ve Elektronik Para Hizmetleri ile Ozan Elektronik Para şirketlerinin faaliyet izinlerini, Ödeme Hizmetleri Kanunu uyarınca iptal etti."
+      "vo": "Merkez Bankası, A Ödeme ve Elektronik Para Hizmetleri ile Ozan Elektronik Para'nın faaliyet izinlerini iptal etti."
     },
     {
       "role": "body",
       "heading": "TOKİ başvuru ve sözleşme evrakı *uzaktan* düzenlenebilecek",
       "art": "belge",
-      "body": ["Elektronik yöntem kullanılabilir; hak sahibi ölürse TOKİ mirasçılık belgesi için başvurabilir."],
+      "body": [
+        "Elektronik yöntem kullanılabilir; hak sahibi ölürse TOKİ mirasçılık belgesi için başvurabilir."
+      ],
       "cite": "7579 s. Kanun m. 10 · RG 22.05.2026",
-      "vo": "TOKİ sözleşmeleri ve başvuru evrakı, kimliği doğrulayan elektronik yöntemlerle düzenlenebilecek. Hak sahibi ölürse TOKİ, mirasçılık belgesi için mahkeme veya noterliğe başvurabilecek."
+      "vo": "TOKİ sözleşmeleri elektronik yöntemlerle düzenlenebilecek; hak sahibi ölürse TOKİ mirasçılık belgesi için başvurabilecek."
     },
     {
       "role": "body",
       "heading": "Oyun platformları *yaş derecelendirmesi* ve ebeveyn kontrolü sunacak",
       "art": "telefon",
-      "body": ["Derecelendirilmeyen oyun en yüksek yaşa göre sunulur; ücretli işlemlere ebeveyn onayı mekanizması şart."],
+      "body": [
+        "Derecelendirilmeyen oyun en yüksek yaşa göre sunulur; ücretli işlemlere ebeveyn onayı mekanizması şart."
+      ],
       "cite": "7578 s. Kanun m. 23 · RG 01.05.2026",
-      "vo": "Oyun platformları yaş derecelendirmesi yapılmamış oyunları en yüksek yaş kriteriyle sunacak, ücretli işlemler için ebeveyn kontrol araçları sağlayacak. Hüküm yayımdan altı ay sonra yürürlüğe girdi."
+      "vo": "Oyun platformları yaş derecelendirmesi ve ebeveyn kontrol araçları sağlayacak; hüküm yürürlüğe girdi."
     },
     {
       "role": "body",
       "heading": "Zemin etüdü izinli *etüt kuruluşlarına* yaptırılacak",
       "art": "kumsaati",
-      "body": ["Bedel emanet hesabına yatırılır; hüküm 31 Aralık 2026'da yürürlüğe girer, önce pilot ilde uygulanır."],
+      "body": [
+        "Bedel emanet hesabına yatırılır; hüküm 31 Aralık 2026'da yürürlüğe girer, önce pilot ilde uygulanır."
+      ],
       "cite": "7579 s. Kanun m. 24 · RG 22.05.2026",
-      "vo": "Yapıların zemin ve temel etütleri, Bakanlıkça izin verilen etüt kuruluşlarına yaptırılacak. Hüküm otuz bir Aralık iki bin yirmi altıda yürürlüğe girecek; uygulamaya önce pilot ilde başlanacak."
+      "vo": "Zemin ve temel etütleri izinli etüt kuruluşlarına yaptırılacak; hüküm otuz bir Aralık iki bin yirmi altıda başlıyor."
     },
     {
       "role": "closing",
