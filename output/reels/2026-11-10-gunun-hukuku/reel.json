@@ -1,5 +1,5 @@
 {
-  "topic": "Günün hukuku: 6 doğrulanmış gelişme (Peynir Tebliği, yurt yönetmeliği, 7589 ve 7579 sayılı Kanunlar)",
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (Peynir Tebliği, yurt yönetmeliği, 7589 ve 7579 sayılı Kanunlar)",
   "slug": "2026-11-10-gunun-hukuku",
   "silent": false,
   "fast": true,
@@ -24,19 +24,19 @@
   "scenes": [
     {
       "role": "cover",
-      "headline": "Hukukta *6 önemli gelişme*",
+      "headline": "Hukukta *5 önemli gelişme*",
       "art": "adliye",
-      "vo": "Hukukta altı önemli gelişme."
+      "vo": "Hukukta beş önemli gelişme."
     },
     {
       "role": "body",
-      "heading": "Peynir etiketinde *köy peyniri* ve doğal peynir ibareleri yasaklandı",
+      "heading": "Peynirde *köy peyniri* ibaresi ve bitkisel yağ yasaklandı",
       "art": "belge",
       "body": [
-        "Çiftlik ve geleneksel peynir ibareleri de kullanılamaz; işletmelere 30 Nisan 2027'ye kadar süre var."
+        "Doğal, çiftlik ibareleri ile bitkisel yağ, nişasta, soya yasak; uyum süresi 30 Nisan 2027."
       ],
       "cite": "Peynir Tebliği 2026/24 · RG 10.11.2026",
-      "vo": "Yeni Peynir Tebliği'ne göre etiketlerde köy peyniri, doğal peynir ve çiftlik peyniri ibareleri kullanılamayacak. Uyum süresi otuz Nisan iki bin yirmi yedi."
+      "vo": "Yeni Peynir Tebliği'ne göre etiketlerde köy peyniri ve doğal peynir ibareleri, üretimde bitkisel yağ ve nişasta kullanılamayacak. Uyum süresi otuz Nisan iki bin yirmi yedi."
     },
     {
       "role": "body",
@@ -57,16 +57,6 @@
       ],
       "cite": "GSB Yurt Yönetmeliği · RG 10.11.2026",
       "vo": "Bakanlık yurtlarında giriş yapmayan ve ulaşılamayan öğrencinin bilgisi veliye ya da irtibat kişisine iletilecek."
-    },
-    {
-      "role": "body",
-      "heading": "Peynirde *bitkisel yağ* ve nişasta kullanılamayacak",
-      "art": "kalkan",
-      "body": [
-        "Eritme peyniri dökme satılamaz; peynirler 10 °C'nin altında muhafaza edilmeli."
-      ],
-      "cite": "Peynir Tebliği 2026/24 · RG 10.11.2026",
-      "vo": "Peynirde bitkisel yağ, nişasta, soya ve jelatin kullanılamayacak; eritme peyniri dökme satılamayacak."
     },
     {
       "role": "body",
