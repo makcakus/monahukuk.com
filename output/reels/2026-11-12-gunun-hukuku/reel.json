@@ -1,0 +1,84 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (Bütünleşik Sigortalar Yönetmeliği, 7584, 7589, 7579, 7578 sayılı Kanunlar)",
+  "slug": "2026-11-12-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "Bütünleşik Sigortalar Hakkında Yönetmelik, RG 12.11.2026 S. 33428, m. 6, 7, 8, 10",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112.pdf"
+    },
+    {
+      "label": "7584 sayılı Kanun, RG 20.06.2026 S. 33286, m. 27",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/06/20260620.pdf"
+    },
+    {
+      "label": "7589 sayılı Kanun, RG 31.07.2026 S. 33326, m. 15",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
+    },
+    {
+      "label": "7579 sayılı Kanun, RG 22.05.2026 S. 33261, m. 14",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260522.pdf"
+    },
+    {
+      "label": "7578 sayılı Kanun, RG 01.05.2026 S. 33240, m. 6",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/05/20260501.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta beş önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Mal veya hizmet alırken sigorta *şart koşulamayacak*",
+      "art": "kalkan",
+      "body": ["Yıllık prim bir aylık brüt asgari ücreti, teminat süresi 2 yılı aşamaz; cayma hâlinde sigorta biter."],
+      "cite": "Bütünleşik Sigortalar Yönetmeliği · RG 12.11.2026",
+      "vo": "Bütünleşik Sigortalar Yönetmeliği'ne göre mal veya hizmet alırken sigorta şart koşulamayacak. Yıllık prim bir aylık brüt asgari ücreti, teminat süresi iki yılı aşamayacak."
+    },
+    {
+      "role": "body",
+      "heading": "Belgesiz hayvan sevkinde *hayvan başına* idari para cezası",
+      "art": "araba",
+      "body": ["Sığır başına 7.863 TL, koyun ve keçi başına 1.204 TL; nakil aracı sahibine 26.360 TL."],
+      "cite": "7584 s. Kanun m. 27 · RG 20.06.2026",
+      "vo": "Belgesiz canlı hayvan sevkinde sığır için hayvan başına yedi bin sekiz yüz altmış üç lira, koyun ve keçi için bin iki yüz dört lira idari para cezası verilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Hükmün açıklanmasının geri bırakılması *yeniden düzenlendi*",
+      "art": "tokmak",
+      "body": ["İki yıl ve altı cezada zarar giderilmeli, taksitle de olur; denetim süresi 5 yıl."],
+      "cite": "7589 s. Kanun m. 15 · RG 31.07.2026",
+      "vo": "Hükmün açıklanmasının geri bırakılması yeniden düzenlendi. İki yıl veya daha az cezalarda mağdurun zararı giderilmeli, taksitle de ödenebilir; denetim süresi beş yıl."
+    },
+    {
+      "role": "body",
+      "heading": "Ruhsatsız yapıya hazır beton sağlayana *500 bin lira* ceza",
+      "art": "ev",
+      "body": ["Ruhsat veya izin alınmadan yapılacak yapıda kullanılacak hazır beton arz edene idari para cezası verilir."],
+      "cite": "7579 s. Kanun m. 14 · RG 22.05.2026",
+      "vo": "Ruhsat ya da izin alınmadan yapılacak yapılarda kullanılmak üzere hazır beton arz edene, beş yüz bin lira idari para cezası verilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Çocuk bakımı için *sosyal ve ekonomik destek* verilebilecek",
+      "art": "kisi",
+      "body": ["Aylık destek iki yıla, tek seferlik destek yılda iki kereye kadar; aynı ailede en çok iki kişi."],
+      "cite": "7578 s. Kanun m. 6 · RG 01.05.2026",
+      "vo": "Çocukların ailesi yanında bakımı için sosyal ve ekonomik destek verilebilecek. Aylık destek iki yıla, tek seferlik destek yılda iki kereye kadar sağlanacak."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
