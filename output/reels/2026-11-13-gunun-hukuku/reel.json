@@ -36,7 +36,9 @@
       "role": "body",
       "heading": "Diyaliz hastaları için *ev hemodiyalizi* yönetmelikte düzenlendi",
       "art": "kalkan",
-      "body": ["Hasta talebi ve yazılı onayıyla evde uygulanır; merkezler gidiş gelişi de sağlamak zorunda."],
+      "body": [
+        "Hasta talebi ve yazılı onayıyla evde uygulanır; merkezler gidiş gelişi de sağlamak zorunda."
+      ],
       "cite": "Diyaliz Merkezleri Yönetmeliği · RG 13.11.2026",
       "vo": "Yeni Diyaliz Merkezleri Yönetmeliği'ne göre izinli merkezler, hastanın talebi ve yazılı onayıyla evinde hemodiyaliz uygulayabilecek. Merkezler, hastaların gidiş gelişini de sağlamak zorunda."
     },
@@ -44,7 +46,9 @@
       "role": "body",
       "heading": "Koruyucu aile olan çalışana *10 gün* izin verilecek",
       "art": "kisi",
-      "body": ["İşçiye ücretsiz izin; isteğe bağlı sigortalı koruyucu aile primi aylık ödemeye eklenir."],
+      "body": [
+        "İşçiye ücretsiz izin; isteğe bağlı sigortalı koruyucu aile primi aylık ödemeye eklenir."
+      ],
       "cite": "7578 s. Kanun m. 2, 5, 15 · RG 01.05.2026",
       "vo": "Koruyucu aile olan çalışana, çocuğun teslimi sonrası isteği üzerine on gün izin verilecek; işçide bu izin ücretsiz. İsteğe bağlı sigorta primleri de aylık ödemelere eklenecek."
     },
@@ -52,7 +56,9 @@
       "role": "body",
       "heading": "Konut turizm kiralama belgesinde eksiklik için *30 gün* süre verilecek",
       "art": "ev",
-      "body": ["Süre sonunda eksiklik giderilmezse izin belgesi iptal edilir."],
+      "body": [
+        "Süre sonunda eksiklik giderilmezse izin belgesi iptal edilir."
+      ],
       "cite": "Turizm Kiralama Yönetmeliği · RG 27.10.2026",
       "vo": "Konutların turizm amaçlı kiralanmasında, belge evrakında eksiklik tespit edilirse belge sahibine otuz gün süre verilecek. Süre sonunda eksiklik giderilmezse izin belgesi iptal edilecek."
     },
@@ -60,15 +66,19 @@
       "role": "body",
       "heading": "DSİ taşınmazları hissedarlarına *doğrudan satılabilecek*",
       "art": "belge",
-      "body": ["Hisse oranı yüzde 40'ı, imar içinde 400 m², dışında 4.000 m²'yi aşmayacak; bedel rayiç."],
+      "body": [
+        "Hisse oranı yüzde 40'ı, imar içinde 400 m², dışında 4.000 m²'yi aşmayacak; bedel rayiç."
+      ],
       "cite": "7584 s. Kanun m. 9 · RG 20.06.2026",
-      "vo": "DSİ'ye ait taşınmazlar, hissedarlarına rayiç bedelle doğrudan satılabilecek. Hisse oranı yüzde kırkı, hisse miktarı imar planı içinde dört yüz, dışında dört bin metrekareyi aşmayacak."
+      "vo": "Devlet Su İşleri'ne ait taşınmazlar, hissedarlarına rayiç bedelle doğrudan satılabilecek. Hisse oranı yüzde kırkı, hisse miktarı imar planı içinde dört yüz, dışında dört bin metrekareyi aşmayacak."
     },
     {
       "role": "body",
       "heading": "İdare mahkemesinde *486 bin liraya* kadar davalara tek hâkim bakacak",
       "art": "tokmak",
-      "body": ["Düzenleyici işlemler hariç; hüküm yayımdan sonra açılan davalara uygulanır."],
+      "body": [
+        "Düzenleyici işlemler hariç; hüküm yayımdan sonra açılan davalara uygulanır."
+      ],
       "cite": "7589 s. Kanun m. 4 · RG 31.07.2026",
       "vo": "İdare mahkemelerinde konusu dört yüz seksen altı bin lirayı aşmayan iptal ve tam yargı davalarına tek hâkim bakacak. Düzenleme yayımdan sonra açılan davalara uygulanacak."
     },
