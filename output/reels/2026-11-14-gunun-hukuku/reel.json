@@ -1,0 +1,80 @@
+{
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (7590 s. Kanun, MEB Ölçme ve Değerlendirme Yönetmeliği, Sözleşmeli Personel Esasları, Askeri Yasak Bölgeler Yönetmeliği)",
+  "slug": "2026-11-14-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "7590 sayılı Kanun, RG 31.07.2026 S. 33326, m. 16 (5510 s. Kanun ek m. 19), m. 18 (5580 s. Kanun m. 7)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
+    },
+    {
+      "label": "Millî Eğitim Bakanlığı Ölçme ve Değerlendirme Yönetmeliğinde Değişiklik, RG 14.11.2026 S. 33430, m. 3, 5, 6",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
+    },
+    {
+      "label": "Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslarda Değişiklik, Karar Sayısı 11982, RG 14.11.2026 S. 33430, m. 3",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
+    },
+    {
+      "label": "Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Yönetmeliğinde Değişiklik, Karar Sayısı 11991, RG 14.11.2026 S. 33430, m. 1, 2",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *5 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta beş önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "En düşük emekli aylığı *23.552 liraya* yükseldi",
+      "art": "para",
+      "body": ["Aylık ve ödemeler toplamı dosya başına bu tutardan az olamaz; Temmuz 2026 ödemesinden itibaren."],
+      "cite": "7590 s. Kanun m. 16 · RG 31.07.2026",
+      "vo": "En düşük malullük ve yaşlılık aylığı, yirmi bin liradan yirmi üç bin beş yüz elli iki liraya yükseltildi. Düzenleme Temmuz ayı ödeme döneminden itibaren uygulanıyor."
+    },
+    {
+      "role": "body",
+      "heading": "Okul öncesi ve ilkokulda *sınav yapılamayacak*",
+      "art": "belge",
+      "body": ["Hiçbir ad altında sınav yapılamaz; sonuçlar okullar ya da iller arasında sıralamada kullanılamaz."],
+      "cite": "MEB Ölçme Değerlendirme Yön. · RG 14.11.2026",
+      "vo": "Millî Eğitim Bakanlığının yeni değişikliğine göre okul öncesi ve ilkokullarda hiçbir ad altında sınav yapılamayacak. Sonuçlarla okullar ya da iller arasında sıralama yapılamayacak."
+    },
+    {
+      "role": "body",
+      "heading": "Özel öğretim kurumlarında *üçüncü ihlalde* ruhsat iptal edilecek",
+      "art": "kalkan",
+      "body": ["Sayılan fiillerin tekrarında ceza beş katına çıkar; üçüncü ihlalde izin ve ruhsat iptal edilir."],
+      "cite": "7590 s. Kanun m. 18 · RG 31.07.2026",
+      "vo": "Özel öğretim kurumlarında kanunda sayılan fiillerin tekrarında idari para cezası beş katına çıkacak. Aynı fiil üçüncü kez işlenirse kurum açma izni ve çalışma ruhsatı iptal edilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Sözleşmeli personele *memurlar gibi* hastalık ve refakat izni",
+      "art": "kisi",
+      "body": ["Memur izin hükümleri kıyasen uygulanır; SGK'nın ödediği ödenek ücretten düşülür."],
+      "cite": "Sözleşmeli Personel Esasları · RG 14.11.2026",
+      "vo": "Sözleşmeli personele, devlet memurlarına ilişkin hastalık ve refakat izni hükümleri, bazı fıkralar hariç, kıyasen uygulanacak. Sosyal Güvenlik Kurumunca ödenen geçici iş göremezlik ödeneği ise ücretten düşülecek."
+    },
+    {
+      "role": "body",
+      "heading": "Deniz askeri yasak bölgeleri *işaretlenebilecek*",
+      "art": "adliye",
+      "body": ["Köşe noktalarına seyir yardımcısı konabilecek; işlem Sahil Güvenlik ve liman başkanlığıyla koordine edilir."],
+      "cite": "Askeri Yasak Bölgeler Yönetmeliği · RG 14.11.2026",
+      "vo": "Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Yönetmeliğindeki değişiklikle, deniz askeri yasak ve güvenlik bölgelerinin köşe noktalarına seyir yardımcısı konarak işaretleme yapılabilecek."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
