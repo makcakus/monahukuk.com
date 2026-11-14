@@ -32,7 +32,9 @@
       "role": "body",
       "heading": "En düşük emekli aylığı *23.552 liraya* yükseldi",
       "art": "para",
-      "body": ["Aylık ve ödemeler toplamı dosya başına bu tutardan az olamaz; Temmuz 2026 ödemesinden itibaren."],
+      "body": [
+        "Aylık ve ödemeler toplamı dosya başına bu tutardan az olamaz; Temmuz 2026 ödemesinden itibaren."
+      ],
       "cite": "7590 s. Kanun m. 16 · RG 31.07.2026",
       "vo": "En düşük malullük ve yaşlılık aylığı, yirmi bin liradan yirmi üç bin beş yüz elli iki liraya yükseltildi. Düzenleme Temmuz ayı ödeme döneminden itibaren uygulanıyor."
     },
@@ -40,7 +42,9 @@
       "role": "body",
       "heading": "Okul öncesi ve ilkokulda *sınav yapılamayacak*",
       "art": "belge",
-      "body": ["Hiçbir ad altında sınav yapılamaz; sonuçlar okullar ya da iller arasında sıralamada kullanılamaz."],
+      "body": [
+        "Hiçbir ad altında sınav yapılamaz; sonuçlar okullar ya da iller arasında sıralamada kullanılamaz."
+      ],
       "cite": "MEB Ölçme Değerlendirme Yön. · RG 14.11.2026",
       "vo": "Millî Eğitim Bakanlığının yeni değişikliğine göre okul öncesi ve ilkokullarda hiçbir ad altında sınav yapılamayacak. Sonuçlarla okullar ya da iller arasında sıralama yapılamayacak."
     },
@@ -48,7 +52,9 @@
       "role": "body",
       "heading": "Özel öğretim kurumlarında *üçüncü ihlalde* ruhsat iptal edilecek",
       "art": "kalkan",
-      "body": ["Sayılan fiillerin tekrarında ceza beş katına çıkar; üçüncü ihlalde izin ve ruhsat iptal edilir."],
+      "body": [
+        "Sayılan fiillerin tekrarında ceza beş katına çıkar; üçüncü ihlalde izin ve ruhsat iptal edilir."
+      ],
       "cite": "7590 s. Kanun m. 18 · RG 31.07.2026",
       "vo": "Özel öğretim kurumlarında kanunda sayılan fiillerin tekrarında idari para cezası beş katına çıkacak. Aynı fiil üçüncü kez işlenirse kurum açma izni ve çalışma ruhsatı iptal edilecek."
     },
@@ -56,17 +62,21 @@
       "role": "body",
       "heading": "Sözleşmeli personele *memurlar gibi* hastalık ve refakat izni",
       "art": "kisi",
-      "body": ["Memur izin hükümleri kıyasen uygulanır; SGK'nın ödediği ödenek ücretten düşülür."],
+      "body": [
+        "Memur izin hükümleri kıyasen uygulanır; SGK'nın ödediği ödenek ücretten düşülür."
+      ],
       "cite": "Sözleşmeli Personel Esasları · RG 14.11.2026",
-      "vo": "Sözleşmeli personele, devlet memurlarına ilişkin hastalık ve refakat izni hükümleri, bazı fıkralar hariç, kıyasen uygulanacak. Sosyal Güvenlik Kurumunca ödenen geçici iş göremezlik ödeneği ise ücretten düşülecek."
+      "vo": "Sözleşmeli personele, memurlara ilişkin hastalık ve refakat izni hükümleri kıyasen uygulanacak. Sosyal Güvenlik Kurumunun ödediği ödenek ücretten düşülecek."
     },
     {
       "role": "body",
       "heading": "Deniz askeri yasak bölgeleri *işaretlenebilecek*",
       "art": "adliye",
-      "body": ["Köşe noktalarına seyir yardımcısı konabilecek; işlem Sahil Güvenlik ve liman başkanlığıyla koordine edilir."],
+      "body": [
+        "Köşe noktalarına seyir yardımcısı konabilecek; işlem Sahil Güvenlik ve liman başkanlığıyla koordine edilir."
+      ],
       "cite": "Askeri Yasak Bölgeler Yönetmeliği · RG 14.11.2026",
-      "vo": "Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Yönetmeliğindeki değişiklikle, deniz askeri yasak ve güvenlik bölgelerinin köşe noktalarına seyir yardımcısı konarak işaretleme yapılabilecek."
+      "vo": "Askeri yasak bölgeler yönetmeliğindeki değişiklikle, deniz askeri yasak ve güvenlik bölgelerinin köşe noktalarına seyir yardımcısı konarak işaretleme yapılabilecek."
     },
     {
       "role": "closing",
