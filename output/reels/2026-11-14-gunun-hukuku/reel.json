@@ -1,11 +1,11 @@
 {
-  "topic": "Günün hukuku: 5 doğrulanmış gelişme (7590 s. Kanun, MEB Ölçme ve Değerlendirme Yönetmeliği, Sözleşmeli Personel Esasları, Askeri Yasak Bölgeler Yönetmeliği)",
+  "topic": "Günün hukuku: 5 doğrulanmış gelişme (MEB Ölçme ve Değerlendirme Yönetmeliği, 7590 s. Kanun, Eğirdir Gölü CB Kararı, Sözleşmeli Personel Esasları, Askeri Yasak Bölgeler Yönetmeliği)",
   "slug": "2026-11-14-gunun-hukuku",
   "silent": false,
   "fast": true,
   "sources": [
     {
-      "label": "7590 sayılı Kanun, RG 31.07.2026 S. 33326, m. 16 (5510 s. Kanun ek m. 19), m. 18 (5580 s. Kanun m. 7)",
+      "label": "7590 sayılı Kanun, RG 31.07.2026 S. 33326, m. 18 (5580 s. Kanun m. 7)",
       "url": "https://www.resmigazete.gov.tr/eskiler/2026/07/20260731.pdf"
     },
     {
@@ -19,6 +19,10 @@
     {
       "label": "Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Yönetmeliğinde Değişiklik, Karar Sayısı 11991, RG 14.11.2026 S. 33430, m. 1, 2",
       "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
+    },
+    {
+      "label": "Eğirdir Gölü Doğal Sit Alanı hakkındaki 3357 sayılı Cumhurbaşkanı Kararının yürürlükten kaldırılması, Karar Sayısı 11974, RG 14.11.2026 S. 33430",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
     }
   ],
   "scenes": [
@@ -27,16 +31,6 @@
       "headline": "Hukukta *5 önemli gelişme*",
       "art": "adliye",
       "vo": "Hukukta beş önemli gelişme."
-    },
-    {
-      "role": "body",
-      "heading": "En düşük emekli aylığı *23.552 liraya* yükseldi",
-      "art": "para",
-      "body": [
-        "Aylık ve ödemeler toplamı dosya başına bu tutardan az olamaz; Temmuz 2026 ödemesinden itibaren."
-      ],
-      "cite": "7590 s. Kanun m. 16 · RG 31.07.2026",
-      "vo": "En düşük malullük ve yaşlılık aylığı, yirmi bin liradan yirmi üç bin beş yüz elli iki liraya yükseltildi. Düzenleme Temmuz ayı ödeme döneminden itibaren uygulanıyor."
     },
     {
       "role": "body",
@@ -57,6 +51,16 @@
       ],
       "cite": "7590 s. Kanun m. 18 · RG 31.07.2026",
       "vo": "Özel öğretim kurumlarında kanunda sayılan fiillerin tekrarında idari para cezası beş katına çıkacak. Aynı fiil üçüncü kez işlenirse kurum açma izni ve çalışma ruhsatı iptal edilecek."
+    },
+    {
+      "role": "body",
+      "heading": "Eğirdir Gölü'nde *kesin korunacak hassas alan* kararı kaldırıldı",
+      "art": "ev",
+      "body": [
+        "Isparta'daki bazı alanları kesin korunacak hassas alan ilan eden 2021 tarihli karar kaldırıldı."
+      ],
+      "cite": "CB Kararı 11974 · RG 14.11.2026",
+      "vo": "Isparta'daki Eğirdir Gölü Doğal Sit Alanı'nda bazı alanları kesin korunacak hassas alan ilan eden, 2021 tarihli Cumhurbaşkanı Kararı yürürlükten kaldırıldı."
     },
     {
       "role": "body",
