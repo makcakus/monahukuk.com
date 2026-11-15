@@ -255,6 +255,8 @@ const nextConfig: NextConfig = {
       // "kita-hukuku" typo (doğrusu "kira-hukuku") — tüm locale'lerde aynı slug kullanılıyor
       { source: "/:locale(tr|en|de|ru|ar|es|fr)/practice-areas/kita-hukuku", destination: "/:locale/practice-areas/kira-hukuku", permanent: true },
       { source: "/articles", destination: "/tr/articles", permanent: true },
+      // Remindionary gizlilik politikası yalnız TR'de yayında; diğer dillerdeki adres → TR
+      { source: "/:locale(en|de|ru|ar|es|fr)/remindionary-gizlilik", destination: "/tr/remindionary-gizlilik", permanent: true },
       // EN-slug makaleler prefix'siz erişimlerde → EN locale
       // (catch-all aşağıdaki kural öncesinde bu spesifik slug'ları yakalamalı)
       { source: "/articles/eviction-landlord-need-turkey", destination: "/en/articles/eviction-landlord-need-turkey", permanent: true },

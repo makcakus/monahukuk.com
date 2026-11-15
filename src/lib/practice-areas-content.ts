@@ -1344,7 +1344,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "E-ticaret mevzuatı, mesafeli sözleşme ve elektronik ticaret iletisi uyumu",
         "Yapay zekâ ürünleri için sözleşmesel risk ve sorumluluk düzenlemesi",
         "Bulut hizmetleri ve veri yurt dışına aktarımı sözleşmeleri",
-        "Fikri mülkiyet, marka ve telif hakkı koruması",
         "Bilişim suçlarında savunma ve siber olay müdahale planı",
       ],
       en: [
@@ -1354,7 +1353,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "E-commerce regulation, distance contract, and electronic commercial message compliance",
         "Contractual risk and liability allocation for AI products",
         "Cloud services and cross-border data transfer contracts",
-        "Intellectual property, trademark, and copyright protection",
         "Defence in cyber-crime cases and incident response planning",
       ],
       de: [
@@ -1364,7 +1362,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "E-Commerce-Recht, Fernabsatzverträge und elektronische Werbe-Compliance",
         "Vertragliche Risiko- und Haftungsverteilung für KI-Produkte",
         "Cloud-Dienste und grenzüberschreitende Datenübertragungsverträge",
-        "Gewerbliche Schutzrechte, Marken- und Urheberrechtsschutz",
         "Verteidigung in Cyber-Delikten und Incident-Response-Planung",
       ],
       ru: [
@@ -1374,7 +1371,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Право e-commerce, дистанционные договоры, соответствие электронных коммерческих сообщений",
         "Распределение договорных рисков и ответственности по AI-продуктам",
         "Облачные сервисы и трансграничные договоры передачи данных",
-        "Защита интеллектуальной собственности, товарных знаков и авторского права",
         "Защита по делам о киберпреступлениях и планы реагирования на инциденты",
       ],
       ar: [
@@ -1384,7 +1380,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "أنظمة التجارة الإلكترونية وعقود البيع عن بُعد والامتثال للرسائل التجارية الإلكترونية",
         "تخصيص المخاطر والمسؤوليات التعاقدية لمنتجات الذكاء الاصطناعي",
         "عقود الخدمات السحابية ونقل البيانات عبر الحدود",
-        "حماية الملكية الفكرية والعلامات التجارية وحقوق المؤلف",
         "الدفاع في جرائم المعلوماتية وخطط الاستجابة للحوادث",
       ],
       es: [
@@ -1394,7 +1389,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Regulación del comercio electrónico, contratos a distancia y cumplimiento de comunicaciones comerciales electrónicas",
         "Asignación de riesgos y responsabilidades contractuales para productos de IA",
         "Contratos de servicios en la nube y de transferencia internacional de datos",
-        "Propiedad intelectual, marcas y protección de derechos de autor",
         "Defensa en delitos informáticos y planes de respuesta a incidentes",
       ],
       fr: [
@@ -1404,7 +1398,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Réglementation du commerce électronique, contrats à distance et conformité des messages commerciaux électroniques",
         "Allocation des risques et de la responsabilité contractuelle pour les produits d'IA",
         "Contrats de services en nuage et de transfert de données transfrontalier",
-        "Propriété intellectuelle, marques et protection des droits d'auteur",
         "Défense dans les affaires de cybercriminalité et plans de réponse aux incidents",
       ],
     },

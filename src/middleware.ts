@@ -13,6 +13,16 @@ import { isGonePath } from "./lib/gone";
 // (bkz. src/lib/seo.ts) üzerinden üretiyor.
 const intlMiddleware = createMiddleware(routing);
 
+// Çince/Japonca karakter içeren yol (kodlanmış ya da düz). Sitede böyle bir
+// adres yok; Search Console'a eski /zh/ sayfalarındaki metinden sızmışlar.
+function hasCjk(pathname: string): boolean {
+  let p = pathname;
+  try {
+    p = decodeURIComponent(pathname);
+  } catch {}
+  return /[\u3000-\u303f\u3400-\u9fff\uff00-\uffef]/.test(p);
+}
+
 // Çince (zh) dil versiyonu kaldırıldı. Google'ın eski /zh/ URL'lerini hızla
 // dizinden düşürmesi için 404 yerine 410 (Gone) dönüyoruz.
 export default function middleware(request: NextRequest) {
@@ -23,8 +33,9 @@ export default function middleware(request: NextRequest) {
       headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },
     });
   }
-  // Kaldırılan Fikri Mülkiyet içeriği (bkz. src/lib/gone.ts)
-  if (isGonePath(pathname)) {
+  // Kaldırılan Fikri Mülkiyet içeriği (bkz. src/lib/gone.ts) ve eski Çince
+  // sürümden kalan, yol yerine metin parçası taşıyan bozuk adresler.
+  if (isGonePath(pathname) || hasCjk(pathname)) {
     return new NextResponse("Gone", {
       status: 410,
       headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },
