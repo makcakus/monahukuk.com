@@ -91,8 +91,10 @@ def validate(reel, allow_ad):
     if not 3 <= len(scenes) <= 12:
         raise Stop(f"Sahne sayısı 3–12 olmalı, {len(scenes)} var.")
     n_news = sum(1 for x in scenes if x.get("role") == "body")
-    if not 5 <= n_news <= 10:
-        raise Stop(f"Günün hukuku bülteninde 5–10 haber sahnesi (body) olmalı, {n_news} var.")
+    # "special": true yalnızca tek konulu özel videolar içindir (günlük rutin kullanmaz): en az 3 kart
+    min_news = 3 if reel.get("special") else 5
+    if not min_news <= n_news <= 10:
+        raise Stop(f"Günün hukuku bülteninde {min_news}–10 haber sahnesi (body) olmalı, {n_news} var.")
     srcs = reel.get("sources") or []
     if not srcs or not all(str(s.get("url", "")).startswith("https://") for s in srcs):
         raise Stop("sources boş ya da https bağlantısı yok. Kaynağı doğrulanmamış haber reels olmaz.")

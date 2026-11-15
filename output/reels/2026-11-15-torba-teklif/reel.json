@@ -20,7 +20,9 @@
       "role": "body",
       "heading": "Teklife göre 2017 öncesi *GSS prim borçları* silinecek",
       "art": "kalkan",
-      "body": ["1 Ocak 2017 öncesi prim borçları, gecikme cezası ve zammıyla birlikte tahsil edilmeyecek."],
+      "body": [
+        "1 Ocak 2017 öncesi prim borçları, gecikme cezası ve zammıyla birlikte tahsil edilmeyecek."
+      ],
       "cite": "Kanun teklifi · TBMM'ye sunuldu 12.11.2026",
       "vo": "Teklife göre, bir Ocak iki bin on yedi öncesine ait Genel Sağlık Sigortası prim borçları, gecikme cezası ve gecikme zammıyla birlikte tahsil edilmeyecek."
     },
@@ -28,7 +30,9 @@
       "role": "body",
       "heading": "İndirimli *kurumlar vergisi* kapsamı daraltılıyor",
       "art": "para",
-      "body": ["Kıymetli maden, rafineri, tütün ve alkollü içki üreticileri yüzde 12,5'lik orandan çıkarılıyor."],
+      "body": [
+        "Kıymetli maden, rafineri, tütün ve alkollü içki üreticileri yüzde 12,5'lik orandan çıkarılıyor."
+      ],
       "cite": "Kanun teklifi m. 11 (KVK m. 32)",
       "vo": "Teklif, yüzde on iki buçuk indirimli kurumlar vergisi oranının kapsamını daraltıyor. Kıymetli maden, petrol rafinerisi, tütün ve alkollü içki üreticileri dışarıda kalacak."
     },
@@ -36,7 +40,9 @@
       "role": "body",
       "heading": "Botaş'ın bazı *kamu borçları* Hazine alacağıyla mahsup edilecek",
       "art": "belge",
-      "body": ["Belirli vergi, fon ve pay borçları Hazine alacaklarıyla mahsup edilebilecek."],
+      "body": [
+        "Belirli vergi, fon ve pay borçları Hazine alacaklarıyla mahsup edilebilecek."
+      ],
       "cite": "Kanun teklifi · TBMM'ye sunuldu 12.11.2026",
       "vo": "Teklifte, Botaş'ın belirli dönemlere ait vergi, fon ve pay borçlarının Hazineden olan alacaklarıyla mahsup edilmesi de yer alıyor."
     },
@@ -44,7 +50,9 @@
       "role": "body",
       "heading": "Fon tasfiyesinde görevli *banka personeline* sorumsuzluk",
       "art": "kilit",
-      "body": ["Kanunla verilen olağanüstü tasfiye ve geri kazanım görevleri kapsamındaki işlemlerle sınırlı."],
+      "body": [
+        "Kanunla verilen olağanüstü tasfiye ve geri kazanım görevleri kapsamındaki işlemlerle sınırlı."
+      ],
       "cite": "Kanun teklifi · TBMM'ye sunuldu 12.11.2026",
       "vo": "Olağanüstü fon tasfiyesinde görev alan banka personeli için, kanunla verilen görevler kapsamındaki işlemlerle sınırlı bir sorumsuzluk öngörülüyor."
     },
@@ -56,5 +64,6 @@
       "art": "terazi",
       "vo": "Teklif henüz yasalaşmadı ve metni değişebilir. Takipte kalın."
     }
-  ]
+  ],
+  "special": true
 }
