@@ -33,17 +33,16 @@ const NAV_ITEMS: readonly NavItem[] = [
 ] as const;
 
 // Büyük harfli, geniş aralıklı menü tek satırda şu genişlikleri ister (ölçüldü):
-// tr 1475, en 1413, de 1479, ar 1151, es 1663, fr 1688, ru 1773 px. Altında
-// hamburger menü açılır. Tailwind sınıfları statik yazılmak zorunda olduğu için
-// iki sabit takım var.
-const WIDE_SHORT = { show: "hidden min-[1500px]:flex", hide: "min-[1500px]:hidden" } as const;
-const WIDE_LONG = { show: "hidden min-[1800px]:flex", hide: "min-[1800px]:hidden" } as const;
+// ar 1079, en 1236, tr 1302, de 1334, fr 1478, es 1489, ru 1514 px. Altında
+// hamburger menü açılır; eşikler kaydırma çubuğu payı bırakır. Tailwind
+// sınıfları statik yazılmak zorunda olduğu için iki sabit takım var.
+const WIDE_SHORT = { show: "hidden min-[1360px]:flex", hide: "min-[1360px]:hidden" } as const;
+const WIDE_LONG = { show: "hidden min-[1540px]:flex", hide: "min-[1540px]:hidden" } as const;
 const LONG_LOCALES = new Set(["ru", "es", "fr"]);
 
 export function Header() {
   const t = useTranslations("nav");
   const tSite = useTranslations("site");
-  const tCta = useTranslations("cta");
   const pathname = usePathname();
   const locale = useLocale();
   const wide = LONG_LOCALES.has(locale) ? WIDE_LONG : WIDE_SHORT;
@@ -200,12 +199,6 @@ export function Header() {
       <div className={clsx("flex items-center", controlTone)}>
         <LangSwitcher />
       </div>
-      <Link
-        href="/contact"
-        className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 font-nav text-[14px] font-semibold uppercase tracking-[0.08em] text-navy-950 hover:bg-gold-400 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
-      >
-        <span className="block text-center">{tCta("consult")}</span>
-      </Link>
     </>
   );
 
@@ -255,7 +248,7 @@ export function Header() {
 
       <div className="relative w-full px-6 lg:px-10 flex items-center gap-6 h-20">
         {logo}
-        <nav className={clsx("ms-auto items-center gap-5", wide.show)}>{navLinks}</nav>
+        <nav className={clsx("ms-auto items-center gap-[30px]", wide.show)}>{navLinks}</nav>
         <div className={clsx("items-center gap-3", wide.show)}>{controls}</div>
         {burger(clsx("ms-auto", wide.hide))}
       </div>
