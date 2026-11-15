@@ -39,7 +39,6 @@ export const TEAM: Member[] = [
       { tr: "Gayrimenkul", en: "Real Estate", de: "Immobilienrecht", ru: "Недвижимость", ar: "العقارات", es: "Derecho Inmobiliario", fr: "Droit Immobilier" },
       { tr: "Türk Vatandaşlığı", en: "Turkish Citizenship", de: "Türkische Staatsbürgerschaft", ru: "Гражданство Турции", ar: "الجنسية التركية", es: "Ciudadanía Turca", fr: "Nationalité Turque" },
       { tr: "Yabancılar Hukuku", en: "Immigration", de: "Einwanderungsrecht", ru: "Иммиграционное право", ar: "قانون الأجانب", es: "Derecho de Inmigración", fr: "Droit de l'Immigration" },
-      { tr: "Fikri Mülkiyet Hukuku", en: "Intellectual Property Law", de: "Recht des geistigen Eigentums", ru: "Право интеллектуальной собственности", ar: "قانون الملكية الفكرية", es: "Derecho de Propiedad Intelectual", fr: "Droit de la Propriété Intellectuelle" },
     ],
     bio: {
       tr: "MONA HUKUK'un kurucu ortağı Mustafa, kariyerine İstanbul Barosu'nda başlamış, 2017'den bu yana Antalya Barosu'na kayıtlı olarak çalışmaktadır. Bilişim şirketlerine ve uluslararası müvekkillere Türkiye'de BT Hukuku, yapay zekâ düzenlemeleri ve veri koruma (KVKK) uyumu konularında danışmanlık vermektedir. Yazılım geliştirme ve lisans sözleşmeleri, veri ihlali süreçleri ile marka, telif ve alan adı uyuşmazlıkları yürüttüğü işler arasındadır. Ayrıca yabancı müvekkillerin Antalya'da taşınmaz edinimi, oturma izni ve Türk vatandaşlığı başvurularını takip etmektedir. Bu sitedeki hukuki makalelerin başlıca yazarıdır; çalışmalarını Türkçe ve İngilizce yürütmektedir.",

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
+import { isGonePath } from "./lib/gone";
 
 // routing.alternateLinks = false (bkz. src/i18n/routing.ts) — next-intl'in
 // varsayılan davranışı, mevcut URL'nin locale segmentini blindly değiştirerek
@@ -17,6 +18,13 @@ const intlMiddleware = createMiddleware(routing);
 export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   if (pathname === "/zh" || pathname.startsWith("/zh/")) {
+    return new NextResponse("Gone", {
+      status: 410,
+      headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },
+    });
+  }
+  // Kaldırılan Fikri Mülkiyet içeriği (bkz. src/lib/gone.ts)
+  if (isGonePath(pathname)) {
     return new NextResponse("Gone", {
       status: 410,
       headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },

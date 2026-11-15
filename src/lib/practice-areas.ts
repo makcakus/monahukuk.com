@@ -247,27 +247,6 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     },
   },
   {
-    slug: "fikri-mulkiyet-hukuku",
-    title: {
-      tr: "Fikri Mülkiyet Hukuku",
-      en: "Intellectual Property Law",
-      de: "Recht des geistigen Eigentums",
-      ru: "Право интеллектуальной собственности",
-      ar: "قانون الملكية الفكرية",
-      es: "Derecho de Propiedad Intelectual",
-      fr: "Droit de la Propriété Intellectuelle",
-    },
-    description: {
-      tr: "Marka tescili ve itiraz süreçlerinden telif hakkı ihlallerine, yazılım lisans ve hak devri sözleşmelerinden alan adı uyuşmazlıklarına kadar tüm Fikri Mülkiyet Hukuku hizmetlerini sunuyoruz. TÜRKPATENT nezdinde marka, patent ve tasarım işlemleri, FSEK kapsamında eser koruması ve yabancı teknoloji şirketleri için fikri mülkiyet due diligence süreçlerinde Antalya'da yanınızdayız.",
-      en: "We provide the full range of intellectual property law services — from trademark registration and opposition proceedings to copyright infringement disputes, software licensing and IP assignment agreements, and domain name disputes. In Antalya we support trademark, patent, and design matters before TÜRKPATENT, copyright protection under the FSEK, and intellectual property due diligence for foreign technology companies.",
-      de: "Von der Markenanmeldung und Widerspruchsverfahren über Urheberrechtsverletzungen bis zu Softwarelizenz- und Rechteübertragungsverträgen sowie Domainstreitigkeiten bieten wir sämtliche Leistungen im Recht des geistigen Eigentums. Wir begleiten Sie in Antalya bei Marken-, Patent- und Designverfahren vor dem TÜRKPATENT, beim urheberrechtlichen Werkschutz nach dem FSEK und bei der IP-Due-Diligence für ausländische Technologieunternehmen.",
-      ru: "Мы оказываем полный спектр услуг в области права интеллектуальной собственности — от регистрации товарных знаков и процедур возражения до споров о нарушении авторских прав, договоров лицензирования и передачи прав на программное обеспечение, а также споров по доменным именам. В Анталье мы сопровождаем регистрацию товарных знаков, патентов и промышленных образцов в TÜRKPATENT, защиту произведений по закону FSEK и due diligence интеллектуальной собственности для иностранных технологических компаний.",
-      ar: "نقدم خدمات قانون الملكية الفكرية كاملةً — من تسجيل العلامات التجارية وإجراءات الاعتراض إلى نزاعات انتهاك حقوق المؤلف، ومن عقود ترخيص البرمجيات ونقل الحقوق إلى نزاعات أسماء النطاقات. في أنطاليا نرافقكم في إجراءات العلامات التجارية والبراءات والتصاميم أمام TÜRKPATENT، وحماية المصنفات بموجب قانون FSEK، والعناية الواجبة للملكية الفكرية لشركات التكنولوجيا الأجنبية.",
-      es: "Ofrecemos todos los servicios de derecho de propiedad intelectual, desde el registro de marcas y los procedimientos de oposición hasta las disputas por infracción de derechos de autor, los contratos de licencia y cesión de software y los conflictos de nombres de dominio. En Antalya le acompañamos en los trámites de marcas, patentes y diseños ante la TÜRKPATENT, en la protección de obras conforme a la ley FSEK y en la diligencia debida de propiedad intelectual para empresas tecnológicas extranjeras.",
-      fr: "Nous proposons l'ensemble des services en droit de la propriété intellectuelle, de l'enregistrement de marques et des procédures d'opposition aux litiges relatifs à la contrefaçon de droits d'auteur, en passant par les contrats de licence et de cession de logiciels et les litiges de noms de domaine. À Antalya, nous vous accompagnons dans les démarches de marques, brevets et dessins et modèles devant le TÜRKPATENT, dans la protection des œuvres selon la loi FSEK et dans la due diligence de propriété intellectuelle pour les entreprises technologiques étrangères.",
-    },
-  },
-  {
     slug: "arabuluculuk",
     title: {
       tr: "Arabuluculuk",
