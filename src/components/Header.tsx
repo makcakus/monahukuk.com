@@ -32,12 +32,21 @@ const NAV_ITEMS: readonly NavItem[] = [
   // Gizlilik Politikası üst menüden kaldırıldı; footer'da tutuluyor.
 ] as const;
 
+// Büyük harfli, geniş aralıklı menü tek satırda şu genişlikleri ister (ölçüldü):
+// tr 1475, en 1413, de 1479, ar 1151, es 1663, fr 1688, ru 1773 px. Altında
+// hamburger menü açılır. Tailwind sınıfları statik yazılmak zorunda olduğu için
+// iki sabit takım var.
+const WIDE_SHORT = { show: "hidden min-[1500px]:flex", hide: "min-[1500px]:hidden" } as const;
+const WIDE_LONG = { show: "hidden min-[1800px]:flex", hide: "min-[1800px]:hidden" } as const;
+const LONG_LOCALES = new Set(["ru", "es", "fr"]);
+
 export function Header() {
   const t = useTranslations("nav");
   const tSite = useTranslations("site");
   const tCta = useTranslations("cta");
   const pathname = usePathname();
   const locale = useLocale();
+  const wide = LONG_LOCALES.has(locale) ? WIDE_LONG : WIDE_SHORT;
   const [open, setOpen] = useState(false);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const [scrolled, setScrolled] = useState(false);
@@ -108,7 +117,7 @@ export function Header() {
           href={item.href}
           data-active={active}
           className={clsx(
-            "nav-underline whitespace-nowrap text-[15px] font-medium transition-colors",
+            "nav-underline font-nav whitespace-nowrap text-[14px] font-medium uppercase tracking-[0.06em] transition-colors",
             active ? linkActiveTone : linkTone
           )}
         >
@@ -126,7 +135,7 @@ export function Header() {
           aria-expanded={isOpen}
           onClick={() => setOpenGroup(isOpen ? null : item.key)}
           className={clsx(
-            "inline-flex items-center gap-1 whitespace-nowrap text-[15px] font-medium transition-colors",
+            "inline-flex items-center gap-1 font-nav whitespace-nowrap text-[14px] font-medium uppercase tracking-[0.06em] transition-colors",
             groupActive ? linkActiveTone : linkTone
           )}
         >
@@ -193,7 +202,7 @@ export function Header() {
       </div>
       <Link
         href="/contact"
-        className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 text-sm font-medium text-navy-950 hover:bg-gold-400 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
+        className="inline-flex items-center justify-center rounded-sm bg-gold-300 px-4 font-nav text-[14px] font-semibold uppercase tracking-[0.08em] text-navy-950 hover:bg-gold-400 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-auto h-[40px] flex-shrink-0"
       >
         <span className="block text-center">{tCta("consult")}</span>
       </Link>
@@ -246,15 +255,13 @@ export function Header() {
 
       <div className="relative w-full px-6 lg:px-10 flex items-center gap-6 h-20">
         {logo}
-        <nav className="ms-auto hidden xl:flex items-center gap-6 2xl:gap-8">{navLinks}</nav>
-        <div className="hidden xl:flex items-center gap-3">{controls}</div>
-        {burger("ms-auto xl:hidden")}
+        <nav className={clsx("ms-auto items-center gap-5", wide.show)}>{navLinks}</nav>
+        <div className={clsx("items-center gap-3", wide.show)}>{controls}</div>
+        {burger(clsx("ms-auto", wide.hide))}
       </div>
 
       {open && (
-        <div
-          className="relative border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950 xl:hidden"
-        >
+        <div className={clsx("relative border-t border-cream-200 bg-cream-50 dark:border-navy-800 dark:bg-navy-950", wide.hide)}>
           <nav className="w-full px-6 lg:px-10 py-4 flex flex-col gap-3">
             {items.map((item) => {
               if (item.type === "link") {
@@ -263,7 +270,7 @@ export function Header() {
                     key={item.href}
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="py-1 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
+                    className="py-1 font-nav text-base font-medium uppercase tracking-[0.1em] text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
                   >
                     {t(item.key)}
                   </Link>
@@ -279,7 +286,7 @@ export function Header() {
                       key={sub.href}
                       href={sub.href}
                       onClick={() => setOpen(false)}
-                      className="py-1 ps-3 text-base text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
+                      className="py-1 ps-3 font-nav text-base font-medium uppercase tracking-[0.1em] text-ink-soft hover:text-navy-900 dark:text-cream-200 dark:hover:text-cream-50"
                     >
                       {t(sub.key)}
                     </Link>

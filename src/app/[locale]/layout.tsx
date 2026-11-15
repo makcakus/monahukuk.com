@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-import { Alegreya_Sans, Cormorant_Garamond } from "next/font/google";
+import { Alegreya_Sans, Barlow, Cormorant_Garamond } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
@@ -30,6 +30,15 @@ const display = Cormorant_Garamond({
   subsets: ["latin", "latin-ext", "cyrillic"],
   weight: ["300", "500", "600", "700"],
   variable: "--font-display",
+  display: "swap",
+});
+
+// Menü ve alt bilgi yazısı: DIN tarzı köşeli, teknik bir sans. Barlow'un kiril alt
+// kümesi yok; Rusça'da bu yüzden .font-nav yedek yığınına düşer (globals.css).
+const nav = Barlow({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600"],
+  variable: "--font-nav",
   display: "swap",
 });
 
@@ -103,7 +112,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={locale === "ar" ? "rtl" : "ltr"}
-      className={`${sans.variable} ${display.variable} h-full antialiased`}
+      className={`${sans.variable} ${display.variable} ${nav.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-cream-50 text-ink dark:bg-navy-950 dark:text-cream-100">

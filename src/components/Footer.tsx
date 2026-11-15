@@ -12,7 +12,7 @@ export function Footer() {
   const showLegalNews = true; // legal-news is available in all 7 locales
 
   return (
-    <footer className="mt-24 border-t border-cream-200 bg-navy-950 text-cream-100">
+    <footer className="font-nav mt-24 border-t border-cream-200 bg-navy-950 text-cream-100">
       <div className="mx-auto max-w-6xl px-6 py-14 grid gap-10 md:grid-cols-4">
         <div className="md:col-span-2">
           <p className="font-display text-2xl text-cream-50">
@@ -24,10 +24,10 @@ export function Footer() {
         </div>
 
         <div className="min-w-0">
-          <p className="text-xs uppercase tracking-[0.2em] mb-3 h-[1rem] truncate text-gold-300">
+          <p className="text-base font-semibold tracking-wide mb-3 truncate text-gold-300">
             {tFooter("siteMap")}
           </p>
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-[15px]">
             <li><Link href="/about" className="hover:text-gold-300 block truncate max-w-full">{t("about")}</Link></li>
             <li><Link href="/team" className="hover:text-gold-300 block truncate max-w-full">{t("team")}</Link></li>
             <li><Link href="/practice-areas" className="hover:text-gold-300 block truncate max-w-full">{t("practiceAreas")}</Link></li>
@@ -43,10 +43,10 @@ export function Footer() {
         </div>
 
         <div className="min-w-0">
-          <p className="text-xs uppercase tracking-[0.2em] mb-3 h-[1rem] truncate text-gold-300">
+          <p className="text-base font-semibold tracking-wide mb-3 truncate text-gold-300">
             {tContact("title")}
           </p>
-          <ul className="space-y-2 text-sm text-cream-200/90">
+          <ul className="space-y-2 text-[15px] text-cream-200/90">
             <li>{tContact("officeAddress")}</li>
             <li className="truncate">
               <a href={`tel:${tContact("phoneNumber").replace(/\s|\(|\)/g, "")}`} className="hover:text-gold-300">
