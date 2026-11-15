@@ -7,7 +7,6 @@ import { Reveal } from "./Reveal";
 
 export function TeamFaces() {
   const t = useTranslations("home");
-  const tTeam = useTranslations("team");
   const locale = useLocale();
   const members = TEAM;
 
@@ -19,7 +18,6 @@ export function TeamFaces() {
             {t("team.title")}
           </h2>
           <span className="gold-divider sd-draw mt-6" />
-          <p className="mt-6 max-w-xl text-ink-soft leading-relaxed">{tTeam("lead")}</p>
         </Reveal>
 
         <ul className="mt-12 grid gap-10 sm:grid-cols-3 sm:gap-8 max-w-4xl">
