@@ -201,14 +201,14 @@ export function HeroWheel() {
             <div className="animate-hero-rise animate-hero-rise-delay-4 flex flex-wrap items-center gap-4">
               <Link
                 href="/contact"
-                className="group inline-flex items-center justify-center gap-2 rounded-sm bg-gold-300 text-sm font-medium text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-navy-950/40 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
+                className="group inline-flex items-center justify-center gap-2 rounded-sm bg-gold-300 font-nav cap-title text-[15px] font-medium tracking-[0.03em] text-navy-950 shadow-lg shadow-navy-950/30 hover:bg-gold-400 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-navy-950/40 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
               >
                 <span className="block text-center">{tCta("consult")}</span>
                 <ArrowRight size={16} className="shrink-0 rtl:rotate-180 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1" />
               </Link>
               <Link
                 href="/practice-areas"
-                className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 text-sm font-medium text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
+                className="inline-flex items-center justify-center gap-2 rounded-sm border border-cream-100/40 bg-cream-50/5 font-nav cap-title text-[15px] font-medium tracking-[0.03em] text-cream-50 backdrop-blur-sm hover:bg-cream-50/15 hover:-translate-y-0.5 active:translate-y-0 active:scale-[0.98] transition-all duration-200 whitespace-nowrap w-full sm:w-auto h-[52px] px-6 flex-shrink-0"
               >
                 <span className="block text-center">{tCta("explore")}</span>
               </Link>

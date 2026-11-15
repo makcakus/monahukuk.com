@@ -81,6 +81,13 @@ h1, h2, h3, h4, .font-display {
   font-family: var(--font-nav), "Roboto", "Segoe UI", Arial, sans-serif;
 }
 
+/* Düğme metinleri: Türkçe ve İngilizce'de her kelimenin ilk harfi büyük. Diğer dillerde
+   (de, ru, fr, es) bu yazım kuralı yanlış olur, cümle yazımı korunur. */
+.cap-title:lang(tr),
+.cap-title:lang(en) {
+  text-transform: capitalize;
+}
+
 .prose-legal {
   max-width: 72ch;
   line-height: 1.75;
