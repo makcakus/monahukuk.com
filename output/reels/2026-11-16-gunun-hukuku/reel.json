@@ -32,23 +32,29 @@
       "role": "body",
       "heading": "Kamu işyerinde çalışan emeklinin *aylık iadesine* AYM'den ihlal yok",
       "art": "tokmak",
-      "body": ["Yersiz ödenen yaşlılık aylıklarının faizsiz iadesi istenmesi mülkiyet hakkını ihlal etmedi."],
+      "body": [
+        "Yersiz ödenen yaşlılık aylıklarının faizsiz iadesi istenmesi mülkiyet hakkını ihlal etmedi."
+      ],
       "cite": "AYM BB 2021/57338 · 04.11.2026",
-      "vo": "Anayasa Mahkemesi, emekli aylığı alırken kamu iş yerinde çalışmaya başlayan bir kişiden, yersiz ödenen aylıkların faizsiz iadesinin istenmesinde mülkiyet hakkının ihlal edilmediğine karar verdi."
+      "vo": "Anayasa Mahkemesi, emekli aylığı alırken kamu iş yerinde çalışan bir kişiden, yersiz ödenen aylıkların faizsiz iadesinin istenmesinde mülkiyet hakkının ihlal edilmediğine karar verdi."
     },
     {
       "role": "body",
       "heading": "5 milyon TL üstü *vergi borçluları* ilan edilecek",
       "art": "para",
-      "body": ["İlan 1-15 Aralık'ta vergi dairelerinde, 16-30 Aralık'ta Gelir İdaresi internet sitesinde."],
+      "body": [
+        "İlan 1-15 Aralık'ta vergi dairelerinde, 16-30 Aralık'ta Gelir İdaresi internet sitesinde."
+      ],
       "cite": "VUK Genel Tebliği 597 · RG 10.11.2026",
-      "vo": "Bir vergi dairesine beş milyon lira ve üzeri borcu ya da kesinleşmiş vergi ve cezası olan mükellefler ilan edilecek. İlan, bir ile on beş Aralık arasında vergi dairelerinde, on altı ile otuz Aralık arasında internet sitesinde yapılacak."
+      "vo": "Bir vergi dairesine beş milyon lira ve üzeri borcu olan mükellefler ilan edilecek. İlan, bir ile on beş Aralık arasında vergi dairelerinde, ardından internet sitesinde yapılacak."
     },
     {
       "role": "body",
       "heading": "Üniversite hastaneleri için *koordinasyon komitesi* kuruldu",
       "art": "kalkan",
-      "body": ["YÖK Başkanı başkanlığındaki komite hastanelerin mali durumunu izleyecek, başhekim önerecek."],
+      "body": [
+        "YÖK Başkanı başkanlığındaki komite hastanelerin mali durumunu izleyecek, başhekim önerecek."
+      ],
       "cite": "CB Kararı 11971 · RG 14.11.2026",
       "vo": "Devlet ve vakıf üniversitelerinin hastaneleri için, Yükseköğretim Kurulu Başkanı başkanlığında bir koordinasyon komitesi kuruldu. Komite hastanelerin mali durumunu izleyecek ve başhekim önerisinde bulunacak."
     },
@@ -56,17 +62,21 @@
       "role": "body",
       "heading": "Enerji projeleri için *altı acele kamulaştırma* kararı yayımlandı",
       "art": "ev",
-      "body": ["Beşi TEİAŞ, biri EPDK adına; iletim hatları ve doğal gaz tesisi için taşınmaz kamulaştırılacak."],
+      "body": [
+        "Beşi TEİAŞ, biri EPDK adına; iletim hatları ve doğal gaz tesisi için taşınmaz kamulaştırılacak."
+      ],
       "cite": "CB Kararları 11976-11981 · RG 14.11.2026",
-      "vo": "Cumhurbaşkanı Kararlarıyla, enerji iletim hatları ve bir doğal gaz dağıtım tesisi için bazı taşınmazların acele kamulaştırılması kararlaştırıldı. Beş karar Teiaş, biri Enerji Piyasası Düzenleme Kurumu adına."
+      "vo": "Enerji iletim hatları ve bir doğal gaz tesisi için bazı taşınmazların acele kamulaştırılmasına karar verildi. Beş karar Teiaş, biri Enerji Piyasası Düzenleme Kurumu adına."
     },
     {
       "role": "body",
       "heading": "İşe giriş bildirgesi *tek başına* çalışmayı kanıtlamaz",
       "art": "belge",
-      "body": ["Hizmet tespitinde hâkim, bordro ve tanık gibi delillerle fiilî çalışmayı re'sen araştırmalı."],
+      "body": [
+        "Hizmet tespitinde hâkim, bordro ve tanık gibi delillerle fiilî çalışmayı re'sen araştırmalı."
+      ],
       "cite": "Yargıtay HGK K.2026/565 · 01.10.2026",
-      "vo": "Yargıtay Hukuk Genel Kurulu, hizmet tespiti davalarında işe giriş bildirgesinin fiilî çalışmayı kanıtlamak için tek başına yeterli olmadığını belirtti. Hâkim, bordro ve tanık gibi delilleri re'sen araştırmalı."
+      "vo": "Yargıtay Hukuk Genel Kurulu, hizmet tespitinde işe giriş bildirgesinin fiilî çalışmayı tek başına kanıtlamadığını belirtti. Hâkim bordro ve tanık gibi delilleri re'sen araştırmalı."
     },
     {
       "role": "closing",
