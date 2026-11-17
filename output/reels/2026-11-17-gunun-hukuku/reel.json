@@ -1,0 +1,73 @@
+{
+  "topic": "Günün hukuku: 4 doğrulanmış gelişme (Bina hasar tespiti yönetmeliği, AYM E.2025/144, AYM BB 2021/11222, Yeşil Mutabakat Genelgesi)",
+  "slug": "2026-11-17-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "special": true,
+  "sources": [
+    {
+      "label": "Afetler Sonrası Bina Hasar Tespiti Yapılmasına İlişkin Genel Kurallar Hakkında Yönetmelikte Değişiklik, RG 12.11.2026 S. 33428, m. 1, 2, 4 (22.12.2026'da yürürlüğe girer); esas yönetmelik RG 22.06.2025 S. 32934, m. 15, 21",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112.pdf"
+    },
+    {
+      "label": "Anayasa Mahkemesi E.2025/144 K.2026/164, 16.07.2026, RG 17.11.2026 S. 33433 (1593 s. Kanun m. 128)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261117.pdf"
+    },
+    {
+      "label": "Anayasa Mahkemesi Birinci Bölüm, BB 2021/11222, 04.11.2026 (mülkiyet hakkı, ihlal)",
+      "url": "https://normkararlarbilgibankasi.anayasa.gov.tr/kbb/?id=26c50c85-1b90-49e4-b3f1-46e26ef679b5"
+    },
+    {
+      "label": "Yeşil Mutabakat Eylem Planı (2026-2030) ile İlgili 2026/12 Sayılı Cumhurbaşkanlığı Genelgesi, RG 10.11.2026 S. 33426",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *4 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta dört önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Ağır hasarlı binalarda *eşya tahliyesi* eşya sahiplerince yapılacak",
+      "art": "ev",
+      "body": ["Gözetimi güvenlik ve trafik grubu yapacak; değişiklik 22 Aralık 2026'da yürürlüğe girecek."],
+      "cite": "Hasar Tespiti Yönetmeliği değişikliği · RG 12.11.2026",
+      "vo": "Ağır hasarlı ve acil yıktırılacak binalarda eşya tahliyesi, güvenlik ve trafik grubu gözetiminde eşya sahiplerince yapılacak. Değişiklik yirmi iki Aralık iki bin yirmi altıda yürürlüğe girecek."
+    },
+    {
+      "role": "body",
+      "heading": "AYM, genelevlere dayanak olan *kanun hükmünü* iptal etti",
+      "art": "tokmak",
+      "body": ["Umumi Hıfzıssıhha Kanunu m. 128/1, Anayasa'nın 5. ve 17. maddelerine aykırı bulundu."],
+      "cite": "AYM E.2025/144 K.2026/164 · RG 17.11.2026",
+      "vo": "Anayasa Mahkemesi, Umumi Hıfzıssıhha Kanunu'nun yüz yirmi sekizinci maddesinin birinci fıkrasını, Anayasa'nın beşinci ve on yedinci maddelerine aykırı bularak iptal etti. Hüküm, genel kadınlar ve genelevlere ilişkin yönetmelik çıkarılmasını öngörüyordu."
+    },
+    {
+      "role": "body",
+      "heading": "Mühürlü istasyon için *malikin tazminat talebinin* reddi AYM'de ihlal sayıldı",
+      "art": "kilit",
+      "body": ["Tahliyeden sonra da süren mühür için tazminat talebinin reddi mülkiyet hakkını ihlal etti."],
+      "cite": "AYM BB 2021/11222 · 04.11.2026",
+      "vo": "Anayasa Mahkemesi, kiracının tahliyesinden sonra da süren mühürleme nedeniyle taşınmaz malikinin maddi tazminat talebinin reddedilmesinde mülkiyet hakkının ihlal edildiğine karar verdi."
+    },
+    {
+      "role": "body",
+      "heading": "Yeşil Mutabakat Eylem Planı *2026-2030* için güncellendi",
+      "art": "belge",
+      "body": ["Plan Ticaret Bakanlığı internet sitesinde yayımlanacak; bakanlıklar arası çalışma grubu izleyecek."],
+      "cite": "CB Genelgesi 2026/12 · RG 10.11.2026",
+      "vo": "Cumhurbaşkanlığı Genelgesiyle Yeşil Mutabakat Eylem Planı, iki bin yirmi altı, iki bin otuz dönemi için güncellendi. Plan Ticaret Bakanlığının internet sitesinde yayımlanacak."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete, AYM",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
