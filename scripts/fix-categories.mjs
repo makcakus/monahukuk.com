@@ -24,14 +24,15 @@ const LOCALES = ["tr", "en", "de", "ru", "ar", "es", "fr"];
 // practice-areas.ts'den alınan kanonik kategori isimleri
 // slug → { tr, en, de, ru, ar, es, fr }
 const CANONICAL = {
+  // "Türk Vatandaşlığı" bu alanla birleştirildi (bkz. src/lib/moved.ts).
   "yabancilar-gocmenlik": {
-    tr: "Yabancılar & Göçmenlik Hukuku",
-    en: "Foreigners & Immigration Law",
-    de: "Ausländer- & Einwanderungsrecht",
-    ru: "Право иностранцев и иммиграционное право",
-    ar: "قانون الأجانب والهجرة",
-    es: "Derecho de Extranjería e Inmigración",
-    fr: "Droit des Étrangers et de l'Immigration",
+    tr: "Yabancılar, Göçmenlik ve Vatandaşlık Hukuku",
+    en: "Foreigners, Immigration & Citizenship Law",
+    de: "Ausländer-, Einwanderungs- & Staatsbürgerschaftsrecht",
+    ru: "Право иностранцев, иммиграции и гражданства",
+    ar: "قانون الأجانب والهجرة والجنسية",
+    es: "Derecho de Extranjería, Inmigración y Ciudadanía",
+    fr: "Droit des Étrangers, de l'Immigration et de la Nationalité",
   },
   "gayrimenkul": {
     tr: "Gayrimenkul Hukuku",
@@ -41,15 +42,6 @@ const CANONICAL = {
     ar: "قانون العقارات",
     es: "Derecho Inmobiliario",
     fr: "Droit Immobilier",
-  },
-  "turk-vatandasligi": {
-    tr: "Türk Vatandaşlığı",
-    en: "Turkish Citizenship",
-    de: "Türkische Staatsbürgerschaft",
-    ru: "Гражданство Турции",
-    ar: "الجنسية التركية",
-    es: "Ciudadanía Turca",
-    fr: "Nationalité Turque",
   },
   "aile-hukuku": {
     tr: "Aile Hukuku",

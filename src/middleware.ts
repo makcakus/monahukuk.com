@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 import { isGonePath } from "./lib/gone";
+import { movedTarget } from "./lib/moved";
 
 // routing.alternateLinks = false (bkz. src/i18n/routing.ts) — next-intl'in
 // varsayılan davranışı, mevcut URL'nin locale segmentini blindly değiştirerek
@@ -40,6 +41,14 @@ export default function middleware(request: NextRequest) {
       status: 410,
       headers: { "X-Robots-Tag": "noindex", "Content-Type": "text/plain; charset=utf-8" },
     });
+  }
+  // Birleştirilen çalışma alanları (bkz. src/lib/moved.ts) — içerik durduğu
+  // için 410 değil 301; locale segmenti korunur.
+  const moved = movedTarget(pathname);
+  if (moved) {
+    const url = request.nextUrl.clone();
+    url.pathname = moved;
+    return NextResponse.redirect(url, 301);
   }
   return intlMiddleware(request);
 }

@@ -44,31 +44,31 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
   {
     slug: "yabancilar-gocmenlik",
     metaTitle: {
-      tr: "Antalya Yabancılar & Göçmenlik Avukatı | Oturma & Çalışma İzni",
-      en: "Antalya Immigration Lawyer | Residence & Work Permits in Turkey",
-      de: "Einwanderungsanwalt Antalya | Aufenthalts- & Arbeitserlaubnis",
-      ru: "Иммиграционный адвокат в Анталье | ВНЖ и разрешение на работу",
-      ar: "محامي الهجرة في أنطاليا | تصاريح الإقامة والعمل في تركيا",
-      es: "Abogado de Inmigración en Antalya | Permisos de Residencia y Trabajo en Turquía",
-      fr: "Avocat en Droit de l'Immigration à Antalya | Permis de Séjour et de Travail en Turquie",
+      tr: "Antalya Yabancılar, Göçmenlik & Vatandaşlık Avukatı",
+      en: "Antalya Immigration & Citizenship Lawyer | Turkey Permits",
+      de: "Anwalt für Ausländer- & Staatsbürgerschaftsrecht Antalya",
+      ru: "Адвокат по иммиграции и гражданству в Анталье",
+      ar: "محامي الهجرة والجنسية في أنطاليا | الإقامة والعمل",
+      es: "Abogado de Extranjería y Ciudadanía en Antalya | Turquía",
+      fr: "Avocat en Immigration et Nationalité à Antalya | Turquie",
     },
     metaDescription: {
-      tr: "Antalya'da yabancılar avukatı olarak kısa ve uzun dönem oturma izni, çalışma izni, vize itirazları ve sınır dışı kararlarına karşı dava süreçlerinde yabancı uyruklu müvekkillerin haklarını koruyoruz.",
-      en: "As an immigration lawyer in Antalya, we protect the rights of foreign nationals in short and long-term residence permits, work permits, visa appeals, and deportation defence cases.",
-      de: "Als Einwanderungsanwalt in Antalya schützen wir die Rechte ausländischer Staatsangehöriger bei kurz- und langfristigen Aufenthaltserlaubnissen, Arbeitsgenehmigungen, Visumeinsprüchen und Verfahren gegen Ausweisung.",
-      ru: "Как иммиграционный адвокат в Анталье мы защищаем права иностранных граждан в делах о краткосрочных и долгосрочных видах на жительство, разрешениях на работу, обжалованиях виз и защите от депортации.",
-      ar: "بوصفنا محامي هجرة في أنطاليا، نحمي حقوق المواطنين الأجانب في تصاريح الإقامة قصيرة وطويلة الأمد وتصاريح العمل والطعن في التأشيرات والدفاع ضد الترحيل.",
-      es: "Como abogado de inmigración en Antalya, protegemos los derechos de los extranjeros en permisos de residencia a corto y largo plazo, permisos de trabajo, recursos de visado y defensa contra la deportación.",
-      fr: "En tant qu'avocat en immigration à Antalya, nous défendons les droits des ressortissants étrangers en matière de permis de séjour à court et long terme, permis de travail, recours contre les refus de visa et défense contre l'expulsion.",
+      tr: "Antalya'da yabancılar ve vatandaşlık avukatı olarak kısa ve uzun dönem oturma izni, çalışma izni, vize itirazları, sınır dışı kararlarına karşı dava ve Türk vatandaşlığı başvurularında müvekkillerimizin haklarını koruyoruz.",
+      en: "As an immigration and citizenship lawyer in Antalya, we protect the rights of foreign nationals in short and long-term residence permits, work permits, visa appeals, deportation defence, and Turkish citizenship applications.",
+      de: "Als Anwalt für Ausländer- und Staatsbürgerschaftsrecht in Antalya schützen wir die Rechte ausländischer Mandanten bei Aufenthaltserlaubnissen, Arbeitsgenehmigungen, Visumeinsprüchen, Verfahren gegen Ausweisung und Einbürgerungsanträgen.",
+      ru: "Как адвокат по иммиграции и гражданству в Анталье мы защищаем права иностранных граждан в делах о видах на жительство, разрешениях на работу, обжаловании виз, защите от депортации и заявлениях на гражданство Турции.",
+      ar: "بوصفنا محامي هجرة وجنسية في أنطاليا، نحمي حقوق المواطنين الأجانب في تصاريح الإقامة وتصاريح العمل والطعن في التأشيرات والدفاع ضد الترحيل وطلبات الجنسية التركية.",
+      es: "Como abogado de extranjería y ciudadanía en Antalya, protegemos los derechos de los extranjeros en permisos de residencia, permisos de trabajo, recursos de visado, defensa contra la deportación y solicitudes de ciudadanía turca.",
+      fr: "En tant qu'avocat en immigration et nationalité à Antalya, nous défendons les droits des ressortissants étrangers en matière de permis de séjour, permis de travail, recours contre les refus de visa, défense contre l'expulsion et demandes de naturalisation.",
     },
     intro: {
-      tr: "Türkiye, gerek yaşam kalitesi gerek yatırım fırsatları nedeniyle her yıl on binlerce yabancı için cazip bir ülke haline gelmektedir. Ancak bu ülkede yasal olarak ikamet etmek, çalışmak veya iş kurmak isteyen yabancılar için süreç, doğru hukuki rehberlik olmaksızın hızla karmaşık bir hâl alabilir. Antalya'da yabancılar avukatı olarak görev yapan ekibimiz, başvurunun ilk adımından nihai karara kadar her aşamada müvekkillerinin yanındadır.\n\nİkamet izni başvuruları, çalışma izni süreçleri, vize ret kararlarına karşı itiraz, idari gözetim altındaki yabancıların serbest bırakılması ve sınır dışı işlemlerine karşı yargı yoluyla mücadele en sık karşılaştığımız konuların başında gelmektedir. Her dosyayı kendi koşulları içinde değerlendirir, hukuki gerekçesi en güçlü olan yolu birlikte tayin ederiz.",
-      en: "Turkey is becoming an increasingly attractive destination for tens of thousands of foreigners every year, both for its quality of life and investment opportunities. Yet for those wishing to legally reside, work, or establish a business in the country, the process can rapidly become complex without proper legal guidance. Our team, serving as an immigration lawyer in Antalya, stands beside our clients from the first application step to the final decision.\n\nResidence permit applications, work permit procedures, appeals against visa refusals, the release of foreigners under administrative detention, and judicial challenges against deportation orders are among the most frequent matters we handle. We assess each case on its own merits and, together with the client, identify the path with the strongest legal foundation.",
-      de: "Die Türkei wird Jahr für Jahr für zehntausende Ausländer zu einem attraktiven Land — sowohl wegen der Lebensqualität als auch der Investitionsmöglichkeiten. Doch für diejenigen, die hier rechtmäßig wohnen, arbeiten oder ein Unternehmen gründen möchten, kann der Prozess ohne fundierte rechtliche Begleitung schnell komplex werden. Unser Team, tätig als Einwanderungsanwalt in Antalya, steht unseren Mandanten vom ersten Antragsschritt bis zur endgültigen Entscheidung zur Seite.\n\nAnträge auf Aufenthaltserlaubnis, Verfahren zur Arbeitsgenehmigung, Widersprüche gegen Visa-Ablehnungen, die Freilassung von Ausländern aus administrativer Haft sowie gerichtliche Schritte gegen Ausweisungsbescheide gehören zu den häufigsten Fragen, mit denen wir uns beschäftigen. Wir beurteilen jeden Fall individuell und bestimmen gemeinsam mit dem Mandanten den rechtlich stärksten Weg.",
-      ru: "Турция с каждым годом становится привлекательным направлением для десятков тысяч иностранцев — как благодаря качеству жизни, так и инвестиционным возможностям. Однако для тех, кто желает законно проживать, работать или открыть бизнес в стране, процесс без грамотного юридического сопровождения может быстро стать сложным. Наша команда, выступающая как иммиграционный адвокат в Анталье, находится рядом с клиентами с первого шага подачи заявления до окончательного решения.\n\nПодача заявлений на ВНЖ, процедуры получения разрешения на работу, обжалование отказов в визе, освобождение иностранцев, находящихся под административным надзором, и судебные процессы против решений о депортации — наиболее частые направления нашей работы. Каждое дело мы рассматриваем индивидуально и вместе с клиентом определяем путь с наиболее прочным правовым основанием.",
-      ar: "أصبحت تركيا وجهة جذابة لعشرات الآلاف من الأجانب كل عام، سواء بسبب جودة الحياة أو فرص الاستثمار. إلا أن العملية يمكن أن تصبح معقدة بسرعة بالنسبة لمن يرغبون في الإقامة أو العمل أو تأسيس عمل تجاري في البلاد دون توجيه قانوني سليم. فريقنا، بصفته محامي هجرة في أنطاليا، يقف بجانب موكليه من الخطوة الأولى لتقديم الطلب وحتى القرار النهائي.\n\nطلبات تصاريح الإقامة وإجراءات تصاريح العمل والطعون ضد رفض التأشيرات والإفراج عن الأجانب تحت الحجز الإداري والإجراءات القضائية ضد قرارات الترحيل من بين أكثر القضايا التي نتعامل معها. نقيّم كل قضية بحسب ملابساتها الخاصة، ونحدد مع الموكل المسار ذا الأساس القانوني الأقوى.",
-      es: "Turquía se convierte cada año en un destino cada vez más atractivo para decenas de miles de extranjeros, tanto por su calidad de vida como por sus oportunidades de inversión. Sin embargo, para quienes desean residir, trabajar o establecer un negocio en el país de forma legal, el proceso puede volverse complejo rápidamente sin una adecuada orientación jurídica. Nuestro equipo, que actúa como abogado de inmigración en Antalya, acompaña a nuestros clientes desde el primer paso de la solicitud hasta la decisión final.\n\nLas solicitudes de permiso de residencia, los procedimientos de permiso de trabajo, los recursos contra denegaciones de visado, la puesta en libertad de extranjeros bajo custodia administrativa y los recursos judiciales contra órdenes de deportación son los asuntos que tratamos con mayor frecuencia. Evaluamos cada caso según sus propios méritos y, junto con el cliente, identificamos la vía con el fundamento jurídico más sólido.",
-      fr: "La Turquie attire chaque année des dizaines de milliers d'étrangers, aussi bien pour sa qualité de vie que pour ses opportunités d'investissement. Pourtant, pour ceux qui souhaitent résider, travailler ou créer une entreprise légalement dans le pays, le processus peut rapidement devenir complexe sans un accompagnement juridique adéquat. Notre équipe, qui exerce en tant qu'avocat en immigration à Antalya, accompagne nos clients de la première étape de la demande jusqu'à la décision finale.\n\nLes demandes de permis de séjour, les procédures de permis de travail, les recours contre les refus de visa, la libération d'étrangers en rétention administrative et les voies de recours judiciaires contre les arrêtés d'expulsion figurent parmi les dossiers que nous traitons le plus fréquemment. Nous apprécions chaque affaire selon ses propres mérites et déterminons avec le client la voie offrant les fondements juridiques les plus solides.",
+      tr: "Türkiye, gerek yaşam kalitesi gerek yatırım fırsatları nedeniyle her yıl on binlerce yabancı için cazip bir ülke haline gelmektedir. Ancak bu ülkede yasal olarak ikamet etmek, çalışmak veya iş kurmak isteyen yabancılar için süreç, doğru hukuki rehberlik olmaksızın hızla karmaşık bir hâl alabilir. Antalya'da yabancılar avukatı olarak görev yapan ekibimiz, başvurunun ilk adımından nihai karara kadar her aşamada müvekkillerinin yanındadır.\n\nİkamet izni başvuruları, çalışma izni süreçleri, vize ret kararlarına karşı itiraz, idari gözetim altındaki yabancıların serbest bırakılması sınır dışı işlemlerine karşı yargı yoluyla mücadele ile yatırım, evlilik veya uzun süreli ikamet yoluyla Türk vatandaşlığı başvuruları en sık karşılaştığımız konuların başında gelmektedir. Her dosyayı kendi koşulları içinde değerlendirir, hukuki gerekçesi en güçlü olan yolu birlikte tayin ederiz.",
+      en: "Turkey is becoming an increasingly attractive destination for tens of thousands of foreigners every year, both for its quality of life and investment opportunities. Yet for those wishing to legally reside, work, or establish a business in the country, the process can rapidly become complex without proper legal guidance. Our team, serving as an immigration lawyer in Antalya, stands beside our clients from the first application step to the final decision.\n\nResidence permit applications, work permit procedures, appeals against visa refusals, the release of foreigners under administrative detention, judicial challenges against deportation orders, and Turkish citizenship applications through investment, marriage, or long-term residence are among the most frequent matters we handle. We assess each case on its own merits and, together with the client, identify the path with the strongest legal foundation.",
+      de: "Die Türkei wird Jahr für Jahr für zehntausende Ausländer zu einem attraktiven Land — sowohl wegen der Lebensqualität als auch der Investitionsmöglichkeiten. Doch für diejenigen, die hier rechtmäßig wohnen, arbeiten oder ein Unternehmen gründen möchten, kann der Prozess ohne fundierte rechtliche Begleitung schnell komplex werden. Unser Team, tätig als Einwanderungsanwalt in Antalya, steht unseren Mandanten vom ersten Antragsschritt bis zur endgültigen Entscheidung zur Seite.\n\nAnträge auf Aufenthaltserlaubnis, Verfahren zur Arbeitsgenehmigung, Widersprüche gegen Visa-Ablehnungen, die Freilassung von Ausländern aus administrativer Haft gerichtliche Schritte gegen Ausweisungsbescheide sowie Einbürgerungsanträge über Investition, Heirat oder langfristigen Aufenthalt gehören zu den häufigsten Fragen, mit denen wir uns beschäftigen. Wir beurteilen jeden Fall individuell und bestimmen gemeinsam mit dem Mandanten den rechtlich stärksten Weg.",
+      ru: "Турция с каждым годом становится привлекательным направлением для десятков тысяч иностранцев — как благодаря качеству жизни, так и инвестиционным возможностям. Однако для тех, кто желает законно проживать, работать или открыть бизнес в стране, процесс без грамотного юридического сопровождения может быстро стать сложным. Наша команда, выступающая как иммиграционный адвокат в Анталье, находится рядом с клиентами с первого шага подачи заявления до окончательного решения.\n\nПодача заявлений на ВНЖ, процедуры получения разрешения на работу, обжалование отказов в визе, освобождение иностранцев, находящихся под административным надзором, судебные процессы против решений о депортации и заявления на гражданство Турции через инвестиции, брак или длительное проживание — наиболее частые направления нашей работы. Каждое дело мы рассматриваем индивидуально и вместе с клиентом определяем путь с наиболее прочным правовым основанием.",
+      ar: "أصبحت تركيا وجهة جذابة لعشرات الآلاف من الأجانب كل عام، سواء بسبب جودة الحياة أو فرص الاستثمار. إلا أن العملية يمكن أن تصبح معقدة بسرعة بالنسبة لمن يرغبون في الإقامة أو العمل أو تأسيس عمل تجاري في البلاد دون توجيه قانوني سليم. فريقنا، بصفته محامي هجرة في أنطاليا، يقف بجانب موكليه من الخطوة الأولى لتقديم الطلب وحتى القرار النهائي.\n\nطلبات تصاريح الإقامة وإجراءات تصاريح العمل والطعون ضد رفض التأشيرات والإفراج عن الأجانب تحت الحجز الإداري والإجراءات القضائية ضد قرارات الترحيل وطلبات الجنسية التركية عن طريق الاستثمار أو الزواج أو الإقامة طويلة الأمد من بين أكثر القضايا التي نتعامل معها. نقيّم كل قضية بحسب ملابساتها الخاصة، ونحدد مع الموكل المسار ذا الأساس القانوني الأقوى.",
+      es: "Turquía se convierte cada año en un destino cada vez más atractivo para decenas de miles de extranjeros, tanto por su calidad de vida como por sus oportunidades de inversión. Sin embargo, para quienes desean residir, trabajar o establecer un negocio en el país de forma legal, el proceso puede volverse complejo rápidamente sin una adecuada orientación jurídica. Nuestro equipo, que actúa como abogado de inmigración en Antalya, acompaña a nuestros clientes desde el primer paso de la solicitud hasta la decisión final.\n\nLas solicitudes de permiso de residencia, los procedimientos de permiso de trabajo, los recursos contra denegaciones de visado, la puesta en libertad de extranjeros bajo custodia administrativa los recursos judiciales contra órdenes de deportación y las solicitudes de ciudadanía turca por inversión, matrimonio o residencia de larga duración son los asuntos que tratamos con mayor frecuencia. Evaluamos cada caso según sus propios méritos y, junto con el cliente, identificamos la vía con el fundamento jurídico más sólido.",
+      fr: "La Turquie attire chaque année des dizaines de milliers d'étrangers, aussi bien pour sa qualité de vie que pour ses opportunités d'investissement. Pourtant, pour ceux qui souhaitent résider, travailler ou créer une entreprise légalement dans le pays, le processus peut rapidement devenir complexe sans un accompagnement juridique adéquat. Notre équipe, qui exerce en tant qu'avocat en immigration à Antalya, accompagne nos clients de la première étape de la demande jusqu'à la décision finale.\n\nLes demandes de permis de séjour, les procédures de permis de travail, les recours contre les refus de visa, la libération d'étrangers en rétention administrative et les voies de recours judiciaires contre les arrêtés d'expulsion et les demandes de naturalisation turque par investissement, mariage ou résidence de longue durée figurent parmi les dossiers que nous traitons le plus fréquemment. Nous apprécions chaque affaire selon ses propres mérites et déterminons avec le client la voie offrant les fondements juridiques les plus solides.",
     },
     services: {
       tr: [
@@ -79,6 +79,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Vize reddi ve giriş yasağı kararlarına karşı dava açma",
         "Sınır dışı (deport) ve idari gözetim kararlarına karşı acil hukuki müdahale",
         "Uluslararası koruma ve geçici koruma başvurularında danışmanlık",
+        "Yatırım yoluyla Türk vatandaşlığı başvurusu (gayrimenkul, sermaye, mevduat seçenekleri)",
+        "Evlilik veya uzun süreli ikamet yoluyla Türk vatandaşlığı başvurusu",
+        "Vatandaşlık başvurusunun reddine karşı dava ve çift vatandaşlık değerlendirmesi",
         "Kayıp pasaport, kimlik değişikliği ve idari işlem hatalarının düzeltilmesi",
       ],
       en: [
@@ -89,6 +92,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Litigation against visa refusal and entry ban decisions",
         "Urgent legal intervention against deportation and administrative detention orders",
         "Counsel on international protection and temporary protection applications",
+        "Turkish citizenship by investment (real estate, capital, or deposit options)",
+        "Citizenship applications based on marriage or long-term residence",
+        "Litigation against citizenship refusals and dual-citizenship assessment",
         "Lost passport, identity change, and correction of administrative errors",
       ],
       de: [
@@ -99,6 +105,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Klagen gegen Visa-Ablehnungen und Einreiseverbote",
         "Eilrechtsschutz gegen Ausweisungs- und Verwaltungshaftbeschlüsse",
         "Beratung zu internationalen und vorübergehenden Schutzanträgen",
+        "Türkische Staatsbürgerschaft durch Investition (Immobilien, Kapital, Einlagen)",
+        "Einbürgerungsanträge auf Grundlage von Heirat oder langfristigem Aufenthalt",
+        "Klagen gegen Ablehnungen der Einbürgerung und Prüfung der doppelten Staatsbürgerschaft",
         "Verlust von Reisepässen, Identitätsänderungen und Korrektur administrativer Fehler",
       ],
       ru: [
@@ -109,6 +118,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Судебные иски против отказов в визе и запретов на въезд",
         "Срочная правовая защита против решений о депортации и административном задержании",
         "Консультации по заявлениям на международную и временную защиту",
+        "Гражданство Турции через инвестиции (недвижимость, капитал, депозит)",
+        "Заявления на гражданство на основании брака или длительного проживания",
+        "Иски против отказов в гражданстве и анализ двойного гражданства",
         "Потеря паспорта, изменение личных данных и исправление административных ошибок",
       ],
       ar: [
@@ -119,6 +131,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "إقامة دعاوى ضد رفض التأشيرات وقرارات حظر الدخول",
         "تدخل قانوني عاجل ضد قرارات الترحيل والحجز الإداري",
         "استشارات بشأن طلبات الحماية الدولية والحماية المؤقتة",
+        "الجنسية التركية عن طريق الاستثمار (عقارات أو رأس مال أو وديعة)",
+        "طلبات الجنسية على أساس الزواج أو الإقامة طويلة الأمد",
+        "دعاوى ضد رفض طلبات الجنسية وتقييم ازدواج الجنسية",
         "فقدان جواز السفر وتغيير الهوية وتصحيح الأخطاء الإدارية",
       ],
       es: [
@@ -129,6 +144,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Litigios contra denegaciones de visado y órdenes de prohibición de entrada",
         "Intervención jurídica urgente contra órdenes de deportación y custodia administrativa",
         "Asesoramiento sobre solicitudes de protección internacional y protección temporal",
+        "Ciudadanía turca por inversión (inmobiliaria, capital o depósito)",
+        "Solicitudes de ciudadanía por matrimonio o residencia de larga duración",
+        "Litigios contra denegaciones de ciudadanía y evaluación de doble nacionalidad",
         "Pérdida de pasaporte, cambio de identidad y corrección de errores administrativos",
       ],
       fr: [
@@ -139,6 +157,9 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         "Contentieux contre les refus de visa et les interdictions d'entrée",
         "Intervention juridique urgente contre les arrêtés d'expulsion et la rétention administrative",
         "Conseil sur les demandes de protection internationale et de protection temporaire",
+        "Nationalité turque par investissement (immobilier, capital ou dépôt)",
+        "Demandes de naturalisation fondées sur le mariage ou la résidence de longue durée",
+        "Contentieux contre les refus de naturalisation et analyse de la double nationalité",
         "Perte de passeport, changement d'identité et correction d'erreurs administratives",
       ],
     },
@@ -165,6 +186,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
           q: "Sınır dışı kararı geldikten sonra Türkiye'de kalabilir miyim?",
           a: "Sınır dışı kararına karşı kararın tebliğinden itibaren çok kısa bir süre içinde idare mahkemesine başvurmak gerekir. Bu süre içinde yapılacak başvuru, yürütmeyi durdurabilir ve müvekkilin mahkeme süreci sona erene kadar Türkiye'de kalabilmesine imkân tanıyabilir.",
         },
+        {
+          q: "Türk vatandaşlığı için kaç yıl ikamet etmem gerekiyor?",
+          a: "5901 sayılı Türk Vatandaşlığı Kanunu uyarınca kural olarak Türkiye'de kesintisiz beş yıl yasal ikamet aranır. Türk vatandaşıyla evli olanlar için üç yıllık evlilik koşulu, yatırım yoluyla başvuranlar için ise ikamet şartı aranmayan istisnai yol söz konusudur.",
+        },
+        {
+          q: "Vatandaşlık aldıktan sonra mevcut vatandaşlığımı kaybeder miyim?",
+          a: "Türkiye çift vatandaşlığa izin vermektedir; ancak mevcut vatandaşlığınızın korunup korunmayacağı kendi ülkenizin hukukuna göre belirlenir. Bazı ülkeler ikinci bir vatandaşlığa müsaade ederken bazıları otomatik kayıp uygular. Bu husus başvuru öncesinde ayrıca değerlendirilmelidir.",
+        },
       ],
       en: [
         {
@@ -178,6 +207,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         {
           q: "Can I remain in Turkey after a deportation decision?",
           a: "An appeal to the administrative court must be lodged within a very short statutory period from notification. A timely appeal can suspend execution and allow the client to remain in Turkey until the court proceedings conclude.",
+        },
+        {
+          q: "How many years of residence do I need for Turkish citizenship?",
+          a: "Under Law No. 5901, the general rule is five years of uninterrupted lawful residence in Turkey. Those married to a Turkish citizen may apply after three years of marriage, while the investment route is an exceptional path that requires no residence period.",
+        },
+        {
+          q: "Will I lose my current citizenship after acquiring Turkish citizenship?",
+          a: "Turkey permits dual citizenship, but whether your current citizenship is retained is governed by the law of your home country. Some states allow a second citizenship; others impose automatic loss. This must be assessed before the application.",
         },
       ],
       de: [
@@ -193,6 +230,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
           q: "Kann ich nach einem Ausweisungsbeschluss in der Türkei bleiben?",
           a: "Gegen den Ausweisungsbeschluss muss innerhalb einer sehr kurzen gesetzlichen Frist ab Zustellung Klage beim Verwaltungsgericht erhoben werden. Eine fristgerechte Klage kann die Vollziehung aussetzen und einen Verbleib in der Türkei bis zum Verfahrensende ermöglichen.",
         },
+        {
+          q: "Wie viele Jahre Aufenthalt sind für die türkische Staatsbürgerschaft erforderlich?",
+          a: "Nach dem Gesetz Nr. 5901 gilt grundsätzlich ein ununterbrochener rechtmäßiger Aufenthalt von fünf Jahren in der Türkei. Mit türkischen Staatsbürgern Verheiratete können nach drei Ehejahren einen Antrag stellen; der Investitionsweg ist ein Ausnahmeweg ohne Aufenthaltsvoraussetzung.",
+        },
+        {
+          q: "Verliere ich nach der Einbürgerung meine bisherige Staatsangehörigkeit?",
+          a: "Die Türkei lässt die doppelte Staatsbürgerschaft zu; ob Ihre bisherige Staatsangehörigkeit erhalten bleibt, richtet sich jedoch nach dem Recht Ihres Heimatstaates. Manche Staaten erlauben eine zweite Staatsangehörigkeit, andere sehen einen automatischen Verlust vor. Dies ist vor der Antragstellung zu prüfen.",
+        },
       ],
       ru: [
         {
@@ -206,6 +251,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         {
           q: "Могу ли я оставаться в Турции после решения о депортации?",
           a: "Иск в административный суд должен быть подан в очень короткий установленный срок с момента уведомления. Своевременная жалоба может приостановить исполнение и позволить клиенту оставаться в Турции до окончания судебного процесса.",
+        },
+        {
+          q: "Сколько лет проживания требуется для получения гражданства Турции?",
+          a: "Согласно Закону № 5901, по общему правилу требуется пять лет непрерывного законного проживания в Турции. Состоящие в браке с гражданином Турции могут подать заявление после трёх лет брака, а инвестиционный путь является исключительным и не требует срока проживания.",
+        },
+        {
+          q: "Потеряю ли я нынешнее гражданство после получения турецкого?",
+          a: "Турция допускает двойное гражданство, однако сохранение вашего нынешнего гражданства определяется правом вашей страны. Одни государства допускают второе гражданство, другие предусматривают автоматическую утрату. Этот вопрос следует оценить до подачи заявления.",
         },
       ],
       ar: [
@@ -221,6 +274,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
           q: "هل يمكنني البقاء في تركيا بعد قرار الترحيل؟",
           a: "يجب رفع طعن أمام المحكمة الإدارية خلال مهلة قانونية قصيرة جداً من تاريخ التبليغ. الطعن في الوقت المناسب قد يوقف التنفيذ ويسمح للموكل بالبقاء في تركيا حتى انتهاء القضية.",
         },
+        {
+          q: "كم عدد سنوات الإقامة المطلوبة للحصول على الجنسية التركية؟",
+          a: "بموجب القانون رقم 5901، القاعدة العامة هي الإقامة القانونية المتواصلة في تركيا لمدة خمس سنوات. ويمكن للمتزوجين من مواطن تركي التقدم بعد ثلاث سنوات من الزواج، بينما يُعدّ مسار الاستثمار طريقاً استثنائياً لا يشترط مدة إقامة.",
+        },
+        {
+          q: "هل أفقد جنسيتي الحالية بعد الحصول على الجنسية التركية؟",
+          a: "تسمح تركيا بازدواج الجنسية، إلا أن الاحتفاظ بجنسيتك الحالية يخضع لقانون بلدك. فبعض الدول تجيز جنسية ثانية وأخرى تفرض الفقدان التلقائي. ويجب تقييم هذه المسألة قبل تقديم الطلب.",
+        },
       ],
       es: [
         {
@@ -235,6 +296,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
           q: "¿Puedo permanecer en Turquía tras una orden de deportación?",
           a: "Debe interponerse recurso ante el tribunal administrativo dentro de un plazo legal muy breve desde la notificación. Un recurso oportuno puede suspender la ejecución y permitir al cliente permanecer en Turquía hasta que concluya el proceso judicial.",
         },
+        {
+          q: "¿Cuántos años de residencia necesito para la ciudadanía turca?",
+          a: "Conforme a la Ley n.º 5901, la regla general es de cinco años de residencia legal ininterrumpida en Turquía. Quienes están casados con un ciudadano turco pueden solicitarla tras tres años de matrimonio, mientras que la vía de inversión es un camino excepcional que no exige período de residencia.",
+        },
+        {
+          q: "¿Perderé mi ciudadanía actual al obtener la turca?",
+          a: "Turquía permite la doble nacionalidad, pero la conservación de su ciudadanía actual se rige por la ley de su país de origen. Algunos Estados admiten una segunda nacionalidad; otros imponen la pérdida automática. Debe evaluarse antes de la solicitud.",
+        },
       ],
       fr: [
         {
@@ -248,6 +317,14 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         {
           q: "Puis-je rester en Turquie après une décision d'expulsion ?",
           a: "Un recours devant le tribunal administratif doit être formé dans un délai légal très bref à compter de la notification. Un recours déposé en temps utile peut suspendre l'exécution et permettre au client de demeurer en Turquie jusqu'à la conclusion de la procédure judiciaire.",
+        },
+        {
+          q: "Combien d'années de résidence faut-il pour la nationalité turque ?",
+          a: "En vertu de la loi n° 5901, la règle générale est de cinq ans de résidence légale ininterrompue en Turquie. Les personnes mariées à un ressortissant turc peuvent déposer une demande après trois ans de mariage, tandis que la voie de l'investissement constitue un parcours exceptionnel sans condition de résidence.",
+        },
+        {
+          q: "Vais-je perdre ma nationalité actuelle en acquérant la nationalité turque ?",
+          a: "La Turquie autorise la double nationalité, mais la conservation de votre nationalité actuelle relève du droit de votre pays d'origine. Certains États admettent une seconde nationalité, d'autres prévoient une perte automatique. Ce point doit être évalué avant la demande.",
         },
       ],
     },
@@ -459,217 +536,6 @@ export const PRACTICE_AREAS_CONTENT: PracticeAreaContent[] = [
         {
           q: "Mon locataire refuse l'augmentation de loyer — puis-je l'expulser ?",
           a: "La loi turque protège fortement les locataires. Les augmentations de loyer sont soumises à des taux précis et, dans certains cas, à une décision judiciaire. L'expulsion n'est possible que pour les motifs limitativement prévus par la loi et selon la procédure adéquate ; l'expulsion sans décision de justice est interdite.",
-        },
-      ],
-    },
-  },
-  {
-    slug: "turk-vatandasligi",
-    metaTitle: {
-      tr: "Türk Vatandaşlığı Avukatı Antalya | Yatırımla Vatandaşlık Başvurusu",
-      en: "Turkish Citizenship Lawyer Antalya | Citizenship by Investment",
-      de: "Anwalt für türkische Staatsbürgerschaft Antalya | Staatsbürgerschaft durch Investition",
-      ru: "Адвокат по гражданству Турции в Анталье | Гражданство через инвестиции",
-      ar: "محامي الجنسية التركية في أنطاليا | الجنسية بالاستثمار",
-      es: "Abogado de Ciudadanía Turca en Antalya | Ciudadanía por Inversión",
-      fr: "Avocat en Nationalité Turque à Antalya | Nationalité par l'Investissement",
-    },
-    metaDescription: {
-      tr: "Yatırım, evlilik veya uzun süreli ikamet yoluyla Türk vatandaşlığı başvurusu için Antalya'da deneyimli vatandaşlık avukatı. Tüm süreç bizimle, doğru ve hızlı.",
-      en: "Experienced Turkish citizenship lawyer in Antalya for applications via investment, marriage, or long-term residence. The full process handled accurately and efficiently.",
-      de: "Erfahrener Anwalt für die türkische Staatsbürgerschaft in Antalya — für Anträge über Investition, Heirat oder langfristigen Aufenthalt. Der gesamte Prozess: präzise und effizient.",
-      ru: "Опытный адвокат по гражданству Турции в Анталье для заявлений через инвестиции, брак или длительное проживание. Весь процесс ведётся точно и эффективно.",
-      ar: "محامي جنسية تركية متمرس في أنطاليا لطلبات عبر الاستثمار أو الزواج أو الإقامة طويلة الأمد. ندير العملية كاملةً بدقة وكفاءة.",
-      es: "Abogado experimentado en ciudadanía turca en Antalya para solicitudes por inversión, matrimonio o residencia prolongada. Todo el proceso gestionado con precisión y eficiencia.",
-      fr: "Avocat expérimenté en nationalité turque à Antalya pour les demandes par investissement, mariage ou résidence de longue durée. L'ensemble du processus géré avec précision et efficacité.",
-    },
-    intro: {
-      tr: "Türk vatandaşlığı, son yıllarda hem yatırımcı hem de uzun süreli yerleşik yabancılar için cazip bir hedef haline gelmiştir. Vatandaşlığı kazanan kişi, oturma izni ihtiyacı olmaksızın Türkiye'de yaşama, çalışma ve mülk edinme hakkına sahip olur; vize muafiyeti bulunan ülkelerde Türk pasaportunun sağladığı seyahat avantajından yararlanabilir.\n\nBüromuz, başlıca üç ana yoldan vatandaşlık başvurularını yürütmektedir: 400.000 ABD doları değerinde gayrimenkul yatırımı, sermaye veya banka mevduatı yatırımı gibi alternatif yatırım yolları; Türk vatandaşıyla evlilik ve aile birliği ile sağlanan başvurular; uzun süreli ikamet izninin akabinde olağan kazanım yolu. Antalya'da Türk vatandaşlığı avukatı olarak başvurunun her aşamasını şeffaf biçimde yönetiyoruz.",
-      en: "Turkish citizenship has become an attractive goal in recent years for both investors and long-term resident foreigners. The new citizen gains the right to live, work, and acquire property in Turkey without further residence permits, and benefits from the Turkish passport's travel advantages in visa-exempt countries.\n\nOur firm handles citizenship applications via three main routes: investment routes such as a 400,000 USD real estate investment, capital, or bank deposit; applications based on marriage to a Turkish citizen and family unity; and the standard naturalisation route after long-term residence. As a Turkish citizenship lawyer in Antalya, we manage every stage of the application transparently.",
-      de: "Die türkische Staatsbürgerschaft ist in den letzten Jahren sowohl für Investoren als auch für langjährig ansässige Ausländer zu einem attraktiven Ziel geworden. Der neue Staatsbürger erhält das Recht, ohne weitere Aufenthaltserlaubnis in der Türkei zu leben, zu arbeiten und Immobilien zu erwerben, und kann mit dem türkischen Pass die Reisevorteile in visafreien Ländern nutzen.\n\nUnsere Kanzlei begleitet Staatsbürgerschaftsanträge über drei Hauptwege: Investitionswege wie eine Immobilieninvestition von 400.000 USD, Kapital oder Bankeinlage; Anträge aufgrund einer Eheschließung mit einem türkischen Staatsbürger und Familieneinheit; und der reguläre Einbürgerungsweg nach langjährigem Aufenthalt. Als Anwalt für türkische Staatsbürgerschaft in Antalya begleiten wir jede Phase transparent.",
-      ru: "Турецкое гражданство в последние годы стало привлекательной целью как для инвесторов, так и для долго проживающих иностранцев. Новый гражданин получает право жить, работать и приобретать недвижимость в Турции без дополнительных видов на жительство, а также пользуется преимуществами турецкого паспорта в безвизовых странах.\n\nНаша фирма ведёт заявления на гражданство по трём основным путям: инвестиционные пути, такие как инвестиция в недвижимость на 400 000 долларов США, капитал или банковский депозит; заявления по браку с гражданином Турции и семейному единству; обычный натурализационный путь после долгосрочного проживания. Как адвокат по гражданству Турции в Анталье, мы прозрачно ведём каждый этап.",
-      ar: "أصبحت الجنسية التركية في السنوات الأخيرة هدفاً جذاباً للمستثمرين والأجانب المقيمين لفترات طويلة. يكتسب المواطن الجديد الحق في الإقامة والعمل وامتلاك العقارات في تركيا دون حاجة لتصاريح إقامة إضافية، ويستفيد من مزايا جواز السفر التركي في الدول المعفاة من التأشيرة.\n\nيدير مكتبنا طلبات الجنسية عبر ثلاثة مسارات رئيسية: مسارات الاستثمار مثل استثمار عقاري بقيمة 400,000 دولار أمريكي أو رأس مال أو وديعة مصرفية؛ الطلبات المستندة إلى الزواج من مواطن تركي ووحدة الأسرة؛ والمسار العادي للتجنّس بعد إقامة طويلة الأمد. وبصفتنا محامي الجنسية التركية في أنطاليا، ندير كل مرحلة بشفافية تامة.",
-      es: "La ciudadanía turca se ha convertido en los últimos años en un objetivo atractivo tanto para inversores como para extranjeros residentes de larga duración. El nuevo ciudadano adquiere el derecho a vivir, trabajar y adquirir propiedades en Turquía sin necesidad de permisos de residencia adicionales, y se beneficia de las ventajas de viaje del pasaporte turco en países exentos de visado.\n\nNuestro despacho gestiona solicitudes de ciudadanía por tres vías principales: vías de inversión, como una inversión inmobiliaria de 400.000 USD, capital o depósito bancario; solicitudes basadas en matrimonio con un ciudadano turco y unidad familiar; y la vía ordinaria de naturalización tras residencia prolongada. Como abogado de ciudadanía turca en Antalya, gestionamos de forma transparente cada etapa del proceso.",
-      fr: "La nationalité turque est devenue ces dernières années un objectif attractif pour les investisseurs comme pour les étrangers résidant depuis longtemps dans le pays. Le nouveau citoyen acquiert le droit de vivre, travailler et acquérir des biens immobiliers en Turquie sans permis de séjour supplémentaires, et bénéficie des avantages de voyage offerts par le passeport turc dans les pays exemptés de visa.\n\nNotre cabinet traite les demandes de nationalité par trois voies principales : les voies d'investissement telles qu'un investissement immobilier de 400 000 USD, du capital ou un dépôt bancaire ; les demandes fondées sur le mariage avec un ressortissant turc et l'unité familiale ; et la voie ordinaire de naturalisation après une résidence de longue durée. En tant qu'avocat en nationalité turque à Antalya, nous gérons chaque étape du processus en toute transparence.",
-    },
-    services: {
-      tr: [
-        "Yatırımla vatandaşlık başvurusu (gayrimenkul, sermaye, mevduat seçenekleri)",
-        "Uygun gayrimenkul tespiti, ekspertiz koordinasyonu ve tapu süreci",
-        "Türk vatandaşıyla evlilik yoluyla vatandaşlık başvurusu",
-        "Olağan kazanım (uzun süreli ikamet sonrası) başvurusu",
-        "Eş ve reşit olmayan çocuklar için bağlantılı (müktesep) başvurular",
-        "Vatandaşlık başvurusunun reddine karşı idare mahkemesinde dava",
-        "Çift vatandaşlık ve mevcut vatandaşlığın korunması analizi",
-        "Vatandaşlık alındıktan sonra kimlik, pasaport ve nüfus kaydı işlemleri",
-      ],
-      en: [
-        "Citizenship by investment applications (real estate, capital, deposit options)",
-        "Identifying eligible properties, valuation coordination, and title transactions",
-        "Citizenship applications based on marriage to a Turkish citizen",
-        "Standard naturalisation applications after long-term residence",
-        "Linked (derivative) applications for spouse and minor children",
-        "Litigation before the administrative court against citizenship refusals",
-        "Dual citizenship and existing-citizenship retention analysis",
-        "Post-citizenship ID, passport, and civil registry procedures",
-      ],
-      de: [
-        "Staatsbürgerschaft durch Investition (Immobilien-, Kapital-, Einlageoptionen)",
-        "Identifizierung geeigneter Immobilien, Wertgutachtenkoordination und Grundbuchgeschäfte",
-        "Staatsbürgerschaftsanträge auf Basis einer Ehe mit einem türkischen Staatsbürger",
-        "Reguläre Einbürgerung nach langjährigem Aufenthalt",
-        "Verbundene (abgeleitete) Anträge für Ehepartner und minderjährige Kinder",
-        "Klagen vor dem Verwaltungsgericht gegen Ablehnungen der Staatsbürgerschaft",
-        "Analyse von Doppelstaatsbürgerschaft und Erhalt bestehender Staatsbürgerschaft",
-        "Nach der Einbürgerung: Personalausweis-, Reisepass- und Personenstandsverfahren",
-      ],
-      ru: [
-        "Гражданство через инвестиции (недвижимость, капитал, депозиты)",
-        "Подбор подходящих объектов, координация оценки и сделки с правом собственности",
-        "Заявления на гражданство по браку с гражданином Турции",
-        "Стандартная натурализация после длительного проживания",
-        "Связанные (производные) заявления для супруга и несовершеннолетних детей",
-        "Иски в административный суд против отказов в гражданстве",
-        "Анализ двойного гражданства и сохранения имеющегося гражданства",
-        "Процедуры удостоверения личности, паспорта и записей в гражданском реестре после получения гражданства",
-      ],
-      ar: [
-        "طلبات الجنسية بالاستثمار (عقاري، رأس مال، وديعة)",
-        "تحديد العقارات المؤهلة وتنسيق التقييم ومعاملات سند الملكية",
-        "طلبات الجنسية المستندة إلى الزواج من مواطن تركي",
-        "طلبات التجنّس العادية بعد إقامة طويلة الأمد",
-        "طلبات مرتبطة (تبعية) للزوج/الزوجة والأبناء القاصرين",
-        "إقامة دعاوى أمام المحكمة الإدارية ضد رفض طلبات الجنسية",
-        "تحليل الجنسية المزدوجة والاحتفاظ بالجنسية الحالية",
-        "إجراءات الهوية وجواز السفر والسجل المدني بعد الحصول على الجنسية",
-      ],
-      es: [
-        "Solicitudes de ciudadanía por inversión (opciones de bienes inmuebles, capital y depósito)",
-        "Identificación de propiedades elegibles, coordinación de tasación y transacciones de escritura",
-        "Solicitudes de ciudadanía basadas en matrimonio con un ciudadano turco",
-        "Solicitudes de naturalización ordinaria tras residencia prolongada",
-        "Solicitudes vinculadas (derivadas) para cónyuge e hijos menores",
-        "Litigios ante el tribunal administrativo contra denegaciones de ciudadanía",
-        "Análisis de doble ciudadanía y conservación de la ciudadanía actual",
-        "Procedimientos de DNI, pasaporte y registro civil tras la ciudadanía",
-      ],
-      fr: [
-        "Demandes de nationalité par investissement (options immobilières, capital, dépôt)",
-        "Identification des biens éligibles, coordination de l'expertise et opérations de titre de propriété",
-        "Demandes de nationalité fondées sur le mariage avec un ressortissant turc",
-        "Demandes de naturalisation ordinaire après résidence de longue durée",
-        "Demandes liées (dérivées) pour le conjoint et les enfants mineurs",
-        "Contentieux devant le tribunal administratif contre les refus de nationalité",
-        "Analyse de la double nationalité et maintien de la nationalité actuelle",
-        "Procédures de carte d'identité, passeport et état civil après l'acquisition de la nationalité",
-      ],
-    },
-    process: {
-      tr: "Yatırımla vatandaşlık başvurularında ilk adım, müvekkilin profil ve hedeflerine göre en uygun yatırım kanalının belirlenmesidir. Gayrimenkul yolunu tercih edenler için askeri bölge sorgulaması, ekspertiz koordinasyonu ve uygunluk belgesi alınması kritik basamaklardır. Belgelerin (apostil, tercüme, doğum kaydı, sabıka kaydı) eksiksiz hazırlanmasının ardından İl Nüfus Müdürlüğü ve Cumhurbaşkanlığı kararı aşamaları takip edilir. Süreç ortalama 6-12 ay arasında değişir; eş ve reşit olmayan çocukların başvuruları aynı dosya altında yürütülebilir.",
-      en: "For citizenship-by-investment applications, the first step is choosing the channel best suited to the client's profile and goals. For the real-estate route, military-zone inquiry, valuation coordination, and obtaining the conformity certificate are critical milestones. After documents (apostille, translation, birth and criminal records) are fully prepared, the Provincial Civil Registry and Presidential decision phases follow. The process typically takes 6–12 months; spouse and minor-child applications can be filed under the same file.",
-      de: "Bei der Staatsbürgerschaft durch Investition besteht der erste Schritt darin, den am besten zum Profil und Ziel des Mandanten passenden Investitionsweg zu wählen. Für den Immobilienweg sind die Militärzonenanfrage, die Koordination der Wertgutachten und die Erlangung des Konformitätszertifikats kritisch. Nach vollständiger Vorbereitung der Unterlagen (Apostille, Übersetzung, Geburts- und Führungszeugnis) folgen die Phasen vor dem Provinzpersonenstandsamt und der Präsidentschaftsentscheidung. Der Prozess dauert in der Regel 6–12 Monate; Ehepartner und minderjährige Kinder können in derselben Akte beantragt werden.",
-      ru: "При гражданстве через инвестиции первый шаг — выбор канала, наиболее подходящего профилю и целям клиента. Для пути через недвижимость критическими этапами являются запрос по военной зоне, координация оценки и получение сертификата соответствия. После полной подготовки документов (апостиль, перевод, свидетельство о рождении и справка о несудимости) следуют этапы Провинциального управления гражданского состояния и решения Президента. Процесс обычно занимает 6–12 месяцев; заявления супруга и несовершеннолетних детей могут вестись в одном деле.",
-      ar: "في طلبات الجنسية بالاستثمار، الخطوة الأولى هي اختيار المسار الأنسب لصورة الموكل وأهدافه. وفي مسار العقار تُعدّ الاستفسار عن المنطقة العسكرية وتنسيق التقييم والحصول على شهادة المطابقة من المحطات الحاسمة. وبعد تجهيز الوثائق كاملةً (التصديق والترجمة وشهادة الميلاد وصحيفة السوابق) تأتي مراحل مديرية النفوس وقرار الرئاسة. وتستغرق العملية عادةً 6–12 شهراً؛ ويمكن تقديم طلبات الزوج والأبناء القاصرين ضمن الملف ذاته.",
-      es: "Para las solicitudes de ciudadanía por inversión, el primer paso es elegir el canal mejor adaptado al perfil y los objetivos del cliente. Para la vía inmobiliaria, la consulta de zona militar, la coordinación de la tasación y la obtención del certificado de conformidad son hitos críticos. Tras la preparación completa de los documentos (apostilla, traducción, partida de nacimiento e historial penal), siguen las fases ante la Dirección Provincial del Registro Civil y la decisión presidencial. El proceso suele durar entre 6 y 12 meses; las solicitudes del cónyuge y de los hijos menores pueden tramitarse bajo el mismo expediente.",
-      fr: "Pour les demandes de nationalité par investissement, la première étape consiste à choisir la voie la mieux adaptée au profil et aux objectifs du client. Pour la voie immobilière, la requête relative à la zone militaire, la coordination de l'expertise et l'obtention du certificat de conformité sont des étapes cruciales. Après la préparation complète des documents (apostille, traduction, acte de naissance et casier judiciaire), viennent les phases devant la Direction Provinciale de l'État Civil et la décision présidentielle. Le processus dure généralement 6 à 12 mois ; les demandes du conjoint et des enfants mineurs peuvent être déposées dans le même dossier.",
-    },
-    faqs: {
-      tr: [
-        {
-          q: "Vatandaşlık aldıktan sonra mevcut vatandaşlığımı kaybeder miyim?",
-          a: "Türkiye çift vatandaşlığa izin vermektedir; ancak mevcut vatandaşlığınızın korunup korunmayacağı kendi ülkenizin hukukuna göre belirlenir. Bazı ülkeler ikinci bir vatandaşlığa müsaade ederken bazıları otomatik kayıp uygular. Başvuru öncesinde bu konunun ayrıca değerlendirilmesi önemlidir.",
-        },
-        {
-          q: "Yatırım yoluyla aldığım gayrimenkulü hemen satabilir miyim?",
-          a: "Hayır. Vatandaşlığa esas alınan gayrimenkulün belirli bir süre boyunca elden çıkarılmaması taahhüdü vardır. Bu taahhüde aykırı davranış, vatandaşlığın iptaline yol açabilecek ciddi bir hukuki sonuçtur. Sürenin sonunda satış serbesttir.",
-        },
-        {
-          q: "Reddedilen vatandaşlık başvurusu için ne yapılabilir?",
-          a: "Red kararına karşı yasal süresi içinde idari yargı yoluna başvurabilirsiniz. Reddin gerekçesine göre eksiklikler giderilerek yeni başvuru da mümkündür; ancak ret kararındaki gerekçenin aynı sebeplerle tekrar etmemesi için strateji belirlemek gerekir.",
-        },
-      ],
-      en: [
-        {
-          q: "Will I lose my current citizenship after acquiring Turkish citizenship?",
-          a: "Turkey permits dual citizenship, but whether your current citizenship is retained is governed by the law of your home country. Some states allow a second citizenship; others impose automatic loss. This matter must be assessed before the application.",
-        },
-        {
-          q: "Can I sell the property used for citizenship straight away?",
-          a: "No. The property forming the basis of citizenship is subject to a non-disposal undertaking for a defined period. Breach of this undertaking is a serious legal consequence that can lead to revocation of citizenship. After the period, the property may be freely sold.",
-        },
-        {
-          q: "What can be done if a citizenship application is refused?",
-          a: "You may bring administrative proceedings within the statutory deadline. Depending on the reason for refusal, a fresh application may be filed after correcting deficiencies; a clear strategy is needed to avoid the same grounds being raised again.",
-        },
-      ],
-      de: [
-        {
-          q: "Verliere ich nach Erlangung der türkischen Staatsbürgerschaft meine bisherige?",
-          a: "Die Türkei erlaubt die doppelte Staatsbürgerschaft; ob Ihre bisherige erhalten bleibt, richtet sich aber nach dem Recht Ihres Heimatlandes. Manche Staaten lassen eine zweite Staatsbürgerschaft zu, andere führen den automatischen Verlust herbei. Dieser Punkt muss vor der Antragstellung geprüft werden.",
-        },
-        {
-          q: "Kann ich die für die Staatsbürgerschaft erworbene Immobilie sofort verkaufen?",
-          a: "Nein. Die Immobilie unterliegt einer Nichtveräußerungspflicht für einen festgelegten Zeitraum. Ein Verstoß hat schwerwiegende Rechtsfolgen — bis hin zum Entzug der Staatsbürgerschaft. Nach Ablauf der Frist ist der Verkauf frei.",
-        },
-        {
-          q: "Was kann bei einer Ablehnung des Antrags getan werden?",
-          a: "Sie können fristgerecht den Verwaltungsrechtsweg einschlagen. Je nach Ablehnungsgrund kann nach Behebung der Mängel ein neuer Antrag gestellt werden; eine klare Strategie ist nötig, damit die gleichen Gründe nicht erneut zum Tragen kommen.",
-        },
-      ],
-      ru: [
-        {
-          q: "Потеряю ли я своё текущее гражданство после получения турецкого?",
-          a: "Турция разрешает двойное гражданство, но сохранение текущего регулируется законами вашей страны. Одни государства допускают второе гражданство, другие — автоматическую потерю. Этот вопрос должен быть оценён до подачи заявления.",
-        },
-        {
-          q: "Могу ли я сразу продать недвижимость, использованную для гражданства?",
-          a: "Нет. Недвижимость, послужившая основанием для гражданства, подпадает под обязательство неотчуждения на определённый срок. Нарушение является серьёзным правовым последствием и может привести к лишению гражданства. По истечении срока продажа свободна.",
-        },
-        {
-          q: "Что делать при отказе в гражданстве?",
-          a: "Вы можете в установленный срок обратиться в административный суд. В зависимости от основания отказа возможно новое заявление после устранения недостатков; необходима чёткая стратегия, чтобы те же основания не повторились.",
-        },
-      ],
-      ar: [
-        {
-          q: "هل أفقد جنسيتي الحالية بعد الحصول على الجنسية التركية؟",
-          a: "تركيا تسمح بالجنسية المزدوجة، لكن الاحتفاظ بجنسيتك الحالية يعتمد على قانون بلدك. تسمح بعض الدول بجنسية ثانية، بينما تفرض دول أخرى الفقدان التلقائي. لذا يجب تقييم هذا الأمر قبل تقديم الطلب.",
-        },
-        {
-          q: "هل يمكنني بيع العقار المستخدم للجنسية فوراً؟",
-          a: "لا. يخضع العقار الذي يُستند إليه للجنسية إلى التزام بعدم التصرف لفترة محددة. ومخالفة هذا الالتزام لها آثار قانونية خطيرة قد تصل إلى سحب الجنسية. وبعد انتهاء المدة يكون البيع متاحاً.",
-        },
-        {
-          q: "ما الذي يمكن فعله عند رفض طلب الجنسية؟",
-          a: "يمكنك اللجوء إلى القضاء الإداري ضمن المهلة القانونية. وبحسب سبب الرفض يمكن تقديم طلب جديد بعد تصحيح أوجه القصور؛ ولا بد من استراتيجية واضحة لتجنّب تكرار الأسباب ذاتها.",
-        },
-      ],
-      es: [
-        {
-          q: "¿Perderé mi ciudadanía actual tras adquirir la ciudadanía turca?",
-          a: "Turquía permite la doble ciudadanía, pero la conservación de su ciudadanía actual se rige por la ley de su país de origen. Algunos estados permiten una segunda ciudadanía; otros imponen la pérdida automática. Este aspecto debe evaluarse antes de presentar la solicitud.",
-        },
-        {
-          q: "¿Puedo vender de inmediato el inmueble adquirido para la ciudadanía?",
-          a: "No. El inmueble que sirve de base para la ciudadanía está sujeto a un compromiso de no enajenación durante un periodo definido. El incumplimiento de este compromiso es una consecuencia jurídica grave que puede dar lugar a la revocación de la ciudadanía. Una vez finalizado el periodo, el inmueble puede venderse libremente.",
-        },
-        {
-          q: "¿Qué puede hacerse si una solicitud de ciudadanía es denegada?",
-          a: "Puede acudir a la vía administrativa dentro del plazo legal. Dependiendo del motivo de la denegación, puede presentarse una nueva solicitud tras corregir las deficiencias; es necesaria una estrategia clara para evitar que los mismos motivos vuelvan a plantearse.",
-        },
-      ],
-      fr: [
-        {
-          q: "Perdrai-je ma nationalité actuelle après l'acquisition de la nationalité turque ?",
-          a: "La Turquie autorise la double nationalité, mais la conservation de votre nationalité actuelle est régie par la loi de votre pays d'origine. Certains États admettent une deuxième nationalité, d'autres imposent la perte automatique. Ce point doit être évalué avant le dépôt de la demande.",
-        },
-        {
-          q: "Puis-je vendre immédiatement le bien acquis pour la nationalité ?",
-          a: "Non. Le bien servant de base à la nationalité est soumis à un engagement de non-cession pour une durée définie. La violation de cet engagement est une conséquence juridique grave pouvant conduire à la révocation de la nationalité. Une fois cette période écoulée, la vente est libre.",
-        },
-        {
-          q: "Que peut-on faire si une demande de nationalité est refusée ?",
-          a: "Vous pouvez engager une procédure administrative dans le délai légal. Selon le motif du refus, une nouvelle demande peut être déposée après correction des lacunes ; une stratégie claire est nécessaire pour éviter que les mêmes motifs soient à nouveau soulevés.",
         },
       ],
     },
