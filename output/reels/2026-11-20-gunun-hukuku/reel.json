@@ -1,0 +1,61 @@
+{
+  "topic": "Günün hukuku: 3 doğrulanmış gelişme (akaryakıt fiyat takibi EPDK kararı, belediye başkanı seçimi yönetmeliği, pilot lisans yönetmeliği)",
+  "slug": "2026-11-20-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "special": true,
+  "sources": [
+    {
+      "label": "Enerji Piyasası Düzenleme Kurulu Kararı 15056, 19.11.2026, RG 20.11.2026 S. 33436 (Akaryakıt Fiyatlarının Takibine İlişkin Kurul Kararında değişiklik, m. 1)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120.pdf"
+    },
+    {
+      "label": "Belediye Meclisi Çalışma Yönetmeliğinde Değişiklik, RG 20.11.2026 S. 33436, m. 1 (Madde 19/A)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120.pdf"
+    },
+    {
+      "label": "Pilot Lisans Yönetmeliği (SHY-1)'nde Değişiklik, RG 19.11.2026 S. 33435, m. 2 (m. 16)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *3 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta üç önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Akaryakıt fiyat takibinde *hesaplama* değişti",
+      "art": "para",
+      "body": ["Rafineri fiyatları Platts CIF MED günlük ortalaması ve TCMB satış kuruna göre izlenecek."],
+      "cite": "EPDK Kurul Kararı 15056 · RG 20.11.2026",
+      "vo": "Enerji Piyasası Düzenleme Kurulu, akaryakıt fiyatlarının takibine ilişkin kararı değiştirdi. Rafinerici fiyatları, Platts CIF MED günlük ortalamasının Merkez Bankası döviz satış kuruyla liraya çevrilmiş tutarına, iç pazara sunum maliyetleri eklenerek izlenecek."
+    },
+    {
+      "role": "body",
+      "heading": "Belediye başkanlığı boşalırsa *seçim usulü* belirlendi",
+      "art": "kisi",
+      "body": ["Vali on gün içinde oylama toplantısını belirler; oy gizli ve birleşik pusulayla kullanılır."],
+      "cite": "Belediye Meclisi Yönetmeliği · RG 20.11.2026",
+      "vo": "Belediye Meclisi Çalışma Yönetmeliği'ne eklenen maddeye göre, belediye başkanlığı veya başkan vekilliği boşalırsa vali on gün içinde oylama toplantısı kararlaştıracak. Seçim gizli oyla, birleşik oy pusulasıyla yapılacak."
+    },
+    {
+      "role": "body",
+      "heading": "Pilot lisansı şartları *yeniden düzenlendi*",
+      "art": "belge",
+      "body": ["Sağlık sertifikası ve sabıka şartları aranacak; şartı yitirenin lisansı iptal edilir."],
+      "cite": "Pilot Lisans Yönetmeliği · RG 19.11.2026",
+      "vo": "Pilot Lisans Yönetmeliği'ndeki değişiklikle, lisans başvurusunda geçerli sağlık sertifikası ve belirli suçlardan hüküm giymemiş olma şartları aranacak. Bu şartları sonradan yitirenlerin pilot lisansı iptal edilecek."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
