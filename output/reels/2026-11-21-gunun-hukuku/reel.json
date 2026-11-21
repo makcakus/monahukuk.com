@@ -1,0 +1,61 @@
+{
+  "topic": "Günün hukuku: 3 doğrulanmış gelişme (Danıştay 4. Daire kanun yararına bozma, Suriye'deki üniversite birimlerinin kapatılması, ilaç tanıtım toplantıları yönetmeliği)",
+  "slug": "2026-11-21-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "special": true,
+  "sources": [
+    {
+      "label": "Danıştay Dördüncü Dairesi E.2026/1613 K.2026/3972, 23.09.2026, kanun yararına bozma, RG 21.11.2026 S. 33437",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121.pdf"
+    },
+    {
+      "label": "Gaziantep Üniversitesi ve Sağlık Bilimleri Üniversitesi Suriye'deki bazı fakülte ve yüksekokulların kapatılması (Karar Sayısı 12016) ve Mutabakat Zaptı onayı (Karar Sayısı 12015), RG 21.11.2026 S. 33437",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121.pdf"
+    },
+    {
+      "label": "Beşerî Tıbbi Ürünlerin Tanıtım Faaliyetleri Hakkında Yönetmelikte Değişiklik, RG 21.11.2026 S. 33437, m. 4 (m. 11/3)",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *3 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta üç önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "İhaleyle kiralanan idare konutunda *süre bitince* tahliye yolu açık",
+      "art": "ev",
+      "body": ["Ayrıca bildirim gerekmez; Borçlar Kanunu'nun konut kira hükümleri uygulanmaz."],
+      "cite": "Danıştay 4. D. 2026/3972 · RG 21.11.2026",
+      "vo": "Danıştay Dördüncü Daire, ihaleyle kiralanan idare konutlarında kira süresi bitince taşınmazı kullanmaya devam edenin işgalci sayılacağını, kiracıya ayrıca bildirim gerekmediğini belirtti. Karar, kanun yararına bozma niteliğinde."
+    },
+    {
+      "role": "body",
+      "heading": "Suriye'deki *Türk üniversite birimleri* kapatıldı",
+      "art": "belge",
+      "body": ["Altı birim kapatıldı; öğrenciler Suriye'deki üniversitelerde eğitime devam edecek."],
+      "cite": "CB Kararı 12016 · RG 21.11.2026",
+      "vo": "Gaziantep Üniversitesi ile Sağlık Bilimleri Üniversitesi'ne bağlı olarak Suriye'de kurulan altı akademik birim kapatıldı. Mutabakata göre öğrenciler, Suriye'deki yükseköğretim kurumlarında eğitimlerini sürdürecek."
+    },
+    {
+      "role": "body",
+      "heading": "İlaç tanıtım toplantıları için *önceden bildirim* süresi belirlendi",
+      "art": "kalkan",
+      "body": ["Yurt içi toplantılar en az 5, yurt dışı toplantılar en az 10 iş günü önce bildirilecek."],
+      "cite": "Ürün Tanıtım Yönetmeliği · RG 21.11.2026",
+      "vo": "Beşerî tıbbi ürünlerin tanıtım faaliyetleri yönetmeliğindeki değişikliğe göre, yurt içi toplantılar en az beş iş günü, yurt dışı toplantılar en az on iş günü önce Türkiye İlaç ve Tıbbi Cihaz Kurumu'na bildirilecek."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
