@@ -91,8 +91,9 @@ def validate(reel, allow_ad):
     if not 3 <= len(scenes) <= 12:
         raise Stop(f"Sahne sayısı 3–12 olmalı, {len(scenes)} var.")
     n_news = sum(1 for x in scenes if x.get("role") == "body")
-    # "special": true yalnızca tek konulu özel videolar içindir (günlük rutin kullanmaz): en az 3 kart
-    min_news = 3 if reel.get("special") else 5
+    # Kullanıcı kararı (23.11.2026): taze doğrulanmış haber az olsa da video üretilir; alt sınır 1 haber.
+    # "special" alanı eski reel.json'larla uyum için yok sayılır.
+    min_news = 1
     if not min_news <= n_news <= 10:
         raise Stop(f"Günün hukuku bülteninde {min_news}–10 haber sahnesi (body) olmalı, {n_news} var.")
     srcs = reel.get("sources") or []

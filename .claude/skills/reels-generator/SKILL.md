@@ -25,9 +25,10 @@ README'deki nota bak.
 
 ## 0. Günlük format: "Günün hukuku" bülteni
 
-Her gün 1 reels, **o günün** hukuki gelişmeleri. İçinde **en az 5, en çok 10** haber olur
-(10'dan fazla doğrulanmışsa vatandaşın geneline en çok dokunan 10'u). Yapı: kapak + 5–10 haber
-sahnesi + kapanış (7–12 sahne). Süre 50–110 sn; 8+ haberde sahne başına 15–20 kelimelik vo
+Her gün 1 reels, **o günün** hukuki gelişmeleri. İçinde **en az 1, en çok 10** haber olur
+(kullanıcı kararı 23.11.2026: taze doğrulanmış haber 1–2 tane bile olsa video üretilir; 10'dan fazla
+doğrulanmışsa vatandaşın geneline en çok dokunan 10'u). Yapı: kapak + 1–10 haber
+sahnesi + kapanış (3–12 sahne). Haber sayısı azsa 5–7 haberli bülten ölçüsünde sesi uzatma; toplam 25–65 sn yeter. Süre 50–110 sn; 8+ haberde sahne başına 15–20 kelimelik vo
 kullan. **"Bu hafta" gibi haftalık çerçeve kullanılmaz**: kapak ve kapanış günlük konuşur
 ("Bugün hukukta N gelişme", "Günün hukuku").
 
@@ -70,10 +71,11 @@ bulunur:
   ve metindeki dayanağı yaz).
 - Yargı kararında sonuç, hüküm bölümünden okunur; ayrıca gerekçe ve karşı oy ayrımına dikkat.
 - Metinde olmayanı çıkarım olarak da yazma ("yeni düzenleme bekleniyor" gibi tahmin yok).
-- Doğrulayamadığın haber reels'e girmez. Önce son 24–48 saate bak; 5 doğrulanmış habere
+- Doğrulayamadığın haber reels'e girmez. Önce son 24–48 saate bak; 5–7 doğrulanmış habere
   ulaşamıyorsan pencereyi son 4 güne kadar genişlet (eski haberin gününü sahnede belirt: "Cuma
-  günü yayımlanan…"); yine 5'e ulaşamıyorsan ya da Yargı PRO kotası/erişim sorunu varsa **video
-  üretme**, kullanıcıya nedenini bildir.
+  günü yayımlanan…"); 1–2 haber kalsa bile video üret ve bildirimde haber sayısının az olduğunu
+  söyle. **Video üretme** yalnızca hiç doğrulanmış haber yoksa ya da Yargı PRO kotası/erişim sorunu
+  varsa; kullanıcıya nedenini bildir.
 - `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
 
 ### Haber seçimi (kullanıcı kuralı: geniş kitleyi ilgilendiren, çeşitli kaynaklardan)
