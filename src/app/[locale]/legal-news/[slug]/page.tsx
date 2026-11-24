@@ -8,6 +8,7 @@ import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { BreadcrumbSchema } from "@/components/ArticleSchema";
 import { ReadingProgress } from "@/components/ReadingProgress";
+import { localizedLinkComponents } from "@/lib/localized-md-links";
 
 // Tüm gazette postları git ile deploy edilir, runtime'da değişmez; hepsi statik.
 // dynamicParams=false: ön-derlenmeyen (var olmayan) slug'lar temiz 404 döner
@@ -112,7 +113,7 @@ export default async function GazettePostPage({
       <span className="gold-divider mt-8 mb-8" />
 
       <div className="prose-legal">
-        <MDXRemote source={post.body} />
+        <MDXRemote source={post.body} components={localizedLinkComponents(locale)} />
       </div>
       </article>
     </>

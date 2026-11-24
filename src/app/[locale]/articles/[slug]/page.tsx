@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { ArrowLeft } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { resolveArticleFallback } from "@/lib/article-fallback";
+import { localizedLinkComponents } from "@/lib/localized-md-links";
 import { ArticleSchema, BreadcrumbSchema, FAQPageSchema } from "@/components/ArticleSchema";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { ArticleNavButtons } from "@/components/ArticleNavButtons";
@@ -218,9 +219,11 @@ export default async function ArticlePage({
           // kullanıyor; Cloudflare Workers bunu izin vermiyor. react-markdown
           // AST tabanlı olduğu için eval gerektirmiyor — build anında üretilen
           // (MDXRemote ile, fs'ten okunan) sayfalarda davranış değişmiyor.
-          <ReactMarkdown>{article.body}</ReactMarkdown>
+          <ReactMarkdown components={localizedLinkComponents(locale)}>
+            {article.body}
+          </ReactMarkdown>
         ) : (
-          <MDXRemote source={article.body} />
+          <MDXRemote source={article.body} components={localizedLinkComponents(locale)} />
         )}
       </div>
 
