@@ -1,0 +1,60 @@
+{
+  "topic": "Günün hukuku: 3 doğrulanmış gelişme (2026 yeniden değerleme oranı, e-Arşiv fatura tebliği, Danıştay 4. Daire kanun yararına bozma)",
+  "slug": "2026-11-24-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "Vergi Usul Kanunu Genel Tebliği (Sıra No: 599), RG 24.11.2026 S. 33440",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    },
+    {
+      "label": "Vergi Usul Kanunu Genel Tebliği (Sıra No: 509)'nda Değişiklik (Sıra No: 598), RG 24.11.2026 S. 33440, m. 2 ve m. 15",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    },
+    {
+      "label": "Danıştay Dördüncü Dairesi kanun yararına bozma kararı (Adana BİM 2. İDD E.2020/763 K.2021/697 hakkında, 24.09.2026), RG 24.11.2026 S. 33440",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *3 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta üç önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "2026 yeniden *değerleme oranı* açıklandı",
+      "art": "para",
+      "body": ["Oran yüzde 27,83; son geçici vergi dönemi için de uygulanacak."],
+      "cite": "VUK Genel Tebliği 599 · RG 24.11.2026",
+      "vo": "Vergi Usul Kanunu kapsamında iki bin yirmi altı yılı yeniden değerleme oranı yüzde yirmi yedi virgül seksen üç olarak ilan edildi. Oran, yılın son geçici vergi dönemi için de uygulanacak."
+    },
+    {
+      "role": "body",
+      "heading": "Yeni nesil ÖKC'lerden *e-Arşiv fatura* düzenlenebilecek",
+      "art": "belge",
+      "body": ["Tebliğ bir Ocak 2027'de yürürlüğe giriyor; bilgi fişi tanımı kaldırıldı."],
+      "cite": "VUK Genel Tebliği 598 · RG 24.11.2026",
+      "vo": "Gelir İdaresi'nin tebliğine göre, e-Arşiv uygulamasına dahil olmayan mükellefler, izin verilen yeni nesil ÖKC'ler üzerinden e-Arşiv fatura düzenleyebilecek. Tebliğ, bir Ocak iki bin yirmi yedi'de yürürlüğe giriyor."
+    },
+    {
+      "role": "body",
+      "heading": "Yıkım davasında *diğer kat maliklerine* ihbar şart",
+      "art": "ev",
+      "body": ["Danıştay, ihbarsız verilen kararı kanun yararına bozdu; hüküm sonuçları etkilenmedi."],
+      "cite": "Danıştay 4. D. kanun yararına bozma · RG 24.11.2026",
+      "vo": "Danıştay Dördüncü Daire, binanın yıkımına ilişkin davada diğer kat maliklerine dava ihbar edilmemesini hukuka aykırı buldu. Karar, kanun yararına bozma niteliğinde; hükmün hukuki sonuçlarını etkilemiyor."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
