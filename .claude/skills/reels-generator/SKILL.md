@@ -78,6 +78,31 @@ bulunur:
   varsa; kullanıcıya nedenini bildir.
 - `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
 
+### Haber birikimi (kullanıcı kuralı 24.11.2026: haberler kaçmasın)
+
+Doğrulanmış ama videoya girmemiş haberler `backlog.json` dosyasında biriktirilir; video günlerinde
+günün haberlerine eklenir.
+
+- **Her çalışmada (video üretilsin ya da üretilmesin) önce `backlog.json` okunur.** Günün haberleri
+  toplanırken doğrulanıp videoya girmeyen haberler (10'dan fazla haber çıktı, süre/yer yetmedi,
+  video üretilmeyen gün, dolgu kademesi) `durum: "bekliyor"` ile eklenir. Önceki reel.json'lardaki
+  haberler eklenmez; aynı `id` iki kez yazılmaz. `id`: `YYYY-AA-GG-kisa-konu`.
+- Kayıt alanları: `kaynak_tarihi`, `eklendi`, `kademe` (`genis` = genel ilgi ölçütünü sağlar,
+  `sinirda` = tek kuruma/sektöre özgü ama doğrulanmış), `baslik`, `olgular` (metinden birebir alınmış
+  tek cümlelik olgular, madde no ile), `cite`, `kaynak` (`resmi_gazete:` ya da `ictihat` id'si),
+  `durum`.
+- **Video günü:** önce günün taze haberleri, sonra bekleyen `genis` kademe kayıtlar eklenir (en yeni
+  kaynak tarihli önce). Toplam 10'u geçmez; sesli kipte 5–7 haberi tercih et. `sinirda` kayıtlar
+  yalnızca günün haber sayısı 5'in altında kalırsa dolgu olarak alınır. Birikimden alınan haberin
+  metni yeniden getirilmez (kota harcama): `olgular` yeterli kaynaktır; sahnede haberin gününü
+  belirt ("Cuma günü yayımlanan…", "22 Kasım'da…"). Kullanılan kayıt `durum: "kullanildi"`,
+  `kullanildi: "<reel slug>"` olur.
+- **Süre sınırı:** `kullanim_penceresi_gun` (10) günden eski `bekliyor` kayıtlar videoya alınmaz;
+  `durum: "suresi_doldu"` yapılır (kullanıcı eski haberi sevmiyor).
+- Gün içinde hiç taze haber yoksa ama birikimde `genis` kayıt varsa bunlarla video üretilir.
+  Video üretmeme koşulu: taze haber de birikim de boşsa (ya da kota/erişim sorunu).
+- Değişen `backlog.json` her çalışmada reel çıktısıyla birlikte commit + push edilir.
+
 ### Haber seçimi (kullanıcı kuralı: geniş kitleyi ilgilendiren, çeşitli kaynaklardan)
 
 **Ölçüt:** haber halkın tamamını ya da büyük bir kesimini ilgilendirmeli (aile, evlilik ve boşanma,

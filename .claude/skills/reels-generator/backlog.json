@@ -1,0 +1,51 @@
+{
+  "_aciklama": "Haber birikimi: doğrulanmış (birincil resmî metni okunmuş) ama videoya girmemiş haberler. Her rutin çalışması önce bunu okur, günün haberlerine ekler; video günü bekleyenlerden uygun olanları alır ve durumunu günceller. Kurallar: SKILL.md 'Haber birikimi'.",
+  "kullanim_penceresi_gun": 10,
+  "items": [
+    {
+      "id": "2026-11-22-hatay-mku-egitim-ogretim-yonetmeligi",
+      "kaynak_tarihi": "2026-11-22",
+      "eklendi": "2026-11-24",
+      "kademe": "sinirda",
+      "baslik": "Hatay Mustafa Kemal Üniversitesi'nin yeni lisans eğitim-öğretim ve sınav yönetmeliği yayımlandı",
+      "olgular": [
+        "Yönetmelik yayımı tarihinde yürürlüğe girdi; 2026-2027 eğitim-öğretim yılından önce kayıt yaptıranlara eski yönetmelik hükümleri uygulanmaya devam edecek (geçici madde 1).",
+        "Azami öğrenim süresi: dört yıllık lisansta yedi yıl; süre sonunda mezun olamayan son sınıf öğrencilerine başarısız oldukları tüm dersler için iki ek sınav hakkı (m. 6).",
+        "Devam zorunluluğu: teorik derslerde en az yüzde 70, uygulamalarda en az yüzde 80 (m. 23).",
+        "Akademik yıl sonunda GNO'su 1,85'in altında olanlar sınıf tekrarına kalır (m. 22)."
+      ],
+      "cite": "HMKÜ Eğitim-Öğretim ve Sınav Yönetmeliği · RG 22.11.2026",
+      "kaynak": "resmi_gazete:20261122/2.htm",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-23-biruni-ana-yonetmelik",
+      "kaynak_tarihi": "2026-11-23",
+      "eklendi": "2026-11-24",
+      "kademe": "sinirda",
+      "baslik": "Biruni Üniversitesi Ana Yönetmeliği'nde rektör atamasına ilişkin madde değişti",
+      "olgular": [
+        "Madde 10'a göre rektör, ilgili mevzuat hükümlerine göre Cumhurbaşkanı tarafından atanır; madde 6/1(ç) 'ilgili mevzuat hükümleri çerçevesinde atanmak üzere Rektör önerisinde bulunmak' şeklinde değiştirildi (metin, görevi yerine getiren organı bu değişiklikte anmıyor).",
+        "Yönetmelik yayımı tarihinde yürürlüğe girdi."
+      ],
+      "cite": "Biruni Üniversitesi Ana Yönetmeliği · RG 23.11.2026",
+      "kaynak": "resmi_gazete:20261123/1.htm",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-24-hayvancilik-destekleri-teblig-2026-29",
+      "kaynak_tarihi": "2026-11-24",
+      "eklendi": "2026-11-24",
+      "kademe": "sinirda",
+      "baslik": "Hayvancılık desteklerinde atık desteği ve kuzu-oğlak desteği şartları yeniden düzenlendi",
+      "olgular": [
+        "Tebliğ 1/1/2026 tarihinden geçerli olmak üzere yayımı tarihinde yürürlüğe girdi (Tebliğ No: 2026/29, m. 9).",
+        "Sığır, manda, koyun ve keçilerde her türlü atık için atık desteği ödenir; resmî veteriner hekimin düzenlediği tespit tutanağı gerekir; her hayvana yılda bir kez ödenir (m. 2).",
+        "Kuzu ve oğlaklar destekleme için en az dört ay (120 gün) yaşamış olmalıdır (m. 3)."
+      ],
+      "cite": "Hayvancılık Desteklemeleri Tebliği 2026/29 · RG 24.11.2026",
+      "kaynak": "resmi_gazete:20261124/4.htm",
+      "durum": "bekliyor"
+    }
+  ]
+}
