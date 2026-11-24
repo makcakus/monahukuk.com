@@ -58,3 +58,9 @@ Kaynak: Zemberek `InverseHarmony` ∩ OpenSubtitles sıklığı. Sayı = sıklı
 **B grubu (şapkalı yazılanlar):** âmâ, tabiî, hâlâ, pekâlâ, tâbi, silâh, evlât, herhâlde, âşık, meselâ, hikâye, derhâl, askerî, ilâç, merkezî, kâr, filân, vahşî, dâhi, fikrî, tarihî, kâğıt, tıbbî, kalbî, ilân, rüzgâr, şikâyet, belâ, mahkûm, klâsik, felâket, ihtimalî, telâfi, âmin, reklâm, şeklî, âdet, inkâr, samimî, hayalî, bekâr, kâbus, şeytanî, dinî, hissî, hayatî, siyasî, şahsî, âdeta, bedenî, dükkân, kâp, mekân, indî, nâkil, imkân, iflâs, havaî, zekâ, siyahî
 
 Not: "ad" gibi kelimeler listede çıkabilir; bayrak ters uyumu gösterir, her zaman gerçek bir telaffuz sorunu olduğu anlamına gelmez. Bu yüzden her kelime için dinleme onayı şarttır.
+
+## Kullanıcı kararı 24.11.2026: usul → usûl
+"usul" ailesi (usul, usulü, usulüne, usulen, usulsüz; Vergi Usul, İdari Yargılama Usulü) Google sesinde "usûl" okunur:
+ikinci u ince ve uzun. Kural `reels-generator/scripts/tr_text.py > spoken()` içinde (1b adımı, sözlükten sonra),
+yani kısaltma açılımları da (VUK → Vergi Usûl Kanunu) düzelir. Kelime başı sınırı: "Musul" etkilenmez.
+Doğrulama: yalnız kullanıcı dinleyip onayıyla; Chirp'ün û'yu gerçekten uzatıp uzatmadığı kod tarafından bilinemez.

@@ -71,6 +71,8 @@ elle gözden geçirilmiş beklenen okunuşla birebir aynı olmalıdır. Sayı ve
 | 61 | 4. fıkranın (b) bendi. | dördüncü fıkranın be bendi. |
 | 62 | 100. yıl ve 1. sınıf. | yüzüncü yıl ve birinci sınıf. |
 | 63 | Duruşma 09:15'te başlayacak. | Duruşma dokuz on beşte başlayacak. |
+| 64 | VUK ve usulüne uygun tebligat. | Vergi Usûl Kanunu ve usûlüne uygun tebligat. |
+| 65 | Musul'da usul farklı. | Musulda usûl farklı. |
 
 ## 2. Dinleme testi cümleleri (kulakla)
 

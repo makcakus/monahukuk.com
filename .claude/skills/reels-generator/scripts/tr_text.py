@@ -126,6 +126,10 @@ def spoken(text):
                 return attach(full, suf, poss) if suf else full
             text = re.sub(rf"(?<![\w]){re.escape(src)}(['’][A-Za-zÇĞİÖŞÜçğıöşü]+)?(?![\w])", rep, text)
 
+    # 1b) usul ailesi (usul, usulü, usulüne, usulen...) kullanıcı kuralı 24.11.2026: "usûl", ikinci u ince ve uzun.
+    #     Sözlük adımından sonra çalışır; "VUK -> Vergi Usul Kanunu" gibi açılımlar da düzelir.
+    text = re.sub(r"(?<![\w])([Uu])sul", lambda m: m.group(1) + "sûl", text)
+
     # 2) tarih: 31.07.2026 ve 31/07/2026
     def date(m):
         d, mo, y = int(m.group(1)), int(m.group(2)), m.group(3)
