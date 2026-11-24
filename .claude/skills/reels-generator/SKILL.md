@@ -78,6 +78,11 @@ bulunur:
   varsa; kullanıcıya nedenini bildir.
 - `reel.json > sources`: her haber için kaynak etiketi, tarih, sayı ve bağlantı yazılır.
 
+**Üniversite yönetmelikleri haber değildir (kullanıcı kuralı 24.11.2026):** bir üniversitenin
+eğitim-öğretim, sınav, ana yönetmelik, merkez/enstitü yönetmeliği ya da değişikliği, fihristte
+görülse bile ne videoya ne `backlog.json` birikimine alınır. Yalnızca YÖK mevzuatı gibi tüm
+üniversiteleri/öğrencileri kapsayan genel düzenlemeler geniş ilgi ölçütüyle değerlendirilebilir.
+
 ### Haber birikimi (kullanıcı kuralı 24.11.2026: haberler kaçmasın)
 
 Doğrulanmış ama videoya girmemiş haberler `backlog.json` dosyasında biriktirilir; video günlerinde
@@ -101,6 +106,7 @@ günün haberlerine eklenir.
   `durum: "suresi_doldu"` yapılır (kullanıcı eski haberi sevmiyor).
 - Gün içinde hiç taze haber yoksa ama birikimde `genis` kayıt varsa bunlarla video üretilir.
   Video üretmeme koşulu: taze haber de birikim de boşsa (ya da kota/erişim sorunu).
+- Üniversite yönetmelikleri birikime de yazılmaz (yukarıdaki kural).
 - Değişen `backlog.json` her çalışmada reel çıktısıyla birlikte commit + push edilir.
 
 ### Haber seçimi (kullanıcı kuralı: geniş kitleyi ilgilendiren, çeşitli kaynaklardan)
