@@ -1,0 +1,52 @@
+{
+  "topic": "Günün hukuku: 2 doğrulanmış gelişme (özel okul ücret ilanı kuralları, hayvancılık destekleri tebliği)",
+  "slug": "2026-11-25-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "5580 sayılı Özel Öğretim Kurumları Kanunu m. 13 (ücretlerin her yıl ocaktan itibaren en geç mayıs ayında ilanı)",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5580&MevzuatTur=1&MevzuatTertip=5"
+    },
+    {
+      "label": "MEB Özel Öğretim Kurumları Yönetmeliği m. 53 ve m. 54 (ücret tespiti ve ilanı; ilan edilen ücretin üzerinde ücret talep edilemez)",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=15970&MevzuatTur=7&MevzuatTertip=5"
+    },
+    {
+      "label": "Hayvancılık Desteklemeleri Uygulama Tebliği (2024/23)'nde Değişiklik (Tebliğ No: 2026/29), RG 24.11.2026 S. 33440, m. 2, 3 ve 9",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *2 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta iki önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Özel okulda *ilan edilen ücretin* üzerinde ücret istenemez",
+      "art": "kalkan",
+      "body": ["Ücret en geç mayısta ilan edilir; ilan yoksa önceki yılın ücreti geçerli."],
+      "cite": "Özel Öğretim Kurumları Yönetmeliği m. 54",
+      "vo": "Özel Öğretim Kurumları Kanunu'na göre okul ücretleri, her yıl ocak ayından itibaren en geç mayıs ayında ilan edilir. Yönetmeliğe göre kurumlar ilan ettikleri ücretin üzerinde ücret isteyemez; süresinde ilan yapmayan kurum, bir önceki yılın ücretini alır."
+    },
+    {
+      "role": "body",
+      "heading": "Hayvanlarda *atık desteğinin* şartları yeniden düzenlendi",
+      "art": "belge",
+      "body": ["Resmî veteriner tutanağı şart; her hayvana yılda bir kez ödenir."],
+      "cite": "Hayvancılık Tebliği 2026/29 · RG 24.11.2026",
+      "vo": "Tarım ve Orman Bakanlığının hayvancılık destekleri tebliğindeki değişiklikle, atık desteği için resmî veteriner hekimin düzenlediği tespit tutanağı şartı getirildi; destek her hayvana yılda bir kez ödenecek. Tebliğ, bir Ocak iki bin yirmi altıdan geçerli olmak üzere yürürlüğe girdi."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Mevzuat ve Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
