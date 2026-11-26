@@ -1,0 +1,80 @@
+{
+  "topic": "Günün hukuku: 4 doğrulanmış gelişme (AYM sporda şiddet kanunu iptali, AYM nöbet ücreti iptali, Yargıtay 2. HD soyadı protokolü, Yargıtay 3. HD ihtiyaç tahliyesi)",
+  "slug": "2026-11-26-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "Anayasa Mahkemesi E.2025/211 K.2026/146, 25.06.2026 (6222 sayılı Kanun m. 18/3 ve 18/8 iptali; iptal hükümleri yayımdan dokuz ay sonra yürürlüğe girer), RG 26.11.2026 S. 33442",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    },
+    {
+      "label": "Anayasa Mahkemesi E.2026/129 K.2026/191, 08.09.2026 (657 sayılı Kanun ek m. 33/1 'kesintisiz 6 saatten az olmamak üzere' ibaresinin iptali), RG 26.11.2026 S. 33442",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    },
+    {
+      "label": "Yargıtay 2. Hukuk Dairesi E.2026/9364, 01.10.2026, kanun yararına bozma (anlaşmalı boşanma protokolünde soyadı hükmü, TMK m. 173), RG 26.11.2026 S. 33442",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    },
+    {
+      "label": "Yargıtay 3. Hukuk Dairesi E.2026/6564 K.2026/4478, 08.09.2026, kanun yararına bozma (ihtiyaç nedeniyle tahliye, TBK m. 350 ve 353), RG 26.11.2026 S. 33442",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *4 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta dört önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Seyirden yasaklı taraftarın *kolluğa başvuru* yükümlülüğü iptal edildi",
+      "art": "kilit",
+      "body": [
+        "Soruşturma aşamasındaki yasaklama kuralı da iptal edildi; iptaller dokuz ay sonra yürürlüğe girecek."
+      ],
+      "cite": "AYM E.2025/211 K.2026/146 · RG 26.11.2026",
+      "vo": "Anayasa Mahkemesi, Sporda Şiddet Kanunu'ndaki iki düzenlemeyi iptal etti: seyirden yasaklı kişinin müsabaka günü kolluğa başvurma yükümlülüğü ile soruşturmada derhal uygulanan yasaklama. İptaller dokuz ay sonra yürürlüğe girecek."
+    },
+    {
+      "role": "body",
+      "heading": "Nöbet ücretinde *kesintisiz altı saat* şartı iptal edildi",
+      "art": "kalkan",
+      "body": [
+        "Altı saatten kısa nöbetler için ücret ödenmemesini öngören ibare Anayasa'ya aykırı bulundu."
+      ],
+      "cite": "AYM E.2026/129 K.2026/191 · RG 26.11.2026",
+      "vo": "Anayasa Mahkemesi, Devlet Memurları Kanunu'nda sağlık kurumlarındaki nöbet ücretini kesintisiz altı saat şartına bağlayan ibareyi, sağlık çalışanlarına orantısız külfet yüklediği gerekçesiyle iptal etti."
+    },
+    {
+      "role": "body",
+      "heading": "Anlaşmalı boşanmada *on yıllık soyadı* hükmü kanun yararına bozuldu",
+      "art": "belge",
+      "body": [
+        "Soyadı izni, Medeni Kanun m. 173 koşullarına göre hâkimce değerlendirilmeli."
+      ],
+      "cite": "Yargıtay 2. HD E.2026/9364 · RG 26.11.2026",
+      "vo": "Yargıtay İkinci Hukuk Dairesi, boşanma protokolündeki on yıllık soyadı kullanma hükmünü kanun yararına bozdu; soyadı izninin Medeni Kanun'un yüz yetmiş üçüncü maddesine göre değerlendirilmesi gerektiğini belirtti."
+    },
+    {
+      "role": "body",
+      "heading": "Tahliye davasında *yazılı ihtar* dava açma süresini uzatır",
+      "art": "ev",
+      "body": [
+        "Borçlar Kanunu m. 353: bildirim varsa dava açma süresi bir kira yılı uzar."
+      ],
+      "cite": "Yargıtay 3. HD E.2026/6564 · RG 26.11.2026",
+      "vo": "Yargıtay Üçüncü Hukuk Dairesi: ihtiyaç nedeniyle tahliyede kiraya verenin yazılı bildirimi, dava açma süresini bir kira yılı uzatır. Daire, davayı süre yönünden reddeden kararı kanun yararına bozdu."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
