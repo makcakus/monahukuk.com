@@ -17,6 +17,35 @@
       "kaynak": "resmi_gazete:20261124/4.htm",
       "durum": "kullanildi",
       "kullanildi": "2026-11-25-gunun-hukuku"
+    },
+    {
+      "id": "2026-11-27-acele-kamulastirma-12029-12031",
+      "kaynak_tarihi": "2026-11-27",
+      "eklendi": "2026-11-27",
+      "kademe": "sinirda",
+      "baslik": "Enerji hatları için üç acele kamulaştırma kararı yayımlandı",
+      "olgular": [
+        "Elazığ Karakocan Kızılca Mahallesi enerji nakil hattı için TEDAŞ tarafından acele kamulaştırma (CB Kararı 12029; fihrist başlığından).",
+        "154 kV Saves Depolamalı Diyarbakır GES TM-Çınar TM enerji iletim hattı için TEİAŞ tarafından acele kamulaştırma (CB Kararı 12030; fihrist başlığından).",
+        "400/154 kV Elbistan-A GIS Yenileme TM sahası için TEİAŞ tarafından acele kamulaştırma (CB Kararı 12031; fihrist başlığından)."
+      ],
+      "cite": "CB Kararları 12029-12031 · RG 27.11.2026",
+      "kaynak": "resmi_gazete:20261127/16.pdf, 17.pdf, 18.pdf",
+      "durum": "bekliyor"
+    },
+    {
+      "id": "2026-11-27-guvence-hesabi-yonetmeligi-degisikligi",
+      "kaynak_tarihi": "2026-11-27",
+      "eklendi": "2026-11-27",
+      "kademe": "sinirda",
+      "baslik": "Güvence Hesabı Yönetmeliği'nde Hazine Müsteşarlığı ifadeleri SEDDK'ya göre güncellendi",
+      "olgular": [
+        "Yönetim Komitesi beş üyeden oluşur: Birlik Hayat Dışı Yönetim Komitesince seçilecek iki sigorta şirketi üyesi, Hesap Müdürü ve iki Kurum temsilcisi (m. 2).",
+        "'Müsteşarlık' ibareleri Kurum veya Kurul olarak değiştirildi (m. 3); yönetmelik yayımı tarihinde yürürlüğe girdi (m. 4)."
+      ],
+      "cite": "Güvence Hesabı Yönetmeliği değişikliği · RG 27.11.2026",
+      "kaynak": "resmi_gazete:20261127/3.htm",
+      "durum": "bekliyor"
     }
   ]
 }

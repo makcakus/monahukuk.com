@@ -1,0 +1,84 @@
+{
+  "topic": "Günün hukuku: 4 doğrulanmış gelişme (Bina Yangın Yönetmeliği, tecil faizi ve gecikme zammı, AYM İmar Kanunu m. 18/23 iptali, Karadağ vize muafiyeti)",
+  "slug": "2026-11-27-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "Bina Yangın Yönetmeliği (Cumhurbaşkanı Kararı 12041), m. 1-2, 145, 147; yürürlük 1/1/2028, RG 27.11.2026 S. 33443",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.pdf"
+    },
+    {
+      "label": "Tahsilat Genel Tebliği (Seri: C Sıra No: 10), m. 1-2 (tecil faizi yıllık %39'dan %29'a; yayımı tarihinde yürürlük), RG 27.11.2026 S. 33443",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.pdf"
+    },
+    {
+      "label": "Cumhurbaşkanı Kararı 12028 (6183 s. Kanun m. 51/1 gecikme zammı oranı her ay için %3,2), kabul 26.11.2026, RG 27.11.2026 S. 33443; olgu fihrist başlığından",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12028&MevzuatTur=20&MevzuatTertip=5"
+    },
+    {
+      "label": "Anayasa Mahkemesi E.2025/237 K.2026/130, 04.06.2026 (3194 s. İmar Kanunu m. 18/23 iptali; dokuz ay sonra yürürlük; oyçokluğu), RG 27.11.2026 S. 33443",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.pdf"
+    },
+    {
+      "label": "Cumhurbaşkanı Kararı 12026 (Türkiye-Karadağ karşılıklı vize muafiyeti anlaşması hükümlerinin Karadağ'ın umuma mahsus pasaport hamili vatandaşları bakımından uygulanmasının durdurulması), kabul 26.11.2026, RG 27.11.2026 S. 33443; olgu fihrist başlığından",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=12026&MevzuatTur=20&MevzuatTertip=5"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *4 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta dört önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Yeni *Bina Yangın Yönetmeliği* 1 Ocak 2028'de yürürlüğe girecek",
+      "art": "kalkan",
+      "body": [
+        "2007 tarihli Binaların Yangından Korunması Yönetmeliği'nin yerini alıyor."
+      ],
+      "cite": "Bina Yangın Yönetmeliği · RG 27.11.2026",
+      "vo": "Bina Yangın Yönetmeliği, Cumhurbaşkanı Kararıyla yayımlandı. Her türlü yapı ve tesisi kapsayan yönetmelik, iki bin yedi tarihli Binaların Yangından Korunması Hakkında Yönetmelik'in yerini alacak; yürürlük tarihi bir Ocak iki bin yirmi sekiz."
+    },
+    {
+      "role": "body",
+      "heading": "Amme alacaklarında *tecil faizi* yüzde 29'a indi",
+      "art": "para",
+      "body": [
+        "Yıllık yüzde 39 olan oran düştü; gecikme zammı her ay için yüzde 3,2."
+      ],
+      "cite": "Tahsilat Genel Tebliği C-10 · RG 27.11.2026",
+      "vo": "Tahsilat Genel Tebliği ile amme alacaklarının tecilinde uygulanan faiz, yıllık yüzde otuz dokuzdan yüzde yirmi dokuza düştü. Gecikme zammı oranı da her ay için yüzde üç virgül iki olarak belirlendi."
+    },
+    {
+      "role": "body",
+      "heading": "İmar uygulaması iptalinde *kademeli çözüm* kuralı iptal edildi",
+      "art": "tokmak",
+      "body": [
+        "İmar Kanunu m. 18/23 iptal edildi; iptal yayımdan dokuz ay sonra yürürlüğe girecek."
+      ],
+      "cite": "AYM E.2025/237 K.2026/130 · RG 27.11.2026",
+      "vo": "Anayasa Mahkemesi, İmar Kanunu'nun on sekizinci maddesinin yirmi üçüncü fıkrasını iptal etti. Kural, imar uygulaması iptal edilince eski parsele dönülemezse yer tahsisi veya rayiç bedel öngörüyordu. İptal, dokuz ay sonra yürürlüğe girecek."
+    },
+    {
+      "role": "body",
+      "heading": "Karadağ vatandaşlarına *vize muafiyeti* uygulaması durduruldu",
+      "art": "belge",
+      "body": [
+        "Karar, umuma mahsus pasaport hamili vatandaşlar bakımından uygulanmayı durduruyor."
+      ],
+      "cite": "CB Kararı 12026 · RG 27.11.2026",
+      "vo": "Cumhurbaşkanı Kararıyla, Türkiye ile Karadağ arasındaki karşılıklı vize muafiyeti anlaşmasının, Karadağ'ın umuma mahsus pasaport hamili vatandaşları bakımından uygulanması durduruldu."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
