@@ -1,0 +1,80 @@
+{
+  "topic": "Günün hukuku: 4 doğrulanmış gelişme (Türk Kızılay Kanunu, Yargıtay 9. HD arabuluculuk anlaşması, Yargıtay mazeret dilekçesi/hukuki dinlenilme, acele kamulaştırma kararları)",
+  "slug": "2026-11-28-gunun-hukuku",
+  "silent": false,
+  "fast": true,
+  "sources": [
+    {
+      "label": "7598 sayılı Türk Kızılay Kanunu, kabul 18/11/2026, m. 3, 4 ve 8 (yürürlük: yayımı tarihi), RG 28.11.2026 S. 33444",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261128.pdf"
+    },
+    {
+      "label": "Yargıtay 9. Hukuk Dairesi E.2026/8172, 10.09.2026, kanun yararına bozma (ihtiyari arabuluculuk anlaşma belgesi kapsamı), RG 28.11.2026 S. 33444",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261128.pdf"
+    },
+    {
+      "label": "Yargıtay 9. Hukuk Dairesine ait kanun yararına bozma kararı, 10.09.2026 (ön inceleme duruşması, mazeret dilekçesi, hukuki dinlenilme hakkı; kararın künye başlığı metinde okunamadı), RG 28.11.2026 S. 33444",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261128.pdf"
+    },
+    {
+      "label": "Cumhurbaşkanı Kararları 12060-12069 (acele kamulaştırma), RG 28.11.2026 S. 33444; olgular fihrist başlıklarından",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261128.pdf"
+    }
+  ],
+  "scenes": [
+    {
+      "role": "cover",
+      "headline": "Hukukta *4 önemli gelişme*",
+      "art": "adliye",
+      "vo": "Hukukta dört önemli gelişme."
+    },
+    {
+      "role": "body",
+      "heading": "Yeni *Türk Kızılay Kanunu* yayımlandı",
+      "art": "kalkan",
+      "body": [
+        "Kızılay'ın adı ve amblemi izinsiz kullanılamaz; kanun yayımı tarihinde yürürlüğe girdi."
+      ],
+      "cite": "7598 s. Türk Kızılay Kanunu · RG 28.11.2026",
+      "vo": "Türk Kızılay Kanunu yayımlandı. Kızılay'ın adı, bayrağı ve amblemi izinsiz kullanılamayacak; kanun yayımı tarihinde yürürlüğe girdi."
+    },
+    {
+      "role": "body",
+      "heading": "Arabuluculuk tutanağında *yazılmayan alacak* anlaşmaya dahil sayılmaz",
+      "art": "belge",
+      "body": [
+        "\"Sair tüm işçilik alacakları\" ifadesi geniş yorumlanamaz; karar kanun yararına bozuldu."
+      ],
+      "cite": "Yargıtay 9. HD E.2026/8172 · RG 28.11.2026",
+      "vo": "Yargıtay Dokuzuncu Hukuk Dairesi, arabuluculuk anlaşma belgesindeki sair tüm işçilik alacakları ifadesinin, açıkça sayılmayan alacakları kapsayacak şekilde yorumlanamayacağını belirterek kararı kanun yararına bozdu."
+    },
+    {
+      "role": "body",
+      "heading": "Mazeret dilekçesi *değerlendirilmeden* ön inceleme tamamlanamaz",
+      "art": "tokmak",
+      "body": [
+        "Yargıtay, hukuki dinlenilme hakkının ihlal edildiğini belirterek kararı kanun yararına bozdu."
+      ],
+      "cite": "Yargıtay 9. HD · RG 28.11.2026",
+      "vo": "Yargıtay, ön inceleme duruşmasından önce sunulan mazeret dilekçesi değerlendirilmeden duruşmanın tamamlanmasını, hukuki dinlenilme hakkının ihlali sayarak kararı kanun yararına bozdu."
+    },
+    {
+      "role": "body",
+      "heading": "Enerji hatları için *sekiz acele kamulaştırma* kararı yayımlandı",
+      "art": "ev",
+      "body": [
+        "TEİAŞ adına kararlar çıktı; Ödemiş'te afetzedeler için AFAD'a da acele kamulaştırma verildi."
+      ],
+      "cite": "CB Kararları 12060-12068 · RG 28.11.2026",
+      "vo": "Cumhurbaşkanı Kararlarıyla, sekiz enerji iletim hattı projesi için TEİAŞ'a acele kamulaştırma kararı verildi. Ödemiş'te afetzedelerin barınması için de Afet ve Acil Durum Yönetimi Başkanlığı adına acele kamulaştırma yapılacak."
+    },
+    {
+      "role": "closing",
+      "headline": "Günün hukuku, resmî kaynaktan",
+      "cta": "Takipte kalın.",
+      "source": "Kaynak: Resmî Gazete",
+      "art": "terazi",
+      "vo": "Hepsi resmî kaynaklardan derlendi. Takipte kalın."
+    }
+  ]
+}
